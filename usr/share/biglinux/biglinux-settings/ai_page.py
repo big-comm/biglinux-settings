@@ -26,7 +26,7 @@ class AIPage(BaseSettingsPage):
 
         # Create the group Ollama (base method)
         ollamaServer = self.create_group(
-            _("Ollama Server"),
+            _("Ollma Server"),
             _("Choose which Ollama server is best for your hardware."),
             "ai",
         )
@@ -182,6 +182,3 @@ class AIPage(BaseSettingsPage):
                 local_ip
             ),
         )
-
-        # Syncs
-        self.sync_all_switches()

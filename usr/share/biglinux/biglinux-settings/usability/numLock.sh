@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # check current status
-# action=$1
 if [ "$1" == "check" ]; then
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     if [[ "$(grep Numlock=on /etc/sddm.conf)" ]] || [[ "$(kreadconfig6 --group Keyboard --key "NumLock" --file "$HOME/.config/kcminputrc")" == "0" ]];then
@@ -32,30 +31,33 @@ if [ "$1" == "check" ]; then
   fi
 
 # change the state
-# action=$1
-# state=$2
 elif [ "$1" == "toggle" ]; then
+  state="$2"
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
-    if [ "$2" == "true" ]; then
-      pkexec kwriteconfig6 --group "General" --key "Numlock" --file "/etc/sddm.conf" "on"
-      kwriteconfig6 --group "Keyboard" --key "NumLock" --file "$HOME/.config/kcminputrc" "0"
+    if [ "$state" == "true" ]; then
+        pkexec kwriteconfig6 --group "General" --key "Numlock" --file "/etc/sddm.conf" "on"
+        kwriteconfig6 --group "Keyboard" --key "NumLock" --file "$HOME/.config/kcminputrc" "0"
+        exit=$?
     else
-      pkexec kwriteconfig6 --group "General" --key "Numlock" --file "/etc/sddm.conf" "off"
-      kwriteconfig6 --group "Keyboard" --key "NumLock" --file "$HOME/.config/kcminputrc" "1"
+        pkexec kwriteconfig6 --group "General" --key "Numlock" --file "/etc/sddm.conf" "off"
+        kwriteconfig6 --group "Keyboard" --key "NumLock" --file "$HOME/.config/kcminputrc" "1"
+        return $?
     fi
   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
-    if [[ "$2" == "true" ]];then
-      gsettings set org.gnome.desktop.peripherals.keyboard remember-numlock-state true 2>/dev/null
-      gsettings set org.gnome.desktop.peripherals.keyboard numlock-state true 2>/dev/null
-      numlockx on 2>/dev/null
+    if [[ "$state" == "true" ]];then
+        gsettings set org.gnome.desktop.peripherals.keyboard remember-numlock-state true 2>/dev/null
+        gsettings set org.gnome.desktop.peripherals.keyboard numlock-state true 2>/dev/null
+        numlockx on 2>/dev/null
+        exitCode=$?
     else
-      gsettings set org.gnome.desktop.peripherals.keyboard numlock-state false 2>/dev/null
-      numlockx off 2>/dev/null
+        gsettings set org.gnome.desktop.peripherals.keyboard numlock-state false 2>/dev/null
+        numlockx off 2>/dev/null
+        exitCode=$?
     fi
   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
-    if [[ "$2" == "true" ]];then
-      mkdir -p "$HOME/.config/autostart"
-      cat > "$HOME/.config/autostart/numlockx.desktop" << 'EOF'
+    if [[ "$state" == "true" ]];then
+        mkdir -p "$HOME/.config/autostart"
+        cat > "$HOME/.config/autostart/numlockx.desktop" << 'EOF'
 [Desktop Entry]
 Type=Application
 Name=NumLock On
@@ -63,19 +65,23 @@ Exec=numlockx on
 NoDisplay=true
 X-XFCE-Autostart-Override=true
 EOF
-      numlockx on 2>/dev/null
+        numlockx on 2>/dev/null
+        exitCode=$?
     else
-      rm -f "$HOME/.config/autostart/numlockx.desktop"
-      numlockx off 2>/dev/null
+        rm -f "$HOME/.config/autostart/numlockx.desktop"
+        numlockx off 2>/dev/null
+        exitCode=$?
     fi
   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
-    if [[ "$2" == "true" ]];then
-      gsettings set org.cinnamon.desktop.peripherals.keyboard numlock-state true
-      numlockx on
+    if [[ "$state" == "true" ]];then
+        gsettings set org.cinnamon.desktop.peripherals.keyboard numlock-state true
+        numlockx on
+        exitCode=$?
     else
-      gsettings set org.cinnamon.desktop.peripherals.keyboard numlock-state false
-      numlockx off
+        gsettings set org.cinnamon.desktop.peripherals.keyboard numlock-state false
+        numlockx off 
+        exitCode=$?
     fi
   fi
-  exit $?
+  exit $exitCode
 fi

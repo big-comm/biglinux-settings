@@ -26,7 +26,7 @@ mkfifo "$pipePath"
 # Starts Zenity IN THE BACKGROUND, as the user, with the full environment
 if [[ "$function" == "install" ]]; then
   zenityTitle=$"JamesDSP Install"
-  zenityText=$"Installing JamesDSP, Please wait..."
+  zenityText=$"Instaling JamesDSP, Please wait..."
 fi
 runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 

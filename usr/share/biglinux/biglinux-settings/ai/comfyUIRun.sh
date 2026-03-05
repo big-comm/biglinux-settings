@@ -1,7 +1,5 @@
 #!/bin/bash
-
 # check current status
-# action=$1
 if [ "$1" == "check" ]; then
   if [ -n "$(ps aux | grep -i "$HOME/ComfyUI/bin/python $HOME/ComfyUI/main.py" | grep -v grep)" ]; then
     echo "true"
@@ -9,15 +7,15 @@ if [ "$1" == "check" ]; then
     echo "false"
   fi
 
-# change the state
-# action=$1
-# state=$2
 elif [ "$1" == "toggle" ]; then
-  if [ "$2" == "true" ]; then
+  state="$2"
+  if [ "$state" == "true" ]; then
     $HOME/ComfyUI/bin/python $HOME/ComfyUI/main.py --listen 0.0.0.0 > $HOME/ComfyUI/start.log 2>&1 &
     sleep 5
+    exitCode=$?
   else
     kill $(ps aux | grep -i "$HOME/ComfyUI/bin/python $HOME/ComfyUI/main.py" | grep -v grep | awk '{print $2}')
+    exitCode=$?
   fi
-  exit $?
+  exit $exitCode
 fi

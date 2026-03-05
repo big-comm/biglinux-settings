@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # check current status
-# action=$1
 if [ "$1" == "check" ]; then
   if [[ "$(grep '@audio' /etc/security/*.conf | grep rtprio | awk '{print $4}')" -ge "90" ]] && [[ -n "$(grep 'memlock.*unlimited' /etc/security/*.conf)" ]];then
     echo "true"
@@ -10,13 +9,14 @@ if [ "$1" == "check" ]; then
   fi
 
 # change the state
-# action=$1
-# state=$2
 elif [ "$1" == "toggle" ]; then
-  if [ "$2" == "true" ]; then
+  state="$2"
+  if [ "$state" == "true" ]; then
     pkexec $PWD/system/limitsRun.sh "enable" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+    exitCode=$?
   else
     pkexec $PWD/system/limitsRun.sh "disable" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+    exitCode=$?
   fi
-  exit $?
+  exit $exitCode
 fi

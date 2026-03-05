@@ -5,7 +5,6 @@ export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=biglinux-settings
 
 # check current status
-# action=$1
 if [ "$1" == "check" ]; then
   if grep 'OLLAMA_HOST=0.0.0.0' /usr/lib/systemd/system/ollama.service &>/dev/null; then
     echo "true"
@@ -14,13 +13,14 @@ if [ "$1" == "check" ]; then
   fi
 
 # change the state
-# action=$1
-# state=$2
 elif [ "$1" == "toggle" ]; then
-  if [ "$2" == "true" ]; then
+  state="$2"
+  if [ "$state" == "true" ]; then
     pkexec $PWD/ai/ollamaShareRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+    exitCode=$?
   else
     pkexec $PWD/ai/ollamaShareRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+    exitCode=$?
   fi
-  exit $?
+  exit $exitCode
 fi

@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # check current status
-# action=$1
 if [ "$1" == "check" ]; then
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     if grep -q "plugin=ChatAI-Plasmoid" "$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc"; then
@@ -31,11 +30,10 @@ if [ "$1" == "check" ]; then
 
 
 # change the state
-# action=$1
-# state=$2
 elif [ "$1" == "toggle" ]; then
+  state="$2"
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
-    if [ "$2" == "true" ]; then
+    if [ "$state" == "true" ]; then
       # check and download chatai
       if ! kpackagetool6 -t Plasma/Applet -l 2>/dev/null | grep -q "ChatAI-Plasmoid"; then
         curl -sL https://api.github.com/repos/DenysMb/ChatAI-Plasmoid/releases/latest | grep "tarball_url" | cut -d'"' -f4 | xargs curl -L -o /tmp/ChatAI-Plasmoid-latest.tar.gz
@@ -72,7 +70,7 @@ elif [ "$1" == "toggle" ]; then
       exitCode=$?
     fi
   # elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
-  #   if [ "$2" == "true" ]; then
+  #   if [ "$state" == "true" ]; then
   #       some command
   #       exitCode=$?
   #   else
@@ -80,7 +78,7 @@ elif [ "$1" == "toggle" ]; then
   #       exitCode=$?
   #   fi
   # elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
-  #   if [ "$2" == "true" ]; then
+  #   if [ "$state" == "true" ]; then
   #       some command
   #       exitCode=$?
   #   else
@@ -88,7 +86,7 @@ elif [ "$1" == "toggle" ]; then
   #       exitCode=$?
   #   fi
   # elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
-  #   if [ "$2" == "true" ]; then
+  #   if [ "$state" == "true" ]; then
   #       some command
   #       exitCode=$?
   #   else

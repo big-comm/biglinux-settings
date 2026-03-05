@@ -5,7 +5,6 @@ export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=biglinux-settings
 
 # check current status
-# action=$1
 if [ "$1" == "check" ]; then
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     if balooctl6 status &>/dev/null;then
@@ -34,33 +33,40 @@ if [ "$1" == "check" ]; then
   fi
 
 # change the state
-# action=$1
-# state=$2
 elif [ "$1" == "toggle" ]; then
+  state="$2"
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
-    if [ "$2" == "true" ]; then
+    if [ "$state" == "true" ]; then
       balooctl6 disable &>/dev/null
+      exitCode=$?
     else
       balooctl6 enable &>/dev/null
+      exitCode=$?
     fi
   # elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
-  #   if [ "$2" == "true" ]; then
+  #   if [ "$state" == "true" ]; then
   #       some command
+  #       exitCode=$?
   #   else
   #       some command
+  #       exitCode=$?
   #   fi
   # elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
-  #   if [ "$2" == "true" ]; then
+  #   if [ "$state" == "true" ]; then
   #       some command
+  #       exitCode=$?
   #   else
   #       some command
+  #       exitCode=$?
   #   fi
   # elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
-  #   if [ "$2" == "true" ]; then
+  #   if [ "$state" == "true" ]; then
   #       some command
+  #       exitCode=$?
   #   else
   #       some command
+  #       exitCode=$?
   #   fi
   fi
-  exit $?
+  exit $exitCode
 fi

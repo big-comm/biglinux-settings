@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # check current status
-# action=$1
 if [ "$1" == "check" ];then
   if [[ "$(LANG=C LANGUAGE=C nmcli radio wifi)" == "enabled" ]];then
     echo "true"
@@ -10,13 +9,14 @@ if [ "$1" == "check" ];then
   fi
 
 # change the state
-# action=$1
-# state=$2
 elif [ "$1" == "toggle" ];then
-  if [ "$2" == "true" ];then
+  state="$2"
+  if [ "$state" == "true" ];then
     nmcli radio wifi on
+    exitCode=$?
   else
     nmcli radio wifi off
+    exitCode=$?
   fi
-  exit $?
+  exit $exitCode
 fi

@@ -19,7 +19,7 @@ msgid   "kzones Install"
 msgstr  ""
 
 #
-msgid   "Installing Kzones, Please wait..."
+msgid   "Instaling Kzones, Please wait..."
 msgstr  ""
 
 #
@@ -52,36 +52,12 @@ msgid   "Recent Files successfully enabled!\\nYou need to close and reopen "
 msgstr  ""
 
 #
-msgid   "Recent Files successfully disabled!\\nYou need to close and reopen "
+msgid   "Recent Files successfully disable!\\nYou need to close and reopen "
         "Dolphin for it to take effect."
 msgstr  ""
 
 #
-msgid   "Failed to enable Recent Files!"
-msgstr  ""
-
-#
-msgid   "Bash Power Install"
-msgstr  ""
-
-#
-msgid   "Installing Bash Power, Please wait..."
-msgstr  ""
-
-#
-msgid   "Bash Power Uninstall"
-msgstr  ""
-
-#
-msgid   "Uninstalling Bash Power, Please wait..."
-msgstr  ""
-
-#
-msgid   "Bash Power installed successfully!"
-msgstr  ""
-
-#
-msgid   "Failed to install Bash Power!"
+msgid   "Failed to activate Recent Files!"
 msgstr  ""
 
 #
@@ -89,7 +65,7 @@ msgid   "Example Install"
 msgstr  ""
 
 #
-msgid   "Installing Example, Please wait..."
+msgid   "Instaling Example, Please wait..."
 msgstr  ""
 
 #
@@ -97,7 +73,7 @@ msgid   "Example Uninstall"
 msgstr  ""
 
 #
-msgid   "Uninstalling Example, Please wait..."
+msgid   "Uninstaling Example, Please wait..."
 msgstr  ""
 
 #
@@ -113,7 +89,7 @@ msgid   "JamesDSP Install"
 msgstr  ""
 
 #
-msgid   "Installing JamesDSP, Please wait..."
+msgid   "Instaling JamesDSP, Please wait..."
 msgstr  ""
 
 #
@@ -129,7 +105,7 @@ msgid   "Docker Install"
 msgstr  ""
 
 #
-msgid   "Installing Docker, Please wait..."
+msgid   "Instaling Docker, Please wait..."
 msgstr  ""
 
 #
@@ -153,7 +129,7 @@ msgid   "Docker installed successfully!"
 msgstr  ""
 
 #
-msgid   "An error occurred while installing docker."
+msgid   "An error occurred while install docker."
 msgstr  ""
 
 #
@@ -215,7 +191,7 @@ msgid   "Ollama Vulkan Install"
 msgstr  ""
 
 #
-msgid   "Installing Ollama, Please wait..."
+msgid   "Instaling Ollama, Please wait..."
 msgstr  ""
 
 #
@@ -223,7 +199,7 @@ msgid   "Ollama Vulkan Uninstall"
 msgstr  ""
 
 #
-msgid   "Uninstalling Ollama Vulkan, Please wait..."
+msgid   "Unistaling Ollama Vulkan, Please wait..."
 msgstr  ""
 
 #
@@ -239,7 +215,7 @@ msgid   "ChatBox Install"
 msgstr  ""
 
 #
-msgid   "Installing ChatBox, Please wait..."
+msgid   "Instaling ChatBox, Please wait..."
 msgstr  ""
 
 #
@@ -247,7 +223,7 @@ msgid   "ChatBox Uninstall"
 msgstr  ""
 
 #
-msgid   "Uninstalling ChatBox, Please wait..."
+msgid   "Uninstaling ChatBox, Please wait..."
 msgstr  ""
 
 #
@@ -263,7 +239,7 @@ msgid   "Ollama Lab Install"
 msgstr  ""
 
 #
-msgid   "Installing Ollama Lab, Please wait..."
+msgid   "Instaling Ollama Lab, Please wait..."
 msgstr  ""
 
 #
@@ -271,7 +247,7 @@ msgid   "Ollama Lab Uninstall"
 msgstr  ""
 
 #
-msgid   "Uninstalling Ollama Lab, Please wait..."
+msgid   "Unistaling Ollama Lab, Please wait..."
 msgstr  ""
 
 #
@@ -292,10 +268,6 @@ msgid   "Generative AI for Krita has been successfully installed.\\n\\nOpen "
 msgstr  ""
 
 #
-msgid   "Generative AI for Krita has not been successfully installed."
-msgstr  ""
-
-#
 msgid   "Ollama server is running.\\nAddress: http://localhost:11434"
 msgstr  ""
 
@@ -308,7 +280,7 @@ msgid   "Ollama Uninstall"
 msgstr  ""
 
 #
-msgid   "Uninstalling Ollama, Please wait..."
+msgid   "Unistaling Ollama, Please wait..."
 msgstr  ""
 
 #
@@ -324,7 +296,7 @@ msgid   "Ollama ROCm Install"
 msgstr  ""
 
 #
-msgid   "Installing Ollama ROCm, Please wait..."
+msgid   "Instaling Ollama ROCm, Please wait..."
 msgstr  ""
 
 #
@@ -332,7 +304,7 @@ msgid   "Ollama ROCm Uninstall"
 msgstr  ""
 
 #
-msgid   "Uninstalling Ollama ROCm, Please wait..."
+msgid   "Unistaling Ollama ROCm, Please wait..."
 msgstr  ""
 
 #
@@ -348,7 +320,7 @@ msgid   "comfyUI Install...."
 msgstr  ""
 
 #
-msgid   "Installing comfyUI, this step take a long time, Please wait..."
+msgid   "Instaling comfyUI, this step take a long time, Please wait..."
 msgstr  ""
 
 #
@@ -356,7 +328,7 @@ msgid   "Uninstall comfyUI...."
 msgstr  ""
 
 #
-msgid   "Uninstalling comfyUI, Please wait..."
+msgid   "Uninstaling comfyUI, Please wait..."
 msgstr  ""
 
 #
@@ -388,7 +360,7 @@ msgid   "Ollama CUDA Install"
 msgstr  ""
 
 #
-msgid   "Installing Ollama CUDA, Please wait..."
+msgid   "Instaling Ollama CUDA, Please wait..."
 msgstr  ""
 
 #
@@ -396,7 +368,7 @@ msgid   "Ollama CUDA Uninstall"
 msgstr  ""
 
 #
-msgid   "Uninstalling Ollama CUDA, Please wait..."
+msgid   "Unistaling Ollama CUDA, Please wait..."
 msgstr  ""
 
 #
@@ -412,7 +384,7 @@ msgid   "LM Studio Install"
 msgstr  ""
 
 #
-msgid   "Installing LM Studio, Please wait..."
+msgid   "Instaling LM Studio, Please wait..."
 msgstr  ""
 
 #
@@ -420,7 +392,7 @@ msgid   "LM Studio Uninstall"
 msgstr  ""
 
 #
-msgid   "Uninstalling LM Studio, Please wait..."
+msgid   "Uninstaling LM Studio, Please wait..."
 msgstr  ""
 
 #
@@ -436,7 +408,7 @@ msgid   "Krita Install"
 msgstr  ""
 
 #
-msgid   "Installing Krita, Please wait..."
+msgid   "Instaling Krita, Please wait..."
 msgstr  ""
 
 #
@@ -444,7 +416,7 @@ msgid   "Krita Uninstall"
 msgstr  ""
 
 #
-msgid   "Uninstalling Krita, Please wait..."
+msgid   "Uninstaling Krita, Please wait..."
 msgstr  ""
 
 #
@@ -460,7 +432,7 @@ msgid   "comfyUI Depends Install"
 msgstr  ""
 
 #
-msgid   "Installing comfyUI Depends, Please wait..."
+msgid   "Instaling comfyUI Depends, Please wait..."
 msgstr  ""
 
 #
@@ -1090,7 +1062,7 @@ msgstr  ""
 
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 29
-msgid   "Ollama Server"
+msgid   "Ollma Server"
 msgstr  ""
 
 #
@@ -1290,14 +1262,4 @@ msgstr  ""
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 49
 msgid   "Restores the 'Recent Files' and 'Recent Locations' functionality "
         "that appears empty in Dolphin and the Application Menu."
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 57
-msgid   "Bash Power"
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 58
-msgid   "BigLinux terminal improvements and customizations."
 msgstr  ""

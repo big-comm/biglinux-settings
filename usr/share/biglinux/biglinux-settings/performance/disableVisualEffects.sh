@@ -5,7 +5,6 @@ export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=biglinux-settings
 
 # check current status
-# action=$1
 if [ "$1" == "check" ]; then
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     if [[ -n "$(qdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.loadedEffects)" ]]; then
@@ -34,11 +33,10 @@ if [ "$1" == "check" ]; then
   fi
 
 # change the state
-# action=$1
-# state=$2
 elif [ "$1" == "toggle" ]; then
+  state="$2"
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
-    if [ "$2" == "true" ]; then
+    if [ "$state" == "true" ]; then
       effects=$(qdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.loadedEffects)
       rm $HOME/.config/biglinux-settings/effectsEnable
       for effect in ${effects[@]}; do
@@ -47,31 +45,39 @@ elif [ "$1" == "toggle" ]; then
         kwriteconfig6 --file kwinrc --group Plugins --key ${effect}Enabled false
         qdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.unloadEffect $effect;
       done
+      exitCode=$?
     else
       effects=$(cat $HOME/.config/biglinux-settings/effectsEnable)
       for effect in ${effects[@]}; do
         kwriteconfig6 --file kwinrc --group Plugins --key ${effect}Enabled true
         qdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.loadEffect $effect
       done
+      exitCode=$?
     fi
   # elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
-  #   if [ "$2" == "true" ]; then
+  #   if [ "$state" == "true" ]; then
   #       some command
+  #       exitCode=$?
   #   else
   #       some command
+  #       exitCode=$?
   #   fi
   # elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
-  #   if [ "$2" == "true" ]; then
+  #   if [ "$state" == "true" ]; then
   #       some command
+  #       exitCode=$?
   #   else
   #       some command
+  #       exitCode=$?
   #   fi
   # elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
-  #   if [ "$2" == "true" ]; then
+  #   if [ "$state" == "true" ]; then
   #       some command
+  #       exitCode=$?
   #   else
   #       some command
+  #       exitCode=$?
   #   fi
   fi
-  exit $?
+  exit $exitCode
 fi
