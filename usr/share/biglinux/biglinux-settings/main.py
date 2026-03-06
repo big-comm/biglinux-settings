@@ -4,12 +4,12 @@ import gi
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
 gi.require_version("Gdk", "4.0")
-import gettext
 import json
-import locale
+import logging
 import os
 
 from ai_page import AIPage
+from config import _, APP_ID, APP_VERSION, BASE_DIR, CONFIG_DIR, CONFIG_FILE, ICONS_DIR
 from devices_page import DevicesPage
 from docker_page import DockerPage
 from gi.repository import Adw, Gdk, Gio, GLib, Gtk
@@ -18,23 +18,8 @@ from preload_page import PreloadPage
 from system_page import SystemPage
 from usability_page import UsabilityPage
 
-APP_VERSION = "25.02.23"
-APP_ID = "br.com.biglinux-settings"
-DOMAIN = "biglinux-settings"
-LOCALE_DIR = "/usr/share/locale"
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-ICONS_DIR = os.path.join(BASE_DIR, "icons")
-CONFIG_DIR = os.path.expanduser("~/.config/biglinux-settings")
-CONFIG_FILE = os.path.join(CONFIG_DIR, "config.json")
-
-locale.setlocale(locale.LC_ALL, "")
-locale.bindtextdomain(DOMAIN, LOCALE_DIR)
-locale.textdomain(DOMAIN)
-
-gettext.bindtextdomain(DOMAIN, LOCALE_DIR)
-gettext.textdomain(DOMAIN)
-_ = gettext.gettext
+logging.basicConfig(level=logging.INFO, format="%(name)s %(levelname)s: %(message)s")
+logger = logging.getLogger("biglinux-settings")
 
 
 class BiglinuxSettingsApp(Adw.Application):
@@ -43,9 +28,27 @@ class BiglinuxSettingsApp(Adw.Application):
         GLib.set_prgname(APP_ID)
         self.connect("activate", self.on_activate)
 
+        # About action for hamburger menu
+        about_action = Gio.SimpleAction.new("about", None)
+        about_action.connect("activate", self._on_about)
+        self.add_action(about_action)
+
     def on_activate(self, app):
         self.window = BiglinuxSettingsWindow(application=app)
         self.window.present()
+
+    def _on_about(self, _action, _param):
+        about = Adw.AboutDialog(
+            application_name=_("BigLinux Settings"),
+            application_icon="biglinux-settings",
+            version=APP_VERSION,
+            developer_name="BigLinux Community",
+            website="https://www.biglinux.com.br",
+            issue_url="https://github.com/biglinux/biglinux-settings/issues",
+            license_type=Gtk.License.GPL_3_0,
+            developers=[_("BigLinux Community")],
+        )
+        about.present(self.window)
 
 
 class BiglinuxSettingsWindow(Adw.ApplicationWindow):
@@ -77,20 +80,22 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
                 with open(CONFIG_FILE, encoding="utf-8") as f:
                     return json.load(f)
             except (json.JSONDecodeError, OSError) as e:
-                print(f"Error loading window config: {e}")
+                logger.error(f"Error loading window config: {e}")
         return {}
 
     def _save_window_config(self):
-        """Save window configuration to JSON file."""
+        """Save window configuration to JSON file using atomic write."""
         try:
             os.makedirs(CONFIG_DIR, exist_ok=True)
             width = self.get_width()
             height = self.get_height()
             config = {"width": width, "height": height}
-            with open(CONFIG_FILE, "w", encoding="utf-8") as f:
+            tmp_file = CONFIG_FILE + ".tmp"
+            with open(tmp_file, "w", encoding="utf-8") as f:
                 json.dump(config, f, indent=2)
+            os.replace(tmp_file, CONFIG_FILE)
         except OSError as e:
-            print(f"Error saving window config: {e}")
+            logger.error(f"Error saving window config: {e}")
 
     def _on_close_request(self, window):
         """Handle window close request - save configuration."""
@@ -108,27 +113,30 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
         )
 
     def setup_ui(self):
-        # Toast overlay as root
-        self.toast_overlay = Adw.ToastOverlay()
-        self.set_content(self.toast_overlay)
+        # Root layout with banner for accessible feedback
+        root_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        self.set_content(root_box)
+
+        # Banner for persistent, accessible feedback messages
+        self.banner = Adw.Banner()
+        self.banner.set_revealed(False)
+        self._banner_callback = None
+        self.banner.connect("button-clicked", self._on_banner_button_clicked)
+        root_box.append(self.banner)
 
         # OverlaySplitView for modern sidebar + content layout
         self.split_view = Adw.OverlaySplitView()
         self.split_view.set_min_sidebar_width(260)
         self.split_view.set_max_sidebar_width(320)
         self.split_view.set_sidebar_width_fraction(0.32)
-        self.toast_overlay.set_child(self.split_view)
+        self.split_view.set_vexpand(True)
+        root_box.append(self.split_view)
 
         # === SIDEBAR ===
         sidebar_toolbar = Adw.ToolbarView()
 
         sidebar_header = Adw.HeaderBar()
         sidebar_header.set_show_end_title_buttons(False)
-
-        # App icon on the left
-        app_icon = Gtk.Image.new_from_icon_name("biglinux-settings")
-        app_icon.set_pixel_size(20)
-        sidebar_header.pack_start(app_icon)
 
         # Centered title
         title_label = Gtk.Label(label=_("BigLinux Settings"))
@@ -172,7 +180,35 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
         self.search_entry.set_hexpand(False)
         self.search_entry.set_width_chars(30)
         self.search_entry.connect("search-changed", self.on_search_changed)
+        self.search_entry.update_property(
+            [Gtk.AccessibleProperty.LABEL],
+            [_("Search settings")],
+        )
         content_header.set_title_widget(self.search_entry)
+
+        # Sidebar toggle button (visible only when sidebar is collapsed)
+        self.sidebar_toggle = Gtk.ToggleButton()
+        self.sidebar_toggle.set_icon_name("sidebar-show-symbolic")
+        self.sidebar_toggle.set_tooltip_text(_("Toggle navigation sidebar"))
+        self.sidebar_toggle.update_property(
+            [Gtk.AccessibleProperty.LABEL],
+            [_("Toggle navigation sidebar")],
+        )
+        self.sidebar_toggle.connect("toggled", self._on_sidebar_toggle)
+        content_header.pack_start(self.sidebar_toggle)
+
+        # Hamburger menu with About
+        menu = Gio.Menu()
+        menu.append(_("About"), "app.about")
+        menu_button = Gtk.MenuButton()
+        menu_button.set_icon_name("open-menu-symbolic")
+        menu_button.set_menu_model(menu)
+        menu_button.set_tooltip_text(_("Main Menu"))
+        menu_button.update_property(
+            [Gtk.AccessibleProperty.LABEL],
+            [_("Main Menu")],
+        )
+        content_header.pack_end(menu_button)
 
         content_toolbar.add_top_bar(content_header)
 
@@ -212,6 +248,10 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
         content_toolbar.set_content(self.content_wrapper)
 
         self.split_view.set_content(content_toolbar)
+
+        # Show sidebar toggle only when sidebar is collapsed
+        self.split_view.connect("notify::collapsed", self._on_sidebar_collapsed)
+        self.sidebar_toggle.set_visible(self.split_view.get_collapsed())
 
         # === CREATE PAGES ===
         self.pages_config = [
@@ -281,6 +321,10 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
             box.append(lbl)
 
             row.set_child(box)
+            row.update_property(
+                [Gtk.AccessibleProperty.LABEL],
+                [page_cfg["label"]],
+            )
             self.sidebar_list.append(row)
 
             # Page instance (no sync in __init__ — deferred to first show)
@@ -298,6 +342,20 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
             return
         self.current_page_id = row.page_id
         self._show_single_page(row.page_id)
+        # Auto-close sidebar on narrow windows when user selects a page
+        if self.split_view.get_collapsed():
+            self.split_view.set_show_sidebar(False)
+
+    def _on_sidebar_toggle(self, button):
+        """Toggle the sidebar visibility when in collapsed mode."""
+        self.split_view.set_show_sidebar(button.get_active())
+
+    def _on_sidebar_collapsed(self, split_view, _pspec):
+        """Show/hide sidebar toggle button based on collapsed state."""
+        collapsed = split_view.get_collapsed()
+        self.sidebar_toggle.set_visible(collapsed)
+        if not collapsed:
+            self.sidebar_toggle.set_active(False)
 
     def _show_single_page(self, page_id):
         """Show only one page via Gtk.Stack (normal mode)."""
@@ -353,10 +411,43 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
                     self.reparented_rows.append((row, original_parent))
                     original_parent.remove(row)
                     self.search_results_group.add(row)
+                    self._apply_search_highlight(row, search_text)
+
+    @staticmethod
+    def _highlight_text(text, search_text):
+        """Wrap matching substring with bold Pango markup, escaping existing markup."""
+        import html
+
+        escaped = html.escape(text)
+        lower = escaped.lower()
+        idx = lower.find(search_text)
+        if idx == -1:
+            return escaped
+        end = idx + len(search_text)
+        return escaped[:idx] + "<b>" + escaped[idx:end] + "</b>" + escaped[end:]
+
+    def _apply_search_highlight(self, row, search_text):
+        """Apply bold markup highlighting to matching text in row title/subtitle."""
+        if not isinstance(row, Adw.ActionRow):
+            return
+        orig_title = row.get_title() or ""
+        orig_subtitle = row.get_subtitle() or ""
+        row._orig_title_text = orig_title
+        row._orig_subtitle_text = orig_subtitle
+        row.set_title(self._highlight_text(orig_title, search_text))
+        if orig_subtitle:
+            row.set_subtitle(self._highlight_text(orig_subtitle, search_text))
 
     def _restore_reparented_rows(self):
         """Restore rows to their original parents."""
         for row, original_parent in self.reparented_rows:
+            # Restore original text before re-parenting
+            if hasattr(row, "_orig_title_text"):
+                row.set_title(row._orig_title_text)
+                del row._orig_title_text
+            if hasattr(row, "_orig_subtitle_text"):
+                row.set_subtitle(row._orig_subtitle_text)
+                del row._orig_subtitle_text
             self.search_results_group.remove(row)
             original_parent.add(row)
         self.reparented_rows = []
@@ -374,8 +465,20 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
             self._show_search_results(search_text)
 
     def show_toast(self, message):
-        toast = Adw.Toast(title=message, timeout=3)
-        self.toast_overlay.add_toast(toast)
+        self.banner.set_title(message)
+        self.banner.set_button_label(_("Dismiss"))
+        self._banner_callback = None
+        self.banner.set_revealed(True)
+        # Auto-hide after 5 seconds
+        GLib.timeout_add(5000, lambda: self.banner.set_revealed(False) or False)
+
+    def _on_banner_button_clicked(self, banner):
+        """Handle banner button click — calls undo callback if set, otherwise just dismisses."""
+        callback = self._banner_callback
+        self._banner_callback = None
+        banner.set_revealed(False)
+        if callback:
+            callback()
 
 
 def main():

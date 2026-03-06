@@ -8,26 +8,7 @@ if [ "$1" == "check" ]; then
     else
       echo "false"
     fi
-  # elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
-  #   if [[ "$someTest" == "true" ]];then
-  #     echo "true"
-  #   else
-  #     echo "false"
-  #   fi
-  # elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
-  #   if [[ "$someTest" == "true" ]];then
-  #     echo "true"
-  #   else
-  #     echo "false"
-  #   fi
-  # elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
-  #   if [[ "$someTest" == "true" ]];then
-  #     echo "true"
-  #   else
-  #     echo "false"
-  #   fi
   fi
-
 
 # change the state
 elif [ "$1" == "toggle" ]; then
@@ -49,11 +30,12 @@ elif [ "$1" == "toggle" ]; then
       if [ -e "/tmp/ChatAI-Plasmoid-latest.tar.gz" ]; then rm -f "/tmp/ChatAI-Plasmoid-latest.tar.gz"; fi
       # Lock desktop editing mode again
       qdbus6 org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(true)"
+      exitCode=$?
     else
       ## remove chatai
       # Unlock desktop editing mode
       qdbus6 org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(false)"
-      # remove widget from painel
+      # remove widget from panel
       qdbus6 org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript "
           panelIds.forEach(pId => {
               let p = panelById(pId);
@@ -69,30 +51,6 @@ elif [ "$1" == "toggle" ]; then
       kpackagetool6 -t Plasma/Applet -r ChatAI-Plasmoid
       exitCode=$?
     fi
-  # elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
-  #   if [ "$state" == "true" ]; then
-  #       some command
-  #       exitCode=$?
-  #   else
-  #       some command
-  #       exitCode=$?
-  #   fi
-  # elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
-  #   if [ "$state" == "true" ]; then
-  #       some command
-  #       exitCode=$?
-  #   else
-  #       some command
-  #       exitCode=$?
-  #   fi
-  # elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
-  #   if [ "$state" == "true" ]; then
-  #       some command
-  #       exitCode=$?
-  #   else
-  #       some command
-  #       exitCode=$?
-  #   fi
   fi
   exit $exitCode
 fi

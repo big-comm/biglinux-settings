@@ -37,11 +37,11 @@ elif [ "$1" == "toggle" ]; then
     if [ "$state" == "true" ]; then
         pkexec kwriteconfig6 --group "General" --key "Numlock" --file "/etc/sddm.conf" "on"
         kwriteconfig6 --group "Keyboard" --key "NumLock" --file "$HOME/.config/kcminputrc" "0"
-        exit=$?
+        exitCode=$?
     else
         pkexec kwriteconfig6 --group "General" --key "Numlock" --file "/etc/sddm.conf" "off"
         kwriteconfig6 --group "Keyboard" --key "NumLock" --file "$HOME/.config/kcminputrc" "1"
-        return $?
+        exitCode=$?
     fi
   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
     if [[ "$state" == "true" ]];then

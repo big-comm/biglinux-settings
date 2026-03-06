@@ -1,6 +1,3 @@
-import os
-import subprocess
-
 from base_page import BaseSettingsPage, _
 
 
@@ -16,7 +13,7 @@ class DockerPage(BaseSettingsPage):
         # Create the group (base method)
         docker_group = self.create_group(
             _("Docker"),
-            _("Container service - enable to use containers below."),
+            _("Container service — enable to use containers below."),
             "docker",
         )
         content.append(docker_group)
@@ -27,12 +24,32 @@ class DockerPage(BaseSettingsPage):
         )
         content.append(container_group)
 
+        # ExpanderRows for organized container categories
+        media_expander = self.create_expander_row(
+            container_group,
+            _("Media &amp; Cloud"),
+            _("Media servers and cloud storage containers."),
+            "docker-nextcloud-plus-symbolic",
+        )
+        network_expander = self.create_expander_row(
+            container_group,
+            _("Network &amp; Security"),
+            _("Network tools and security containers."),
+            "docker-adguard-symbolic",
+        )
+        dev_expander = self.create_expander_row(
+            container_group,
+            _("Development &amp; Tools"),
+            _("Development stacks and utility containers."),
+            "docker-lamp-symbolic",
+        )
+
         ## Docker
         # Docker
         self.create_row(
             docker_group,
             _("Docker"),
-            _("Docker Enabled."),
+            _("Enable Docker container engine."),
             "dockerEnable",
             "docker-symbolic",
         )
@@ -40,14 +57,14 @@ class DockerPage(BaseSettingsPage):
         ## Container
         # BigLinux Docker Nextcloud Plus
         nextCloud = self.create_row(
-            container_group,
+            media_expander,
             _("Nextcloud Plus"),
-            _("Install Nextcloud Plus container."),
+            _("Install Nextcloud Plus cloud storage container."),
             "nextcloud-plusInstall",
             "docker-nextcloud-plus-symbolic",
         )
         self.create_sub_row(
-            container_group,
+            media_expander,
             _("Nextcloud Plus"),
             _("Run Nextcloud Plus."),
             "nextcloud-plusRun",
@@ -59,14 +76,14 @@ class DockerPage(BaseSettingsPage):
         )
         # BigLinux Docker AdGuard
         adguard = self.create_row(
-            container_group,
+            network_expander,
             _("AdGuard"),
-            _("Install AdGuard Home container."),
+            _("Install AdGuard Home DNS ad-blocker container."),
             "adguardInstall",
             "docker-adguard-symbolic",
         )
         self.create_sub_row(
-            container_group,
+            network_expander,
             _("AdGuard"),
             _("Run AdGuard."),
             "adguardRun",
@@ -78,14 +95,14 @@ class DockerPage(BaseSettingsPage):
         )
         # BigLinux Docker Jellyfin
         jellyfin = self.create_row(
-            container_group,
+            media_expander,
             _("Jellyfin"),
-            _("Install Jellyfin media server."),
+            _("Install Jellyfin media server container."),
             "jellyfinInstall",
             "docker-jellyfin-symbolic",
         )
         self.create_sub_row(
-            container_group,
+            media_expander,
             _("Jellyfin"),
             _("Run Jellyfin."),
             "jellyfinRun",
@@ -97,14 +114,14 @@ class DockerPage(BaseSettingsPage):
         )
         # BigLinux Docker LAMP
         lamp = self.create_row(
-            container_group,
+            dev_expander,
             _("LAMP"),
-            _("Install LAMP stack (Linux, Apache, MySQL, PHP)."),
+            _("Install LAMP stack container (Linux, Apache, MySQL, PHP)."),
             "lampInstall",
             "docker-lamp-symbolic",
         )
         self.create_sub_row(
-            container_group,
+            dev_expander,
             _("LAMP"),
             _("Run LAMP."),
             "lampRun",
@@ -116,14 +133,14 @@ class DockerPage(BaseSettingsPage):
         )
         # BigLinux Docker Portainer Client
         portainer = self.create_row(
-            container_group,
+            dev_expander,
             _("Portainer Client"),
-            _("Install Portainer Agent for cluster management."),
+            _("Install Portainer Agent container for cluster management."),
             "portainer-clientInstall",
             "docker-portainer-client-symbolic",
         )
         self.create_sub_row(
-            container_group,
+            dev_expander,
             _("Portainer Client"),
             _("Run Portainer Client."),
             "portainer-clientRun",
@@ -135,14 +152,14 @@ class DockerPage(BaseSettingsPage):
         )
         # BigLinux Docker SWS
         sws = self.create_row(
-            container_group,
+            dev_expander,
             _("SWS"),
-            _("Install SWS static web server."),
+            _("Install SWS static web server container."),
             "swsInstall",
             "docker-sws-symbolic",
         )
         self.create_sub_row(
-            container_group,
+            dev_expander,
             _("SWS"),
             _("Run SWS."),
             "swsRun",
@@ -154,14 +171,14 @@ class DockerPage(BaseSettingsPage):
         )
         # BigLinux Docker V2RayA
         v2raya = self.create_row(
-            container_group,
+            network_expander,
             _("V2RayA"),
-            _("Install V2RayA network tool."),
+            _("Install V2RayA network proxy container."),
             "v2rayaInstall",
             "docker-v2raya-symbolic",
         )
         self.create_sub_row(
-            container_group,
+            network_expander,
             _("V2RayA"),
             _("Run V2RayA."),
             "v2rayaRun",
@@ -173,15 +190,17 @@ class DockerPage(BaseSettingsPage):
         )
         # Open Notebook
         openNotebook = self.create_row(
-            container_group,
-            ("Open Notebook"),
-            _("Install An open source, privacy-focused alternative to Google's Notebook LM!"),
+            dev_expander,
+            _("Open Notebook"),
+            _(
+                "Install An open source, privacy-focused alternative to Google's Notebook LM!"
+            ),
             "openNotebookInstall",
             "openNotebook-symbolic",
         )
         self.create_sub_row(
-            container_group,
-            ("Open Notebook"),
+            dev_expander,
+            _("Open Notebook"),
             _("Run Open Notebook."),
             "openNotebookRun",
             "openNotebook-symbolic",
@@ -190,103 +209,3 @@ class DockerPage(BaseSettingsPage):
                 "Open Notebook is running.\nAddress: http://localhost:8502\nand\nAddress: http://{}:8502"
             ).format(local_ip),
         )
-
-    def install_container(self, container_name):
-        """Install a Docker container."""
-        script_path = os.path.join("containers", f"{container_name}.sh")
-        if not os.path.exists(script_path):
-            print(f"Error: Script not found for {container_name}")
-            return False
-
-        try:
-            result = subprocess.run(
-                [script_path, "install"], capture_output=True, text=True
-            )
-            if result.returncode == 0:
-                print(f"{container_name} installed successfully")
-                # Reload the page after successful installation
-                self.sync_all_switches()
-                return True
-            else:
-                print(f"Failed to install {container_name}: {result.stderr}")
-                return False
-        except Exception as e:
-            print(f"Error during installation: {e}")
-            return False
-
-    def remove_container(self, container_name):
-        """Remove a Docker container."""
-        script_path = os.path.join("containers", f"{container_name}.sh")
-        if not os.path.exists(script_path):
-            print(f"Error: Script not found for {container_name}")
-            return False
-
-        try:
-            result = subprocess.run(
-                [script_path, "remove"], capture_output=True, text=True
-            )
-            if result.returncode == 0:
-                print(f"{container_name} removed successfully")
-                # Reload the page after successful removal
-                self.sync_all_switches()
-                return True
-            else:
-                print(f"Failed to remove {container_name}: {result.stderr}")
-                return False
-        except Exception as e:
-            print(f"Error during removal: {e}")
-            return False
-
-    def _run_script_no_timeout(self, script_path, state):
-        """
-        Execute the toggle command for a script without a hard timeout.
-        Returns True if the script reports success (return code 0), False otherwise.
-        """
-        state_str = "true" if state else "false"
-        try:
-            result = subprocess.run(
-                [script_path, "toggle", state_str], capture_output=True, text=True
-            )
-            if result.returncode == 0:
-                return True
-            else:
-                print(
-                    f"Script {os.path.basename(script_path)} returned error {result.returncode}"
-                )
-                print(f"stderr: {result.stderr}")
-                return False
-        except Exception as e:
-            print(f"Error running script {os.path.basename(script_path)}: {e}")
-            return False
-
-    def on_switch_changed(self, switch, state):
-        """Callback executed when a user manually toggles a switch."""
-        script_path = self.switch_scripts.get(switch)
-
-        if script_path:
-            script_name = os.path.basename(script_path)
-            print(_("Changing {} to {}").format(script_name, "on" if state else "off"))
-
-            # Execute the script without a timeout
-            success = self._run_script_no_timeout(script_path, state)
-
-            # If the script fails, revert the switch to its previous state
-            if not success:
-                # Block signal to prevent an infinite loop
-                switch.handler_block_by_func(self.on_switch_changed)
-                switch.set_active(not state)
-                switch.handler_unblock_by_func(self.on_switch_changed)
-
-                print(
-                    _("ERROR: Failed to change {} to {}").format(
-                        script_name, "on" if state else "off"
-                    )
-                )
-                self.main_window.show_toast(
-                    _("Failed to change setting: {}").format(script_name)
-                )
-            else:
-                # After a successful change, refresh all switches to reflect real state
-                self.sync_all_switches()
-
-        return False

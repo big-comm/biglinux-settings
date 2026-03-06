@@ -1,4 +1,25 @@
-from base_page import BaseSettingsPage, _
+import logging
+import threading
+
+import gi
+
+gi.require_version("Gtk", "4.0")
+gi.require_version("Adw", "1")
+from gi.repository import Adw, GLib, Gtk  # noqa: E402
+
+from base_page import BaseSettingsPage, _  # noqa: E402
+from network_manager import NetworkError, NetworkManager  # noqa: E402
+
+logger = logging.getLogger("biglinux-settings")
+
+# Map nmcli type names to user-friendly labels and icons
+_IFACE_ICONS = {
+    "wifi": "wifi-symbolic",
+    "ethernet": "network-wired-symbolic",
+    "gsm": "network-cellular-symbolic",
+    "cdma": "network-cellular-symbolic",
+    "bluetooth": "bluetooth-symbolic",
+}
 
 
 class DevicesPage(BaseSettingsPage):
@@ -10,28 +31,16 @@ class DevicesPage(BaseSettingsPage):
 
         # Create the group (base method)
         group = self.create_group(
-            _("Devices"),
-            _("Manage physical devices."),
-            "devices"
+            _("Devices"), _("Manage physical devices."), "devices"
         )
         content.append(group)
 
         # Wifi
-        self.create_row(
-            group,
-            _("Wifi"),
-            _("Wifi On"),
-            "wifi",
-            "wifi-symbolic"
-        )
+        self.create_row(group, _("Wifi"), _("Enable the Wi-Fi adapter."), "wifi", "wifi-symbolic")
 
         # Bluetooth
         self.create_row(
-            group,
-            _("Bluetooth"),
-            _("Bluetooth On."),
-            "bluetooth",
-            "bluetooth-symbolic"
+            group, _("Bluetooth"), _("Enable the Bluetooth adapter."), "bluetooth", "bluetooth-symbolic"
         )
 
         # JamesDSP
@@ -43,20 +52,115 @@ class DevicesPage(BaseSettingsPage):
             "jamesdsp-symbolic",
         )
 
-        # # Keyboard LED
-        # self.create_row(
-        #     group,
-        #     _("Keyboard LED"),
-        #     _("If your keyboard has LED you can enable this feature to turn it on with the system."),
-        #     "keyboard-led",
-        #     "keyboard-led-symbolic"
-        # )
-
         # Reverse mouse scrolling
         self.create_row(
             group,
             _("Reverse mouse scrolling"),
             _("Reverse mouse scrolling without restarting the session."),
             "reverse-mouse_scroll",
-            "reverse-mouse_scroll-symbolic"
+            "reverse-mouse_scroll-symbolic",
         )
+
+        # Network Interfaces (dynamic, discovered via nmcli)
+        self._net_group = self.create_group(
+            _("Network Interfaces"),
+            _("Connect or disconnect network devices."),
+            "devices",
+        )
+        content.append(self._net_group)
+        self._net_switches = {}  # device_name -> Gtk.Switch
+        self._load_network_interfaces()
+
+    def _load_network_interfaces(self):
+        """Load network interfaces in a background thread."""
+
+        def _discover():
+            try:
+                interfaces = NetworkManager.get_interfaces()
+            except NetworkError:
+                interfaces = []
+            GLib.idle_add(self._populate_network_rows, interfaces)
+
+        threading.Thread(target=_discover, daemon=True).start()
+
+    def _populate_network_rows(self, interfaces):
+        """Populate the network group with discovered interfaces (on main thread)."""
+        if not interfaces:
+            self._net_group.set_visible(False)
+            return
+
+        for iface in interfaces:
+            device = iface["device"]
+            type_ = iface["type"]
+            connection = iface["connection"] or device
+            active = iface["active"]
+
+            icon_name = _IFACE_ICONS.get(type_, "network-wired-symbolic")
+            subtitle = _("{} — {}").format(type_, iface["state"])
+
+            row = Adw.ActionRow(title=connection, subtitle=subtitle)
+
+            # Icon prefix
+            img = Gtk.Image.new_from_icon_name(icon_name)
+            img.set_pixel_size(24)
+            img.add_css_class("symbolic-icon")
+            row.add_prefix(img)
+
+            # Switch suffix
+            switch = Gtk.Switch(valign=Gtk.Align.CENTER, active=active)
+            switch.update_property(
+                [Gtk.AccessibleProperty.LABEL],
+                [_("{}: toggle connection").format(connection)],
+            )
+            switch.connect("state-set", self._on_net_switch_changed)
+            row.add_suffix(switch)
+            row.set_activatable_widget(switch)
+
+            self._set_wd(switch, "row", row)
+            self._set_wd(switch, "device", device)
+            self._set_wd(switch, "type", type_)
+            self._net_switches[device] = switch
+            self._net_group.add(row)
+
+        return False
+
+    def _on_net_switch_changed(self, switch, state):
+        """Connect or disconnect a network device."""
+        device = self._get_wd(switch, "device")
+        row = self._get_wd(switch, "row")
+        if not device:
+            return True
+
+        row.set_sensitive(False)
+        original_subtitle = row.get_subtitle()
+        row.set_subtitle(_("Applying…"))
+
+        def _toggle():
+            try:
+                if state:
+                    NetworkManager.connect_device(device)
+                else:
+                    NetworkManager.disconnect_device(device)
+                GLib.idle_add(_on_done, True)
+            except NetworkError:
+                GLib.idle_add(_on_done, False)
+
+        def _on_done(success):
+            row.set_sensitive(True)
+            if success:
+                switch.set_state(state)
+                iface_state = _("connected") if state else _("disconnected")
+                type_ = self._get_wd(switch, "type") or ""
+                row.set_subtitle(_("{} — {}").format(type_, iface_state) if type_ else iface_state)
+            else:
+                row.set_subtitle(original_subtitle or "")
+                switch.handler_block_by_func(self._on_net_switch_changed)
+                switch.set_active(not state)
+                switch.handler_unblock_by_func(self._on_net_switch_changed)
+                self.main_window.show_toast(
+                    _("Failed to change network device: {}").format(device)
+                )
+            return False
+
+        threading.Thread(target=_toggle, daemon=True).start()
+        return True

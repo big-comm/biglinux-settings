@@ -26,10 +26,10 @@ mkfifo "$pipePath"
 # Starts Zenity IN THE BACKGROUND, as the user, with the full environment
 if [[ "$function" == "install" ]]; then
   zenityTitle=$"LM Studio Install"
-  zenityText=$"Instaling LM Studio, Please wait..."
+  zenityText=$"Installing LM Studio, please wait..."
 else
   zenityTitle=$"LM Studio Uninstall"
-  zenityText=$"Uninstaling LM Studio, Please wait..."
+  zenityText=$"Uninstalling LM Studio, please wait..."
 fi
 runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 
@@ -53,7 +53,7 @@ if [[ "$exitCode" == "0" ]] && [[ "$function" == "install" ]]; then
   runAsUser "zenity --info --text=\"$zenityText\""
 else
   zenityText=$"Failed to install LM Studio!"
-  zenity --info --text="$zenityText"
+  zenity --error --text="$zenityText"
 fi
 
 # Exits the script with the correct exit code

@@ -26,10 +26,10 @@ mkfifo "$pipePath"
 # Starts Zenity IN THE BACKGROUND, as the user, with the full environment
 if [[ "$function" == "install" ]]; then
   zenityTitle=$"Ollama Vulkan Install"
-  zenityText=$"Instaling Ollama, Please wait..."
+  zenityText=$"Installing Ollama, please wait..."
 else
   zenityTitle=$"Ollama Vulkan Uninstall"
-  zenityText=$"Unistaling Ollama Vulkan, Please wait..."
+  zenityText=$"Uninstalling Ollama Vulkan, please wait..."
 fi
 runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 
@@ -55,7 +55,7 @@ if [[ "$exitCode" == "0" ]] && [[ "$function" == "install" ]]; then
   runAsUser "zenity --info --text=\"$zenityText\""
 else
   zenityText=$"Failed to install Ollama Vulkan!"
-  zenity --info --text="$zenityText"
+  zenity --error --text="$zenityText"
 fi
 
 # Exits the script with the correct exit code

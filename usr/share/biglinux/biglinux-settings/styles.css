@@ -1,16 +1,29 @@
 .symbolic-icon {
-    -gtk-icon-filter: -gtk-recolor();
+    -gtk-icon-style: symbolic;
     color: @window_fg_color;
 }
 
 .status-on {
-    background-color: @success_color;
+    background-color: alpha(@success_color, 0.15);
+        border-left: 3px solid @success_color;
 }
 
 .status-off {
-    background-color: @error_color;
+    background-color: alpha(@error_color, 0.08);
+        border-left: 3px solid @error_color;
+}
+
+.recommended-badge {
+    font-size: 0.75em;
+    font-weight: bold;
+    color: @success_color;
+    border: 1px solid alpha(@success_color, 0.4);
+    border-radius: 4px;
+    padding: 2px 8px;
 }
 
 .status-unavailable {
-    background-color: @insensitive_fg_color;
+    background-color: alpha(@insensitive_fg_color, 0.08);
+        border-left: 3px solid @insensitive_fg_color;
+        opacity: 0.6;
 }

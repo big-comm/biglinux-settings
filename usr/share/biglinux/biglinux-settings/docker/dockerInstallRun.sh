@@ -14,7 +14,7 @@ userDisplay="$6"
 userXauthority="$7"
 userDbusAddress="$8"
 userLang="$9"
-userLanguage="$10"
+userLanguage="${10}"
 
 # Helper function to run a command as the original user
 runAsUser() {
@@ -29,10 +29,10 @@ mkfifo "$pipePath"
 # 2. Starts Zenity IN THE BACKGROUND, as the user
 if [[ "$function" == "install" ]]; then
   zenityTitle=$"Installing $package"
-  zenityText=$"Installing $package, Please wait..."
+  zenityText=$"Installing $package, please wait..."
 elif [[ "$function" == "remove" ]]; then
   zenityTitle=$"Removing $package"
-  zenityText=$"Removing $package, Please wait..."
+  zenityText=$"Removing $package, please wait..."
 fi
 runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 

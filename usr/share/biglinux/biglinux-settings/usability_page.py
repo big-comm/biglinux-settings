@@ -9,9 +9,7 @@ class UsabilityPage(BaseSettingsPage):
 
         ## GROUP: Usability ##
         group = self.create_group(
-            _("Usability"),
-            _("User and Visual system settings."),
-            "usability"
+            _("Usability"), _("User and Visual system settings."), "usability"
         )
         content.append(group)
 
@@ -21,7 +19,7 @@ class UsabilityPage(BaseSettingsPage):
             _("NumLock"),
             _("Initial NumLock state. Ignored if autologin is enabled."),
             "numLock",
-            "numlock-symbolic"
+            "numlock-symbolic",
         )
 
         # windowButtonOnLeftSide
@@ -30,23 +28,27 @@ class UsabilityPage(BaseSettingsPage):
             _("Window Button On Left Side"),
             _("Maximize, minimize, and close buttons on the left side of the window."),
             "windowButtonOnLeftSide",
-            "window-controls-symbolic"
+            "window-controls-symbolic",
         )
 
         # KZones
         self.create_row(
             group,
             _("KZones"),
-            _("Script for the KWin window manager of the KDE Plasma desktop environment."),
+            _(
+                "Enable window tiling zones for the KDE Plasma desktop."
+            ),
             "kzones",
-            "kzones-symbolic"
+            "kzones-symbolic",
         )
 
         # Recent Files & Locations
         self.create_row(
             group,
             _("Recent Files & Locations"),
-            _("Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and the Application Menu."),
+            _(
+                "Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and the Application Menu."
+            ),
             "recentFiles",
-            "recent_files-symbolic"
+            "recent_files-symbolic",
         )

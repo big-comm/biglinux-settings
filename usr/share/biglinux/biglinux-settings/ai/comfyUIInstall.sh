@@ -10,10 +10,10 @@ function="$1"
 # Starts Zenity IN THE BACKGROUND, as the user, with the full environment
 if [[ "$function" == "install" ]]; then
   zenityTitle=$"comfyUI Install...."
-  zenityText=$"Instaling comfyUI, this step take a long time, Please wait..."
+  zenityText=$"Installing comfyUI, this step takes a long time, please wait..."
 elif [[ "$function" == "uninstall" ]]; then
   zenityTitle=$"Uninstall comfyUI...."
-  zenityText=$"Uninstaling comfyUI, Please wait..."
+  zenityText=$"Uninstalling comfyUI, please wait..."
 fi
 
 # Executes tasks.
@@ -82,7 +82,7 @@ elif [[ "$exitCode" == "0" ]] && [[ "$function" == "uninstall" ]]; then
   zenity --info --text="$zenityText"
 else
   zenityText=$"Failed to install comfyUI!"
-  zenity --info --text="$zenityText"
+  zenity --error --text="$zenityText"
 fi
 
 # Exits the script with the correct exit code

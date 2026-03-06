@@ -48,8 +48,8 @@ if [[ "$exitCode" == "0" ]] && [[ "$function" == "install" ]]; then
   zenityText=$"Ollama shared successfully.\nAddress: http://$localIp:11434"
   runAsUser "zenity --info --text=\"$zenityText\""
 else
-  zenityText=$"Failed to shared Ollama!"
-  zenity --info --text="$zenityText"
+  zenityText=$"Failed to configure Ollama sharing!"
+  zenity --error --text="$zenityText"
 fi
 
 # Exits the script with the correct exit code

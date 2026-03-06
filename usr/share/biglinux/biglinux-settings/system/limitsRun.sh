@@ -15,7 +15,6 @@ userLanguage="$7"
 
 # Helper function to run a command as the original user
 runAsUser() {
-  # Single quotes around variables are a good security practice
   su "$originalUser" -c "export DISPLAY='$userDisplay'; export XAUTHORITY='$userXauthority'; export DBUS_SESSION_BUS_ADDRESS='$userDbusAddress'; export LANG='$userLang'; export LC_ALL='$userLang'; export LANGUAGE='$userLanguage'; $1"
 }
 
@@ -27,34 +26,23 @@ mkfifo "$pipePath"
 zenityText=$"Applying, please wait..."
 runAsUser "zenity --progress --title='Limits' --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 
-limitsFinalMessage() {
-if [[ "$updateSucesse" == "true" ]]; then
-  zenityText=$"Limits updated successfully!"
-  runAsUser "zenity --info --text=\"$zenityText\""
-else
-  zenityText=$"An error occurred while updating Limits."
-  runAsUser "zenity --error --text=\"$zenityText\""
-fi
-}
-
 # 3. Executes the root tasks.
 updateLimitsTask() {
   if [[ "$function" == "enable" ]]; then
-    # Add the parameter
     echo '@audio - rtprio 90' | tee -a /etc/security/limits.conf
     echo '@audio - memlock unlimited' | tee -a /etc/security/limits.conf
   else
-    # remove the parameter
     sed -i -E "/rtprio/d" /etc/security/limits.conf
     sed -i -E "/memlock unlimited/d" /etc/security/limits.conf
   fi
 }
-updateLimitsTask
+updateLimitsTask > "$pipePath"
+exitCode=$?
 
 # 4. Cleans up the pipe
 rm "$pipePath"
 
-# 5. Shows the final result to the user, also with the correct theme.
+# 5. Shows the final result to the user
 if [[ "$exitCode" -eq 0 ]]; then
   zenityText=$"Limits updated successfully!"
   runAsUser "zenity --info --text=\"$zenityText\""

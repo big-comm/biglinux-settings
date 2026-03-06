@@ -26,10 +26,10 @@ kactivitymanagerdDir="$HOME/.local/share/kactivitymanagerd/resources"
 # Starts Zenity IN THE BACKGROUND, as the user, with the full environment
 if [[ "$function" == "enable" ]]; then
   zenityTitle=$"Recent Files enabling...."
-  zenityText=$"Recent Files enabling, Please wait..."
+  zenityText=$"Recent Files enabling, please wait..."
 elif [[ "$function" == "disable" ]]; then
   zenityTitle=$"Recent Files disabling...."
-  zenityText=$"Recent Files disabling, Please wait..."
+  zenityText=$"Recent Files disabling, please wait..."
 fi
 
 # Executes tasks.
@@ -140,7 +140,7 @@ elif [[ "$exitCode" == "0" ]] && [[ "$function" == "disable" ]]; then
   zenity --info --text="$zenityText"
 else
   zenityText=$"Failed to activate Recent Files!"
-  zenity --info --text="$zenityText"
+  zenity --error --text="$zenityText"
 fi
 
 # Exits the script with the correct exit code

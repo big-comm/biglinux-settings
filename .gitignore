@@ -1,4 +1,6 @@
 **/__pycache__/
+*.pyc
+*.pyo
 *.old
 */*.old
 *.bkp
@@ -6,3 +8,14 @@
 .zed
 */.zed
 **/biglinux-settings-ruscher/
+
+# Tooling caches
+.mypy_cache/
+.audit/
+.ruff_cache/
+.pytest_cache/
+
+# Project-local config/docs
+ruff.toml
+PLANNING.md
+tests/

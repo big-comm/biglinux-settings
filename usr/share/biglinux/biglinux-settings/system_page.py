@@ -10,11 +10,7 @@ class SystemPage(BaseSettingsPage):
         content = self.create_scrolled_content()
 
         ## GROUP: System ##
-        group = self.create_group(
-            _("System"),
-            _("General system settings."),
-            "system"
-        )
+        group = self.create_group(_("System"), _("General system settings."), "system")
         content.append(group)
 
         # sshEnable
@@ -41,7 +37,8 @@ class SystemPage(BaseSettingsPage):
             _("Fast Grub"),
             _("Decreases grub display time."),
             "fastGrub",
-            "grub-symbolic"
+            "grub-symbolic",
+            recommended=True,
         )
 
         # bigMount
@@ -50,14 +47,5 @@ class SystemPage(BaseSettingsPage):
             _("Auto-mount Partitions"),
             _("Auto mount partitions in internal disks on boot."),
             "bigMount",
-            "bigmount-symbolic"
+            "bigmount-symbolic",
         )
-
-        # # Limits
-        # self.create_row(
-        #     group,
-        #     _("Memlock and rtprio"),
-        #     _("Set memlock to unlimited and rtprio to 90."),
-        #     "limits",
-        #     "limits-symbolic",
-        # )

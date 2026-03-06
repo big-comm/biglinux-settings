@@ -2,35 +2,24 @@ import gi
 
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
-import gettext
-import locale
+import logging
 import os
 import subprocess
 import socket
 import threading
 
 from gi.repository import Adw, Gio, GLib, Gtk
-from typing import Optional
+from typing import Any, Optional, Union
 
-# Set up gettext for application localization.
-DOMAIN = "biglinux-settings"
-LOCALE_DIR = "/usr/share/locale"
+from config import _, ICONS_DIR
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-ICONS_DIR = os.path.join(BASE_DIR, "icons")
+logger = logging.getLogger("biglinux-settings")
 
-locale.setlocale(locale.LC_ALL, "")
-locale.bindtextdomain(DOMAIN, LOCALE_DIR)
-locale.textdomain(DOMAIN)
-
-gettext.bindtextdomain(DOMAIN, LOCALE_DIR)
-gettext.textdomain(DOMAIN)
-_ = gettext.gettext
 
 class BaseSettingsPage(Adw.Bin):
-    def __init__(self, main_window, **kwargs):
+    def __init__(self, main_window: Adw.ApplicationWindow, **kwargs) -> None:
         super().__init__(**kwargs)
-        self.main_window = main_window  # Reference to the main window to show toasts
+        self.main_window = main_window
 
         # Dictionaries to map UI widgets to their corresponding shell scripts
         self.switch_scripts = {}
@@ -39,21 +28,102 @@ class BaseSettingsPage(Adw.Bin):
         self.sub_switches = {}
         # Mapping from script path to timeout value (seconds). If None, default 90.
         self.switch_timeouts: dict[str, Optional[int]] = {}
+        # Centralized widget metadata — avoids monkey-patching GObject instances
+        self._widget_data: dict = {}
 
+    def _set_wd(self, widget: Gtk.Widget, key: str, value: Any) -> None:
+        """Set a metadata attribute on a widget via centralized dict."""
+        self._widget_data.setdefault(widget, {})[key] = value
 
+    def _get_wd(self, widget: Gtk.Widget, key: str, default: Any = None) -> Any:
+        """Get a metadata attribute from a widget via centralized dict."""
+        return self._widget_data.get(widget, {}).get(key, default)
 
-    def get_local_ip(self):
-        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        try:
-            s.connect(("10.255.255.255", 1))
-            ip = s.getsockname()[0]
-        except Exception:
-            ip = "127.0.0.1"
-        finally:
-            s.close()
-        return ip
+    def _show_info_dialog(self, title: str, info_text: str) -> None:
+        """Show info text in an accessible dialog instead of tooltip."""
+        dialog = Adw.AlertDialog(
+            heading=title,
+            body=info_text,
+        )
+        dialog.add_response("close", _("Close"))
+        dialog.set_default_response("close")
+        dialog.present(self.main_window)
 
-    def create_scrolled_content(self):
+    def _confirm_dangerous_action(
+        self, switch: Gtk.Switch, state: bool, title: str, warning_message: str
+    ) -> bool:
+        """Show confirmation dialog before executing a dangerous action.
+        If confirmed, proceeds with normal on_switch_changed. If cancelled, reverts switch."""
+        if not state:
+            # Disabling a dangerous feature is always safe — no confirmation needed
+            self._execute_toggle(switch, state)
+            return True
+
+        dialog = Adw.AlertDialog(
+            heading=_("Warning: {}").format(title),
+            body=warning_message,
+        )
+        dialog.add_response("cancel", _("Cancel"))
+        dialog.add_response("confirm", _("Continue"))
+        dialog.set_response_appearance("confirm", Adw.ResponseAppearance.DESTRUCTIVE)
+        dialog.set_default_response("cancel")
+        dialog.set_close_response("cancel")
+
+        def on_response(dlg, response):
+            if response == "confirm":
+                self._execute_toggle(switch, state)
+            else:
+                handler = self._get_wd(switch, "dangerous_handler")
+                switch.handler_block_by_func(handler)
+                switch.set_active(not state)
+                switch.handler_unblock_by_func(handler)
+
+        dialog.connect("response", on_response)
+        dialog.present(self.main_window)
+        return True
+
+    def create_dangerous_row(
+        self,
+        parent_group: Adw.PreferencesGroup,
+        title: str,
+        subtitle_with_markup: str,
+        script_name: str,
+        icon_name: str,
+        warning_message: str,
+        **kwargs: Any,
+    ) -> Gtk.Switch:
+        """Creates a row that requires confirmation before enabling.
+        Uses create_row internally but intercepts the switch signal."""
+        switch = self.create_row(
+            parent_group, title, subtitle_with_markup, script_name, icon_name, **kwargs
+        )
+
+        # Disconnect the normal handler and connect through confirmation
+        switch.disconnect_by_func(self.on_switch_changed)
+
+        def _on_dangerous_switch(sw, state):
+            return self._confirm_dangerous_action(sw, state, title, warning_message)
+
+        self._set_wd(switch, "dangerous_handler", _on_dangerous_switch)
+        switch.connect("state-set", _on_dangerous_switch)
+        return switch
+
+    _cached_local_ip = None
+
+    @classmethod
+    def get_local_ip(cls) -> str:
+        if cls._cached_local_ip is None:
+            s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+            try:
+                s.connect(("10.255.255.255", 1))
+                cls._cached_local_ip = s.getsockname()[0]
+            except Exception:
+                cls._cached_local_ip = "127.0.0.1"
+            finally:
+                s.close()
+        return cls._cached_local_ip
+
+    def create_scrolled_content(self) -> Gtk.Box:
         """Cria a estrutura básica de scroll e box vertical."""
         scrolled = Gtk.ScrolledWindow()
         scrolled.set_vexpand(True)
@@ -61,39 +131,72 @@ class BaseSettingsPage(Adw.Bin):
 
         self.content_box = Gtk.Box(
             orientation=Gtk.Orientation.VERTICAL,
-            spacing=20, margin_top=20, margin_bottom=20, margin_start=20, margin_end=20
+            spacing=20,
+            margin_top=20,
+            margin_bottom=20,
+            margin_start=20,
+            margin_end=20,
         )
         scrolled.set_child(self.content_box)
         self.set_child(scrolled)
         return self.content_box
 
-    def set_search_mode(self, enabled):
+    def set_search_mode(self, _enabled: bool) -> None:
         """Placeholder method for search mode compatibility."""
         pass
 
-    # def on_reload_clicked(self, widget):
-    #     """Callback for the reload button. Triggers a full UI state sync."""
-    #     print("Reloading all statuses...")
-    #     self.sync_all_switches()
-
-    def create_group(self, title, description, script_group):
+    def create_group(self, title: str, description: str, script_group: str) -> Adw.PreferencesGroup:
         """Cria um PreferencesGroup com o botão de reload automático."""
         group = Adw.PreferencesGroup()
         group.set_title(title)
         group.set_description(description)
-        group.script_group = script_group
-
-        # reload_button = Gtk.Button(
-        #     icon_name="view-refresh-symbolic",
-        #     valign=Gtk.Align.CENTER,
-        #     tooltip_text=_("Reload all statuses")
-        # )
-        # reload_button.connect("clicked", lambda _: self.sync_all_switches())
-        # group.set_header_suffix(reload_button)
+        group.update_property(
+            [Gtk.AccessibleProperty.LABEL],
+            [title],
+        )
+        self._set_wd(group, "script_group", script_group)
         return group
 
-    # Function to create a switch with a details area and clickable link.
-    def create_row(self, parent_group, title, subtitle_with_markup, script_name, icon_name, info_text: Optional[str] = None, timeout: Optional[int] = None):
+    def create_expander_row(
+        self,
+        parent_group: Adw.PreferencesGroup,
+        title: str,
+        subtitle: str,
+        icon_name: str,
+    ) -> Adw.ExpanderRow:
+        """Creates a collapsible ExpanderRow inside a PreferencesGroup.
+        Child rows can be added via create_row/create_sub_row passing the expander as parent."""
+        expander = Adw.ExpanderRow(title=title)
+        if subtitle:
+            expander.set_subtitle(subtitle)
+
+        icon_path = os.path.join(ICONS_DIR, f"{icon_name}.svg")
+        gfile = Gio.File.new_for_path(icon_path)
+        icon = Gio.FileIcon.new(gfile)
+        img = Gtk.Image.new_from_gicon(icon)
+        img.set_pixel_size(24)
+        img.add_css_class("symbolic-icon")
+        expander.add_prefix(img)
+
+        expander.update_property([Gtk.AccessibleProperty.LABEL], [title])
+        # Inherit script_group from parent group
+        script_group = self._get_wd(parent_group, "script_group", "default")
+        self._set_wd(expander, "script_group", script_group)
+        parent_group.add(expander)
+        return expander
+
+    def create_row(
+        self,
+        parent_group: Union[Adw.PreferencesGroup, Adw.ExpanderRow],
+        title: str,
+        subtitle_with_markup: str,
+        script_name: str,
+        icon_name: str,
+        info_text: Optional[str] = None,
+        timeout: Optional[int] = None,
+        link_url: Optional[str] = None,
+        recommended: bool = False,
+    ) -> Gtk.Switch:
         """Builds an ActionRow with icon prefix and switch suffix."""
         row = Adw.ActionRow(title=title)
         if subtitle_with_markup:
@@ -108,38 +211,86 @@ class BaseSettingsPage(Adw.Bin):
         img.add_css_class("symbolic-icon")
         row.add_prefix(img)
 
+        if recommended:
+            badge = Gtk.Label(label=_("Recommended"), valign=Gtk.Align.CENTER)
+            badge.add_css_class("recommended-badge")
+            row.add_suffix(badge)
+
         # Switch suffix
         switch = Gtk.Switch(valign=Gtk.Align.CENTER)
+        # Accessible name for Orca screen reader
+        switch.update_property([Gtk.AccessibleProperty.LABEL], [title])
+        if subtitle_with_markup:
+            switch.update_property(
+                [Gtk.AccessibleProperty.DESCRIPTION], [subtitle_with_markup]
+            )
 
         if info_text:
-            info_icon = Gtk.Image.new_from_icon_name("dialog-information-symbolic")
-            info_icon.set_pixel_size(16)
-            info_icon.set_valign(Gtk.Align.CENTER)
-            info_icon.set_tooltip_text(info_text)
-            info_icon.set_visible(False)
-            setattr(switch, "_info_icon", info_icon)
-            row.add_suffix(info_icon)
+            info_btn = Gtk.Button(
+                valign=Gtk.Align.CENTER,
+                icon_name="dialog-information-symbolic",
+            )
+            info_btn.add_css_class("flat")
+            info_btn.add_css_class("circular")
+            info_btn.set_tooltip_text(info_text)
+            info_btn.update_property(
+                [Gtk.AccessibleProperty.LABEL],
+                [_("{}: additional information").format(title)],
+            )
+            info_btn.set_visible(False)
+            info_btn.connect(
+                "clicked",
+                lambda btn, t=title, txt=info_text: self._show_info_dialog(t, txt),
+            )
+            self._set_wd(switch, "info_icon", info_btn)
+            row.add_suffix(info_btn)
+
+        if link_url:
+            link_btn = Gtk.LinkButton(
+                uri=link_url,
+                label=_("Learn more"),
+                valign=Gtk.Align.CENTER,
+            )
+            link_btn.add_css_class("flat")
+            link_btn.update_property(
+                [Gtk.AccessibleProperty.LABEL],
+                [_("{}: learn more").format(title)],
+            )
+            row.add_suffix(link_btn)
 
         row.add_suffix(switch)
         row.set_activatable_widget(switch)
 
-        # Store row reference for direct access
-        switch._row = row
+        # Store row reference via centralized dict
+        self._set_wd(switch, "row", row)
 
         # Associate the script with the switch
-        script_group = getattr(parent_group, "script_group", "default")
+        script_group = self._get_wd(parent_group, "script_group", "default")
         script_path = os.path.join(script_group, f"{script_name}.sh")
         self.switch_scripts[switch] = script_path
         self.switch_timeouts[script_path] = timeout
         switch.connect("state-set", self.on_switch_changed)
 
-        parent_group.add(row)
+        if isinstance(parent_group, Adw.ExpanderRow):
+            parent_group.add_row(row)
+        else:
+            parent_group.add(row)
         return switch
 
-    def create_sub_row(self, parent_group, title, subtitle_with_markup, script_name, icon_name, parent_switch: Gtk.Switch, info_text: Optional[str] = None, timeout: Optional[int] = None):
+    def create_sub_row(
+        self,
+        parent_group: Union[Adw.PreferencesGroup, Adw.ExpanderRow],
+        title: str,
+        subtitle_with_markup: str,
+        script_name: str,
+        icon_name: str,
+        parent_switch: Gtk.Switch,
+        info_text: Optional[str] = None,
+        timeout: Optional[int] = None,
+    ) -> Gtk.Switch:
         """Builds an indented ActionRow as a child option of a parent switch."""
         row = Adw.ActionRow(title=title)
-        row._is_sub_row = True
+        self._set_wd(row, "is_sub_row", True)
         if subtitle_with_markup:
             row.set_subtitle(subtitle_with_markup)
 
@@ -155,29 +306,49 @@ class BaseSettingsPage(Adw.Bin):
 
         # Switch suffix
         switch = Gtk.Switch(valign=Gtk.Align.CENTER)
+        # Accessible name for Orca screen reader
+        switch.update_property([Gtk.AccessibleProperty.LABEL], [title])
+        if subtitle_with_markup:
+            switch.update_property(
+                [Gtk.AccessibleProperty.DESCRIPTION], [subtitle_with_markup]
+            )
 
         if info_text:
-            info_icon = Gtk.Image.new_from_icon_name("dialog-information-symbolic")
-            info_icon.set_pixel_size(16)
-            info_icon.set_valign(Gtk.Align.CENTER)
-            info_icon.set_tooltip_text(info_text)
-            info_icon.set_visible(False)
-            setattr(switch, "_info_icon", info_icon)
-            row.add_suffix(info_icon)
+            info_btn = Gtk.Button(
+                valign=Gtk.Align.CENTER,
+                icon_name="dialog-information-symbolic",
+            )
+            info_btn.add_css_class("flat")
+            info_btn.add_css_class("circular")
+            info_btn.set_tooltip_text(info_text)
+            info_btn.update_property(
+                [Gtk.AccessibleProperty.LABEL],
+                [_("{}: additional information").format(title)],
+            )
+            info_btn.set_visible(False)
+            info_btn.connect(
+                "clicked",
+                lambda btn, t=title, txt=info_text: self._show_info_dialog(t, txt),
+            )
+            self._set_wd(switch, "info_icon", info_btn)
+            row.add_suffix(info_btn)
 
         row.add_suffix(switch)
         row.set_activatable_widget(switch)
 
-        # Store row reference for direct access
-        switch._row = row
+        # Store row reference via centralized dict
+        self._set_wd(switch, "row", row)
 
-        script_group = getattr(parent_group, "script_group", "default")
+        script_group = self._get_wd(parent_group, "script_group", "default")
         script_path = os.path.join(script_group, f"{script_name}.sh")
         self.switch_scripts[switch] = script_path
         self.switch_timeouts[script_path] = timeout
         switch.connect("state-set", self.on_switch_changed)
 
-        parent_group.add(row)
+        if isinstance(parent_group, Adw.ExpanderRow):
+            parent_group.add_row(row)
+        else:
+            parent_group.add(row)
 
         # It starts hidden
         row.set_visible(False)
@@ -187,12 +358,12 @@ class BaseSettingsPage(Adw.Bin):
 
         return switch
 
-    def check_script_state(self, script_path):
+    def check_script_state(self, script_path: str) -> tuple[Any, str]:
         """Executes a script with the 'check' argument to get its current state.
         Returns True if the script's stdout is 'true', False otherwise."""
         if not os.path.exists(script_path):
             msg = _("Unavailable: script not found.")
-            print(_("Script not found: {}").format(script_path))
+            logger.warning(_("Script not found: {}").format(script_path))
             return (None, msg)
 
         try:
@@ -215,7 +386,7 @@ class BaseSettingsPage(Adw.Bin):
                     )
                 else:
                     msg = _("Unavailable: script returned invalid output.")
-                    print(
+                    logger.debug(
                         _("output from script {}: {}").format(
                             script_path, result.stdout.strip()
                         )
@@ -223,21 +394,23 @@ class BaseSettingsPage(Adw.Bin):
                     return (None, msg)
             else:
                 msg = _("Unavailable: script returned an error.")
-                print(_("Error checking state: {}").format(result.stderr))
+                logger.error(_("Error checking state: {}").format(result.stderr))
                 return (None, msg)
         except (subprocess.TimeoutExpired, Exception) as e:
             msg = _("Unavailable: failed to run script.")
-            print(_("Error running script {}: {}").format(script_path, e))
+            logger.error(_("Error running script {}: {}").format(script_path, e))
             return (None, msg)
 
-    def toggle_script_state(self, script_path, new_state, timeout: Optional[int] = None):
+    def toggle_script_state(
+        self, script_path: str, new_state: bool, timeout: Optional[int] = None
+    ) -> bool:
         """Executes a script with the 'toggle' argument to change the system state.
         Returns True on success, False on failure."""
         if not os.path.exists(script_path):
             # Use provided timeout or default to the script's configured timeout
             timeout = timeout if timeout is not None else 90
             error_msg = _("Script not found: {}").format(script_path)
-            print(f"ERROR: {error_msg}")
+            logger.error(error_msg)
             return False
 
         try:
@@ -250,45 +423,62 @@ class BaseSettingsPage(Adw.Bin):
             )
 
             if result.returncode == 0:
-                # Use the timeout that was passed to this function
-                pass
-                print(_("State changed successfully"))
+                logger.info(_("State changed successfully"))
                 if result.stdout.strip():
-                    print(_("Script output: {}").format(result.stdout.strip()))
+                    logger.debug(_("Script output: {}").format(result.stdout.strip()))
                 return True
             else:
                 # Exit code != 0 indicates failure
                 error_msg = _("Script failed with exit code: {}").format(
                     result.returncode
                 )
-                print(f"ERROR: {error_msg}")
+                logger.error(error_msg)
 
                 if result.stderr.strip():
-                    print(f"ERROR: Script stderr: {result.stderr.strip()}")
+                    logger.error("Script stderr: %s", result.stderr.strip())
 
                 if result.stdout.strip():
-                    print(f"ERROR: Script stdout: {result.stdout.strip()}")
+                    logger.error("Script stdout: %s", result.stdout.strip())
 
                 return False
 
         except subprocess.TimeoutExpired:
             error_msg = _("Script timeout: {}").format(script_path)
-            print(f"ERROR: {error_msg}")
+            logger.error(error_msg)
             return False
         except Exception as e:
             error_msg = _("Error running script {}: {}").format(script_path, e)
-            print(f"ERROR: {error_msg}")
+            logger.error(error_msg)
             return False
 
     def _toggle_info_icon_visibility(self, switch: Gtk.Switch, state: bool) -> None:
         """Handles the visibility of the info icon based on the switch state.
         The icon is only visible when the switch is active (True)."""
-        if hasattr(switch, "_info_icon"):
-            row = switch._row
-            is_supported = not getattr(row, "_hidden_no_support", False)
-            switch._info_icon.set_visible(state and is_supported)
+        info_icon = self._get_wd(switch, "info_icon")
+        if info_icon:
+            row = self._get_wd(switch, "row")
+            is_supported = not self._get_wd(row, "hidden_no_support", False)
+            info_icon.set_visible(state and is_supported)
 
-    def sync_all_switches_async(self):
+    def _update_sub_switches_visibility(self, parent_switch: Gtk.Switch, state: bool) -> None:
+        """Update child rows visibility and parent accessible description."""
+        if parent_switch not in self.sub_switches:
+            return
+        visible_count = 0
+        for child_row in self.sub_switches[parent_switch]:
+            is_supported = not self._get_wd(child_row, "hidden_no_support", False)
+            child_row.set_visible(state and is_supported)
+            if state and is_supported:
+                visible_count += 1
+        if visible_count > 0:
+            parent_switch.update_property(
+                [Gtk.AccessibleProperty.DESCRIPTION],
+                [_("{} sub-options available").format(visible_count)],
+            )
+        else:
+            parent_switch.update_property([Gtk.AccessibleProperty.DESCRIPTION], [""])
+
+    def sync_all_switches_async(self) -> None:
         """Synchronize all switches in a background thread to avoid blocking UI."""
 
         def _check_all():
@@ -307,42 +497,42 @@ class BaseSettingsPage(Adw.Bin):
 
         threading.Thread(target=_check_all, daemon=True).start()
 
-    def _apply_sync_results(self, switch_results, indicator_results):
+    def _apply_sync_results(self, switch_results: list, indicator_results: list) -> bool:
         """Apply sync results on the main thread (called via GLib.idle_add)."""
         for switch, (status, message) in switch_results:
-            row = switch._row
+            row = self._get_wd(switch, "row")
 
             switch.handler_block_by_func(self.on_switch_changed)
 
             if status == "true_disabled" or status is None:
                 row.set_visible(False)
-                row._hidden_no_support = True
+                self._set_wd(row, "hidden_no_support", True)
                 self._toggle_info_icon_visibility(switch, False)
             else:
                 row.set_sensitive(True)
-                if not getattr(row, "_is_sub_row", False):
+                if not self._get_wd(row, "is_sub_row", False):
                     row.set_visible(True)
                 row.set_tooltip_text(None)
-                row._hidden_no_support = False
+                self._set_wd(row, "hidden_no_support", False)
                 switch.set_active(status)
                 self._toggle_info_icon_visibility(switch, status)
 
             switch.handler_unblock_by_func(self.on_switch_changed)
 
         for indicator, (status, message) in indicator_results:
-            row = indicator._row
+            row = self._get_wd(indicator, "row")
             indicator.remove_css_class("status-on")
             indicator.remove_css_class("status-off")
             indicator.remove_css_class("status-unavailable")
 
             if status is None:
                 row.set_visible(False)
-                row._hidden_no_support = True
+                self._set_wd(row, "hidden_no_support", True)
             else:
                 row.set_sensitive(True)
                 row.set_visible(True)
                 row.set_tooltip_text(None)
-                row._hidden_no_support = False
+                self._set_wd(row, "hidden_no_support", False)
                 if status:
                     indicator.add_css_class("status-on")
                 else:
@@ -350,126 +540,131 @@ class BaseSettingsPage(Adw.Bin):
 
         for parent_switch, child_rows in self.sub_switches.items():
             parent_state = parent_switch.get_active()
-            for child_row in child_rows:
-                is_supported = not getattr(child_row, "_hidden_no_support", False)
-                child_row.set_visible(parent_state and is_supported)
+            self._update_sub_switches_visibility(parent_switch, parent_state)
 
         return False
 
-    def sync_all_switches(self):
-        """Synchronizes all UI widgets and disables them if their script is invalid, providing a tooltip with the reason."""
-        # Sync all switches
-        for switch, script_path in self.switch_scripts.items():
-            row = switch._row
-            status, message = self.check_script_state(script_path)
+    def sync_all_switches(self) -> None:
+        """Alias for async version. Kept for backward compatibility."""
+        self.sync_all_switches_async()
 
-            switch.handler_block_by_func(self.on_switch_changed)
+    # Pending undo state shared across all page instances via the main_window
+    _pending_undo_timer: Optional[int] = None
 
-            if status == "true_disabled":
-                # State: Enabled but cannot be changed - hide it from interface.
-                row.set_visible(False)
-                row._hidden_no_support = True
-                self._toggle_info_icon_visibility(switch, False)
-            elif status is None:
-                # Feature not supported - hide it from interface.
-                row.set_visible(False)
-                row._hidden_no_support = True
-                self._toggle_info_icon_visibility(switch, False)
-            else:
-                row.set_sensitive(True)
-                if not getattr(row, "_is_sub_row", False):
-                    row.set_visible(True)
-                row.set_tooltip_text(None)
-                row._hidden_no_support = False
-                switch.handler_block_by_func(self.on_switch_changed)
-                switch.set_active(status)
-                switch.handler_unblock_by_func(self.on_switch_changed)
-                self._toggle_info_icon_visibility(switch, status)
-
-            switch.handler_unblock_by_func(self.on_switch_changed)
-            print(
-                _("Switch {} synchronized: {}").format(
-                    os.path.basename(script_path), status
-                )
-            )
-
-        # Sync all status indicators
-        for indicator, script_path in self.status_indicators.items():
-            row = getattr(indicator, "_row", indicator.get_parent())
-            status, message = self.check_script_state(script_path)
-
-            # Always remove all state classes first to ensure a clean slate
-            indicator.remove_css_class("status-on")
-            indicator.remove_css_class("status-off")
-            indicator.remove_css_class("status-unavailable")
-
-            if status is None:
-                # Feature not supported - hide it from interface.
-                row.set_visible(False)
-                row._hidden_no_support = True
-            else:
-                row.set_sensitive(True)
-                row.set_visible(True)
-                row.set_tooltip_text(None)
-                row._hidden_no_support = False
-                if status:
-                    indicator.add_css_class("status-on")
-                else:
-                    indicator.add_css_class("status-off")
-            print(
-                _("Indicator {} synchronized: {}").format(
-                    os.path.basename(script_path), status
-                )
-            )
-
-        # Handle visibility of sub‑switches
-        for parent_switch, child_rows in self.sub_switches.items():
-            parent_state = parent_switch.get_active()
-            for child_row in child_rows:
-                is_supported = not getattr(child_row, "_hidden_no_support", False)
-                child_row.set_visible(parent_state and is_supported)
-
-    def on_switch_changed(self, switch, state):
-        """Callback executed when a user manually toggles a switch."""
+    def on_switch_changed(self, switch: Gtk.Switch, state: bool) -> bool:
+        """Callback executed when a user manually toggles a switch.
+        For non-dangerous switches, provides a 3-second undo window before executing."""
         script_path = self.switch_scripts.get(switch)
-        # Use the timeout configured for this script, if any
+        if not script_path:
+            return True
+
+        # Dangerous switches already have confirmation — execute immediately
+        if self._get_wd(switch, "dangerous_handler"):
+            self._execute_toggle(switch, state)
+            return True
+
+        # Cancel any existing pending undo first
+        self._cancel_pending_undo()
+
+        script_name = os.path.basename(script_path)
+        action = _("on") if state else _("off")
+
+        # Show undo banner
+        self.main_window.banner.set_title(
+            _("Changing {} to {}…").format(script_name.replace(".sh", ""), action)
+        )
+        self.main_window.banner.set_button_label(_("Undo"))
+        self.main_window._banner_callback = lambda: self._undo_toggle(switch, state)
+        self.main_window.banner.set_revealed(True)
+
+        # Start 3-second undo timer
+        BaseSettingsPage._pending_undo_timer = GLib.timeout_add(
+            3000, self._on_undo_timeout, switch, state
+        )
+
+        return True
+
+    def _cancel_pending_undo(self) -> None:
+        """Cancel any pending undo timer."""
+        if BaseSettingsPage._pending_undo_timer is not None:
+            GLib.source_remove(BaseSettingsPage._pending_undo_timer)
+            BaseSettingsPage._pending_undo_timer = None
+
+    def _undo_toggle(self, switch: Gtk.Switch, state: bool) -> None:
+        """Undo a pending toggle — revert the switch and cancel execution."""
+        self._cancel_pending_undo()
+        # Revert switch without triggering the handler
+        switch.handler_block_by_func(self.on_switch_changed)
+        switch.set_active(not state)
+        switch.handler_unblock_by_func(self.on_switch_changed)
+        logger.info(_("Undo: reverted toggle"))
+
+    def _on_undo_timeout(self, switch: Gtk.Switch, state: bool) -> bool:
+        """Called after the 3-second undo window expires — execute the toggle."""
+        BaseSettingsPage._pending_undo_timer = None
+        self.main_window.banner.set_revealed(False)
+        self.main_window._banner_callback = None
+        self._execute_toggle(switch, state)
+        return False  # Don't repeat
+
+    def _execute_toggle(self, switch: Gtk.Switch, state: bool) -> None:
+        """Execute the actual toggle in a background thread with spinner feedback."""
+        script_path = self.switch_scripts.get(switch)
         timeout = self.switch_timeouts.get(script_path)
+        script_name = os.path.basename(script_path)
+        logger.info(
+            _("Changing {} to {}").format(script_name, "on" if state else "off")
+        )
 
-        if script_path:
-            script_name = os.path.basename(script_path)
-            print(_("Changing {} to {}").format(script_name, "on" if state else "off"))
+        row = self._get_wd(switch, "row")
+        # Show spinner and disable switch during execution
+        spinner = Gtk.Spinner(spinning=True, valign=Gtk.Align.CENTER)
+        switch.set_visible(False)
+        row.add_suffix(spinner)
+        row.set_sensitive(False)
+        original_subtitle = row.get_subtitle()
+        row.set_subtitle(_("Applying…"))
 
-            # Attempt to change the system state
+        def _toggle_in_thread():
             success = self.toggle_script_state(script_path, state, timeout=timeout)
+            GLib.idle_add(_on_toggle_done, success)
 
-            # If the script fails, revert the switch to its previous state
-            # to keep the UI consistent with the actual system state.
+        def _on_toggle_done(success):
+            # Remove spinner and restore switch visibility
+            row.remove(spinner)
+            switch.set_visible(True)
+            row.set_sensitive(True)
+            row.set_subtitle(original_subtitle or "")
+
             if not success:
-                # Block signal to prevent an infinite loop
                 switch.handler_block_by_func(self.on_switch_changed)
                 switch.set_active(not state)
                 switch.handler_unblock_by_func(self.on_switch_changed)
 
-                print(
+                logger.error(
                     _("ERROR: Failed to change {} to {}").format(
                         script_name, "on" if state else "off"
                     )
                 )
-                self.main_window.show_toast(_("Failed to change setting: {}").format(script_name))
-                return True
+                self.main_window.show_toast(
+                    _("Failed to change setting: {}").format(script_name)
+                )
             else:
-                # If this switch is a parent, adjust visibility of its sub‑switches
-                if switch in self.sub_switches:
-                    for child_row in self.sub_switches[switch]:
-                        is_supported = not getattr(child_row, "_hidden_no_support", False)
-                        child_row.set_visible(state and is_supported)
+                # Confirm the backend state (active was already set by user click)
+                switch.set_state(state)
+                self._toggle_info_icon_visibility(switch, state)
 
-                # Refresh all switches to reflect real state
-                self.sync_all_switches()
+                # If this switch is a parent, adjust visibility of its sub-switches
+                self._update_sub_switches_visibility(switch, state)
 
-        return False
+                # Refresh all switches asynchronously
+                self.sync_all_switches_async()
 
-    def filter_rows(self, search_text, hide_group_headers=False):
+            return False
+
+        threading.Thread(target=_toggle_in_thread, daemon=True).start()
+
+    def filter_rows(self, search_text: str, hide_group_headers: bool = False) -> bool:
         """Filter rows based on search text. Returns True if any rows are visible."""
         if not hasattr(self, "content_box"):
             return True
@@ -482,7 +677,7 @@ class BaseSettingsPage(Adw.Bin):
 
         return total_visible > 0
 
-    def get_matching_rows(self, search_text):
+    def get_matching_rows(self, search_text: str) -> list[tuple[Adw.PreferencesRow, Adw.PreferencesGroup]]:
         """Get list of rows that match search text with their parent groups."""
         if not hasattr(self, "content_box"):
             return []
@@ -498,7 +693,7 @@ class BaseSettingsPage(Adw.Bin):
                 while row:
                     if isinstance(row, (Adw.PreferencesRow, Gtk.ListBoxRow)):
                         # Skip rows hidden due to lack of support
-                        if getattr(row, "_hidden_no_support", False):
+                        if self._get_wd(row, "hidden_no_support", False):
                             row = row.get_next_sibling()
                             continue
 
@@ -509,73 +704,67 @@ class BaseSettingsPage(Adw.Bin):
 
         return matching
 
-    def _filter_group(self, group, search_text, hide_group_headers=False):
-        """Filter rows within a PreferencesGroup. Returns count of visible rows."""
-        visible_count = 0
+    def _get_sub_row_visibility(self, row: Adw.ActionRow) -> bool:
+        """Determine if a sub-row should be visible based on its parent switch state."""
+        for p_switch, children in self.sub_switches.items():
+            if row in children:
+                return p_switch.get_active()
+        return False
 
-        # Save original description on first call
-        if not hasattr(group, "_orig_desc"):
-            group._orig_desc = group.get_description() or ""
+    def _apply_row_visibility(self, row: Adw.ActionRow, search_text: str) -> int:
+        """Apply visibility logic to a single row. Returns 1 if visible, 0 otherwise."""
+        if not search_text:
+            if self._get_wd(row, "is_sub_row", False):
+                row.set_visible(self._get_sub_row_visibility(row))
+            else:
+                row.set_visible(True)
+            return 1
 
-        # Hide header during search
+        text = self._get_row_text(row).lower()
+        visible = search_text in text
+        row.set_visible(visible)
+        return 1 if visible else 0
+
+    def _update_group_header(
+        self, group: Adw.PreferencesGroup, search_text: str, hide_group_headers: bool
+    ) -> None:
+        """Save/restore group description and header suffix based on search state."""
+        if self._get_wd(group, "orig_desc") is None:
+            self._set_wd(group, "orig_desc", group.get_description() or "")
+
         if hide_group_headers and search_text:
             group.set_description("")
             suffix = group.get_header_suffix()
             if suffix:
                 suffix.set_visible(False)
         else:
-            # Restore original description
-            group.set_description(group._orig_desc)
+            group.set_description(self._get_wd(group, "orig_desc", ""))
             suffix = group.get_header_suffix()
             if suffix:
                 suffix.set_visible(True)
 
-        # PreferencesGroup uses an internal GtkListBox
+    def _filter_group(
+        self, group: Adw.PreferencesGroup, search_text: str, hide_group_headers: bool = False
+    ) -> int:
+        """Filter rows within a PreferencesGroup. Returns count of visible rows."""
+        self._update_group_header(group, search_text, hide_group_headers)
+
         listbox = self._find_listbox_in_widget(group)
         if not listbox:
             return 0
 
+        visible_count = 0
         row = listbox.get_first_child()
         while row:
             if isinstance(row, (Adw.PreferencesRow, Gtk.ListBoxRow)):
-                # Skip rows hidden due to lack of support
-                if getattr(row, "_hidden_no_support", False):
-                    row = row.get_next_sibling()
-                    continue
-
-                if not search_text:
-                    if getattr(row, "_is_sub_row", False):
-                        parent_switch = None
-                        # Procura quem é o pai desta row
-                        for p_switch, children in self.sub_switches.items():
-                            if row in children:
-                                parent_switch = p_switch
-                                break
-
-                        if parent_switch:
-                            # Visível apenas se o pai estiver ativo
-                            row.set_visible(parent_switch.get_active())
-                        else:
-                            # Fallback seguro
-                            row.set_visible(False)
-                    else:
-                        # Row normal fica sempre visível sem busca
-                        row.set_visible(True)
-
-                    visible_count += 1
-                else:
-                    text = self._get_row_text(row).lower()
-                    visible = search_text in text
-                    row.set_visible(visible)
-                    if visible:
-                        visible_count += 1
+                if not self._get_wd(row, "hidden_no_support", False):
+                    visible_count += self._apply_row_visibility(row, search_text)
             row = row.get_next_sibling()
 
-        # Hide group if no visible rows (but always show if no search)
         group.set_visible(visible_count > 0 or not search_text)
         return visible_count
 
-    def _find_listbox_in_widget(self, widget):
+    def _find_listbox_in_widget(self, widget: Gtk.Widget) -> Optional[Gtk.ListBox]:
         """Recursively find GtkListBox inside a widget."""
         if isinstance(widget, Gtk.ListBox):
             return widget
@@ -587,13 +776,13 @@ class BaseSettingsPage(Adw.Bin):
             child = child.get_next_sibling()
         return None
 
-    def _get_row_text(self, row):
+    def _get_row_text(self, row: Gtk.Widget) -> str:
         """Extract searchable text from a row widget."""
         texts = []
         self._collect_label_texts(row, texts)
         return " ".join(texts)
 
-    def _collect_label_texts(self, widget, texts):
+    def _collect_label_texts(self, widget: Gtk.Widget, texts: list[str]) -> None:
         """Recursively collect text from all labels in a widget."""
         if isinstance(widget, Gtk.Label):
             text = widget.get_text() or widget.get_label() or ""
@@ -604,7 +793,7 @@ class BaseSettingsPage(Adw.Bin):
             self._collect_label_texts(child, texts)
             child = child.get_next_sibling()
 
-    def _get_all_children(self, widget):
+    def _get_all_children(self, widget: Gtk.Widget) -> list[Gtk.Widget]:
         """Get all direct children of a widget."""
         children = []
         child = widget.get_first_child() if hasattr(widget, "get_first_child") else None

@@ -16,10 +16,10 @@ elif [ "$1" == "toggle" ]; then
   state="$2"
   if [ "$state" == "true" ]; then
     pkexec $PWD/docker/dockerInstallRun.sh "install" "$package" "$packageName" "$port" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-    exit $exitCode
+    exitCode=$?
   else
     pkexec $PWD/docker/dockerInstallRun.sh "remove" "$package" "$packageName" "$port" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-    exit $exitCode
+    exitCode=$?
   fi
-  exit $?
+  exit $exitCode
 fi

@@ -9,7 +9,7 @@ class PreloadPage(BaseSettingsPage):
         group = self.create_group(
             _("Preload"),
             _("Preload applications into memory to open them faster."),
-            "preload"
+            "preload",
         )
         content.append(group)
 

@@ -15,10 +15,11 @@ elif [ "$1" == "toggle" ]; then
   state="$2"
   if [ "$state" == "true" ]; then
     docker compose -f "$dockerComposeAddress" up -d
+    exitCode=$?
     exit $exitCode
   else
     docker compose -f "$dockerComposeAddress" down
+    exitCode=$?
     exit $exitCode
   fi
-  exit $?
 fi
