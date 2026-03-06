@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the biglinux-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
@@ -16,20 +17,23 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "kzones Install"
 msgstr "kzones Встановлення"
-msgid "Instaling Kzones, Please wait..."
-msgstr "Встановлення Kzones, будь ласка, зачекайте..."
+#: NEEDS WORK
+msgid "Installing Kzones, please wait..."
+msgstr "Installing Kzones, please wait..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones встановлено успішно!"
 msgid "Applying, please wait..."
 msgstr "Застосування, будь ласка, зачекайте..."
 msgid "Recent Files enabling...."
 msgstr "Увімкнення останніх файлів...."
-msgid "Recent Files enabling, Please wait..."
-msgstr "Увімкнення останніх файлів, будь ласка, зачекайте..."
+#: NEEDS WORK
+msgid "Recent Files enabling, please wait..."
+msgstr "Увімкнення нещодавніх файлів, будь ласка, зачекайте..."
 msgid "Recent Files disabling...."
 msgstr "Вимкнення останніх файлів...."
-msgid "Recent Files disabling, Please wait..."
-msgstr "Вимкнення останніх файлів, будь ласка, зачекайте..."
+#: NEEDS WORK
+msgid "Recent Files disabling, please wait..."
+msgstr "Вимкнення нещодавніх файлів, будь ласка, зачекайте..."
 msgid ""
 "Recent Files successfully enabled!\\n"
 "You need to close and reopen Dolphin for it to take effect."
@@ -58,35 +62,42 @@ msgid "Failed to install Example!"
 msgstr "Не вдалося встановити Приклад!"
 msgid "JamesDSP Install"
 msgstr "JamesDSP Встановлення"
-msgid "Instaling JamesDSP, Please wait..."
-msgstr "Встановлення JamesDSP, будь ласка, зачекайте..."
+#: NEEDS WORK
+msgid "Installing JamesDSP, please wait..."
+msgstr "Installing JamesDSP, please wait..."
 msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP успішно встановлено!"
 msgid "Failed to install jamesDSP!"
 msgstr "Не вдалося встановити jamesDSP!"
 msgid "Docker Install"
 msgstr "Встановлення Docker"
-msgid "Instaling Docker, Please wait..."
+#: NEEDS WORK
+msgid "Installing Docker, please wait..."
 msgstr "Встановлення Docker, будь ласка, зачекайте..."
 msgid "Docker Start"
 msgstr "Docker Запустити"
-msgid "Docker Starting, Please wait..."
+#: NEEDS WORK
+msgid "Docker Starting, please wait..."
 msgstr "Docker запускається, будь ласка, зачекайте..."
 msgid "Docker Stop"
 msgstr "Docker Зупинити"
-msgid "Docker Stopping, Please wait..."
-msgstr "Зупинка Docker, будь ласка, зачекайте..."
+#: NEEDS WORK
+msgid "Docker Stopping, please wait..."
+msgstr "Docker зупиняється, будь ласка, зачекайте..."
 msgid "Docker installed successfully!"
 msgstr "Docker успішно встановлено!"
-msgid "An error occurred while install docker."
+#: NEEDS WORK
+msgid "An error occurred while installing Docker."
 msgstr "Виникла помилка під час встановлення Docker."
 msgid "Installing $package"
 msgstr "Встановлення $package"
-msgid "Installing $package, Please wait..."
-msgstr "Встановлення $package, будь ласка, зачекайте..."
+#: NEEDS WORK
+msgid "Installing $package, please wait..."
+msgstr "Installing $package, please wait..."
 msgid "Removing $package"
 msgstr "Видалення $package"
-msgid "Removing $package, Please wait..."
+#: NEEDS WORK
+msgid "Removing $package, please wait..."
 msgstr "Видалення $package, будь ласка, зачекайте..."
 msgid ""
 "$title installed successfully!\\n"
@@ -118,11 +129,13 @@ msgid "Already enabled. No changes made."
 msgstr "Вже увімкнено. Змін не внесено."
 msgid "Ollama Vulkan Install"
 msgstr "Ollama Vulkan Встановлення"
-msgid "Instaling Ollama, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
 msgstr "Встановлення Ollama, будь ласка, зачекайте..."
 msgid "Ollama Vulkan Uninstall"
 msgstr "Видалити Ollama Vulkan"
-msgid "Unistaling Ollama Vulkan, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
 msgstr "Видалення Ollama Vulkan, будь ласка, зачекайте..."
 msgid "Ollama Vulkan installed successfully!"
 msgstr "Ollama Vulkan успішно встановлено!"
@@ -130,11 +143,13 @@ msgid "Failed to install Ollama Vulkan!"
 msgstr "Не вдалося встановити Ollama Vulkan!"
 msgid "ChatBox Install"
 msgstr "Встановлення ChatBox"
-msgid "Instaling ChatBox, Please wait..."
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
 msgstr "Встановлення ChatBox, будь ласка, зачекайте..."
 msgid "ChatBox Uninstall"
 msgstr "Видалити ChatBox"
-msgid "Uninstaling ChatBox, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
 msgstr "Видалення ChatBox, будь ласка, зачекайте..."
 msgid "ChatBox installed successfully!"
 msgstr "ChatBox успішно встановлено!"
@@ -142,12 +157,14 @@ msgid "Failed to install ChatBox!"
 msgstr "Не вдалося встановити ChatBox!"
 msgid "Ollama Lab Install"
 msgstr "Ollama Lab Встановлення"
-msgid "Instaling Ollama Lab, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama Lab, please wait..."
 msgstr "Встановлення Ollama Lab, будь ласка, зачекайте..."
 msgid "Ollama Lab Uninstall"
 msgstr "Видалити Ollama Lab"
-msgid "Unistaling Ollama Lab, Please wait..."
-msgstr "Видалення Ollama Lab, будь ласка, зачекайте..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Desinstalling Ollama Lab, please wait..."
 msgid "Ollama Lab installed successfully!"
 msgstr "Ollama Lab успішно встановлено!"
 msgid "Failed to install Ollama Lab!"
@@ -180,32 +197,37 @@ msgid "Ollama Install"
 msgstr "Ollama Встановлення"
 msgid "Ollama Uninstall"
 msgstr "Видалити Ollama"
-msgid "Unistaling Ollama, Please wait..."
-msgstr "Видалення Ollama, будь ласка, зачекайте..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Deinstalliere Ollama, bitte warten..."
 msgid "Ollama installed successfully!"
 msgstr "Ollama успішно встановлено!"
 msgid "Failed to install Ollama!"
 msgstr "Не вдалося встановити Ollama!"
 msgid "Ollama ROCm Install"
 msgstr "Ollama ROCm Встановлення"
-msgid "Instaling Ollama ROCm, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
 msgstr "Встановлення Ollama ROCm, будь ласка, зачекайте..."
 msgid "Ollama ROCm Uninstall"
 msgstr "Ollama ROCm Вилучити"
-msgid "Unistaling Ollama ROCm, Please wait..."
-msgstr "Видалення Ollama ROCm, будь ласка, зачекайте..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Desinstalling Ollama ROCm, please wait..."
 msgid "Ollama ROCm installed successfully!"
 msgstr "Ollama ROCm успішно встановлено!"
 msgid "Failed to install Ollama ROCm!"
 msgstr "Не вдалося встановити Ollama ROCm!"
 msgid "comfyUI Install...."
 msgstr "comfyUI Встановлення...."
-msgid "Instaling comfyUI, this step take a long time, Please wait..."
-msgstr "Встановлення comfyUI, цей етап займає багато часу, будь ласка, зачекайте..."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "Installing comfyUI, this step may take some time, please wait..."
 msgid "Uninstall comfyUI...."
 msgstr "Видалити comfyUI...."
-msgid "Uninstaling comfyUI, Please wait..."
-msgstr "Видалення comfyUI, будь ласка, зачекайте..."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "Uninstalling comfyUI, please wait..."
 msgid "comfyUI installed successfully"
 msgstr "comfyUI успішно встановлено"
 msgid "comfyUI uninstalled successfully"
@@ -220,48 +242,56 @@ msgid ""
 msgstr ""
 "Ollama успішно поділено.\\n"
 "Адреса: http://$localIp:11434"
-msgid "Failed to shared Ollama!"
-msgstr "Не вдалося поділитися Ollama!"
+#: NEEDS WORK
+msgid "Failed to configure Ollama sharing!"
+msgstr "Не вдалося налаштувати спільний доступ до Ollama!"
 msgid "Ollama CUDA Install"
 msgstr "Ollama CUDA Встановлення"
-msgid "Instaling Ollama CUDA, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
 msgstr "Встановлення Ollama CUDA, будь ласка, зачекайте..."
 msgid "Ollama CUDA Uninstall"
 msgstr "Видалити Ollama CUDA"
-msgid "Unistaling Ollama CUDA, Please wait..."
-msgstr "Видалення Ollama CUDA, будь ласка, зачекайте..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "Desinstalling Ollama CUDA, please wait..."
 msgid "Ollama CUDA installed successfully!"
 msgstr "Ollama CUDA успішно встановлено!"
 msgid "Failed to install Ollama CUDA!"
 msgstr "Не вдалося встановити Ollama CUDA!"
 msgid "LM Studio Install"
 msgstr "LM Studio Встановлення"
-msgid "Instaling LM Studio, Please wait..."
-msgstr "Встановлення LM Studio, будь ласка, зачекайте..."
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
+msgstr "Installing LM Studio, please wait..."
 msgid "LM Studio Uninstall"
 msgstr "LM Studio Вилучити"
-msgid "Uninstaling LM Studio, Please wait..."
-msgstr "Видалення LM Studio, будь ласка, зачекайте..."
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "Uninstalling LM Studio, please wait..."
 msgid "LM Studio installed successfully!"
 msgstr "LM Studio успішно встановлено!"
 msgid "Failed to install LM Studio!"
 msgstr "Не вдалося встановити LM Studio!"
 msgid "Krita Install"
 msgstr "Встановлення Krita"
-msgid "Instaling Krita, Please wait..."
-msgstr "Встановлення Krita, будь ласка, зачекайте..."
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "Installing Krita, please wait..."
 msgid "Krita Uninstall"
 msgstr "Видалити Krita"
-msgid "Uninstaling Krita, Please wait..."
-msgstr "Видалення Krita, будь ласка, зачекайте..."
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
+msgstr "Uninstalling Krita, please wait..."
 msgid "Krita installed successfully!"
 msgstr "Krita успішно встановлено!"
 msgid "Failed to install Krita!"
 msgstr "Не вдалося встановити Krita!"
 msgid "comfyUI Depends Install"
 msgstr "comfyUI Залежності Встановлення"
-msgid "Instaling comfyUI Depends, Please wait..."
-msgstr "Встановлення залежностей comfyUI, будь ласка, зачекайте..."
+#: NEEDS WORK
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "Встановлення comfyUI Залежить, будь ласка, зачекайте..."
 msgid "comfyUI Depends installed successfully!"
 msgstr "comfyUI Залежності успішно встановлено!"
 msgid "Failed to install comfyUI Depends!"
@@ -271,9 +301,10 @@ msgstr "Не вдалося встановити comfyUI. Залежності!"
 msgid "Docker"
 msgstr "Додаток Docker"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
-msgid "Container service - enable to use containers below."
-msgstr "Служба контейнерів - увімкніть для використання контейнерів нижче."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
+#: NEEDS WORK
+msgid "Container service — enable to use containers below."
+msgstr "Контейнерна служба — увімкніть використання контейнерів нижче."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -286,23 +317,56 @@ msgstr "Контейнери"
 msgid "Manage container technologies."
 msgstr "Керуйте технологіями контейнерів."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "Docker увімкнено."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 30
+#: NEEDS WORK
+msgid "Media &amp; Cloud"
+msgstr "Медіа та Хмара"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 31
+#: NEEDS WORK
+msgid "Media servers and cloud storage containers."
+msgstr "Медіа-сервери та контейнери хмарного зберігання."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 36
+#: NEEDS WORK
+msgid "Network &amp; Security"
+msgstr "Мережа та безпека"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 37
+#: NEEDS WORK
+msgid "Network tools and security containers."
+msgstr "Мережеві інструменти та контейнери безпеки."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 42
+#: NEEDS WORK
+msgid "Development &amp; Tools"
+msgstr "Розробка та інструменти"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 43
+#: NEEDS WORK
+msgid "Development stacks and utility containers."
+msgstr "Стеки розробки та утилітарні контейнери."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
+#: NEEDS WORK
+msgid "Enable Docker container engine."
+msgstr "Увімкнути движок контейнерів Docker."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
 msgid "Nextcloud Plus"
 msgstr "Nextcloud Плюс"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
-msgid "Install Nextcloud Plus container."
-msgstr "Встановіть контейнер Nextcloud Plus."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 62
+#: NEEDS WORK
+msgid "Install Nextcloud Plus cloud storage container."
+msgstr "Встановіть контейнер хмарного сховища Nextcloud Plus."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
 msgid "Run Nextcloud Plus."
 msgstr "Запустіть Nextcloud Plus."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
+#, python-brace-format
 msgid ""
 "Nextcloud Plus is running.\n"
 "Address: http://localhost:8286\n"
@@ -318,15 +382,17 @@ msgstr ""
 msgid "AdGuard"
 msgstr "AdGuard"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
-msgid "Install AdGuard Home container."
-msgstr "Встановіть контейнер AdGuard Home."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 81
+#: NEEDS WORK
+msgid "Install AdGuard Home DNS ad-blocker container."
+msgstr "Встановити контейнер блокувальника реклами AdGuard Home DNS."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
 msgid "Run AdGuard."
 msgstr "Запустіть AdGuard."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
+#, python-brace-format
 msgid ""
 "AdGuard is running.\n"
 "Address: http://localhost:3030\n"
@@ -342,15 +408,17 @@ msgstr ""
 msgid "Jellyfin"
 msgstr "Jellyfin"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
-msgid "Install Jellyfin media server."
-msgstr "Встановіть медіасервер Jellyfin."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 100
+#: NEEDS WORK
+msgid "Install Jellyfin media server container."
+msgstr "Встановити контейнер медіасервера Jellyfin."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
 msgid "Run Jellyfin."
 msgstr "Запустіть Jellyfin."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
+#, python-brace-format
 msgid ""
 "Jellyfin is running.\n"
 "Address: http://localhost:8096\n"
@@ -366,15 +434,17 @@ msgstr ""
 msgid "LAMP"
 msgstr "LAMP"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
-msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
-msgstr "Встановіть стек LAMP (Linux, Apache, MySQL, PHP)."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 119
+#: NEEDS WORK
+msgid "Install LAMP stack container (Linux, Apache, MySQL, PHP)."
+msgstr "Встановити контейнер LAMP стеку (Linux, Apache, MySQL, PHP)."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
 msgid "Run LAMP."
 msgstr "Запустіть LAMP."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
+#, python-brace-format
 msgid ""
 "LAMP is running.\n"
 "Address: http://localhost:8080\n"
@@ -390,15 +460,17 @@ msgstr ""
 msgid "Portainer Client"
 msgstr "Клієнт Portainer"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
-msgid "Install Portainer Agent for cluster management."
-msgstr "Встановіть агент Portainer для управління кластером."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 138
+#: NEEDS WORK
+msgid "Install Portainer Agent container for cluster management."
+msgstr "Встановіть контейнер Portainer Agent для управління кластером."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
 msgid "Run Portainer Client."
 msgstr "Запустіть Portainer Client."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
+#, python-brace-format
 msgid ""
 "Portainer Client is running.\n"
 "Address: http://localhost:9000\n"
@@ -414,15 +486,17 @@ msgstr ""
 msgid "SWS"
 msgstr "SWS"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
-msgid "Install SWS static web server."
-msgstr "Встановіть статичний веб-сервер SWS."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 157
+#: NEEDS WORK
+msgid "Install SWS static web server container."
+msgstr "Встановити контейнер статичного веб-сервера SWS."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
 msgid "Run SWS."
 msgstr "Запустіть SWS."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+#, python-brace-format
 msgid ""
 "SWS is running.\n"
 "Address: http://localhost:8182\n"
@@ -438,15 +512,17 @@ msgstr ""
 msgid "V2RayA"
 msgstr "V2RayA"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
-msgid "Install V2RayA network tool."
-msgstr "Встановіть мережевий інструмент V2RayA."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 176
+#: NEEDS WORK
+msgid "Install V2RayA network proxy container."
+msgstr "Встановити контейнер мережевого проксі V2RayA."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
 msgid "Run V2RayA."
 msgstr "Запустіть V2RayA."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
+#, python-brace-format
 msgid ""
 "V2RayA is running.\n"
 "Address: http://localhost:2017\n"
@@ -458,6 +534,15 @@ msgstr ""
 "та\n"
 "Адреса: http://{}:2017"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 203
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
+#: NEEDS WORK
+msgid "Open Notebook"
+msgstr "打开笔记本"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
 msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "Встановіть відкритий, орієнтований на конфіденційність аналог Google Notebook LM!"
@@ -467,6 +552,7 @@ msgid "Run Open Notebook."
 msgstr "Запустіть Відкритий Блокнот."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+#, python-brace-format
 msgid ""
 "Open Notebook is running.\n"
 "Address: http://localhost:8502\n"
@@ -478,17 +564,49 @@ msgstr ""
 "та\n"
 "Адреса: http://{}:8502"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-msgid "Changing {} to {}"
-msgstr "Зміна {} на {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
+#: NEEDS WORK
+msgid "Close"
+msgstr "Закрити"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-msgid "ERROR: Failed to change {} to {}"
-msgstr "ПОМИЛКА: Не вдалося змінити {} на {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+#: NEEDS WORK
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Увага: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-msgid "Failed to change setting: {}"
-msgstr "Не вдалося змінити налаштування: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
+#: NEEDS WORK
+msgid "Cancel"
+msgstr "Cancel"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
+#: NEEDS WORK
+msgid "Continue"
+msgstr "Продолжити"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
+#: NEEDS WORK
+msgid "Recommended"
+msgstr "Рекомендовано"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: additional information"
+msgstr "{}: додаткова інформація"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+#: NEEDS WORK
+msgid "Learn more"
+msgstr "Дізнатися більше"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: learn more"
+msgstr "{}: дізнатися більше"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -499,6 +617,7 @@ msgstr "Недоступно: скрипт не знайдено."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+#, python-brace-format
 msgid "Script not found: {}"
 msgstr "Скрипт не знайдено: {}"
 # 
@@ -531,6 +650,7 @@ msgid "Unavailable: script returned invalid output."
 msgstr "Недоступно: скрипт повернув недійсний вихід."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+#, python-brace-format
 msgid "output from script {}: {}"
 msgstr "вихід зі скрипту {}: {}"
 # 
@@ -542,6 +662,7 @@ msgid "Unavailable: script returned an error."
 msgstr "Недоступно: скрипт повернув помилку."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+#, python-brace-format
 msgid "Error checking state: {}"
 msgstr "Помилка перевірки стану: {}"
 # 
@@ -554,6 +675,7 @@ msgstr "Недоступно: не вдалося виконати скрипт.
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+#, python-brace-format
 msgid "Error running script {}: {}"
 msgstr "Помилка виконання скрипту {}: {}"
 # 
@@ -562,45 +684,111 @@ msgid "State changed successfully"
 msgstr "Стан успішно змінено"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+#, python-brace-format
 msgid "Script output: {}"
 msgstr "Скрипт виводу: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+#, python-brace-format
 msgid "Script failed with exit code: {}"
 msgstr "Скрипт завершився з кодом виходу: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+#, python-brace-format
 msgid "Script timeout: {}"
 msgstr "Тайм-аут скрипта: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Switch {} synchronized: {}"
-msgstr "Перемикач {} синхронізовано: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} sub-options available"
+msgstr "{} підопції доступні"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "on"
+msgstr "включено"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "off"
+msgstr "вимкнено"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
+#: NEEDS WORK
+#, python-brace-format
+msgid "Changing {} to {}…"
+msgstr "Зміна {} на {}…"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+#: NEEDS WORK
+msgid "Undo"
+msgstr "Відмінити"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
+#: NEEDS WORK
+msgid "Undo: reverted toggle"
+msgstr "Annulla: interruttore ripristinato"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+#, python-brace-format
+msgid "Changing {} to {}"
+msgstr "Зміна {} на {}"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "Індикатор {} синхронізовано: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "Applying…"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+#, python-brace-format
+msgid "ERROR: Failed to change {} to {}"
+msgstr "ПОМИЛКА: Не вдалося змінити {} на {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+#, python-brace-format
+msgid "Failed to change setting: {}"
+msgstr "Не вдалося змінити налаштування: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
 msgid "BigLinux Settings"
 msgstr "BigLinux Налаштування"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "Категорії"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
+#: NEEDS WORK
+msgid "BigLinux Community"
+msgstr "BigLinux Спільнота"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
 msgid "Search..."
 msgstr "Пошук..."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "Налаштування"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
+#: NEEDS WORK
+msgid "Search settings"
+msgstr "Параметри пошуку"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
+#: NEEDS WORK
+msgid "Toggle navigation sidebar"
+msgstr "Переключити навігаційну бічну панель"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
+#: NEEDS WORK
+msgid "About"
+msgstr "Про програму"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
+#: NEEDS WORK
+msgid "Main Menu"
+msgstr "Головне меню"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System"
@@ -648,6 +836,11 @@ msgstr "Штучний інтелект."
 msgid "Performance"
 msgstr "Виконання"
 # 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
+#: NEEDS WORK
+msgid "Dismiss"
+msgstr "Dismiss"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."
 msgstr "Загальні налаштування системи."
@@ -661,6 +854,7 @@ msgid "Enable remote access via ssh."
 msgstr "Увімкніть віддалений доступ через ssh."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+#, python-brace-format
 msgid "SSH Address: {}"
 msgstr "SSH-адрес: {}"
 # 
@@ -736,17 +930,19 @@ msgstr "Керуйте фізичними пристроями."
 msgid "Wifi"
 msgstr "Wi-Fi"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wi-Fi Увімкнено"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "Увімкнути адаптер Wi-Fi."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
 msgid "Bluetooth"
 msgstr "Bluetooth"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth Увімкнено."
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "Активувати адаптер Bluetooth."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -766,6 +962,45 @@ msgstr "Зворотне прокручування миші"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Зворотне прокручування миші без перезапуску сеансу."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "Мережеві інтерфейси"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "Підключити або відключити мережеві пристрої."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} — {}"
+msgstr "Understood. Please provide the string to translate."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: перемикання з'єднання"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "connected"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "disconnected"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "Не вдалося змінити мережевий пристрій: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -809,14 +1044,19 @@ msgstr "Вимикає моніторинг диска S.M.A.R.T. Зменшує
 msgid "Meltdown Mitigations off"
 msgstr "Мітегування Meltdown вимкнено"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
+#: NEEDS WORK
+msgid "Using mitigations=off will make your machine faster and less secure!"
+msgstr "Використання mitigations=off зробить ваш комп'ютер швидшим і менш безпечним!"
+# 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
+#: NEEDS WORK
 msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
+"This will disable CPU security mitigations (Meltdown/Spectre). Your system will be faster but "
+"vulnerable to hardware-level attacks. Are you sure you want to continue?"
 msgstr ""
-"Використання mitigations=off зробить ваш комп'ютер швидшим і менш безпечним! Для отримання "
-"додаткової інформації дивіться: <a href='{l}'>{l}</a>"
+"A це вимкне засоби безпеки ЦП (Meltdown/Spectre). Ваша система буде швидшою, але вразливою до атак "
+"на апаратному рівні. Ви впевнені, що хочете продовжити?"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
 msgid "noWatchdog"
@@ -830,21 +1070,42 @@ msgstr ""
 "Вимикає апаратний контроль за станом та системи годинника TSC, підтримуючи високу продуктивність, "
 "але усуваючи автоматичний захист від збоїв системи."
 # 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
+#: NEEDS WORK
+msgid ""
+"This will disable the hardware watchdog. Your system will no longer automatically recover from "
+"certain types of crashes. Are you sure you want to continue?"
+msgstr ""
+"This will disable the hardware watchdog. Your system will no longer automatically recover from "
+"certain types of crashes. Are you sure you want to continue?"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
 msgstr "Інтерфейси ШІ"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
-msgid "Graphical interface for artificial intelligence.."
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 16
+#: NEEDS WORK
+msgid "Graphical interface for artificial intelligence."
 msgstr "Графічний інтерфейс для штучного інтелекту."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 22
-msgid "Ollma Server"
-msgstr "Ollma Сервер"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+#: NEEDS WORK
+msgid "Ollama Server"
+msgstr "Ollama Server"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Виберіть, який сервер Ollama найкраще підходить для вашого обладнання."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Ollama Variants"
+msgstr "Ollama Варианти"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Select the variant that matches your GPU hardware."
+msgstr "Select the variant that matches your GPU hardware."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"
@@ -861,6 +1122,11 @@ msgstr "Ollama ЛАБ"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 129
 msgid "Graphical interface for managing Ollama models and chat."
 msgstr "Графічний інтерфейс для керування моделями Ollama та чатом."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+#: NEEDS WORK
+msgid "ChatBox"
+msgstr "ЧатБокс"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 137
 msgid "User-friendly Desktop Client App for AI Models/LLMs."
@@ -890,12 +1156,13 @@ msgstr "Найпотужніший та модульний візуальний 
 msgid "ComfyUI Server"
 msgstr "ComfyUI Сервер"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
-#, python-brace-format
-msgid "start ComfyUI Server. For more information see: <a href='{l}'>{l}</a>"
-msgstr "почати сервер ComfyUI. Для отримання додаткової інформації дивіться: <a href='{l}'>{l}</a>"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+#: NEEDS WORK
+msgid "Start the ComfyUI server."
+msgstr "Запустіть сервер ComfyUI."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+#, python-brace-format
 msgid ""
 "ComfyUI server is running.\n"
 "Address: http://localhost:8188\n"
@@ -944,6 +1211,7 @@ msgstr "Поділіться ollama в локальній мережі."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 105
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 123
+#, python-brace-format
 msgid ""
 "Ollama server is running.\n"
 "Address: http://{}:11434"
@@ -1003,12 +1271,10 @@ msgstr "Кнопки розширення, зменшення та закрит�
 msgid "KZones"
 msgstr "KZones"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "Скрипт для менеджера вікон KWin середовища робочого столу KDE Plasma."
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "Увімкнути зони плиткового розміщення вікон для робочого столу KDE Plasma."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
 msgid "Recent Files & Locations"

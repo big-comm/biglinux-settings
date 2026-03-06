@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the biglinux-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
@@ -16,19 +17,22 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "kzones Install"
 msgstr "kzones Instaliraj"
-msgid "Instaling Kzones, Please wait..."
-msgstr "Instalacija Kzones, molimo pričekajte..."
+#: NEEDS WORK
+msgid "Installing Kzones, please wait..."
+msgstr "Instaliranje Kzones, molimo pričekajte..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones je uspješno instaliran!"
 msgid "Applying, please wait..."
 msgstr "Primjena, molimo pričekajte..."
 msgid "Recent Files enabling...."
 msgstr "Omogućavanje nedavnih datoteka...."
-msgid "Recent Files enabling, Please wait..."
+#: NEEDS WORK
+msgid "Recent Files enabling, please wait..."
 msgstr "Omogućavanje nedavnih datoteka, molimo pričekajte..."
 msgid "Recent Files disabling...."
 msgstr "Onemogućavanje nedavnih datoteka...."
-msgid "Recent Files disabling, Please wait..."
+#: NEEDS WORK
+msgid "Recent Files disabling, please wait..."
 msgstr "Onemogućavanje nedavnih datoteka, molimo pričekajte..."
 msgid ""
 "Recent Files successfully enabled!\\n"
@@ -58,36 +62,43 @@ msgid "Failed to install Example!"
 msgstr "Instalacija primjera nije uspjela!"
 msgid "JamesDSP Install"
 msgstr "JamesDSP Instaliraj"
-msgid "Instaling JamesDSP, Please wait..."
-msgstr "Instalacija JamesDSP, molimo pričekajte..."
+#: NEEDS WORK
+msgid "Installing JamesDSP, please wait..."
+msgstr "Instaliranje JamesDSP, molimo pričekajte..."
 msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP je uspješno instaliran!"
 msgid "Failed to install jamesDSP!"
 msgstr "Nije uspjelo instalirati jamesDSP!"
 msgid "Docker Install"
 msgstr "Instalacija Dockera"
-msgid "Instaling Docker, Please wait..."
-msgstr "Instalacija Dockera, molimo pričekajte..."
+#: NEEDS WORK
+msgid "Installing Docker, please wait..."
+msgstr "Instaliranje Dockera, molimo pričekajte..."
 msgid "Docker Start"
 msgstr "Pokreni Docker"
-msgid "Docker Starting, Please wait..."
+#: NEEDS WORK
+msgid "Docker Starting, please wait..."
 msgstr "Docker se pokreće, molimo pričekajte..."
 msgid "Docker Stop"
 msgstr "Docker Zaustavi"
-msgid "Docker Stopping, Please wait..."
+#: NEEDS WORK
+msgid "Docker Stopping, please wait..."
 msgstr "Docker se zaustavlja, molimo pričekajte..."
 msgid "Docker installed successfully!"
 msgstr "Docker je uspješno instaliran!"
-msgid "An error occurred while install docker."
-msgstr "Došlo je do pogreške prilikom instalacije dockera."
+#: NEEDS WORK
+msgid "An error occurred while installing Docker."
+msgstr "Došlo je do pogreške prilikom instalacije Dockera."
 msgid "Installing $package"
 msgstr "Instaliranje $package"
-msgid "Installing $package, Please wait..."
-msgstr "Instaliranje $package, Molimo pričekajte..."
+#: NEEDS WORK
+msgid "Installing $package, please wait..."
+msgstr "Instaliranje $package, molimo pričekajte..."
 msgid "Removing $package"
 msgstr "Uklanjanje $package"
-msgid "Removing $package, Please wait..."
-msgstr "Uklanjanje $package, Molimo pričekajte..."
+#: NEEDS WORK
+msgid "Removing $package, please wait..."
+msgstr "Uklanjanje $package, molimo pričekajte..."
 msgid ""
 "$title installed successfully!\\n"
 "\\n"
@@ -118,23 +129,27 @@ msgid "Already enabled. No changes made."
 msgstr "Već omogućeno. Nema promjena."
 msgid "Ollama Vulkan Install"
 msgstr "Ollama Vulkan Instalacija"
-msgid "Instaling Ollama, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
 msgstr "Instaliranje Ollama, molimo pričekajte..."
 msgid "Ollama Vulkan Uninstall"
 msgstr "Ollama Vulkan Deinstaliraj"
-msgid "Unistaling Ollama Vulkan, Please wait..."
-msgstr "Deinstaliranje Ollama Vulkan, Molimo pričekajte..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Deinstaliranje Ollama Vulkan, molimo pričekajte..."
 msgid "Ollama Vulkan installed successfully!"
 msgstr "Ollama Vulkan je uspješno instaliran!"
 msgid "Failed to install Ollama Vulkan!"
 msgstr "Neuspjela instalacija Ollama Vulkan!"
 msgid "ChatBox Install"
 msgstr "Instalacija ChatBox-a"
-msgid "Instaling ChatBox, Please wait..."
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
 msgstr "Instaliranje ChatBox-a, molimo pričekajte..."
 msgid "ChatBox Uninstall"
 msgstr "Deinstaliraj ChatBox"
-msgid "Uninstaling ChatBox, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
 msgstr "Deinstaliranje ChatBoxa, molimo pričekajte..."
 msgid "ChatBox installed successfully!"
 msgstr "ChatBox je uspješno instaliran!"
@@ -142,12 +157,14 @@ msgid "Failed to install ChatBox!"
 msgstr "Instalacija ChatBox-a nije uspjela!"
 msgid "Ollama Lab Install"
 msgstr "Ollama Lab Instaliraj"
-msgid "Instaling Ollama Lab, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama Lab, please wait..."
 msgstr "Instaliranje Ollama Laba, molimo pričekajte..."
 msgid "Ollama Lab Uninstall"
 msgstr "Ollama Lab Deinstaliraj"
-msgid "Unistaling Ollama Lab, Please wait..."
-msgstr "Deinstaliranje Ollama Laba, Molimo pričekajte..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Deinstaliranje Ollama Lab, molimo pričekajte..."
 msgid "Ollama Lab installed successfully!"
 msgstr "Ollama Lab je uspješno instaliran!"
 msgid "Failed to install Ollama Lab!"
@@ -180,19 +197,22 @@ msgid "Ollama Install"
 msgstr "Ollama Instaliraj"
 msgid "Ollama Uninstall"
 msgstr "Ollama Deinstaliraj"
-msgid "Unistaling Ollama, Please wait..."
-msgstr "Deinstaliranje Ollama, molimo pričekajte..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Deinstaliranje Ollame, molimo pričekajte..."
 msgid "Ollama installed successfully!"
 msgstr "Ollama je uspješno instaliran!"
 msgid "Failed to install Ollama!"
 msgstr "Instalacija Ollama nije uspjela!"
 msgid "Ollama ROCm Install"
 msgstr "Ollama ROCm Instalacija"
-msgid "Instaling Ollama ROCm, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
 msgstr "Instaliranje Ollama ROCm, molimo pričekajte..."
 msgid "Ollama ROCm Uninstall"
 msgstr "Ollama ROCm Deinstaliraj"
-msgid "Unistaling Ollama ROCm, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
 msgstr "Deinstaliranje Ollama ROCm, molimo pričekajte..."
 msgid "Ollama ROCm installed successfully!"
 msgstr "Ollama ROCm je uspješno instaliran!"
@@ -200,11 +220,13 @@ msgid "Failed to install Ollama ROCm!"
 msgstr "Nije uspjelo instalirati Ollama ROCm!"
 msgid "comfyUI Install...."
 msgstr "comfyUI Instaliraj...."
-msgid "Instaling comfyUI, this step take a long time, Please wait..."
-msgstr "Instalacija comfyUI, ovaj korak traje dugo, molimo pričekajte..."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "Instaliranje comfyUI, ovaj korak traje dugo, molimo vas da pričekate..."
 msgid "Uninstall comfyUI...."
 msgstr "Deinstaliraj comfyUI...."
-msgid "Uninstaling comfyUI, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
 msgstr "Deinstaliranje comfyUI, molimo pričekajte..."
 msgid "comfyUI installed successfully"
 msgstr "comfyUI je uspješno instaliran"
@@ -220,15 +242,18 @@ msgid ""
 msgstr ""
 "Ollama je uspješno dijeljen.\\n"
 "Adresa: http://$localIp:11434"
-msgid "Failed to shared Ollama!"
-msgstr "Neuspješno dijeljenje Ollame!"
+#: NEEDS WORK
+msgid "Failed to configure Ollama sharing!"
+msgstr "Nije uspjelo konfigurirati dijeljenje Ollama!"
 msgid "Ollama CUDA Install"
 msgstr "Ollama CUDA Instalacija"
-msgid "Instaling Ollama CUDA, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
 msgstr "Instaliranje Ollama CUDA, molimo pričekajte..."
 msgid "Ollama CUDA Uninstall"
 msgstr "Ollama CUDA Deinstaliraj"
-msgid "Unistaling Ollama CUDA, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
 msgstr "Deinstaliranje Ollama CUDA, molimo pričekajte..."
 msgid "Ollama CUDA installed successfully!"
 msgstr "Ollama CUDA je uspješno instaliran!"
@@ -236,11 +261,13 @@ msgid "Failed to install Ollama CUDA!"
 msgstr "Instalacija Ollama CUDA nije uspjela!"
 msgid "LM Studio Install"
 msgstr "LM Studio Instaliraj"
-msgid "Instaling LM Studio, Please wait..."
-msgstr "Instalacija LM Studija, Molimo pričekajte..."
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
+msgstr "Instaliranje LM Studija, molimo pričekajte..."
 msgid "LM Studio Uninstall"
 msgstr "LM Studio Deinstaliraj"
-msgid "Uninstaling LM Studio, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
 msgstr "Deinstaliranje LM Studija, molimo pričekajte..."
 msgid "LM Studio installed successfully!"
 msgstr "LM Studio je uspješno instaliran!"
@@ -248,20 +275,23 @@ msgid "Failed to install LM Studio!"
 msgstr "Instalacija LM Studija nije uspjela!"
 msgid "Krita Install"
 msgstr "Krita Instaliraj"
-msgid "Instaling Krita, Please wait..."
-msgstr "Instalacija Krita, Molimo pričekajte..."
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "Instaliranje Krita, molimo pričekajte..."
 msgid "Krita Uninstall"
 msgstr "Deinstaliraj Krita"
-msgid "Uninstaling Krita, Please wait..."
-msgstr "Deinstaliranje Krita, Molimo pričekajte..."
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
+msgstr "Deinstaliranje Krita, molimo pričekajte..."
 msgid "Krita installed successfully!"
 msgstr "Krita je uspješno instaliran!"
 msgid "Failed to install Krita!"
 msgstr "Instalacija Krita nije uspjela!"
 msgid "comfyUI Depends Install"
 msgstr "comfyUI Ovisno Instaliraj"
-msgid "Instaling comfyUI Depends, Please wait..."
-msgstr "Instaliranje ComfyUI ovisnosti, molimo pričekajte..."
+#: NEEDS WORK
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "Instaliranje comfyUI ovisnosti, molimo pričekajte..."
 msgid "comfyUI Depends installed successfully!"
 msgstr "comfyUI ovisno instalirano uspješno!"
 msgid "Failed to install comfyUI Depends!"
@@ -271,9 +301,10 @@ msgstr "Nije uspjelo instalirati comfyUI ovisnosti!"
 msgid "Docker"
 msgstr "Docker"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
-msgid "Container service - enable to use containers below."
-msgstr "Usluga kontejnera - omogućite korištenje kontejnera u nastavku."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
+#: NEEDS WORK
+msgid "Container service — enable to use containers below."
+msgstr "Usluga kontejnera — omogućite korištenje kontejnera u nastavku."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -286,23 +317,56 @@ msgstr "Kontejneri"
 msgid "Manage container technologies."
 msgstr "Upravljajte tehnologijama kontejnera."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "Docker omogućeno."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 30
+#: NEEDS WORK
+msgid "Media &amp; Cloud"
+msgstr "Mediji i oblak"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 31
+#: NEEDS WORK
+msgid "Media servers and cloud storage containers."
+msgstr "Medijski poslužitelji i spremnici za pohranu u oblaku."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 36
+#: NEEDS WORK
+msgid "Network &amp; Security"
+msgstr "Mreža i sigurnost"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 37
+#: NEEDS WORK
+msgid "Network tools and security containers."
+msgstr "Mrežni alati i sigurnosni kontejneri."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 42
+#: NEEDS WORK
+msgid "Development &amp; Tools"
+msgstr "Razvoj i alati"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 43
+#: NEEDS WORK
+msgid "Development stacks and utility containers."
+msgstr "Razvojni paketi i korisnička spremišta."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
+#: NEEDS WORK
+msgid "Enable Docker container engine."
+msgstr "Omogući Docker kontejnerski motor."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
 msgid "Nextcloud Plus"
 msgstr "Nextcloud Plus"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
-msgid "Install Nextcloud Plus container."
-msgstr "Instalirajte Nextcloud Plus kontejner."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 62
+#: NEEDS WORK
+msgid "Install Nextcloud Plus cloud storage container."
+msgstr "Instalirajte Nextcloud Plus kontejner za pohranu u oblaku."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
 msgid "Run Nextcloud Plus."
 msgstr "Pokreni Nextcloud Plus."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
+#, python-brace-format
 msgid ""
 "Nextcloud Plus is running.\n"
 "Address: http://localhost:8286\n"
@@ -318,15 +382,17 @@ msgstr ""
 msgid "AdGuard"
 msgstr "AdGuard"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
-msgid "Install AdGuard Home container."
-msgstr "Instalirajte AdGuard Home kontejner."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 81
+#: NEEDS WORK
+msgid "Install AdGuard Home DNS ad-blocker container."
+msgstr "Instalirajte AdGuard Home DNS blokator oglasa u kontejneru."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
 msgid "Run AdGuard."
 msgstr "Pokreni AdGuard."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
+#, python-brace-format
 msgid ""
 "AdGuard is running.\n"
 "Address: http://localhost:3030\n"
@@ -342,15 +408,17 @@ msgstr ""
 msgid "Jellyfin"
 msgstr "Jellyfin"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
-msgid "Install Jellyfin media server."
-msgstr "Instalirajte Jellyfin poslužitelj medija."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 100
+#: NEEDS WORK
+msgid "Install Jellyfin media server container."
+msgstr "Instalirajte Jellyfin poslužitelj medija u kontejneru."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
 msgid "Run Jellyfin."
 msgstr "Pokreni Jellyfin."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
+#, python-brace-format
 msgid ""
 "Jellyfin is running.\n"
 "Address: http://localhost:8096\n"
@@ -366,15 +434,17 @@ msgstr ""
 msgid "LAMP"
 msgstr "LAMP"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
-msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
-msgstr "Instalirajte LAMP paket (Linux, Apache, MySQL, PHP)."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 119
+#: NEEDS WORK
+msgid "Install LAMP stack container (Linux, Apache, MySQL, PHP)."
+msgstr "Instalirajte LAMP stack kontejner (Linux, Apache, MySQL, PHP)."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
 msgid "Run LAMP."
 msgstr "Pokreni LAMP."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
+#, python-brace-format
 msgid ""
 "LAMP is running.\n"
 "Address: http://localhost:8080\n"
@@ -390,15 +460,17 @@ msgstr ""
 msgid "Portainer Client"
 msgstr "Portainer Klijent"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
-msgid "Install Portainer Agent for cluster management."
-msgstr "Instalirajte Portainer Agent za upravljanje klasterom."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 138
+#: NEEDS WORK
+msgid "Install Portainer Agent container for cluster management."
+msgstr "Instalirajte Portainer Agent kontejner za upravljanje klasterom."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
 msgid "Run Portainer Client."
 msgstr "Pokrenite Portainer klijent."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
+#, python-brace-format
 msgid ""
 "Portainer Client is running.\n"
 "Address: http://localhost:9000\n"
@@ -414,15 +486,17 @@ msgstr ""
 msgid "SWS"
 msgstr "SWS"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
-msgid "Install SWS static web server."
-msgstr "Instalirajte SWS statički web poslužitelj."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 157
+#: NEEDS WORK
+msgid "Install SWS static web server container."
+msgstr "Instalirajte SWS statički web poslužitelj kontejner."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
 msgid "Run SWS."
 msgstr "Pokreni SWS."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+#, python-brace-format
 msgid ""
 "SWS is running.\n"
 "Address: http://localhost:8182\n"
@@ -438,15 +512,17 @@ msgstr ""
 msgid "V2RayA"
 msgstr "V2RayA"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
-msgid "Install V2RayA network tool."
-msgstr "Instalirajte V2RayA mrežni alat."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 176
+#: NEEDS WORK
+msgid "Install V2RayA network proxy container."
+msgstr "Instaliraj V2RayA mrežni proxy kontejner."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
 msgid "Run V2RayA."
 msgstr "Pokreni V2RayA."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
+#, python-brace-format
 msgid ""
 "V2RayA is running.\n"
 "Address: http://localhost:2017\n"
@@ -458,6 +534,15 @@ msgstr ""
 "i  \n"
 "Adresa: http://{}:2017"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 203
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
+#: NEEDS WORK
+msgid "Open Notebook"
+msgstr "Otvorite bilježnicu"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
 msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "Instalirajte otvoreni izvor, privatnost-orijentiranu alternativu Googleovom Notebook LM!"
@@ -467,6 +552,7 @@ msgid "Run Open Notebook."
 msgstr "Pokreni Otvoreni Bilježnicu."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+#, python-brace-format
 msgid ""
 "Open Notebook is running.\n"
 "Address: http://localhost:8502\n"
@@ -478,17 +564,49 @@ msgstr ""
 "i  \n"
 "Adresa: http://{}:8502"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-msgid "Changing {} to {}"
-msgstr "Mijenjanje {} u {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
+#: NEEDS WORK
+msgid "Close"
+msgstr "Zatvori"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-msgid "ERROR: Failed to change {} to {}"
-msgstr "GREŠKA: Nije moguće promijeniti {} u {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+#: NEEDS WORK
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Upozorenje: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-msgid "Failed to change setting: {}"
-msgstr "Neuspješno promijenjena postavka: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
+#: NEEDS WORK
+msgid "Cancel"
+msgstr "Otkaži"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
+#: NEEDS WORK
+msgid "Continue"
+msgstr "Nastavi"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
+#: NEEDS WORK
+msgid "Recommended"
+msgstr "Preporučeno"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: additional information"
+msgstr "{}: dodatne informacije"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+#: NEEDS WORK
+msgid "Learn more"
+msgstr "Saznajte više"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: learn more"
+msgstr "{}: saznajte više"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -499,6 +617,7 @@ msgstr "Nedostupno: skripta nije pronađena."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+#, python-brace-format
 msgid "Script not found: {}"
 msgstr "Skripta nije pronađena: {}"
 # 
@@ -531,6 +650,7 @@ msgid "Unavailable: script returned invalid output."
 msgstr "Nedostupno: skripta je vratila nevažeći izlaz."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+#, python-brace-format
 msgid "output from script {}: {}"
 msgstr "izlaz iz skripte {}: {}"
 # 
@@ -542,6 +662,7 @@ msgid "Unavailable: script returned an error."
 msgstr "Nedostupno: skripta je vratila pogrešku."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+#, python-brace-format
 msgid "Error checking state: {}"
 msgstr "Provjera pogreške stanja: {}"
 # 
@@ -554,6 +675,7 @@ msgstr "Nedostupno: nije uspjelo pokretanje skripte."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+#, python-brace-format
 msgid "Error running script {}: {}"
 msgstr "Greška prilikom pokretanja skripte {}: {}"
 # 
@@ -562,45 +684,111 @@ msgid "State changed successfully"
 msgstr "Stanje je uspješno promijenjeno."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+#, python-brace-format
 msgid "Script output: {}"
 msgstr "Izlaz skripte: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+#, python-brace-format
 msgid "Script failed with exit code: {}"
 msgstr "Skripta je neuspješno završila s izlaznim kodom: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+#, python-brace-format
 msgid "Script timeout: {}"
 msgstr "Izdavanje skripte isteklo: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Switch {} synchronized: {}"
-msgstr "Prebaci {} sinkronizirano: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} sub-options available"
+msgstr "{} dostupne podopcije"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "on"
+msgstr "uključeno"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "off"
+msgstr "isključeno"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
+#: NEEDS WORK
+#, python-brace-format
+msgid "Changing {} to {}…"
+msgstr "Mijenjanje {} u {}…"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+#: NEEDS WORK
+msgid "Undo"
+msgstr "Poništi"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
+#: NEEDS WORK
+msgid "Undo: reverted toggle"
+msgstr "Poništi: vraćeni prekidač"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+#, python-brace-format
+msgid "Changing {} to {}"
+msgstr "Mijenjanje {} u {}"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "Pokazatelj {} sinkroniziran: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "Primjena…"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+#, python-brace-format
+msgid "ERROR: Failed to change {} to {}"
+msgstr "GREŠKA: Nije moguće promijeniti {} u {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+#, python-brace-format
+msgid "Failed to change setting: {}"
+msgstr "Neuspješno promijenjena postavka: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
 msgid "BigLinux Settings"
 msgstr "BigLinux Postavke"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "Kategorije"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
+#: NEEDS WORK
+msgid "BigLinux Community"
+msgstr "BigLinux Zajednica"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
 msgid "Search..."
 msgstr "Pretraži..."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "Postavke"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
+#: NEEDS WORK
+msgid "Search settings"
+msgstr "Postavke pretraživanja"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
+#: NEEDS WORK
+msgid "Toggle navigation sidebar"
+msgstr "Prebaci navigacijsku bočnu traku"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
+#: NEEDS WORK
+msgid "About"
+msgstr "O programu"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
+#: NEEDS WORK
+msgid "Main Menu"
+msgstr "Glavni izbornik"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System"
@@ -630,6 +818,11 @@ msgstr "A.I."
 msgid "Performance"
 msgstr "Izvedba"
 # 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
+#: NEEDS WORK
+msgid "Dismiss"
+msgstr "Odbaci"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."
 msgstr "Opća sistemska podešavanja."
@@ -643,6 +836,7 @@ msgid "Enable remote access via ssh."
 msgstr "Omogućite daljinski pristup putem ssh-a."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+#, python-brace-format
 msgid "SSH Address: {}"
 msgstr "SSH adresa: {}"
 # 
@@ -718,17 +912,19 @@ msgstr "Upravljajte fizičkim uređajima."
 msgid "Wifi"
 msgstr "Wifi"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi Uključen"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "Omogući Wi-Fi adapter."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
 msgid "Bluetooth"
 msgstr "Bluetooth"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth uključen."
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "Omogući Bluetooth adapter."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -748,6 +944,47 @@ msgstr "Obrnuto pomicanje miša"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Obrnuto pomicanje miša bez ponovnog pokretanja sesije."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "Mrežne sučelja"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "Poveži ili odspoji mrežne uređaje."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} — {}"
+msgstr ""
+"I'm sorry, but I need the specific string you want to translate in order to assist you. Please "
+"provide the string."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: prebacivanje veze"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "povezan"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "isključen"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "Neuspjelo je promijeniti mrežni uređaj: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -791,14 +1028,19 @@ msgstr "Onemogućuje S.M.A.R.T praćenje diska. Smanjuje I/O diska i CPU korišt
 msgid "Meltdown Mitigations off"
 msgstr "Mitigacije za Meltdown isključene"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
+#: NEEDS WORK
+msgid "Using mitigations=off will make your machine faster and less secure!"
+msgstr "Korištenje mitigacija=isključeno će ubrzati vaše računalo, ali će ga učiniti manje sigurnim!"
+# 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
+#: NEEDS WORK
 msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
+"This will disable CPU security mitigations (Meltdown/Spectre). Your system will be faster but "
+"vulnerable to hardware-level attacks. Are you sure you want to continue?"
 msgstr ""
-"Korištenje mitigacija=isključeno učinit će vaš uređaj bržim, ali manje sigurnim! Za više "
-"informacija pogledajte: <a href='{l}'>{l}</a>"
+"Ovo će onemogućiti sigurnosne mjere CPU-a (Meltdown/Spectre). Vaš sustav će biti brži, ali ranjiv "
+"na napade na razini hardvera. Jeste li sigurni da želite nastaviti?"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
 msgid "noWatchdog"
@@ -812,21 +1054,42 @@ msgstr ""
 "Onemogućuje hardverski watchdog i TSC izvor vremena, održavajući visoke performanse, ali "
 "uklanjajući automatske zaštite od rušenja sustava."
 # 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
+#: NEEDS WORK
+msgid ""
+"This will disable the hardware watchdog. Your system will no longer automatically recover from "
+"certain types of crashes. Are you sure you want to continue?"
+msgstr ""
+"Ovo će onemogućiti hardverski nadzor. Vaš sustav više neće automatski oporavljati od određenih "
+"vrsta rušenja. Jeste li sigurni da želite nastaviti?"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
 msgstr "AI Sučelja"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
-msgid "Graphical interface for artificial intelligence.."
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 16
+#: NEEDS WORK
+msgid "Graphical interface for artificial intelligence."
 msgstr "Grafičko sučelje za umjetnu inteligenciju."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 22
-msgid "Ollma Server"
-msgstr "Ollma poslužitelj"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+#: NEEDS WORK
+msgid "Ollama Server"
+msgstr "Ollama Server"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Odaberite koji je Ollama poslužitelj najbolji za vašu hardversku opremu."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Ollama Variants"
+msgstr "Ollama Varijante"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Select the variant that matches your GPU hardware."
+msgstr "Odaberite varijantu koja odgovara vašem GPU hardveru."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"
@@ -843,6 +1106,11 @@ msgstr "Ollama LAB"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
 msgid "Graphical interface for managing Ollama models and chat."
 msgstr "Grafičko sučelje za upravljanje Ollama modelima i chatom."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+#: NEEDS WORK
+msgid "ChatBox"
+msgstr "RazgovornaKutija"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
 msgid "User-friendly Desktop Client App for AI Models/LLMs."
@@ -874,12 +1142,13 @@ msgstr "Najmoćniji i modularni vizualni AI motor i aplikacija."
 msgid "ComfyUI Server"
 msgstr "ComfyUI Poslužitelj"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
-#, python-brace-format
-msgid "start ComfyUI Server. For more information see: <a href='{l}'>{l}</a>"
-msgstr "pokreni ComfyUI poslužitelj. Za više informacija vidi: <a href='{l}'>{l}</a>"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+#: NEEDS WORK
+msgid "Start the ComfyUI server."
+msgstr "Pokreni ComfyUI poslužitelj."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+#, python-brace-format
 msgid ""
 "ComfyUI server is running.\n"
 "Address: http://localhost:8188\n"
@@ -928,6 +1197,7 @@ msgstr "Dijelite ollama na lokalnoj mreži."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 86
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 104
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 122
+#, python-brace-format
 msgid ""
 "Ollama server is running.\n"
 "Address: http://{}:11434"
@@ -987,12 +1257,10 @@ msgstr "Dugme za maksimiziranje, minimiziranje i zatvaranje s lijeve strane proz
 msgid "KZones"
 msgstr "KZone"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "Skripta za KWin upravitelja prozora KDE Plasma radnog okruženja."
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "Omogući zone za pločice prozora za KDE Plasma radnu površinu."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
 msgid "Recent Files & Locations"

@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the biglinux-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
@@ -16,7 +17,8 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "kzones Install"
 msgstr "kzones Telepítés"
-msgid "Instaling Kzones, Please wait..."
+#: NEEDS WORK
+msgid "Installing Kzones, please wait..."
 msgstr "Kzones telepítése, kérem várjon..."
 msgid "Kzones installed successfully!"
 msgstr "A Kzones sikeresen telepítve lett!"
@@ -24,12 +26,14 @@ msgid "Applying, please wait..."
 msgstr "Alkalmazás folyamatban, kérjük várjon..."
 msgid "Recent Files enabling...."
 msgstr "Legutóbbi fájlok engedélyezése...."
-msgid "Recent Files enabling, Please wait..."
-msgstr "Legutóbbi fájlok engedélyezése, Kérem várjon..."
+#: NEEDS WORK
+msgid "Recent Files enabling, please wait..."
+msgstr "Legutóbbi fájlok engedélyezése, kérem várjon..."
 msgid "Recent Files disabling...."
 msgstr "A legutóbbi fájlok letiltása...."
-msgid "Recent Files disabling, Please wait..."
-msgstr "A legutóbbi fájlok letiltása, Kérem várjon..."
+#: NEEDS WORK
+msgid "Recent Files disabling, please wait..."
+msgstr "A legutóbbi fájlok letiltása, kérem várjon..."
 msgid ""
 "Recent Files successfully enabled!\\n"
 "You need to close and reopen Dolphin for it to take effect."
@@ -58,7 +62,8 @@ msgid "Failed to install Example!"
 msgstr "A telepítés nem sikerült: Példa!"
 msgid "JamesDSP Install"
 msgstr "JamesDSP telepítése"
-msgid "Instaling JamesDSP, Please wait..."
+#: NEEDS WORK
+msgid "Installing JamesDSP, please wait..."
 msgstr "JamesDSP telepítése, kérem várjon..."
 msgid "JamesDSP installed successfully!"
 msgstr "A JamesDSP sikeresen telepítve lett!"
@@ -66,28 +71,34 @@ msgid "Failed to install jamesDSP!"
 msgstr "A jamesDSP telepítése nem sikerült!"
 msgid "Docker Install"
 msgstr "Docker telepítése"
-msgid "Instaling Docker, Please wait..."
+#: NEEDS WORK
+msgid "Installing Docker, please wait..."
 msgstr "Docker telepítése, kérem várjon..."
 msgid "Docker Start"
 msgstr "Docker Indítás"
-msgid "Docker Starting, Please wait..."
-msgstr "Docker indítása, Kérem várjon..."
+#: NEEDS WORK
+msgid "Docker Starting, please wait..."
+msgstr "Docker indítása, kérem várjon..."
 msgid "Docker Stop"
 msgstr "Docker leállítása"
-msgid "Docker Stopping, Please wait..."
-msgstr "Docker leállítása, Kérem várjon..."
+#: NEEDS WORK
+msgid "Docker Stopping, please wait..."
+msgstr "Docker leállítása, kérem várjon..."
 msgid "Docker installed successfully!"
 msgstr "A Docker sikeresen telepítve lett!"
-msgid "An error occurred while install docker."
+#: NEEDS WORK
+msgid "An error occurred while installing Docker."
 msgstr "Hiba történt a Docker telepítése során."
 msgid "Installing $package"
 msgstr "$package telepítése"
-msgid "Installing $package, Please wait..."
-msgstr "A(z) $package telepítése, Kérem várjon..."
+#: NEEDS WORK
+msgid "Installing $package, please wait..."
+msgstr "A(z) $package telepítése, kérem várjon..."
 msgid "Removing $package"
 msgstr "$package eltávolítása"
-msgid "Removing $package, Please wait..."
-msgstr "A(z) $package eltávolítása, Kérem várjon..."
+#: NEEDS WORK
+msgid "Removing $package, please wait..."
+msgstr "A $package eltávolítása, kérem várjon..."
 msgid ""
 "$title installed successfully!\\n"
 "\\n"
@@ -118,36 +129,42 @@ msgid "Already enabled. No changes made."
 msgstr "Már engedélyezve van. Nincsenek változtatások."
 msgid "Ollama Vulkan Install"
 msgstr "Ollama Vulkan Telepítés"
-msgid "Instaling Ollama, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
 msgstr "Ollama telepítése, kérem várjon..."
 msgid "Ollama Vulkan Uninstall"
 msgstr "Ollama Vulkan Eltávolítás"
-msgid "Unistaling Ollama Vulkan, Please wait..."
-msgstr "Ollama Vulkan eltávolítása, Kérem várjon..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Ollama Vulkan eltávolítása, kérem várjon..."
 msgid "Ollama Vulkan installed successfully!"
 msgstr "Ollama Vulkan sikeresen telepítve!"
 msgid "Failed to install Ollama Vulkan!"
 msgstr "Ollama Vulkan telepítése nem sikerült!"
 msgid "ChatBox Install"
 msgstr "ChatBox Telepítés"
-msgid "Instaling ChatBox, Please wait..."
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
 msgstr "A ChatBox telepítése, kérem várjon..."
 msgid "ChatBox Uninstall"
 msgstr "ChatBox eltávolítása"
-msgid "Uninstaling ChatBox, Please wait..."
-msgstr "A ChatBox eltávolítása, kérem várjon..."
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
+msgstr "A ChatBox eltávolítása folyamatban, kérem, várjon..."
 msgid "ChatBox installed successfully!"
 msgstr "A ChatBox sikeresen telepítve lett!"
 msgid "Failed to install ChatBox!"
 msgstr "A ChatBox telepítése nem sikerült!"
 msgid "Ollama Lab Install"
 msgstr "Ollama Lab Telepítés"
-msgid "Instaling Ollama Lab, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama Lab, please wait..."
 msgstr "Ollama Lab telepítése, kérem várjon..."
 msgid "Ollama Lab Uninstall"
 msgstr "Ollama Lab eltávolítása"
-msgid "Unistaling Ollama Lab, Please wait..."
-msgstr "Ollama Lab eltávolítása, Kérem várjon..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Ollama Lab eltávolítása, kérem várjon..."
 msgid "Ollama Lab installed successfully!"
 msgstr "Az Ollama Lab sikeresen telepítve!"
 msgid "Failed to install Ollama Lab!"
@@ -180,32 +197,37 @@ msgid "Ollama Install"
 msgstr "Ollama Telepítés"
 msgid "Ollama Uninstall"
 msgstr "Ollama eltávolítása"
-msgid "Unistaling Ollama, Please wait..."
-msgstr "Ollama eltávolítása, Kérem várjon..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Ollama eltávolítása, kérem várjon..."
 msgid "Ollama installed successfully!"
 msgstr "Az Ollama sikeresen telepítve!"
 msgid "Failed to install Ollama!"
 msgstr "Ollama telepítése nem sikerült!"
 msgid "Ollama ROCm Install"
 msgstr "Ollama ROCm Telepítés"
-msgid "Instaling Ollama ROCm, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
 msgstr "Ollama ROCm telepítése, kérem várjon..."
 msgid "Ollama ROCm Uninstall"
 msgstr "Ollama ROCm eltávolítása"
-msgid "Unistaling Ollama ROCm, Please wait..."
-msgstr "Ollama ROCm eltávolítása, Kérem várjon..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Ollama ROCm eltávolítása, kérem várjon..."
 msgid "Ollama ROCm installed successfully!"
 msgstr "Ollama ROCm sikeresen telepítve!"
 msgid "Failed to install Ollama ROCm!"
 msgstr "Ollama ROCm telepítése nem sikerült!"
 msgid "comfyUI Install...."
 msgstr "comfyUI telepítése...."
-msgid "Instaling comfyUI, this step take a long time, Please wait..."
-msgstr "A ComfyUI telepítése, ez a lépés sokáig tart, Kérjük, várjon..."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "A comfyUI telepítése, ez a lépés hosszú időt vehet igénybe, kérjük, várjon..."
 msgid "Uninstall comfyUI...."
 msgstr "Távolítsa el a comfyUI-t...."
-msgid "Uninstaling comfyUI, Please wait..."
-msgstr "A ComfyUI eltávolítása, Kérem, várjon..."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "A comfyUI eltávolítása, kérem várjon..."
 msgid "comfyUI installed successfully"
 msgstr "A comfyUI sikeresen telepítve lett."
 msgid "comfyUI uninstalled successfully"
@@ -220,15 +242,18 @@ msgid ""
 msgstr ""
 "Ollama megosztva. \\n"
 "Cím: http://$localIp:11434"
-msgid "Failed to shared Ollama!"
-msgstr "Sikertelen az Ollama megosztása!"
+#: NEEDS WORK
+msgid "Failed to configure Ollama sharing!"
+msgstr "Sikertelen az Ollama megosztás konfigurálása!"
 msgid "Ollama CUDA Install"
 msgstr "Ollama CUDA telepítése"
-msgid "Instaling Ollama CUDA, Please wait..."
-msgstr "Ollama CUDA telepítése, Kérem várjon..."
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "Ollama CUDA telepítése, kérem várjon..."
 msgid "Ollama CUDA Uninstall"
 msgstr "Ollama CUDA eltávolítása"
-msgid "Unistaling Ollama CUDA, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
 msgstr "Ollama CUDA eltávolítása, kérem várjon..."
 msgid "Ollama CUDA installed successfully!"
 msgstr "Ollama CUDA sikeresen telepítve!"
@@ -236,32 +261,37 @@ msgid "Failed to install Ollama CUDA!"
 msgstr "Ollama CUDA telepítése nem sikerült!"
 msgid "LM Studio Install"
 msgstr "LM Stúdió Telepítés"
-msgid "Instaling LM Studio, Please wait..."
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
 msgstr "LM Studio telepítése, kérem várjon..."
 msgid "LM Studio Uninstall"
 msgstr "LM Stúdió Eltávolítása"
-msgid "Uninstaling LM Studio, Please wait..."
-msgstr "LM Studio eltávolítása, Kérem, várjon..."
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "LM Studio eltávolítása, kérem várjon..."
 msgid "LM Studio installed successfully!"
 msgstr "Az LM Studio sikeresen telepítve!"
 msgid "Failed to install LM Studio!"
 msgstr "A LM Studio telepítése nem sikerült!"
 msgid "Krita Install"
 msgstr "Krita telepítése"
-msgid "Instaling Krita, Please wait..."
-msgstr "Krita telepítése, Kérem várjon..."
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "Krita telepítése, kérem várjon..."
 msgid "Krita Uninstall"
 msgstr "Krita eltávolítása"
-msgid "Uninstaling Krita, Please wait..."
-msgstr "Krita eltávolítása, Kérem várjon..."
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
+msgstr "A Krita eltávolítása folyamatban, kérem várjon..."
 msgid "Krita installed successfully!"
 msgstr "A Krita sikeresen telepítve lett!"
 msgid "Failed to install Krita!"
 msgstr "A Krita telepítése nem sikerült!"
 msgid "comfyUI Depends Install"
 msgstr "comfyUI Függőségek Telepítése"
-msgid "Instaling comfyUI Depends, Please wait..."
-msgstr "A comfyUI telepítése függőségeket igényel, kérem várjon..."
+#: NEEDS WORK
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "A comfyUI telepítése függőségekkel, kérem várjon..."
 msgid "comfyUI Depends installed successfully!"
 msgstr "comfyUI függőségek sikeresen telepítve!"
 msgid "Failed to install comfyUI Depends!"
@@ -271,9 +301,10 @@ msgstr "A comfyUI telepítése meghiúsult!"
 msgid "Docker"
 msgstr "Docker"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
-msgid "Container service - enable to use containers below."
-msgstr "Konténer szolgáltatás - engedélyezze a konténerek használatát az alábbiakban."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
+#: NEEDS WORK
+msgid "Container service — enable to use containers below."
+msgstr "Konténer szolgáltatás — engedélyezze a konténerek használatát alább."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -286,23 +317,56 @@ msgstr "Tartályok"
 msgid "Manage container technologies."
 msgstr "Kezelje a konténertechnológiákat."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "Docker engedélyezve."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 30
+#: NEEDS WORK
+msgid "Media &amp; Cloud"
+msgstr "Média és Felhő"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 31
+#: NEEDS WORK
+msgid "Media servers and cloud storage containers."
+msgstr "Média szerverek és felhőalapú tároló konténerek."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 36
+#: NEEDS WORK
+msgid "Network &amp; Security"
+msgstr "Hálózat és Biztonság"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 37
+#: NEEDS WORK
+msgid "Network tools and security containers."
+msgstr "Hálózati eszközök és biztonsági tárolók."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 42
+#: NEEDS WORK
+msgid "Development &amp; Tools"
+msgstr "Fejlesztés és Eszközök"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 43
+#: NEEDS WORK
+msgid "Development stacks and utility containers."
+msgstr "Fejlesztési verem és segédprogram tárolók."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
+#: NEEDS WORK
+msgid "Enable Docker container engine."
+msgstr "Docker konténermotor engedélyezése."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
 msgid "Nextcloud Plus"
 msgstr "Nextcloud Plus"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
-msgid "Install Nextcloud Plus container."
-msgstr "Telepítse a Nextcloud Plus konténert."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 62
+#: NEEDS WORK
+msgid "Install Nextcloud Plus cloud storage container."
+msgstr "Telepítse a Nextcloud Plus felhő tároló konténert."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
 msgid "Run Nextcloud Plus."
 msgstr "Futtassa a Nextcloud Plus-t."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
+#, python-brace-format
 msgid ""
 "Nextcloud Plus is running.\n"
 "Address: http://localhost:8286\n"
@@ -318,15 +382,17 @@ msgstr ""
 msgid "AdGuard"
 msgstr "AdGuard"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
-msgid "Install AdGuard Home container."
-msgstr "Telepítse az AdGuard Home konténert."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 81
+#: NEEDS WORK
+msgid "Install AdGuard Home DNS ad-blocker container."
+msgstr "Telepítse az AdGuard Home DNS hirdetésblokkoló konténert."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
 msgid "Run AdGuard."
 msgstr "Futtasd az AdGuardot."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
+#, python-brace-format
 msgid ""
 "AdGuard is running.\n"
 "Address: http://localhost:3030\n"
@@ -342,15 +408,17 @@ msgstr ""
 msgid "Jellyfin"
 msgstr "Jellyfin"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
-msgid "Install Jellyfin media server."
-msgstr "Telepítse a Jellyfin média szervert."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 100
+#: NEEDS WORK
+msgid "Install Jellyfin media server container."
+msgstr "Jellyfin média szerver konténer telepítése."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
 msgid "Run Jellyfin."
 msgstr "Futtasd a Jellyfint."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
+#, python-brace-format
 msgid ""
 "Jellyfin is running.\n"
 "Address: http://localhost:8096\n"
@@ -366,15 +434,17 @@ msgstr ""
 msgid "LAMP"
 msgstr "LAMP"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
-msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
-msgstr "Telepítse a LAMP stack-et (Linux, Apache, MySQL, PHP)."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 119
+#: NEEDS WORK
+msgid "Install LAMP stack container (Linux, Apache, MySQL, PHP)."
+msgstr "LAMP stack konténer telepítése (Linux, Apache, MySQL, PHP)."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
 msgid "Run LAMP."
 msgstr "Futtassa a LAMP-ot."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
+#, python-brace-format
 msgid ""
 "LAMP is running.\n"
 "Address: http://localhost:8080\n"
@@ -390,15 +460,17 @@ msgstr ""
 msgid "Portainer Client"
 msgstr "Portainer kliens"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
-msgid "Install Portainer Agent for cluster management."
-msgstr "Telepítse a Portainer ügynököt a klaszter kezeléséhez."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 138
+#: NEEDS WORK
+msgid "Install Portainer Agent container for cluster management."
+msgstr "Telepítse a Portainer Agent konténert a klaszter kezeléséhez."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
 msgid "Run Portainer Client."
 msgstr "Futtassa a Portainer Klienst."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
+#, python-brace-format
 msgid ""
 "Portainer Client is running.\n"
 "Address: http://localhost:9000\n"
@@ -414,15 +486,17 @@ msgstr ""
 msgid "SWS"
 msgstr "SWS"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
-msgid "Install SWS static web server."
-msgstr "Telepítse az SWS statikus webszervert."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 157
+#: NEEDS WORK
+msgid "Install SWS static web server container."
+msgstr "Telepítse az SWS statikus webkiszolgáló konténert."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
 msgid "Run SWS."
 msgstr "Futtassa az SWS-t."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+#, python-brace-format
 msgid ""
 "SWS is running.\n"
 "Address: http://localhost:8182\n"
@@ -438,15 +512,17 @@ msgstr ""
 msgid "V2RayA"
 msgstr "V2RayA"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
-msgid "Install V2RayA network tool."
-msgstr "Telepítse a V2RayA hálózati eszközt."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 176
+#: NEEDS WORK
+msgid "Install V2RayA network proxy container."
+msgstr "Telepítse a V2RayA hálózati proxy tartályt."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
 msgid "Run V2RayA."
 msgstr "Futtassa a V2RayA-t."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
+#, python-brace-format
 msgid ""
 "V2RayA is running.\n"
 "Address: http://localhost:2017\n"
@@ -457,6 +533,15 @@ msgstr ""
 "Cím: http://localhost:2017  \n"
 "és  \n"
 "Cím: http://{}:2017"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 203
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
+#: NEEDS WORK
+msgid "Open Notebook"
+msgstr "Nyitott Jegyzetfüzet"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
 msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
@@ -469,6 +554,7 @@ msgid "Run Open Notebook."
 msgstr "Futtassa az Open Notebook-ot."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+#, python-brace-format
 msgid ""
 "Open Notebook is running.\n"
 "Address: http://localhost:8502\n"
@@ -480,17 +566,49 @@ msgstr ""
 "és  \n"
 "Cím: http://{}:8502"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-msgid "Changing {} to {}"
-msgstr "A {} átkonvertálása {}-ra"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
+#: NEEDS WORK
+msgid "Close"
+msgstr "Bezárás"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-msgid "ERROR: Failed to change {} to {}"
-msgstr "HIBA: A {}-t {}-ra nem sikerült megváltoztatni."
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+#: NEEDS WORK
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Figyelmeztetés: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-msgid "Failed to change setting: {}"
-msgstr "A beállítás módosítása nem sikerült: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
+#: NEEDS WORK
+msgid "Cancel"
+msgstr "Mégse"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
+#: NEEDS WORK
+msgid "Continue"
+msgstr "Folytatás"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
+#: NEEDS WORK
+msgid "Recommended"
+msgstr "Ajánlott"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: additional information"
+msgstr "{}: kiegészítő információ"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+#: NEEDS WORK
+msgid "Learn more"
+msgstr "Tudj meg többet"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: learn more"
+msgstr "{}: további információk"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -501,6 +619,7 @@ msgstr "Nem elérhető: a szkript nem található."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+#, python-brace-format
 msgid "Script not found: {}"
 msgstr "A szkript nem található: {}"
 # 
@@ -533,6 +652,7 @@ msgid "Unavailable: script returned invalid output."
 msgstr "Nem elérhető: a szkript érvénytelen kimenetet adott vissza."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+#, python-brace-format
 msgid "output from script {}: {}"
 msgstr "A szkript kimenete {}: {}"
 # 
@@ -544,6 +664,7 @@ msgid "Unavailable: script returned an error."
 msgstr "Nem elérhető: a szkript hibaüzenetet adott vissza."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+#, python-brace-format
 msgid "Error checking state: {}"
 msgstr "Hibaellenőrzési állapot: {}"
 # 
@@ -556,6 +677,7 @@ msgstr "Nem elérhető: a szkript futtatása nem sikerült."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+#, python-brace-format
 msgid "Error running script {}: {}"
 msgstr "Hiba a szkript futtatása közben {}: {}"
 # 
@@ -564,45 +686,111 @@ msgid "State changed successfully"
 msgstr "Állapot sikeresen megváltozott"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+#, python-brace-format
 msgid "Script output: {}"
 msgstr "{}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+#, python-brace-format
 msgid "Script failed with exit code: {}"
 msgstr "A szkript hibával leállt a következő kóddal: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+#, python-brace-format
 msgid "Script timeout: {}"
 msgstr "Script időtúllépés: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Switch {} synchronized: {}"
-msgstr "Váltás {} szinkronizált: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} sub-options available"
+msgstr "{} elérhető alkérdések"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "on"
+msgstr "beállítva"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "off"
+msgstr "ki."
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
+#: NEEDS WORK
+#, python-brace-format
+msgid "Changing {} to {}…"
+msgstr "{}-t {}-ra változtatás…"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+#: NEEDS WORK
+msgid "Undo"
+msgstr "Visszavonás"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
+#: NEEDS WORK
+msgid "Undo: reverted toggle"
+msgstr "Visszavonás: visszaállított kapcsoló"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+#, python-brace-format
+msgid "Changing {} to {}"
+msgstr "A {} átkonvertálása {}-ra"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "A {} szinkronizálva: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "Alkalmazás…"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+#, python-brace-format
+msgid "ERROR: Failed to change {} to {}"
+msgstr "HIBA: A {}-t {}-ra nem sikerült megváltoztatni."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+#, python-brace-format
+msgid "Failed to change setting: {}"
+msgstr "A beállítás módosítása nem sikerült: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
 msgid "BigLinux Settings"
 msgstr "BigLinux Beállítások"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "Kategóriák"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
+#: NEEDS WORK
+msgid "BigLinux Community"
+msgstr "BigLinux Közösség"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
 msgid "Search..."
 msgstr "Keresés..."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "Beállítások"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
+#: NEEDS WORK
+msgid "Search settings"
+msgstr "Keresési beállítások"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
+#: NEEDS WORK
+msgid "Toggle navigation sidebar"
+msgstr "Navigációs sáv váltása"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
+#: NEEDS WORK
+msgid "About"
+msgstr "A programról"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
+#: NEEDS WORK
+msgid "Main Menu"
+msgstr "Főmenü"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System"
@@ -632,6 +820,11 @@ msgstr "Mesterséges intelligencia."
 msgid "Performance"
 msgstr "Teljesítmény"
 # 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
+#: NEEDS WORK
+msgid "Dismiss"
+msgstr "Elutasít"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."
 msgstr "Általános rendszerbeállítások."
@@ -645,6 +838,7 @@ msgid "Enable remote access via ssh."
 msgstr "Engedélyezze a távoli hozzáférést ssh-n keresztül."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+#, python-brace-format
 msgid "SSH Address: {}"
 msgstr "SSH cím: {}"
 # 
@@ -720,17 +914,19 @@ msgstr "Fizikai eszközök kezelése."
 msgid "Wifi"
 msgstr "Wifi"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi Bekapcsolva"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "Engedélyezze a Wi-Fi adaptert."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
 msgid "Bluetooth"
 msgstr "Bluetooth"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth be van kapcsolva."
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "Engedélyezze a Bluetooth adaptert."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -750,6 +946,45 @@ msgstr "Fordított egér görgetés"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Az egér görgetésének megfordítása a munkamenet újraindítása nélkül."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "Hálózati interfészek"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "Hálózati eszközök csatlakoztatása vagy leválasztása."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} — {}"
+msgstr "{} — {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: kapcsolat váltása"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "csatlakoztatva"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "kapcsolat megszakítva"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "Hálózati eszköz módosítása nem sikerült: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -795,14 +1030,19 @@ msgstr "Letiltja a S.M.A.R.T lemezfigyelést. Csökkenti a lemez I/O és a CPU h
 msgid "Meltdown Mitigations off"
 msgstr "Meltdown mérséklések kikapcsolva"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
+#: NEEDS WORK
+msgid "Using mitigations=off will make your machine faster and less secure!"
+msgstr "A mitigációk kikapcsolása gyorsabbá és kevésbé biztonsossá teszi a gépét!"
+# 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
+#: NEEDS WORK
 msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
+"This will disable CPU security mitigations (Meltdown/Spectre). Your system will be faster but "
+"vulnerable to hardware-level attacks. Are you sure you want to continue?"
 msgstr ""
-"A mitigációk kikapcsolása gyorsabbá és kevésbé biztonsossá teszi a gépét! További információért "
-"lásd: <a href='{l}'>{l}</a>"
+"Ez letiltja a CPU biztonsági intézkedéseit (Meltdown/Spectre). A rendszere gyorsabb lesz, de "
+"sebezhető a hardver szintű támadásokkal szemben. Biztos benne, hogy folytatni akarja?"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
 msgid "noWatchdog"
@@ -816,21 +1056,42 @@ msgstr ""
 "Letiltja a hardveres figyelő és a TSC óraforrás rendszereket, fenntartva a magas teljesítményt, de "
 "eltávolítva az automatikus védelmet a rendszerösszeomlások ellen."
 # 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
+#: NEEDS WORK
+msgid ""
+"This will disable the hardware watchdog. Your system will no longer automatically recover from "
+"certain types of crashes. Are you sure you want to continue?"
+msgstr ""
+"Ez letiltja a hardveres figyelőt. A rendszered már nem fog automatikusan helyreállni bizonyos "
+"típusú összeomlásokból. Biztosan folytatni szeretnéd?"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
 msgstr "AI Felületek"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
-msgid "Graphical interface for artificial intelligence.."
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 16
+#: NEEDS WORK
+msgid "Graphical interface for artificial intelligence."
 msgstr "Grafikus felhasználói felület mesterséges intelligencia számára."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 22
-msgid "Ollma Server"
-msgstr "Ollma Szerver"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+#: NEEDS WORK
+msgid "Ollama Server"
+msgstr "Ollama Szerver"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Válaszd ki, melyik Ollama szerver a legjobb a hardveredhez."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Ollama Variants"
+msgstr "Ollama Változatok"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Select the variant that matches your GPU hardware."
+msgstr "Válaszd ki a változatot, amely megfelel a GPU hardverednek."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"
@@ -847,6 +1108,11 @@ msgstr "Ollama LAB"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
 msgid "Graphical interface for managing Ollama models and chat."
 msgstr "Grafikus felület az Ollama modellek és csevegés kezelésére."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+#: NEEDS WORK
+msgid "ChatBox"
+msgstr "Csevegőablak"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
 msgid "User-friendly Desktop Client App for AI Models/LLMs."
@@ -876,12 +1142,13 @@ msgstr "A legmodernebb és moduláris vizuális MI motor és alkalmazás."
 msgid "ComfyUI Server"
 msgstr "ComfyUI Szerver"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
-#, python-brace-format
-msgid "start ComfyUI Server. For more information see: <a href='{l}'>{l}</a>"
-msgstr "Indítsa el a ComfyUI szervert. További információért lásd: <a href='{l}'>{l}</a>"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+#: NEEDS WORK
+msgid "Start the ComfyUI server."
+msgstr "Indítsa el a ComfyUI szervert."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+#, python-brace-format
 msgid ""
 "ComfyUI server is running.\n"
 "Address: http://localhost:8188\n"
@@ -930,6 +1197,7 @@ msgstr "Ollama megosztása a helyi hálózaton."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 86
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 104
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 122
+#, python-brace-format
 msgid ""
 "Ollama server is running.\n"
 "Address: http://{}:11434"
@@ -989,12 +1257,10 @@ msgstr "Ablak bal oldalán található maximalizálás, minimalizálás és bez�
 msgid "KZones"
 msgstr "KZones"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "A KWin ablakkezelőhöz készült script a KDE Plasma asztali környezethez."
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "Engedélyezze az ablakcsempézés zónáit a KDE Plasma asztalhoz."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
 msgid "Recent Files & Locations"

@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the biglinux-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
@@ -16,20 +17,23 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "kzones Install"
 msgstr "kzones Install"
-msgid "Instaling Kzones, Please wait..."
-msgstr "Kzones aan het installeren, even geduld..."
+#: NEEDS WORK
+msgid "Installing Kzones, please wait..."
+msgstr "Kzones installeren, een moment geduld..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones succesvol geïnstalleerd!"
 msgid "Applying, please wait..."
 msgstr "Toepassen, even geduld..."
 msgid "Recent Files enabling...."
 msgstr "Recente bestanden inschakelen...."
-msgid "Recent Files enabling, Please wait..."
+#: NEEDS WORK
+msgid "Recent Files enabling, please wait..."
 msgstr "Recente bestanden inschakelen, even geduld..."
 msgid "Recent Files disabling...."
 msgstr "Recente bestanden uitschakelen...."
-msgid "Recent Files disabling, Please wait..."
-msgstr "Recente bestanden uitschakelen, Een moment geduld..."
+#: NEEDS WORK
+msgid "Recent Files disabling, please wait..."
+msgstr "Recente bestanden uitschakelen, een moment geduld..."
 msgid ""
 "Recent Files successfully enabled!\\n"
 "You need to close and reopen Dolphin for it to take effect."
@@ -58,36 +62,43 @@ msgid "Failed to install Example!"
 msgstr "Installatie van Voorbeeld is mislukt!"
 msgid "JamesDSP Install"
 msgstr "JamesDSP Installeren"
-msgid "Instaling JamesDSP, Please wait..."
-msgstr "JamesDSP installeren, even geduld..."
+#: NEEDS WORK
+msgid "Installing JamesDSP, please wait..."
+msgstr "JamesDSP installeren, een moment geduld..."
 msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP succesvol geïnstalleerd!"
 msgid "Failed to install jamesDSP!"
 msgstr "Installatie van jamesDSP is mislukt!"
 msgid "Docker Install"
 msgstr "Docker Installeren"
-msgid "Instaling Docker, Please wait..."
+#: NEEDS WORK
+msgid "Installing Docker, please wait..."
 msgstr "Docker aan het installeren, even geduld..."
 msgid "Docker Start"
 msgstr "Docker Start"
-msgid "Docker Starting, Please wait..."
-msgstr "Docker starten, even geduld..."
+#: NEEDS WORK
+msgid "Docker Starting, please wait..."
+msgstr "Docker wordt gestart, even geduld..."
 msgid "Docker Stop"
 msgstr "Docker Stoppen"
-msgid "Docker Stopping, Please wait..."
+#: NEEDS WORK
+msgid "Docker Stopping, please wait..."
 msgstr "Docker stopt, even geduld..."
 msgid "Docker installed successfully!"
 msgstr "Docker is succesvol geïnstalleerd!"
-msgid "An error occurred while install docker."
-msgstr "Er is een fout opgetreden tijdens het installeren van docker."
+#: NEEDS WORK
+msgid "An error occurred while installing Docker."
+msgstr "Er is een fout opgetreden tijdens het installeren van Docker."
 msgid "Installing $package"
 msgstr "$package installeren"
-msgid "Installing $package, Please wait..."
-msgstr "Installeren van $package, Even geduld..."
+#: NEEDS WORK
+msgid "Installing $package, please wait..."
+msgstr "$package wordt geïnstalleerd, even geduld..."
 msgid "Removing $package"
 msgstr "Verwijderen van $package"
-msgid "Removing $package, Please wait..."
-msgstr "Verwijderen van $package, Een moment geduld..."
+#: NEEDS WORK
+msgid "Removing $package, please wait..."
+msgstr "Verwijderen van $package, even geduld..."
 msgid ""
 "$title installed successfully!\\n"
 "\\n"
@@ -118,23 +129,27 @@ msgid "Already enabled. No changes made."
 msgstr "Alreeds ingeschakeld. Geen wijzigingen aangebracht."
 msgid "Ollama Vulkan Install"
 msgstr "Ollama Vulkan Installeren"
-msgid "Instaling Ollama, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
 msgstr "Ollama aan het installeren, even geduld..."
 msgid "Ollama Vulkan Uninstall"
 msgstr "Ollama Vulkan Verwijderen"
-msgid "Unistaling Ollama Vulkan, Please wait..."
-msgstr "Ollama Vulkan wordt verwijderd, een moment geduld..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Ollama Vulkan wordt verwijderd, even geduld..."
 msgid "Ollama Vulkan installed successfully!"
 msgstr "Ollama Vulkan succesvol geïnstalleerd!"
 msgid "Failed to install Ollama Vulkan!"
 msgstr "Installatie van Ollama Vulkan is mislukt!"
 msgid "ChatBox Install"
 msgstr "ChatBox Installeren"
-msgid "Instaling ChatBox, Please wait..."
-msgstr "ChatBox aan het installeren, even geduld..."
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
+msgstr "ChatBox installeren, een moment geduld..."
 msgid "ChatBox Uninstall"
 msgstr "ChatBox Verwijderen"
-msgid "Uninstaling ChatBox, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
 msgstr "ChatBox wordt verwijderd, even geduld..."
 msgid "ChatBox installed successfully!"
 msgstr "ChatBox succesvol geïnstalleerd!"
@@ -142,12 +157,14 @@ msgid "Failed to install ChatBox!"
 msgstr "Installatie van ChatBox is mislukt!"
 msgid "Ollama Lab Install"
 msgstr "Ollama Lab Installeren"
-msgid "Instaling Ollama Lab, Please wait..."
-msgstr "Ollama Lab aan het installeren, even geduld..."
+#: NEEDS WORK
+msgid "Installing Ollama Lab, please wait..."
+msgstr "Ollama Lab installeren, even geduld..."
 msgid "Ollama Lab Uninstall"
 msgstr "Ollama Lab Verwijderen"
-msgid "Unistaling Ollama Lab, Please wait..."
-msgstr "Ollama Lab wordt verwijderd, een moment geduld..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Ollama Lab wordt verwijderd, even geduld..."
 msgid "Ollama Lab installed successfully!"
 msgstr "Ollama Lab succesvol geïnstalleerd!"
 msgid "Failed to install Ollama Lab!"
@@ -180,31 +197,36 @@ msgid "Ollama Install"
 msgstr "Ollama Installeren"
 msgid "Ollama Uninstall"
 msgstr "Ollama Verwijderen"
-msgid "Unistaling Ollama, Please wait..."
-msgstr "Ollama wordt verwijderd, even geduld..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Ollama wordt verwijderd, een moment geduld..."
 msgid "Ollama installed successfully!"
 msgstr "Ollama is succesvol geïnstalleerd!"
 msgid "Failed to install Ollama!"
 msgstr "Installatie van Ollama is mislukt!"
 msgid "Ollama ROCm Install"
 msgstr "Ollama ROCm Installeren"
-msgid "Instaling Ollama ROCm, Please wait..."
-msgstr "Ollama ROCm installeren, een moment geduld..."
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
+msgstr "Ollama ROCm aan het installeren, een moment geduld..."
 msgid "Ollama ROCm Uninstall"
 msgstr "Ollama ROCm Verwijderen"
-msgid "Unistaling Ollama ROCm, Please wait..."
-msgstr "Ollama ROCm wordt verwijderd, even geduld..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Ollama ROCm wordt verwijderd, een moment geduld..."
 msgid "Ollama ROCm installed successfully!"
 msgstr "Ollama ROCm is succesvol geïnstalleerd!"
 msgid "Failed to install Ollama ROCm!"
 msgstr "Installatie van Ollama ROCm is mislukt!"
 msgid "comfyUI Install...."
 msgstr "comfyUI Install...."
-msgid "Instaling comfyUI, this step take a long time, Please wait..."
-msgstr "ComfyUI aan het installeren, deze stap duurt lang, alstublieft wachten..."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "ComfyUI installeren, deze stap duurt lang, alstublieft wachten..."
 msgid "Uninstall comfyUI...."
 msgstr "Verwijder comfyUI...."
-msgid "Uninstaling comfyUI, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
 msgstr "ComfyUI wordt verwijderd, even geduld..."
 msgid "comfyUI installed successfully"
 msgstr "comfyUI is succesvol geïnstalleerd"
@@ -220,15 +242,18 @@ msgid ""
 msgstr ""
 "Ollama succesvol gedeeld.\\n"
 "Adres: http://$localIp:11434"
-msgid "Failed to shared Ollama!"
-msgstr "Mislukt om Ollama te delen!"
+#: NEEDS WORK
+msgid "Failed to configure Ollama sharing!"
+msgstr "Configuratie van Ollama-deling is mislukt!"
 msgid "Ollama CUDA Install"
 msgstr "Ollama CUDA Installeren"
-msgid "Instaling Ollama CUDA, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
 msgstr "Ollama CUDA aan het installeren, even geduld..."
 msgid "Ollama CUDA Uninstall"
 msgstr "Ollama CUDA Verwijderen"
-msgid "Unistaling Ollama CUDA, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
 msgstr "Ollama CUDA wordt verwijderd, even geduld..."
 msgid "Ollama CUDA installed successfully!"
 msgstr "Ollama CUDA is succesvol geïnstalleerd!"
@@ -236,23 +261,27 @@ msgid "Failed to install Ollama CUDA!"
 msgstr "Installatie van Ollama CUDA is mislukt!"
 msgid "LM Studio Install"
 msgstr "LM Studio Installeren"
-msgid "Instaling LM Studio, Please wait..."
-msgstr "LM Studio aan het installeren, even geduld..."
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
+msgstr "LM Studio wordt geïnstalleerd, even geduld..."
 msgid "LM Studio Uninstall"
 msgstr "LM Studio Verwijderen"
-msgid "Uninstaling LM Studio, Please wait..."
-msgstr "LM Studio verwijderen, even geduld..."
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "LM Studio wordt verwijderd, even geduld..."
 msgid "LM Studio installed successfully!"
 msgstr "LM Studio succesvol geïnstalleerd!"
 msgid "Failed to install LM Studio!"
 msgstr "Installatie van LM Studio is mislukt!"
 msgid "Krita Install"
 msgstr "Krita Installeren"
-msgid "Instaling Krita, Please wait..."
-msgstr "Krita aan het installeren, even geduld..."
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "Krita aan het installeren, een moment geduld..."
 msgid "Krita Uninstall"
 msgstr "Krita Verwijderen"
-msgid "Uninstaling Krita, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
 msgstr "Krita wordt verwijderd, even geduld..."
 msgid "Krita installed successfully!"
 msgstr "Krita is succesvol geïnstalleerd!"
@@ -260,8 +289,9 @@ msgid "Failed to install Krita!"
 msgstr "Installatie van Krita is mislukt!"
 msgid "comfyUI Depends Install"
 msgstr "comfyUI Afhankelijkheden Installeren"
-msgid "Instaling comfyUI Depends, Please wait..."
-msgstr "Installeer comfyUI afhankelijkheden, een moment geduld..."
+#: NEEDS WORK
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "Bezig met installeren van comfyUI afhankelijkheden, even geduld..."
 msgid "comfyUI Depends installed successfully!"
 msgstr "comfyUI Afhankelijkheden zijn succesvol geïnstalleerd!"
 msgid "Failed to install comfyUI Depends!"
@@ -271,9 +301,10 @@ msgstr "Installatie van comfyUI is mislukt, afhankelijkheden!"
 msgid "Docker"
 msgstr "Docker"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
-msgid "Container service - enable to use containers below."
-msgstr "Containerservice - inschakelen om onderstaande containers te gebruiken."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
+#: NEEDS WORK
+msgid "Container service — enable to use containers below."
+msgstr "Containerservice — inschakelen om onderstaande containers te gebruiken."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -286,23 +317,56 @@ msgstr "Containers"
 msgid "Manage container technologies."
 msgstr "Beheer containertechnologieën."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "Docker ingeschakeld."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 30
+#: NEEDS WORK
+msgid "Media &amp; Cloud"
+msgstr "Media en Cloud"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 31
+#: NEEDS WORK
+msgid "Media servers and cloud storage containers."
+msgstr "Medi servers en cloudopslagcontainers."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 36
+#: NEEDS WORK
+msgid "Network &amp; Security"
+msgstr "Netwerk &amp; Beveiliging"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 37
+#: NEEDS WORK
+msgid "Network tools and security containers."
+msgstr "Netwerkt gereedschappen en beveiligingscontainers."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 42
+#: NEEDS WORK
+msgid "Development &amp; Tools"
+msgstr "Ontwikkeling &amp; Hulpmiddelen"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 43
+#: NEEDS WORK
+msgid "Development stacks and utility containers."
+msgstr "Ontwikkelingsstacks en hulpprogramma-containers."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
+#: NEEDS WORK
+msgid "Enable Docker container engine."
+msgstr "Schakel Docker-containerengine in."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
 msgid "Nextcloud Plus"
 msgstr "Nextcloud Plus"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
-msgid "Install Nextcloud Plus container."
-msgstr "Installeer Nextcloud Plus-container."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 62
+#: NEEDS WORK
+msgid "Install Nextcloud Plus cloud storage container."
+msgstr "Installeer Nextcloud Plus cloudopslagcontainer."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
 msgid "Run Nextcloud Plus."
 msgstr "Voer Nextcloud Plus uit."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
+#, python-brace-format
 msgid ""
 "Nextcloud Plus is running.\n"
 "Address: http://localhost:8286\n"
@@ -318,15 +382,17 @@ msgstr ""
 msgid "AdGuard"
 msgstr "AdGuard"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
-msgid "Install AdGuard Home container."
-msgstr "Installeer AdGuard Home-container."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 81
+#: NEEDS WORK
+msgid "Install AdGuard Home DNS ad-blocker container."
+msgstr "Installeer AdGuard Home DNS-adblockercontainer."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
 msgid "Run AdGuard."
 msgstr "Voer AdGuard uit."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
+#, python-brace-format
 msgid ""
 "AdGuard is running.\n"
 "Address: http://localhost:3030\n"
@@ -342,15 +408,17 @@ msgstr ""
 msgid "Jellyfin"
 msgstr "Jellyfin"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
-msgid "Install Jellyfin media server."
-msgstr "Installeer Jellyfin mediaserver."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 100
+#: NEEDS WORK
+msgid "Install Jellyfin media server container."
+msgstr "Installeer Jellyfin mediaservercontainer."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
 msgid "Run Jellyfin."
 msgstr "Voer Jellyfin uit."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
+#, python-brace-format
 msgid ""
 "Jellyfin is running.\n"
 "Address: http://localhost:8096\n"
@@ -366,15 +434,17 @@ msgstr ""
 msgid "LAMP"
 msgstr "LAMP"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
-msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
-msgstr "Installeer LAMP-stack (Linux, Apache, MySQL, PHP)."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 119
+#: NEEDS WORK
+msgid "Install LAMP stack container (Linux, Apache, MySQL, PHP)."
+msgstr "Installeer LAMP-stackcontainer (Linux, Apache, MySQL, PHP)."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
 msgid "Run LAMP."
 msgstr "Voer LAMP uit."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
+#, python-brace-format
 msgid ""
 "LAMP is running.\n"
 "Address: http://localhost:8080\n"
@@ -390,15 +460,17 @@ msgstr ""
 msgid "Portainer Client"
 msgstr "Portainer Client"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
-msgid "Install Portainer Agent for cluster management."
-msgstr "Installeer Portainer Agent voor clusterbeheer."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 138
+#: NEEDS WORK
+msgid "Install Portainer Agent container for cluster management."
+msgstr "Installeer Portainer Agent-container voor clusterbeheer."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
 msgid "Run Portainer Client."
 msgstr "Voer Portainer Client uit."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
+#, python-brace-format
 msgid ""
 "Portainer Client is running.\n"
 "Address: http://localhost:9000\n"
@@ -414,15 +486,17 @@ msgstr ""
 msgid "SWS"
 msgstr "SWS"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
-msgid "Install SWS static web server."
-msgstr "Installeer SWS statische webserver."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 157
+#: NEEDS WORK
+msgid "Install SWS static web server container."
+msgstr "Installeer SWS statische webservercontainer."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
 msgid "Run SWS."
 msgstr "Voer SWS uit."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+#, python-brace-format
 msgid ""
 "SWS is running.\n"
 "Address: http://localhost:8182\n"
@@ -438,15 +512,17 @@ msgstr ""
 msgid "V2RayA"
 msgstr "V2RayA"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
-msgid "Install V2RayA network tool."
-msgstr "Installeer het V2RayA-netwerkt hulpmiddel."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 176
+#: NEEDS WORK
+msgid "Install V2RayA network proxy container."
+msgstr "Installeer V2RayA netwerkproxy-container."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
 msgid "Run V2RayA."
 msgstr "Voer V2RayA uit."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
+#, python-brace-format
 msgid ""
 "V2RayA is running.\n"
 "Address: http://localhost:2017\n"
@@ -458,6 +534,15 @@ msgstr ""
 "en\n"
 "Adres: http://{}:2017"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 203
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
+#: NEEDS WORK
+msgid "Open Notebook"
+msgstr "Open Notitieboek"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
 msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "Installeer een open source, privacygerichte alternatieve voor Google's Notebook LM!"
@@ -467,6 +552,7 @@ msgid "Run Open Notebook."
 msgstr "Open Notebook uitvoeren."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+#, python-brace-format
 msgid ""
 "Open Notebook is running.\n"
 "Address: http://localhost:8502\n"
@@ -478,17 +564,49 @@ msgstr ""
 "en  \n"
 "Adres: http://{}:8502"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-msgid "Changing {} to {}"
-msgstr "Veranderen van {} naar {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
+#: NEEDS WORK
+msgid "Close"
+msgstr "Sluiten"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-msgid "ERROR: Failed to change {} to {}"
-msgstr "FOUT: Kon {} niet wijzigen naar {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+#: NEEDS WORK
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Waarschuwing: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-msgid "Failed to change setting: {}"
-msgstr "Instelling wijzigen mislukt: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
+#: NEEDS WORK
+msgid "Cancel"
+msgstr "Annuleren"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
+#: NEEDS WORK
+msgid "Continue"
+msgstr "Doorgaan"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
+#: NEEDS WORK
+msgid "Recommended"
+msgstr "Aanbevolen"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: additional information"
+msgstr "{}: aanvullende informatie"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+#: NEEDS WORK
+msgid "Learn more"
+msgstr "Meer leren"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: learn more"
+msgstr "{}: meer leren"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -499,6 +617,7 @@ msgstr "Niet beschikbaar: script niet gevonden."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+#, python-brace-format
 msgid "Script not found: {}"
 msgstr "Script niet gevonden: {}"
 # 
@@ -531,6 +650,7 @@ msgid "Unavailable: script returned invalid output."
 msgstr "Niet beschikbaar: script gaf ongeldige uitvoer terug."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+#, python-brace-format
 msgid "output from script {}: {}"
 msgstr "output van script {}: {}"
 # 
@@ -542,6 +662,7 @@ msgid "Unavailable: script returned an error."
 msgstr "Niet beschikbaar: script heeft een fout geretourneerd."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+#, python-brace-format
 msgid "Error checking state: {}"
 msgstr "Fout controleer status: {}"
 # 
@@ -554,6 +675,7 @@ msgstr "Niet beschikbaar: script kon niet worden uitgevoerd."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+#, python-brace-format
 msgid "Error running script {}: {}"
 msgstr "Fout bij het uitvoeren van script {}: {}"
 # 
@@ -562,45 +684,111 @@ msgid "State changed successfully"
 msgstr "Status succesvol gewijzigd"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+#, python-brace-format
 msgid "Script output: {}"
 msgstr "Script-uitvoer: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+#, python-brace-format
 msgid "Script failed with exit code: {}"
 msgstr "Script is mislukt met exitcode: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+#, python-brace-format
 msgid "Script timeout: {}"
 msgstr "Script time-out: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Switch {} synchronized: {}"
-msgstr "Schakel {} gesynchroniseerd: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} sub-options available"
+msgstr "{} sub-opties beschikbaar"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "on"
+msgstr "aan"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "off"
+msgstr "uit"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
+#: NEEDS WORK
+#, python-brace-format
+msgid "Changing {} to {}…"
+msgstr "Wijzigen {} naar {}…"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+#: NEEDS WORK
+msgid "Undo"
+msgstr "Ongedaan maken"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
+#: NEEDS WORK
+msgid "Undo: reverted toggle"
+msgstr "Ongedaan: teruggezette schakelaar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+#, python-brace-format
+msgid "Changing {} to {}"
+msgstr "Veranderen van {} naar {}"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "Indicator {} gesynchroniseerd: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "Toepassen…"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+#, python-brace-format
+msgid "ERROR: Failed to change {} to {}"
+msgstr "FOUT: Kon {} niet wijzigen naar {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+#, python-brace-format
+msgid "Failed to change setting: {}"
+msgstr "Instelling wijzigen mislukt: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
 msgid "BigLinux Settings"
 msgstr "BigLinux Instellingen"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "Categorieën"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
+#: NEEDS WORK
+msgid "BigLinux Community"
+msgstr "BigLinux Gemeenschap"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
 msgid "Search..."
 msgstr "Zoeken..."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "Instellingen"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
+#: NEEDS WORK
+msgid "Search settings"
+msgstr "Zoekinstellingen"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
+#: NEEDS WORK
+msgid "Toggle navigation sidebar"
+msgstr "Schakel navigatie zijbalk in/uit"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
+#: NEEDS WORK
+msgid "About"
+msgstr "Over"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
+#: NEEDS WORK
+msgid "Main Menu"
+msgstr "Hoofdmenu"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System"
@@ -648,6 +836,11 @@ msgstr "A.I."
 msgid "Performance"
 msgstr "Prestaties"
 # 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
+#: NEEDS WORK
+msgid "Dismiss"
+msgstr "Verwijderen"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."
 msgstr "Algemene systeemeinstellungen."
@@ -661,6 +854,7 @@ msgid "Enable remote access via ssh."
 msgstr "Schakel externe toegang via ssh in."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+#, python-brace-format
 msgid "SSH Address: {}"
 msgstr "SSH-adres: {}"
 # 
@@ -736,17 +930,19 @@ msgstr "Beheer fysieke apparaten."
 msgid "Wifi"
 msgstr "Wifi"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi Aan"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "Schakel de Wi-Fi-adapter in."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
 msgid "Bluetooth"
 msgstr "Bluetooth"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth Aan."
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "Schakel de Bluetooth-adapter in."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -766,6 +962,45 @@ msgstr "Omgekeerd muis scrollen"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Muis scrollen omkeren zonder de sessie opnieuw te starten."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "Netwerkinterfaces"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "Verbind of ontkoppel netwerkapparaten."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} — {}"
+msgstr "Sorry, I need a specific string to translate. Please provide the text you want translated."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: verbinding in-/uitschakelen"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "verbonden"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "verbonden met de netwerk"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "Kon niet van netwerkapparaat veranderen: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -811,14 +1046,19 @@ msgstr "Schakelt S.M.A.R.T-schijfmonitoring uit. Vermindert schijf I/O en CPU-ge
 msgid "Meltdown Mitigations off"
 msgstr "Meltdown-mitigaties uit"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
+#: NEEDS WORK
+msgid "Using mitigations=off will make your machine faster and less secure!"
+msgstr "Het gebruik van mitigaties=uit maakt je machine sneller en minder veilig!"
+# 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
+#: NEEDS WORK
 msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
+"This will disable CPU security mitigations (Meltdown/Spectre). Your system will be faster but "
+"vulnerable to hardware-level attacks. Are you sure you want to continue?"
 msgstr ""
-"Het gebruik van mitigaties=uit maakt uw machine sneller en minder veilig! Voor meer informatie zie: "
-"<a href='{l}'>{l}</a>"
+"Dit zal de CPU-beveiligingsmaatregelen (Meltdown/Spectre) uitschakelen. Je systeem zal sneller "
+"zijn, maar kwetsbaar voor aanvallen op hardware-niveau. Weet je zeker dat je wilt doorgaan?"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
 msgid "noWatchdog"
@@ -832,21 +1072,42 @@ msgstr ""
 "Schakelt de hardware watchdog en TSC klokbronnen uit, behoudt hoge prestaties maar verwijdert "
 "automatische bescherming tegen systeemcrashes."
 # 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
+#: NEEDS WORK
+msgid ""
+"This will disable the hardware watchdog. Your system will no longer automatically recover from "
+"certain types of crashes. Are you sure you want to continue?"
+msgstr ""
+"Dit zal de hardware watchdog uitschakelen. Uw systeem zal niet langer automatisch herstellen van "
+"bepaalde soorten crashes. Weet u zeker dat u wilt doorgaan?"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
 msgstr "AI-interfaces"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
-msgid "Graphical interface for artificial intelligence.."
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 16
+#: NEEDS WORK
+msgid "Graphical interface for artificial intelligence."
 msgstr "Grafische interface voor kunstmatige intelligentie."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 22
-msgid "Ollma Server"
-msgstr "Ollma Server"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+#: NEEDS WORK
+msgid "Ollama Server"
+msgstr "Ollama Server"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Kies welke Ollama-server het beste is voor jouw hardware."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Ollama Variants"
+msgstr "Ollama Varianten"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Select the variant that matches your GPU hardware."
+msgstr "Selecteer de variant die overeenkomt met uw GPU-hardware."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"
@@ -863,6 +1124,11 @@ msgstr "Ollama LAB"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
 msgid "Graphical interface for managing Ollama models and chat."
 msgstr "Grafische interface voor het beheren van Ollama-modellen en chat."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+#: NEEDS WORK
+msgid "ChatBox"
+msgstr "ChatBox"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
 msgid "User-friendly Desktop Client App for AI Models/LLMs."
@@ -892,12 +1158,13 @@ msgstr "De meest krachtige en modulaire visuele AI-engine en applicatie."
 msgid "ComfyUI Server"
 msgstr "ComfyUI Server"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
-#, python-brace-format
-msgid "start ComfyUI Server. For more information see: <a href='{l}'>{l}</a>"
-msgstr "start ComfyUI Server. Voor meer informatie zie: <a href='{l}'>{l}</a>"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+#: NEEDS WORK
+msgid "Start the ComfyUI server."
+msgstr "Start de ComfyUI-server."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+#, python-brace-format
 msgid ""
 "ComfyUI server is running.\n"
 "Address: http://localhost:8188\n"
@@ -946,6 +1213,7 @@ msgstr "Deel ollama op het lokale netwerk."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 86
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 104
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 122
+#, python-brace-format
 msgid ""
 "Ollama server is running.\n"
 "Address: http://{}:11434"
@@ -1005,12 +1273,10 @@ msgstr "Maximaliseren, minimaliseren en sluiten knoppen aan de linkerkant van he
 msgid "KZones"
 msgstr "KZones"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "Script voor de KWin-vensterbeheerder van de KDE Plasma-desktopomgeving."
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "Schakel venstertegels in voor de KDE Plasma-desktop."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
 msgid "Recent Files & Locations"

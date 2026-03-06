@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the biglinux-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
@@ -16,20 +17,23 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "kzones Install"
 msgstr "kzones Uppsetning"
-msgid "Instaling Kzones, Please wait..."
-msgstr "Installing Kzones, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Installing Kzones, please wait..."
+msgstr "Installing Kzones, vinsamlegast bíða..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones var sett upp með góðum árangri!"
 msgid "Applying, please wait..."
 msgstr "Beiðni í gangi, vinsamlegast bíða..."
 msgid "Recent Files enabling...."
 msgstr "Nýleg skjöl að virkja...."
-msgid "Recent Files enabling, Please wait..."
-msgstr "Virkjandi nýjustu skrár, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Recent Files enabling, please wait..."
+msgstr "Síðustu skrár virkjaðar, vinsamlegast bíða..."
 msgid "Recent Files disabling...."
 msgstr "Að loka nýjustu skrám...."
-msgid "Recent Files disabling, Please wait..."
-msgstr "Nýleg skjöl er verið að slökkva á, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Recent Files disabling, please wait..."
+msgstr "Nýleg skjöl er verið að slökkva á, vinsamlegast bíða..."
 msgid ""
 "Recent Files successfully enabled!\\n"
 "You need to close and reopen Dolphin for it to take effect."
@@ -58,36 +62,43 @@ msgid "Failed to install Example!"
 msgstr "Ekki tókst að setja upp Dæmi!"
 msgid "JamesDSP Install"
 msgstr "JamesDSP Uppsetning"
-msgid "Instaling JamesDSP, Please wait..."
-msgstr "Instalning JamesDSP, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Installing JamesDSP, please wait..."
+msgstr "Installing JamesDSP, vinsamlegð..."
 msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP var sett upp með góðum árangri!"
 msgid "Failed to install jamesDSP!"
 msgstr "Ekki tókst að setja upp jamesDSP!"
 msgid "Docker Install"
 msgstr "Docker Uppsetning"
-msgid "Instaling Docker, Please wait..."
-msgstr "Instalering Docker, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Installing Docker, please wait..."
+msgstr "Installing Docker, vinsamlegð..."
 msgid "Docker Start"
 msgstr "Docker Byrjaðu"
-msgid "Docker Starting, Please wait..."
+#: NEEDS WORK
+msgid "Docker Starting, please wait..."
 msgstr "Docker er að byrja, vinsamlegast bíða..."
 msgid "Docker Stop"
 msgstr "Docker Stöðva"
-msgid "Docker Stopping, Please wait..."
-msgstr "Docker Stöðva, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Docker Stopping, please wait..."
+msgstr "Docker er að stöðva, vinsamlegast bíða..."
 msgid "Docker installed successfully!"
 msgstr "Docker var sett upp með góðum árangri!"
-msgid "An error occurred while install docker."
-msgstr "Villa kom að uppsetningu docker."
+#: NEEDS WORK
+msgid "An error occurred while installing Docker."
+msgstr "Villa kom upp við uppsetningu Docker."
 msgid "Installing $package"
 msgstr "Installing $package"
-msgid "Installing $package, Please wait..."
-msgstr "Installing $package, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Installing $package, please wait..."
+msgstr "Installing $package, vinsamleg að bíða..."
 msgid "Removing $package"
 msgstr "Að fjarlægja $package"
-msgid "Removing $package, Please wait..."
-msgstr "Fjarlægja $package, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Removing $package, please wait..."
+msgstr "Fjarlægir $package, vinsamlegast bíða..."
 msgid ""
 "$title installed successfully!\\n"
 "\\n"
@@ -118,36 +129,42 @@ msgid "Already enabled. No changes made."
 msgstr "Nú þegar virkt. Engar breytingar gerðar."
 msgid "Ollama Vulkan Install"
 msgstr "Ollama Vulkan Uppsetning"
-msgid "Instaling Ollama, Please wait..."
-msgstr "Instalera Ollama, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
+msgstr "Installing Ollama, vinsamlegast bíða..."
 msgid "Ollama Vulkan Uninstall"
 msgstr "Ollama Vulkan Afinstallera"
-msgid "Unistaling Ollama Vulkan, Please wait..."
-msgstr "Aftur að setja Ollama Vulkan af, Vinsamlegast bíðu..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Að afinstallera Ollama Vulkan, vinsamlegast bíða..."
 msgid "Ollama Vulkan installed successfully!"
 msgstr "Ollama Vulkan var settur upp með árangri!"
 msgid "Failed to install Ollama Vulkan!"
 msgstr "Ekki tókst að setja upp Ollama Vulkan!"
 msgid "ChatBox Install"
 msgstr "ChatBox Uppsetning"
-msgid "Instaling ChatBox, Please wait..."
-msgstr "Að setja upp ChatBox, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
+msgstr "Installing ChatBox, vinsamlegast bíða..."
 msgid "ChatBox Uninstall"
 msgstr "Fjarlægja ChatBox"
-msgid "Uninstaling ChatBox, Please wait..."
-msgstr "Að afinstallera ChatBox, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
+msgstr "Að afinstallera ChatBox, vinsamlegast bíða..."
 msgid "ChatBox installed successfully!"
 msgstr "ChatBox var sett upp með góðum árangri!"
 msgid "Failed to install ChatBox!"
 msgstr "Ekki tókst að setja upp ChatBox!"
 msgid "Ollama Lab Install"
 msgstr "Ollama Lab Uppsetning"
-msgid "Instaling Ollama Lab, Please wait..."
-msgstr "Að setja upp Ollama Lab, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Installing Ollama Lab, please wait..."
+msgstr "Installing Ollama Lab, vinsamlegið bíða..."
 msgid "Ollama Lab Uninstall"
 msgstr "Ollama Lab Eyða út"
-msgid "Unistaling Ollama Lab, Please wait..."
-msgstr "Að afinstallera Ollama Lab, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Að afinstallera Ollama Lab, vinsamlegast bíða..."
 msgid "Ollama Lab installed successfully!"
 msgstr "Ollama Lab var sett upp með góðum árangri!"
 msgid "Failed to install Ollama Lab!"
@@ -180,32 +197,37 @@ msgid "Ollama Install"
 msgstr "Ollama Uppsetning"
 msgid "Ollama Uninstall"
 msgstr "Ollama Eyða"
-msgid "Unistaling Ollama, Please wait..."
-msgstr "Að afinstallera Ollama, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Aftengreining Ollama, vinsamlegast bíða..."
 msgid "Ollama installed successfully!"
 msgstr "Ollama var sett upp með góðum árangri!"
 msgid "Failed to install Ollama!"
 msgstr "Ekki tókst að setja Ollama upp!"
 msgid "Ollama ROCm Install"
 msgstr "Ollama ROCm Uppsetning"
-msgid "Instaling Ollama ROCm, Please wait..."
-msgstr "Að setja upp Ollama ROCm, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
+msgstr "Installing Ollama ROCm, vinsamlegð..."
 msgid "Ollama ROCm Uninstall"
 msgstr "Ollama ROCm Eyða út"
-msgid "Unistaling Ollama ROCm, Please wait..."
-msgstr "Aftengreining Ollama ROCm, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Að afinstallera Ollama ROCm, vinsamlegast bíða..."
 msgid "Ollama ROCm installed successfully!"
 msgstr "Ollama ROCm var sett upp með góðum árangri!"
 msgid "Failed to install Ollama ROCm!"
 msgstr "Mistók að setja upp Ollama ROCm!"
 msgid "comfyUI Install...."
 msgstr "comfyUI Uppsetning...."
-msgid "Instaling comfyUI, this step take a long time, Please wait..."
-msgstr "Að setja upp comfyUI, þetta skref tekur langan tíma, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "Að setja upp comfyUI, þetta skref tekur langan tíma, vinsamlegast bíða..."
 msgid "Uninstall comfyUI...."
 msgstr "Fjarlægja comfyUI...."
-msgid "Uninstaling comfyUI, Please wait..."
-msgstr "Að afinstallera comfyUI, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "Að afinstallera comfyUI, vinsamlegast bíða..."
 msgid "comfyUI installed successfully"
 msgstr "comfyUI var sett upp með góðum árangri"
 msgid "comfyUI uninstalled successfully"
@@ -220,48 +242,56 @@ msgid ""
 msgstr ""
 "Ollama deilt velgengilega.\\n"
 "Heimilisfang: http://$localIp:11434"
-msgid "Failed to shared Ollama!"
-msgstr "Mistók að deila Ollama!"
+#: NEEDS WORK
+msgid "Failed to configure Ollama sharing!"
+msgstr "Mistók að stilla deilingu Ollama!"
 msgid "Ollama CUDA Install"
 msgstr "Ollama CUDA Uppsetning"
-msgid "Instaling Ollama CUDA, Please wait..."
-msgstr "Instalera Ollama CUDA, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "Installing Ollama CUDA, vinsamlegð..."
 msgid "Ollama CUDA Uninstall"
 msgstr "Ollama CUDA Eyða út"
-msgid "Unistaling Ollama CUDA, Please wait..."
-msgstr "Að afinstallera Ollama CUDA, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "Að afinstallera Ollama CUDA, vinsamlegast bíða..."
 msgid "Ollama CUDA installed successfully!"
 msgstr "Ollama CUDA var uppsett með góðum árangri!"
 msgid "Failed to install Ollama CUDA!"
 msgstr "Ekki tókst að setja upp Ollama CUDA!"
 msgid "LM Studio Install"
 msgstr "LM Studio Uppsetning"
-msgid "Instaling LM Studio, Please wait..."
-msgstr "Installing LM Studio, Please wait..."
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
+msgstr "Installing LM Studio, vinsamlegast bíða..."
 msgid "LM Studio Uninstall"
 msgstr "LM Studio Eyða"
-msgid "Uninstaling LM Studio, Please wait..."
-msgstr "Að afinstallera LM Studio, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "Að afinstallera LM Studio, vinsamlegast bíða..."
 msgid "LM Studio installed successfully!"
 msgstr "LM Studio var sett upp með góðum árangri!"
 msgid "Failed to install LM Studio!"
 msgstr "Ekki tókst að setja upp LM Studio!"
 msgid "Krita Install"
 msgstr "Krita Uppsetning"
-msgid "Instaling Krita, Please wait..."
-msgstr "Instalning Krita, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "Installing Krita, vinsamlegast bíða..."
 msgid "Krita Uninstall"
 msgstr "Krita afinstallera"
-msgid "Uninstaling Krita, Please wait..."
-msgstr "Að afinstallera Krita, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
+msgstr "Að afinstallera Krita, vinsamlegast bíða..."
 msgid "Krita installed successfully!"
 msgstr "Krita var sett upp með góðum árangri!"
 msgid "Failed to install Krita!"
 msgstr "Ekki tókst að setja upp Krita!"
 msgid "comfyUI Depends Install"
 msgstr "comfyUI Ferðir Uppsetning"
-msgid "Instaling comfyUI Depends, Please wait..."
-msgstr "Instalering comfyUI ferðir, Vinsamlegast bíða..."
+#: NEEDS WORK
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "Installing comfyUI ferðir, vinsamlegast bíða..."
 msgid "comfyUI Depends installed successfully!"
 msgstr "comfyUI háðingar uppsett með góðum árangri!"
 msgid "Failed to install comfyUI Depends!"
@@ -271,9 +301,10 @@ msgstr "Ekki tókst að setja upp comfyUI. Háð!"
 msgid "Docker"
 msgstr "Docker"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
-msgid "Container service - enable to use containers below."
-msgstr "Geymsluþjónusta - virkjuð til að nota gáma hér að neðan."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
+#: NEEDS WORK
+msgid "Container service — enable to use containers below."
+msgstr "Gámaþjónusta — leyfa að nota gáma hér að neðan."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -286,23 +317,56 @@ msgstr "Geymslur"
 msgid "Manage container technologies."
 msgstr "Stjórna gáma tækni."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "Docker virkjað."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 30
+#: NEEDS WORK
+msgid "Media &amp; Cloud"
+msgstr "Miðlar &amp; Ský"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 31
+#: NEEDS WORK
+msgid "Media servers and cloud storage containers."
+msgstr "Miðlarar og skýgeymslu ílát."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 36
+#: NEEDS WORK
+msgid "Network &amp; Security"
+msgstr "Net og öryggi"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 37
+#: NEEDS WORK
+msgid "Network tools and security containers."
+msgstr "Netnaðarverkfæri og öryggiskerfi."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 42
+#: NEEDS WORK
+msgid "Development &amp; Tools"
+msgstr "Þróun & Tól"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 43
+#: NEEDS WORK
+msgid "Development stacks and utility containers."
+msgstr "Þróunarstakkar og gagnlegir ílát."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
+#: NEEDS WORK
+msgid "Enable Docker container engine."
+msgstr "Virkja Docker ílátavél."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
 msgid "Nextcloud Plus"
 msgstr "Nextcloud Plus"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
-msgid "Install Nextcloud Plus container."
-msgstr "Settuðu upp Nextcloud Plus gáma."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 62
+#: NEEDS WORK
+msgid "Install Nextcloud Plus cloud storage container."
+msgstr "Settu upp Nextcloud Plus skýjageymslu ílát."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
 msgid "Run Nextcloud Plus."
 msgstr "Keyrðu Nextcloud Plus."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
+#, python-brace-format
 msgid ""
 "Nextcloud Plus is running.\n"
 "Address: http://localhost:8286\n"
@@ -318,15 +382,17 @@ msgstr ""
 msgid "AdGuard"
 msgstr "AdGuard"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
-msgid "Install AdGuard Home container."
-msgstr "Settu AdGuard Home ílát."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 81
+#: NEEDS WORK
+msgid "Install AdGuard Home DNS ad-blocker container."
+msgstr "Settu upp AdGuard Home DNS auglýsinga-blokkar gáma."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
 msgid "Run AdGuard."
 msgstr "Keyrðu AdGuard."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
+#, python-brace-format
 msgid ""
 "AdGuard is running.\n"
 "Address: http://localhost:3030\n"
@@ -342,15 +408,17 @@ msgstr ""
 msgid "Jellyfin"
 msgstr "Jellyfin"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
-msgid "Install Jellyfin media server."
-msgstr "Settu Jellyfin fjölmiðlarafn."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 100
+#: NEEDS WORK
+msgid "Install Jellyfin media server container."
+msgstr "Settu upp Jellyfin fjölmiðlaserver ílát."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
 msgid "Run Jellyfin."
 msgstr "Keyrðu Jellyfin."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
+#, python-brace-format
 msgid ""
 "Jellyfin is running.\n"
 "Address: http://localhost:8096\n"
@@ -366,15 +434,17 @@ msgstr ""
 msgid "LAMP"
 msgstr "LAMP"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
-msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
-msgstr "Settu LAMP stakkið (Linux, Apache, MySQL, PHP)."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 119
+#: NEEDS WORK
+msgid "Install LAMP stack container (Linux, Apache, MySQL, PHP)."
+msgstr "Setja upp LAMP stack í gámi (Linux, Apache, MySQL, PHP)."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
 msgid "Run LAMP."
 msgstr "Keyra LAMP."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
+#, python-brace-format
 msgid ""
 "LAMP is running.\n"
 "Address: http://localhost:8080\n"
@@ -390,15 +460,17 @@ msgstr ""
 msgid "Portainer Client"
 msgstr "Portainer viðskiptavinur"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
-msgid "Install Portainer Agent for cluster management."
-msgstr "Install Portainer Agent fyrir klasa stjórnun."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 138
+#: NEEDS WORK
+msgid "Install Portainer Agent container for cluster management."
+msgstr "Settu upp Portainer Agent gáma fyrir klasa stjórnun."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
 msgid "Run Portainer Client."
 msgstr "Keyrðu Portainer viðskiptavin."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
+#, python-brace-format
 msgid ""
 "Portainer Client is running.\n"
 "Address: http://localhost:9000\n"
@@ -414,15 +486,17 @@ msgstr ""
 msgid "SWS"
 msgstr "SWS"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
-msgid "Install SWS static web server."
-msgstr "Install SWS stöðugan vefþjón."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 157
+#: NEEDS WORK
+msgid "Install SWS static web server container."
+msgstr "Settu SWS statíska vefþjónustukerfi í gámi."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
 msgid "Run SWS."
 msgstr "Keyra SWS."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+#, python-brace-format
 msgid ""
 "SWS is running.\n"
 "Address: http://localhost:8182\n"
@@ -438,15 +512,17 @@ msgstr ""
 msgid "V2RayA"
 msgstr "V2RayA"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
-msgid "Install V2RayA network tool."
-msgstr "Install V2RayA netkerfi."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 176
+#: NEEDS WORK
+msgid "Install V2RayA network proxy container."
+msgstr "Settu V2RayA netkerfi skugga ílát."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
 msgid "Run V2RayA."
 msgstr "Keyrðu V2RayA."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
+#, python-brace-format
 msgid ""
 "V2RayA is running.\n"
 "Address: http://localhost:2017\n"
@@ -458,6 +534,15 @@ msgstr ""
 "og\n"
 "Heimilisfang: http://{}:2017"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 203
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
+#: NEEDS WORK
+msgid "Open Notebook"
+msgstr "Opna skjaldið"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
 msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "Install opinnsækið, persónuverndartengt valkost við Google’s Notebook LM!"
@@ -467,6 +552,7 @@ msgid "Run Open Notebook."
 msgstr "Keyrðu Opna Skjal."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+#, python-brace-format
 msgid ""
 "Open Notebook is running.\n"
 "Address: http://localhost:8502\n"
@@ -478,17 +564,49 @@ msgstr ""
 "og  \n"
 "Heimilisfang: http://{}:8502"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-msgid "Changing {} to {}"
-msgstr "Breyta {} í {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
+#: NEEDS WORK
+msgid "Close"
+msgstr "Lokaðu"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-msgid "ERROR: Failed to change {} to {}"
-msgstr "ERROR: Mistók að breyta {} í {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+#: NEEDS WORK
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Viðvörun: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-msgid "Failed to change setting: {}"
-msgstr "Mistók að breyta stillingu: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
+#: NEEDS WORK
+msgid "Cancel"
+msgstr "Hætta við"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
+#: NEEDS WORK
+msgid "Continue"
+msgstr "Halda áfram"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
+#: NEEDS WORK
+msgid "Recommended"
+msgstr "Mælt með"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: additional information"
+msgstr "{}: aukagögn"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+#: NEEDS WORK
+msgid "Learn more"
+msgstr "Lærðu meira"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: learn more"
+msgstr "{}: læra meira"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -499,6 +617,7 @@ msgstr "Ófært: skrift fannst ekki."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+#, python-brace-format
 msgid "Script not found: {}"
 msgstr "Skrá fannst ekki: {}"
 # 
@@ -531,6 +650,7 @@ msgid "Unavailable: script returned invalid output."
 msgstr "Ófært: skriftin skilaði ógildum úttaki."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+#, python-brace-format
 msgid "output from script {}: {}"
 msgstr "úttak frá skrift {}: {}"
 # 
@@ -542,6 +662,7 @@ msgid "Unavailable: script returned an error."
 msgstr "Ófært: skriftin skilaði villu."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+#, python-brace-format
 msgid "Error checking state: {}"
 msgstr "Villa að athuga stöðu: {}"
 # 
@@ -554,6 +675,7 @@ msgstr "Ófært: mistókst að keyra skriftu."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+#, python-brace-format
 msgid "Error running script {}: {}"
 msgstr "Villa við að keyra skrift {}: {}"
 # 
@@ -562,45 +684,111 @@ msgid "State changed successfully"
 msgstr "Ástandi breytt með góðum árangri"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+#, python-brace-format
 msgid "Script output: {}"
 msgstr "{}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+#, python-brace-format
 msgid "Script failed with exit code: {}"
 msgstr "Skráning mistókst með útgöngukóða: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+#, python-brace-format
 msgid "Script timeout: {}"
 msgstr "Skrá tímamörk: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Switch {} synchronized: {}"
-msgstr "Switch {} samstillt: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} sub-options available"
+msgstr "{} undirvalkostir í boði"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "on"
+msgstr "áfram"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "off"
+msgstr "slökkt"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
+#: NEEDS WORK
+#, python-brace-format
+msgid "Changing {} to {}…"
+msgstr "Breyting {} í {}…"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+#: NEEDS WORK
+msgid "Undo"
+msgstr "Afturkalla"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
+#: NEEDS WORK
+msgid "Undo: reverted toggle"
+msgstr "Aftur: endurheimt val"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+#, python-brace-format
+msgid "Changing {} to {}"
+msgstr "Breyta {} í {}"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "Vísir {} samstilltur: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "Beinað…"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+#, python-brace-format
+msgid "ERROR: Failed to change {} to {}"
+msgstr "ERROR: Mistók að breyta {} í {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+#, python-brace-format
+msgid "Failed to change setting: {}"
+msgstr "Mistók að breyta stillingu: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
 msgid "BigLinux Settings"
 msgstr "BigLinux Stillingar"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "Flokkar"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
+#: NEEDS WORK
+msgid "BigLinux Community"
+msgstr "BigLinux Samfélagið"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
 msgid "Search..."
 msgstr "Leita..."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "Stillingar"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
+#: NEEDS WORK
+msgid "Search settings"
+msgstr "Leitarstillingar"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
+#: NEEDS WORK
+msgid "Toggle navigation sidebar"
+msgstr "Virkja hliðarvalmynd"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
+#: NEEDS WORK
+msgid "About"
+msgstr "Um umfjöllun"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
+#: NEEDS WORK
+msgid "Main Menu"
+msgstr "Aðalvalmynd"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System"
@@ -651,6 +839,11 @@ msgstr "Gervi."
 msgid "Performance"
 msgstr "Frammistað."
 # 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
+#: NEEDS WORK
+msgid "Dismiss"
+msgstr "Hætta við"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."
 msgstr "Almennar kerfisskilyrði."
@@ -664,6 +857,7 @@ msgid "Enable remote access via ssh."
 msgstr "Virkja fjarstýringu í gegnum ssh."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+#, python-brace-format
 msgid "SSH Address: {}"
 msgstr "SSH heimilisfang: {}"
 # 
@@ -739,17 +933,19 @@ msgstr "Stjórna líkamlegum tækjum."
 msgid "Wifi"
 msgstr "Wifi"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi Kveikt"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "Virkja Wi-Fi aðlaga."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
 msgid "Bluetooth"
 msgstr "Bluetooth"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth kveikt."
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "Virkja Bluetooth aðlaga."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -769,6 +965,45 @@ msgstr "Aftursnúning músar skrollunar"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Afturhenda músaskrollun án þess að endurræsa sessjónina."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "Netkerfisviðmót"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "Tengdu eða losaðu nettæki."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} — {}"
+msgstr "I'm ready to assist with your translation. Please provide the string you would like to translate."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: kveikja tengingu"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "tengdur"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "frá tengingu"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "Mistók að breyta nettæki: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -810,14 +1045,19 @@ msgstr "Veitir S.M.A.R.T disk eftirlit. Minnkar disk I/O og CPU notkun."
 msgid "Meltdown Mitigations off"
 msgstr "Meltdown Mitigations slökkt"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
+#: NEEDS WORK
+msgid "Using mitigations=off will make your machine faster and less secure!"
+msgstr "Að nota mitigations=off mun gera vélina þína hraðari og minna örugga!"
+# 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
+#: NEEDS WORK
 msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
+"This will disable CPU security mitigations (Meltdown/Spectre). Your system will be faster but "
+"vulnerable to hardware-level attacks. Are you sure you want to continue?"
 msgstr ""
-"Að nota mitigations=off mun gera vélina þína hraðari en minna örugga! Fyrir frekari upplýsingar, "
-"sjáðu: <a href='{l}'>{l}</a>"
+"Þetta mun slökkva á öryggisvörnum CPU (Meltdown/Spectre). Kerfið þitt mun vera hraðara en viðkvæmt "
+"fyrir árásum á vélbúnaðarstigi. Ertu viss um að þú viljir halda áfram?"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
 msgid "noWatchdog"
@@ -831,21 +1071,42 @@ msgstr ""
 "Veitir harðvaru vöktunina og TSC klukkuheimildir, viðhalda háum frammistöðu en fjarlægja "
 "sjálfvirkar verndaraðgerðir gegn kerfisfalli."
 # 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
+#: NEEDS WORK
+msgid ""
+"This will disable the hardware watchdog. Your system will no longer automatically recover from "
+"certain types of crashes. Are you sure you want to continue?"
+msgstr ""
+"Þetta mun slökkva á vélbúnaðarvöktuninni. Kerfið þitt mun ekki lengur sjálfkrafa endurheimta sig "
+"frá ákveðnum tegundum hruns. Ertu viss um að þú viljir halda áfram?"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
 msgstr "AI viðmót"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
-msgid "Graphical interface for artificial intelligence.."
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 16
+#: NEEDS WORK
+msgid "Graphical interface for artificial intelligence."
 msgstr "Grafískur viðmót fyrir gervigreind."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 22
-msgid "Ollma Server"
-msgstr "Ollma Server"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+#: NEEDS WORK
+msgid "Ollama Server"
+msgstr "Ollama Server"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Veldu hvaða Ollama þjónn hentar best fyrir vélbúnaðinn þinn."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Ollama Variants"
+msgstr "Ollama Breytur"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Select the variant that matches your GPU hardware."
+msgstr "Veldu þá útgáfu sem passar við GPU vélbúnaðinn þinn."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"
@@ -862,6 +1123,11 @@ msgstr "Ollama LAB"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
 msgid "Graphical interface for managing Ollama models and chat."
 msgstr "Grafísk viðmót fyrir að stjórna Ollama líkanum og spjalli."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+#: NEEDS WORK
+msgid "ChatBox"
+msgstr "SamskiptiRúlla"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
 msgid "User-friendly Desktop Client App for AI Models/LLMs."
@@ -891,12 +1157,13 @@ msgstr "Mesta öfluga og modulísa sjónræna AI vélin og forritið."
 msgid "ComfyUI Server"
 msgstr "ComfyUI Server"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
-#, python-brace-format
-msgid "start ComfyUI Server. For more information see: <a href='{l}'>{l}</a>"
-msgstr "start ComfyUI þjónustuna. Fyrir frekari upplýsingar, sjáðu: <a href='{l}'>{l}</a>"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+#: NEEDS WORK
+msgid "Start the ComfyUI server."
+msgstr "Byrjaðu ComfyUI þjóninn."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+#, python-brace-format
 msgid ""
 "ComfyUI server is running.\n"
 "Address: http://localhost:8188\n"
@@ -945,6 +1212,7 @@ msgstr "Deildu ollama á staðarnetinu."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 86
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 104
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 122
+#, python-brace-format
 msgid ""
 "Ollama server is running.\n"
 "Address: http://{}:11434"
@@ -1004,12 +1272,10 @@ msgstr "Maksimera, lágmarka og loka hnappana vinstra megin í glugganum."
 msgid "KZones"
 msgstr "KZones"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "Skrá fyrir KWin gluggastjóra KDE Plasma skrifborðsumhverfisins."
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "Virkja gluggaskipulagssvæði fyrir KDE Plasma skrifborðið."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
 msgid "Recent Files & Locations"

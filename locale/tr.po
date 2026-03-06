@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the biglinux-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
@@ -16,7 +17,8 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "kzones Install"
 msgstr "kzones Kurulumu"
-msgid "Instaling Kzones, Please wait..."
+#: NEEDS WORK
+msgid "Installing Kzones, please wait..."
 msgstr "Kzones kuruluyor, lütfen bekleyin..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones başarıyla yüklendi!"
@@ -24,12 +26,14 @@ msgid "Applying, please wait..."
 msgstr "Uygulanıyor, lütfen bekleyin..."
 msgid "Recent Files enabling...."
 msgstr "Son Dosyalar etkinleştiriliyor...."
-msgid "Recent Files enabling, Please wait..."
-msgstr "Son Dosyalar etkinleştiriliyor, Lütfen bekleyin..."
+#: NEEDS WORK
+msgid "Recent Files enabling, please wait..."
+msgstr "Son Dosyalar etkinleştiriliyor, lütfen bekleyin..."
 msgid "Recent Files disabling...."
 msgstr "Son Dosyalar devre dışı bırakılıyor...."
-msgid "Recent Files disabling, Please wait..."
-msgstr "Son Dosyalar devre dışı bırakılıyor, Lütfen bekleyin..."
+#: NEEDS WORK
+msgid "Recent Files disabling, please wait..."
+msgstr "Son Dosyalar devre dışı bırakılıyor, lütfen bekleyin..."
 msgid ""
 "Recent Files successfully enabled!\\n"
 "You need to close and reopen Dolphin for it to take effect."
@@ -58,7 +62,8 @@ msgid "Failed to install Example!"
 msgstr "Örnek yüklenemedi!"
 msgid "JamesDSP Install"
 msgstr "JamesDSP Kurulumu"
-msgid "Instaling JamesDSP, Please wait..."
+#: NEEDS WORK
+msgid "Installing JamesDSP, please wait..."
 msgstr "JamesDSP kuruluyor, lütfen bekleyin..."
 msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP başarıyla yüklendi!"
@@ -66,28 +71,34 @@ msgid "Failed to install jamesDSP!"
 msgstr "jamesDSP yüklenemedi!"
 msgid "Docker Install"
 msgstr "Docker Kurulumu"
-msgid "Instaling Docker, Please wait..."
+#: NEEDS WORK
+msgid "Installing Docker, please wait..."
 msgstr "Docker kuruluyor, lütfen bekleyin..."
 msgid "Docker Start"
 msgstr "Docker Başlat"
-msgid "Docker Starting, Please wait..."
-msgstr "Docker Başlatılıyor, Lütfen bekleyin..."
+#: NEEDS WORK
+msgid "Docker Starting, please wait..."
+msgstr "Docker Başlatılıyor, lütfen bekleyin..."
 msgid "Docker Stop"
 msgstr "Docker Durdur"
-msgid "Docker Stopping, Please wait..."
-msgstr "Docker Durduruluyor, Lütfen bekleyin..."
+#: NEEDS WORK
+msgid "Docker Stopping, please wait..."
+msgstr "Docker Durduruluyor, lütfen bekleyin..."
 msgid "Docker installed successfully!"
 msgstr "Docker başarıyla yüklendi!"
-msgid "An error occurred while install docker."
+#: NEEDS WORK
+msgid "An error occurred while installing Docker."
 msgstr "Docker yüklenirken bir hata oluştu."
 msgid "Installing $package"
 msgstr "$package kuruluyor"
-msgid "Installing $package, Please wait..."
-msgstr "$package kuruluyor, Lütfen bekleyin..."
+#: NEEDS WORK
+msgid "Installing $package, please wait..."
+msgstr "$package kuruluyor, lütfen bekleyin..."
 msgid "Removing $package"
 msgstr "$package kaldırılıyor"
-msgid "Removing $package, Please wait..."
-msgstr "$package kaldırılıyor, Lütfen bekleyin..."
+#: NEEDS WORK
+msgid "Removing $package, please wait..."
+msgstr "$package kaldırılıyor, lütfen bekleyin..."
 msgid ""
 "$title installed successfully!\\n"
 "\\n"
@@ -118,23 +129,27 @@ msgid "Already enabled. No changes made."
 msgstr "Zaten etkinleştirildi. Değişiklik yapılmadı."
 msgid "Ollama Vulkan Install"
 msgstr "Ollama Vulkan Kurulumu"
-msgid "Instaling Ollama, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
 msgstr "Ollama kuruluyor, lütfen bekleyin..."
 msgid "Ollama Vulkan Uninstall"
 msgstr "Ollama Vulkan Kaldırma"
-msgid "Unistaling Ollama Vulkan, Please wait..."
-msgstr "Ollama Vulkan'ı kaldırıyor, lütfen bekleyin..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Ollama Vulkan kaldırılıyor, lütfen bekleyin..."
 msgid "Ollama Vulkan installed successfully!"
 msgstr "Ollama Vulkan başarıyla yüklendi!"
 msgid "Failed to install Ollama Vulkan!"
 msgstr "Ollama Vulkan yüklenemedi!"
 msgid "ChatBox Install"
 msgstr "ChatBox Kurulum"
-msgid "Instaling ChatBox, Please wait..."
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
 msgstr "ChatBox kuruluyor, lütfen bekleyin..."
 msgid "ChatBox Uninstall"
 msgstr "ChatBox Kaldır"
-msgid "Uninstaling ChatBox, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
 msgstr "ChatBox kaldırılıyor, lütfen bekleyin..."
 msgid "ChatBox installed successfully!"
 msgstr "ChatBox başarıyla yüklendi!"
@@ -142,12 +157,14 @@ msgid "Failed to install ChatBox!"
 msgstr "ChatBox kurulumu başarısız oldu!"
 msgid "Ollama Lab Install"
 msgstr "Ollama Lab Kurulumu"
-msgid "Instaling Ollama Lab, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama Lab, please wait..."
 msgstr "Ollama Lab kuruluyor, lütfen bekleyin..."
 msgid "Ollama Lab Uninstall"
 msgstr "Ollama Lab Kaldırma"
-msgid "Unistaling Ollama Lab, Please wait..."
-msgstr "Ollama Lab'ı kaldırıyor, lütfen bekleyin..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Ollama Lab kaldırılıyor, lütfen bekleyin..."
 msgid "Ollama Lab installed successfully!"
 msgstr "Ollama Lab başarıyla yüklendi!"
 msgid "Failed to install Ollama Lab!"
@@ -180,7 +197,8 @@ msgid "Ollama Install"
 msgstr "Ollama Kurulum"
 msgid "Ollama Uninstall"
 msgstr "Ollama Kaldır"
-msgid "Unistaling Ollama, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
 msgstr "Ollama kaldırılıyor, lütfen bekleyin..."
 msgid "Ollama installed successfully!"
 msgstr "Ollama başarıyla yüklendi!"
@@ -188,11 +206,13 @@ msgid "Failed to install Ollama!"
 msgstr "Ollama yüklenemedi!"
 msgid "Ollama ROCm Install"
 msgstr "Ollama ROCm Kurulumu"
-msgid "Instaling Ollama ROCm, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
 msgstr "Ollama ROCm kuruluyor, lütfen bekleyin..."
 msgid "Ollama ROCm Uninstall"
 msgstr "Ollama ROCm Kaldırma"
-msgid "Unistaling Ollama ROCm, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
 msgstr "Ollama ROCm kaldırılıyor, lütfen bekleyin..."
 msgid "Ollama ROCm installed successfully!"
 msgstr "Ollama ROCm başarıyla yüklendi!"
@@ -200,12 +220,14 @@ msgid "Failed to install Ollama ROCm!"
 msgstr "Ollama ROCm yüklemesi başarısız oldu!"
 msgid "comfyUI Install...."
 msgstr "comfyUI Kurulumu...."
-msgid "Instaling comfyUI, this step take a long time, Please wait..."
-msgstr "ComfyUI kurulumu, bu adım uzun sürüyor, lütfen bekleyin..."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "comfyUI kurulumu, bu adım uzun sürüyor, lütfen bekleyin..."
 msgid "Uninstall comfyUI...."
 msgstr "ComfyUI'yi kaldır..."
-msgid "Uninstaling comfyUI, Please wait..."
-msgstr "ComfyUI kaldırılıyor, lütfen bekleyin..."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "comfyUI kaldırılıyor, lütfen bekleyin..."
 msgid "comfyUI installed successfully"
 msgstr "comfyUI başarıyla yüklendi"
 msgid "comfyUI uninstalled successfully"
@@ -220,15 +242,18 @@ msgid ""
 msgstr ""
 "Ollama başarıyla paylaşıldı.\\n"
 "Adres: http://$localIp:11434"
-msgid "Failed to shared Ollama!"
-msgstr "Ollama paylaşımı başarısız oldu!"
+#: NEEDS WORK
+msgid "Failed to configure Ollama sharing!"
+msgstr "Ollama paylaşımını yapılandırma başarısız oldu!"
 msgid "Ollama CUDA Install"
 msgstr "Ollama CUDA Kurulumu"
-msgid "Instaling Ollama CUDA, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
 msgstr "Ollama CUDA kuruluyor, lütfen bekleyin..."
 msgid "Ollama CUDA Uninstall"
 msgstr "Ollama CUDA Kaldırma"
-msgid "Unistaling Ollama CUDA, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
 msgstr "Ollama CUDA kaldırılıyor, lütfen bekleyin..."
 msgid "Ollama CUDA installed successfully!"
 msgstr "Ollama CUDA başarıyla yüklendi!"
@@ -236,11 +261,13 @@ msgid "Failed to install Ollama CUDA!"
 msgstr "Ollama CUDA yüklemesi başarısız oldu!"
 msgid "LM Studio Install"
 msgstr "LM Stüdyo Kurulum"
-msgid "Instaling LM Studio, Please wait..."
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
 msgstr "LM Studio kuruluyor, lütfen bekleyin..."
 msgid "LM Studio Uninstall"
 msgstr "LM Studio Kaldır"
-msgid "Uninstaling LM Studio, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
 msgstr "LM Studio kaldırılıyor, lütfen bekleyin..."
 msgid "LM Studio installed successfully!"
 msgstr "LM Studio başarıyla yüklendi!"
@@ -248,11 +275,13 @@ msgid "Failed to install LM Studio!"
 msgstr "LM Studio kurulumu başarısız oldu!"
 msgid "Krita Install"
 msgstr "Krita Kurulumu"
-msgid "Instaling Krita, Please wait..."
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
 msgstr "Krita kuruluyor, lütfen bekleyin..."
 msgid "Krita Uninstall"
 msgstr "Krita Kaldır"
-msgid "Uninstaling Krita, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
 msgstr "Krita kaldırılıyor, lütfen bekleyin..."
 msgid "Krita installed successfully!"
 msgstr "Krita başarıyla yüklendi!"
@@ -260,8 +289,9 @@ msgid "Failed to install Krita!"
 msgstr "Krita'yı yükleme başarısız!"
 msgid "comfyUI Depends Install"
 msgstr "comfyUI Bağımlılıkları Yükle"
-msgid "Instaling comfyUI Depends, Please wait..."
-msgstr "ComfyUI Bağımlılıkları Yükleniyor, Lütfen Bekleyin..."
+#: NEEDS WORK
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "comfyUI Bağımlılıkları Yükleniyor, lütfen bekleyin..."
 msgid "comfyUI Depends installed successfully!"
 msgstr "comfyUI Bağımlılıkları başarıyla yüklendi!"
 msgid "Failed to install comfyUI Depends!"
@@ -271,9 +301,10 @@ msgstr "comfyUI Bağımlılıklarını yükleme başarısız!"
 msgid "Docker"
 msgstr "Docker"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
-msgid "Container service - enable to use containers below."
-msgstr "Konteyner hizmeti - aşağıdaki konteynerleri kullanmayı etkinleştir."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
+#: NEEDS WORK
+msgid "Container service — enable to use containers below."
+msgstr "Konteyner hizmeti — aşağıdaki konteynerleri kullanmayı etkinleştir."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -286,23 +317,56 @@ msgstr "Konteynerler"
 msgid "Manage container technologies."
 msgstr "Konteyner teknolojilerini yönetin."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "Docker Etkin."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 30
+#: NEEDS WORK
+msgid "Media &amp; Cloud"
+msgstr "Medya ve Bulut"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 31
+#: NEEDS WORK
+msgid "Media servers and cloud storage containers."
+msgstr "Medya sunucuları ve bulut depolama konteynerleri."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 36
+#: NEEDS WORK
+msgid "Network &amp; Security"
+msgstr "Ağ ve Güvenlik"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 37
+#: NEEDS WORK
+msgid "Network tools and security containers."
+msgstr "Ağ araçları ve güvenlik konteynerleri."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 42
+#: NEEDS WORK
+msgid "Development &amp; Tools"
+msgstr "Geliştirme ve Araçlar"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 43
+#: NEEDS WORK
+msgid "Development stacks and utility containers."
+msgstr "Geliştirme yığınları ve yardımcı konteynerler."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
+#: NEEDS WORK
+msgid "Enable Docker container engine."
+msgstr "Docker konteyner motorunu etkinleştir."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
 msgid "Nextcloud Plus"
 msgstr "Nextcloud Plus"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
-msgid "Install Nextcloud Plus container."
-msgstr "Nextcloud Plus konteynerini kurun."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 62
+#: NEEDS WORK
+msgid "Install Nextcloud Plus cloud storage container."
+msgstr "Nextcloud Plus bulut depolama konteynerini kurun."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
 msgid "Run Nextcloud Plus."
 msgstr "Nextcloud Plus'ı çalıştır."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
+#, python-brace-format
 msgid ""
 "Nextcloud Plus is running.\n"
 "Address: http://localhost:8286\n"
@@ -318,15 +382,17 @@ msgstr ""
 msgid "AdGuard"
 msgstr "AdGuard"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
-msgid "Install AdGuard Home container."
-msgstr "AdGuard Home konteynerini kurun."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 81
+#: NEEDS WORK
+msgid "Install AdGuard Home DNS ad-blocker container."
+msgstr "AdGuard Home DNS reklam engelleyici konteynerini kurun."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
 msgid "Run AdGuard."
 msgstr "AdGuard'ı çalıştır."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
+#, python-brace-format
 msgid ""
 "AdGuard is running.\n"
 "Address: http://localhost:3030\n"
@@ -342,15 +408,17 @@ msgstr ""
 msgid "Jellyfin"
 msgstr "Jellyfin"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
-msgid "Install Jellyfin media server."
-msgstr "Jellyfin medya sunucusunu kurun."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 100
+#: NEEDS WORK
+msgid "Install Jellyfin media server container."
+msgstr "Jellyfin medya sunucusu konteynerini kur."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
 msgid "Run Jellyfin."
 msgstr "Jellyfin'i çalıştır."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
+#, python-brace-format
 msgid ""
 "Jellyfin is running.\n"
 "Address: http://localhost:8096\n"
@@ -366,15 +434,17 @@ msgstr ""
 msgid "LAMP"
 msgstr "LAMP"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
-msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
-msgstr "LAMP yığını (Linux, Apache, MySQL, PHP) kurun."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 119
+#: NEEDS WORK
+msgid "Install LAMP stack container (Linux, Apache, MySQL, PHP)."
+msgstr "LAMP yığını konteynerini kurun (Linux, Apache, MySQL, PHP)."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
 msgid "Run LAMP."
 msgstr "LAMP'i çalıştır."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
+#, python-brace-format
 msgid ""
 "LAMP is running.\n"
 "Address: http://localhost:8080\n"
@@ -390,15 +460,17 @@ msgstr ""
 msgid "Portainer Client"
 msgstr "Portainer İstemcisi"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
-msgid "Install Portainer Agent for cluster management."
-msgstr "Küme yönetimi için Portainer Agent'ı yükleyin."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 138
+#: NEEDS WORK
+msgid "Install Portainer Agent container for cluster management."
+msgstr "Portainer Agent konteynerini küme yönetimi için kurun."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
 msgid "Run Portainer Client."
 msgstr "Portainer İstemcisini Çalıştır."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
+#, python-brace-format
 msgid ""
 "Portainer Client is running.\n"
 "Address: http://localhost:9000\n"
@@ -414,15 +486,17 @@ msgstr ""
 msgid "SWS"
 msgstr "SWS"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
-msgid "Install SWS static web server."
-msgstr "SWS statik web sunucusunu kurun."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 157
+#: NEEDS WORK
+msgid "Install SWS static web server container."
+msgstr "SWS statik web sunucusu konteynerini kurun."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
 msgid "Run SWS."
 msgstr "SWS'yi çalıştır."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+#, python-brace-format
 msgid ""
 "SWS is running.\n"
 "Address: http://localhost:8182\n"
@@ -438,15 +512,17 @@ msgstr ""
 msgid "V2RayA"
 msgstr "V2RayA"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
-msgid "Install V2RayA network tool."
-msgstr "V2RayA ağ aracını yükleyin."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 176
+#: NEEDS WORK
+msgid "Install V2RayA network proxy container."
+msgstr "V2RayA ağ proxy konteynerini kurun."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
 msgid "Run V2RayA."
 msgstr "V2RayA'yı çalıştır."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
+#, python-brace-format
 msgid ""
 "V2RayA is running.\n"
 "Address: http://localhost:2017\n"
@@ -458,6 +534,15 @@ msgstr ""
 "ve\n"
 "Adres: http://{}:2017"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 203
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
+#: NEEDS WORK
+msgid "Open Notebook"
+msgstr "Not Defteri Açık"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
 msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "Google'ın Notebook LM'sine açık kaynaklı, gizliliğe odaklı bir alternatif kurun!"
@@ -467,6 +552,7 @@ msgid "Run Open Notebook."
 msgstr "Açık Defteri Çalıştır."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+#, python-brace-format
 msgid ""
 "Open Notebook is running.\n"
 "Address: http://localhost:8502\n"
@@ -478,17 +564,49 @@ msgstr ""
 "ve\n"
 "Adres: http://{}:8502"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-msgid "Changing {} to {}"
-msgstr "{}'yi {} ile değiştirme"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
+#: NEEDS WORK
+msgid "Close"
+msgstr "Kapat"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-msgid "ERROR: Failed to change {} to {}"
-msgstr "HATA: {}'yi {}'ye değiştirme başarısız oldu."
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+#: NEEDS WORK
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Uyarı: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-msgid "Failed to change setting: {}"
-msgstr "Ayar değiştirilemedi: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
+#: NEEDS WORK
+msgid "Cancel"
+msgstr "İptal"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
+#: NEEDS WORK
+msgid "Continue"
+msgstr "Devam et"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
+#: NEEDS WORK
+msgid "Recommended"
+msgstr "Tavsiye Edilen"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: additional information"
+msgstr "{}: ek bilgi"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+#: NEEDS WORK
+msgid "Learn more"
+msgstr "Daha fazla bilgi edinin"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: learn more"
+msgstr "{}: daha fazla bilgi edinin"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -499,6 +617,7 @@ msgstr "Kullanılamıyor: betik bulunamadı."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+#, python-brace-format
 msgid "Script not found: {}"
 msgstr "Script bulunamadı: {}"
 # 
@@ -533,6 +652,7 @@ msgid "Unavailable: script returned invalid output."
 msgstr "Kullanılamıyor: betik geçersiz çıktı döndürdü."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+#, python-brace-format
 msgid "output from script {}: {}"
 msgstr "script çıktısı {}: {}"
 # 
@@ -544,6 +664,7 @@ msgid "Unavailable: script returned an error."
 msgstr "Kullanılamıyor: betik bir hata döndürdü."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+#, python-brace-format
 msgid "Error checking state: {}"
 msgstr "Hata kontrol durumu: {}"
 # 
@@ -556,6 +677,7 @@ msgstr "Kullanılamıyor: betik çalıştırılamadı."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+#, python-brace-format
 msgid "Error running script {}: {}"
 msgstr "Hata, betik çalıştırılırken {}: {}"
 # 
@@ -564,45 +686,111 @@ msgid "State changed successfully"
 msgstr "Durum başarıyla değiştirildi."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+#, python-brace-format
 msgid "Script output: {}"
 msgstr "{}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+#, python-brace-format
 msgid "Script failed with exit code: {}"
 msgstr "Script, çıkış kodu ile başarısız oldu: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+#, python-brace-format
 msgid "Script timeout: {}"
 msgstr "Betik zaman aşımı: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Switch {} synchronized: {}"
-msgstr "Anahtar {} senkronize: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} sub-options available"
+msgstr "{} alt seçenekler mevcut"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "on"
+msgstr "açık"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "off"
+msgstr "kapalı"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
+#: NEEDS WORK
+#, python-brace-format
+msgid "Changing {} to {}…"
+msgstr "{}'yi {}'ye değiştiriyor…"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+#: NEEDS WORK
+msgid "Undo"
+msgstr "Geri Al"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
+#: NEEDS WORK
+msgid "Undo: reverted toggle"
+msgstr "Geri Al: geri alınmış anahtar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+#, python-brace-format
+msgid "Changing {} to {}"
+msgstr "{}'yi {} ile değiştirme"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "Göstergeler {} senkronize edildi: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "Uygulanıyor…"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+#, python-brace-format
+msgid "ERROR: Failed to change {} to {}"
+msgstr "HATA: {}'yi {}'ye değiştirme başarısız oldu."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+#, python-brace-format
+msgid "Failed to change setting: {}"
+msgstr "Ayar değiştirilemedi: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
 msgid "BigLinux Settings"
 msgstr "BigLinux Ayarları"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "Kategoriler"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
+#: NEEDS WORK
+msgid "BigLinux Community"
+msgstr "BigLinux Topluluğu"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
 msgid "Search..."
 msgstr "Ara..."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "Ayarlar"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
+#: NEEDS WORK
+msgid "Search settings"
+msgstr "Arama ayarları"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
+#: NEEDS WORK
+msgid "Toggle navigation sidebar"
+msgstr "Navigasyon yan çubuğunu aç/kapat"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
+#: NEEDS WORK
+msgid "About"
+msgstr "Hakkında"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
+#: NEEDS WORK
+msgid "Main Menu"
+msgstr "Ana Menü"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System"
@@ -650,6 +838,11 @@ msgstr "Yapay Zeka"
 msgid "Performance"
 msgstr "Performans"
 # 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
+#: NEEDS WORK
+msgid "Dismiss"
+msgstr "Kapat"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."
 msgstr "Genel sistem ayarları."
@@ -663,6 +856,7 @@ msgid "Enable remote access via ssh."
 msgstr "SSH üzerinden uzaktan erişimi etkinleştir."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+#, python-brace-format
 msgid "SSH Address: {}"
 msgstr "SSH Adresi: {}"
 # 
@@ -738,17 +932,19 @@ msgstr "Fiziksel cihazları yönetin."
 msgid "Wifi"
 msgstr "Wifi"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi Açık"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "Wi-Fi adaptörünü etkinleştir."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
 msgid "Bluetooth"
 msgstr "Bluetooth"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth Açık."
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "Bluetooth adaptörünü etkinleştir."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -768,6 +964,45 @@ msgstr "Tersine fare kaydırma"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Oturumu yeniden başlatmadan fare kaydırmasını tersine çevir."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "Ağ Arayüzleri"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "Ağ cihazlarını bağlayın veya ayırın."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} — {}"
+msgstr "Tam anahtarı (kullanım bağlamı): {} — {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: bağlantıyı aç/kapat"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "bağlı"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "bağlantı kesildi"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "Ağ cihazı değiştirilemedi: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -811,14 +1046,20 @@ msgstr "S.M.A.R.T disk izleme devre dışı bırakılır. Disk I/O ve CPU kullan
 msgid "Meltdown Mitigations off"
 msgstr "Meltdown Azaltmaları kapalı"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
+#: NEEDS WORK
+msgid "Using mitigations=off will make your machine faster and less secure!"
+msgstr "Mitigasyonları kapatmak, makinenizi daha hızlı ve daha az güvenli hale getirecektir!"
+# 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
+#: NEEDS WORK
 msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
+"This will disable CPU security mitigations (Meltdown/Spectre). Your system will be faster but "
+"vulnerable to hardware-level attacks. Are you sure you want to continue?"
 msgstr ""
-"Mitigasyonlar kapalı olduğunda, makineniz daha hızlı ancak daha az güvenli olacaktır! Daha fazla "
-"bilgi için: <a href='{l}'>{l}</a>"
+"Bu, CPU güvenlik önlemlerini (Meltdown/Spectre) devre dışı bırakacaktır. Sisteminiz daha hızlı "
+"olacak ancak donanım düzeyindeki saldırılara karşı savunmasız kalacaktır. Devam etmek "
+"istediğinizden emin misiniz?"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
 msgid "noWatchdog"
@@ -832,21 +1073,42 @@ msgstr ""
 "Donanım izleyicisini ve TSC saat kaynağı sistemlerini devre dışı bırakır, yüksek performansı korur "
 "ancak sistem çökmesine karşı otomatik korumaları kaldırır."
 # 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
+#: NEEDS WORK
+msgid ""
+"This will disable the hardware watchdog. Your system will no longer automatically recover from "
+"certain types of crashes. Are you sure you want to continue?"
+msgstr ""
+"Bu, donanım izleyicisini devre dışı bırakacaktır. Sisteminiz artık belirli türdeki çöküşlerden "
+"otomatik olarak kurtulmayacaktır. Devam etmek istediğinizden emin misiniz?"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
 msgstr "Yapay Zeka Arayüzleri"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
-msgid "Graphical interface for artificial intelligence.."
-msgstr "Yapay zeka için grafiksel arayüz."
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 16
+#: NEEDS WORK
+msgid "Graphical interface for artificial intelligence."
+msgstr "Yapay zeka için grafik arayüz."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 22
-msgid "Ollma Server"
-msgstr "Ollma Sunucusu"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+#: NEEDS WORK
+msgid "Ollama Server"
+msgstr "Ollama Sunucusu"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Donanımınız için en iyi Ollama sunucusunu seçin."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Ollama Variants"
+msgstr "Ollama Varyantları"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Select the variant that matches your GPU hardware."
+msgstr "GPU donanımınıza uyan varyantı seçin."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"
@@ -863,6 +1125,11 @@ msgstr "Ollama LAB"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 129
 msgid "Graphical interface for managing Ollama models and chat."
 msgstr "Ollama modellerini ve sohbeti yönetmek için grafik arayüz."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+#: NEEDS WORK
+msgid "ChatBox"
+msgstr "Sohbet Kutusu"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 137
 msgid "User-friendly Desktop Client App for AI Models/LLMs."
@@ -894,12 +1161,13 @@ msgstr "En güçlü ve modüler görsel yapay zeka motoru ve uygulaması."
 msgid "ComfyUI Server"
 msgstr "ComfyUI Sunucusu"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
-#, python-brace-format
-msgid "start ComfyUI Server. For more information see: <a href='{l}'>{l}</a>"
-msgstr "ComfyUI Sunucusunu başlat. Daha fazla bilgi için bakınız: <a href='{l}'>{l}</a>"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+#: NEEDS WORK
+msgid "Start the ComfyUI server."
+msgstr "ComfyUI sunucusunu başlat."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+#, python-brace-format
 msgid ""
 "ComfyUI server is running.\n"
 "Address: http://localhost:8188\n"
@@ -948,6 +1216,7 @@ msgstr "Ollama'yı yerel ağda paylaş."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 105
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 123
+#, python-brace-format
 msgid ""
 "Ollama server is running.\n"
 "Address: http://{}:11434"
@@ -1007,12 +1276,10 @@ msgstr "Pencerenin sol tarafında maksimum, minimum ve kapatma düğmeleri."
 msgid "KZones"
 msgstr "KZones"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "KDE Plasma masaüstü ortamının KWin pencere yöneticisi için betik."
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "KDE Plasma masaüstü için pencere döşeme alanlarını etkinleştir."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
 msgid "Recent Files & Locations"

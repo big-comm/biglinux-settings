@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the biglinux-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
@@ -16,7 +17,8 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "kzones Install"
 msgstr "kzones Instalace"
-msgid "Instaling Kzones, Please wait..."
+#: NEEDS WORK
+msgid "Installing Kzones, please wait..."
 msgstr "Instalace Kzones, prosím čekejte..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones byl úspěšně nainstalován!"
@@ -24,11 +26,13 @@ msgid "Applying, please wait..."
 msgstr "Aplikuji, prosím čekejte..."
 msgid "Recent Files enabling...."
 msgstr "Povolení nedávných souborů...."
-msgid "Recent Files enabling, Please wait..."
+#: NEEDS WORK
+msgid "Recent Files enabling, please wait..."
 msgstr "Aktivace nedávných souborů, prosím čekejte..."
 msgid "Recent Files disabling...."
 msgstr "Zakázání nedávných souborů...."
-msgid "Recent Files disabling, Please wait..."
+#: NEEDS WORK
+msgid "Recent Files disabling, please wait..."
 msgstr "Zakázání nedávných souborů, prosím čekejte..."
 msgid ""
 "Recent Files successfully enabled!\\n"
@@ -58,35 +62,42 @@ msgid "Failed to install Example!"
 msgstr "Instalace příkladu se nezdařila!"
 msgid "JamesDSP Install"
 msgstr "Instalace JamesDSP"
-msgid "Instaling JamesDSP, Please wait..."
-msgstr "Instaluji JamesDSP, prosím čekejte..."
+#: NEEDS WORK
+msgid "Installing JamesDSP, please wait..."
+msgstr "Instalace JamesDSP, prosím čekejte..."
 msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP byl úspěšně nainstalován!"
 msgid "Failed to install jamesDSP!"
 msgstr "Instalace jamesDSP se nezdařila!"
 msgid "Docker Install"
 msgstr "Instalace Dockeru"
-msgid "Instaling Docker, Please wait..."
-msgstr "Instaluji Docker, prosím čekejte..."
+#: NEEDS WORK
+msgid "Installing Docker, please wait..."
+msgstr "Instalace Dockeru, prosím čekejte..."
 msgid "Docker Start"
 msgstr "Docker Spustit"
-msgid "Docker Starting, Please wait..."
+#: NEEDS WORK
+msgid "Docker Starting, please wait..."
 msgstr "Docker se spouští, prosím čekejte..."
 msgid "Docker Stop"
 msgstr "Docker Zastavit"
-msgid "Docker Stopping, Please wait..."
+#: NEEDS WORK
+msgid "Docker Stopping, please wait..."
 msgstr "Docker se zastavuje, prosím čekejte..."
 msgid "Docker installed successfully!"
 msgstr "Docker byl úspěšně nainstalován!"
-msgid "An error occurred while install docker."
-msgstr "Při instalaci dockeru došlo k chybě."
+#: NEEDS WORK
+msgid "An error occurred while installing Docker."
+msgstr "Při instalaci Dockeru došlo k chybě."
 msgid "Installing $package"
 msgstr "Instalace $package"
-msgid "Installing $package, Please wait..."
+#: NEEDS WORK
+msgid "Installing $package, please wait..."
 msgstr "Instaluji $package, prosím čekejte..."
 msgid "Removing $package"
 msgstr "Odstranění $package"
-msgid "Removing $package, Please wait..."
+#: NEEDS WORK
+msgid "Removing $package, please wait..."
 msgstr "Odstraňuji $package, prosím čekejte..."
 msgid ""
 "$title installed successfully!\\n"
@@ -118,11 +129,13 @@ msgid "Already enabled. No changes made."
 msgstr "Již povoleno. Žádné změny nebyly provedeny."
 msgid "Ollama Vulkan Install"
 msgstr "Ollama Vulkan Instalace"
-msgid "Instaling Ollama, Please wait..."
-msgstr "Instaluji Ollama, prosím čekejte..."
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
+msgstr "Instalace Ollama, prosím čekejte..."
 msgid "Ollama Vulkan Uninstall"
 msgstr "Ollama Vulkan Odinstalovat"
-msgid "Unistaling Ollama Vulkan, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
 msgstr "Odinstalovávání Ollama Vulkan, prosím čekejte..."
 msgid "Ollama Vulkan installed successfully!"
 msgstr "Ollama Vulkan byl úspěšně nainstalován!"
@@ -130,11 +143,13 @@ msgid "Failed to install Ollama Vulkan!"
 msgstr "Nepodařilo se nainstalovat Ollama Vulkan!"
 msgid "ChatBox Install"
 msgstr "Instalace ChatBox"
-msgid "Instaling ChatBox, Please wait..."
-msgstr "Instalace ChatBoxu, prosím čekejte..."
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
+msgstr "Instalace ChatBox, prosím čekejte..."
 msgid "ChatBox Uninstall"
 msgstr "Odinstalovat ChatBox"
-msgid "Uninstaling ChatBox, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
 msgstr "Odinstalovávání ChatBoxu, prosím čekejte..."
 msgid "ChatBox installed successfully!"
 msgstr "ChatBox byl úspěšně nainstalován!"
@@ -142,11 +157,13 @@ msgid "Failed to install ChatBox!"
 msgstr "Instalace ChatBoxu se nezdařila!"
 msgid "Ollama Lab Install"
 msgstr "Instalace Ollama Lab"
-msgid "Instaling Ollama Lab, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama Lab, please wait..."
 msgstr "Instalace Ollama Lab, prosím čekejte..."
 msgid "Ollama Lab Uninstall"
 msgstr "Ollama Lab Odinstalovat"
-msgid "Unistaling Ollama Lab, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama Lab, please wait..."
 msgstr "Odinstalovávání Ollama Lab, prosím čekejte..."
 msgid "Ollama Lab installed successfully!"
 msgstr "Ollama Lab byl úspěšně nainstalován!"
@@ -180,7 +197,8 @@ msgid "Ollama Install"
 msgstr "Ollama Instalace"
 msgid "Ollama Uninstall"
 msgstr "Ollama Odinstalovat"
-msgid "Unistaling Ollama, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
 msgstr "Odinstalovávání Ollama, prosím čekejte..."
 msgid "Ollama installed successfully!"
 msgstr "Ollama byl úspěšně nainstalován!"
@@ -188,11 +206,13 @@ msgid "Failed to install Ollama!"
 msgstr "Instalace Ollama se nezdařila!"
 msgid "Ollama ROCm Install"
 msgstr "Ollama ROCm Instalace"
-msgid "Instaling Ollama ROCm, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
 msgstr "Instalace Ollama ROCm, prosím čekejte..."
 msgid "Ollama ROCm Uninstall"
 msgstr "Ollama ROCm Odinstalovat"
-msgid "Unistaling Ollama ROCm, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
 msgstr "Odinstalovávání Ollama ROCm, prosím čekejte..."
 msgid "Ollama ROCm installed successfully!"
 msgstr "Ollama ROCm byl úspěšně nainstalován!"
@@ -200,11 +220,13 @@ msgid "Failed to install Ollama ROCm!"
 msgstr "Nepodařilo se nainstalovat Ollama ROCm!"
 msgid "comfyUI Install...."
 msgstr "comfyUI Instalace...."
-msgid "Instaling comfyUI, this step take a long time, Please wait..."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
 msgstr "Instalace comfyUI, tento krok trvá dlouho, prosím čekejte..."
 msgid "Uninstall comfyUI...."
 msgstr "Odinstalovat comfyUI...."
-msgid "Uninstaling comfyUI, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
 msgstr "Odinstalovávání comfyUI, prosím čekejte..."
 msgid "comfyUI installed successfully"
 msgstr "comfyUI bylo úspěšně nainstalováno"
@@ -220,15 +242,18 @@ msgid ""
 msgstr ""
 "Ollama bylo úspěšně sdíleno.\\n"
 "Adresa: http://$localIp:11434"
-msgid "Failed to shared Ollama!"
-msgstr "Nepodařilo se sdílet Ollama!"
+#: NEEDS WORK
+msgid "Failed to configure Ollama sharing!"
+msgstr "Nepodařilo se nakonfigurovat sdílení Ollama!"
 msgid "Ollama CUDA Install"
 msgstr "Ollama CUDA Instalace"
-msgid "Instaling Ollama CUDA, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
 msgstr "Instalace Ollama CUDA, prosím čekejte..."
 msgid "Ollama CUDA Uninstall"
 msgstr "Ollama CUDA Odinstalace"
-msgid "Unistaling Ollama CUDA, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
 msgstr "Odinstalovávání Ollama CUDA, prosím čekejte..."
 msgid "Ollama CUDA installed successfully!"
 msgstr "Ollama CUDA byl úspěšně nainstalován!"
@@ -236,11 +261,13 @@ msgid "Failed to install Ollama CUDA!"
 msgstr "Nepodařilo se nainstalovat Ollama CUDA!"
 msgid "LM Studio Install"
 msgstr "Instalace LM Studia"
-msgid "Instaling LM Studio, Please wait..."
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
 msgstr "Instalace LM Studia, prosím čekejte..."
 msgid "LM Studio Uninstall"
 msgstr "Odinstalovat LM Studio"
-msgid "Uninstaling LM Studio, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
 msgstr "Odinstalovávání LM Studia, prosím čekejte..."
 msgid "LM Studio installed successfully!"
 msgstr "LM Studio bylo úspěšně nainstalováno!"
@@ -248,11 +275,13 @@ msgid "Failed to install LM Studio!"
 msgstr "Instalace LM Studia se nezdařila!"
 msgid "Krita Install"
 msgstr "Instalace Krita"
-msgid "Instaling Krita, Please wait..."
-msgstr "Instaluji Krita, prosím čekejte..."
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "Instalace Krita, prosím čekejte..."
 msgid "Krita Uninstall"
 msgstr "Odinstalovat Krita"
-msgid "Uninstaling Krita, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
 msgstr "Odinstalovávání Krita, prosím čekejte..."
 msgid "Krita installed successfully!"
 msgstr "Krita byla úspěšně nainstalována!"
@@ -260,7 +289,8 @@ msgid "Failed to install Krita!"
 msgstr "Instalace Krita se nezdařila!"
 msgid "comfyUI Depends Install"
 msgstr "comfyUI Závislosti Instalace"
-msgid "Instaling comfyUI Depends, Please wait..."
+#: NEEDS WORK
+msgid "Installing comfyUI Depends, please wait..."
 msgstr "Instalace závislostí comfyUI, prosím čekejte..."
 msgid "comfyUI Depends installed successfully!"
 msgstr "comfyUI Závislosti byly úspěšně nainstalovány!"
@@ -271,9 +301,10 @@ msgstr "Nepodařilo se nainstalovat comfyUI závislosti!"
 msgid "Docker"
 msgstr "Docker"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
-msgid "Container service - enable to use containers below."
-msgstr "Služba kontejnerů - povolit použití kontejnerů níže."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
+#: NEEDS WORK
+msgid "Container service — enable to use containers below."
+msgstr "Služba kontejnerů — povolit používání kontejnerů níže."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -286,23 +317,56 @@ msgstr "Kontejnery"
 msgid "Manage container technologies."
 msgstr "Spravujte technologie kontejnerů."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "Docker povolen."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 30
+#: NEEDS WORK
+msgid "Media &amp; Cloud"
+msgstr "Média a cloud"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 31
+#: NEEDS WORK
+msgid "Media servers and cloud storage containers."
+msgstr "Mediální servery a kontejnery cloudového úložiště."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 36
+#: NEEDS WORK
+msgid "Network &amp; Security"
+msgstr "Síť a zabezpečení"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 37
+#: NEEDS WORK
+msgid "Network tools and security containers."
+msgstr "Nástroje pro síť a bezpečnostní kontejnery."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 42
+#: NEEDS WORK
+msgid "Development &amp; Tools"
+msgstr "Vývoj a nástroje"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 43
+#: NEEDS WORK
+msgid "Development stacks and utility containers."
+msgstr "Vývojové stacky a utility kontejnery."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
+#: NEEDS WORK
+msgid "Enable Docker container engine."
+msgstr "Povolit Docker kontejnerový engine."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
 msgid "Nextcloud Plus"
 msgstr "Nextcloud Plus"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
-msgid "Install Nextcloud Plus container."
-msgstr "Nainstalujte kontejner Nextcloud Plus."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 62
+#: NEEDS WORK
+msgid "Install Nextcloud Plus cloud storage container."
+msgstr "Nainstalujte kontejner cloudového úložiště Nextcloud Plus."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
 msgid "Run Nextcloud Plus."
 msgstr "Spusťte Nextcloud Plus."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
+#, python-brace-format
 msgid ""
 "Nextcloud Plus is running.\n"
 "Address: http://localhost:8286\n"
@@ -318,15 +382,17 @@ msgstr ""
 msgid "AdGuard"
 msgstr "AdGuard"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
-msgid "Install AdGuard Home container."
-msgstr "Nainstalujte kontejner AdGuard Home."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 81
+#: NEEDS WORK
+msgid "Install AdGuard Home DNS ad-blocker container."
+msgstr "Nainstalujte kontejner AdGuard Home DNS blokátoru reklam."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
 msgid "Run AdGuard."
 msgstr "Spusťte AdGuard."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
+#, python-brace-format
 msgid ""
 "AdGuard is running.\n"
 "Address: http://localhost:3030\n"
@@ -342,15 +408,17 @@ msgstr ""
 msgid "Jellyfin"
 msgstr "Jellyfin"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
-msgid "Install Jellyfin media server."
-msgstr "Nainstalujte server médií Jellyfin."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 100
+#: NEEDS WORK
+msgid "Install Jellyfin media server container."
+msgstr "Nainstalujte kontejner serveru Jellyfin."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
 msgid "Run Jellyfin."
 msgstr "Spusťte Jellyfin."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
+#, python-brace-format
 msgid ""
 "Jellyfin is running.\n"
 "Address: http://localhost:8096\n"
@@ -366,15 +434,17 @@ msgstr ""
 msgid "LAMP"
 msgstr "LAMP"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
-msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
-msgstr "Nainstalujte LAMP stack (Linux, Apache, MySQL, PHP)."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 119
+#: NEEDS WORK
+msgid "Install LAMP stack container (Linux, Apache, MySQL, PHP)."
+msgstr "Nainstalujte kontejner LAMP stacku (Linux, Apache, MySQL, PHP)."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
 msgid "Run LAMP."
 msgstr "Spusťte LAMP."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
+#, python-brace-format
 msgid ""
 "LAMP is running.\n"
 "Address: http://localhost:8080\n"
@@ -390,15 +460,17 @@ msgstr ""
 msgid "Portainer Client"
 msgstr "Portainer Klient"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
-msgid "Install Portainer Agent for cluster management."
-msgstr "Nainstalujte Portainer Agent pro správu clusteru."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 138
+#: NEEDS WORK
+msgid "Install Portainer Agent container for cluster management."
+msgstr "Nainstalujte kontejner Portainer Agent pro správu clusteru."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
 msgid "Run Portainer Client."
 msgstr "Spusťte Portainer Client."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
+#, python-brace-format
 msgid ""
 "Portainer Client is running.\n"
 "Address: http://localhost:9000\n"
@@ -414,15 +486,17 @@ msgstr ""
 msgid "SWS"
 msgstr "SWS"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
-msgid "Install SWS static web server."
-msgstr "Nainstalujte SWS statický webový server."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 157
+#: NEEDS WORK
+msgid "Install SWS static web server container."
+msgstr "Nainstalujte kontejner statického webového serveru SWS."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
 msgid "Run SWS."
 msgstr "Spusťte SWS."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+#, python-brace-format
 msgid ""
 "SWS is running.\n"
 "Address: http://localhost:8182\n"
@@ -438,15 +512,17 @@ msgstr ""
 msgid "V2RayA"
 msgstr "V2RayA"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
-msgid "Install V2RayA network tool."
-msgstr "Nainstalujte nástroj V2RayA pro síť."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 176
+#: NEEDS WORK
+msgid "Install V2RayA network proxy container."
+msgstr "Nainstalujte kontejner síťového proxy V2RayA."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
 msgid "Run V2RayA."
 msgstr "Spusťte V2RayA."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
+#, python-brace-format
 msgid ""
 "V2RayA is running.\n"
 "Address: http://localhost:2017\n"
@@ -458,6 +534,15 @@ msgstr ""
 "a\n"
 "Adresa: http://{}:2017"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 203
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
+#: NEEDS WORK
+msgid "Open Notebook"
+msgstr "Otevřít poznámkový blok"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
 msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "Nainstalujte open source, na ochranu soukromí zaměřenou alternativu k Google Notebook LM!"
@@ -467,6 +552,7 @@ msgid "Run Open Notebook."
 msgstr "Spusťte otevřený zápisník."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+#, python-brace-format
 msgid ""
 "Open Notebook is running.\n"
 "Address: http://localhost:8502\n"
@@ -478,17 +564,49 @@ msgstr ""
 "a\n"
 "Adresa: http://{}:8502"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-msgid "Changing {} to {}"
-msgstr "Změna {} na {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
+#: NEEDS WORK
+msgid "Close"
+msgstr "Zavřít"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-msgid "ERROR: Failed to change {} to {}"
-msgstr "CHYBA: Nepodařilo se změnit {} na {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+#: NEEDS WORK
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Upozornění: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-msgid "Failed to change setting: {}"
-msgstr "Nepodařilo se změnit nastavení: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
+#: NEEDS WORK
+msgid "Cancel"
+msgstr "Zrušit"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
+#: NEEDS WORK
+msgid "Continue"
+msgstr "Pokračovat"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
+#: NEEDS WORK
+msgid "Recommended"
+msgstr "Doporučeno"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: additional information"
+msgstr "{}: dodatečné informace"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+#: NEEDS WORK
+msgid "Learn more"
+msgstr "Zjistit více"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: learn more"
+msgstr "{}: dozvědět se více"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -499,6 +617,7 @@ msgstr "Nedostupné: skript nebyl nalezen."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+#, python-brace-format
 msgid "Script not found: {}"
 msgstr "Skript nenalezen: {}"
 # 
@@ -531,6 +650,7 @@ msgid "Unavailable: script returned invalid output."
 msgstr "Nedostupné: skript vrátil neplatný výstup."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+#, python-brace-format
 msgid "output from script {}: {}"
 msgstr "výstup ze skriptu {}: {}"
 # 
@@ -542,6 +662,7 @@ msgid "Unavailable: script returned an error."
 msgstr "Nedostupné: skript vrátil chybu."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+#, python-brace-format
 msgid "Error checking state: {}"
 msgstr "Chyba při kontrole stavu: {}"
 # 
@@ -554,6 +675,7 @@ msgstr "Nedostupné: selhalo spuštění skriptu."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+#, python-brace-format
 msgid "Error running script {}: {}"
 msgstr "Chyba při spuštění skriptu {}: {}"
 # 
@@ -562,45 +684,111 @@ msgid "State changed successfully"
 msgstr "Stav se úspěšně změnil"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+#, python-brace-format
 msgid "Script output: {}"
 msgstr "Výstup skriptu: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+#, python-brace-format
 msgid "Script failed with exit code: {}"
 msgstr "Skript selhal s kódem ukončení: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+#, python-brace-format
 msgid "Script timeout: {}"
 msgstr "Časový limit skriptu: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Switch {} synchronized: {}"
-msgstr "Přepnout {} synchronizováno: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} sub-options available"
+msgstr "{} dostupné podmožnosti"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "on"
+msgstr "zapnuto"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "off"
+msgstr "vypnuto"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
+#: NEEDS WORK
+#, python-brace-format
+msgid "Changing {} to {}…"
+msgstr "Změna {} na {}…"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+#: NEEDS WORK
+msgid "Undo"
+msgstr "Zpět"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
+#: NEEDS WORK
+msgid "Undo: reverted toggle"
+msgstr "Zpět: vrácený přepínač"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+#, python-brace-format
+msgid "Changing {} to {}"
+msgstr "Změna {} na {}"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "Indikátor {} synchronizován: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "Aplikuji…"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+#, python-brace-format
+msgid "ERROR: Failed to change {} to {}"
+msgstr "CHYBA: Nepodařilo se změnit {} na {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+#, python-brace-format
+msgid "Failed to change setting: {}"
+msgstr "Nepodařilo se změnit nastavení: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
 msgid "BigLinux Settings"
 msgstr "Nastavení BigLinux"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "Kategorie"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
+#: NEEDS WORK
+msgid "BigLinux Community"
+msgstr "BigLinux Komunita"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
 msgid "Search..."
 msgstr "Hledat..."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "Nastavení"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
+#: NEEDS WORK
+msgid "Search settings"
+msgstr "Nastavení vyhledávání"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
+#: NEEDS WORK
+msgid "Toggle navigation sidebar"
+msgstr "Přepnout navigační postranní panel"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
+#: NEEDS WORK
+msgid "About"
+msgstr "O aplikaci"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
+#: NEEDS WORK
+msgid "Main Menu"
+msgstr "Hlavní nabídka"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System"
@@ -654,6 +842,11 @@ msgstr "A.I."
 msgid "Performance"
 msgstr "Výkon"
 # 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
+#: NEEDS WORK
+msgid "Dismiss"
+msgstr "Zavřít"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."
 msgstr "Obecná systémová nastavení."
@@ -667,6 +860,7 @@ msgid "Enable remote access via ssh."
 msgstr "Povolit vzdálený přístup přes ssh."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+#, python-brace-format
 msgid "SSH Address: {}"
 msgstr "SSH adresa: {}"
 # 
@@ -742,17 +936,19 @@ msgstr "Spravujte fyzická zařízení."
 msgid "Wifi"
 msgstr "Wifi"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi Zapnuto"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "Povolit adaptér Wi-Fi."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
 msgid "Bluetooth"
 msgstr "Bluetooth"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth zapnuto."
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "Povolit adaptér Bluetooth."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -772,6 +968,45 @@ msgstr "Otočení posouvání myši"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Obrátit posouvání myši bez restartování relace."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "Síťové rozhraní"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "Připojit nebo odpojit síťová zařízení."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} — {}"
+msgstr "{} — {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: přepnout připojení"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "připojeno"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "odpojeno"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "Nepodařilo se změnit síťové zařízení: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -813,14 +1048,19 @@ msgstr "Zakáže monitorování disku S.M.A.R.T. Snižuje I/O disku a využití 
 msgid "Meltdown Mitigations off"
 msgstr "Omezení Meltdown vypnuta"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
+#: NEEDS WORK
+msgid "Using mitigations=off will make your machine faster and less secure!"
+msgstr "Použití mitigations=off zrychlí váš stroj, ale sníží jeho bezpečnost!"
+# 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
+#: NEEDS WORK
 msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
+"This will disable CPU security mitigations (Meltdown/Spectre). Your system will be faster but "
+"vulnerable to hardware-level attacks. Are you sure you want to continue?"
 msgstr ""
-"Použití mitigations=off zrychlí váš stroj, ale sníží jeho bezpečnost! Pro více informací viz: <a "
-"href='{l}'>{l}</a>"
+"Tímto se deaktivují bezpečnostní opatření CPU (Meltdown/Spectre). Váš systém bude rychlejší, ale "
+"zranitelný vůči útokům na úrovni hardwaru. Opravdu chcete pokračovat?"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
 msgid "noWatchdog"
@@ -834,21 +1074,42 @@ msgstr ""
 "Deaktivuje systémy hardwarového watchdogu a hodinového zdroje TSC, udržuje vysoký výkon, ale "
 "odstraňuje automatické ochrany proti selhání systému."
 # 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
+#: NEEDS WORK
+msgid ""
+"This will disable the hardware watchdog. Your system will no longer automatically recover from "
+"certain types of crashes. Are you sure you want to continue?"
+msgstr ""
+"Tímto se deaktivuje hardwarový watchdog. Váš systém se již nebude automaticky zotavovat z určitých "
+"typů havárií. Jste si jisti, že chcete pokračovat?"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
 msgstr "AI rozhraní"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
-msgid "Graphical interface for artificial intelligence.."
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 16
+#: NEEDS WORK
+msgid "Graphical interface for artificial intelligence."
 msgstr "Grafické rozhraní pro umělou inteligenci."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 22
-msgid "Ollma Server"
-msgstr "Ollma Server"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+#: NEEDS WORK
+msgid "Ollama Server"
+msgstr "Ollama Server"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Vyberte, který server Ollama je nejlepší pro váš hardware."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Ollama Variants"
+msgstr "Ollama Varianty"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Select the variant that matches your GPU hardware."
+msgstr "Vyberte variantu, která odpovídá vaší hardwarové GPU."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"
@@ -865,6 +1126,11 @@ msgstr "Ollama LAB"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
 msgid "Graphical interface for managing Ollama models and chat."
 msgstr "Grafické rozhraní pro správu modelů Ollama a chatu."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+#: NEEDS WORK
+msgid "ChatBox"
+msgstr "ChatBox"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
 msgid "User-friendly Desktop Client App for AI Models/LLMs."
@@ -894,12 +1160,13 @@ msgstr "Nejvýkonnější a modulární vizuální AI engine a aplikace."
 msgid "ComfyUI Server"
 msgstr "ComfyUI Server"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
-#, python-brace-format
-msgid "start ComfyUI Server. For more information see: <a href='{l}'>{l}</a>"
-msgstr "spusťte server ComfyUI. Pro více informací viz: <a href='{l}'>{l}</a>"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+#: NEEDS WORK
+msgid "Start the ComfyUI server."
+msgstr "Spusťte server ComfyUI."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+#, python-brace-format
 msgid ""
 "ComfyUI server is running.\n"
 "Address: http://localhost:8188\n"
@@ -948,6 +1215,7 @@ msgstr "Sdílet ollama v místní síti."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 86
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 104
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 122
+#, python-brace-format
 msgid ""
 "Ollama server is running.\n"
 "Address: http://{}:11434"
@@ -1007,12 +1275,10 @@ msgstr "Tlačítka pro maximalizaci, minimalizaci a zavření na levé straně o
 msgid "KZones"
 msgstr "KZóny"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "Skript pro správce oken KWin v desktopovém prostředí KDE Plasma."
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "Povolit zónování oken pro desktop KDE Plasma."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
 msgid "Recent Files & Locations"

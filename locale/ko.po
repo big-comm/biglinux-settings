@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the biglinux-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
@@ -16,19 +17,22 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "kzones Install"
 msgstr "kzones 설치"
-msgid "Instaling Kzones, Please wait..."
-msgstr "Kzones 설치 중입니다. 잠시만 기다려 주십시오..."
+#: NEEDS WORK
+msgid "Installing Kzones, please wait..."
+msgstr "Kzones 설치 중입니다. 잠시 기다려 주십시오..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones가 성공적으로 설치되었습니다!"
 msgid "Applying, please wait..."
 msgstr "적용 중입니다. 잠시만 기다려 주십시오..."
 msgid "Recent Files enabling...."
 msgstr "최근 파일 활성화 중...."
-msgid "Recent Files enabling, Please wait..."
+#: NEEDS WORK
+msgid "Recent Files enabling, please wait..."
 msgstr "최근 파일 활성화 중, 잠시만 기다려 주십시오..."
 msgid "Recent Files disabling...."
 msgstr "최근 파일 비활성화 중...."
-msgid "Recent Files disabling, Please wait..."
+#: NEEDS WORK
+msgid "Recent Files disabling, please wait..."
 msgstr "최근 파일 비활성화 중, 잠시만 기다려 주십시오..."
 msgid ""
 "Recent Files successfully enabled!\\n"
@@ -58,36 +62,43 @@ msgid "Failed to install Example!"
 msgstr "설치에 실패했습니다 예제!"
 msgid "JamesDSP Install"
 msgstr "JamesDSP 설치"
-msgid "Instaling JamesDSP, Please wait..."
-msgstr "JamesDSP 설치 중, 잠시만 기다려 주십시오..."
+#: NEEDS WORK
+msgid "Installing JamesDSP, please wait..."
+msgstr "JamesDSP 설치 중입니다. 잠시만 기다려 주십시오..."
 msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP가 성공적으로 설치되었습니다!"
 msgid "Failed to install jamesDSP!"
 msgstr "jamesDSP 설치에 실패했습니다!"
 msgid "Docker Install"
 msgstr "도커 설치"
-msgid "Instaling Docker, Please wait..."
-msgstr "도커 설치 중입니다. 잠시만 기다려 주십시오..."
+#: NEEDS WORK
+msgid "Installing Docker, please wait..."
+msgstr "도커 설치 중, 잠시 기다려 주십시오..."
 msgid "Docker Start"
 msgstr "도커 시작"
-msgid "Docker Starting, Please wait..."
+#: NEEDS WORK
+msgid "Docker Starting, please wait..."
 msgstr "도커 시작 중, 잠시만 기다려 주세요..."
 msgid "Docker Stop"
 msgstr "도커 중지"
-msgid "Docker Stopping, Please wait..."
-msgstr "도커 중지 중, 잠시만 기다려 주세요..."
+#: NEEDS WORK
+msgid "Docker Stopping, please wait..."
+msgstr "도커 중지 중, 잠시만 기다려 주십시오..."
 msgid "Docker installed successfully!"
 msgstr "Docker가 성공적으로 설치되었습니다!"
-msgid "An error occurred while install docker."
-msgstr "도커 설치 중 오류가 발생했습니다."
+#: NEEDS WORK
+msgid "An error occurred while installing Docker."
+msgstr "Docker 설치 중 오류가 발생했습니다."
 msgid "Installing $package"
 msgstr "$package 설치 중"
-msgid "Installing $package, Please wait..."
-msgstr "$package 설치 중, 잠시만 기다려 주십시오..."
+#: NEEDS WORK
+msgid "Installing $package, please wait..."
+msgstr "$package를 설치하는 중입니다. 잠시만 기다려 주십시오..."
 msgid "Removing $package"
 msgstr "$package 제거 중"
-msgid "Removing $package, Please wait..."
-msgstr "$package 제거 중, 잠시만 기다려 주세요..."
+#: NEEDS WORK
+msgid "Removing $package, please wait..."
+msgstr "$package를 제거하는 중입니다. 잠시만 기다려 주십시오..."
 msgid ""
 "$title installed successfully!\\n"
 "\\n"
@@ -118,11 +129,13 @@ msgid "Already enabled. No changes made."
 msgstr "이미 활성화되었습니다. 변경 사항이 없습니다."
 msgid "Ollama Vulkan Install"
 msgstr "올라마 벌칸 설치"
-msgid "Instaling Ollama, Please wait..."
-msgstr "Ollama 설치 중, 잠시만 기다려 주십시오..."
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
+msgstr "Ollama 설치 중입니다. 잠시 기다려 주십시오..."
 msgid "Ollama Vulkan Uninstall"
 msgstr "Ollama Vulkan 제거"
-msgid "Unistaling Ollama Vulkan, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
 msgstr "Ollama Vulkan을 제거하는 중입니다. 잠시만 기다려 주십시오..."
 msgid "Ollama Vulkan installed successfully!"
 msgstr "Ollama Vulkan이 성공적으로 설치되었습니다!"
@@ -130,11 +143,13 @@ msgid "Failed to install Ollama Vulkan!"
 msgstr "Ollama Vulkan 설치에 실패했습니다!"
 msgid "ChatBox Install"
 msgstr "챗박스 설치"
-msgid "Instaling ChatBox, Please wait..."
-msgstr "ChatBox 설치 중, 잠시만 기다려 주세요..."
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
+msgstr "ChatBox 설치 중입니다. 잠시만 기다려 주십시오..."
 msgid "ChatBox Uninstall"
 msgstr "채팅 상자 제거"
-msgid "Uninstaling ChatBox, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
 msgstr "ChatBox를 제거하는 중입니다. 잠시만 기다려 주십시오..."
 msgid "ChatBox installed successfully!"
 msgstr "ChatBox가 성공적으로 설치되었습니다!"
@@ -142,12 +157,14 @@ msgid "Failed to install ChatBox!"
 msgstr "ChatBox 설치에 실패했습니다!"
 msgid "Ollama Lab Install"
 msgstr "올라마 실험실 설치"
-msgid "Instaling Ollama Lab, Please wait..."
-msgstr "Ollama Lab 설치 중, 잠시만 기다려 주십시오..."
+#: NEEDS WORK
+msgid "Installing Ollama Lab, please wait..."
+msgstr "Ollama Lab 설치 중입니다. 잠시만 기다려 주십시오..."
 msgid "Ollama Lab Uninstall"
 msgstr "Ollama Lab 제거"
-msgid "Unistaling Ollama Lab, Please wait..."
-msgstr "Ollama Lab 제거 중, 잠시 기다려 주십시오..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Ollama Lab를 제거하는 중입니다. 잠시만 기다려 주십시오..."
 msgid "Ollama Lab installed successfully!"
 msgstr "Ollama Lab가 성공적으로 설치되었습니다!"
 msgid "Failed to install Ollama Lab!"
@@ -179,31 +196,36 @@ msgid "Ollama Install"
 msgstr "올라마 설치"
 msgid "Ollama Uninstall"
 msgstr "Ollama 제거"
-msgid "Unistaling Ollama, Please wait..."
-msgstr "Ollama를 제거하는 중입니다. 잠시만 기다려 주세요..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Ollama를 제거하는 중입니다. 잠시만 기다려 주십시오..."
 msgid "Ollama installed successfully!"
 msgstr "Ollama가 성공적으로 설치되었습니다!"
 msgid "Failed to install Ollama!"
 msgstr "Ollama 설치에 실패했습니다!"
 msgid "Ollama ROCm Install"
 msgstr "Ollama ROCm 설치"
-msgid "Instaling Ollama ROCm, Please wait..."
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
 msgstr "Ollama ROCm 설치 중입니다. 잠시 기다려 주십시오..."
 msgid "Ollama ROCm Uninstall"
 msgstr "Ollama ROCm 제거"
-msgid "Unistaling Ollama ROCm, Please wait..."
-msgstr "Ollama ROCm을 제거하는 중입니다. 잠시 기다려 주십시오..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Ollama ROCm을 제거하는 중입니다. 잠시만 기다려 주십시오..."
 msgid "Ollama ROCm installed successfully!"
 msgstr "Ollama ROCm이 성공적으로 설치되었습니다!"
 msgid "Failed to install Ollama ROCm!"
 msgstr "Ollama ROCm 설치에 실패했습니다!"
 msgid "comfyUI Install...."
 msgstr "comfyUI 설치...."
-msgid "Instaling comfyUI, this step take a long time, Please wait..."
-msgstr "ComfyUI 설치 중, 이 단계는 시간이 오래 걸립니다. 잠시 기다려 주십시오..."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "comfyUI 설치 중, 이 단계는 시간이 오래 걸립니다. 잠시만 기다려 주십시오..."
 msgid "Uninstall comfyUI...."
 msgstr "컴피UI 제거...."
-msgid "Uninstaling comfyUI, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
 msgstr "comfyUI를 제거하는 중입니다. 잠시만 기다려 주십시오..."
 msgid "comfyUI installed successfully"
 msgstr "comfyUI가 성공적으로 설치되었습니다."
@@ -219,27 +241,32 @@ msgid ""
 msgstr ""
 "Ollama가 성공적으로 공유되었습니다.\\n"
 "주소: http://$localIp:11434"
-msgid "Failed to shared Ollama!"
-msgstr "Ollama 공유에 실패했습니다!"
+#: NEEDS WORK
+msgid "Failed to configure Ollama sharing!"
+msgstr "Ollama 공유 구성을 실패했습니다!"
 msgid "Ollama CUDA Install"
 msgstr "Ollama CUDA 설치"
-msgid "Instaling Ollama CUDA, Please wait..."
-msgstr "Ollama CUDA 설치 중, 잠시만 기다려 주십시오..."
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "Ollama CUDA 설치 중입니다. 잠시 기다려 주십시오..."
 msgid "Ollama CUDA Uninstall"
 msgstr "Ollama CUDA 제거"
-msgid "Unistaling Ollama CUDA, Please wait..."
-msgstr "Ollama CUDA를 제거하는 중입니다. 잠시 기다려 주십시오..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "Ollama CUDA를 제거하는 중입니다. 잠시만 기다려 주십시오..."
 msgid "Ollama CUDA installed successfully!"
 msgstr "Ollama CUDA가 성공적으로 설치되었습니다!"
 msgid "Failed to install Ollama CUDA!"
 msgstr "Ollama CUDA 설치에 실패했습니다!"
 msgid "LM Studio Install"
 msgstr "LM 스튜디오 설치"
-msgid "Instaling LM Studio, Please wait..."
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
 msgstr "LM 스튜디오 설치 중입니다. 잠시만 기다려 주십시오..."
 msgid "LM Studio Uninstall"
 msgstr "LM 스튜디오 제거"
-msgid "Uninstaling LM Studio, Please wait..."
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
 msgstr "LM 스튜디오를 제거하는 중입니다. 잠시만 기다려 주십시오..."
 msgid "LM Studio installed successfully!"
 msgstr "LM 스튜디오가 성공적으로 설치되었습니다!"
@@ -247,20 +274,23 @@ msgid "Failed to install LM Studio!"
 msgstr "LM Studio 설치에 실패했습니다!"
 msgid "Krita Install"
 msgstr "크리타 설치"
-msgid "Instaling Krita, Please wait..."
-msgstr "Krita 설치 중, 잠시만 기다려 주십시오..."
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "Krita를 설치하는 중입니다. 잠시만 기다려 주십시오..."
 msgid "Krita Uninstall"
 msgstr "Krita 제거"
-msgid "Uninstaling Krita, Please wait..."
-msgstr "Krita를 제거하는 중입니다. 잠시만 기다려 주세요..."
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
+msgstr "크리타를 제거하는 중입니다. 잠시만 기다려 주십시오..."
 msgid "Krita installed successfully!"
 msgstr "Krita가 성공적으로 설치되었습니다!"
 msgid "Failed to install Krita!"
 msgstr "Krita 설치에 실패했습니다!"
 msgid "comfyUI Depends Install"
 msgstr "comfyUI 의존성 설치"
-msgid "Instaling comfyUI Depends, Please wait..."
-msgstr "ComfyUI 의존성 설치 중, 잠시만 기다려 주십시오..."
+#: NEEDS WORK
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "comfyUI 설치 중 의존성, 잠시 기다려 주십시오..."
 msgid "comfyUI Depends installed successfully!"
 msgstr "comfyUI 의존성이 성공적으로 설치되었습니다!"
 msgid "Failed to install comfyUI Depends!"
@@ -270,9 +300,10 @@ msgstr "comfyUI 설치 실패! 의존성 문제!"
 msgid "Docker"
 msgstr "도커"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
-msgid "Container service - enable to use containers below."
-msgstr "컨테이너 서비스 - 아래의 컨테이너 사용을 활성화합니다."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
+#: NEEDS WORK
+msgid "Container service — enable to use containers below."
+msgstr "컨테이너 서비스 — 아래의 컨테이너를 사용할 수 있도록 활성화합니다."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -285,23 +316,56 @@ msgstr "컨테이너"
 msgid "Manage container technologies."
 msgstr "컨테이너 기술 관리."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "도커 사용 가능."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 30
+#: NEEDS WORK
+msgid "Media &amp; Cloud"
+msgstr "미디어 및 클라우드"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 31
+#: NEEDS WORK
+msgid "Media servers and cloud storage containers."
+msgstr "미디어 서버 및 클라우드 스토리지 컨테이너."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 36
+#: NEEDS WORK
+msgid "Network &amp; Security"
+msgstr "네트워크 및 보안"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 37
+#: NEEDS WORK
+msgid "Network tools and security containers."
+msgstr "네트워크 도구 및 보안 컨테이너."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 42
+#: NEEDS WORK
+msgid "Development &amp; Tools"
+msgstr "개발 및 도구"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 43
+#: NEEDS WORK
+msgid "Development stacks and utility containers."
+msgstr "개발 스택 및 유틸리티 컨테이너."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
+#: NEEDS WORK
+msgid "Enable Docker container engine."
+msgstr "도커 컨테이너 엔진 활성화."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
 msgid "Nextcloud Plus"
 msgstr "넥스트클라우드 플러스"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
-msgid "Install Nextcloud Plus container."
-msgstr "Nextcloud Plus 컨테이너 설치."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 62
+#: NEEDS WORK
+msgid "Install Nextcloud Plus cloud storage container."
+msgstr "넥스트클라우드 플러스 클라우드 저장소 컨테이너 설치."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
 msgid "Run Nextcloud Plus."
 msgstr "Nextcloud Plus 실행."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
+#, python-brace-format
 msgid ""
 "Nextcloud Plus is running.\n"
 "Address: http://localhost:8286\n"
@@ -317,15 +381,17 @@ msgstr ""
 msgid "AdGuard"
 msgstr "애드가드"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
-msgid "Install AdGuard Home container."
-msgstr "AdGuard Home 컨테이너를 설치합니다."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 81
+#: NEEDS WORK
+msgid "Install AdGuard Home DNS ad-blocker container."
+msgstr "AdGuard Home DNS 광고 차단기 컨테이너 설치."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
 msgid "Run AdGuard."
 msgstr "AdGuard를 실행하세요."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
+#, python-brace-format
 msgid ""
 "AdGuard is running.\n"
 "Address: http://localhost:3030\n"
@@ -341,15 +407,17 @@ msgstr ""
 msgid "Jellyfin"
 msgstr "젤리핀"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
-msgid "Install Jellyfin media server."
-msgstr "젤리핀 미디어 서버를 설치하세요."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 100
+#: NEEDS WORK
+msgid "Install Jellyfin media server container."
+msgstr "젤리핀 미디어 서버 컨테이너 설치."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
 msgid "Run Jellyfin."
 msgstr "젤리핀 실행."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
+#, python-brace-format
 msgid ""
 "Jellyfin is running.\n"
 "Address: http://localhost:8096\n"
@@ -365,15 +433,17 @@ msgstr ""
 msgid "LAMP"
 msgstr "램프"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
-msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
-msgstr "LAMP 스택 설치 (리눅스, 아파치, MySQL, PHP)."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 119
+#: NEEDS WORK
+msgid "Install LAMP stack container (Linux, Apache, MySQL, PHP)."
+msgstr "LAMP 스택 컨테이너 설치 (리눅스, 아파치, MySQL, PHP)."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
 msgid "Run LAMP."
 msgstr "LAMP 실행."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
+#, python-brace-format
 msgid ""
 "LAMP is running.\n"
 "Address: http://localhost:8080\n"
@@ -389,15 +459,17 @@ msgstr ""
 msgid "Portainer Client"
 msgstr "포테이너 클라이언트"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
-msgid "Install Portainer Agent for cluster management."
-msgstr "클러스터 관리를 위한 Portainer 에이전트 설치."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 138
+#: NEEDS WORK
+msgid "Install Portainer Agent container for cluster management."
+msgstr "클러스터 관리를 위한 Portainer Agent 컨테이너 설치."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
 msgid "Run Portainer Client."
 msgstr "포테이너 클라이언트를 실행하세요."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
+#, python-brace-format
 msgid ""
 "Portainer Client is running.\n"
 "Address: http://localhost:9000\n"
@@ -413,15 +485,17 @@ msgstr ""
 msgid "SWS"
 msgstr "SWS"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
-msgid "Install SWS static web server."
-msgstr "SWS 정적 웹 서버 설치."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 157
+#: NEEDS WORK
+msgid "Install SWS static web server container."
+msgstr "SWS 정적 웹 서버 컨테이너 설치."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
 msgid "Run SWS."
 msgstr "SWS 실행."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+#, python-brace-format
 msgid ""
 "SWS is running.\n"
 "Address: http://localhost:8182\n"
@@ -437,15 +511,17 @@ msgstr ""
 msgid "V2RayA"
 msgstr "V2RayA"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
-msgid "Install V2RayA network tool."
-msgstr "V2RayA 네트워크 도구를 설치합니다."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 176
+#: NEEDS WORK
+msgid "Install V2RayA network proxy container."
+msgstr "V2RayA 네트워크 프록시 컨테이너 설치."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
 msgid "Run V2RayA."
 msgstr "V2RayA를 실행하세요."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
+#, python-brace-format
 msgid ""
 "V2RayA is running.\n"
 "Address: http://localhost:2017\n"
@@ -457,6 +533,15 @@ msgstr ""
 "및\n"
 "주소: http://{}:2017"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 203
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
+#: NEEDS WORK
+msgid "Open Notebook"
+msgstr "노트북 열기"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
 msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "구글의 노트북 LM에 대한 오픈 소스, 개인 정보 보호 중심의 대안을 설치하세요!"
@@ -466,6 +551,7 @@ msgid "Run Open Notebook."
 msgstr "오픈 노트북 실행."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+#, python-brace-format
 msgid ""
 "Open Notebook is running.\n"
 "Address: http://localhost:8502\n"
@@ -477,17 +563,49 @@ msgstr ""
 "및\n"
 "주소: http://{}:8502"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-msgid "Changing {} to {}"
-msgstr "{}를 {}로 변경 중"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
+#: NEEDS WORK
+msgid "Close"
+msgstr "닫기"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-msgid "ERROR: Failed to change {} to {}"
-msgstr "오류: {}를 {}로 변경하지 못했습니다."
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+#: NEEDS WORK
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "경고: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-msgid "Failed to change setting: {}"
-msgstr "설정을 변경하지 못했습니다: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
+#: NEEDS WORK
+msgid "Cancel"
+msgstr "취소"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
+#: NEEDS WORK
+msgid "Continue"
+msgstr "계속"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
+#: NEEDS WORK
+msgid "Recommended"
+msgstr "추천"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: additional information"
+msgstr "{}: 추가 정보"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+#: NEEDS WORK
+msgid "Learn more"
+msgstr "자세히 알아보기"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: learn more"
+msgstr "{}: 자세히 알아보기"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -498,6 +616,7 @@ msgstr "사용할 수 없음: 스크립트를 찾을 수 없습니다."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+#, python-brace-format
 msgid "Script not found: {}"
 msgstr "스크립트를 찾을 수 없습니다: {}"
 # 
@@ -530,6 +649,7 @@ msgid "Unavailable: script returned invalid output."
 msgstr "사용할 수 없음: 스크립트가 잘못된 출력을 반환했습니다."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+#, python-brace-format
 msgid "output from script {}: {}"
 msgstr "스크립트 {}의 출력: {}"
 # 
@@ -541,6 +661,7 @@ msgid "Unavailable: script returned an error."
 msgstr "사용할 수 없음: 스크립트가 오류를 반환했습니다."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+#, python-brace-format
 msgid "Error checking state: {}"
 msgstr "오류 확인 상태: {}"
 # 
@@ -553,6 +674,7 @@ msgstr "사용할 수 없음: 스크립트 실행에 실패했습니다."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+#, python-brace-format
 msgid "Error running script {}: {}"
 msgstr "스크립트 실행 오류 {}: {}"
 # 
@@ -561,45 +683,111 @@ msgid "State changed successfully"
 msgstr "상태가 성공적으로 변경되었습니다."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+#, python-brace-format
 msgid "Script output: {}"
 msgstr "스크립트 출력: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+#, python-brace-format
 msgid "Script failed with exit code: {}"
 msgstr "스크립트가 종료 코드로 실패했습니다: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+#, python-brace-format
 msgid "Script timeout: {}"
 msgstr "스크립트 시간 초과: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Switch {} synchronized: {}"
-msgstr "스위치 {} 동기화: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} sub-options available"
+msgstr "{} 하위 옵션 사용 가능"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "on"
+msgstr "켜짐"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "off"
+msgstr "꺼짐"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
+#: NEEDS WORK
+#, python-brace-format
+msgid "Changing {} to {}…"
+msgstr "{}를 {}로 변경 중…"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+#: NEEDS WORK
+msgid "Undo"
+msgstr "실행 취소"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
+#: NEEDS WORK
+msgid "Undo: reverted toggle"
+msgstr "실행 취소: 되돌린 토글"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+#, python-brace-format
+msgid "Changing {} to {}"
+msgstr "{}를 {}로 변경 중"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "지표 {} 동기화됨: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "적용 중…"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+#, python-brace-format
+msgid "ERROR: Failed to change {} to {}"
+msgstr "오류: {}를 {}로 변경하지 못했습니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+#, python-brace-format
+msgid "Failed to change setting: {}"
+msgstr "설정을 변경하지 못했습니다: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
 msgid "BigLinux Settings"
 msgstr "빅리눅스 설정"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "카테고리"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
+#: NEEDS WORK
+msgid "BigLinux Community"
+msgstr "빅리눅스 커뮤니티"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
 msgid "Search..."
 msgstr "검색..."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "설정"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
+#: NEEDS WORK
+msgid "Search settings"
+msgstr "검색 설정"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
+#: NEEDS WORK
+msgid "Toggle navigation sidebar"
+msgstr "탐색 사이드바 전환"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
+#: NEEDS WORK
+msgid "About"
+msgstr "정보"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
+#: NEEDS WORK
+msgid "Main Menu"
+msgstr "메인 메뉴"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System"
@@ -635,6 +823,11 @@ msgstr "인공지능"
 msgid "Performance"
 msgstr "성능"
 # 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
+#: NEEDS WORK
+msgid "Dismiss"
+msgstr "해제"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."
 msgstr "일반 시스템 설정."
@@ -648,6 +841,7 @@ msgid "Enable remote access via ssh."
 msgstr "SSH를 통한 원격 액세스를 활성화합니다."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+#, python-brace-format
 msgid "SSH Address: {}"
 msgstr "SSH 주소: {}"
 # 
@@ -723,17 +917,19 @@ msgstr "물리적 장치 관리."
 msgid "Wifi"
 msgstr "와이파이"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "와이파이 켜기"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "Wi-Fi 어댑터 활성화."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
 msgid "Bluetooth"
 msgstr "블루투스"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "블루투스 켜짐."
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "블루투스 어댑터를 활성화합니다."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -753,6 +949,45 @@ msgstr "마우스 스크롤 반전"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "세션을 재시작하지 않고 마우스 스크롤 방향 반전."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "네트워크 인터페이스"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "네트워크 장치를 연결하거나 연결 해제합니다."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} — {}"
+msgstr "알림 — 알림"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: 연결 전환"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "연결됨"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "연결 끊김"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "네트워크 장치를 변경하지 못했습니다: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -794,12 +1029,17 @@ msgstr "S.M.A.R.T 디스크 모니터링을 비활성화합니다. 디스크 I/O
 msgid "Meltdown Mitigations off"
 msgstr "멜트다운 완화 비활성화"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
+#: NEEDS WORK
+msgid "Using mitigations=off will make your machine faster and less secure!"
+msgstr "완화 사용=끄기를 사용하면 컴퓨터가 더 빨라지지만 보안이 낮아집니다!"
+# 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
+#: NEEDS WORK
 msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
-msgstr "완화 조치를 사용하지 않으면 기계가 더 빨라지지만 보안이 떨어집니다! 자세한 내용은 다음을 참조하십시오: <a href='{l}'>{l}</a>"
+"This will disable CPU security mitigations (Meltdown/Spectre). Your system will be faster but "
+"vulnerable to hardware-level attacks. Are you sure you want to continue?"
+msgstr "이렇게 하면 CPU 보안 완화(Meltdown/Spectre)가 비활성화됩니다. 시스템이 더 빨라지지만 하드웨어 수준의 공격에 취약해집니다. 계속 진행하시겠습니까?"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
 msgid "noWatchdog"
@@ -811,21 +1051,40 @@ msgid ""
 "removing automatic protections against system crashes."
 msgstr "하드웨어 감시 타이머 및 TSC 클록 소스 시스템을 비활성화하여 높은 성능을 유지하지만 시스템 충돌에 대한 자동 보호 기능을 제거합니다."
 # 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
+#: NEEDS WORK
+msgid ""
+"This will disable the hardware watchdog. Your system will no longer automatically recover from "
+"certain types of crashes. Are you sure you want to continue?"
+msgstr "이렇게 하면 하드웨어 감시 타이머가 비활성화됩니다. 시스템이 특정 유형의 충돌에서 더 이상 자동으로 복구되지 않습니다. 계속 진행하시겠습니까?"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
 msgstr "AI 인터페이스"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
-msgid "Graphical interface for artificial intelligence.."
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 16
+#: NEEDS WORK
+msgid "Graphical interface for artificial intelligence."
 msgstr "인공지능을 위한 그래픽 인터페이스."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 22
-msgid "Ollma Server"
-msgstr "올마 서버"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+#: NEEDS WORK
+msgid "Ollama Server"
+msgstr "올라마 서버"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "하드웨어에 가장 적합한 Ollama 서버를 선택하세요."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Ollama Variants"
+msgstr "올라마 변형"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Select the variant that matches your GPU hardware."
+msgstr "GPU 하드웨어와 일치하는 변형을 선택하십시오."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"
@@ -842,6 +1101,11 @@ msgstr "올라마 실험실"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
 msgid "Graphical interface for managing Ollama models and chat."
 msgstr "Ollama 모델 및 채팅 관리를 위한 그래픽 인터페이스."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+#: NEEDS WORK
+msgid "ChatBox"
+msgstr "채팅 상자"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
 msgid "User-friendly Desktop Client App for AI Models/LLMs."
@@ -871,12 +1135,13 @@ msgstr "가장 강력하고 모듈화된 비주얼 AI 엔진 및 애플리케이
 msgid "ComfyUI Server"
 msgstr "컴피UI 서버"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
-#, python-brace-format
-msgid "start ComfyUI Server. For more information see: <a href='{l}'>{l}</a>"
-msgstr "ComfyUI 서버를 시작합니다. 자세한 내용은 다음을 참조하십시오: <a href='{l}'>{l}</a>"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+#: NEEDS WORK
+msgid "Start the ComfyUI server."
+msgstr "ComfyUI 서버를 시작합니다."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+#, python-brace-format
 msgid ""
 "ComfyUI server is running.\n"
 "Address: http://localhost:8188\n"
@@ -925,6 +1190,7 @@ msgstr "로컬 네트워크에서 ollama 공유."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 86
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 104
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 122
+#, python-brace-format
 msgid ""
 "Ollama server is running.\n"
 "Address: http://{}:11434"
@@ -982,12 +1248,10 @@ msgstr "창의 왼쪽에 있는 최대화, 최소화 및 닫기 버튼."
 msgid "KZones"
 msgstr "K존"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "KDE Plasma 데스크탑 환경의 KWin 윈도우 관리자용 스크립트."
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "KDE Plasma 데스크탑의 창 타일링 영역 활성화."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
 msgid "Recent Files & Locations"

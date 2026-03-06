@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the biglinux-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
@@ -16,20 +17,23 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "kzones Install"
 msgstr "kzones Instalare"
-msgid "Instaling Kzones, Please wait..."
-msgstr "Instalarea Kzones, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Installing Kzones, please wait..."
+msgstr "Se instalează Kzones, vă rugăm să așteptați..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones instalat cu succes!"
 msgid "Applying, please wait..."
 msgstr "Se aplică, vă rugăm să așteptați..."
 msgid "Recent Files enabling...."
 msgstr "Activarea fișierelor recente...."
-msgid "Recent Files enabling, Please wait..."
-msgstr "Activarea fișierelor recente, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Recent Files enabling, please wait..."
+msgstr "Activarea fișierelor recente, vă rugăm să așteptați..."
 msgid "Recent Files disabling...."
 msgstr "Dezactivare fișiere recente...."
-msgid "Recent Files disabling, Please wait..."
-msgstr "Dezactivare fișiere recente, Vă rugăm așteptați..."
+#: NEEDS WORK
+msgid "Recent Files disabling, please wait..."
+msgstr "Dezactivare fișiere recente, vă rugăm să așteptați..."
 msgid ""
 "Recent Files successfully enabled!\\n"
 "You need to close and reopen Dolphin for it to take effect."
@@ -58,36 +62,43 @@ msgid "Failed to install Example!"
 msgstr "Instalarea Exemplului a eșuat!"
 msgid "JamesDSP Install"
 msgstr "Instalare JamesDSP"
-msgid "Instaling JamesDSP, Please wait..."
-msgstr "Instalarea JamesDSP, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Installing JamesDSP, please wait..."
+msgstr "Se instalează JamesDSP, vă rugăm să așteptați..."
 msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP instalat cu succes!"
 msgid "Failed to install jamesDSP!"
 msgstr "Instalarea jamesDSP a eșuat!"
 msgid "Docker Install"
 msgstr "Instalare Docker"
-msgid "Instaling Docker, Please wait..."
-msgstr "Instalare Docker, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Installing Docker, please wait..."
+msgstr "Se instalează Docker, vă rugăm să așteptați..."
 msgid "Docker Start"
 msgstr "Pornește Docker"
-msgid "Docker Starting, Please wait..."
-msgstr "Docker se pornește, vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Docker Starting, please wait..."
+msgstr "Se pornește Docker, vă rugăm să așteptați..."
 msgid "Docker Stop"
 msgstr "Oprire Docker"
-msgid "Docker Stopping, Please wait..."
-msgstr "Docker se oprește, vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Docker Stopping, please wait..."
+msgstr "Oprirea Docker, vă rugăm să așteptați..."
 msgid "Docker installed successfully!"
 msgstr "Docker instalat cu succes!"
-msgid "An error occurred while install docker."
-msgstr "A apărut o eroare în timpul instalării docker."
+#: NEEDS WORK
+msgid "An error occurred while installing Docker."
+msgstr "A apărut o eroare în timpul instalării Docker."
 msgid "Installing $package"
 msgstr "Instalarea $package"
-msgid "Installing $package, Please wait..."
-msgstr "Se instalează $package, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Installing $package, please wait..."
+msgstr "Se instalează $package, vă rugăm să așteptați..."
 msgid "Removing $package"
 msgstr "Eliminarea $package"
-msgid "Removing $package, Please wait..."
-msgstr "Se elimină $package, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Removing $package, please wait..."
+msgstr "Se elimină $package, vă rugăm să așteptați..."
 msgid ""
 "$title installed successfully!\\n"
 "\\n"
@@ -118,36 +129,42 @@ msgid "Already enabled. No changes made."
 msgstr "Deja activat. Nici o modificare efectuată."
 msgid "Ollama Vulkan Install"
 msgstr "Instalare Ollama Vulkan"
-msgid "Instaling Ollama, Please wait..."
-msgstr "Instalarea Ollama, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
+msgstr "Se instalează Ollama, vă rugăm să așteptați..."
 msgid "Ollama Vulkan Uninstall"
 msgstr "Dezinstalare Ollama Vulkan"
-msgid "Unistaling Ollama Vulkan, Please wait..."
-msgstr "Dezinstalare Ollama Vulkan, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Dezinstalare Ollama Vulkan, vă rugăm să așteptați..."
 msgid "Ollama Vulkan installed successfully!"
 msgstr "Ollama Vulkan a fost instalat cu succes!"
 msgid "Failed to install Ollama Vulkan!"
 msgstr "Instalarea Ollama Vulkan a eșuat!"
 msgid "ChatBox Install"
 msgstr "Instalare ChatBox"
-msgid "Instaling ChatBox, Please wait..."
-msgstr "Instalare ChatBox, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
+msgstr "Se instalează ChatBox, vă rugăm să așteptați..."
 msgid "ChatBox Uninstall"
 msgstr "Dezinstalare ChatBox"
-msgid "Uninstaling ChatBox, Please wait..."
-msgstr "Dezinstalare ChatBox, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
+msgstr "Dezinstalare ChatBox, vă rugăm să așteptați..."
 msgid "ChatBox installed successfully!"
 msgstr "ChatBox instalat cu succes!"
 msgid "Failed to install ChatBox!"
 msgstr "Instalarea ChatBox a eșuat!"
 msgid "Ollama Lab Install"
 msgstr "Instalare Ollama Lab"
-msgid "Instaling Ollama Lab, Please wait..."
-msgstr "Instalarea Ollama Lab, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Installing Ollama Lab, please wait..."
+msgstr "Instalarea Ollama Lab, vă rugăm să așteptați..."
 msgid "Ollama Lab Uninstall"
 msgstr "Dezinstalare Ollama Lab"
-msgid "Unistaling Ollama Lab, Please wait..."
-msgstr "Dezinstalare Ollama Lab, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Dezinstalare Ollama Lab, vă rugăm să așteptați..."
 msgid "Ollama Lab installed successfully!"
 msgstr "Ollama Lab instalat cu succes!"
 msgid "Failed to install Ollama Lab!"
@@ -180,32 +197,37 @@ msgid "Ollama Install"
 msgstr "Instalare Ollama"
 msgid "Ollama Uninstall"
 msgstr "Dezinstalare Ollama"
-msgid "Unistaling Ollama, Please wait..."
-msgstr "Dezinstalare Ollama, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Dezinstalare Ollama, vă rugăm să așteptați..."
 msgid "Ollama installed successfully!"
 msgstr "Ollama instalat cu succes!"
 msgid "Failed to install Ollama!"
 msgstr "Instalarea Ollama a eșuat!"
 msgid "Ollama ROCm Install"
 msgstr "Instalare Ollama ROCm"
-msgid "Instaling Ollama ROCm, Please wait..."
-msgstr "Instalarea Ollama ROCm, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
+msgstr "Se instalează Ollama ROCm, vă rugăm să așteptați..."
 msgid "Ollama ROCm Uninstall"
 msgstr "Ollama ROCm Dezinstalare"
-msgid "Unistaling Ollama ROCm, Please wait..."
-msgstr "Dezinstalare Ollama ROCm, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Dezinstalare Ollama ROCm, vă rugăm să așteptați..."
 msgid "Ollama ROCm installed successfully!"
 msgstr "Ollama ROCm instalat cu succes!"
 msgid "Failed to install Ollama ROCm!"
 msgstr "Instalarea Ollama ROCm a eșuat!"
 msgid "comfyUI Install...."
 msgstr "Instalare ComfyUI...."
-msgid "Instaling comfyUI, this step take a long time, Please wait..."
-msgstr "Instalarea comfyUI, acest pas durează mult timp, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "Instalarea comfyUI, acest pas durează mult timp, vă rugăm să așteptați..."
 msgid "Uninstall comfyUI...."
 msgstr "Dezinstalează comfyUI...."
-msgid "Uninstaling comfyUI, Please wait..."
-msgstr "Dezinstalare comfyUI, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "Dezinstalare comfyUI, vă rugăm să așteptați..."
 msgid "comfyUI installed successfully"
 msgstr "comfyUI instalat cu succes"
 msgid "comfyUI uninstalled successfully"
@@ -220,48 +242,56 @@ msgid ""
 msgstr ""
 "Ollama a fost partajat cu succes.\\n"
 "Adresă: http://$localIp:11434"
-msgid "Failed to shared Ollama!"
-msgstr "A împărtășit Ollama!"
+#: NEEDS WORK
+msgid "Failed to configure Ollama sharing!"
+msgstr "Configurarea partajării Ollama a eșuat!"
 msgid "Ollama CUDA Install"
 msgstr "Instalare Ollama CUDA"
-msgid "Instaling Ollama CUDA, Please wait..."
-msgstr "Instalarea Ollama CUDA, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "Instalarea Ollama CUDA, vă rugăm să așteptați..."
 msgid "Ollama CUDA Uninstall"
 msgstr "Dezinstalare Ollama CUDA"
-msgid "Unistaling Ollama CUDA, Please wait..."
-msgstr "Dezinstalare Ollama CUDA, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "Dezinstalare Ollama CUDA, vă rugăm să așteptați..."
 msgid "Ollama CUDA installed successfully!"
 msgstr "Ollama CUDA instalat cu succes!"
 msgid "Failed to install Ollama CUDA!"
 msgstr "Instalarea Ollama CUDA a eșuat!"
 msgid "LM Studio Install"
 msgstr "Instalare LM Studio"
-msgid "Instaling LM Studio, Please wait..."
-msgstr "Instalare LM Studio, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
+msgstr "Instalarea LM Studio, vă rugăm să așteptați..."
 msgid "LM Studio Uninstall"
 msgstr "Dezinstalare LM Studio"
-msgid "Uninstaling LM Studio, Please wait..."
-msgstr "Dezinstalare LM Studio, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "Dezinstalare LM Studio, vă rugăm să așteptați..."
 msgid "LM Studio installed successfully!"
 msgstr "LM Studio instalat cu succes!"
 msgid "Failed to install LM Studio!"
 msgstr "Instalarea LM Studio a eșuat!"
 msgid "Krita Install"
 msgstr "Instalare Krita"
-msgid "Instaling Krita, Please wait..."
-msgstr "Instalarea Krita, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "Se instalează Krita, vă rugăm să așteptați..."
 msgid "Krita Uninstall"
 msgstr "Dezinstalare Krita"
-msgid "Uninstaling Krita, Please wait..."
-msgstr "Dezinstalare Krita, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
+msgstr "Dezinstalare Krita, vă rugăm să așteptați..."
 msgid "Krita installed successfully!"
 msgstr "Krita a fost instalat cu succes!"
 msgid "Failed to install Krita!"
 msgstr "Instalarea Krita a eșuat!"
 msgid "comfyUI Depends Install"
 msgstr "Instalare dependențe ComfyUI"
-msgid "Instaling comfyUI Depends, Please wait..."
-msgstr "Instalarea dependențelor ComfyUI, Vă rugăm să așteptați..."
+#: NEEDS WORK
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "Instalarea dependențelor comfyUI, vă rugăm să așteptați..."
 msgid "comfyUI Depends installed successfully!"
 msgstr "comfyUI Dependențe instalate cu succes!"
 msgid "Failed to install comfyUI Depends!"
@@ -271,9 +301,10 @@ msgstr "Instalarea comfyUI a eșuat! Dependențe lipsă!"
 msgid "Docker"
 msgstr "Docker"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
-msgid "Container service - enable to use containers below."
-msgstr "Serviciul de containere - activează utilizarea containerelor de mai jos."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
+#: NEEDS WORK
+msgid "Container service — enable to use containers below."
+msgstr "Serviciul de containere — permite utilizarea containerelor de mai jos."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -286,23 +317,56 @@ msgstr "Containere"
 msgid "Manage container technologies."
 msgstr "Gestionați tehnologiile container."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "Docker activat."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 30
+#: NEEDS WORK
+msgid "Media &amp; Cloud"
+msgstr "Media și Cloud"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 31
+#: NEEDS WORK
+msgid "Media servers and cloud storage containers."
+msgstr "Servere media și containere de stocare în cloud."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 36
+#: NEEDS WORK
+msgid "Network &amp; Security"
+msgstr "Rețea și Securitate"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 37
+#: NEEDS WORK
+msgid "Network tools and security containers."
+msgstr "Instrumente de rețea și containere de securitate."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 42
+#: NEEDS WORK
+msgid "Development &amp; Tools"
+msgstr "Dezvoltare și Instrumente"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 43
+#: NEEDS WORK
+msgid "Development stacks and utility containers."
+msgstr "Stive de dezvoltare și containere utilitare."
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
+#: NEEDS WORK
+msgid "Enable Docker container engine."
+msgstr "Activare motor de containere Docker."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
 msgid "Nextcloud Plus"
 msgstr "Nextcloud Plus"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
-msgid "Install Nextcloud Plus container."
-msgstr "Instalați containerul Nextcloud Plus."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 62
+#: NEEDS WORK
+msgid "Install Nextcloud Plus cloud storage container."
+msgstr "Instalați containerul de stocare în cloud Nextcloud Plus."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
 msgid "Run Nextcloud Plus."
 msgstr "Rulați Nextcloud Plus."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
+#, python-brace-format
 msgid ""
 "Nextcloud Plus is running.\n"
 "Address: http://localhost:8286\n"
@@ -318,15 +382,17 @@ msgstr ""
 msgid "AdGuard"
 msgstr "AdGuard"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
-msgid "Install AdGuard Home container."
-msgstr "Instalați containerul AdGuard Home."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 81
+#: NEEDS WORK
+msgid "Install AdGuard Home DNS ad-blocker container."
+msgstr "Instalați containerul AdGuard Home DNS de blocare a anunțurilor."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
 msgid "Run AdGuard."
 msgstr "Rulați AdGuard."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
+#, python-brace-format
 msgid ""
 "AdGuard is running.\n"
 "Address: http://localhost:3030\n"
@@ -342,15 +408,17 @@ msgstr ""
 msgid "Jellyfin"
 msgstr "Jellyfin"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
-msgid "Install Jellyfin media server."
-msgstr "Instalați serverul media Jellyfin."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 100
+#: NEEDS WORK
+msgid "Install Jellyfin media server container."
+msgstr "Instalați containerul serverului media Jellyfin."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
 msgid "Run Jellyfin."
 msgstr "Rulați Jellyfin."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
+#, python-brace-format
 msgid ""
 "Jellyfin is running.\n"
 "Address: http://localhost:8096\n"
@@ -366,15 +434,17 @@ msgstr ""
 msgid "LAMP"
 msgstr "LAMP"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
-msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
-msgstr "Instalați stiva LAMP (Linux, Apache, MySQL, PHP)."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 119
+#: NEEDS WORK
+msgid "Install LAMP stack container (Linux, Apache, MySQL, PHP)."
+msgstr "Instalare container LAMP (Linux, Apache, MySQL, PHP)."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
 msgid "Run LAMP."
 msgstr "Rulați LAMP."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
+#, python-brace-format
 msgid ""
 "LAMP is running.\n"
 "Address: http://localhost:8080\n"
@@ -390,15 +460,17 @@ msgstr ""
 msgid "Portainer Client"
 msgstr "Client Portainer"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
-msgid "Install Portainer Agent for cluster management."
-msgstr "Instalați Agentul Portainer pentru gestionarea cluster-ului."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 138
+#: NEEDS WORK
+msgid "Install Portainer Agent container for cluster management."
+msgstr "Instalați containerul Portainer Agent pentru gestionarea clusterului."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
 msgid "Run Portainer Client."
 msgstr "Rulați clientul Portainer."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
+#, python-brace-format
 msgid ""
 "Portainer Client is running.\n"
 "Address: http://localhost:9000\n"
@@ -414,15 +486,17 @@ msgstr ""
 msgid "SWS"
 msgstr "SWS"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
-msgid "Install SWS static web server."
-msgstr "Instalați serverul web static SWS."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 157
+#: NEEDS WORK
+msgid "Install SWS static web server container."
+msgstr "Instalați containerul serverului web static SWS."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
 msgid "Run SWS."
 msgstr "Rulați SWS."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+#, python-brace-format
 msgid ""
 "SWS is running.\n"
 "Address: http://localhost:8182\n"
@@ -438,15 +512,17 @@ msgstr ""
 msgid "V2RayA"
 msgstr "V2RayA"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
-msgid "Install V2RayA network tool."
-msgstr "Instalați instrumentul de rețea V2RayA."
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 176
+#: NEEDS WORK
+msgid "Install V2RayA network proxy container."
+msgstr "Instalați containerul proxy de rețea V2RayA."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
 msgid "Run V2RayA."
 msgstr "Rula V2RayA."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
+#, python-brace-format
 msgid ""
 "V2RayA is running.\n"
 "Address: http://localhost:2017\n"
@@ -458,6 +534,15 @@ msgstr ""
 "și  \n"
 "Adresă: http://{}:2017"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 203
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
+#: NEEDS WORK
+msgid "Open Notebook"
+msgstr "Deschide Caietul"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
 msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "Instalați o alternativă open source, axată pe confidențialitate, la Notebook LM de la Google!"
@@ -467,6 +552,7 @@ msgid "Run Open Notebook."
 msgstr "Rulați Notebook-ul Deschis."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+#, python-brace-format
 msgid ""
 "Open Notebook is running.\n"
 "Address: http://localhost:8502\n"
@@ -478,17 +564,49 @@ msgstr ""
 "și  \n"
 "Adresă: http://{}:8502"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-msgid "Changing {} to {}"
-msgstr "Schimbarea {} în {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
+#: NEEDS WORK
+msgid "Close"
+msgstr "Închide"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-msgid "ERROR: Failed to change {} to {}"
-msgstr "EROARE: Nu s-a reușit schimbarea {} în {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+#: NEEDS WORK
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Atenție: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-msgid "Failed to change setting: {}"
-msgstr "Eșec la schimbarea setării: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
+#: NEEDS WORK
+msgid "Cancel"
+msgstr "Anulează"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
+#: NEEDS WORK
+msgid "Continue"
+msgstr "Continuare"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
+#: NEEDS WORK
+msgid "Recommended"
+msgstr "Recomandat"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: additional information"
+msgstr "{}: informații suplimentare"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+#: NEEDS WORK
+msgid "Learn more"
+msgstr "Află mai multe"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: learn more"
+msgstr "{}: află mai multe"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -499,6 +617,7 @@ msgstr "Indisponibil: scriptul nu a fost găsit."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+#, python-brace-format
 msgid "Script not found: {}"
 msgstr "Scriptul nu a fost găsit: {}"
 # 
@@ -531,6 +650,7 @@ msgid "Unavailable: script returned invalid output."
 msgstr "Indisponibil: scriptul a returnat un output invalid."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+#, python-brace-format
 msgid "output from script {}: {}"
 msgstr "ieșire din script {}: {}"
 # 
@@ -542,6 +662,7 @@ msgid "Unavailable: script returned an error."
 msgstr "Indisponibil: scriptul a returnat o eroare."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+#, python-brace-format
 msgid "Error checking state: {}"
 msgstr "Verificarea erorii stării: {}"
 # 
@@ -554,6 +675,7 @@ msgstr "Indisponibil: nu s-a putut rula scriptul."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+#, python-brace-format
 msgid "Error running script {}: {}"
 msgstr "Eroare la rularea scriptului {}: {}"
 # 
@@ -562,45 +684,111 @@ msgid "State changed successfully"
 msgstr "Starea a fost schimbată cu succes."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+#, python-brace-format
 msgid "Script output: {}"
 msgstr "{}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+#, python-brace-format
 msgid "Script failed with exit code: {}"
 msgstr "Scriptul a eșuat cu codul de ieșire: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+#, python-brace-format
 msgid "Script timeout: {}"
 msgstr "Timp de așteptare a scriptului: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Switch {} synchronized: {}"
-msgstr "Comutare {} sincronizat: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} sub-options available"
+msgstr "{} sub-opțiuni disponibile"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "on"
+msgstr "activat"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "off"
+msgstr "oprit"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
+#: NEEDS WORK
+#, python-brace-format
+msgid "Changing {} to {}…"
+msgstr "Schimbarea {} în {}…"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+#: NEEDS WORK
+msgid "Undo"
+msgstr "Anulare"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
+#: NEEDS WORK
+msgid "Undo: reverted toggle"
+msgstr "Anulează: comutare revenită"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+#, python-brace-format
+msgid "Changing {} to {}"
+msgstr "Schimbarea {} în {}"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "Indicator {} sincronizat: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "Se aplică…"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+#, python-brace-format
+msgid "ERROR: Failed to change {} to {}"
+msgstr "EROARE: Nu s-a reușit schimbarea {} în {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+#, python-brace-format
+msgid "Failed to change setting: {}"
+msgstr "Eșec la schimbarea setării: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
 msgid "BigLinux Settings"
 msgstr "Setări BigLinux"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "Categorii"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
+#: NEEDS WORK
+msgid "BigLinux Community"
+msgstr "Comunitatea BigLinux"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
 msgid "Search..."
 msgstr "Caută..."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "Setări"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
+#: NEEDS WORK
+msgid "Search settings"
+msgstr "Setări de căutare"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
+#: NEEDS WORK
+msgid "Toggle navigation sidebar"
+msgstr "Comutare bara de navigare"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
+#: NEEDS WORK
+msgid "About"
+msgstr "Despre"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
+#: NEEDS WORK
+msgid "Main Menu"
+msgstr "Meniu Principal"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System"
@@ -648,6 +836,11 @@ msgstr "A.I."
 msgid "Performance"
 msgstr "Performanță"
 # 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
+#: NEEDS WORK
+msgid "Dismiss"
+msgstr "Respinge"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."
 msgstr "Setări generale ale sistemului."
@@ -661,6 +854,7 @@ msgid "Enable remote access via ssh."
 msgstr "Activați accesul la distanță prin ssh."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+#, python-brace-format
 msgid "SSH Address: {}"
 msgstr "Adresă SSH: {}"
 # 
@@ -736,17 +930,19 @@ msgstr "Gestionați dispozitivele fizice."
 msgid "Wifi"
 msgstr "Wifi"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi Activat"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "Activează adaptorul Wi-Fi."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
 msgid "Bluetooth"
 msgstr "Bluetooth"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth Activat."
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "Activează adaptorul Bluetooth."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -766,6 +962,45 @@ msgstr "Derulare inversă a mouse-ului"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Răsturnarea derulării mouse-ului fără a reporni sesiunea."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "Interfețe de rețea"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "Conectează sau deconectează dispozitivele de rețea."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} — {}"
+msgstr "Please provide the string you would like to translate."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: comută conexiunea"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "conectat"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "deconectat"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "Nu s-a reușit schimbarea dispozitivului de rețea: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -811,14 +1046,20 @@ msgstr "Dezactivează monitorizarea S.M.A.R.T a discului. Reduce I/O-ul discului
 msgid "Meltdown Mitigations off"
 msgstr "Mitigări pentru Meltdown dezactivate"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
+#: NEEDS WORK
+msgid "Using mitigations=off will make your machine faster and less secure!"
+msgstr "Folosind mitigations=off va face ca mașina ta să fie mai rapidă și mai puțin sigură!"
+# 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
+#: NEEDS WORK
 msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
+"This will disable CPU security mitigations (Meltdown/Spectre). Your system will be faster but "
+"vulnerable to hardware-level attacks. Are you sure you want to continue?"
 msgstr ""
-"Folosirea mitigărilor=dezactivat va face ca mașina ta să fie mai rapidă și mai puțin sigură! Pentru "
-"mai multe informații, vezi: <a href='{l}'>{l}</a>"
+"Aceasta va dezactiva măsurile de securitate ale CPU-ului (Meltdown/Spectre). Sistemul dumneavoastră "
+"va fi mai rapid, dar vulnerabil la atacuri la nivel de hardware. Sunteți sigur că doriți să "
+"continuați?"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
 msgid "noWatchdog"
@@ -832,21 +1073,42 @@ msgstr ""
 "Dezactivează sistemele de supraveghere hardware și sursa de ceas TSC, menținând performanțe "
 "ridicate, dar eliminând protecțiile automate împotriva blocărilor sistemului."
 # 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
+#: NEEDS WORK
+msgid ""
+"This will disable the hardware watchdog. Your system will no longer automatically recover from "
+"certain types of crashes. Are you sure you want to continue?"
+msgstr ""
+"Aceasta va dezactiva watchdog-ul hardware. Sistemul dumneavoastră nu va mai recupera automat din "
+"anumite tipuri de blocaje. Sunteți sigur că doriți să continuați?"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
 msgstr "Interfețe AI"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
-msgid "Graphical interface for artificial intelligence.."
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 16
+#: NEEDS WORK
+msgid "Graphical interface for artificial intelligence."
 msgstr "Interfață grafică pentru inteligența artificială."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 22
-msgid "Ollma Server"
-msgstr "Ollma Server"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+#: NEEDS WORK
+msgid "Ollama Server"
+msgstr "Ollama Server"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Alegeți care server Ollama este cel mai potrivit pentru hardware-ul dumneavoastră."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Ollama Variants"
+msgstr "Varianta Ollama"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Select the variant that matches your GPU hardware."
+msgstr "Selectați varianta care se potrivește cu hardware-ul GPU-ului dvs."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"
@@ -863,6 +1125,11 @@ msgstr "Ollama LAB"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 129
 msgid "Graphical interface for managing Ollama models and chat."
 msgstr "Interfață grafică pentru gestionarea modelelor Ollama și a conversațiilor."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+#: NEEDS WORK
+msgid "ChatBox"
+msgstr "ChatBox"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 137
 msgid "User-friendly Desktop Client App for AI Models/LLMs."
@@ -892,12 +1159,13 @@ msgstr "Cel mai puternic și modular motor vizual de inteligență artificială 
 msgid "ComfyUI Server"
 msgstr "Server ComfyUI"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
-#, python-brace-format
-msgid "start ComfyUI Server. For more information see: <a href='{l}'>{l}</a>"
-msgstr "pornește serverul ComfyUI. Pentru mai multe informații vezi: <a href='{l}'>{l}</a>"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+#: NEEDS WORK
+msgid "Start the ComfyUI server."
+msgstr "Porniți serverul ComfyUI."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+#, python-brace-format
 msgid ""
 "ComfyUI server is running.\n"
 "Address: http://localhost:8188\n"
@@ -946,6 +1214,7 @@ msgstr "Partajează ollama pe rețeaua locală."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 105
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 123
+#, python-brace-format
 msgid ""
 "Ollama server is running.\n"
 "Address: http://{}:11434"
@@ -1005,12 +1274,10 @@ msgstr "Butoane de maximizare, minimizare și închidere pe partea stângă a fe
 msgid "KZones"
 msgstr "KZones"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "Script pentru managerul de feronier KWin al mediului desktop KDE Plasma."
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "Activează zonele de îmbinare a feroneriilor pentru desktopul KDE Plasma."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
 msgid "Recent Files & Locations"
