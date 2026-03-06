@@ -39,6 +39,11 @@ class BaseSettingsPage(Adw.Bin):
         """Get a metadata attribute from a widget via centralized dict."""
         return self._widget_data.get(widget, {}).get(key, default)
 
+    def _get_switch_handler(self, switch: Gtk.Switch):
+        """Return the active state-set handler for a switch (dangerous or normal)."""
+        dangerous = self._get_wd(switch, "dangerous_handler")
+        return dangerous if dangerous else self.on_switch_changed
+
     def _show_info_dialog(self, title: str, info_text: str) -> None:
         """Show info text in an accessible dialog instead of tooltip."""
         dialog = Adw.AlertDialog(
@@ -502,7 +507,8 @@ class BaseSettingsPage(Adw.Bin):
         for switch, (status, message) in switch_results:
             row = self._get_wd(switch, "row")
 
-            switch.handler_block_by_func(self.on_switch_changed)
+            handler = self._get_switch_handler(switch)
+            switch.handler_block_by_func(handler)
 
             if status == "true_disabled" or status is None:
                 row.set_visible(False)
@@ -517,7 +523,7 @@ class BaseSettingsPage(Adw.Bin):
                 switch.set_active(status)
                 self._toggle_info_icon_visibility(switch, status)
 
-            switch.handler_unblock_by_func(self.on_switch_changed)
+            switch.handler_unblock_by_func(handler)
 
         for indicator, (status, message) in indicator_results:
             row = self._get_wd(indicator, "row")
@@ -637,9 +643,10 @@ class BaseSettingsPage(Adw.Bin):
             row.set_subtitle(original_subtitle or "")
 
             if not success:
-                switch.handler_block_by_func(self.on_switch_changed)
+                handler = self._get_switch_handler(switch)
+                switch.handler_block_by_func(handler)
                 switch.set_active(not state)
-                switch.handler_unblock_by_func(self.on_switch_changed)
+                switch.handler_unblock_by_func(handler)
 
                 logger.error(
                     _("ERROR: Failed to change {} to {}").format(
