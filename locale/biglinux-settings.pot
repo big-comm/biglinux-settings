@@ -707,168 +707,168 @@ msgid   "Open Notebook is running.\n"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 53
 msgid   "Close"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 68
 #, python-brace-format
 msgid   "Warning: {}"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 71
 msgid   "Cancel"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 72
 msgid   "Continue"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 220
 msgid   "Recommended"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 243
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 331
 #, python-brace-format
 msgid   "{}: additional information"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 256
 msgid   "Learn more"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 262
 #, python-brace-format
 msgid   "{}: learn more"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 365
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 370
 msgid   "Unavailable: script not found."
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 366
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 412
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 371
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 417
 #, python-brace-format
 msgid   "Script not found: {}"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 376
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 381
 msgid   "Enabled"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 378
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 383
 msgid   "Disabled"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 384
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 389
 msgid   "Enabled by system configuration (e.g., Real-Time Kernel) and cannot "
         "be changed here."
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 388
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 393
 msgid   "Unavailable: script returned invalid output."
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 390
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 395
 #, python-brace-format
 msgid   "output from script {}: {}"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 396
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 401
 msgid   "Unavailable: script returned an error."
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 397
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 402
 #, python-brace-format
 msgid   "Error checking state: {}"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 400
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 405
 msgid   "Unavailable: failed to run script."
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 401
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 450
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 406
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 455
 #, python-brace-format
 msgid   "Error running script {}: {}"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 426
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 431
 msgid   "State changed successfully"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 428
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 433
 #, python-brace-format
 msgid   "Script output: {}"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 432
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 437
 #, python-brace-format
 msgid   "Script failed with exit code: {}"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 446
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 451
 #, python-brace-format
 msgid   "Script timeout: {}"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 481
 #, python-brace-format
 msgid   "{} sub-options available"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
 msgid   "on"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
 msgid   "off"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 580
 #, python-brace-format
 msgid   "Changing {} to {}…"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 582
 msgid   "Undo"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 606
 msgid   "Undo: reverted toggle"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 616
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 622
 #, python-brace-format
 msgid   "Changing {} to {}"
 msgstr  ""
@@ -876,19 +876,19 @@ msgstr  ""
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 632
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
 msgid   "Applying…"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 645
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 652
 #, python-brace-format
 msgid   "ERROR: Failed to change {} to {}"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 650
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 657
 #, python-brace-format
 msgid   "Failed to change setting: {}"
 msgstr  ""
