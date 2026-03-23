@@ -2,7 +2,8 @@
 
 # check current status
 if [ "$1" == "check" ]; then
-  if [[ "$(LANG=C jamesdsp --get master_enable)" == "true" ]] && pacman -Q jamesdsp &>/dev/null; then
+  if pacman -Q jamesdsp &>/dev/null && \
+     grep -q 'AutoStartEnabled=true' "$HOME/.config/jamesdsp/application.conf" 2>/dev/null; then
     echo "true"
   else
     echo "false"
