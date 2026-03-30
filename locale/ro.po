@@ -15,39 +15,185 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "kzones Install"
-msgstr "kzones Instalare"
+msgid "comfyUI Depends Install"
+msgstr "Instalare dependențe ComfyUI"
 #: NEEDS WORK
-msgid "Installing Kzones, please wait..."
-msgstr "Se instalează Kzones, vă rugăm să așteptați..."
-msgid "Kzones installed successfully!"
-msgstr "Kzones instalat cu succes!"
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "Instalarea dependențelor comfyUI, vă rugăm să așteptați..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI Dependențe instalate cu succes!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "Instalarea comfyUI a eșuat! Dependențe lipsă!"
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Serverul Ollama este în funcțiune.\\n"
+"Adresă: http://localhost:11434"
+msgid "ChatBox Install"
+msgstr "Instalare ChatBox"
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
+msgstr "Se instalează ChatBox, vă rugăm să așteptați..."
+msgid "ChatBox Uninstall"
+msgstr "Dezinstalare ChatBox"
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
+msgstr "Dezinstalare ChatBox, vă rugăm să așteptați..."
+msgid "ChatBox installed successfully!"
+msgstr "ChatBox instalat cu succes!"
+msgid "Failed to install ChatBox!"
+msgstr "Instalarea ChatBox a eșuat!"
+msgid "Ollama Lab Install"
+msgstr "Instalare Ollama Lab"
+#: NEEDS WORK
+msgid "Installing Ollama Lab, please wait..."
+msgstr "Instalarea Ollama Lab, vă rugăm să așteptați..."
+msgid "Ollama Lab Uninstall"
+msgstr "Dezinstalare Ollama Lab"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Dezinstalare Ollama Lab, vă rugăm să așteptați..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab instalat cu succes!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Instalarea Ollama Lab a eșuat!"
+msgid "LM Studio Install"
+msgstr "Instalare LM Studio"
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
+msgstr "Instalarea LM Studio, vă rugăm să așteptați..."
+msgid "LM Studio Uninstall"
+msgstr "Dezinstalare LM Studio"
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "Dezinstalare LM Studio, vă rugăm să așteptați..."
+msgid "LM Studio installed successfully!"
+msgstr "LM Studio instalat cu succes!"
+msgid "Failed to install LM Studio!"
+msgstr "Instalarea LM Studio a eșuat!"
+msgid "Ollama Install"
+msgstr "Instalare Ollama"
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
+msgstr "Se instalează Ollama, vă rugăm să așteptați..."
+msgid "Ollama Uninstall"
+msgstr "Dezinstalare Ollama"
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Dezinstalare Ollama, vă rugăm să așteptați..."
+msgid "Ollama installed successfully!"
+msgstr "Ollama instalat cu succes!"
+msgid "Failed to install Ollama!"
+msgstr "Instalarea Ollama a eșuat!"
+msgid "comfyUI Install...."
+msgstr "Instalare ComfyUI...."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "Instalarea comfyUI, acest pas durează mult timp, vă rugăm să așteptați..."
+msgid "Uninstall comfyUI...."
+msgstr "Dezinstalează comfyUI...."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "Dezinstalare comfyUI, vă rugăm să așteptați..."
+msgid "comfyUI installed successfully"
+msgstr "comfyUI instalat cu succes"
+msgid "comfyUI uninstalled successfully"
+msgstr "comfyUI a fost dezinstalat cu succes"
+msgid "Failed to install comfyUI!"
+msgstr "Instalarea comfyUI a eșuat!"
+msgid "Ollama CUDA Install"
+msgstr "Instalare Ollama CUDA"
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "Instalarea Ollama CUDA, vă rugăm să așteptați..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Dezinstalare Ollama CUDA"
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "Dezinstalare Ollama CUDA, vă rugăm să așteptați..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA instalat cu succes!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Instalarea Ollama CUDA a eșuat!"
+msgid ""
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"AI generativ pentru Krita a fost instalat cu succes.\\n"
+"\\n"
+"Deschide Krita, deschide o desen existent sau creează unul nou.\\n"
+"În panoul de sus, mergi la Setări > Panouri > bifează caseta Generare Imagine AI.\\n"
+"\\n"
+"În fereastra care se deschide în colțul din dreapta jos.\\n"
+"Fă clic pe Configurează > Server Gestionat Local, alege-ți GPU-ul sau CPU-ul, alege modelul din "
+"Sarcini și fă clic pe Instalează."
+msgid "AMD/Nvidia GPU not found!"
+msgstr "GPU AMD/Nvidia nu a fost găsit!"
+msgid "Krita Install"
+msgstr "Instalare Krita"
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "Se instalează Krita, vă rugăm să așteptați..."
+msgid "Krita Uninstall"
+msgstr "Dezinstalare Krita"
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
+msgstr "Dezinstalare Krita, vă rugăm să așteptați..."
+msgid "Krita installed successfully!"
+msgstr "Krita a fost instalat cu succes!"
+msgid "Failed to install Krita!"
+msgstr "Instalarea Krita a eșuat!"
+msgid "Ollama Vulkan Install"
+msgstr "Instalare Ollama Vulkan"
+msgid "Ollama Vulkan Uninstall"
+msgstr "Dezinstalare Ollama Vulkan"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Dezinstalare Ollama Vulkan, vă rugăm să așteptați..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan a fost instalat cu succes!"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Instalarea Ollama Vulkan a eșuat!"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama a fost partajat cu succes.\\n"
+"Adresă: http://$localIp:11434"
+#: NEEDS WORK
+msgid "Failed to configure Ollama sharing!"
+msgstr "Configurarea partajării Ollama a eșuat!"
+msgid "Ollama ROCm Install"
+msgstr "Instalare Ollama ROCm"
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
+msgstr "Se instalează Ollama ROCm, vă rugăm să așteptați..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm Dezinstalare"
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Dezinstalare Ollama ROCm, vă rugăm să așteptați..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm instalat cu succes!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Instalarea Ollama ROCm a eșuat!"
 msgid "Applying, please wait..."
 msgstr "Se aplică, vă rugăm să așteptați..."
-msgid "Recent Files enabling...."
-msgstr "Activarea fișierelor recente...."
-#: NEEDS WORK
-msgid "Recent Files enabling, please wait..."
-msgstr "Activarea fișierelor recente, vă rugăm să așteptați..."
-msgid "Recent Files disabling...."
-msgstr "Dezactivare fișiere recente...."
-#: NEEDS WORK
-msgid "Recent Files disabling, please wait..."
-msgstr "Dezactivare fișiere recente, vă rugăm să așteptați..."
-msgid ""
-"Recent Files successfully enabled!\\n"
-"You need to close and reopen Dolphin for it to take effect."
-msgstr ""
-"Fișierele recente au fost activate cu succes!\\n"
-"Trebuie să închideți și să redeschideți Dolphin pentru ca aceasta să aibă efect."
-msgid ""
-"Recent Files successfully disable!\\n"
-"You need to close and reopen Dolphin for it to take effect."
-msgstr ""
-"Fișierele recente au fost dezactivate cu succes!\\n"
-"Trebuie să închideți și să redeschideți Dolphin pentru ca modificarea să aibă efect."
-msgid "Failed to activate Recent Files!"
-msgstr "Activarea Fișierelor Recente a eșuat!"
+msgid "GRUB updated successfully!"
+msgstr "GRUB actualizat cu succes!"
+msgid "An error occurred while updating GRUB."
+msgstr "A apărut o eroare în timpul actualizării GRUB."
+msgid "Limits updated successfully!"
+msgstr "Limitele au fost actualizate cu succes!"
+msgid "An error occurred while updating Limits."
+msgstr "A apărut o eroare în timpul actualizării Limitelor."
 msgid "Example Install"
 msgstr "Exemplu Instalare"
 msgid "Instaling Example, Please wait..."
@@ -69,6 +215,14 @@ msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP instalat cu succes!"
 msgid "Failed to install jamesDSP!"
 msgstr "Instalarea jamesDSP a eșuat!"
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB actualizat cu succes!\\n"
+"Reporniți computerul pentru a aplica modificările."
+msgid "Already enabled. No changes made."
+msgstr "Deja activat. Nici o modificare efectuată."
 msgid "Docker Install"
 msgstr "Instalare Docker"
 #: NEEDS WORK
@@ -111,195 +265,606 @@ msgid "$package removed successfully!"
 msgstr "Pachetul a fost eliminat cu succes!"
 msgid "An error occurred with $package."
 msgstr "A apărut o eroare cu $package."
-msgid "GRUB updated successfully!"
-msgstr "GRUB actualizat cu succes!"
-msgid "An error occurred while updating GRUB."
-msgstr "A apărut o eroare în timpul actualizării GRUB."
-msgid "Limits updated successfully!"
-msgstr "Limitele au fost actualizate cu succes!"
-msgid "An error occurred while updating Limits."
-msgstr "A apărut o eroare în timpul actualizării Limitelor."
+msgid "kzones Install"
+msgstr "kzones Instalare"
+#: NEEDS WORK
+msgid "Installing Kzones, please wait..."
+msgstr "Se instalează Kzones, vă rugăm să așteptați..."
+msgid "Kzones installed successfully!"
+msgstr "Kzones instalat cu succes!"
+msgid "Recent Files enabling...."
+msgstr "Activarea fișierelor recente...."
+#: NEEDS WORK
+msgid "Recent Files enabling, please wait..."
+msgstr "Activarea fișierelor recente, vă rugăm să așteptați..."
+msgid "Recent Files disabling...."
+msgstr "Dezactivare fișiere recente...."
+#: NEEDS WORK
+msgid "Recent Files disabling, please wait..."
+msgstr "Dezactivare fișiere recente, vă rugăm să așteptați..."
 msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
+"Recent Files successfully enabled!\\n"
+"You need to close and reopen Dolphin for it to take effect."
 msgstr ""
-"GRUB actualizat cu succes!\\n"
-"Reporniți computerul pentru a aplica modificările."
-msgid "Already enabled. No changes made."
-msgstr "Deja activat. Nici o modificare efectuată."
-msgid "Ollama Vulkan Install"
-msgstr "Instalare Ollama Vulkan"
-#: NEEDS WORK
-msgid "Installing Ollama, please wait..."
-msgstr "Se instalează Ollama, vă rugăm să așteptați..."
-msgid "Ollama Vulkan Uninstall"
-msgstr "Dezinstalare Ollama Vulkan"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Vulkan, please wait..."
-msgstr "Dezinstalare Ollama Vulkan, vă rugăm să așteptați..."
-msgid "Ollama Vulkan installed successfully!"
-msgstr "Ollama Vulkan a fost instalat cu succes!"
-msgid "Failed to install Ollama Vulkan!"
-msgstr "Instalarea Ollama Vulkan a eșuat!"
-msgid "ChatBox Install"
-msgstr "Instalare ChatBox"
-#: NEEDS WORK
-msgid "Installing ChatBox, please wait..."
-msgstr "Se instalează ChatBox, vă rugăm să așteptați..."
-msgid "ChatBox Uninstall"
-msgstr "Dezinstalare ChatBox"
-#: NEEDS WORK
-msgid "Uninstalling ChatBox, please wait..."
-msgstr "Dezinstalare ChatBox, vă rugăm să așteptați..."
-msgid "ChatBox installed successfully!"
-msgstr "ChatBox instalat cu succes!"
-msgid "Failed to install ChatBox!"
-msgstr "Instalarea ChatBox a eșuat!"
-msgid "Ollama Lab Install"
-msgstr "Instalare Ollama Lab"
-#: NEEDS WORK
-msgid "Installing Ollama Lab, please wait..."
-msgstr "Instalarea Ollama Lab, vă rugăm să așteptați..."
-msgid "Ollama Lab Uninstall"
-msgstr "Dezinstalare Ollama Lab"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Lab, please wait..."
-msgstr "Dezinstalare Ollama Lab, vă rugăm să așteptați..."
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Lab instalat cu succes!"
-msgid "Failed to install Ollama Lab!"
-msgstr "Instalarea Ollama Lab a eșuat!"
+"Fișierele recente au fost activate cu succes!\\n"
+"Trebuie să închideți și să redeschideți Dolphin pentru ca aceasta să aibă efect."
 msgid ""
-"Generative AI for Krita has been successfully installed.\\n"
-"\\n"
-"Open Krita, open an existing drawing or create a new one.\\n"
-"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
-"\\n"
-"In the window that opens on the bottom right.\\n"
-"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
-"click Install."
+"Recent Files successfully disable!\\n"
+"You need to close and reopen Dolphin for it to take effect."
 msgstr ""
-"AI generativ pentru Krita a fost instalat cu succes.\\n"
-"\\n"
-"Deschide Krita, deschide o desen existent sau creează unul nou.\\n"
-"În panoul de sus, mergi la Setări > Panouri > bifează caseta Generare Imagine AI.\\n"
-"\\n"
-"În fereastra care se deschide în colțul din dreapta jos.\\n"
-"Fă clic pe Configurează > Server Gestionat Local, alege-ți GPU-ul sau CPU-ul, alege modelul din "
-"Sarcini și fă clic pe Instalează."
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Serverul Ollama este în funcțiune.\\n"
-"Adresă: http://localhost:11434"
-msgid "Ollama Install"
-msgstr "Instalare Ollama"
-msgid "Ollama Uninstall"
-msgstr "Dezinstalare Ollama"
+"Fișierele recente au fost dezactivate cu succes!\\n"
+"Trebuie să închideți și să redeschideți Dolphin pentru ca modificarea să aibă efect."
+msgid "Failed to activate Recent Files!"
+msgstr "Activarea Fișierelor Recente a eșuat!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "Setări BigLinux"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
 #: NEEDS WORK
-msgid "Uninstalling Ollama, please wait..."
-msgstr "Dezinstalare Ollama, vă rugăm să așteptați..."
-msgid "Ollama installed successfully!"
-msgstr "Ollama instalat cu succes!"
-msgid "Failed to install Ollama!"
-msgstr "Instalarea Ollama a eșuat!"
-msgid "Ollama ROCm Install"
-msgstr "Instalare Ollama ROCm"
+msgid "BigLinux Community"
+msgstr "Comunitatea BigLinux"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Caută..."
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
 #: NEEDS WORK
-msgid "Installing Ollama ROCm, please wait..."
-msgstr "Se instalează Ollama ROCm, vă rugăm să așteptați..."
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm Dezinstalare"
+msgid "Search settings"
+msgstr "Setări de căutare"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
 #: NEEDS WORK
-msgid "Uninstalling Ollama ROCm, please wait..."
-msgstr "Dezinstalare Ollama ROCm, vă rugăm să așteptați..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm instalat cu succes!"
-msgid "Failed to install Ollama ROCm!"
-msgstr "Instalarea Ollama ROCm a eșuat!"
-msgid "comfyUI Install...."
-msgstr "Instalare ComfyUI...."
+msgid "Toggle navigation sidebar"
+msgstr "Comutare bara de navigare"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
 #: NEEDS WORK
-msgid "Installing comfyUI, this step takes a long time, please wait..."
-msgstr "Instalarea comfyUI, acest pas durează mult timp, vă rugăm să așteptați..."
-msgid "Uninstall comfyUI...."
-msgstr "Dezinstalează comfyUI...."
+msgid "About"
+msgstr "Despre"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
 #: NEEDS WORK
-msgid "Uninstalling comfyUI, please wait..."
-msgstr "Dezinstalare comfyUI, vă rugăm să așteptați..."
-msgid "comfyUI installed successfully"
-msgstr "comfyUI instalat cu succes"
-msgid "comfyUI uninstalled successfully"
-msgstr "comfyUI a fost dezinstalat cu succes"
-msgid "Failed to install comfyUI!"
-msgstr "Instalarea comfyUI a eșuat!"
-msgid "AMD/Nvidia GPU not found!"
-msgstr "GPU AMD/Nvidia nu a fost găsit!"
-msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
-msgstr ""
-"Ollama a fost partajat cu succes.\\n"
-"Adresă: http://$localIp:11434"
-#: NEEDS WORK
-msgid "Failed to configure Ollama sharing!"
-msgstr "Configurarea partajării Ollama a eșuat!"
-msgid "Ollama CUDA Install"
-msgstr "Instalare Ollama CUDA"
-#: NEEDS WORK
-msgid "Installing Ollama CUDA, please wait..."
-msgstr "Instalarea Ollama CUDA, vă rugăm să așteptați..."
-msgid "Ollama CUDA Uninstall"
-msgstr "Dezinstalare Ollama CUDA"
-#: NEEDS WORK
-msgid "Uninstalling Ollama CUDA, please wait..."
-msgstr "Dezinstalare Ollama CUDA, vă rugăm să așteptați..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA instalat cu succes!"
-msgid "Failed to install Ollama CUDA!"
-msgstr "Instalarea Ollama CUDA a eșuat!"
-msgid "LM Studio Install"
-msgstr "Instalare LM Studio"
-#: NEEDS WORK
-msgid "Installing LM Studio, please wait..."
-msgstr "Instalarea LM Studio, vă rugăm să așteptați..."
-msgid "LM Studio Uninstall"
-msgstr "Dezinstalare LM Studio"
-#: NEEDS WORK
-msgid "Uninstalling LM Studio, please wait..."
-msgstr "Dezinstalare LM Studio, vă rugăm să așteptați..."
-msgid "LM Studio installed successfully!"
-msgstr "LM Studio instalat cu succes!"
-msgid "Failed to install LM Studio!"
-msgstr "Instalarea LM Studio a eșuat!"
-msgid "Krita Install"
-msgstr "Instalare Krita"
-#: NEEDS WORK
-msgid "Installing Krita, please wait..."
-msgstr "Se instalează Krita, vă rugăm să așteptați..."
-msgid "Krita Uninstall"
-msgstr "Dezinstalare Krita"
-#: NEEDS WORK
-msgid "Uninstalling Krita, please wait..."
-msgstr "Dezinstalare Krita, vă rugăm să așteptați..."
-msgid "Krita installed successfully!"
-msgstr "Krita a fost instalat cu succes!"
-msgid "Failed to install Krita!"
-msgstr "Instalarea Krita a eșuat!"
-msgid "comfyUI Depends Install"
-msgstr "Instalare dependențe ComfyUI"
-#: NEEDS WORK
-msgid "Installing comfyUI Depends, please wait..."
-msgstr "Instalarea dependențelor comfyUI, vă rugăm să așteptați..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI Dependențe instalate cu succes!"
-msgid "Failed to install comfyUI Depends!"
-msgstr "Instalarea comfyUI a eșuat! Dependențe lipsă!"
+msgid "Main Menu"
+msgstr "Meniu Principal"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "Sistem"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Utilizabilitate"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "Preîncărcare"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
+msgid "Devices"
+msgstr "Dispozitive"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+msgid "A.I."
+msgstr "A.I."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
 msgid "Docker"
 msgstr "Docker"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
+msgid "Performance"
+msgstr "Performanță"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 302
+#: NEEDS WORK
+msgid "Suspend"
+msgstr "Suspenda"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
+#: NEEDS WORK
+msgid "Dismiss"
+msgstr "Respinge"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
+#: NEEDS WORK
+msgid "Sleep Mode"
+msgstr "Modul de Somn"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
+#: NEEDS WORK
+msgid "Configure how the system suspends."
+msgstr "Configurează modul în care sistemul suspendă."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
+#: NEEDS WORK
+msgid "Use s2idle (light sleep)"
+msgstr "Utilizați s2idle (somn ușor)"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
+#: NEEDS WORK
+msgid "Uses a lighter sleep mode that preserves Fn keys and device state. Recommended for ASUS notebooks."
+msgstr ""
+"Utilizează un mod de somn mai ușor care păstrează tastele Fn și starea dispozitivului. Recomandat "
+"pentru laptopurile ASUS."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
+#: NEEDS WORK
+msgid ""
+"S3 deep sleep can cause the Embedded Controller to stop generating hotkey interrupts. s2idle keeps "
+"the EC powered, avoiding this issue at a small cost in battery consumption."
+msgstr ""
+"Modul de somn S3 poate cauza oprirea generării de întreruperi hotkey de către Controlerul "
+"Încorporat. s2idle menține EC-ul alimentat, evitând această problemă cu un cost mic în consumul de "
+"baterie."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
+#: NEEDS WORK
+msgid "WiFi"
+msgstr "WiFi"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
+#: NEEDS WORK
+msgid "Prevent WiFi issues after suspend."
+msgstr "Prevenirea problemelor WiFi după suspendare."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
+#: NEEDS WORK
+msgid "Protect WiFi on suspend"
+msgstr "Protejează WiFi-ul în suspendare"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
+#: NEEDS WORK
+msgid ""
+"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding connection loss after "
+"resume."
+msgstr "Previne oprirea completă a cipului WiFi Realtek (d3cold), evitând pierderea conexiunii după reluare."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
+#: NEEDS WORK
+msgid ""
+"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power gating. This keeps the chip "
+"in d3hot (PCIe link alive) during suspend."
+msgstr ""
+"Unele cipuri Realtek RTL8852BE/CE nu reușesc să se reinițializeze după oprirea alimentării d3cold. "
+"Acest lucru menține cipul în d3hot (link PCIe activ) în timpul suspendării."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
+#: NEEDS WORK
+msgid "Display and Keyboard"
+msgstr "Afișaj și Tastatură"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
+#: NEEDS WORK
+msgid "Preserve brightness and LED state across suspend."
+msgstr "Păstrează luminozitatea și starea LED-ului în timpul suspendării."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
+#: NEEDS WORK
+msgid "Save/restore brightness on suspend"
+msgstr "Salvează/restaurează luminozitatea la suspendare"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
+#: NEEDS WORK
+msgid "Saves screen brightness and keyboard LEDs before suspending and restores them on resume."
+msgstr ""
+"Salvează luminozitatea ecranului și LED-urile tastaturii înainte de suspendare și le restabilește "
+"la reluare."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
+#: NEEDS WORK
+msgid "GNOME Shell Extensions"
+msgstr "Extensii GNOME Shell"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
+#: NEEDS WORK
+msgid "Automatic health check after resume."
+msgstr "Verificare automată a stării după reluare."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
+#: NEEDS WORK
+msgid "Extension health monitor"
+msgstr "Monitor de sănătate al extensiei"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
+#: NEEDS WORK
+msgid "Detects GNOME Shell extensions in error state after resume and automatically restarts them."
+msgstr "Detectează extensiile GNOME Shell în stare de eroare după revenire și le repornește automat."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
+#: NEEDS WORK
+msgid "Lid Switch"
+msgstr "Comutator capac închidere"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
+#: NEEDS WORK
+msgid "Laptop lid close behavior."
+msgstr "Comportamentul la închiderea capacului laptopului."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#: NEEDS WORK
+msgid "Suspend on lid close (AC power)"
+msgstr "Suspendere la închidere capac (alimentare AC)"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#: NEEDS WORK
+msgid "Some systems do not suspend when on AC power. This forces suspend when the lid is closed."
+msgstr ""
+"Unele sisteme nu intră în suspendare când sunt alimentate de la rețea. Aceasta forțează suspendarea "
+"când capacul este închis."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Setări utilizator și sistem vizual."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Starea inițială a NumLock. Ignorat dacă autentificarea automată este activată."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Buton Fereastră Pe Latura Stângă"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Butoane de maximizare, minimizare și închidere pe partea stângă a ferestrei."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZones"
+# 
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "Activează zonele de îmbinare a feroneriilor pentru desktopul KDE Plasma."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "Fișiere și Locații Recente"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
+msgstr ""
+"Restabilește funcționalitatea 'Fișiere Recente' și 'Locații Recente' care apare goală în Dolphin și "
+"în Meniul Aplicației."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "Gestionați dispozitivele fizice."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "Activează adaptorul Wi-Fi."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "Activează adaptorul Bluetooth."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Procesor avansat de efecte audio care îmbunătățește calitatea sunetului."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "Derulare inversă a mouse-ului"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "Răsturnarea derulării mouse-ului fără a reporni sesiunea."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "Interfețe de rețea"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "Conectează sau deconectează dispozitivele de rețea."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} — {}"
+msgstr "Please provide the string you would like to translate."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: comută conexiunea"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "Se aplică…"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "conectat"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "deconectat"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "Nu s-a reușit schimbarea dispozitivului de rețea: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Preîncărcare"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Preîncărcați aplicațiile în memorie pentru a le deschide mai repede."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Brave"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Chromium"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "Librewolf"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Opera"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "LibreOffice"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
+msgid "AI Interfaces"
+msgstr "Interfețe AI"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 16
+#: NEEDS WORK
+msgid "Graphical interface for artificial intelligence."
+msgstr "Interfață grafică pentru inteligența artificială."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+#: NEEDS WORK
+msgid "Ollama Server"
+msgstr "Ollama Server"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+msgid "Choose which Ollama server is best for your hardware."
+msgstr "Alegeți care server Ollama este cel mai potrivit pentru hardware-ul dumneavoastră."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Ollama Variants"
+msgstr "Varianta Ollama"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Select the variant that matches your GPU hardware."
+msgstr "Selectați varianta care se potrivește cu hardware-ul GPU-ului dvs."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
+msgid "ChatAI"
+msgstr "ChatAI"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
+msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
+msgstr "O varietate de chat-uri precum Plasmoid pentru desktopul tău KDE Plasma."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
+msgid "Ollama LAB"
+msgstr "Ollama LAB"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 129
+msgid "Graphical interface for managing Ollama models and chat."
+msgstr "Interfață grafică pentru gestionarea modelelor Ollama și a conversațiilor."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+#: NEEDS WORK
+msgid "ChatBox"
+msgstr "ChatBox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 137
+msgid "User-friendly Desktop Client App for AI Models/LLMs."
+msgstr "Aplicație desktop prietenoasă pentru utilizator pentru modele AI/LLM."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
+msgid "LM Studio"
+msgstr "LM Studio"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 145
+msgid "LM Studio - A desktop app for exploring and running large language models locally."
+msgstr "LM Studio - O aplicație desktop pentru explorarea și rularea modelelor de limbaj mari local."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 203
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
+#: NEEDS WORK
+msgid "Open Notebook"
+msgstr "Deschide Caietul"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
+msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
+msgstr "O alternativă open source, axată pe confidențialitate, la Notebook LM de la Google!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+msgid "ComfyUI (GPU ONLY)"
+msgstr "ComfyUI (NUMAI GPU)"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
+msgid "The most powerful and modular visual AI engine and application."
+msgstr "Cel mai puternic și modular motor vizual de inteligență artificială și aplicație."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+msgid "ComfyUI Server"
+msgstr "Server ComfyUI"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+#: NEEDS WORK
+msgid "Start the ComfyUI server."
+msgstr "Porniți serverul ComfyUI."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+#, python-brace-format
+msgid ""
+"ComfyUI server is running.\n"
+"Address: http://localhost:8188\n"
+"and\n"
+"Address: http://{}:8188"
+msgstr ""
+"Serverul ComfyUI este activ.  \n"
+"Adresă: http://localhost:8188  \n"
+"și  \n"
+"Adresă: http://{}:8188"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+msgid "OllamaCPU"
+msgstr "OllamaCPU"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 57
+msgid "Local AI server. For CPUs only."
+msgstr "Server AI local. Doar pentru CPU-uri."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 60
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 78
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 96
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 114
+msgid ""
+"Ollama server is running.\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Serverul Ollama este activ.  \n"
+"Adresă: http://localhost:11434"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 64
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 82
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 118
+msgid "Share Ollama"
+msgstr "Partajează Ollama"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 65
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 83
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 101
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 119
+msgid "Share ollama on the local network."
+msgstr "Partajează ollama pe rețeaua locală."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 69
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 105
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 123
+#, python-brace-format
+msgid ""
+"Ollama server is running.\n"
+"Address: http://{}:11434"
+msgstr ""
+"Serverul Ollama este în funcțiune.  \n"
+"Adresă: http://{}:11434"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
+msgid "Ollama Vulkan"
+msgstr "Ollama Vulkan"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 75
+msgid "Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."
+msgstr "Server AI local. Pentru CPU-uri, AMD/Nvidia și GPU-uri integrate."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 110
+msgid "Ollama Nvidia CUDA"
+msgstr "Ollama Nvidia CUDA"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 111
+msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
+msgstr "Server AI local. Pentru GPU-uri Nvidia mai noi, începând cu seria 2000."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 92
+msgid "Ollama AMD ROCm"
+msgstr "Ollama AMD ROCm"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 111
+msgid ""
+"Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
+"Consider using Vulkan, in many tests, Vulkan performed better than ROCm."
+msgstr ""
+"Server AI local. Pentru GPU-urile AMD mai noi, începând cu seria 6000. \n"
+"Considerați utilizarea Vulkan, în multe teste, Vulkan a avut performanțe mai bune decât ROCm."
 # 
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
 #: NEEDS WORK
@@ -534,15 +1099,6 @@ msgstr ""
 "și  \n"
 "Adresă: http://{}:2017"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
-# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 203
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
-#: NEEDS WORK
-msgid "Open Notebook"
-msgstr "Deschide Caietul"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
 msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "Instalați o alternativă open source, axată pe confidențialitate, la Notebook LM de la Google!"
@@ -563,6 +1119,86 @@ msgstr ""
 "Adresă: http://localhost:8502  \n"
 "și  \n"
 "Adresă: http://{}:8502"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "Optimizări de performanță BigLinux."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
+msgid "Disable Visual Effects"
+msgstr "Dezactivează efectele vizuale"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
+msgstr ""
+"Dezactivează efectele vizuale KWin (blur, umbre, animații). Reduce încărcarea GPU-ului și "
+"eliberează memorie."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "Performanță maximă CPU"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr ""
+"Forțează modul de performanță maximă a procesorului. Asigură că procesorul utilizează frecvența "
+"maximă."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Dezactivează Indexerul Baloo"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Dezactivează indexatorul de fișiere Baloo. Evită suprasarcina I/O pe disc."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "Descărcați Monitorul S.M.A.R.T"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Dezactivează monitorizarea S.M.A.R.T a discului. Reduce I/O-ul discului și utilizarea CPU-ului."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Mitigări pentru Meltdown dezactivate"
+# 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
+#: NEEDS WORK
+msgid "Using mitigations=off will make your machine faster and less secure!"
+msgstr "Folosind mitigations=off va face ca mașina ta să fie mai rapidă și mai puțin sigură!"
+# 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
+#: NEEDS WORK
+msgid ""
+"This will disable CPU security mitigations (Meltdown/Spectre). Your system will be faster but "
+"vulnerable to hardware-level attacks. Are you sure you want to continue?"
+msgstr ""
+"Aceasta va dezactiva măsurile de securitate ale CPU-ului (Meltdown/Spectre). Sistemul dumneavoastră "
+"va fi mai rapid, dar vulnerabil la atacuri la nivel de hardware. Sunteți sigur că doriți să "
+"continuați?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "fărăSupraveghere"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Dezactivează sistemele de supraveghere hardware și sursa de ceas TSC, menținând performanțe "
+"ridicate, dar eliminând protecțiile automate împotriva blocărilor sistemului."
+# 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
+#: NEEDS WORK
+msgid ""
+"This will disable the hardware watchdog. Your system will no longer automatically recover from "
+"certain types of crashes. Are you sure you want to continue?"
+msgstr ""
+"Aceasta va dezactiva watchdog-ul hardware. Sistemul dumneavoastră nu va mai recupera automat din "
+"anumite tipuri de blocaje. Sunteți sigur că doriți să continuați?"
 # 
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
 #: NEEDS WORK
@@ -736,14 +1372,6 @@ msgstr "Anulează: comutare revenită"
 msgid "Changing {} to {}"
 msgstr "Schimbarea {} în {}"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
-#: NEEDS WORK
-msgid "Applying…"
-msgstr "Se aplică…"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
 #, python-brace-format
 msgid "ERROR: Failed to change {} to {}"
@@ -753,93 +1381,6 @@ msgstr "EROARE: Nu s-a reușit schimbarea {} în {}"
 #, python-brace-format
 msgid "Failed to change setting: {}"
 msgstr "Eșec la schimbarea setării: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "BigLinux Settings"
-msgstr "Setări BigLinux"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
-#: NEEDS WORK
-msgid "BigLinux Community"
-msgstr "Comunitatea BigLinux"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
-msgid "Search..."
-msgstr "Caută..."
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
-#: NEEDS WORK
-msgid "Search settings"
-msgstr "Setări de căutare"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
-#: NEEDS WORK
-msgid "Toggle navigation sidebar"
-msgstr "Comutare bara de navigare"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
-#: NEEDS WORK
-msgid "About"
-msgstr "Despre"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
-#: NEEDS WORK
-msgid "Main Menu"
-msgstr "Meniu Principal"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Sistem"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Utilizabilitate"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
-msgid "PreLoad"
-msgstr "Preîncărcare"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
-msgid "Devices"
-msgstr "Dispozitive"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
-msgid "A.I."
-msgstr "A.I."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
-msgid "Performance"
-msgstr "Performanță"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
-#: NEEDS WORK
-msgid "Dismiss"
-msgstr "Respinge"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."
@@ -881,412 +1422,3 @@ msgstr "Partiții montate automat"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Montare automat partițiile pe discurile interne la pornire."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "Preîncărcare"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "Preîncărcați aplicațiile în memorie pentru a le deschide mai repede."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "Firefox"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "Brave"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "Chrome"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "Chromium"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "Librewolf"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "Palemoon"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "Opera"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "LibreOffice"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
-msgid "Manage physical devices."
-msgstr "Gestionați dispozitivele fizice."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable the Wi-Fi adapter."
-msgstr "Activează adaptorul Wi-Fi."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
-#: NEEDS WORK
-msgid "Enable the Bluetooth adapter."
-msgstr "Activează adaptorul Bluetooth."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
-msgid "JamesDSP"
-msgstr "JamesDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "Procesor avansat de efecte audio care îmbunătățește calitatea sunetului."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
-msgid "Reverse mouse scrolling"
-msgstr "Derulare inversă a mouse-ului"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "Răsturnarea derulării mouse-ului fără a reporni sesiunea."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
-#: NEEDS WORK
-msgid "Network Interfaces"
-msgstr "Interfețe de rețea"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
-#: NEEDS WORK
-msgid "Connect or disconnect network devices."
-msgstr "Conectează sau deconectează dispozitivele de rețea."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
-#: NEEDS WORK
-#, python-brace-format
-msgid "{} — {}"
-msgstr "Please provide the string you would like to translate."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
-#: NEEDS WORK
-#, python-brace-format
-msgid "{}: toggle connection"
-msgstr "{}: comută conexiunea"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: NEEDS WORK
-msgid "connected"
-msgstr "conectat"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: NEEDS WORK
-msgid "disconnected"
-msgstr "deconectat"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
-#: NEEDS WORK
-#, python-brace-format
-msgid "Failed to change network device: {}"
-msgstr "Nu s-a reușit schimbarea dispozitivului de rețea: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
-msgid "BigLinux performance tweaks."
-msgstr "Optimizări de performanță BigLinux."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
-msgid "Disable Visual Effects"
-msgstr "Dezactivează efectele vizuale"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
-msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
-msgstr ""
-"Dezactivează efectele vizuale KWin (blur, umbre, animații). Reduce încărcarea GPU-ului și "
-"eliberează memorie."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
-msgid "CPU Maximum Performance"
-msgstr "Performanță maximă CPU"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
-msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
-msgstr ""
-"Forțează modul de performanță maximă a procesorului. Asigură că procesorul utilizează frecvența "
-"maximă."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
-msgid "Disable Baloo Indexer"
-msgstr "Dezactivează Indexerul Baloo"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
-msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
-msgstr "Dezactivează indexatorul de fișiere Baloo. Evită suprasarcina I/O pe disc."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
-msgid "Unload S.M.A.R.T Monitor"
-msgstr "Descărcați Monitorul S.M.A.R.T"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
-msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
-msgstr "Dezactivează monitorizarea S.M.A.R.T a discului. Reduce I/O-ul discului și utilizarea CPU-ului."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "Mitigări pentru Meltdown dezactivate"
-# 
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
-#: NEEDS WORK
-msgid "Using mitigations=off will make your machine faster and less secure!"
-msgstr "Folosind mitigations=off va face ca mașina ta să fie mai rapidă și mai puțin sigură!"
-# 
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
-#: NEEDS WORK
-msgid ""
-"This will disable CPU security mitigations (Meltdown/Spectre). Your system will be faster but "
-"vulnerable to hardware-level attacks. Are you sure you want to continue?"
-msgstr ""
-"Aceasta va dezactiva măsurile de securitate ale CPU-ului (Meltdown/Spectre). Sistemul dumneavoastră "
-"va fi mai rapid, dar vulnerabil la atacuri la nivel de hardware. Sunteți sigur că doriți să "
-"continuați?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "fărăSupraveghere"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr ""
-"Dezactivează sistemele de supraveghere hardware și sursa de ceas TSC, menținând performanțe "
-"ridicate, dar eliminând protecțiile automate împotriva blocărilor sistemului."
-# 
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
-#: NEEDS WORK
-msgid ""
-"This will disable the hardware watchdog. Your system will no longer automatically recover from "
-"certain types of crashes. Are you sure you want to continue?"
-msgstr ""
-"Aceasta va dezactiva watchdog-ul hardware. Sistemul dumneavoastră nu va mai recupera automat din "
-"anumite tipuri de blocaje. Sunteți sigur că doriți să continuați?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
-msgid "AI Interfaces"
-msgstr "Interfețe AI"
-# 
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 16
-#: NEEDS WORK
-msgid "Graphical interface for artificial intelligence."
-msgstr "Interfață grafică pentru inteligența artificială."
-# 
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
-#: NEEDS WORK
-msgid "Ollama Server"
-msgstr "Ollama Server"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
-msgid "Choose which Ollama server is best for your hardware."
-msgstr "Alegeți care server Ollama este cel mai potrivit pentru hardware-ul dumneavoastră."
-# 
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-#: NEEDS WORK
-msgid "Ollama Variants"
-msgstr "Varianta Ollama"
-# 
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
-#: NEEDS WORK
-msgid "Select the variant that matches your GPU hardware."
-msgstr "Selectați varianta care se potrivește cu hardware-ul GPU-ului dvs."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
-msgid "ChatAI"
-msgstr "ChatAI"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
-msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
-msgstr "O varietate de chat-uri precum Plasmoid pentru desktopul tău KDE Plasma."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
-msgid "Ollama LAB"
-msgstr "Ollama LAB"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 129
-msgid "Graphical interface for managing Ollama models and chat."
-msgstr "Interfață grafică pentru gestionarea modelelor Ollama și a conversațiilor."
-# 
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
-#: NEEDS WORK
-msgid "ChatBox"
-msgstr "ChatBox"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 137
-msgid "User-friendly Desktop Client App for AI Models/LLMs."
-msgstr "Aplicație desktop prietenoasă pentru utilizator pentru modele AI/LLM."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
-msgid "LM Studio"
-msgstr "LM Studio"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 145
-msgid "LM Studio - A desktop app for exploring and running large language models locally."
-msgstr "LM Studio - O aplicație desktop pentru explorarea și rularea modelelor de limbaj mari local."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
-msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "O alternativă open source, axată pe confidențialitate, la Notebook LM de la Google!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
-msgid "ComfyUI (GPU ONLY)"
-msgstr "ComfyUI (NUMAI GPU)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
-msgid "The most powerful and modular visual AI engine and application."
-msgstr "Cel mai puternic și modular motor vizual de inteligență artificială și aplicație."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
-msgid "ComfyUI Server"
-msgstr "Server ComfyUI"
-# 
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
-#: NEEDS WORK
-msgid "Start the ComfyUI server."
-msgstr "Porniți serverul ComfyUI."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
-#, python-brace-format
-msgid ""
-"ComfyUI server is running.\n"
-"Address: http://localhost:8188\n"
-"and\n"
-"Address: http://{}:8188"
-msgstr ""
-"Serverul ComfyUI este activ.  \n"
-"Adresă: http://localhost:8188  \n"
-"și  \n"
-"Adresă: http://{}:8188"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
-msgid "OllamaCPU"
-msgstr "OllamaCPU"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 57
-msgid "Local AI server. For CPUs only."
-msgstr "Server AI local. Doar pentru CPU-uri."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 60
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 78
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 96
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 114
-msgid ""
-"Ollama server is running.\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Serverul Ollama este activ.  \n"
-"Adresă: http://localhost:11434"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 64
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 82
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 118
-msgid "Share Ollama"
-msgstr "Partajează Ollama"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 65
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 83
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 101
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 119
-msgid "Share ollama on the local network."
-msgstr "Partajează ollama pe rețeaua locală."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 69
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 105
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 123
-#, python-brace-format
-msgid ""
-"Ollama server is running.\n"
-"Address: http://{}:11434"
-msgstr ""
-"Serverul Ollama este în funcțiune.  \n"
-"Adresă: http://{}:11434"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
-msgid "Ollama Vulkan"
-msgstr "Ollama Vulkan"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 75
-msgid "Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."
-msgstr "Server AI local. Pentru CPU-uri, AMD/Nvidia și GPU-uri integrate."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 110
-msgid "Ollama Nvidia CUDA"
-msgstr "Ollama Nvidia CUDA"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 111
-msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
-msgstr "Server AI local. Pentru GPU-uri Nvidia mai noi, începând cu seria 2000."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 92
-msgid "Ollama AMD ROCm"
-msgstr "Ollama AMD ROCm"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 111
-msgid ""
-"Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
-"Consider using Vulkan, in many tests, Vulkan performed better than ROCm."
-msgstr ""
-"Server AI local. Pentru GPU-urile AMD mai noi, începând cu seria 6000. \n"
-"Considerați utilizarea Vulkan, în multe teste, Vulkan a avut performanțe mai bune decât ROCm."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Setări utilizator și sistem vizual."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Starea inițială a NumLock. Ignorat dacă autentificarea automată este activată."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Buton Fereastră Pe Latura Stângă"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Butoane de maximizare, minimizare și închidere pe partea stângă a ferestrei."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZones"
-# 
-# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable window tiling zones for the KDE Plasma desktop."
-msgstr "Activează zonele de îmbinare a feroneriilor pentru desktopul KDE Plasma."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "Fișiere și Locații Recente"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
-msgstr ""
-"Restabilește funcționalitatea 'Fișiere Recente' și 'Locații Recente' care apare goală în Dolphin și "
-"în Meniul Aplicației."
