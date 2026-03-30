@@ -1,0 +1,14 @@
+[Unit]
+Description=BigLinux Sleep Monitor — GNOME Shell extension health watchdog
+After=graphical-session.target
+PartOf=graphical-session.target
+ConditionEnvironment=XDG_CURRENT_DESKTOP
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /usr/lib/biglinux/sleep/monitor.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=graphical-session.target
