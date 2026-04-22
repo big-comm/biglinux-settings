@@ -10,6 +10,7 @@ import os
 
 from ai_page import AIPage
 from config import _, APP_ID, APP_VERSION, BASE_DIR, CONFIG_DIR, CONFIG_FILE, ICONS_DIR
+from developer_page import DeveloperPage
 from devices_page import DevicesPage
 from docker_page import DockerPage
 from gi.repository import Adw, Gdk, Gio, GLib, Gtk
@@ -291,6 +292,12 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
                 "icon": "docker-geral-symbolic",
                 "id": "docker",
                 "class": DockerPage,
+            },
+            {
+                "label": _("Developer"),
+                "icon": "developer-symbolic",
+                "id": "developer",
+                "class": DeveloperPage,
             },
             {
                 "label": _("Performance"),
