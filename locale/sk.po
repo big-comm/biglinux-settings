@@ -15,197 +15,18 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "comfyUI Depends Install"
-msgstr "comfyUI Závislosti Inštalácia"
-#: NEEDS WORK
-msgid "Installing comfyUI Depends, please wait..."
-msgstr "Inštalácia závislostí comfyUI, prosím, čakajte..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI závislosti boli úspešne nainštalované!"
-msgid "Failed to install comfyUI Depends!"
-msgstr "Inštalácia comfyUI zlyhala! Závislosti!"
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Server Ollama beží.\\n"
-"Adresa: http://localhost:11434"
-msgid "ChatBox Install"
-msgstr "Inštalácia ChatBoxu"
-#: NEEDS WORK
-msgid "Installing ChatBox, please wait..."
-msgstr "Inštalujem ChatBox, prosím čakajte..."
-msgid "ChatBox Uninstall"
-msgstr "Odstrániť ChatBox"
-#: NEEDS WORK
-msgid "Uninstalling ChatBox, please wait..."
-msgstr "Odstraňovanie ChatBoxu, prosím, počkajte..."
-msgid "ChatBox installed successfully!"
-msgstr "ChatBox bol úspešne nainštalovaný!"
-msgid "Failed to install ChatBox!"
-msgstr "Inštalácia ChatBoxu zlyhala!"
-msgid "Ollama Lab Install"
-msgstr "Inštalácia Ollama Lab"
-#: NEEDS WORK
-msgid "Installing Ollama Lab, please wait..."
-msgstr "Inštalácia Ollama Lab, prosím, čakajte..."
-msgid "Ollama Lab Uninstall"
-msgstr "Ollama Lab Odstrániť"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Lab, please wait..."
-msgstr "Odstraňovanie Ollama Lab, prosím čakajte..."
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Lab bol úspešne nainštalovaný!"
-msgid "Failed to install Ollama Lab!"
-msgstr "Inštalácia Ollama Lab zlyhala!"
-msgid "LM Studio Install"
-msgstr "Inštalácia LM Studio"
-#: NEEDS WORK
-msgid "Installing LM Studio, please wait..."
-msgstr "Inštalácia LM Studio, prosím, počkajte..."
-msgid "LM Studio Uninstall"
-msgstr "Odstrániť LM Studio"
-#: NEEDS WORK
-msgid "Uninstalling LM Studio, please wait..."
-msgstr "Odstraňovanie LM Studia, prosím čakajte..."
-msgid "LM Studio installed successfully!"
-msgstr "LM Studio bol úspešne nainštalovaný!"
-msgid "Failed to install LM Studio!"
-msgstr "Inštalácia LM Studio zlyhala!"
-msgid "Ollama Install"
-msgstr "Inštalácia Ollama"
-#: NEEDS WORK
-msgid "Installing Ollama, please wait..."
-msgstr "Inštalácia Ollama, prosím čakajte..."
-msgid "Ollama Uninstall"
-msgstr "Ollama Odstrániť"
-#: NEEDS WORK
-msgid "Uninstalling Ollama, please wait..."
-msgstr "Odstraňovanie Ollama, prosím čakajte..."
-msgid "Ollama installed successfully!"
-msgstr "Ollama bol úspešne nainštalovaný!"
-msgid "Failed to install Ollama!"
-msgstr "Inštalácia Ollama zlyhala!"
-msgid "comfyUI Install...."
-msgstr "inštalácia comfyUI...."
-#: NEEDS WORK
-msgid "Installing comfyUI, this step takes a long time, please wait..."
-msgstr "Inštalácia comfyUI, tento krok trvá dlho, prosím, čakajte..."
-msgid "Uninstall comfyUI...."
-msgstr "Odstrániť comfyUI...."
-#: NEEDS WORK
-msgid "Uninstalling comfyUI, please wait..."
-msgstr "Odstraňovanie comfyUI, prosím čakajte..."
-msgid "comfyUI installed successfully"
-msgstr "comfyUI bol úspešne nainštalovaný"
-msgid "comfyUI uninstalled successfully"
-msgstr "comfyUI bol úspešne odinštalovaný"
-msgid "Failed to install comfyUI!"
-msgstr "Inštalácia comfyUI zlyhala!"
-msgid "Ollama CUDA Install"
-msgstr "Inštalácia Ollama CUDA"
-#: NEEDS WORK
-msgid "Installing Ollama CUDA, please wait..."
-msgstr "Inštalácia Ollama CUDA, prosím čakajte..."
-msgid "Ollama CUDA Uninstall"
-msgstr "Ollama CUDA Odstrániť"
-#: NEEDS WORK
-msgid "Uninstalling Ollama CUDA, please wait..."
-msgstr "Odstraňovanie Ollama CUDA, prosím, počkajte..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA bol úspešne nainštalovaný!"
-msgid "Failed to install Ollama CUDA!"
-msgstr "Inštalácia Ollama CUDA zlyhala!"
-msgid ""
-"Generative AI for Krita has been successfully installed.\\n"
-"\\n"
-"Open Krita, open an existing drawing or create a new one.\\n"
-"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
-"\\n"
-"In the window that opens on the bottom right.\\n"
-"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
-"click Install."
-msgstr ""
-"Generatívna AI pre Krita bola úspešne nainštalovaná.\\n"
-"\\n"
-"Otvorte Krita, otvorte existujúci nákres alebo vytvorte nový.\\n"
-"V hornej ponuke prejdite na Nastavenia > Panely > zaškrtnite políčko Generovanie obrázkov AI.\\n"
-"\\n"
-"V okne, ktoré sa otvorí v pravom dolnom rohu.\\n"
-"Kliknite na Konfigurovať > Lokálny spravovaný server, vyberte svoju GPU alebo CPU, vyberte model v "
-"Pracovných záťažiach a kliknite na Inštalovať."
-msgid "AMD/Nvidia GPU not found!"
-msgstr "GPU AMD/Nvidia nenájdený!"
-msgid "Krita Install"
-msgstr "Inštalácia Krita"
-#: NEEDS WORK
-msgid "Installing Krita, please wait..."
-msgstr "Inštalujem Krita, prosím čakajte..."
-msgid "Krita Uninstall"
-msgstr "Odinštalovať Krita"
-#: NEEDS WORK
-msgid "Uninstalling Krita, please wait..."
-msgstr "Odstraňovanie Krita, prosím čakajte..."
-msgid "Krita installed successfully!"
-msgstr "Krita bol úspešne nainštalovaný!"
-msgid "Failed to install Krita!"
-msgstr "Inštalácia Krita zlyhala!"
-msgid "Ollama Vulkan Install"
-msgstr "Inštalácia Ollama Vulkan"
-msgid "Ollama Vulkan Uninstall"
-msgstr "Ollama Vulkan Odstrániť"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Vulkan, please wait..."
-msgstr "Odstraňovanie Ollama Vulkan, prosím čakajte..."
-msgid "Ollama Vulkan installed successfully!"
-msgstr "Ollama Vulkan bol úspešne nainštalovaný!"
-msgid "Failed to install Ollama Vulkan!"
-msgstr "Inštalácia Ollama Vulkan zlyhala!"
-msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
-msgstr ""
-"Ollama bol úspešne zdieľaný.\\n"
-"Adresa: http://$localIp:11434"
-#: NEEDS WORK
-msgid "Failed to configure Ollama sharing!"
-msgstr "Nepodarilo sa nakonfigurovať zdieľanie Ollama!"
-msgid "Ollama ROCm Install"
-msgstr "Inštalácia Ollama ROCm"
-#: NEEDS WORK
-msgid "Installing Ollama ROCm, please wait..."
-msgstr "Inštalácia Ollama ROCm, prosím čakajte..."
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm Odstrániť"
-#: NEEDS WORK
-msgid "Uninstalling Ollama ROCm, please wait..."
-msgstr "Odstraňovanie Ollama ROCm, prosím čakajte..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm bol úspešne nainštalovaný!"
-msgid "Failed to install Ollama ROCm!"
-msgstr "Inštalácia Ollama ROCm zlyhala!"
 msgid "Applying, please wait..."
 msgstr "Aplikujem, prosím čakajte..."
-msgid "GRUB updated successfully!"
-msgstr "GRUB bol úspešne aktualizovaný!"
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB bol úspešne aktualizovaný!\\n"
+"Reštartujte počítač, aby sa zmeny prejavili."
 msgid "An error occurred while updating GRUB."
 msgstr "Pri aktualizácii GRUB sa vyskytla chyba."
-msgid "Limits updated successfully!"
-msgstr "Limity boli úspešne aktualizované!"
-msgid "An error occurred while updating Limits."
-msgstr "Pri aktualizácii limitov došlo k chybe."
-msgid "Example Install"
-msgstr "Príklad inštalácie"
-msgid "Instaling Example, Please wait..."
-msgstr "Inštalácia príkladu, prosím čakajte..."
-msgid "Example Uninstall"
-msgstr "Príklad odinštalovania"
-msgid "Uninstaling Example, Please wait..."
-msgstr "Odstraňovanie príkladu, prosím čakajte..."
-msgid "Example installed successfully!"
-msgstr "Príklad bol úspešne nainštalovaný!"
-msgid "Failed to install Example!"
-msgstr "Inštalácia príkladu zlyhala!"
+msgid "Already enabled. No changes made."
+msgstr "Už povolené. Žiadne zmeny neboli vykonané."
 msgid "JamesDSP Install"
 msgstr "Inštalácia JamesDSP"
 #: NEEDS WORK
@@ -215,56 +36,12 @@ msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP bol úspešne nainštalovaný!"
 msgid "Failed to install jamesDSP!"
 msgstr "Inštalácia jamesDSP zlyhala!"
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB bol úspešne aktualizovaný!\\n"
-"Reštartujte počítač, aby sa zmeny prejavili."
-msgid "Already enabled. No changes made."
-msgstr "Už povolené. Žiadne zmeny neboli vykonané."
-msgid "Docker Install"
-msgstr "Inštalácia Dockeru"
-#: NEEDS WORK
-msgid "Installing Docker, please wait..."
-msgstr "Inštalujem Docker, prosím čakajte..."
-msgid "Docker Start"
-msgstr "Spustiť Docker"
-#: NEEDS WORK
-msgid "Docker Starting, please wait..."
-msgstr "Docker sa spúšťa, prosím čakajte..."
-msgid "Docker Stop"
-msgstr "Zastaviť Docker"
-#: NEEDS WORK
-msgid "Docker Stopping, please wait..."
-msgstr "Zastavovanie Dockera, prosím čakajte..."
-msgid "Docker installed successfully!"
-msgstr "Docker bol úspešne nainštalovaný!"
-#: NEEDS WORK
-msgid "An error occurred while installing Docker."
-msgstr "Pri inštalácii Dockera došlo k chybe."
-msgid "Installing $package"
-msgstr "Inštalácia $package"
-#: NEEDS WORK
-msgid "Installing $package, please wait..."
-msgstr "Inštalujem $package, prosím čakajte..."
-msgid "Removing $package"
-msgstr "Odstránenie $package"
-#: NEEDS WORK
-msgid "Removing $package, please wait..."
-msgstr "Odstraňujem $package, prosím čakajte..."
-msgid ""
-"$title installed successfully!\\n"
-"\\n"
-"Configured on port $port, to access use $url"
-msgstr ""
-"$title bol úspešne nainštalovaný!\\n"
-"\\n"
-"Nakonfigurované na porte $port, na prístup použite $url"
-msgid "$package removed successfully!"
-msgstr "$balík bol úspešne odstránený!"
-msgid "An error occurred with $package."
-msgstr "Pri $package došlo k chybe."
+msgid "Limits updated successfully!"
+msgstr "Limity boli úspešne aktualizované!"
+msgid "An error occurred while updating Limits."
+msgstr "Pri aktualizácii limitov došlo k chybe."
+msgid "GRUB updated successfully!"
+msgstr "GRUB bol úspešne aktualizovaný!"
 msgid "kzones Install"
 msgstr "kzones Inštalácia"
 #: NEEDS WORK
@@ -296,399 +73,271 @@ msgstr ""
 "Musíte zavrieť a znovu otvoriť Dolphin, aby sa to prejavilo."
 msgid "Failed to activate Recent Files!"
 msgstr "Nepodarilo sa aktivovať nedávne súbory!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "BigLinux Settings"
-msgstr "Nastavenia BigLinux"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
 #: NEEDS WORK
-msgid "BigLinux Community"
-msgstr "BigLinux komunita"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
-msgid "Search..."
-msgstr "Hľadať..."
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
+msgid "OpenClaude Install"
+msgstr "OpenClaude Inštalácia"
 #: NEEDS WORK
-msgid "Search settings"
-msgstr "Nastavenia vyhľadávania"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
+msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
+msgstr "Inštalácia OpenClaude (vyžaduje sa nodejs, npm, ripgrep), prosím čakajte..."
 #: NEEDS WORK
-msgid "Toggle navigation sidebar"
-msgstr "Prepínať navigačný bočný panel"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
+msgid "OpenClaude Uninstall"
+msgstr "Odinštalovať OpenClaude"
 #: NEEDS WORK
-msgid "About"
-msgstr "O aplikácii"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
-#: NEEDS WORK
-msgid "Main Menu"
-msgstr "Hlavné menu"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Systém"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Použiteľnosť"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
-msgid "PreLoad"
-msgstr "Prednačítanie"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
-msgid "Devices"
-msgstr "Zariadenia"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
-msgid "A.I."
-msgstr "A.I."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "Docker"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
-msgid "Performance"
-msgstr "Výkon"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 302
-#: NEEDS WORK
-msgid "Suspend"
-msgstr "Pozastaviť"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
-#: NEEDS WORK
-msgid "Dismiss"
-msgstr "Zavrieť"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
-#: NEEDS WORK
-msgid "Sleep Mode"
-msgstr "Režim spánku"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
-#: NEEDS WORK
-msgid "Configure how the system suspends."
-msgstr "Nastavte, ako systém pozastavuje."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
-#: NEEDS WORK
-msgid "Use s2idle (light sleep)"
-msgstr "Použiť s2idle (ľahký spánok)"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
-#: NEEDS WORK
-msgid "Uses a lighter sleep mode that preserves Fn keys and device state. Recommended for ASUS notebooks."
-msgstr ""
-"Používa ľahší režim spánku, ktorý zachováva klávesy Fn a stav zariadenia. Odporúča sa pre notebooky "
-"ASUS."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
+msgid "Uninstalling OpenClaude, please wait..."
+msgstr "Odstraňovanie OpenClaude, prosím, počkajte..."
 #: NEEDS WORK
 msgid ""
-"S3 deep sleep can cause the Embedded Controller to stop generating hotkey interrupts. s2idle keeps "
-"the EC powered, avoiding this issue at a small cost in battery consumption."
+"OpenClaude installed successfully!\\n"
+"\\n"
+"Run 'openclaude' in a terminal to start."
 msgstr ""
-"Hlboký spánok S3 môže spôsobiť, že zabudovaný ovládač prestane generovať prerušenia horúcich "
-"klávesov. s2idle udržuje EC napájaný, čím sa vyhýba tomuto problému za malú cenu v spotrebe batérie."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
+"OpenClaude bol úspešne nainštalovaný!\\n"
+"\\n"
+"Spustite 'openclaude' v termináli na začatie."
 #: NEEDS WORK
-msgid "WiFi"
-msgstr "WiFi"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
+msgid "OpenClaude removed successfully!"
+msgstr "OpenClaude bol úspešne odstránený!"
 #: NEEDS WORK
-msgid "Prevent WiFi issues after suspend."
-msgstr "Zabrániť problémom s WiFi po pozastavení."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
-#: NEEDS WORK
-msgid "Protect WiFi on suspend"
-msgstr "Chrániť WiFi pri pozastavení"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
-#: NEEDS WORK
+msgid "An error occurred with OpenClaude."
+msgstr "Prišlo k chybe s OpenClaude."
+msgid "Example Install"
+msgstr "Príklad inštalácie"
+msgid "Instaling Example, Please wait..."
+msgstr "Inštalácia príkladu, prosím čakajte..."
+msgid "Example Uninstall"
+msgstr "Príklad odinštalovania"
+msgid "Uninstaling Example, Please wait..."
+msgstr "Odstraňovanie príkladu, prosím čakajte..."
+msgid "Example installed successfully!"
+msgstr "Príklad bol úspešne nainštalovaný!"
+msgid "Failed to install Example!"
+msgstr "Inštalácia príkladu zlyhala!"
 msgid ""
-"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding connection loss after "
-"resume."
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
 msgstr ""
-"Zabraňuje úplnému vypnutiu čipu Realtek WiFi (d3cold), čím sa zabraňuje strate pripojenia po "
-"obnovení."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
+"Server Ollama beží.\\n"
+"Adresa: http://localhost:11434"
 #: NEEDS WORK
+msgid "No Ollama packages are installed. Enable an Ollama variant first."
+msgstr "Žiadne balíky Ollama nie sú nainštalované. Najprv povolte variantu Ollama."
+#: NEEDS WORK
+msgid "Updating Ollama"
+msgstr "Aktualizácia Ollama"
+#: NEEDS WORK
+msgid "Synchronizing repositories and updating Ollama, please wait..."
+msgstr "Synchronizácia repozitárov a aktualizácia Ollama, prosím čakajte..."
+#: NEEDS WORK
+msgid "Ollama updated successfully!"
+msgstr "Ollama bol úspešne aktualizovaný!"
+#: NEEDS WORK
+msgid "Failed to update Ollama."
+msgstr "Nepodarilo sa aktualizovať Ollama."
+msgid "Ollama CUDA Install"
+msgstr "Inštalácia Ollama CUDA"
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "Inštalácia Ollama CUDA, prosím čakajte..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA Odstrániť"
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "Odstraňovanie Ollama CUDA, prosím, počkajte..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA bol úspešne nainštalovaný!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Inštalácia Ollama CUDA zlyhala!"
+msgid "comfyUI Install...."
+msgstr "inštalácia comfyUI...."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "Inštalácia comfyUI, tento krok trvá dlho, prosím, čakajte..."
+msgid "Uninstall comfyUI...."
+msgstr "Odstrániť comfyUI...."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "Odstraňovanie comfyUI, prosím čakajte..."
+msgid "comfyUI installed successfully"
+msgstr "comfyUI bol úspešne nainštalovaný"
+msgid "comfyUI uninstalled successfully"
+msgstr "comfyUI bol úspešne odinštalovaný"
+msgid "Failed to install comfyUI!"
+msgstr "Inštalácia comfyUI zlyhala!"
+msgid "ChatBox Install"
+msgstr "Inštalácia ChatBoxu"
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
+msgstr "Inštalujem ChatBox, prosím čakajte..."
+msgid "ChatBox Uninstall"
+msgstr "Odstrániť ChatBox"
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
+msgstr "Odstraňovanie ChatBoxu, prosím, počkajte..."
+msgid "ChatBox installed successfully!"
+msgstr "ChatBox bol úspešne nainštalovaný!"
+msgid "Failed to install ChatBox!"
+msgstr "Inštalácia ChatBoxu zlyhala!"
+msgid "Ollama ROCm Install"
+msgstr "Inštalácia Ollama ROCm"
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
+msgstr "Inštalácia Ollama ROCm, prosím čakajte..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm Odstrániť"
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Odstraňovanie Ollama ROCm, prosím čakajte..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm bol úspešne nainštalovaný!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Inštalácia Ollama ROCm zlyhala!"
+msgid "LM Studio Install"
+msgstr "Inštalácia LM Studio"
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
+msgstr "Inštalácia LM Studio, prosím, počkajte..."
+msgid "LM Studio Uninstall"
+msgstr "Odstrániť LM Studio"
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "Odstraňovanie LM Studia, prosím čakajte..."
+msgid "LM Studio installed successfully!"
+msgstr "LM Studio bol úspešne nainštalovaný!"
+msgid "Failed to install LM Studio!"
+msgstr "Inštalácia LM Studio zlyhala!"
+msgid "Krita Install"
+msgstr "Inštalácia Krita"
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "Inštalujem Krita, prosím čakajte..."
+msgid "Krita Uninstall"
+msgstr "Odinštalovať Krita"
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
+msgstr "Odstraňovanie Krita, prosím čakajte..."
+msgid "Krita installed successfully!"
+msgstr "Krita bol úspešne nainštalovaný!"
+msgid "Failed to install Krita!"
+msgstr "Inštalácia Krita zlyhala!"
+msgid "Ollama Install"
+msgstr "Inštalácia Ollama"
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
+msgstr "Inštalácia Ollama, prosím čakajte..."
+msgid "Ollama Uninstall"
+msgstr "Ollama Odstrániť"
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Odstraňovanie Ollama, prosím čakajte..."
+msgid "Ollama installed successfully!"
+msgstr "Ollama bol úspešne nainštalovaný!"
+msgid "Failed to install Ollama!"
+msgstr "Inštalácia Ollama zlyhala!"
+msgid "comfyUI Depends Install"
+msgstr "comfyUI Závislosti Inštalácia"
+#: NEEDS WORK
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "Inštalácia závislostí comfyUI, prosím, čakajte..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI závislosti boli úspešne nainštalované!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "Inštalácia comfyUI zlyhala! Závislosti!"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "GPU AMD/Nvidia nenájdený!"
+msgid "Ollama Vulkan Install"
+msgstr "Inštalácia Ollama Vulkan"
+msgid "Ollama Vulkan Uninstall"
+msgstr "Ollama Vulkan Odstrániť"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Odstraňovanie Ollama Vulkan, prosím čakajte..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan bol úspešne nainštalovaný!"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Inštalácia Ollama Vulkan zlyhala!"
 msgid ""
-"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power gating. This keeps the chip "
-"in d3hot (PCIe link alive) during suspend."
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
 msgstr ""
-"Niektoré čipy Realtek RTL8852BE/CE sa po d3cold vypnutí napájania nedokážu znovu inicializovať. To "
-"udržuje čip v d3hot (PCIe link je aktívny) počas pozastavenia."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
-#: NEEDS WORK
-msgid "Display and Keyboard"
-msgstr "Displej a klávesnica"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
-#: NEEDS WORK
-msgid "Preserve brightness and LED state across suspend."
-msgstr "Zachovať jas a stav LED počas suspendovania."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
-#: NEEDS WORK
-msgid "Save/restore brightness on suspend"
-msgstr "Uložiť/obnoviť jas pri pozastavení"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
-#: NEEDS WORK
-msgid "Saves screen brightness and keyboard LEDs before suspending and restores them on resume."
-msgstr "Uloží jas obrazovky a LED klávesnice pred pozastavením a obnoví ich po obnovení."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
-#: NEEDS WORK
-msgid "GNOME Shell Extensions"
-msgstr "Rozšírenia GNOME Shell"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
-#: NEEDS WORK
-msgid "Automatic health check after resume."
-msgstr "Automatická kontrola zdravia po obnovení."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
-#: NEEDS WORK
-msgid "Extension health monitor"
-msgstr "Monitor zdravia rozšírenia"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
-#: NEEDS WORK
-msgid "Detects GNOME Shell extensions in error state after resume and automatically restarts them."
-msgstr "Detekuje rozšírenia GNOME Shell v chybovom stave po obnovení a automaticky ich reštartuje."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
-#: NEEDS WORK
-msgid "Lid Switch"
-msgstr "Prepínač viečka"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
-#: NEEDS WORK
-msgid "Laptop lid close behavior."
-msgstr "Správanie pri zatvorení veka prenosného počítača."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
-#: NEEDS WORK
-msgid "Suspend on lid close (AC power)"
-msgstr "Pozastavi pri zatvorení veka (napájanie AC)"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
-#: NEEDS WORK
-msgid "Some systems do not suspend when on AC power. This forces suspend when the lid is closed."
-msgstr ""
-"Niektoré systémy sa pri napájaní z AC nevypínajú. To núti systém k hibernácii, keď je kryt "
-"zatvorený."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Nastavenia používateľa a vizuálneho systému."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Počiatočný stav NumLock. Ignoruje sa, ak je povolené automatické prihlásenie."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Tlačidlo okna na ľavej strane"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Tlačidlá na maximalizáciu, minimalizáciu a zatvorenie na ľavej strane okna."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZones"
-# 
-# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable window tiling zones for the KDE Plasma desktop."
-msgstr "Povoliť zónovanie dlaždíc okien pre desktop KDE Plasma."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "Nedávne súbory a umiestnenia"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+"Generatívna AI pre Krita bola úspešne nainštalovaná.\\n"
+"\\n"
+"Otvorte Krita, otvorte existujúci nákres alebo vytvorte nový.\\n"
+"V hornej ponuke prejdite na Nastavenia > Panely > zaškrtnite políčko Generovanie obrázkov AI.\\n"
+"\\n"
+"V okne, ktoré sa otvorí v pravom dolnom rohu.\\n"
+"Kliknite na Konfigurovať > Lokálny spravovaný server, vyberte svoju GPU alebo CPU, vyberte model v "
+"Pracovných záťažiach a kliknite na Inštalovať."
 msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
 msgstr ""
-"Obnovuje funkčnosť 'Nedávne súbory' a 'Nedávne umiestnenia', ktorá sa zobrazuje prázdna v Dolphin a "
-"v ponuke aplikácií."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
-msgid "Manage physical devices."
-msgstr "Spravovať fyzické zariadenia."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+"Ollama bol úspešne zdieľaný.\\n"
+"Adresa: http://$localIp:11434"
 #: NEEDS WORK
-msgid "Enable the Wi-Fi adapter."
-msgstr "Povoliť adaptér Wi-Fi."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+msgid "Failed to configure Ollama sharing!"
+msgstr "Nepodarilo sa nakonfigurovať zdieľanie Ollama!"
+msgid "Ollama Lab Install"
+msgstr "Inštalácia Ollama Lab"
 #: NEEDS WORK
-msgid "Enable the Bluetooth adapter."
-msgstr "Povoliť adaptér Bluetooth."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
-msgid "JamesDSP"
-msgstr "JamesDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "Pokročilý procesor zvukových efektov, ktorý zlepšuje kvalitu zvuku."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
-msgid "Reverse mouse scrolling"
-msgstr "Otočenie posúvania myši"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "Otočenie posúvania myši bez reštartovania relácie."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+msgid "Installing Ollama Lab, please wait..."
+msgstr "Inštalácia Ollama Lab, prosím, čakajte..."
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Lab Odstrániť"
 #: NEEDS WORK
-msgid "Network Interfaces"
-msgstr "Sieťové rozhrania"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Odstraňovanie Ollama Lab, prosím čakajte..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab bol úspešne nainštalovaný!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Inštalácia Ollama Lab zlyhala!"
+msgid "Installing $package"
+msgstr "Inštalácia $package"
 #: NEEDS WORK
-msgid "Connect or disconnect network devices."
-msgstr "Pripojiť alebo odpojiť sieťové zariadenia."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+msgid "Installing $package, please wait..."
+msgstr "Inštalujem $package, prosím čakajte..."
+msgid "Removing $package"
+msgstr "Odstránenie $package"
 #: NEEDS WORK
-#, python-brace-format
-msgid "{} — {}"
+msgid "Removing $package, please wait..."
+msgstr "Odstraňujem $package, prosím čakajte..."
+msgid ""
+"$title installed successfully!\\n"
+"\\n"
+"Configured on port $port, to access use $url"
 msgstr ""
-"I'm sorry, but I need the specific string you want to translate in order to assist you. Please "
-"provide the string."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+"$title bol úspešne nainštalovaný!\\n"
+"\\n"
+"Nakonfigurované na porte $port, na prístup použite $url"
+msgid "$package removed successfully!"
+msgstr "$balík bol úspešne odstránený!"
+msgid "An error occurred with $package."
+msgstr "Pri $package došlo k chybe."
+msgid "Docker Install"
+msgstr "Inštalácia Dockeru"
 #: NEEDS WORK
-#, python-brace-format
-msgid "{}: toggle connection"
-msgstr "{}: prepni pripojenie"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+msgid "Installing Docker, please wait..."
+msgstr "Inštalujem Docker, prosím čakajte..."
+msgid "Docker Start"
+msgstr "Spustiť Docker"
 #: NEEDS WORK
-msgid "Applying…"
-msgstr "Aplikovanie…"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+msgid "Docker Starting, please wait..."
+msgstr "Docker sa spúšťa, prosím čakajte..."
+msgid "Docker Stop"
+msgstr "Zastaviť Docker"
 #: NEEDS WORK
-msgid "connected"
-msgstr "pripojený"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+msgid "Docker Stopping, please wait..."
+msgstr "Zastavovanie Dockera, prosím čakajte..."
+msgid "Docker installed successfully!"
+msgstr "Docker bol úspešne nainštalovaný!"
 #: NEEDS WORK
-msgid "disconnected"
-msgstr "odpojený"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
-#: NEEDS WORK
-#, python-brace-format
-msgid "Failed to change network device: {}"
-msgstr "Nepodarilo sa zmeniť sieťové zariadenie: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "Prednahrávať"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "Prednaložte aplikácie do pamäte, aby sa otvorili rýchlejšie."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "Firefox"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "Brave"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "Chrome"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "Chromium"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "Librewolf"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "Palemoon"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "Opera"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "LibreOffice"
+msgid "An error occurred while installing Docker."
+msgstr "Pri inštalácii Dockera došlo k chybe."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
@@ -707,6 +356,21 @@ msgstr "Ollama Server"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Vyberte, ktorý server Ollama je najlepší pre váš hardvér."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Update Ollama"
+msgstr "Aktualizovať Ollama"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Update the installed Ollama packages to the latest version."
+msgstr "Aktualizujte nainštalované balíky Ollama na najnovšiu verziu."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
+#: NEEDS WORK
+msgid "Update now"
+msgstr "Aktualizovať teraz"
 # 
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
 #: NEEDS WORK
@@ -760,9 +424,41 @@ msgstr "LM Studio - Desktopová aplikácia na preskúmanie a spúšťanie veľk�
 msgid "Open Notebook"
 msgstr "Otvor notebook"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
-msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "Otvorený zdroj, na ochranu súkromia zameraný alternatív k Google Notebook LM!"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+#: NEEDS WORK
+msgid "Open-source, privacy-focused alternative to Google's NotebookLM. Requires Docker enabled."
+msgstr ""
+"Alternatíva s otvoreným zdrojovým kódom zameraná na ochranu súkromia pre Google NotebookLM. "
+"Vyžaduje povolený Docker."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 201
+#: NEEDS WORK
+msgid "Open Notebook Server"
+msgstr "Otvorenie servera poznámkového bloku"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 202
+#: NEEDS WORK
+msgid "Start the Open Notebook server."
+msgstr "Spustite server Open Notebook."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+#, python-brace-format
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"Otvorený zápisník beží.  \n"
+"Adresa: http://localhost:8502  \n"
+"a  \n"
+"Adresa: http://{}:8502"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
 msgid "ComfyUI (GPU ONLY)"
@@ -866,6 +562,74 @@ msgid ""
 msgstr ""
 "Lokálny AI server. Pre novšie AMD GPU, začínajúc od série 6000. Zvážte použitie Vulkan, v mnohých "
 "testoch Vulkan vykazoval lepší výkon ako ROCm."
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 11
+#: NEEDS WORK
+msgid "AI Coding Assistants"
+msgstr "AI programátorské asistenty"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 12
+#: NEEDS WORK
+msgid "Open-source coding agents powered by language models."
+msgstr "Kódovacie agenti s otvoreným zdrojovým kódom poháňaní jazykovými modelmi."
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 21
+#: NEEDS WORK
+msgid "OpenClaude"
+msgstr "OpenClaude"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 23
+#: NEEDS WORK
+msgid ""
+"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ models. Installs nodejs, "
+"npm and ripgrep as dependencies."
+msgstr ""
+"Open-source kódovací agent CLI pre OpenAI, Gemini, DeepSeek, Ollama a 200+ modelov. Inštaluje "
+"nodejs, npm a ripgrep ako závislosti."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Prednahrávať"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Prednaložte aplikácie do pamäte, aby sa otvorili rýchlejšie."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Brave"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Chromium"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "Librewolf"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Opera"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "LibreOffice"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Docker"
 # 
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
 #: NEEDS WORK
@@ -1100,26 +864,323 @@ msgstr ""
 "a\n"
 "Adresa: http://{}:2017"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
-msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "Nainštalujte open source, na ochranu súkromia zameranú alternatívu k Google Notebook LM!"
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 195
+#: NEEDS WORK
+msgid "Install the open-source alternative to Google's NotebookLM."
+msgstr "Nainštalujte open-source alternatívu k Google NotebookLM."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
-msgid "Run Open Notebook."
-msgstr "Spustiť otvorený zápisník."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "Nastavenia BigLinux"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
+#: NEEDS WORK
+msgid "BigLinux Community"
+msgstr "BigLinux komunita"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Hľadať..."
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
+#: NEEDS WORK
+msgid "Search settings"
+msgstr "Nastavenia vyhľadávania"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
+#: NEEDS WORK
+msgid "Toggle navigation sidebar"
+msgstr "Prepínať navigačný bočný panel"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
+#: NEEDS WORK
+msgid "About"
+msgstr "O aplikácii"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
+#: NEEDS WORK
+msgid "Main Menu"
+msgstr "Hlavné menu"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "Systém"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Použiteľnosť"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "Prednačítanie"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
+msgid "Devices"
+msgstr "Zariadenia"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+msgid "A.I."
+msgstr "A.I."
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 297
+#: NEEDS WORK
+msgid "Developer"
+msgstr "Vývojár"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
+msgid "Performance"
+msgstr "Výkon"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 302
+#: NEEDS WORK
+msgid "Suspend"
+msgstr "Pozastaviť"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
+#: NEEDS WORK
+msgid "Dismiss"
+msgstr "Zavrieť"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "Spravovať fyzické zariadenia."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "Povoliť adaptér Wi-Fi."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "Povoliť adaptér Bluetooth."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Pokročilý procesor zvukových efektov, ktorý zlepšuje kvalitu zvuku."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "Otočenie posúvania myši"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "Otočenie posúvania myši bez reštartovania relácie."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "Sieťové rozhrania"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "Pripojiť alebo odpojiť sieťové zariadenia."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
 #, python-brace-format
-msgid ""
-"Open Notebook is running.\n"
-"Address: http://localhost:8502\n"
-"and\n"
-"Address: http://{}:8502"
+msgid "{} — {}"
 msgstr ""
-"Otvorený zápisník beží.  \n"
-"Adresa: http://localhost:8502  \n"
-"a  \n"
-"Adresa: http://{}:8502"
+"I'm sorry, but I need the specific string you want to translate in order to assist you. Please "
+"provide the string."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: prepni pripojenie"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "Aplikovanie…"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "pripojený"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "odpojený"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "Nepodarilo sa zmeniť sieťové zariadenie: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
+#: NEEDS WORK
+msgid "Sleep Mode"
+msgstr "Režim spánku"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
+#: NEEDS WORK
+msgid "Configure how the system suspends."
+msgstr "Nastavte, ako systém pozastavuje."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
+#: NEEDS WORK
+msgid "Use s2idle (light sleep)"
+msgstr "Použiť s2idle (ľahký spánok)"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
+#: NEEDS WORK
+msgid "Uses a lighter sleep mode that preserves Fn keys and device state. Recommended for ASUS notebooks."
+msgstr ""
+"Používa ľahší režim spánku, ktorý zachováva klávesy Fn a stav zariadenia. Odporúča sa pre notebooky "
+"ASUS."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
+#: NEEDS WORK
+msgid ""
+"S3 deep sleep can cause the Embedded Controller to stop generating hotkey interrupts. s2idle keeps "
+"the EC powered, avoiding this issue at a small cost in battery consumption."
+msgstr ""
+"Hlboký spánok S3 môže spôsobiť, že zabudovaný ovládač prestane generovať prerušenia horúcich "
+"klávesov. s2idle udržuje EC napájaný, čím sa vyhýba tomuto problému za malú cenu v spotrebe batérie."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
+#: NEEDS WORK
+msgid "WiFi"
+msgstr "WiFi"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
+#: NEEDS WORK
+msgid "Prevent WiFi issues after suspend."
+msgstr "Zabrániť problémom s WiFi po pozastavení."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
+#: NEEDS WORK
+msgid "Protect WiFi on suspend"
+msgstr "Chrániť WiFi pri pozastavení"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
+#: NEEDS WORK
+msgid ""
+"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding connection loss after "
+"resume."
+msgstr ""
+"Zabraňuje úplnému vypnutiu čipu Realtek WiFi (d3cold), čím sa zabraňuje strate pripojenia po "
+"obnovení."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
+#: NEEDS WORK
+msgid ""
+"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power gating. This keeps the chip "
+"in d3hot (PCIe link alive) during suspend."
+msgstr ""
+"Niektoré čipy Realtek RTL8852BE/CE sa po d3cold vypnutí napájania nedokážu znovu inicializovať. To "
+"udržuje čip v d3hot (PCIe link je aktívny) počas pozastavenia."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
+#: NEEDS WORK
+msgid "Display and Keyboard"
+msgstr "Displej a klávesnica"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
+#: NEEDS WORK
+msgid "Preserve brightness and LED state across suspend."
+msgstr "Zachovať jas a stav LED počas suspendovania."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
+#: NEEDS WORK
+msgid "Save/restore brightness on suspend"
+msgstr "Uložiť/obnoviť jas pri pozastavení"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
+#: NEEDS WORK
+msgid "Saves screen brightness and keyboard LEDs before suspending and restores them on resume."
+msgstr "Uloží jas obrazovky a LED klávesnice pred pozastavením a obnoví ich po obnovení."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
+#: NEEDS WORK
+msgid "GNOME Shell Extensions"
+msgstr "Rozšírenia GNOME Shell"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
+#: NEEDS WORK
+msgid "Automatic health check after resume."
+msgstr "Automatická kontrola zdravia po obnovení."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
+#: NEEDS WORK
+msgid "Extension health monitor"
+msgstr "Monitor zdravia rozšírenia"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
+#: NEEDS WORK
+msgid "Detects GNOME Shell extensions in error state after resume and automatically restarts them."
+msgstr "Detekuje rozšírenia GNOME Shell v chybovom stave po obnovení a automaticky ich reštartuje."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
+#: NEEDS WORK
+msgid "Lid Switch"
+msgstr "Prepínač viečka"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
+#: NEEDS WORK
+msgid "Laptop lid close behavior."
+msgstr "Správanie pri zatvorení veka prenosného počítača."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#: NEEDS WORK
+msgid "Suspend on lid close (AC power)"
+msgstr "Pozastavi pri zatvorení veka (napájanie AC)"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#: NEEDS WORK
+msgid "Some systems do not suspend when on AC power. This forces suspend when the lid is closed."
+msgstr ""
+"Niektoré systémy sa pri napájaní z AC nevypínajú. To núti systém k hibernácii, keď je kryt "
+"zatvorený."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -1198,6 +1259,47 @@ msgstr ""
 "Týmto sa deaktivuje hardvérový watchdog. Váš systém sa už nebude automaticky obnovovať z určitých "
 "typov zlyhaní. Ste si istí, že chcete pokračovať?"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Nastavenia používateľa a vizuálneho systému."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Počiatočný stav NumLock. Ignoruje sa, ak je povolené automatické prihlásenie."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Tlačidlo okna na ľavej strane"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Tlačidlá na maximalizáciu, minimalizáciu a zatvorenie na ľavej strane okna."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZones"
+# 
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "Povoliť zónovanie dlaždíc okien pre desktop KDE Plasma."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "Nedávne súbory a umiestnenia"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
+msgstr ""
+"Obnovuje funkčnosť 'Nedávne súbory' a 'Nedávne umiestnenia', ktorá sa zobrazuje prázdna v Dolphin a "
+"v ponuke aplikácií."
+# 
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
 #: NEEDS WORK
 msgid "Close"
@@ -1218,6 +1320,52 @@ msgstr "Zrušiť"
 #: NEEDS WORK
 msgid "Continue"
 msgstr "Pokračovať"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 220
+#: NEEDS WORK
+msgid "Run"
+msgstr "Spustiť"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 226
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: run action"
+msgstr "{}: spusti akciu"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+#, python-brace-format
+msgid "Script not found: {}"
+msgstr "Skript nenájdený: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 279
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action script {} failed: {}"
+msgstr "Akčný skript {} zlyhal: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 284
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action script timeout: {}"
+msgstr "Časový limit akčného skriptu: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 287
+#: NEEDS WORK
+#, python-brace-format
+msgid "Error running action script {}: {}"
+msgstr "Chyba pri spúšťaní akčného skriptu {}: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 297
+#: NEEDS WORK
+msgid "Action completed successfully"
+msgstr "Akcia bola úspešne dokončená"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 300
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action failed: {}"
+msgstr "Akcia zlyhala: {}"
 # 
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
 #: NEEDS WORK
@@ -1248,12 +1396,6 @@ msgstr "{}: dozvedieť sa viac"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
 msgid "Unavailable: script not found."
 msgstr "Nedostupné: skript nebol nájdený."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
-#, python-brace-format
-msgid "Script not found: {}"
-msgstr "Skript nenájdený: {}"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 

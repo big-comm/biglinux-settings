@@ -15,197 +15,18 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "comfyUI Depends Install"
-msgstr "comfyUI Залежності Встановлення"
-#: NEEDS WORK
-msgid "Installing comfyUI Depends, please wait..."
-msgstr "Встановлення comfyUI Залежить, будь ласка, зачекайте..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI Залежності успішно встановлено!"
-msgid "Failed to install comfyUI Depends!"
-msgstr "Не вдалося встановити comfyUI. Залежності!"
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Сервер Ollama працює.\\n"
-"Адреса: http://localhost:11434"
-msgid "ChatBox Install"
-msgstr "Встановлення ChatBox"
-#: NEEDS WORK
-msgid "Installing ChatBox, please wait..."
-msgstr "Встановлення ChatBox, будь ласка, зачекайте..."
-msgid "ChatBox Uninstall"
-msgstr "Видалити ChatBox"
-#: NEEDS WORK
-msgid "Uninstalling ChatBox, please wait..."
-msgstr "Видалення ChatBox, будь ласка, зачекайте..."
-msgid "ChatBox installed successfully!"
-msgstr "ChatBox успішно встановлено!"
-msgid "Failed to install ChatBox!"
-msgstr "Не вдалося встановити ChatBox!"
-msgid "Ollama Lab Install"
-msgstr "Ollama Lab Встановлення"
-#: NEEDS WORK
-msgid "Installing Ollama Lab, please wait..."
-msgstr "Встановлення Ollama Lab, будь ласка, зачекайте..."
-msgid "Ollama Lab Uninstall"
-msgstr "Видалити Ollama Lab"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Lab, please wait..."
-msgstr "Desinstalling Ollama Lab, please wait..."
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Lab успішно встановлено!"
-msgid "Failed to install Ollama Lab!"
-msgstr "Не вдалося встановити Ollama Lab!"
-msgid "LM Studio Install"
-msgstr "LM Studio Встановлення"
-#: NEEDS WORK
-msgid "Installing LM Studio, please wait..."
-msgstr "Installing LM Studio, please wait..."
-msgid "LM Studio Uninstall"
-msgstr "LM Studio Вилучити"
-#: NEEDS WORK
-msgid "Uninstalling LM Studio, please wait..."
-msgstr "Uninstalling LM Studio, please wait..."
-msgid "LM Studio installed successfully!"
-msgstr "LM Studio успішно встановлено!"
-msgid "Failed to install LM Studio!"
-msgstr "Не вдалося встановити LM Studio!"
-msgid "Ollama Install"
-msgstr "Ollama Встановлення"
-#: NEEDS WORK
-msgid "Installing Ollama, please wait..."
-msgstr "Встановлення Ollama, будь ласка, зачекайте..."
-msgid "Ollama Uninstall"
-msgstr "Видалити Ollama"
-#: NEEDS WORK
-msgid "Uninstalling Ollama, please wait..."
-msgstr "Deinstalliere Ollama, bitte warten..."
-msgid "Ollama installed successfully!"
-msgstr "Ollama успішно встановлено!"
-msgid "Failed to install Ollama!"
-msgstr "Не вдалося встановити Ollama!"
-msgid "comfyUI Install...."
-msgstr "comfyUI Встановлення...."
-#: NEEDS WORK
-msgid "Installing comfyUI, this step takes a long time, please wait..."
-msgstr "Installing comfyUI, this step may take some time, please wait..."
-msgid "Uninstall comfyUI...."
-msgstr "Видалити comfyUI...."
-#: NEEDS WORK
-msgid "Uninstalling comfyUI, please wait..."
-msgstr "Uninstalling comfyUI, please wait..."
-msgid "comfyUI installed successfully"
-msgstr "comfyUI успішно встановлено"
-msgid "comfyUI uninstalled successfully"
-msgstr "comfyUI успішно видалено"
-msgid "Failed to install comfyUI!"
-msgstr "Не вдалося встановити comfyUI!"
-msgid "Ollama CUDA Install"
-msgstr "Ollama CUDA Встановлення"
-#: NEEDS WORK
-msgid "Installing Ollama CUDA, please wait..."
-msgstr "Встановлення Ollama CUDA, будь ласка, зачекайте..."
-msgid "Ollama CUDA Uninstall"
-msgstr "Видалити Ollama CUDA"
-#: NEEDS WORK
-msgid "Uninstalling Ollama CUDA, please wait..."
-msgstr "Desinstalling Ollama CUDA, please wait..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA успішно встановлено!"
-msgid "Failed to install Ollama CUDA!"
-msgstr "Не вдалося встановити Ollama CUDA!"
-msgid ""
-"Generative AI for Krita has been successfully installed.\\n"
-"\\n"
-"Open Krita, open an existing drawing or create a new one.\\n"
-"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
-"\\n"
-"In the window that opens on the bottom right.\\n"
-"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
-"click Install."
-msgstr ""
-"Генеративний ШІ для Krita було успішно встановлено.\\n"
-"\\n"
-"Відкрийте Krita, відкрийте існуючий малюнок або створіть новий.\\n"
-"У верхній панелі перейдіть до Налаштування > Панелі > відмітьте поле Генерація зображень ШІ.\\n"
-"\\n"
-"У вікні, що відкриється в правому нижньому куті.\\n"
-"Натисніть Налаштувати > Локальний керований сервер, виберіть ваш GPU або CPU, виберіть модель у "
-"Робочих навантаженнях і натисніть Встановити."
-msgid "AMD/Nvidia GPU not found!"
-msgstr "AMD/Nvidia графічний процесор не знайдено!"
-msgid "Krita Install"
-msgstr "Встановлення Krita"
-#: NEEDS WORK
-msgid "Installing Krita, please wait..."
-msgstr "Installing Krita, please wait..."
-msgid "Krita Uninstall"
-msgstr "Видалити Krita"
-#: NEEDS WORK
-msgid "Uninstalling Krita, please wait..."
-msgstr "Uninstalling Krita, please wait..."
-msgid "Krita installed successfully!"
-msgstr "Krita успішно встановлено!"
-msgid "Failed to install Krita!"
-msgstr "Не вдалося встановити Krita!"
-msgid "Ollama Vulkan Install"
-msgstr "Ollama Vulkan Встановлення"
-msgid "Ollama Vulkan Uninstall"
-msgstr "Видалити Ollama Vulkan"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Vulkan, please wait..."
-msgstr "Видалення Ollama Vulkan, будь ласка, зачекайте..."
-msgid "Ollama Vulkan installed successfully!"
-msgstr "Ollama Vulkan успішно встановлено!"
-msgid "Failed to install Ollama Vulkan!"
-msgstr "Не вдалося встановити Ollama Vulkan!"
-msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
-msgstr ""
-"Ollama успішно поділено.\\n"
-"Адреса: http://$localIp:11434"
-#: NEEDS WORK
-msgid "Failed to configure Ollama sharing!"
-msgstr "Не вдалося налаштувати спільний доступ до Ollama!"
-msgid "Ollama ROCm Install"
-msgstr "Ollama ROCm Встановлення"
-#: NEEDS WORK
-msgid "Installing Ollama ROCm, please wait..."
-msgstr "Встановлення Ollama ROCm, будь ласка, зачекайте..."
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm Вилучити"
-#: NEEDS WORK
-msgid "Uninstalling Ollama ROCm, please wait..."
-msgstr "Desinstalling Ollama ROCm, please wait..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm успішно встановлено!"
-msgid "Failed to install Ollama ROCm!"
-msgstr "Не вдалося встановити Ollama ROCm!"
 msgid "Applying, please wait..."
 msgstr "Застосування, будь ласка, зачекайте..."
-msgid "GRUB updated successfully!"
-msgstr "GRUB успішно оновлено!"
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB успішно оновлено!\\n"
+"Перезавантажте комп'ютер, щоб зміни набрали чинності."
 msgid "An error occurred while updating GRUB."
 msgstr "Сталася помилка під час оновлення GRUB."
-msgid "Limits updated successfully!"
-msgstr "Обмеження успішно оновлено!"
-msgid "An error occurred while updating Limits."
-msgstr "Сталася помилка під час оновлення обмежень."
-msgid "Example Install"
-msgstr "Приклад встановлення"
-msgid "Instaling Example, Please wait..."
-msgstr "Встановлення прикладу, будь ласка, зачекайте..."
-msgid "Example Uninstall"
-msgstr "Приклад видалення"
-msgid "Uninstaling Example, Please wait..."
-msgstr "Видалення прикладу, будь ласка, зачекайте..."
-msgid "Example installed successfully!"
-msgstr "Приклад успішно встановлено!"
-msgid "Failed to install Example!"
-msgstr "Не вдалося встановити Приклад!"
+msgid "Already enabled. No changes made."
+msgstr "Вже увімкнено. Змін не внесено."
 msgid "JamesDSP Install"
 msgstr "JamesDSP Встановлення"
 #: NEEDS WORK
@@ -215,56 +36,12 @@ msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP успішно встановлено!"
 msgid "Failed to install jamesDSP!"
 msgstr "Не вдалося встановити jamesDSP!"
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB успішно оновлено!\\n"
-"Перезавантажте комп'ютер, щоб зміни набрали чинності."
-msgid "Already enabled. No changes made."
-msgstr "Вже увімкнено. Змін не внесено."
-msgid "Docker Install"
-msgstr "Встановлення Docker"
-#: NEEDS WORK
-msgid "Installing Docker, please wait..."
-msgstr "Встановлення Docker, будь ласка, зачекайте..."
-msgid "Docker Start"
-msgstr "Docker Запустити"
-#: NEEDS WORK
-msgid "Docker Starting, please wait..."
-msgstr "Docker запускається, будь ласка, зачекайте..."
-msgid "Docker Stop"
-msgstr "Docker Зупинити"
-#: NEEDS WORK
-msgid "Docker Stopping, please wait..."
-msgstr "Docker зупиняється, будь ласка, зачекайте..."
-msgid "Docker installed successfully!"
-msgstr "Docker успішно встановлено!"
-#: NEEDS WORK
-msgid "An error occurred while installing Docker."
-msgstr "Виникла помилка під час встановлення Docker."
-msgid "Installing $package"
-msgstr "Встановлення $package"
-#: NEEDS WORK
-msgid "Installing $package, please wait..."
-msgstr "Installing $package, please wait..."
-msgid "Removing $package"
-msgstr "Видалення $package"
-#: NEEDS WORK
-msgid "Removing $package, please wait..."
-msgstr "Видалення $package, будь ласка, зачекайте..."
-msgid ""
-"$title installed successfully!\\n"
-"\\n"
-"Configured on port $port, to access use $url"
-msgstr ""
-"$title успішно встановлено!\\n"
-"\\n"
-"Налаштовано на порту $port, для доступу використовуйте $url"
-msgid "$package removed successfully!"
-msgstr "Пакет успішно видалено!"
-msgid "An error occurred with $package."
-msgstr "Сталася помилка з $package."
+msgid "Limits updated successfully!"
+msgstr "Обмеження успішно оновлено!"
+msgid "An error occurred while updating Limits."
+msgstr "Сталася помилка під час оновлення обмежень."
+msgid "GRUB updated successfully!"
+msgstr "GRUB успішно оновлено!"
 msgid "kzones Install"
 msgstr "kzones Встановлення"
 #: NEEDS WORK
@@ -296,397 +73,271 @@ msgstr ""
 "Вам потрібно закрити та знову відкрити Dolphin, щоб зміни набрали чинності."
 msgid "Failed to activate Recent Files!"
 msgstr "Не вдалося активувати Останні файли!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "BigLinux Settings"
-msgstr "BigLinux Налаштування"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
 #: NEEDS WORK
-msgid "BigLinux Community"
-msgstr "BigLinux Спільнота"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
-msgid "Search..."
-msgstr "Пошук..."
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
+msgid "OpenClaude Install"
+msgstr "OpenClaude Instal"
 #: NEEDS WORK
-msgid "Search settings"
-msgstr "Параметри пошуку"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
+msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
+msgstr "Встановлення OpenClaude (потрібні nodejs, npm, ripgrep), будь ласка, зачекайте..."
 #: NEEDS WORK
-msgid "Toggle navigation sidebar"
-msgstr "Переключити навігаційну бічну панель"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
+msgid "OpenClaude Uninstall"
+msgstr "OpenClaude Uninstall"
 #: NEEDS WORK
-msgid "About"
-msgstr "Про програму"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
-#: NEEDS WORK
-msgid "Main Menu"
-msgstr "Головне меню"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Система"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Зручність використання"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
-msgid "PreLoad"
-msgstr "Передзавантаження"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
-msgid "Devices"
-msgstr "Пристрої"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
-msgid "A.I."
-msgstr "Штучний інтелект."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "Додаток Docker"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
-msgid "Performance"
-msgstr "Виконання"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 302
-#: NEEDS WORK
-msgid "Suspend"
-msgstr "Suspend"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
-#: NEEDS WORK
-msgid "Dismiss"
-msgstr "Dismiss"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
-#: NEEDS WORK
-msgid "Sleep Mode"
-msgstr "Режим сну"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
-#: NEEDS WORK
-msgid "Configure how the system suspends."
-msgstr "Налаштуйте, як система переходить у сплячий режим."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
-#: NEEDS WORK
-msgid "Use s2idle (light sleep)"
-msgstr "Використовуйте s2idle (легкий сон)"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
-#: NEEDS WORK
-msgid "Uses a lighter sleep mode that preserves Fn keys and device state. Recommended for ASUS notebooks."
-msgstr ""
-"Verwendet einen leichteren Energiesparmodus, der die Fn-Tasten und den Gerätezustand beibehält. "
-"Empfohlen für ASUS-Notebooks."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
+msgid "Uninstalling OpenClaude, please wait..."
+msgstr "Видалення OpenClaude, будь ласка, зачекайте..."
 #: NEEDS WORK
 msgid ""
-"S3 deep sleep can cause the Embedded Controller to stop generating hotkey interrupts. s2idle keeps "
-"the EC powered, avoiding this issue at a small cost in battery consumption."
+"OpenClaude installed successfully!\\n"
+"\\n"
+"Run 'openclaude' in a terminal to start."
 msgstr ""
-"S3 глибокий сон може призвести до того, що Вбудований Контролер перестане генерувати гарячі "
-"клавіші. s2idle підтримує живлення EC, уникаючи цієї проблеми за невеликої витрати енергії батареї."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
+"OpenClaude встановлено успішно!\\n"
+"\\n"
+"Запустіть 'openclaude' у терміналі, щоб почати."
 #: NEEDS WORK
-msgid "WiFi"
-msgstr "Wi-Fi"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
+msgid "OpenClaude removed successfully!"
+msgstr "OpenClaude було успішно видалено!"
 #: NEEDS WORK
-msgid "Prevent WiFi issues after suspend."
-msgstr "Prevent WiFi issues after sleep."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
-#: NEEDS WORK
-msgid "Protect WiFi on suspend"
-msgstr "Захистити WiFi під час сну"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
-#: NEEDS WORK
+msgid "An error occurred with OpenClaude."
+msgstr "An error occurred with OpenClaude."
+msgid "Example Install"
+msgstr "Приклад встановлення"
+msgid "Instaling Example, Please wait..."
+msgstr "Встановлення прикладу, будь ласка, зачекайте..."
+msgid "Example Uninstall"
+msgstr "Приклад видалення"
+msgid "Uninstaling Example, Please wait..."
+msgstr "Видалення прикладу, будь ласка, зачекайте..."
+msgid "Example installed successfully!"
+msgstr "Приклад успішно встановлено!"
+msgid "Failed to install Example!"
+msgstr "Не вдалося встановити Приклад!"
 msgid ""
-"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding connection loss after "
-"resume."
-msgstr "Запобігає повному вимкненню чіпа WiFi Realtek (d3cold), уникаючи втрати з'єднання після відновлення."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Сервер Ollama працює.\\n"
+"Адреса: http://localhost:11434"
 #: NEEDS WORK
+msgid "No Ollama packages are installed. Enable an Ollama variant first."
+msgstr "No Ollama пакунків встановлено. Спочатку увімкніть варіант Ollama."
+#: NEEDS WORK
+msgid "Updating Ollama"
+msgstr "Оновлення Ollama"
+#: NEEDS WORK
+msgid "Synchronizing repositories and updating Ollama, please wait..."
+msgstr "Синхронізація репозиторіїв та оновлення Ollama, будь ласка, зачекайте..."
+#: NEEDS WORK
+msgid "Ollama updated successfully!"
+msgstr "Ollama оновлено успішно!"
+#: NEEDS WORK
+msgid "Failed to update Ollama."
+msgstr "Не вдалося оновити Ollama."
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA Встановлення"
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "Встановлення Ollama CUDA, будь ласка, зачекайте..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Видалити Ollama CUDA"
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "Desinstalling Ollama CUDA, please wait..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA успішно встановлено!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Не вдалося встановити Ollama CUDA!"
+msgid "comfyUI Install...."
+msgstr "comfyUI Встановлення...."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "Installing comfyUI, this step may take some time, please wait..."
+msgid "Uninstall comfyUI...."
+msgstr "Видалити comfyUI...."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "Uninstalling comfyUI, please wait..."
+msgid "comfyUI installed successfully"
+msgstr "comfyUI успішно встановлено"
+msgid "comfyUI uninstalled successfully"
+msgstr "comfyUI успішно видалено"
+msgid "Failed to install comfyUI!"
+msgstr "Не вдалося встановити comfyUI!"
+msgid "ChatBox Install"
+msgstr "Встановлення ChatBox"
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
+msgstr "Встановлення ChatBox, будь ласка, зачекайте..."
+msgid "ChatBox Uninstall"
+msgstr "Видалити ChatBox"
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
+msgstr "Видалення ChatBox, будь ласка, зачекайте..."
+msgid "ChatBox installed successfully!"
+msgstr "ChatBox успішно встановлено!"
+msgid "Failed to install ChatBox!"
+msgstr "Не вдалося встановити ChatBox!"
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm Встановлення"
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
+msgstr "Встановлення Ollama ROCm, будь ласка, зачекайте..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm Вилучити"
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Desinstalling Ollama ROCm, please wait..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm успішно встановлено!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Не вдалося встановити Ollama ROCm!"
+msgid "LM Studio Install"
+msgstr "LM Studio Встановлення"
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
+msgstr "Installing LM Studio, please wait..."
+msgid "LM Studio Uninstall"
+msgstr "LM Studio Вилучити"
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "Uninstalling LM Studio, please wait..."
+msgid "LM Studio installed successfully!"
+msgstr "LM Studio успішно встановлено!"
+msgid "Failed to install LM Studio!"
+msgstr "Не вдалося встановити LM Studio!"
+msgid "Krita Install"
+msgstr "Встановлення Krita"
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "Installing Krita, please wait..."
+msgid "Krita Uninstall"
+msgstr "Видалити Krita"
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
+msgstr "Uninstalling Krita, please wait..."
+msgid "Krita installed successfully!"
+msgstr "Krita успішно встановлено!"
+msgid "Failed to install Krita!"
+msgstr "Не вдалося встановити Krita!"
+msgid "Ollama Install"
+msgstr "Ollama Встановлення"
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
+msgstr "Встановлення Ollama, будь ласка, зачекайте..."
+msgid "Ollama Uninstall"
+msgstr "Видалити Ollama"
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Deinstalliere Ollama, bitte warten..."
+msgid "Ollama installed successfully!"
+msgstr "Ollama успішно встановлено!"
+msgid "Failed to install Ollama!"
+msgstr "Не вдалося встановити Ollama!"
+msgid "comfyUI Depends Install"
+msgstr "comfyUI Залежності Встановлення"
+#: NEEDS WORK
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "Встановлення comfyUI Залежить, будь ласка, зачекайте..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI Залежності успішно встановлено!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "Не вдалося встановити comfyUI. Залежності!"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "AMD/Nvidia графічний процесор не знайдено!"
+msgid "Ollama Vulkan Install"
+msgstr "Ollama Vulkan Встановлення"
+msgid "Ollama Vulkan Uninstall"
+msgstr "Видалити Ollama Vulkan"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Видалення Ollama Vulkan, будь ласка, зачекайте..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan успішно встановлено!"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Не вдалося встановити Ollama Vulkan!"
 msgid ""
-"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power gating. This keeps the chip "
-"in d3hot (PCIe link alive) during suspend."
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
 msgstr ""
-"Деякі чіпи Realtek RTL8852BE/CE не можуть повторно ініціалізуватися після d3cold живлення. Це "
-"утримує чіп у стані d3hot (PCIe з'єднання активне) під час сну."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
-#: NEEDS WORK
-msgid "Display and Keyboard"
-msgstr "Екран і Клавіатура"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
-#: NEEDS WORK
-msgid "Preserve brightness and LED state across suspend."
-msgstr "Зберігати яскравість та стан світлодіода під час сну."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
-#: NEEDS WORK
-msgid "Save/restore brightness on suspend"
-msgstr "Зберегти/відновити яскравість під час призупинення"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
-#: NEEDS WORK
-msgid "Saves screen brightness and keyboard LEDs before suspending and restores them on resume."
-msgstr ""
-"Сохраняє яскравість екрану та світлодіоди клавіатури перед переходом у сплячий режим і відновлює їх "
-"після виходу з нього."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
-#: NEEDS WORK
-msgid "GNOME Shell Extensions"
-msgstr "GNOME Shell Extensions"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
-#: NEEDS WORK
-msgid "Automatic health check after resume."
-msgstr "Автоматична перевірка стану після відновлення."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
-#: NEEDS WORK
-msgid "Extension health monitor"
-msgstr "Монітор стану розширення"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
-#: NEEDS WORK
-msgid "Detects GNOME Shell extensions in error state after resume and automatically restarts them."
-msgstr "Виявляє розширення GNOME Shell у стані помилки після відновлення та автоматично перезапускає їх."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
-#: NEEDS WORK
-msgid "Lid Switch"
-msgstr "Кришка перемикача"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
-#: NEEDS WORK
-msgid "Laptop lid close behavior."
-msgstr "Поведение при закритті кришки ноутбука."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
-#: NEEDS WORK
-msgid "Suspend on lid close (AC power)"
-msgstr "Suspend on lid close (AC power)"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
-#: NEEDS WORK
-msgid "Some systems do not suspend when on AC power. This forces suspend when the lid is closed."
-msgstr ""
-"Деякі системи не переходять у сплячий режим при підключенні до мережі. Це примушує перейти у "
-"сплячий режим, коли кришка закрита."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Налаштування користувача та візуальної системи."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "Num Lock"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Початковий стан NumLock. Ігнорується, якщо увімкнено автоматичний вхід."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Кнопка вікна зліва"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Кнопки розширення, зменшення та закриття з лівого боку вікна."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZones"
-# 
-# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable window tiling zones for the KDE Plasma desktop."
-msgstr "Увімкнути зони плиткового розміщення вікон для робочого столу KDE Plasma."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "Недавні файли та місця"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+"Генеративний ШІ для Krita було успішно встановлено.\\n"
+"\\n"
+"Відкрийте Krita, відкрийте існуючий малюнок або створіть новий.\\n"
+"У верхній панелі перейдіть до Налаштування > Панелі > відмітьте поле Генерація зображень ШІ.\\n"
+"\\n"
+"У вікні, що відкриється в правому нижньому куті.\\n"
+"Натисніть Налаштувати > Локальний керований сервер, виберіть ваш GPU або CPU, виберіть модель у "
+"Робочих навантаженнях і натисніть Встановити."
 msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
 msgstr ""
-"Відновлює функціональність 'Недавні файли' та 'Недавні місця', яка з'являється порожньою в Dolphin "
-"та меню програми."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
-msgid "Manage physical devices."
-msgstr "Керуйте фізичними пристроями."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wi-Fi"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+"Ollama успішно поділено.\\n"
+"Адреса: http://$localIp:11434"
 #: NEEDS WORK
-msgid "Enable the Wi-Fi adapter."
-msgstr "Увімкнути адаптер Wi-Fi."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+msgid "Failed to configure Ollama sharing!"
+msgstr "Не вдалося налаштувати спільний доступ до Ollama!"
+msgid "Ollama Lab Install"
+msgstr "Ollama Lab Встановлення"
 #: NEEDS WORK
-msgid "Enable the Bluetooth adapter."
-msgstr "Активувати адаптер Bluetooth."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
-msgid "JamesDSP"
-msgstr "JamesDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "Розширений процесор аудіоефектів, що покращує якість звуку."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
-msgid "Reverse mouse scrolling"
-msgstr "Зворотне прокручування миші"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "Зворотне прокручування миші без перезапуску сеансу."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+msgid "Installing Ollama Lab, please wait..."
+msgstr "Встановлення Ollama Lab, будь ласка, зачекайте..."
+msgid "Ollama Lab Uninstall"
+msgstr "Видалити Ollama Lab"
 #: NEEDS WORK
-msgid "Network Interfaces"
-msgstr "Мережеві інтерфейси"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Desinstalling Ollama Lab, please wait..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab успішно встановлено!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Не вдалося встановити Ollama Lab!"
+msgid "Installing $package"
+msgstr "Встановлення $package"
 #: NEEDS WORK
-msgid "Connect or disconnect network devices."
-msgstr "Підключити або відключити мережеві пристрої."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+msgid "Installing $package, please wait..."
+msgstr "Installing $package, please wait..."
+msgid "Removing $package"
+msgstr "Видалення $package"
 #: NEEDS WORK
-#, python-brace-format
-msgid "{} — {}"
-msgstr "Understood. Please provide the string to translate."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+msgid "Removing $package, please wait..."
+msgstr "Видалення $package, будь ласка, зачекайте..."
+msgid ""
+"$title installed successfully!\\n"
+"\\n"
+"Configured on port $port, to access use $url"
+msgstr ""
+"$title успішно встановлено!\\n"
+"\\n"
+"Налаштовано на порту $port, для доступу використовуйте $url"
+msgid "$package removed successfully!"
+msgstr "Пакет успішно видалено!"
+msgid "An error occurred with $package."
+msgstr "Сталася помилка з $package."
+msgid "Docker Install"
+msgstr "Встановлення Docker"
 #: NEEDS WORK
-#, python-brace-format
-msgid "{}: toggle connection"
-msgstr "{}: перемикання з'єднання"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+msgid "Installing Docker, please wait..."
+msgstr "Встановлення Docker, будь ласка, зачекайте..."
+msgid "Docker Start"
+msgstr "Docker Запустити"
 #: NEEDS WORK
-msgid "Applying…"
-msgstr "Applying…"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+msgid "Docker Starting, please wait..."
+msgstr "Docker запускається, будь ласка, зачекайте..."
+msgid "Docker Stop"
+msgstr "Docker Зупинити"
 #: NEEDS WORK
-msgid "connected"
-msgstr "connected"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+msgid "Docker Stopping, please wait..."
+msgstr "Docker зупиняється, будь ласка, зачекайте..."
+msgid "Docker installed successfully!"
+msgstr "Docker успішно встановлено!"
 #: NEEDS WORK
-msgid "disconnected"
-msgstr "disconnected"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
-#: NEEDS WORK
-#, python-brace-format
-msgid "Failed to change network device: {}"
-msgstr "Не вдалося змінити мережевий пристрій: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "Попереднє завантаження"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "Попередньо завантажуйте програми в пам'ять, щоб відкривати їх швидше."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "Firefox"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "Brave"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "Хром"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "Хроміум"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "Librewolf"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "Палемун"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "Опера"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "ЛібреОфіс"
+msgid "An error occurred while installing Docker."
+msgstr "Виникла помилка під час встановлення Docker."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
@@ -705,6 +356,21 @@ msgstr "Ollama Server"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Виберіть, який сервер Ollama найкраще підходить для вашого обладнання."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Update Ollama"
+msgstr "Оновити Ollama"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Update the installed Ollama packages to the latest version."
+msgstr "Update the installed Ollama packages to the latest version."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
+#: NEEDS WORK
+msgid "Update now"
+msgstr "Оновити зараз"
 # 
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
 #: NEEDS WORK
@@ -758,9 +424,41 @@ msgstr "LM Studio - Десктопний додаток для дослідже�
 msgid "Open Notebook"
 msgstr "打开笔记本"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
-msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "Відкритий вихідний код, орієнтований на конфіденційність, альтернатива Google Notebook LM!"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+#: NEEDS WORK
+msgid "Open-source, privacy-focused alternative to Google's NotebookLM. Requires Docker enabled."
+msgstr ""
+"Відкритий код, орієнтований на конфіденційність, альтернатива NotebookLM від Google. Потрібен "
+"увімкнений Docker."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 201
+#: NEEDS WORK
+msgid "Open Notebook Server"
+msgstr "Відкрити сервер блокнотів"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 202
+#: NEEDS WORK
+msgid "Start the Open Notebook server."
+msgstr "Запустіть сервер Open Notebook."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+#, python-brace-format
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"Відкритий блокнот працює.\n"
+"Адреса: http://localhost:8502\n"
+"та\n"
+"Адреса: http://{}:8502"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
 msgid "ComfyUI (GPU ONLY)"
@@ -864,6 +562,74 @@ msgid ""
 msgstr ""
 "Локальний AI сервер. Для новіших графічних процесорів AMD, починаючи з серії 6000. Розгляньте "
 "можливість використання Vulkan, у багатьох тестах Vulkan показав кращі результати, ніж ROCm."
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 11
+#: NEEDS WORK
+msgid "AI Coding Assistants"
+msgstr "AI Кодувальні Асистенти"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 12
+#: NEEDS WORK
+msgid "Open-source coding agents powered by language models."
+msgstr "Відкриті коди агенти, що працюють на основі мовних моделей."
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 21
+#: NEEDS WORK
+msgid "OpenClaude"
+msgstr "OpenClaude"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 23
+#: NEEDS WORK
+msgid ""
+"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ models. Installs nodejs, "
+"npm and ripgrep as dependencies."
+msgstr ""
+"Відкритий код агент CLI для OpenAI, Gemini, DeepSeek, Ollama та 200+ моделей. Встановлює nodejs, "
+"npm та ripgrep як залежності."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Попереднє завантаження"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Попередньо завантажуйте програми в пам'ять, щоб відкривати їх швидше."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Brave"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Хром"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Хроміум"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "Librewolf"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Палемун"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Опера"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "ЛібреОфіс"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Додаток Docker"
 # 
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
 #: NEEDS WORK
@@ -1098,26 +864,321 @@ msgstr ""
 "та\n"
 "Адреса: http://{}:2017"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
-msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "Встановіть відкритий, орієнтований на конфіденційність аналог Google Notebook LM!"
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 195
+#: NEEDS WORK
+msgid "Install the open-source alternative to Google's NotebookLM."
+msgstr "Встановіть відкритий аналог NotebookLM від Google."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
-msgid "Run Open Notebook."
-msgstr "Запустіть Відкритий Блокнот."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "BigLinux Налаштування"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
+#: NEEDS WORK
+msgid "BigLinux Community"
+msgstr "BigLinux Спільнота"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Пошук..."
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
+#: NEEDS WORK
+msgid "Search settings"
+msgstr "Параметри пошуку"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
+#: NEEDS WORK
+msgid "Toggle navigation sidebar"
+msgstr "Переключити навігаційну бічну панель"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
+#: NEEDS WORK
+msgid "About"
+msgstr "Про програму"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
+#: NEEDS WORK
+msgid "Main Menu"
+msgstr "Головне меню"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "Система"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Зручність використання"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "Передзавантаження"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
+msgid "Devices"
+msgstr "Пристрої"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+msgid "A.I."
+msgstr "Штучний інтелект."
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 297
+#: NEEDS WORK
+msgid "Developer"
+msgstr "Розробник"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
+msgid "Performance"
+msgstr "Виконання"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 302
+#: NEEDS WORK
+msgid "Suspend"
+msgstr "Suspend"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
+#: NEEDS WORK
+msgid "Dismiss"
+msgstr "Dismiss"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "Керуйте фізичними пристроями."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wi-Fi"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "Увімкнути адаптер Wi-Fi."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "Активувати адаптер Bluetooth."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Розширений процесор аудіоефектів, що покращує якість звуку."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "Зворотне прокручування миші"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "Зворотне прокручування миші без перезапуску сеансу."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "Мережеві інтерфейси"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "Підключити або відключити мережеві пристрої."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
 #, python-brace-format
-msgid ""
-"Open Notebook is running.\n"
-"Address: http://localhost:8502\n"
-"and\n"
-"Address: http://{}:8502"
+msgid "{} — {}"
+msgstr "Understood. Please provide the string to translate."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: перемикання з'єднання"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "Applying…"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "connected"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "disconnected"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "Не вдалося змінити мережевий пристрій: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
+#: NEEDS WORK
+msgid "Sleep Mode"
+msgstr "Режим сну"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
+#: NEEDS WORK
+msgid "Configure how the system suspends."
+msgstr "Налаштуйте, як система переходить у сплячий режим."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
+#: NEEDS WORK
+msgid "Use s2idle (light sleep)"
+msgstr "Використовуйте s2idle (легкий сон)"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
+#: NEEDS WORK
+msgid "Uses a lighter sleep mode that preserves Fn keys and device state. Recommended for ASUS notebooks."
 msgstr ""
-"Відкритий блокнот працює.\n"
-"Адреса: http://localhost:8502\n"
-"та\n"
-"Адреса: http://{}:8502"
+"Verwendet einen leichteren Energiesparmodus, der die Fn-Tasten und den Gerätezustand beibehält. "
+"Empfohlen für ASUS-Notebooks."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
+#: NEEDS WORK
+msgid ""
+"S3 deep sleep can cause the Embedded Controller to stop generating hotkey interrupts. s2idle keeps "
+"the EC powered, avoiding this issue at a small cost in battery consumption."
+msgstr ""
+"S3 глибокий сон може призвести до того, що Вбудований Контролер перестане генерувати гарячі "
+"клавіші. s2idle підтримує живлення EC, уникаючи цієї проблеми за невеликої витрати енергії батареї."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
+#: NEEDS WORK
+msgid "WiFi"
+msgstr "Wi-Fi"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
+#: NEEDS WORK
+msgid "Prevent WiFi issues after suspend."
+msgstr "Prevent WiFi issues after sleep."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
+#: NEEDS WORK
+msgid "Protect WiFi on suspend"
+msgstr "Захистити WiFi під час сну"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
+#: NEEDS WORK
+msgid ""
+"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding connection loss after "
+"resume."
+msgstr "Запобігає повному вимкненню чіпа WiFi Realtek (d3cold), уникаючи втрати з'єднання після відновлення."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
+#: NEEDS WORK
+msgid ""
+"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power gating. This keeps the chip "
+"in d3hot (PCIe link alive) during suspend."
+msgstr ""
+"Деякі чіпи Realtek RTL8852BE/CE не можуть повторно ініціалізуватися після d3cold живлення. Це "
+"утримує чіп у стані d3hot (PCIe з'єднання активне) під час сну."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
+#: NEEDS WORK
+msgid "Display and Keyboard"
+msgstr "Екран і Клавіатура"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
+#: NEEDS WORK
+msgid "Preserve brightness and LED state across suspend."
+msgstr "Зберігати яскравість та стан світлодіода під час сну."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
+#: NEEDS WORK
+msgid "Save/restore brightness on suspend"
+msgstr "Зберегти/відновити яскравість під час призупинення"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
+#: NEEDS WORK
+msgid "Saves screen brightness and keyboard LEDs before suspending and restores them on resume."
+msgstr ""
+"Сохраняє яскравість екрану та світлодіоди клавіатури перед переходом у сплячий режим і відновлює їх "
+"після виходу з нього."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
+#: NEEDS WORK
+msgid "GNOME Shell Extensions"
+msgstr "GNOME Shell Extensions"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
+#: NEEDS WORK
+msgid "Automatic health check after resume."
+msgstr "Автоматична перевірка стану після відновлення."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
+#: NEEDS WORK
+msgid "Extension health monitor"
+msgstr "Монітор стану розширення"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
+#: NEEDS WORK
+msgid "Detects GNOME Shell extensions in error state after resume and automatically restarts them."
+msgstr "Виявляє розширення GNOME Shell у стані помилки після відновлення та автоматично перезапускає їх."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
+#: NEEDS WORK
+msgid "Lid Switch"
+msgstr "Кришка перемикача"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
+#: NEEDS WORK
+msgid "Laptop lid close behavior."
+msgstr "Поведение при закритті кришки ноутбука."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#: NEEDS WORK
+msgid "Suspend on lid close (AC power)"
+msgstr "Suspend on lid close (AC power)"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#: NEEDS WORK
+msgid "Some systems do not suspend when on AC power. This forces suspend when the lid is closed."
+msgstr ""
+"Деякі системи не переходять у сплячий режим при підключенні до мережі. Це примушує перейти у "
+"сплячий режим, коли кришка закрита."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -1196,6 +1257,47 @@ msgstr ""
 "This will disable the hardware watchdog. Your system will no longer automatically recover from "
 "certain types of crashes. Are you sure you want to continue?"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Налаштування користувача та візуальної системи."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "Num Lock"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Початковий стан NumLock. Ігнорується, якщо увімкнено автоматичний вхід."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Кнопка вікна зліва"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Кнопки розширення, зменшення та закриття з лівого боку вікна."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZones"
+# 
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "Увімкнути зони плиткового розміщення вікон для робочого столу KDE Plasma."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "Недавні файли та місця"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
+msgstr ""
+"Відновлює функціональність 'Недавні файли' та 'Недавні місця', яка з'являється порожньою в Dolphin "
+"та меню програми."
+# 
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
 #: NEEDS WORK
 msgid "Close"
@@ -1216,6 +1318,52 @@ msgstr "Cancel"
 #: NEEDS WORK
 msgid "Continue"
 msgstr "Продолжити"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 220
+#: NEEDS WORK
+msgid "Run"
+msgstr "Запустити"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 226
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: run action"
+msgstr "{}: виконати дію"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+#, python-brace-format
+msgid "Script not found: {}"
+msgstr "Скрипт не знайдено: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 279
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action script {} failed: {}"
+msgstr "Скрипт дії {} не вдався: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 284
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action script timeout: {}"
+msgstr "Тайм-аут сценарію дії: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 287
+#: NEEDS WORK
+#, python-brace-format
+msgid "Error running action script {}: {}"
+msgstr "Помилка виконання сценарію дії {}: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 297
+#: NEEDS WORK
+msgid "Action completed successfully"
+msgstr "Дію виконано успішно"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 300
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action failed: {}"
+msgstr "Дія не вдалася: {}"
 # 
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
 #: NEEDS WORK
@@ -1246,12 +1394,6 @@ msgstr "{}: дізнатися більше"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
 msgid "Unavailable: script not found."
 msgstr "Недоступно: скрипт не знайдено."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
-#, python-brace-format
-msgid "Script not found: {}"
-msgstr "Скрипт не знайдено: {}"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 

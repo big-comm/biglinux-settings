@@ -15,197 +15,18 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "comfyUI Depends Install"
-msgstr "comfyUI Bağımlılıkları Yükle"
-#: NEEDS WORK
-msgid "Installing comfyUI Depends, please wait..."
-msgstr "comfyUI Bağımlılıkları Yükleniyor, lütfen bekleyin..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI Bağımlılıkları başarıyla yüklendi!"
-msgid "Failed to install comfyUI Depends!"
-msgstr "comfyUI Bağımlılıklarını yükleme başarısız!"
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Ollama sunucusu çalışıyor.\\n"
-"Adres: http://localhost:11434"
-msgid "ChatBox Install"
-msgstr "ChatBox Kurulum"
-#: NEEDS WORK
-msgid "Installing ChatBox, please wait..."
-msgstr "ChatBox kuruluyor, lütfen bekleyin..."
-msgid "ChatBox Uninstall"
-msgstr "ChatBox Kaldır"
-#: NEEDS WORK
-msgid "Uninstalling ChatBox, please wait..."
-msgstr "ChatBox kaldırılıyor, lütfen bekleyin..."
-msgid "ChatBox installed successfully!"
-msgstr "ChatBox başarıyla yüklendi!"
-msgid "Failed to install ChatBox!"
-msgstr "ChatBox kurulumu başarısız oldu!"
-msgid "Ollama Lab Install"
-msgstr "Ollama Lab Kurulumu"
-#: NEEDS WORK
-msgid "Installing Ollama Lab, please wait..."
-msgstr "Ollama Lab kuruluyor, lütfen bekleyin..."
-msgid "Ollama Lab Uninstall"
-msgstr "Ollama Lab Kaldırma"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Lab, please wait..."
-msgstr "Ollama Lab kaldırılıyor, lütfen bekleyin..."
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Lab başarıyla yüklendi!"
-msgid "Failed to install Ollama Lab!"
-msgstr "Ollama Lab'ı yükleme başarısız!"
-msgid "LM Studio Install"
-msgstr "LM Stüdyo Kurulum"
-#: NEEDS WORK
-msgid "Installing LM Studio, please wait..."
-msgstr "LM Studio kuruluyor, lütfen bekleyin..."
-msgid "LM Studio Uninstall"
-msgstr "LM Studio Kaldır"
-#: NEEDS WORK
-msgid "Uninstalling LM Studio, please wait..."
-msgstr "LM Studio kaldırılıyor, lütfen bekleyin..."
-msgid "LM Studio installed successfully!"
-msgstr "LM Studio başarıyla yüklendi!"
-msgid "Failed to install LM Studio!"
-msgstr "LM Studio kurulumu başarısız oldu!"
-msgid "Ollama Install"
-msgstr "Ollama Kurulum"
-#: NEEDS WORK
-msgid "Installing Ollama, please wait..."
-msgstr "Ollama kuruluyor, lütfen bekleyin..."
-msgid "Ollama Uninstall"
-msgstr "Ollama Kaldır"
-#: NEEDS WORK
-msgid "Uninstalling Ollama, please wait..."
-msgstr "Ollama kaldırılıyor, lütfen bekleyin..."
-msgid "Ollama installed successfully!"
-msgstr "Ollama başarıyla yüklendi!"
-msgid "Failed to install Ollama!"
-msgstr "Ollama yüklenemedi!"
-msgid "comfyUI Install...."
-msgstr "comfyUI Kurulumu...."
-#: NEEDS WORK
-msgid "Installing comfyUI, this step takes a long time, please wait..."
-msgstr "comfyUI kurulumu, bu adım uzun sürüyor, lütfen bekleyin..."
-msgid "Uninstall comfyUI...."
-msgstr "ComfyUI'yi kaldır..."
-#: NEEDS WORK
-msgid "Uninstalling comfyUI, please wait..."
-msgstr "comfyUI kaldırılıyor, lütfen bekleyin..."
-msgid "comfyUI installed successfully"
-msgstr "comfyUI başarıyla yüklendi"
-msgid "comfyUI uninstalled successfully"
-msgstr "comfyUI başarıyla kaldırıldı"
-msgid "Failed to install comfyUI!"
-msgstr "comfyUI yüklenemedi!"
-msgid "Ollama CUDA Install"
-msgstr "Ollama CUDA Kurulumu"
-#: NEEDS WORK
-msgid "Installing Ollama CUDA, please wait..."
-msgstr "Ollama CUDA kuruluyor, lütfen bekleyin..."
-msgid "Ollama CUDA Uninstall"
-msgstr "Ollama CUDA Kaldırma"
-#: NEEDS WORK
-msgid "Uninstalling Ollama CUDA, please wait..."
-msgstr "Ollama CUDA kaldırılıyor, lütfen bekleyin..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA başarıyla yüklendi!"
-msgid "Failed to install Ollama CUDA!"
-msgstr "Ollama CUDA yüklemesi başarısız oldu!"
-msgid ""
-"Generative AI for Krita has been successfully installed.\\n"
-"\\n"
-"Open Krita, open an existing drawing or create a new one.\\n"
-"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
-"\\n"
-"In the window that opens on the bottom right.\\n"
-"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
-"click Install."
-msgstr ""
-"Krita için Üretken AI başarıyla yüklendi.\\n"
-"\\n"
-"Krita'yı açın, mevcut bir çizimi açın veya yenisini oluşturun.\\n"
-"Üst panelde Ayarlar > Paneller'e gidin > AI Görüntü Üretimi kutusunu işaretleyin.\\n"
-"\\n"
-"Açılan pencerede sağ altta.\\n"
-"Yapılandır'a tıklayın > Yerel Yönetilen Sunucu, GPU veya CPU'nuzu seçin, İş Yükleri'nde modeli "
-"seçin ve Yükle'ye tıklayın."
-msgid "AMD/Nvidia GPU not found!"
-msgstr "AMD/Nvidia GPU bulunamadı!"
-msgid "Krita Install"
-msgstr "Krita Kurulumu"
-#: NEEDS WORK
-msgid "Installing Krita, please wait..."
-msgstr "Krita kuruluyor, lütfen bekleyin..."
-msgid "Krita Uninstall"
-msgstr "Krita Kaldır"
-#: NEEDS WORK
-msgid "Uninstalling Krita, please wait..."
-msgstr "Krita kaldırılıyor, lütfen bekleyin..."
-msgid "Krita installed successfully!"
-msgstr "Krita başarıyla yüklendi!"
-msgid "Failed to install Krita!"
-msgstr "Krita'yı yükleme başarısız!"
-msgid "Ollama Vulkan Install"
-msgstr "Ollama Vulkan Kurulumu"
-msgid "Ollama Vulkan Uninstall"
-msgstr "Ollama Vulkan Kaldırma"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Vulkan, please wait..."
-msgstr "Ollama Vulkan kaldırılıyor, lütfen bekleyin..."
-msgid "Ollama Vulkan installed successfully!"
-msgstr "Ollama Vulkan başarıyla yüklendi!"
-msgid "Failed to install Ollama Vulkan!"
-msgstr "Ollama Vulkan yüklenemedi!"
-msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
-msgstr ""
-"Ollama başarıyla paylaşıldı.\\n"
-"Adres: http://$localIp:11434"
-#: NEEDS WORK
-msgid "Failed to configure Ollama sharing!"
-msgstr "Ollama paylaşımını yapılandırma başarısız oldu!"
-msgid "Ollama ROCm Install"
-msgstr "Ollama ROCm Kurulumu"
-#: NEEDS WORK
-msgid "Installing Ollama ROCm, please wait..."
-msgstr "Ollama ROCm kuruluyor, lütfen bekleyin..."
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm Kaldırma"
-#: NEEDS WORK
-msgid "Uninstalling Ollama ROCm, please wait..."
-msgstr "Ollama ROCm kaldırılıyor, lütfen bekleyin..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm başarıyla yüklendi!"
-msgid "Failed to install Ollama ROCm!"
-msgstr "Ollama ROCm yüklemesi başarısız oldu!"
 msgid "Applying, please wait..."
 msgstr "Uygulanıyor, lütfen bekleyin..."
-msgid "GRUB updated successfully!"
-msgstr "GRUB başarıyla güncellendi!"
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB başarıyla güncellendi!\\n"
+"Uygulamak için bilgisayarınızı yeniden başlatın."
 msgid "An error occurred while updating GRUB."
 msgstr "GRUB güncellenirken bir hata oluştu."
-msgid "Limits updated successfully!"
-msgstr "Limitler başarıyla güncellendi!"
-msgid "An error occurred while updating Limits."
-msgstr "Limitler güncellenirken bir hata oluştu."
-msgid "Example Install"
-msgstr "Örnek Kurulum"
-msgid "Instaling Example, Please wait..."
-msgstr "Örnek Yükleniyor, Lütfen Bekleyin..."
-msgid "Example Uninstall"
-msgstr "Örnek Kaldırma"
-msgid "Uninstaling Example, Please wait..."
-msgstr "Örnek kaldırılıyor, lütfen bekleyin..."
-msgid "Example installed successfully!"
-msgstr "Örnek başarıyla yüklendi!"
-msgid "Failed to install Example!"
-msgstr "Örnek yüklenemedi!"
+msgid "Already enabled. No changes made."
+msgstr "Zaten etkinleştirildi. Değişiklik yapılmadı."
 msgid "JamesDSP Install"
 msgstr "JamesDSP Kurulumu"
 #: NEEDS WORK
@@ -215,56 +36,12 @@ msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP başarıyla yüklendi!"
 msgid "Failed to install jamesDSP!"
 msgstr "jamesDSP yüklenemedi!"
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB başarıyla güncellendi!\\n"
-"Uygulamak için bilgisayarınızı yeniden başlatın."
-msgid "Already enabled. No changes made."
-msgstr "Zaten etkinleştirildi. Değişiklik yapılmadı."
-msgid "Docker Install"
-msgstr "Docker Kurulumu"
-#: NEEDS WORK
-msgid "Installing Docker, please wait..."
-msgstr "Docker kuruluyor, lütfen bekleyin..."
-msgid "Docker Start"
-msgstr "Docker Başlat"
-#: NEEDS WORK
-msgid "Docker Starting, please wait..."
-msgstr "Docker Başlatılıyor, lütfen bekleyin..."
-msgid "Docker Stop"
-msgstr "Docker Durdur"
-#: NEEDS WORK
-msgid "Docker Stopping, please wait..."
-msgstr "Docker Durduruluyor, lütfen bekleyin..."
-msgid "Docker installed successfully!"
-msgstr "Docker başarıyla yüklendi!"
-#: NEEDS WORK
-msgid "An error occurred while installing Docker."
-msgstr "Docker yüklenirken bir hata oluştu."
-msgid "Installing $package"
-msgstr "$package kuruluyor"
-#: NEEDS WORK
-msgid "Installing $package, please wait..."
-msgstr "$package kuruluyor, lütfen bekleyin..."
-msgid "Removing $package"
-msgstr "$package kaldırılıyor"
-#: NEEDS WORK
-msgid "Removing $package, please wait..."
-msgstr "$package kaldırılıyor, lütfen bekleyin..."
-msgid ""
-"$title installed successfully!\\n"
-"\\n"
-"Configured on port $port, to access use $url"
-msgstr ""
-"$title başarıyla yüklendi!\\n"
-"\\n"
-"Erişim için $url kullanarak $port üzerinde yapılandırıldı."
-msgid "$package removed successfully!"
-msgstr "$paket başarıyla kaldırıldı!"
-msgid "An error occurred with $package."
-msgstr "$package ile ilgili bir hata oluştu."
+msgid "Limits updated successfully!"
+msgstr "Limitler başarıyla güncellendi!"
+msgid "An error occurred while updating Limits."
+msgstr "Limitler güncellenirken bir hata oluştu."
+msgid "GRUB updated successfully!"
+msgstr "GRUB başarıyla güncellendi!"
 msgid "kzones Install"
 msgstr "kzones Kurulumu"
 #: NEEDS WORK
@@ -296,401 +73,271 @@ msgstr ""
 "Bunun etkili olması için Dolphin'i kapatıp açmanız gerekiyor."
 msgid "Failed to activate Recent Files!"
 msgstr "Son Dosyaları etkinleştirme başarısız!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "BigLinux Settings"
-msgstr "BigLinux Ayarları"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
 #: NEEDS WORK
-msgid "BigLinux Community"
-msgstr "BigLinux Topluluğu"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
-msgid "Search..."
-msgstr "Ara..."
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
+msgid "OpenClaude Install"
+msgstr "OpenClaude Kurulumu"
 #: NEEDS WORK
-msgid "Search settings"
-msgstr "Arama ayarları"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
+msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
+msgstr "OpenClaude kuruluyor (nodejs, npm, ripgrep gereklidir), lütfen bekleyin..."
 #: NEEDS WORK
-msgid "Toggle navigation sidebar"
-msgstr "Navigasyon yan çubuğunu aç/kapat"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
+msgid "OpenClaude Uninstall"
+msgstr "OpenClaude Kaldır"
 #: NEEDS WORK
-msgid "About"
-msgstr "Hakkında"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
-#: NEEDS WORK
-msgid "Main Menu"
-msgstr "Ana Menü"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Sistem"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Kullanılabilirlik"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
-msgid "PreLoad"
-msgstr "Ön Yükleme"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
-msgid "Devices"
-msgstr "Cihazlar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
-msgid "A.I."
-msgstr "Yapay Zeka"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "Docker"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
-msgid "Performance"
-msgstr "Performans"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 302
-#: NEEDS WORK
-msgid "Suspend"
-msgstr "Askıya Al"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
-#: NEEDS WORK
-msgid "Dismiss"
-msgstr "Kapat"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
-#: NEEDS WORK
-msgid "Sleep Mode"
-msgstr "Uyku Modu"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
-#: NEEDS WORK
-msgid "Configure how the system suspends."
-msgstr "Sistemin nasıl askıya alındığını yapılandırın."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
-#: NEEDS WORK
-msgid "Use s2idle (light sleep)"
-msgstr "s2idle kullanın (hafif uyku)"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
-#: NEEDS WORK
-msgid "Uses a lighter sleep mode that preserves Fn keys and device state. Recommended for ASUS notebooks."
-msgstr ""
-"Fn tuşlarını ve cihaz durumunu koruyan daha hafif bir uyku modu kullanır. ASUS dizüstü "
-"bilgisayarlar için önerilir."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
+msgid "Uninstalling OpenClaude, please wait..."
+msgstr "OpenClaude kaldırılıyor, lütfen bekleyin..."
 #: NEEDS WORK
 msgid ""
-"S3 deep sleep can cause the Embedded Controller to stop generating hotkey interrupts. s2idle keeps "
-"the EC powered, avoiding this issue at a small cost in battery consumption."
+"OpenClaude installed successfully!\\n"
+"\\n"
+"Run 'openclaude' in a terminal to start."
 msgstr ""
-"S3 derin uyku, Gömülü Kontrolcünün kısayol tuşu kesintileri üretmeyi durdurmasına neden olabilir. "
-"s2idle, EC'yi güçte tutarak bu sorunu küçük bir pil tüketimi maliyetiyle önler."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
+"OpenClaude başarıyla yüklendi!\\n"
+"\\n"
+"Başlatmak için bir terminalde 'openclaude' yazın."
 #: NEEDS WORK
-msgid "WiFi"
-msgstr "WiFi"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
+msgid "OpenClaude removed successfully!"
+msgstr "OpenClaude başarıyla kaldırıldı!"
 #: NEEDS WORK
-msgid "Prevent WiFi issues after suspend."
-msgstr "Süspendeden sonra WiFi sorunlarını önleyin."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
-#: NEEDS WORK
-msgid "Protect WiFi on suspend"
-msgstr "WiFi'yi askıya alındığında koru"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
-#: NEEDS WORK
+msgid "An error occurred with OpenClaude."
+msgstr "OpenClaude ile bir hata oluştu."
+msgid "Example Install"
+msgstr "Örnek Kurulum"
+msgid "Instaling Example, Please wait..."
+msgstr "Örnek Yükleniyor, Lütfen Bekleyin..."
+msgid "Example Uninstall"
+msgstr "Örnek Kaldırma"
+msgid "Uninstaling Example, Please wait..."
+msgstr "Örnek kaldırılıyor, lütfen bekleyin..."
+msgid "Example installed successfully!"
+msgstr "Örnek başarıyla yüklendi!"
+msgid "Failed to install Example!"
+msgstr "Örnek yüklenemedi!"
 msgid ""
-"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding connection loss after "
-"resume."
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
 msgstr ""
-"Realtek WiFi yongası tamamen kapatılmasını (d3cold) engeller, yeniden başlatma sonrası bağlantı "
-"kaybını önler."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
+"Ollama sunucusu çalışıyor.\\n"
+"Adres: http://localhost:11434"
 #: NEEDS WORK
+msgid "No Ollama packages are installed. Enable an Ollama variant first."
+msgstr "Ollama paketleri yüklü değil. Öncelikle bir Ollama varyantını etkinleştirin."
+#: NEEDS WORK
+msgid "Updating Ollama"
+msgstr "Ollama Güncelleniyor"
+#: NEEDS WORK
+msgid "Synchronizing repositories and updating Ollama, please wait..."
+msgstr "Depolarizasyon depolarilerini senkronize ediyor ve Ollama'yı güncelliyor, lütfen bekleyin..."
+#: NEEDS WORK
+msgid "Ollama updated successfully!"
+msgstr "Ollama başarıyla güncellendi!"
+#: NEEDS WORK
+msgid "Failed to update Ollama."
+msgstr "Ollama güncellenemedi."
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA Kurulumu"
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "Ollama CUDA kuruluyor, lütfen bekleyin..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA Kaldırma"
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "Ollama CUDA kaldırılıyor, lütfen bekleyin..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA başarıyla yüklendi!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Ollama CUDA yüklemesi başarısız oldu!"
+msgid "comfyUI Install...."
+msgstr "comfyUI Kurulumu...."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "comfyUI kurulumu, bu adım uzun sürüyor, lütfen bekleyin..."
+msgid "Uninstall comfyUI...."
+msgstr "ComfyUI'yi kaldır..."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "comfyUI kaldırılıyor, lütfen bekleyin..."
+msgid "comfyUI installed successfully"
+msgstr "comfyUI başarıyla yüklendi"
+msgid "comfyUI uninstalled successfully"
+msgstr "comfyUI başarıyla kaldırıldı"
+msgid "Failed to install comfyUI!"
+msgstr "comfyUI yüklenemedi!"
+msgid "ChatBox Install"
+msgstr "ChatBox Kurulum"
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
+msgstr "ChatBox kuruluyor, lütfen bekleyin..."
+msgid "ChatBox Uninstall"
+msgstr "ChatBox Kaldır"
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
+msgstr "ChatBox kaldırılıyor, lütfen bekleyin..."
+msgid "ChatBox installed successfully!"
+msgstr "ChatBox başarıyla yüklendi!"
+msgid "Failed to install ChatBox!"
+msgstr "ChatBox kurulumu başarısız oldu!"
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm Kurulumu"
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
+msgstr "Ollama ROCm kuruluyor, lütfen bekleyin..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm Kaldırma"
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Ollama ROCm kaldırılıyor, lütfen bekleyin..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm başarıyla yüklendi!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Ollama ROCm yüklemesi başarısız oldu!"
+msgid "LM Studio Install"
+msgstr "LM Stüdyo Kurulum"
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
+msgstr "LM Studio kuruluyor, lütfen bekleyin..."
+msgid "LM Studio Uninstall"
+msgstr "LM Studio Kaldır"
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "LM Studio kaldırılıyor, lütfen bekleyin..."
+msgid "LM Studio installed successfully!"
+msgstr "LM Studio başarıyla yüklendi!"
+msgid "Failed to install LM Studio!"
+msgstr "LM Studio kurulumu başarısız oldu!"
+msgid "Krita Install"
+msgstr "Krita Kurulumu"
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "Krita kuruluyor, lütfen bekleyin..."
+msgid "Krita Uninstall"
+msgstr "Krita Kaldır"
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
+msgstr "Krita kaldırılıyor, lütfen bekleyin..."
+msgid "Krita installed successfully!"
+msgstr "Krita başarıyla yüklendi!"
+msgid "Failed to install Krita!"
+msgstr "Krita'yı yükleme başarısız!"
+msgid "Ollama Install"
+msgstr "Ollama Kurulum"
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
+msgstr "Ollama kuruluyor, lütfen bekleyin..."
+msgid "Ollama Uninstall"
+msgstr "Ollama Kaldır"
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Ollama kaldırılıyor, lütfen bekleyin..."
+msgid "Ollama installed successfully!"
+msgstr "Ollama başarıyla yüklendi!"
+msgid "Failed to install Ollama!"
+msgstr "Ollama yüklenemedi!"
+msgid "comfyUI Depends Install"
+msgstr "comfyUI Bağımlılıkları Yükle"
+#: NEEDS WORK
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "comfyUI Bağımlılıkları Yükleniyor, lütfen bekleyin..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI Bağımlılıkları başarıyla yüklendi!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "comfyUI Bağımlılıklarını yükleme başarısız!"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "AMD/Nvidia GPU bulunamadı!"
+msgid "Ollama Vulkan Install"
+msgstr "Ollama Vulkan Kurulumu"
+msgid "Ollama Vulkan Uninstall"
+msgstr "Ollama Vulkan Kaldırma"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Ollama Vulkan kaldırılıyor, lütfen bekleyin..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan başarıyla yüklendi!"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Ollama Vulkan yüklenemedi!"
 msgid ""
-"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power gating. This keeps the chip "
-"in d3hot (PCIe link alive) during suspend."
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
 msgstr ""
-"Bazı Realtek RTL8852BE/CE yongaları, d3cold güç kapama işleminden sonra yeniden başlatılamaz. Bu, "
-"yongayı askıya alma sırasında d3hot'ta (PCIe bağlantısı aktif) tutar."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
-#: NEEDS WORK
-msgid "Display and Keyboard"
-msgstr "Ekran ve Klavye"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
-#: NEEDS WORK
-msgid "Preserve brightness and LED state across suspend."
-msgstr "Suspend sırasında parlaklığı ve LED durumunu koru."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
-#: NEEDS WORK
-msgid "Save/restore brightness on suspend"
-msgstr "Süspendede parlaklığı kaydet/geri yükle"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
-#: NEEDS WORK
-msgid "Saves screen brightness and keyboard LEDs before suspending and restores them on resume."
-msgstr ""
-"Ekran parlaklığını ve klavye LED'lerini askıya almadan önce kaydeder ve yeniden başlatıldığında "
-"geri yükler."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
-#: NEEDS WORK
-msgid "GNOME Shell Extensions"
-msgstr "GNOME Shell Uzantıları"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
-#: NEEDS WORK
-msgid "Automatic health check after resume."
-msgstr "Otomatik sağlık kontrolü, yeniden başlatmadan sonra."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
-#: NEEDS WORK
-msgid "Extension health monitor"
-msgstr "Uzantı sağlık izleyici"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
-#: NEEDS WORK
-msgid "Detects GNOME Shell extensions in error state after resume and automatically restarts them."
-msgstr ""
-"GNOME Shell uzantılarını, uyku modundan sonra hata durumunda tespit eder ve otomatik olarak yeniden "
-"başlatır."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
-#: NEEDS WORK
-msgid "Lid Switch"
-msgstr "Kapa Anahtarı"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
-#: NEEDS WORK
-msgid "Laptop lid close behavior."
-msgstr "Laptop kapa kapama davranışı."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
-#: NEEDS WORK
-msgid "Suspend on lid close (AC power)"
-msgstr "Kapağı kapatınca askıya al (Şebeke gücü)"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
-#: NEEDS WORK
-msgid "Some systems do not suspend when on AC power. This forces suspend when the lid is closed."
-msgstr ""
-"Bazı sistemler AC güçteyken askıya alınmaz. Bu, kapağın kapatılması durumunda askıya alınmayı "
-"zorlar."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Kullanıcı ve Görsel sistem ayarları."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Başlangıç NumLock durumu. Otomatik giriş etkinse göz ardı edilir."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Pencere Düğmesi Sol Tarafta"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Pencerenin sol tarafında maksimum, minimum ve kapatma düğmeleri."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZones"
-# 
-# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable window tiling zones for the KDE Plasma desktop."
-msgstr "KDE Plasma masaüstü için pencere döşeme alanlarını etkinleştir."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "Son Dosyalar ve Konumlar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+"Krita için Üretken AI başarıyla yüklendi.\\n"
+"\\n"
+"Krita'yı açın, mevcut bir çizimi açın veya yenisini oluşturun.\\n"
+"Üst panelde Ayarlar > Paneller'e gidin > AI Görüntü Üretimi kutusunu işaretleyin.\\n"
+"\\n"
+"Açılan pencerede sağ altta.\\n"
+"Yapılandır'a tıklayın > Yerel Yönetilen Sunucu, GPU veya CPU'nuzu seçin, İş Yükleri'nde modeli "
+"seçin ve Yükle'ye tıklayın."
 msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
 msgstr ""
-"Dolphin ve Uygulama Menüsü'nde boş görünen 'Son Dosyalar' ve 'Son Konumlar' işlevselliğini geri "
-"yükler."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
-msgid "Manage physical devices."
-msgstr "Fiziksel cihazları yönetin."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+"Ollama başarıyla paylaşıldı.\\n"
+"Adres: http://$localIp:11434"
 #: NEEDS WORK
-msgid "Enable the Wi-Fi adapter."
-msgstr "Wi-Fi adaptörünü etkinleştir."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+msgid "Failed to configure Ollama sharing!"
+msgstr "Ollama paylaşımını yapılandırma başarısız oldu!"
+msgid "Ollama Lab Install"
+msgstr "Ollama Lab Kurulumu"
 #: NEEDS WORK
-msgid "Enable the Bluetooth adapter."
-msgstr "Bluetooth adaptörünü etkinleştir."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
-msgid "JamesDSP"
-msgstr "JamesDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "Ses kalitesini artıran gelişmiş ses efekti işlemcisi."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
-msgid "Reverse mouse scrolling"
-msgstr "Tersine fare kaydırma"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "Oturumu yeniden başlatmadan fare kaydırmasını tersine çevir."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+msgid "Installing Ollama Lab, please wait..."
+msgstr "Ollama Lab kuruluyor, lütfen bekleyin..."
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Lab Kaldırma"
 #: NEEDS WORK
-msgid "Network Interfaces"
-msgstr "Ağ Arayüzleri"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Ollama Lab kaldırılıyor, lütfen bekleyin..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab başarıyla yüklendi!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Ollama Lab'ı yükleme başarısız!"
+msgid "Installing $package"
+msgstr "$package kuruluyor"
 #: NEEDS WORK
-msgid "Connect or disconnect network devices."
-msgstr "Ağ cihazlarını bağlayın veya ayırın."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+msgid "Installing $package, please wait..."
+msgstr "$package kuruluyor, lütfen bekleyin..."
+msgid "Removing $package"
+msgstr "$package kaldırılıyor"
 #: NEEDS WORK
-#, python-brace-format
-msgid "{} — {}"
-msgstr "Tam anahtarı (kullanım bağlamı): {} — {}"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+msgid "Removing $package, please wait..."
+msgstr "$package kaldırılıyor, lütfen bekleyin..."
+msgid ""
+"$title installed successfully!\\n"
+"\\n"
+"Configured on port $port, to access use $url"
+msgstr ""
+"$title başarıyla yüklendi!\\n"
+"\\n"
+"Erişim için $url kullanarak $port üzerinde yapılandırıldı."
+msgid "$package removed successfully!"
+msgstr "$paket başarıyla kaldırıldı!"
+msgid "An error occurred with $package."
+msgstr "$package ile ilgili bir hata oluştu."
+msgid "Docker Install"
+msgstr "Docker Kurulumu"
 #: NEEDS WORK
-#, python-brace-format
-msgid "{}: toggle connection"
-msgstr "{}: bağlantıyı aç/kapat"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+msgid "Installing Docker, please wait..."
+msgstr "Docker kuruluyor, lütfen bekleyin..."
+msgid "Docker Start"
+msgstr "Docker Başlat"
 #: NEEDS WORK
-msgid "Applying…"
-msgstr "Uygulanıyor…"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+msgid "Docker Starting, please wait..."
+msgstr "Docker Başlatılıyor, lütfen bekleyin..."
+msgid "Docker Stop"
+msgstr "Docker Durdur"
 #: NEEDS WORK
-msgid "connected"
-msgstr "bağlı"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+msgid "Docker Stopping, please wait..."
+msgstr "Docker Durduruluyor, lütfen bekleyin..."
+msgid "Docker installed successfully!"
+msgstr "Docker başarıyla yüklendi!"
 #: NEEDS WORK
-msgid "disconnected"
-msgstr "bağlantı kesildi"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
-#: NEEDS WORK
-#, python-brace-format
-msgid "Failed to change network device: {}"
-msgstr "Ağ cihazı değiştirilemedi: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "Önceden Yükle"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "Uygulamaları daha hızlı açmak için belleğe önceden yükleyin."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "Firefox"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "Brave"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "Chrome"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "Kromium"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "Librewolf"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "Palemoon"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "Opera"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "Libreoffice"
+msgid "An error occurred while installing Docker."
+msgstr "Docker yüklenirken bir hata oluştu."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
@@ -709,6 +356,21 @@ msgstr "Ollama Sunucusu"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Donanımınız için en iyi Ollama sunucusunu seçin."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Update Ollama"
+msgstr "Ollama'yı Güncelle"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Update the installed Ollama packages to the latest version."
+msgstr "Yüklenmiş Ollama paketlerini en son sürüme güncelle."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
+#: NEEDS WORK
+msgid "Update now"
+msgstr "Şimdi güncelle"
 # 
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
 #: NEEDS WORK
@@ -764,9 +426,41 @@ msgstr ""
 msgid "Open Notebook"
 msgstr "Not Defteri Açık"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
-msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "Google'ın Notebook LM'sine açık kaynaklı, gizliliğe odaklı bir alternatif!"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+#: NEEDS WORK
+msgid "Open-source, privacy-focused alternative to Google's NotebookLM. Requires Docker enabled."
+msgstr ""
+"Google'ın NotebookLM'sine açık kaynaklı, gizliliğe odaklanmış bir alternatif. Docker "
+"etkinleştirilmiş gereklidir."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 201
+#: NEEDS WORK
+msgid "Open Notebook Server"
+msgstr "Açık Not Defteri Sunucusu"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 202
+#: NEEDS WORK
+msgid "Start the Open Notebook server."
+msgstr "Açık Not Defteri sunucusunu başlat."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+#, python-brace-format
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"Açık Not Defteri çalışıyor.\n"
+"Adres: http://localhost:8502\n"
+"ve\n"
+"Adres: http://{}:8502"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
 msgid "ComfyUI (GPU ONLY)"
@@ -870,6 +564,74 @@ msgid ""
 msgstr ""
 "Yerel AI sunucusu. 6000 serisinden itibaren daha yeni AMD GPU'ları için. Vulkan kullanmayı düşünün, "
 "birçok testte Vulkan, ROCm'den daha iyi performans gösterdi."
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 11
+#: NEEDS WORK
+msgid "AI Coding Assistants"
+msgstr "Yapay Zeka Kodlama Asistanları"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 12
+#: NEEDS WORK
+msgid "Open-source coding agents powered by language models."
+msgstr "Dil modelleriyle desteklenen açık kaynak kodlama ajanları."
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 21
+#: NEEDS WORK
+msgid "OpenClaude"
+msgstr "OpenClaude"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 23
+#: NEEDS WORK
+msgid ""
+"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ models. Installs nodejs, "
+"npm and ripgrep as dependencies."
+msgstr ""
+"OpenAI, Gemini, DeepSeek, Ollama ve 200'den fazla model için açık kaynak kodlama aracı CLI. Nodejs, "
+"npm ve ripgrep'i bağımlılıklar olarak kurar."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Önceden Yükle"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Uygulamaları daha hızlı açmak için belleğe önceden yükleyin."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Brave"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Kromium"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "Librewolf"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Opera"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "Libreoffice"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Docker"
 # 
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
 #: NEEDS WORK
@@ -1104,26 +866,325 @@ msgstr ""
 "ve\n"
 "Adres: http://{}:2017"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
-msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "Google'ın Notebook LM'sine açık kaynaklı, gizliliğe odaklı bir alternatif kurun!"
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 195
+#: NEEDS WORK
+msgid "Install the open-source alternative to Google's NotebookLM."
+msgstr "Google'ın NotebookLM'sine açık kaynak alternatifini kurun."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
-msgid "Run Open Notebook."
-msgstr "Açık Defteri Çalıştır."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "BigLinux Ayarları"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
+#: NEEDS WORK
+msgid "BigLinux Community"
+msgstr "BigLinux Topluluğu"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Ara..."
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
+#: NEEDS WORK
+msgid "Search settings"
+msgstr "Arama ayarları"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
+#: NEEDS WORK
+msgid "Toggle navigation sidebar"
+msgstr "Navigasyon yan çubuğunu aç/kapat"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
+#: NEEDS WORK
+msgid "About"
+msgstr "Hakkında"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
+#: NEEDS WORK
+msgid "Main Menu"
+msgstr "Ana Menü"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "Sistem"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Kullanılabilirlik"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "Ön Yükleme"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
+msgid "Devices"
+msgstr "Cihazlar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+msgid "A.I."
+msgstr "Yapay Zeka"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 297
+#: NEEDS WORK
+msgid "Developer"
+msgstr "Geliştirici"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
+msgid "Performance"
+msgstr "Performans"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 302
+#: NEEDS WORK
+msgid "Suspend"
+msgstr "Askıya Al"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
+#: NEEDS WORK
+msgid "Dismiss"
+msgstr "Kapat"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "Fiziksel cihazları yönetin."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "Wi-Fi adaptörünü etkinleştir."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "Bluetooth adaptörünü etkinleştir."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Ses kalitesini artıran gelişmiş ses efekti işlemcisi."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "Tersine fare kaydırma"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "Oturumu yeniden başlatmadan fare kaydırmasını tersine çevir."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "Ağ Arayüzleri"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "Ağ cihazlarını bağlayın veya ayırın."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
 #, python-brace-format
-msgid ""
-"Open Notebook is running.\n"
-"Address: http://localhost:8502\n"
-"and\n"
-"Address: http://{}:8502"
+msgid "{} — {}"
+msgstr "Tam anahtarı (kullanım bağlamı): {} — {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: bağlantıyı aç/kapat"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "Uygulanıyor…"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "bağlı"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "bağlantı kesildi"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "Ağ cihazı değiştirilemedi: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
+#: NEEDS WORK
+msgid "Sleep Mode"
+msgstr "Uyku Modu"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
+#: NEEDS WORK
+msgid "Configure how the system suspends."
+msgstr "Sistemin nasıl askıya alındığını yapılandırın."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
+#: NEEDS WORK
+msgid "Use s2idle (light sleep)"
+msgstr "s2idle kullanın (hafif uyku)"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
+#: NEEDS WORK
+msgid "Uses a lighter sleep mode that preserves Fn keys and device state. Recommended for ASUS notebooks."
 msgstr ""
-"Açık Not Defteri çalışıyor.\n"
-"Adres: http://localhost:8502\n"
-"ve\n"
-"Adres: http://{}:8502"
+"Fn tuşlarını ve cihaz durumunu koruyan daha hafif bir uyku modu kullanır. ASUS dizüstü "
+"bilgisayarlar için önerilir."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
+#: NEEDS WORK
+msgid ""
+"S3 deep sleep can cause the Embedded Controller to stop generating hotkey interrupts. s2idle keeps "
+"the EC powered, avoiding this issue at a small cost in battery consumption."
+msgstr ""
+"S3 derin uyku, Gömülü Kontrolcünün kısayol tuşu kesintileri üretmeyi durdurmasına neden olabilir. "
+"s2idle, EC'yi güçte tutarak bu sorunu küçük bir pil tüketimi maliyetiyle önler."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
+#: NEEDS WORK
+msgid "WiFi"
+msgstr "WiFi"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
+#: NEEDS WORK
+msgid "Prevent WiFi issues after suspend."
+msgstr "Süspendeden sonra WiFi sorunlarını önleyin."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
+#: NEEDS WORK
+msgid "Protect WiFi on suspend"
+msgstr "WiFi'yi askıya alındığında koru"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
+#: NEEDS WORK
+msgid ""
+"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding connection loss after "
+"resume."
+msgstr ""
+"Realtek WiFi yongası tamamen kapatılmasını (d3cold) engeller, yeniden başlatma sonrası bağlantı "
+"kaybını önler."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
+#: NEEDS WORK
+msgid ""
+"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power gating. This keeps the chip "
+"in d3hot (PCIe link alive) during suspend."
+msgstr ""
+"Bazı Realtek RTL8852BE/CE yongaları, d3cold güç kapama işleminden sonra yeniden başlatılamaz. Bu, "
+"yongayı askıya alma sırasında d3hot'ta (PCIe bağlantısı aktif) tutar."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
+#: NEEDS WORK
+msgid "Display and Keyboard"
+msgstr "Ekran ve Klavye"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
+#: NEEDS WORK
+msgid "Preserve brightness and LED state across suspend."
+msgstr "Suspend sırasında parlaklığı ve LED durumunu koru."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
+#: NEEDS WORK
+msgid "Save/restore brightness on suspend"
+msgstr "Süspendede parlaklığı kaydet/geri yükle"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
+#: NEEDS WORK
+msgid "Saves screen brightness and keyboard LEDs before suspending and restores them on resume."
+msgstr ""
+"Ekran parlaklığını ve klavye LED'lerini askıya almadan önce kaydeder ve yeniden başlatıldığında "
+"geri yükler."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
+#: NEEDS WORK
+msgid "GNOME Shell Extensions"
+msgstr "GNOME Shell Uzantıları"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
+#: NEEDS WORK
+msgid "Automatic health check after resume."
+msgstr "Otomatik sağlık kontrolü, yeniden başlatmadan sonra."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
+#: NEEDS WORK
+msgid "Extension health monitor"
+msgstr "Uzantı sağlık izleyici"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
+#: NEEDS WORK
+msgid "Detects GNOME Shell extensions in error state after resume and automatically restarts them."
+msgstr ""
+"GNOME Shell uzantılarını, uyku modundan sonra hata durumunda tespit eder ve otomatik olarak yeniden "
+"başlatır."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
+#: NEEDS WORK
+msgid "Lid Switch"
+msgstr "Kapa Anahtarı"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
+#: NEEDS WORK
+msgid "Laptop lid close behavior."
+msgstr "Laptop kapa kapama davranışı."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#: NEEDS WORK
+msgid "Suspend on lid close (AC power)"
+msgstr "Kapağı kapatınca askıya al (Şebeke gücü)"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#: NEEDS WORK
+msgid "Some systems do not suspend when on AC power. This forces suspend when the lid is closed."
+msgstr ""
+"Bazı sistemler AC güçteyken askıya alınmaz. Bu, kapağın kapatılması durumunda askıya alınmayı "
+"zorlar."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -1203,6 +1264,47 @@ msgstr ""
 "Bu, donanım izleyicisini devre dışı bırakacaktır. Sisteminiz artık belirli türdeki çöküşlerden "
 "otomatik olarak kurtulmayacaktır. Devam etmek istediğinizden emin misiniz?"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Kullanıcı ve Görsel sistem ayarları."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Başlangıç NumLock durumu. Otomatik giriş etkinse göz ardı edilir."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Pencere Düğmesi Sol Tarafta"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Pencerenin sol tarafında maksimum, minimum ve kapatma düğmeleri."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZones"
+# 
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "KDE Plasma masaüstü için pencere döşeme alanlarını etkinleştir."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "Son Dosyalar ve Konumlar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
+msgstr ""
+"Dolphin ve Uygulama Menüsü'nde boş görünen 'Son Dosyalar' ve 'Son Konumlar' işlevselliğini geri "
+"yükler."
+# 
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
 #: NEEDS WORK
 msgid "Close"
@@ -1223,6 +1325,52 @@ msgstr "İptal"
 #: NEEDS WORK
 msgid "Continue"
 msgstr "Devam et"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 220
+#: NEEDS WORK
+msgid "Run"
+msgstr "Çalıştır"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 226
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: run action"
+msgstr "{}: eylemi çalıştır"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+#, python-brace-format
+msgid "Script not found: {}"
+msgstr "Script bulunamadı: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 279
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action script {} failed: {}"
+msgstr "Eylem betiği {} başarısız oldu: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 284
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action script timeout: {}"
+msgstr "Eylem betiği zaman aşımı: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 287
+#: NEEDS WORK
+#, python-brace-format
+msgid "Error running action script {}: {}"
+msgstr "Eylem betiği çalıştırılırken hata: {}: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 297
+#: NEEDS WORK
+msgid "Action completed successfully"
+msgstr "İşlem başarıyla tamamlandı"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 300
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action failed: {}"
+msgstr "Eylem başarısız oldu: {}"
 # 
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
 #: NEEDS WORK
@@ -1253,12 +1401,6 @@ msgstr "{}: daha fazla bilgi edinin"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
 msgid "Unavailable: script not found."
 msgstr "Kullanılamıyor: betik bulunamadı."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
-#, python-brace-format
-msgid "Script not found: {}"
-msgstr "Script bulunamadı: {}"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 

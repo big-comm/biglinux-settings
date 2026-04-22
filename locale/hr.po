@@ -15,197 +15,18 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "comfyUI Depends Install"
-msgstr "comfyUI Ovisno Instaliraj"
-#: NEEDS WORK
-msgid "Installing comfyUI Depends, please wait..."
-msgstr "Instaliranje comfyUI ovisnosti, molimo pričekajte..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI ovisno instalirano uspješno!"
-msgid "Failed to install comfyUI Depends!"
-msgstr "Nije uspjelo instalirati comfyUI ovisnosti!"
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Ollama poslužitelj radi.\\n"
-"Adresa: http://localhost:11434"
-msgid "ChatBox Install"
-msgstr "Instalacija ChatBox-a"
-#: NEEDS WORK
-msgid "Installing ChatBox, please wait..."
-msgstr "Instaliranje ChatBox-a, molimo pričekajte..."
-msgid "ChatBox Uninstall"
-msgstr "Deinstaliraj ChatBox"
-#: NEEDS WORK
-msgid "Uninstalling ChatBox, please wait..."
-msgstr "Deinstaliranje ChatBoxa, molimo pričekajte..."
-msgid "ChatBox installed successfully!"
-msgstr "ChatBox je uspješno instaliran!"
-msgid "Failed to install ChatBox!"
-msgstr "Instalacija ChatBox-a nije uspjela!"
-msgid "Ollama Lab Install"
-msgstr "Ollama Lab Instaliraj"
-#: NEEDS WORK
-msgid "Installing Ollama Lab, please wait..."
-msgstr "Instaliranje Ollama Laba, molimo pričekajte..."
-msgid "Ollama Lab Uninstall"
-msgstr "Ollama Lab Deinstaliraj"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Lab, please wait..."
-msgstr "Deinstaliranje Ollama Lab, molimo pričekajte..."
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Lab je uspješno instaliran!"
-msgid "Failed to install Ollama Lab!"
-msgstr "Nije uspjelo instalirati Ollama Lab!"
-msgid "LM Studio Install"
-msgstr "LM Studio Instaliraj"
-#: NEEDS WORK
-msgid "Installing LM Studio, please wait..."
-msgstr "Instaliranje LM Studija, molimo pričekajte..."
-msgid "LM Studio Uninstall"
-msgstr "LM Studio Deinstaliraj"
-#: NEEDS WORK
-msgid "Uninstalling LM Studio, please wait..."
-msgstr "Deinstaliranje LM Studija, molimo pričekajte..."
-msgid "LM Studio installed successfully!"
-msgstr "LM Studio je uspješno instaliran!"
-msgid "Failed to install LM Studio!"
-msgstr "Instalacija LM Studija nije uspjela!"
-msgid "Ollama Install"
-msgstr "Ollama Instaliraj"
-#: NEEDS WORK
-msgid "Installing Ollama, please wait..."
-msgstr "Instaliranje Ollama, molimo pričekajte..."
-msgid "Ollama Uninstall"
-msgstr "Ollama Deinstaliraj"
-#: NEEDS WORK
-msgid "Uninstalling Ollama, please wait..."
-msgstr "Deinstaliranje Ollame, molimo pričekajte..."
-msgid "Ollama installed successfully!"
-msgstr "Ollama je uspješno instaliran!"
-msgid "Failed to install Ollama!"
-msgstr "Instalacija Ollama nije uspjela!"
-msgid "comfyUI Install...."
-msgstr "comfyUI Instaliraj...."
-#: NEEDS WORK
-msgid "Installing comfyUI, this step takes a long time, please wait..."
-msgstr "Instaliranje comfyUI, ovaj korak traje dugo, molimo vas da pričekate..."
-msgid "Uninstall comfyUI...."
-msgstr "Deinstaliraj comfyUI...."
-#: NEEDS WORK
-msgid "Uninstalling comfyUI, please wait..."
-msgstr "Deinstaliranje comfyUI, molimo pričekajte..."
-msgid "comfyUI installed successfully"
-msgstr "comfyUI je uspješno instaliran"
-msgid "comfyUI uninstalled successfully"
-msgstr "comfyUI je uspješno deinstaliran"
-msgid "Failed to install comfyUI!"
-msgstr "Nije uspjelo instalirati comfyUI!"
-msgid "Ollama CUDA Install"
-msgstr "Ollama CUDA Instalacija"
-#: NEEDS WORK
-msgid "Installing Ollama CUDA, please wait..."
-msgstr "Instaliranje Ollama CUDA, molimo pričekajte..."
-msgid "Ollama CUDA Uninstall"
-msgstr "Ollama CUDA Deinstaliraj"
-#: NEEDS WORK
-msgid "Uninstalling Ollama CUDA, please wait..."
-msgstr "Deinstaliranje Ollama CUDA, molimo pričekajte..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA je uspješno instaliran!"
-msgid "Failed to install Ollama CUDA!"
-msgstr "Instalacija Ollama CUDA nije uspjela!"
-msgid ""
-"Generative AI for Krita has been successfully installed.\\n"
-"\\n"
-"Open Krita, open an existing drawing or create a new one.\\n"
-"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
-"\\n"
-"In the window that opens on the bottom right.\\n"
-"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
-"click Install."
-msgstr ""
-"Generativna AI za Krita je uspješno instalirana.\\n"
-"\\n"
-"Otvorite Kritu, otvorite postojeći crtež ili stvorite novi.\\n"
-"U gornjem panelu idite na Postavke > Ploče > označite okvir za Generiranje slika AI.\\n"
-"\\n"
-"U prozoru koji se otvara u donjem desnom kutu.\\n"
-"Kliknite Konfiguriraj > Lokalni upravljani poslužitelj, odaberite svoj GPU ili CPU, odaberite model "
-"u Opterećenjima i kliknite Instaliraj."
-msgid "AMD/Nvidia GPU not found!"
-msgstr "AMD/Nvidia GPU nije pronađen!"
-msgid "Krita Install"
-msgstr "Krita Instaliraj"
-#: NEEDS WORK
-msgid "Installing Krita, please wait..."
-msgstr "Instaliranje Krita, molimo pričekajte..."
-msgid "Krita Uninstall"
-msgstr "Deinstaliraj Krita"
-#: NEEDS WORK
-msgid "Uninstalling Krita, please wait..."
-msgstr "Deinstaliranje Krita, molimo pričekajte..."
-msgid "Krita installed successfully!"
-msgstr "Krita je uspješno instaliran!"
-msgid "Failed to install Krita!"
-msgstr "Instalacija Krita nije uspjela!"
-msgid "Ollama Vulkan Install"
-msgstr "Ollama Vulkan Instalacija"
-msgid "Ollama Vulkan Uninstall"
-msgstr "Ollama Vulkan Deinstaliraj"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Vulkan, please wait..."
-msgstr "Deinstaliranje Ollama Vulkan, molimo pričekajte..."
-msgid "Ollama Vulkan installed successfully!"
-msgstr "Ollama Vulkan je uspješno instaliran!"
-msgid "Failed to install Ollama Vulkan!"
-msgstr "Neuspjela instalacija Ollama Vulkan!"
-msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
-msgstr ""
-"Ollama je uspješno dijeljen.\\n"
-"Adresa: http://$localIp:11434"
-#: NEEDS WORK
-msgid "Failed to configure Ollama sharing!"
-msgstr "Nije uspjelo konfigurirati dijeljenje Ollama!"
-msgid "Ollama ROCm Install"
-msgstr "Ollama ROCm Instalacija"
-#: NEEDS WORK
-msgid "Installing Ollama ROCm, please wait..."
-msgstr "Instaliranje Ollama ROCm, molimo pričekajte..."
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm Deinstaliraj"
-#: NEEDS WORK
-msgid "Uninstalling Ollama ROCm, please wait..."
-msgstr "Deinstaliranje Ollama ROCm, molimo pričekajte..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm je uspješno instaliran!"
-msgid "Failed to install Ollama ROCm!"
-msgstr "Nije uspjelo instalirati Ollama ROCm!"
 msgid "Applying, please wait..."
 msgstr "Primjena, molimo pričekajte..."
-msgid "GRUB updated successfully!"
-msgstr "GRUB je uspješno ažuriran!"
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB je uspješno ažuriran!\\n"
+"Ponovno pokrenite računalo da bi promjene stupile na snagu."
 msgid "An error occurred while updating GRUB."
 msgstr "Došlo je do pogreške prilikom ažuriranja GRUB-a."
-msgid "Limits updated successfully!"
-msgstr "Ograničenja su uspješno ažurirana!"
-msgid "An error occurred while updating Limits."
-msgstr "Došlo je do pogreške prilikom ažuriranja ograničenja."
-msgid "Example Install"
-msgstr "Primjer instalacije"
-msgid "Instaling Example, Please wait..."
-msgstr "Instalacija primjera, molimo pričekajte..."
-msgid "Example Uninstall"
-msgstr "Primjer deinstalacije"
-msgid "Uninstaling Example, Please wait..."
-msgstr "Deinstalacija primjera, molimo pričekajte..."
-msgid "Example installed successfully!"
-msgstr "Primjer je uspješno instaliran!"
-msgid "Failed to install Example!"
-msgstr "Instalacija primjera nije uspjela!"
+msgid "Already enabled. No changes made."
+msgstr "Već omogućeno. Nema promjena."
 msgid "JamesDSP Install"
 msgstr "JamesDSP Instaliraj"
 #: NEEDS WORK
@@ -215,56 +36,12 @@ msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP je uspješno instaliran!"
 msgid "Failed to install jamesDSP!"
 msgstr "Nije uspjelo instalirati jamesDSP!"
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB je uspješno ažuriran!\\n"
-"Ponovno pokrenite računalo da bi promjene stupile na snagu."
-msgid "Already enabled. No changes made."
-msgstr "Već omogućeno. Nema promjena."
-msgid "Docker Install"
-msgstr "Instalacija Dockera"
-#: NEEDS WORK
-msgid "Installing Docker, please wait..."
-msgstr "Instaliranje Dockera, molimo pričekajte..."
-msgid "Docker Start"
-msgstr "Pokreni Docker"
-#: NEEDS WORK
-msgid "Docker Starting, please wait..."
-msgstr "Docker se pokreće, molimo pričekajte..."
-msgid "Docker Stop"
-msgstr "Docker Zaustavi"
-#: NEEDS WORK
-msgid "Docker Stopping, please wait..."
-msgstr "Docker se zaustavlja, molimo pričekajte..."
-msgid "Docker installed successfully!"
-msgstr "Docker je uspješno instaliran!"
-#: NEEDS WORK
-msgid "An error occurred while installing Docker."
-msgstr "Došlo je do pogreške prilikom instalacije Dockera."
-msgid "Installing $package"
-msgstr "Instaliranje $package"
-#: NEEDS WORK
-msgid "Installing $package, please wait..."
-msgstr "Instaliranje $package, molimo pričekajte..."
-msgid "Removing $package"
-msgstr "Uklanjanje $package"
-#: NEEDS WORK
-msgid "Removing $package, please wait..."
-msgstr "Uklanjanje $package, molimo pričekajte..."
-msgid ""
-"$title installed successfully!\\n"
-"\\n"
-"Configured on port $port, to access use $url"
-msgstr ""
-"$title je uspješno instaliran!\\n"
-"\\n"
-"Konfigurirano na portu $port, za pristup koristite $url"
-msgid "$package removed successfully!"
-msgstr "$paket je uspješno uklonjen!"
-msgid "An error occurred with $package."
-msgstr "Došlo je do pogreške s $package."
+msgid "Limits updated successfully!"
+msgstr "Ograničenja su uspješno ažurirana!"
+msgid "An error occurred while updating Limits."
+msgstr "Došlo je do pogreške prilikom ažuriranja ograničenja."
+msgid "GRUB updated successfully!"
+msgstr "GRUB je uspješno ažuriran!"
 msgid "kzones Install"
 msgstr "kzones Instaliraj"
 #: NEEDS WORK
@@ -296,383 +73,271 @@ msgstr ""
 "Morate zatvoriti i ponovo otvoriti Dolphin da bi promjene stupile na snagu."
 msgid "Failed to activate Recent Files!"
 msgstr "Aktivacija Nedavnih Datoteka nije uspjela!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "BigLinux Settings"
-msgstr "BigLinux Postavke"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
 #: NEEDS WORK
-msgid "BigLinux Community"
-msgstr "BigLinux Zajednica"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
-msgid "Search..."
-msgstr "Pretraži..."
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
+msgid "OpenClaude Install"
+msgstr "OpenClaude Instaliraj"
 #: NEEDS WORK
-msgid "Search settings"
-msgstr "Postavke pretraživanja"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
+msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
+msgstr "Instaliranje OpenClaude (nodejs, npm, ripgrep potrebni), molimo pričekajte..."
 #: NEEDS WORK
-msgid "Toggle navigation sidebar"
-msgstr "Prebaci navigacijsku bočnu traku"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
+msgid "OpenClaude Uninstall"
+msgstr "OpenClaude Deinstaliraj"
 #: NEEDS WORK
-msgid "About"
-msgstr "O programu"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
-#: NEEDS WORK
-msgid "Main Menu"
-msgstr "Glavni izbornik"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Sustav"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Upotrebljivost"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
-msgid "PreLoad"
-msgstr "PreLoad"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
-msgid "Devices"
-msgstr "Uređaji"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
-msgid "A.I."
-msgstr "A.I."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "Docker"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
-msgid "Performance"
-msgstr "Izvedba"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 302
-#: NEEDS WORK
-msgid "Suspend"
-msgstr "Suspendirati"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
-#: NEEDS WORK
-msgid "Dismiss"
-msgstr "Odbaci"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
-#: NEEDS WORK
-msgid "Sleep Mode"
-msgstr "Način spavanja"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
-#: NEEDS WORK
-msgid "Configure how the system suspends."
-msgstr "Konfigurirajte kako sustav suspendira."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
-#: NEEDS WORK
-msgid "Use s2idle (light sleep)"
-msgstr "Koristite s2idle (lagani san)"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
-#: NEEDS WORK
-msgid "Uses a lighter sleep mode that preserves Fn keys and device state. Recommended for ASUS notebooks."
-msgstr ""
-"Koristi lakši način spavanja koji čuva Fn tipke i stanje uređaja. Preporučuje se za ASUS "
-"prijenosnike."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
+msgid "Uninstalling OpenClaude, please wait..."
+msgstr "Deinstaliranje OpenClaude, molimo pričekajte..."
 #: NEEDS WORK
 msgid ""
-"S3 deep sleep can cause the Embedded Controller to stop generating hotkey interrupts. s2idle keeps "
-"the EC powered, avoiding this issue at a small cost in battery consumption."
+"OpenClaude installed successfully!\\n"
+"\\n"
+"Run 'openclaude' in a terminal to start."
 msgstr ""
-"S3 duboki san može uzrokovati da Ugrađeni Kontroler prestane generirati prekide za brze tipke. "
-"s2idle drži EC napajan, izbjegavajući ovaj problem uz mali trošak u potrošnji baterije."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
+"OpenClaude je uspješno instaliran!\\n"
+"\\n"
+"Pokrenite 'openclaude' u terminalu za početak."
 #: NEEDS WORK
-msgid "WiFi"
-msgstr "WiFi"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
+msgid "OpenClaude removed successfully!"
+msgstr "OpenClaude je uspješno uklonjen!"
 #: NEEDS WORK
-msgid "Prevent WiFi issues after suspend."
-msgstr "Spriječite probleme s WiFi-jem nakon suspenzije."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
-#: NEEDS WORK
-msgid "Protect WiFi on suspend"
-msgstr "Zaštiti WiFi tijekom suspenzije"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
-#: NEEDS WORK
+msgid "An error occurred with OpenClaude."
+msgstr "Došlo je do pogreške s OpenClaude."
+msgid "Example Install"
+msgstr "Primjer instalacije"
+msgid "Instaling Example, Please wait..."
+msgstr "Instalacija primjera, molimo pričekajte..."
+msgid "Example Uninstall"
+msgstr "Primjer deinstalacije"
+msgid "Uninstaling Example, Please wait..."
+msgstr "Deinstalacija primjera, molimo pričekajte..."
+msgid "Example installed successfully!"
+msgstr "Primjer je uspješno instaliran!"
+msgid "Failed to install Example!"
+msgstr "Instalacija primjera nije uspjela!"
 msgid ""
-"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding connection loss after "
-"resume."
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
 msgstr ""
-"Sprječava da Realtek WiFi čip potpuno isključi napajanje (d3cold), čime se izbjegava gubitak veze "
-"nakon ponovnog pokretanja."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
+"Ollama poslužitelj radi.\\n"
+"Adresa: http://localhost:11434"
 #: NEEDS WORK
+msgid "No Ollama packages are installed. Enable an Ollama variant first."
+msgstr "Nema instaliranih Ollama paketa. Prvo omogućite Ollama varijantu."
+#: NEEDS WORK
+msgid "Updating Ollama"
+msgstr "Ažuriranje Ollame"
+#: NEEDS WORK
+msgid "Synchronizing repositories and updating Ollama, please wait..."
+msgstr "Sinkronizacija repozitorija i ažuriranje Ollama, molimo pričekajte..."
+#: NEEDS WORK
+msgid "Ollama updated successfully!"
+msgstr "Ollama je uspješno ažuriran!"
+#: NEEDS WORK
+msgid "Failed to update Ollama."
+msgstr "Ažuriranje Ollame nije uspjelo."
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA Instalacija"
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "Instaliranje Ollama CUDA, molimo pričekajte..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA Deinstaliraj"
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "Deinstaliranje Ollama CUDA, molimo pričekajte..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA je uspješno instaliran!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Instalacija Ollama CUDA nije uspjela!"
+msgid "comfyUI Install...."
+msgstr "comfyUI Instaliraj...."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "Instaliranje comfyUI, ovaj korak traje dugo, molimo vas da pričekate..."
+msgid "Uninstall comfyUI...."
+msgstr "Deinstaliraj comfyUI...."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "Deinstaliranje comfyUI, molimo pričekajte..."
+msgid "comfyUI installed successfully"
+msgstr "comfyUI je uspješno instaliran"
+msgid "comfyUI uninstalled successfully"
+msgstr "comfyUI je uspješno deinstaliran"
+msgid "Failed to install comfyUI!"
+msgstr "Nije uspjelo instalirati comfyUI!"
+msgid "ChatBox Install"
+msgstr "Instalacija ChatBox-a"
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
+msgstr "Instaliranje ChatBox-a, molimo pričekajte..."
+msgid "ChatBox Uninstall"
+msgstr "Deinstaliraj ChatBox"
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
+msgstr "Deinstaliranje ChatBoxa, molimo pričekajte..."
+msgid "ChatBox installed successfully!"
+msgstr "ChatBox je uspješno instaliran!"
+msgid "Failed to install ChatBox!"
+msgstr "Instalacija ChatBox-a nije uspjela!"
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm Instalacija"
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
+msgstr "Instaliranje Ollama ROCm, molimo pričekajte..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm Deinstaliraj"
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Deinstaliranje Ollama ROCm, molimo pričekajte..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm je uspješno instaliran!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Nije uspjelo instalirati Ollama ROCm!"
+msgid "LM Studio Install"
+msgstr "LM Studio Instaliraj"
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
+msgstr "Instaliranje LM Studija, molimo pričekajte..."
+msgid "LM Studio Uninstall"
+msgstr "LM Studio Deinstaliraj"
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "Deinstaliranje LM Studija, molimo pričekajte..."
+msgid "LM Studio installed successfully!"
+msgstr "LM Studio je uspješno instaliran!"
+msgid "Failed to install LM Studio!"
+msgstr "Instalacija LM Studija nije uspjela!"
+msgid "Krita Install"
+msgstr "Krita Instaliraj"
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "Instaliranje Krita, molimo pričekajte..."
+msgid "Krita Uninstall"
+msgstr "Deinstaliraj Krita"
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
+msgstr "Deinstaliranje Krita, molimo pričekajte..."
+msgid "Krita installed successfully!"
+msgstr "Krita je uspješno instaliran!"
+msgid "Failed to install Krita!"
+msgstr "Instalacija Krita nije uspjela!"
+msgid "Ollama Install"
+msgstr "Ollama Instaliraj"
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
+msgstr "Instaliranje Ollama, molimo pričekajte..."
+msgid "Ollama Uninstall"
+msgstr "Ollama Deinstaliraj"
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Deinstaliranje Ollame, molimo pričekajte..."
+msgid "Ollama installed successfully!"
+msgstr "Ollama je uspješno instaliran!"
+msgid "Failed to install Ollama!"
+msgstr "Instalacija Ollama nije uspjela!"
+msgid "comfyUI Depends Install"
+msgstr "comfyUI Ovisno Instaliraj"
+#: NEEDS WORK
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "Instaliranje comfyUI ovisnosti, molimo pričekajte..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI ovisno instalirano uspješno!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "Nije uspjelo instalirati comfyUI ovisnosti!"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "AMD/Nvidia GPU nije pronađen!"
+msgid "Ollama Vulkan Install"
+msgstr "Ollama Vulkan Instalacija"
+msgid "Ollama Vulkan Uninstall"
+msgstr "Ollama Vulkan Deinstaliraj"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Deinstaliranje Ollama Vulkan, molimo pričekajte..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan je uspješno instaliran!"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Neuspjela instalacija Ollama Vulkan!"
 msgid ""
-"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power gating. This keeps the chip "
-"in d3hot (PCIe link alive) during suspend."
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
 msgstr ""
-"Neki Realtek RTL8852BE/CE čipovi ne uspijevaju ponovno inicijalizirati nakon d3cold isključivanja "
-"napajanja. To drži čip u d3hot (PCIe veza aktivna) tijekom suspenzije."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
-#: NEEDS WORK
-msgid "Display and Keyboard"
-msgstr "Prikaz i tipkovnica"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
-#: NEEDS WORK
-msgid "Preserve brightness and LED state across suspend."
-msgstr "Očuvaj svjetlinu i stanje LED-a tijekom suspenzije."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
-#: NEEDS WORK
-msgid "Save/restore brightness on suspend"
-msgstr "Spremi/vrati svjetlinu prilikom suspenzije"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
-#: NEEDS WORK
-msgid "Saves screen brightness and keyboard LEDs before suspending and restores them on resume."
-msgstr ""
-"Spremi svjetlinu ekrana i LED-ice tipkovnice prije suspendiranja i vrati ih prilikom ponovnog "
-"pokretanja."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
-#: NEEDS WORK
-msgid "GNOME Shell Extensions"
-msgstr "GNOME Shell Ekstenzije"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
-#: NEEDS WORK
-msgid "Automatic health check after resume."
-msgstr "Automatska provjera zdravlja nakon ponovnog pokretanja."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
-#: NEEDS WORK
-msgid "Extension health monitor"
-msgstr "Monitor zdravlja ekstenzije"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
-#: NEEDS WORK
-msgid "Detects GNOME Shell extensions in error state after resume and automatically restarts them."
-msgstr "Otkriva GNOME Shell ekstenzije u stanju pogreške nakon buđenja i automatski ih ponovno pokreće."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
-#: NEEDS WORK
-msgid "Lid Switch"
-msgstr "Prekidač poklopca"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
-#: NEEDS WORK
-msgid "Laptop lid close behavior."
-msgstr "Ponašanje zatvaranja poklopca prijenosnog računala."
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
-#: NEEDS WORK
-msgid "Suspend on lid close (AC power)"
-msgstr "Suspendiranje pri zatvaranju poklopca (AC napajanje)"
-# 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
-#: NEEDS WORK
-msgid "Some systems do not suspend when on AC power. This forces suspend when the lid is closed."
-msgstr ""
-"Neki sustavi se ne uspavaju kada su na AC napajanju. To prisiljava uspavljivanje kada je poklopac "
-"zatvoren."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Postavke korisnika i vizualnog sustava."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Početno stanje NumLocka. Ignorira se ako je omogućena automatska prijava."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Gumb za prozor s lijeve strane"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Dugme za maksimiziranje, minimiziranje i zatvaranje s lijeve strane prozora."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZone"
-# 
-# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable window tiling zones for the KDE Plasma desktop."
-msgstr "Omogući zone za pločice prozora za KDE Plasma radnu površinu."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "Nedavne datoteke i lokacije"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+"Generativna AI za Krita je uspješno instalirana.\\n"
+"\\n"
+"Otvorite Kritu, otvorite postojeći crtež ili stvorite novi.\\n"
+"U gornjem panelu idite na Postavke > Ploče > označite okvir za Generiranje slika AI.\\n"
+"\\n"
+"U prozoru koji se otvara u donjem desnom kutu.\\n"
+"Kliknite Konfiguriraj > Lokalni upravljani poslužitelj, odaberite svoj GPU ili CPU, odaberite model "
+"u Opterećenjima i kliknite Instaliraj."
 msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
 msgstr ""
-"Obnavlja funkcionalnost 'Nedavne datoteke' i 'Nedavne lokacije' koja se pojavljuje prazna u "
-"Dolphin-u i izborniku aplikacija."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
-msgid "Manage physical devices."
-msgstr "Upravljajte fizičkim uređajima."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+"Ollama je uspješno dijeljen.\\n"
+"Adresa: http://$localIp:11434"
 #: NEEDS WORK
-msgid "Enable the Wi-Fi adapter."
-msgstr "Omogući Wi-Fi adapter."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+msgid "Failed to configure Ollama sharing!"
+msgstr "Nije uspjelo konfigurirati dijeljenje Ollama!"
+msgid "Ollama Lab Install"
+msgstr "Ollama Lab Instaliraj"
 #: NEEDS WORK
-msgid "Enable the Bluetooth adapter."
-msgstr "Omogući Bluetooth adapter."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
-msgid "JamesDSP"
-msgstr "JamesDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "Napredni procesor audio efekata koji poboljšava kvalitetu zvuka."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
-msgid "Reverse mouse scrolling"
-msgstr "Obrnuto pomicanje miša"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "Obrnuto pomicanje miša bez ponovnog pokretanja sesije."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+msgid "Installing Ollama Lab, please wait..."
+msgstr "Instaliranje Ollama Laba, molimo pričekajte..."
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Lab Deinstaliraj"
 #: NEEDS WORK
-msgid "Network Interfaces"
-msgstr "Mrežne sučelja"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Deinstaliranje Ollama Lab, molimo pričekajte..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab je uspješno instaliran!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Nije uspjelo instalirati Ollama Lab!"
+msgid "Installing $package"
+msgstr "Instaliranje $package"
 #: NEEDS WORK
-msgid "Connect or disconnect network devices."
-msgstr "Poveži ili odspoji mrežne uređaje."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+msgid "Installing $package, please wait..."
+msgstr "Instaliranje $package, molimo pričekajte..."
+msgid "Removing $package"
+msgstr "Uklanjanje $package"
 #: NEEDS WORK
-#, python-brace-format
-msgid "{} — {}"
+msgid "Removing $package, please wait..."
+msgstr "Uklanjanje $package, molimo pričekajte..."
+msgid ""
+"$title installed successfully!\\n"
+"\\n"
+"Configured on port $port, to access use $url"
 msgstr ""
-"I'm sorry, but I need the specific string you want to translate in order to assist you. Please "
-"provide the string."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+"$title je uspješno instaliran!\\n"
+"\\n"
+"Konfigurirano na portu $port, za pristup koristite $url"
+msgid "$package removed successfully!"
+msgstr "$paket je uspješno uklonjen!"
+msgid "An error occurred with $package."
+msgstr "Došlo je do pogreške s $package."
+msgid "Docker Install"
+msgstr "Instalacija Dockera"
 #: NEEDS WORK
-#, python-brace-format
-msgid "{}: toggle connection"
-msgstr "{}: prebacivanje veze"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+msgid "Installing Docker, please wait..."
+msgstr "Instaliranje Dockera, molimo pričekajte..."
+msgid "Docker Start"
+msgstr "Pokreni Docker"
 #: NEEDS WORK
-msgid "Applying…"
-msgstr "Primjena…"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+msgid "Docker Starting, please wait..."
+msgstr "Docker se pokreće, molimo pričekajte..."
+msgid "Docker Stop"
+msgstr "Docker Zaustavi"
 #: NEEDS WORK
-msgid "connected"
-msgstr "povezan"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+msgid "Docker Stopping, please wait..."
+msgstr "Docker se zaustavlja, molimo pričekajte..."
+msgid "Docker installed successfully!"
+msgstr "Docker je uspješno instaliran!"
 #: NEEDS WORK
-msgid "disconnected"
-msgstr "isključen"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
-#: NEEDS WORK
-#, python-brace-format
-msgid "Failed to change network device: {}"
-msgstr "Neuspjelo je promijeniti mrežni uređaj: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "Predmemoriranje"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "Preuzmite aplikacije u memoriju kako biste ih brže otvorili."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "Firefox"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "Brave"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "Chrome"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "Kromium"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "Librewolf"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "Palemoon"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "Opera"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "LibreOffice"
+msgid "An error occurred while installing Docker."
+msgstr "Došlo je do pogreške prilikom instalacije Dockera."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
@@ -691,6 +356,21 @@ msgstr "Ollama Server"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Odaberite koji je Ollama poslužitelj najbolji za vašu hardversku opremu."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Update Ollama"
+msgstr "Ažuriraj Ollama"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Update the installed Ollama packages to the latest version."
+msgstr "Ažurirajte instalirane Ollama pakete na najnoviju verziju."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
+#: NEEDS WORK
+msgid "Update now"
+msgstr "Ažuriraj sada"
 # 
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
 #: NEEDS WORK
@@ -746,9 +426,41 @@ msgstr ""
 msgid "Open Notebook"
 msgstr "Otvorite bilježnicu"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
-msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "Otvoreni izvor, privatnosti usmjeren alternativ za Googleov Notebook LM!"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+#: NEEDS WORK
+msgid "Open-source, privacy-focused alternative to Google's NotebookLM. Requires Docker enabled."
+msgstr ""
+"Alternativa otvorenog koda usredotočena na privatnost za Googleov NotebookLM. Potreban je omogućen "
+"Docker."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 201
+#: NEEDS WORK
+msgid "Open Notebook Server"
+msgstr "Otvorite poslužitelj bilježnica"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 202
+#: NEEDS WORK
+msgid "Start the Open Notebook server."
+msgstr "Pokreni Open Notebook poslužitelj."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+#, python-brace-format
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"Otvoreni bilježnica radi.  \n"
+"Adresa: http://localhost:8502  \n"
+"i  \n"
+"Adresa: http://{}:8502"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
 msgid "ComfyUI (GPU ONLY)"
@@ -852,6 +564,74 @@ msgid ""
 msgstr ""
 "Lokalni AI poslužitelj. Za novije AMD GPU-ove, počevši od 6000 serije. Razmotrite korištenje "
 "Vulkana, u mnogim testovima, Vulkan je imao bolje performanse od ROCm-a."
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 11
+#: NEEDS WORK
+msgid "AI Coding Assistants"
+msgstr "AI pomoćnici za kodiranje"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 12
+#: NEEDS WORK
+msgid "Open-source coding agents powered by language models."
+msgstr "Agenti za kodiranje otvorenog koda pokretani jezičnim modelima."
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 21
+#: NEEDS WORK
+msgid "OpenClaude"
+msgstr "OpenClaude"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 23
+#: NEEDS WORK
+msgid ""
+"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ models. Installs nodejs, "
+"npm and ripgrep as dependencies."
+msgstr ""
+"CLI za otvoreni izvor kodiranja za OpenAI, Gemini, DeepSeek, Ollama i 200+ modela. Instalira "
+"nodejs, npm i ripgrep kao ovisnosti."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Predmemoriranje"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Preuzmite aplikacije u memoriju kako biste ih brže otvorili."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Brave"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Kromium"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "Librewolf"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Opera"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "LibreOffice"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Docker"
 # 
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
 #: NEEDS WORK
@@ -1086,26 +866,307 @@ msgstr ""
 "i  \n"
 "Adresa: http://{}:2017"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
-msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "Instalirajte otvoreni izvor, privatnost-orijentiranu alternativu Googleovom Notebook LM!"
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 195
+#: NEEDS WORK
+msgid "Install the open-source alternative to Google's NotebookLM."
+msgstr "Instalirajte otvoreni izvorni alternativu Googleovom NotebookLM-u."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
-msgid "Run Open Notebook."
-msgstr "Pokreni Otvoreni Bilježnicu."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "BigLinux Postavke"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
+#: NEEDS WORK
+msgid "BigLinux Community"
+msgstr "BigLinux Zajednica"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Pretraži..."
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
+#: NEEDS WORK
+msgid "Search settings"
+msgstr "Postavke pretraživanja"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
+#: NEEDS WORK
+msgid "Toggle navigation sidebar"
+msgstr "Prebaci navigacijsku bočnu traku"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
+#: NEEDS WORK
+msgid "About"
+msgstr "O programu"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
+#: NEEDS WORK
+msgid "Main Menu"
+msgstr "Glavni izbornik"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "Sustav"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Upotrebljivost"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "PreLoad"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
+msgid "Devices"
+msgstr "Uređaji"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+msgid "A.I."
+msgstr "A.I."
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 297
+#: NEEDS WORK
+msgid "Developer"
+msgstr "Razvijač"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
+msgid "Performance"
+msgstr "Izvedba"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 302
+#: NEEDS WORK
+msgid "Suspend"
+msgstr "Suspendirati"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
+#: NEEDS WORK
+msgid "Dismiss"
+msgstr "Odbaci"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "Upravljajte fizičkim uređajima."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "Omogući Wi-Fi adapter."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "Omogući Bluetooth adapter."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Napredni procesor audio efekata koji poboljšava kvalitetu zvuka."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "Obrnuto pomicanje miša"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "Obrnuto pomicanje miša bez ponovnog pokretanja sesije."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "Mrežne sučelja"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "Poveži ili odspoji mrežne uređaje."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
 #, python-brace-format
-msgid ""
-"Open Notebook is running.\n"
-"Address: http://localhost:8502\n"
-"and\n"
-"Address: http://{}:8502"
+msgid "{} — {}"
 msgstr ""
-"Otvoreni bilježnica radi.  \n"
-"Adresa: http://localhost:8502  \n"
-"i  \n"
-"Adresa: http://{}:8502"
+"I'm sorry, but I need the specific string you want to translate in order to assist you. Please "
+"provide the string."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: prebacivanje veze"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "Primjena…"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "povezan"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "isključen"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "Neuspjelo je promijeniti mrežni uređaj: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
+#: NEEDS WORK
+msgid "Sleep Mode"
+msgstr "Način spavanja"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
+#: NEEDS WORK
+msgid "Configure how the system suspends."
+msgstr "Konfigurirajte kako sustav suspendira."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
+#: NEEDS WORK
+msgid "Use s2idle (light sleep)"
+msgstr "Koristite s2idle (lagani san)"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
+#: NEEDS WORK
+msgid "Uses a lighter sleep mode that preserves Fn keys and device state. Recommended for ASUS notebooks."
+msgstr ""
+"Koristi lakši način spavanja koji čuva Fn tipke i stanje uređaja. Preporučuje se za ASUS "
+"prijenosnike."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
+#: NEEDS WORK
+msgid ""
+"S3 deep sleep can cause the Embedded Controller to stop generating hotkey interrupts. s2idle keeps "
+"the EC powered, avoiding this issue at a small cost in battery consumption."
+msgstr ""
+"S3 duboki san može uzrokovati da Ugrađeni Kontroler prestane generirati prekide za brze tipke. "
+"s2idle drži EC napajan, izbjegavajući ovaj problem uz mali trošak u potrošnji baterije."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
+#: NEEDS WORK
+msgid "WiFi"
+msgstr "WiFi"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
+#: NEEDS WORK
+msgid "Prevent WiFi issues after suspend."
+msgstr "Spriječite probleme s WiFi-jem nakon suspenzije."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
+#: NEEDS WORK
+msgid "Protect WiFi on suspend"
+msgstr "Zaštiti WiFi tijekom suspenzije"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
+#: NEEDS WORK
+msgid ""
+"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding connection loss after "
+"resume."
+msgstr ""
+"Sprječava da Realtek WiFi čip potpuno isključi napajanje (d3cold), čime se izbjegava gubitak veze "
+"nakon ponovnog pokretanja."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
+#: NEEDS WORK
+msgid ""
+"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power gating. This keeps the chip "
+"in d3hot (PCIe link alive) during suspend."
+msgstr ""
+"Neki Realtek RTL8852BE/CE čipovi ne uspijevaju ponovno inicijalizirati nakon d3cold isključivanja "
+"napajanja. To drži čip u d3hot (PCIe veza aktivna) tijekom suspenzije."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
+#: NEEDS WORK
+msgid "Display and Keyboard"
+msgstr "Prikaz i tipkovnica"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
+#: NEEDS WORK
+msgid "Preserve brightness and LED state across suspend."
+msgstr "Očuvaj svjetlinu i stanje LED-a tijekom suspenzije."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
+#: NEEDS WORK
+msgid "Save/restore brightness on suspend"
+msgstr "Spremi/vrati svjetlinu prilikom suspenzije"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
+#: NEEDS WORK
+msgid "Saves screen brightness and keyboard LEDs before suspending and restores them on resume."
+msgstr ""
+"Spremi svjetlinu ekrana i LED-ice tipkovnice prije suspendiranja i vrati ih prilikom ponovnog "
+"pokretanja."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
+#: NEEDS WORK
+msgid "GNOME Shell Extensions"
+msgstr "GNOME Shell Ekstenzije"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
+#: NEEDS WORK
+msgid "Automatic health check after resume."
+msgstr "Automatska provjera zdravlja nakon ponovnog pokretanja."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
+#: NEEDS WORK
+msgid "Extension health monitor"
+msgstr "Monitor zdravlja ekstenzije"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
+#: NEEDS WORK
+msgid "Detects GNOME Shell extensions in error state after resume and automatically restarts them."
+msgstr "Otkriva GNOME Shell ekstenzije u stanju pogreške nakon buđenja i automatski ih ponovno pokreće."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
+#: NEEDS WORK
+msgid "Lid Switch"
+msgstr "Prekidač poklopca"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
+#: NEEDS WORK
+msgid "Laptop lid close behavior."
+msgstr "Ponašanje zatvaranja poklopca prijenosnog računala."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#: NEEDS WORK
+msgid "Suspend on lid close (AC power)"
+msgstr "Suspendiranje pri zatvaranju poklopca (AC napajanje)"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#: NEEDS WORK
+msgid "Some systems do not suspend when on AC power. This forces suspend when the lid is closed."
+msgstr ""
+"Neki sustavi se ne uspavaju kada su na AC napajanju. To prisiljava uspavljivanje kada je poklopac "
+"zatvoren."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -1184,6 +1245,47 @@ msgstr ""
 "Ovo će onemogućiti hardverski nadzor. Vaš sustav više neće automatski oporavljati od određenih "
 "vrsta rušenja. Jeste li sigurni da želite nastaviti?"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Postavke korisnika i vizualnog sustava."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Početno stanje NumLocka. Ignorira se ako je omogućena automatska prijava."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Gumb za prozor s lijeve strane"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Dugme za maksimiziranje, minimiziranje i zatvaranje s lijeve strane prozora."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZone"
+# 
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "Omogući zone za pločice prozora za KDE Plasma radnu površinu."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "Nedavne datoteke i lokacije"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
+msgstr ""
+"Obnavlja funkcionalnost 'Nedavne datoteke' i 'Nedavne lokacije' koja se pojavljuje prazna u "
+"Dolphin-u i izborniku aplikacija."
+# 
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
 #: NEEDS WORK
 msgid "Close"
@@ -1204,6 +1306,52 @@ msgstr "Otkaži"
 #: NEEDS WORK
 msgid "Continue"
 msgstr "Nastavi"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 220
+#: NEEDS WORK
+msgid "Run"
+msgstr "Pokreni"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 226
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: run action"
+msgstr "{}: pokreni radnju"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+#, python-brace-format
+msgid "Script not found: {}"
+msgstr "Skripta nije pronađena: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 279
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action script {} failed: {}"
+msgstr "Akcijski skript {} nije uspio: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 284
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action script timeout: {}"
+msgstr "Izdavanje skripte akcije: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 287
+#: NEEDS WORK
+#, python-brace-format
+msgid "Error running action script {}: {}"
+msgstr "Greška prilikom izvođenja akcijskog skripta {}: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 297
+#: NEEDS WORK
+msgid "Action completed successfully"
+msgstr "Akcija je uspješno dovršena"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 300
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action failed: {}"
+msgstr "Akcija nije uspjela: {}"
 # 
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
 #: NEEDS WORK
@@ -1234,12 +1382,6 @@ msgstr "{}: saznajte više"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
 msgid "Unavailable: script not found."
 msgstr "Nedostupno: skripta nije pronađena."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
-#, python-brace-format
-msgid "Script not found: {}"
-msgstr "Skripta nije pronađena: {}"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
