@@ -15,196 +15,18 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "comfyUI Depends Install"
-msgstr "comfyUI 依赖安装"
-#: NEEDS WORK
-msgid "Installing comfyUI Depends, please wait..."
-msgstr "正在安装 comfyUI 依赖项，请稍候..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI 依赖项安装成功！"
-msgid "Failed to install comfyUI Depends!"
-msgstr "安装 comfyUI 失败，依赖项缺失！"
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Ollama 服务器正在运行。\\n"
-"地址：http://localhost:11434"
-msgid "ChatBox Install"
-msgstr "聊天框安装"
-#: NEEDS WORK
-msgid "Installing ChatBox, please wait..."
-msgstr "正在安装 ChatBox，请稍候..."
-msgid "ChatBox Uninstall"
-msgstr "卸载聊天框"
-#: NEEDS WORK
-msgid "Uninstalling ChatBox, please wait..."
-msgstr "正在卸载 ChatBox，请稍候..."
-msgid "ChatBox installed successfully!"
-msgstr "ChatBox 安装成功！"
-msgid "Failed to install ChatBox!"
-msgstr "安装 ChatBox 失败！"
-msgid "Ollama Lab Install"
-msgstr "Ollama实验室安装"
-#: NEEDS WORK
-msgid "Installing Ollama Lab, please wait..."
-msgstr "正在安装 Ollama Lab，请稍候..."
-msgid "Ollama Lab Uninstall"
-msgstr "卸载 Ollama Lab"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Lab, please wait..."
-msgstr "正在卸载 Ollama Lab，请稍候..."
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Lab 安装成功！"
-msgid "Failed to install Ollama Lab!"
-msgstr "安装Ollama Lab失败！"
-msgid "LM Studio Install"
-msgstr "LM Studio 安装"
-#: NEEDS WORK
-msgid "Installing LM Studio, please wait..."
-msgstr "正在安装 LM Studio，请稍候..."
-msgid "LM Studio Uninstall"
-msgstr "LM Studio 卸载"
-#: NEEDS WORK
-msgid "Uninstalling LM Studio, please wait..."
-msgstr "正在卸载 LM Studio，请稍候..."
-msgid "LM Studio installed successfully!"
-msgstr "LM Studio 安装成功！"
-msgid "Failed to install LM Studio!"
-msgstr "安装 LM Studio 失败！"
-msgid "Ollama Install"
-msgstr "Ollama 安装"
-#: NEEDS WORK
-msgid "Installing Ollama, please wait..."
-msgstr "正在安装Ollama，请稍候..."
-msgid "Ollama Uninstall"
-msgstr "卸载Ollama"
-#: NEEDS WORK
-msgid "Uninstalling Ollama, please wait..."
-msgstr "正在卸载 Ollama，请稍候..."
-msgid "Ollama installed successfully!"
-msgstr "Ollama 安装成功！"
-msgid "Failed to install Ollama!"
-msgstr "安装Ollama失败！"
-msgid "comfyUI Install...."
-msgstr "comfyUI 安装...."
-#: NEEDS WORK
-msgid "Installing comfyUI, this step takes a long time, please wait..."
-msgstr "正在安装 comfyUI，此步骤需要较长时间，请耐心等待..."
-msgid "Uninstall comfyUI...."
-msgstr "卸载comfyUI...."
-#: NEEDS WORK
-msgid "Uninstalling comfyUI, please wait..."
-msgstr "正在卸载 comfyUI，请稍候..."
-msgid "comfyUI installed successfully"
-msgstr "comfyUI 安装成功"
-msgid "comfyUI uninstalled successfully"
-msgstr "comfyUI 已成功卸载"
-msgid "Failed to install comfyUI!"
-msgstr "安装 comfyUI 失败！"
-msgid "Ollama CUDA Install"
-msgstr "Ollama CUDA 安装"
-#: NEEDS WORK
-msgid "Installing Ollama CUDA, please wait..."
-msgstr "正在安装 Ollama CUDA，请稍候..."
-msgid "Ollama CUDA Uninstall"
-msgstr "Ollama CUDA 卸载"
-#: NEEDS WORK
-msgid "Uninstalling Ollama CUDA, please wait..."
-msgstr "正在卸载 Ollama CUDA，请稍候..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA 安装成功！"
-msgid "Failed to install Ollama CUDA!"
-msgstr "安装Ollama CUDA失败！"
-msgid ""
-"Generative AI for Krita has been successfully installed.\\n"
-"\\n"
-"Open Krita, open an existing drawing or create a new one.\\n"
-"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
-"\\n"
-"In the window that opens on the bottom right.\\n"
-"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
-"click Install."
-msgstr ""
-"Krita的生成式AI已成功安装。\\n"
-"\\n"
-"打开Krita，打开现有绘图或创建新绘图。\\n"
-"在顶部面板中转到设置 > 面板 > 勾选AI图像生成框。\\n"
-"\\n"
-"在右下角打开的窗口中。\\n"
-"点击配置 > 本地管理服务器，选择您的GPU或CPU，在工作负载中选择模型并点击安装。"
-msgid "AMD/Nvidia GPU not found!"
-msgstr "未找到AMD/Nvidia GPU！"
-msgid "Krita Install"
-msgstr "Krita 安装"
-#: NEEDS WORK
-msgid "Installing Krita, please wait..."
-msgstr "正在安装Krita，请稍候..."
-msgid "Krita Uninstall"
-msgstr "Krita 卸载"
-#: NEEDS WORK
-msgid "Uninstalling Krita, please wait..."
-msgstr "正在卸载Krita，请稍候..."
-msgid "Krita installed successfully!"
-msgstr "Krita 安装成功！"
-msgid "Failed to install Krita!"
-msgstr "安装Krita失败！"
-msgid "Ollama Vulkan Install"
-msgstr "Ollama Vulkan 安装"
-msgid "Ollama Vulkan Uninstall"
-msgstr "Ollama Vulkan 卸载"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Vulkan, please wait..."
-msgstr "正在卸载 Ollama Vulkan，请稍候..."
-msgid "Ollama Vulkan installed successfully!"
-msgstr "Ollama Vulkan 安装成功！"
-msgid "Failed to install Ollama Vulkan!"
-msgstr "安装Ollama Vulkan失败！"
-msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
-msgstr ""
-"Ollama共享成功。\\n"
-"地址：http://$localIp:11434"
-#: NEEDS WORK
-msgid "Failed to configure Ollama sharing!"
-msgstr "配置Ollama共享失败！"
-msgid "Ollama ROCm Install"
-msgstr "Ollama ROCm 安装"
-#: NEEDS WORK
-msgid "Installing Ollama ROCm, please wait..."
-msgstr "正在安装 Ollama ROCm，请稍候..."
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm 卸载"
-#: NEEDS WORK
-msgid "Uninstalling Ollama ROCm, please wait..."
-msgstr "正在卸载 Ollama ROCm，请稍候..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm 安装成功！"
-msgid "Failed to install Ollama ROCm!"
-msgstr "安装Ollama ROCm失败！"
 msgid "Applying, please wait..."
 msgstr "正在应用，请稍候..."
-msgid "GRUB updated successfully!"
-msgstr "GRUB 更新成功！"
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB 更新成功！\\n"
+"请重启计算机以使其生效。"
 msgid "An error occurred while updating GRUB."
 msgstr "更新 GRUB 时发生错误。"
-msgid "Limits updated successfully!"
-msgstr "限制已成功更新！"
-msgid "An error occurred while updating Limits."
-msgstr "更新限制时发生错误。"
-msgid "Example Install"
-msgstr "示例安装"
-msgid "Instaling Example, Please wait..."
-msgstr "正在安装示例，请稍候..."
-msgid "Example Uninstall"
-msgstr "示例卸载"
-msgid "Uninstaling Example, Please wait..."
-msgstr "正在卸载示例，请稍候..."
-msgid "Example installed successfully!"
-msgstr "示例安装成功！"
-msgid "Failed to install Example!"
-msgstr "安装示例失败！"
+msgid "Already enabled. No changes made."
+msgstr "已启用。未做更改。"
 msgid "JamesDSP Install"
 msgstr "JamesDSP 安装"
 #: NEEDS WORK
@@ -214,14 +36,6 @@ msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP 安装成功！"
 msgid "Failed to install jamesDSP!"
 msgstr "安装 jamesDSP 失败！"
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB 更新成功！\\n"
-"请重启计算机以使其生效。"
-msgid "Already enabled. No changes made."
-msgstr "已启用。未做更改。"
 msgid "Docker Install"
 msgstr "Docker 安装"
 #: NEEDS WORK
@@ -264,6 +78,39 @@ msgid "$package removed successfully!"
 msgstr "$软件包已成功移除！"
 msgid "An error occurred with $package."
 msgstr "$package发生错误。"
+#: NEEDS WORK
+msgid "OpenClaude Install"
+msgstr "打开Claude 安装"
+#: NEEDS WORK
+msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
+msgstr "正在安装 OpenClaude（需要 nodejs、npm、ripgrep），请稍候..."
+#: NEEDS WORK
+msgid "OpenClaude Uninstall"
+msgstr "打开Claude 卸载"
+#: NEEDS WORK
+msgid "Uninstalling OpenClaude, please wait..."
+msgstr "正在卸载 OpenClaude，请稍候..."
+#: NEEDS WORK
+msgid ""
+"OpenClaude installed successfully!\\n"
+"\\n"
+"Run 'openclaude' in a terminal to start."
+msgstr ""
+"OpenClaude 安装成功！\\n"
+"\\n"
+"在终端中运行 'openclaude' 以启动。"
+#: NEEDS WORK
+msgid "OpenClaude removed successfully!"
+msgstr "OpenClaude 已成功移除！"
+#: NEEDS WORK
+msgid "An error occurred with OpenClaude."
+msgstr "发生了与 OpenClaude 的错误。"
+msgid "GRUB updated successfully!"
+msgstr "GRUB 更新成功！"
+msgid "Limits updated successfully!"
+msgstr "限制已成功更新！"
+msgid "An error occurred while updating Limits."
+msgstr "更新限制时发生错误。"
 msgid "kzones Install"
 msgstr "kzones 安装"
 #: NEEDS WORK
@@ -295,6 +142,201 @@ msgstr ""
 "您需要关闭并重新打开Dolphin以使其生效。"
 msgid "Failed to activate Recent Files!"
 msgstr "无法激活最近文件！"
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama 服务器正在运行。\\n"
+"地址：http://localhost:11434"
+msgid "LM Studio Install"
+msgstr "LM Studio 安装"
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
+msgstr "正在安装 LM Studio，请稍候..."
+msgid "LM Studio Uninstall"
+msgstr "LM Studio 卸载"
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "正在卸载 LM Studio，请稍候..."
+msgid "LM Studio installed successfully!"
+msgstr "LM Studio 安装成功！"
+msgid "Failed to install LM Studio!"
+msgstr "安装 LM Studio 失败！"
+msgid "Ollama Install"
+msgstr "Ollama 安装"
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
+msgstr "正在安装Ollama，请稍候..."
+msgid "Ollama Uninstall"
+msgstr "卸载Ollama"
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
+msgstr "正在卸载 Ollama，请稍候..."
+msgid "Ollama installed successfully!"
+msgstr "Ollama 安装成功！"
+msgid "Failed to install Ollama!"
+msgstr "安装Ollama失败！"
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm 安装"
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
+msgstr "正在安装 Ollama ROCm，请稍候..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm 卸载"
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "正在卸载 Ollama ROCm，请稍候..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm 安装成功！"
+msgid "Failed to install Ollama ROCm!"
+msgstr "安装Ollama ROCm失败！"
+msgid ""
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"Krita的生成式AI已成功安装。\\n"
+"\\n"
+"打开Krita，打开现有绘图或创建新绘图。\\n"
+"在顶部面板中转到设置 > 面板 > 勾选AI图像生成框。\\n"
+"\\n"
+"在右下角打开的窗口中。\\n"
+"点击配置 > 本地管理服务器，选择您的GPU或CPU，在工作负载中选择模型并点击安装。"
+#: NEEDS WORK
+msgid "No Ollama packages are installed. Enable an Ollama variant first."
+msgstr "未安装任何Ollama软件包。请先启用Ollama变体。"
+#: NEEDS WORK
+msgid "Updating Ollama"
+msgstr "正在更新Ollama"
+#: NEEDS WORK
+msgid "Synchronizing repositories and updating Ollama, please wait..."
+msgstr "正在同步仓库并更新Ollama，请稍候..."
+#: NEEDS WORK
+msgid "Ollama updated successfully!"
+msgstr "Ollama 更新成功！"
+#: NEEDS WORK
+msgid "Failed to update Ollama."
+msgstr "更新Ollama失败。"
+msgid "Ollama Lab Install"
+msgstr "Ollama实验室安装"
+#: NEEDS WORK
+msgid "Installing Ollama Lab, please wait..."
+msgstr "正在安装 Ollama Lab，请稍候..."
+msgid "Ollama Lab Uninstall"
+msgstr "卸载 Ollama Lab"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "正在卸载 Ollama Lab，请稍候..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab 安装成功！"
+msgid "Failed to install Ollama Lab!"
+msgstr "安装Ollama Lab失败！"
+msgid "Krita Install"
+msgstr "Krita 安装"
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "正在安装Krita，请稍候..."
+msgid "Krita Uninstall"
+msgstr "Krita 卸载"
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
+msgstr "正在卸载Krita，请稍候..."
+msgid "Krita installed successfully!"
+msgstr "Krita 安装成功！"
+msgid "Failed to install Krita!"
+msgstr "安装Krita失败！"
+msgid "Ollama Vulkan Install"
+msgstr "Ollama Vulkan 安装"
+msgid "Ollama Vulkan Uninstall"
+msgstr "Ollama Vulkan 卸载"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "正在卸载 Ollama Vulkan，请稍候..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan 安装成功！"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "安装Ollama Vulkan失败！"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "未找到AMD/Nvidia GPU！"
+msgid "ChatBox Install"
+msgstr "聊天框安装"
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
+msgstr "正在安装 ChatBox，请稍候..."
+msgid "ChatBox Uninstall"
+msgstr "卸载聊天框"
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
+msgstr "正在卸载 ChatBox，请稍候..."
+msgid "ChatBox installed successfully!"
+msgstr "ChatBox 安装成功！"
+msgid "Failed to install ChatBox!"
+msgstr "安装 ChatBox 失败！"
+msgid "comfyUI Install...."
+msgstr "comfyUI 安装...."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "正在安装 comfyUI，此步骤需要较长时间，请耐心等待..."
+msgid "Uninstall comfyUI...."
+msgstr "卸载comfyUI...."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "正在卸载 comfyUI，请稍候..."
+msgid "comfyUI installed successfully"
+msgstr "comfyUI 安装成功"
+msgid "comfyUI uninstalled successfully"
+msgstr "comfyUI 已成功卸载"
+msgid "Failed to install comfyUI!"
+msgstr "安装 comfyUI 失败！"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama共享成功。\\n"
+"地址：http://$localIp:11434"
+#: NEEDS WORK
+msgid "Failed to configure Ollama sharing!"
+msgstr "配置Ollama共享失败！"
+msgid "comfyUI Depends Install"
+msgstr "comfyUI 依赖安装"
+#: NEEDS WORK
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "正在安装 comfyUI 依赖项，请稍候..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI 依赖项安装成功！"
+msgid "Failed to install comfyUI Depends!"
+msgstr "安装 comfyUI 失败，依赖项缺失！"
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA 安装"
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "正在安装 Ollama CUDA，请稍候..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA 卸载"
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "正在卸载 Ollama CUDA，请稍候..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA 安装成功！"
+msgid "Failed to install Ollama CUDA!"
+msgstr "安装Ollama CUDA失败！"
+msgid "Example Install"
+msgstr "示例安装"
+msgid "Instaling Example, Please wait..."
+msgstr "正在安装示例，请稍候..."
+msgid "Example Uninstall"
+msgstr "示例卸载"
+msgid "Uninstaling Example, Please wait..."
+msgstr "正在卸载示例，请稍候..."
+msgid "Example installed successfully!"
+msgstr "示例安装成功！"
+msgid "Failed to install Example!"
+msgstr "安装示例失败！"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
@@ -371,6 +413,11 @@ msgstr "人工智能"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
 msgid "Docker"
 msgstr "Docker"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 297
+#: NEEDS WORK
+msgid "Developer"
+msgstr "开发者"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
@@ -508,173 +555,6 @@ msgstr "合上盖时挂起（交流电源）"
 msgid "Some systems do not suspend when on AC power. This forces suspend when the lid is closed."
 msgstr "某些系统在接通交流电源时不会进入休眠状态。这会在关闭盖子时强制进入休眠。"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "用户和视觉系统设置。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "数字锁定"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "初始数字锁定状态。如果启用自动登录，则忽略。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "窗口按钮在左侧"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "窗口左侧的最大化、最小化和关闭按钮。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZones"
-# 
-# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable window tiling zones for the KDE Plasma desktop."
-msgstr "为KDE Plasma桌面启用窗口平铺区域。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "最近的文件和位置"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
-msgstr "恢复在Dolphin和应用程序菜单中显示为空的“最近文件”和“最近位置”功能。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
-msgid "Manage physical devices."
-msgstr "管理物理设备。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "无线网络"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable the Wi-Fi adapter."
-msgstr "启用Wi-Fi适配器。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "蓝牙"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
-#: NEEDS WORK
-msgid "Enable the Bluetooth adapter."
-msgstr "启用蓝牙适配器。"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
-msgid "JamesDSP"
-msgstr "詹姆斯DSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "高级音频效果处理器，可改善音质。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
-msgid "Reverse mouse scrolling"
-msgstr "反向鼠标滚动"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "在不重新启动会话的情况下反向鼠标滚动。"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
-#: NEEDS WORK
-msgid "Network Interfaces"
-msgstr "网络接口"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
-#: NEEDS WORK
-msgid "Connect or disconnect network devices."
-msgstr "连接或断开网络设备。"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
-#: NEEDS WORK
-#, python-brace-format
-msgid "{} — {}"
-msgstr "请提供要翻译的字符串。"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
-#: NEEDS WORK
-#, python-brace-format
-msgid "{}: toggle connection"
-msgstr "{}: 切换连接"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
-#: NEEDS WORK
-msgid "Applying…"
-msgstr "应用中…"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: NEEDS WORK
-msgid "connected"
-msgstr "已连接"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: NEEDS WORK
-msgid "disconnected"
-msgstr "断开连接"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
-#: NEEDS WORK
-#, python-brace-format
-msgid "Failed to change network device: {}"
-msgstr "无法更改网络设备：{}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "预加载"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "将应用程序预加载到内存中以更快地打开它们。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "火狐浏览器"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "Brave"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "Chrome"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "铬浏览器"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "Librewolf"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "帕尔月"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "歌剧"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "自由办公软件"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
 msgstr "人工智能接口"
@@ -692,6 +572,21 @@ msgstr "Ollama 服务器"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "选择最适合您硬件的Ollama服务器。"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Update Ollama"
+msgstr "更新Ollama"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Update the installed Ollama packages to the latest version."
+msgstr "将已安装的Ollama软件包更新到最新版本。"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
+#: NEEDS WORK
+msgid "Update now"
+msgstr "立即更新"
 # 
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
 #: NEEDS WORK
@@ -745,9 +640,39 @@ msgstr "LM Studio - 一款用于本地探索和运行大型语言模型的桌面
 msgid "Open Notebook"
 msgstr "打开笔记本"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
-msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "一个开源、注重隐私的替代品，替代谷歌的Notebook LM！"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+#: NEEDS WORK
+msgid "Open-source, privacy-focused alternative to Google's NotebookLM. Requires Docker enabled."
+msgstr "开源、注重隐私的替代品，替代谷歌的NotebookLM。需要启用Docker。"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 201
+#: NEEDS WORK
+msgid "Open Notebook Server"
+msgstr "打开笔记本服务器"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 202
+#: NEEDS WORK
+msgid "Start the Open Notebook server."
+msgstr "启动开放笔记本服务器。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+#, python-brace-format
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"打开笔记本正在运行。\n"
+"地址：http://localhost:8502\n"
+"和\n"
+"地址：http://{}:8502"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
 msgid "ComfyUI (GPU ONLY)"
@@ -851,6 +776,417 @@ msgid ""
 msgstr ""
 "本地AI服务器。适用于较新的AMD GPU，从6000系列开始。\n"
 "考虑使用Vulkan，在许多测试中，Vulkan的表现优于ROCm。"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 11
+#: NEEDS WORK
+msgid "AI Coding Assistants"
+msgstr "AI 编程助手"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 12
+#: NEEDS WORK
+msgid "Open-source coding agents powered by language models."
+msgstr "由语言模型驱动的开源编码代理。"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 21
+#: NEEDS WORK
+msgid "OpenClaude"
+msgstr "打开Claude"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 23
+#: NEEDS WORK
+msgid ""
+"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ models. Installs nodejs, "
+"npm and ripgrep as dependencies."
+msgstr "开源编码代理 CLI，适用于 OpenAI、Gemini、DeepSeek、Ollama 和 200+ 模型。安装 nodejs、npm 和 ripgrep 作为依赖项。"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
+#: NEEDS WORK
+msgid "Close"
+msgstr "关闭"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+#: NEEDS WORK
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "警告：{}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
+#: NEEDS WORK
+msgid "Cancel"
+msgstr "取消"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
+#: NEEDS WORK
+msgid "Continue"
+msgstr "继续"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 220
+#: NEEDS WORK
+msgid "Run"
+msgstr "运行"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 226
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: run action"
+msgstr "{}: 运行操作"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+#, python-brace-format
+msgid "Script not found: {}"
+msgstr "未找到脚本：{}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "应用中…"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 279
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action script {} failed: {}"
+msgstr "操作脚本 {} 失败：{}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 284
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action script timeout: {}"
+msgstr "操作脚本超时：{}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 287
+#: NEEDS WORK
+#, python-brace-format
+msgid "Error running action script {}: {}"
+msgstr "运行操作脚本时出错 {}: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 297
+#: NEEDS WORK
+msgid "Action completed successfully"
+msgstr "操作成功完成"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 300
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action failed: {}"
+msgstr "操作失败：{}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
+#: NEEDS WORK
+msgid "Recommended"
+msgstr "推荐"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: additional information"
+msgstr "{}: 额外信息"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+#: NEEDS WORK
+msgid "Learn more"
+msgstr "了解更多"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: learn more"
+msgstr "{}：了解更多"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
+msgid "Unavailable: script not found."
+msgstr "不可用：未找到脚本。"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
+msgid "Enabled"
+msgstr "已启用"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
+msgid "Disabled"
+msgstr "禁用"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "由系统配置启用（例如，实时内核），无法在此更改。"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
+msgid "Unavailable: script returned invalid output."
+msgstr "不可用：脚本返回无效输出。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+#, python-brace-format
+msgid "output from script {}: {}"
+msgstr "脚本输出 {}: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
+msgid "Unavailable: script returned an error."
+msgstr "不可用：脚本返回了一个错误。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+#, python-brace-format
+msgid "Error checking state: {}"
+msgstr "错误检查状态：{}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
+msgid "Unavailable: failed to run script."
+msgstr "不可用：脚本运行失败。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+#, python-brace-format
+msgid "Error running script {}: {}"
+msgstr "运行脚本时出错 {}: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
+msgid "State changed successfully"
+msgstr "状态更改成功"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+#, python-brace-format
+msgid "Script output: {}"
+msgstr "脚本输出：{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+#, python-brace-format
+msgid "Script failed with exit code: {}"
+msgstr "脚本失败，退出代码：{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+#, python-brace-format
+msgid "Script timeout: {}"
+msgstr "脚本超时：{}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} sub-options available"
+msgstr "{} 子选项可用"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "on"
+msgstr "开启"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "off"
+msgstr "关闭"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
+#: NEEDS WORK
+#, python-brace-format
+msgid "Changing {} to {}…"
+msgstr "正在将 {} 更改为 {}…"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+#: NEEDS WORK
+msgid "Undo"
+msgstr "撤销"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
+#: NEEDS WORK
+msgid "Undo: reverted toggle"
+msgstr "撤销：恢复切换"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+#, python-brace-format
+msgid "Changing {} to {}"
+msgstr "将 {} 更改为 {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+#, python-brace-format
+msgid "ERROR: Failed to change {} to {}"
+msgstr "错误：无法将 {} 更改为 {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+#, python-brace-format
+msgid "Failed to change setting: {}"
+msgstr "无法更改设置：{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "管理物理设备。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "无线网络"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "启用Wi-Fi适配器。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "蓝牙"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "启用蓝牙适配器。"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "詹姆斯DSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "高级音频效果处理器，可改善音质。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "反向鼠标滚动"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "在不重新启动会话的情况下反向鼠标滚动。"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "网络接口"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "连接或断开网络设备。"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} — {}"
+msgstr "请提供要翻译的字符串。"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: 切换连接"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "已连接"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "断开连接"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "无法更改网络设备：{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "预加载"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "将应用程序预加载到内存中以更快地打开它们。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "火狐浏览器"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Brave"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "铬浏览器"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "Librewolf"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "帕尔月"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "歌剧"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "自由办公软件"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "用户和视觉系统设置。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "数字锁定"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "初始数字锁定状态。如果启用自动登录，则忽略。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "窗口按钮在左侧"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "窗口左侧的最大化、最小化和关闭按钮。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZones"
+# 
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "为KDE Plasma桌面启用窗口平铺区域。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "最近的文件和位置"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
+msgstr "恢复在Dolphin和应用程序菜单中显示为空的“最近文件”和“最近位置”功能。"
 # 
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
 #: NEEDS WORK
@@ -1085,26 +1421,10 @@ msgstr ""
 "和\n"
 "地址：http://{}:2017"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
-msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "安装一个开源、注重隐私的替代品，替代谷歌的Notebook LM！"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
-msgid "Run Open Notebook."
-msgstr "运行开放笔记本。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
-#, python-brace-format
-msgid ""
-"Open Notebook is running.\n"
-"Address: http://localhost:8502\n"
-"and\n"
-"Address: http://{}:8502"
-msgstr ""
-"打开笔记本正在运行。\n"
-"地址：http://localhost:8502\n"
-"和\n"
-"地址：http://{}:8502"
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 195
+#: NEEDS WORK
+msgid "Install the open-source alternative to Google's NotebookLM."
+msgstr "安装开源替代Google的NotebookLM。"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -1174,188 +1494,6 @@ msgid ""
 "This will disable the hardware watchdog. Your system will no longer automatically recover from "
 "certain types of crashes. Are you sure you want to continue?"
 msgstr "这将禁用硬件看门狗。您的系统将不再自动从某些类型的崩溃中恢复。您确定要继续吗？"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
-#: NEEDS WORK
-msgid "Close"
-msgstr "关闭"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
-#: NEEDS WORK
-#, python-brace-format
-msgid "Warning: {}"
-msgstr "警告：{}"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
-#: NEEDS WORK
-msgid "Cancel"
-msgstr "取消"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
-#: NEEDS WORK
-msgid "Continue"
-msgstr "继续"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
-#: NEEDS WORK
-msgid "Recommended"
-msgstr "推荐"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
-#: NEEDS WORK
-#, python-brace-format
-msgid "{}: additional information"
-msgstr "{}: 额外信息"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
-#: NEEDS WORK
-msgid "Learn more"
-msgstr "了解更多"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
-#: NEEDS WORK
-#, python-brace-format
-msgid "{}: learn more"
-msgstr "{}：了解更多"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
-msgid "Unavailable: script not found."
-msgstr "不可用：未找到脚本。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
-#, python-brace-format
-msgid "Script not found: {}"
-msgstr "未找到脚本：{}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
-msgid "Enabled"
-msgstr "已启用"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
-msgid "Disabled"
-msgstr "禁用"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
-msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
-msgstr "由系统配置启用（例如，实时内核），无法在此更改。"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
-msgid "Unavailable: script returned invalid output."
-msgstr "不可用：脚本返回无效输出。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
-#, python-brace-format
-msgid "output from script {}: {}"
-msgstr "脚本输出 {}: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
-msgid "Unavailable: script returned an error."
-msgstr "不可用：脚本返回了一个错误。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
-#, python-brace-format
-msgid "Error checking state: {}"
-msgstr "错误检查状态：{}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
-msgid "Unavailable: failed to run script."
-msgstr "不可用：脚本运行失败。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
-#, python-brace-format
-msgid "Error running script {}: {}"
-msgstr "运行脚本时出错 {}: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
-msgid "State changed successfully"
-msgstr "状态更改成功"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
-#, python-brace-format
-msgid "Script output: {}"
-msgstr "脚本输出：{}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
-#, python-brace-format
-msgid "Script failed with exit code: {}"
-msgstr "脚本失败，退出代码：{}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
-#, python-brace-format
-msgid "Script timeout: {}"
-msgstr "脚本超时：{}"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
-#: NEEDS WORK
-#, python-brace-format
-msgid "{} sub-options available"
-msgstr "{} 子选项可用"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
-#: NEEDS WORK
-msgid "on"
-msgstr "开启"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
-#: NEEDS WORK
-msgid "off"
-msgstr "关闭"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
-#: NEEDS WORK
-#, python-brace-format
-msgid "Changing {} to {}…"
-msgstr "正在将 {} 更改为 {}…"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
-#: NEEDS WORK
-msgid "Undo"
-msgstr "撤销"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
-#: NEEDS WORK
-msgid "Undo: reverted toggle"
-msgstr "撤销：恢复切换"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-#, python-brace-format
-msgid "Changing {} to {}"
-msgstr "将 {} 更改为 {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-#, python-brace-format
-msgid "ERROR: Failed to change {} to {}"
-msgstr "错误：无法将 {} 更改为 {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-#, python-brace-format
-msgid "Failed to change setting: {}"
-msgstr "无法更改设置：{}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."

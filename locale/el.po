@@ -15,197 +15,18 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "comfyUI Depends Install"
-msgstr "comfyUI Εξαρτήσεις Εγκατάσταση"
-#: NEEDS WORK
-msgid "Installing comfyUI Depends, please wait..."
-msgstr "Εγκατάσταση comfyUI Εξαρτήσεις, παρακαλώ περιμένετε..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "Η εξάρτηση ComfyUI εγκαταστάθηκε με επιτυχία!"
-msgid "Failed to install comfyUI Depends!"
-msgstr "Αποτυχία εγκατάστασης του comfyUI Εξαρτάται!"
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Ο διακομιστής Ollama εκτελείται.\\n"
-"Διεύθυνση: http://localhost:11434"
-msgid "ChatBox Install"
-msgstr "Εγκατάσταση ChatBox"
-#: NEEDS WORK
-msgid "Installing ChatBox, please wait..."
-msgstr "Εγκατάσταση του ChatBox, παρακαλώ περιμένετε..."
-msgid "ChatBox Uninstall"
-msgstr "Απεγκατάσταση ChatBox"
-#: NEEDS WORK
-msgid "Uninstalling ChatBox, please wait..."
-msgstr "Απεγκατάσταση του ChatBox, παρακαλώ περιμένετε..."
-msgid "ChatBox installed successfully!"
-msgstr "Η εγκατάσταση του ChatBox ολοκληρώθηκε με επιτυχία!"
-msgid "Failed to install ChatBox!"
-msgstr "Αποτυχία εγκατάστασης του ChatBox!"
-msgid "Ollama Lab Install"
-msgstr "Εγκατάσταση Ollama Lab"
-#: NEEDS WORK
-msgid "Installing Ollama Lab, please wait..."
-msgstr "Εγκατάσταση του Ollama Lab, παρακαλώ περιμένετε..."
-msgid "Ollama Lab Uninstall"
-msgstr "Απεγκατάσταση Ollama Lab"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Lab, please wait..."
-msgstr "Απεγκατάσταση του Ollama Lab, παρακαλώ περιμένετε..."
-msgid "Ollama Lab installed successfully!"
-msgstr "Η εγκατάσταση του Ollama Lab ολοκληρώθηκε με επιτυχία!"
-msgid "Failed to install Ollama Lab!"
-msgstr "Αποτυχία εγκατάστασης του Ollama Lab!"
-msgid "LM Studio Install"
-msgstr "Εγκατάσταση LM Studio"
-#: NEEDS WORK
-msgid "Installing LM Studio, please wait..."
-msgstr "Εγκατάσταση του LM Studio, παρακαλώ περιμένετε..."
-msgid "LM Studio Uninstall"
-msgstr "Απεγκατάσταση LM Studio"
-#: NEEDS WORK
-msgid "Uninstalling LM Studio, please wait..."
-msgstr "Απεγκατάσταση του LM Studio, παρακαλώ περιμένετε..."
-msgid "LM Studio installed successfully!"
-msgstr "Η εγκατάσταση του LM Studio ολοκληρώθηκε με επιτυχία!"
-msgid "Failed to install LM Studio!"
-msgstr "Αποτυχία εγκατάστασης του LM Studio!"
-msgid "Ollama Install"
-msgstr "Εγκατάσταση Ollama"
-#: NEEDS WORK
-msgid "Installing Ollama, please wait..."
-msgstr "Εγκατάσταση του Ollama, παρακαλώ περιμένετε..."
-msgid "Ollama Uninstall"
-msgstr "Απεγκατάσταση Ollama"
-#: NEEDS WORK
-msgid "Uninstalling Ollama, please wait..."
-msgstr "Απεγκαθιστώ το Ollama, παρακαλώ περιμένετε..."
-msgid "Ollama installed successfully!"
-msgstr "Η εγκατάσταση του Ollama ολοκληρώθηκε με επιτυχία!"
-msgid "Failed to install Ollama!"
-msgstr "Αποτυχία εγκατάστασης του Ollama!"
-msgid "comfyUI Install...."
-msgstr "comfyUI Εγκατάσταση...."
-#: NEEDS WORK
-msgid "Installing comfyUI, this step takes a long time, please wait..."
-msgstr "Εγκατάσταση του comfyUI, αυτό το βήμα διαρκεί πολύ, παρακαλώ περιμένετε..."
-msgid "Uninstall comfyUI...."
-msgstr "Απεγκατάσταση του comfyUI...."
-#: NEEDS WORK
-msgid "Uninstalling comfyUI, please wait..."
-msgstr "Απεγκαθιστώ το comfyUI, παρακαλώ περιμένετε..."
-msgid "comfyUI installed successfully"
-msgstr "Η εγκατάσταση του ComfyUI ολοκληρώθηκε με επιτυχία."
-msgid "comfyUI uninstalled successfully"
-msgstr "Η εγκατάσταση του comfyUI απεγκαταστάθηκε με επιτυχία."
-msgid "Failed to install comfyUI!"
-msgstr "Αποτυχία εγκατάστασης του comfyUI!"
-msgid "Ollama CUDA Install"
-msgstr "Εγκατάσταση Ollama CUDA"
-#: NEEDS WORK
-msgid "Installing Ollama CUDA, please wait..."
-msgstr "Εγκατάσταση του Ollama CUDA, παρακαλώ περιμένετε..."
-msgid "Ollama CUDA Uninstall"
-msgstr "Απεγκατάσταση Ollama CUDA"
-#: NEEDS WORK
-msgid "Uninstalling Ollama CUDA, please wait..."
-msgstr "Απεγκατάσταση του Ollama CUDA, παρακαλώ περιμένετε..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "Η Ollama CUDA εγκαταστάθηκε με επιτυχία!"
-msgid "Failed to install Ollama CUDA!"
-msgstr "Αποτυχία εγκατάστασης του Ollama CUDA!"
-msgid ""
-"Generative AI for Krita has been successfully installed.\\n"
-"\\n"
-"Open Krita, open an existing drawing or create a new one.\\n"
-"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
-"\\n"
-"In the window that opens on the bottom right.\\n"
-"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
-"click Install."
-msgstr ""
-"Η Γενετική Τεχνητή Νοημοσύνη για το Krita έχει εγκατασταθεί με επιτυχία.\\n"
-"\\n"
-"Ανοίξτε το Krita, ανοίξτε ένα υπάρχον σχέδιο ή δημιουργήστε ένα νέο.\\n"
-"Στο επάνω πάνελ πηγαίνετε στις Ρυθμίσεις > Πάνελ > ελέγξτε το πλαίσιο Δημιουργίας Εικόνας AI.\\n"
-"\\n"
-"Στο παράθυρο που ανοίγει κάτω δεξιά.\\n"
-"Κάντε κλικ στην Ρύθμιση > Τοπικός Διαχειριζόμενος Διακομιστής, επιλέξτε την GPU ή την CPU σας, "
-"επιλέξτε το μοντέλο στα Φορτία και κάντε κλικ στην Εγκατάσταση."
-msgid "AMD/Nvidia GPU not found!"
-msgstr "Δεν βρέθηκε GPU AMD/Nvidia!"
-msgid "Krita Install"
-msgstr "Εγκατάσταση του Krita"
-#: NEEDS WORK
-msgid "Installing Krita, please wait..."
-msgstr "Εγκατάσταση του Krita, παρακαλώ περιμένετε..."
-msgid "Krita Uninstall"
-msgstr "Απεγκατάσταση του Krita"
-#: NEEDS WORK
-msgid "Uninstalling Krita, please wait..."
-msgstr "Απεγκατάσταση του Krita, παρακαλώ περιμένετε..."
-msgid "Krita installed successfully!"
-msgstr "Το Krita εγκαταστάθηκε με επιτυχία!"
-msgid "Failed to install Krita!"
-msgstr "Αποτυχία εγκατάστασης του Krita!"
-msgid "Ollama Vulkan Install"
-msgstr "Εγκατάσταση Ollama Vulkan"
-msgid "Ollama Vulkan Uninstall"
-msgstr "Απεγκατάσταση Ollama Vulkan"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Vulkan, please wait..."
-msgstr "Απεγκατάσταση του Ollama Vulkan, παρακαλώ περιμένετε..."
-msgid "Ollama Vulkan installed successfully!"
-msgstr "Η εγκατάσταση του Ollama Vulkan ολοκληρώθηκε με επιτυχία!"
-msgid "Failed to install Ollama Vulkan!"
-msgstr "Αποτυχία εγκατάστασης του Ollama Vulkan!"
-msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
-msgstr ""
-"Ο Ollama μοιράστηκε με επιτυχία.\\n"
-"Διεύθυνση: http://$localIp:11434"
-#: NEEDS WORK
-msgid "Failed to configure Ollama sharing!"
-msgstr "Αποτυχία ρύθμισης κοινής χρήσης Ollama!"
-msgid "Ollama ROCm Install"
-msgstr "Ollama ROCm Εγκατάσταση"
-#: NEEDS WORK
-msgid "Installing Ollama ROCm, please wait..."
-msgstr "Εγκατάσταση του Ollama ROCm, παρακαλώ περιμένετε..."
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm Απεγκατάσταση"
-#: NEEDS WORK
-msgid "Uninstalling Ollama ROCm, please wait..."
-msgstr "Απεγκατάσταση του Ollama ROCm, παρακαλώ περιμένετε..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Η εγκατάσταση του Ollama ROCm ολοκληρώθηκε με επιτυχία!"
-msgid "Failed to install Ollama ROCm!"
-msgstr "Αποτυχία εγκατάστασης του Ollama ROCm!"
 msgid "Applying, please wait..."
 msgstr "Εφαρμογή, παρακαλώ περιμένετε..."
-msgid "GRUB updated successfully!"
-msgstr "Ο GRUB ενημερώθηκε με επιτυχία!"
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"Ο GRUB ενημερώθηκε με επιτυχία!\\n"
+"Επανεκκινήστε τον υπολογιστή σας για να ισχύσει."
 msgid "An error occurred while updating GRUB."
 msgstr "Παρουσιάστηκε σφάλμα κατά την ενημέρωση του GRUB."
-msgid "Limits updated successfully!"
-msgstr "Οι περιορισμοί ενημερώθηκαν με επιτυχία!"
-msgid "An error occurred while updating Limits."
-msgstr "Παρουσιάστηκε σφάλμα κατά την ενημέρωση των Ορίων."
-msgid "Example Install"
-msgstr "Παράδειγμα Εγκατάστασης"
-msgid "Instaling Example, Please wait..."
-msgstr "Εγκατάσταση παραδείγματος, παρακαλώ περιμένετε..."
-msgid "Example Uninstall"
-msgstr "Παράδειγμα Απεγκατάστασης"
-msgid "Uninstaling Example, Please wait..."
-msgstr "Απεγκατάσταση παραδείγματος, παρακαλώ περιμένετε..."
-msgid "Example installed successfully!"
-msgstr "Η εγκατάσταση του παραδείγματος ολοκληρώθηκε με επιτυχία!"
-msgid "Failed to install Example!"
-msgstr "Αποτυχία εγκατάστασης του Παραδείγματος!"
+msgid "Already enabled. No changes made."
+msgstr "Ήδη ενεργοποιημένο. Δεν έγιναν αλλαγές."
 msgid "JamesDSP Install"
 msgstr "Εγκατάσταση JamesDSP"
 #: NEEDS WORK
@@ -215,14 +36,6 @@ msgid "JamesDSP installed successfully!"
 msgstr "Η εγκατάσταση του JamesDSP ολοκληρώθηκε με επιτυχία!"
 msgid "Failed to install jamesDSP!"
 msgstr "Αποτυχία εγκατάστασης του jamesDSP!"
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"Ο GRUB ενημερώθηκε με επιτυχία!\\n"
-"Επανεκκινήστε τον υπολογιστή σας για να ισχύσει."
-msgid "Already enabled. No changes made."
-msgstr "Ήδη ενεργοποιημένο. Δεν έγιναν αλλαγές."
 msgid "Docker Install"
 msgstr "Εγκατάσταση Docker"
 #: NEEDS WORK
@@ -265,6 +78,39 @@ msgid "$package removed successfully!"
 msgstr "Το πακέτο αφαιρέθηκε με επιτυχία!"
 msgid "An error occurred with $package."
 msgstr "Παρουσιάστηκε σφάλμα με το $package."
+#: NEEDS WORK
+msgid "OpenClaude Install"
+msgstr "Εγκατάσταση OpenClaude"
+#: NEEDS WORK
+msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
+msgstr "Εγκατάσταση του OpenClaude (απαιτούνται nodejs, npm, ripgrep), παρακαλώ περιμένετε..."
+#: NEEDS WORK
+msgid "OpenClaude Uninstall"
+msgstr "Απεγκατάσταση OpenClaude"
+#: NEEDS WORK
+msgid "Uninstalling OpenClaude, please wait..."
+msgstr "Απεγκαθιστώ το OpenClaude, παρακαλώ περιμένετε..."
+#: NEEDS WORK
+msgid ""
+"OpenClaude installed successfully!\\n"
+"\\n"
+"Run 'openclaude' in a terminal to start."
+msgstr ""
+"Το OpenClaude εγκαταστάθηκε με επιτυχία!\\n"
+"\\n"
+"Εκτελέστε 'openclaude' σε ένα τερματικό για να ξεκινήσετε."
+#: NEEDS WORK
+msgid "OpenClaude removed successfully!"
+msgstr "Το OpenClaude αφαιρέθηκε με επιτυχία!"
+#: NEEDS WORK
+msgid "An error occurred with OpenClaude."
+msgstr "Παρουσιάστηκε σφάλμα με το OpenClaude."
+msgid "GRUB updated successfully!"
+msgstr "Ο GRUB ενημερώθηκε με επιτυχία!"
+msgid "Limits updated successfully!"
+msgstr "Οι περιορισμοί ενημερώθηκαν με επιτυχία!"
+msgid "An error occurred while updating Limits."
+msgstr "Παρουσιάστηκε σφάλμα κατά την ενημέρωση των Ορίων."
 msgid "kzones Install"
 msgstr "kzones Εγκατάσταση"
 #: NEEDS WORK
@@ -296,6 +142,202 @@ msgstr ""
 "Πρέπει να κλείσετε και να ανοίξετε ξανά το Dolphin για να έχει αποτέλεσμα."
 msgid "Failed to activate Recent Files!"
 msgstr "Αποτυχία ενεργοποίησης των Πρόσφατων Αρχείων!"
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ο διακομιστής Ollama εκτελείται.\\n"
+"Διεύθυνση: http://localhost:11434"
+msgid "LM Studio Install"
+msgstr "Εγκατάσταση LM Studio"
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
+msgstr "Εγκατάσταση του LM Studio, παρακαλώ περιμένετε..."
+msgid "LM Studio Uninstall"
+msgstr "Απεγκατάσταση LM Studio"
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "Απεγκατάσταση του LM Studio, παρακαλώ περιμένετε..."
+msgid "LM Studio installed successfully!"
+msgstr "Η εγκατάσταση του LM Studio ολοκληρώθηκε με επιτυχία!"
+msgid "Failed to install LM Studio!"
+msgstr "Αποτυχία εγκατάστασης του LM Studio!"
+msgid "Ollama Install"
+msgstr "Εγκατάσταση Ollama"
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
+msgstr "Εγκατάσταση του Ollama, παρακαλώ περιμένετε..."
+msgid "Ollama Uninstall"
+msgstr "Απεγκατάσταση Ollama"
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Απεγκαθιστώ το Ollama, παρακαλώ περιμένετε..."
+msgid "Ollama installed successfully!"
+msgstr "Η εγκατάσταση του Ollama ολοκληρώθηκε με επιτυχία!"
+msgid "Failed to install Ollama!"
+msgstr "Αποτυχία εγκατάστασης του Ollama!"
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm Εγκατάσταση"
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
+msgstr "Εγκατάσταση του Ollama ROCm, παρακαλώ περιμένετε..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm Απεγκατάσταση"
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Απεγκατάσταση του Ollama ROCm, παρακαλώ περιμένετε..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Η εγκατάσταση του Ollama ROCm ολοκληρώθηκε με επιτυχία!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Αποτυχία εγκατάστασης του Ollama ROCm!"
+msgid ""
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"Η Γενετική Τεχνητή Νοημοσύνη για το Krita έχει εγκατασταθεί με επιτυχία.\\n"
+"\\n"
+"Ανοίξτε το Krita, ανοίξτε ένα υπάρχον σχέδιο ή δημιουργήστε ένα νέο.\\n"
+"Στο επάνω πάνελ πηγαίνετε στις Ρυθμίσεις > Πάνελ > ελέγξτε το πλαίσιο Δημιουργίας Εικόνας AI.\\n"
+"\\n"
+"Στο παράθυρο που ανοίγει κάτω δεξιά.\\n"
+"Κάντε κλικ στην Ρύθμιση > Τοπικός Διαχειριζόμενος Διακομιστής, επιλέξτε την GPU ή την CPU σας, "
+"επιλέξτε το μοντέλο στα Φορτία και κάντε κλικ στην Εγκατάσταση."
+#: NEEDS WORK
+msgid "No Ollama packages are installed. Enable an Ollama variant first."
+msgstr "Δεν είναι εγκατεστημένα πακέτα Ollama. Ενεργοποιήστε πρώτα μια παραλλαγή Ollama."
+#: NEEDS WORK
+msgid "Updating Ollama"
+msgstr "Ενημέρωση του Ollama"
+#: NEEDS WORK
+msgid "Synchronizing repositories and updating Ollama, please wait..."
+msgstr "Συγχρονισμός αποθετηρίων και ενημέρωση του Ollama, παρακαλώ περιμένετε..."
+#: NEEDS WORK
+msgid "Ollama updated successfully!"
+msgstr "Η ενημέρωση του Ollama ολοκληρώθηκε με επιτυχία!"
+#: NEEDS WORK
+msgid "Failed to update Ollama."
+msgstr "Αποτυχία ενημέρωσης του Ollama."
+msgid "Ollama Lab Install"
+msgstr "Εγκατάσταση Ollama Lab"
+#: NEEDS WORK
+msgid "Installing Ollama Lab, please wait..."
+msgstr "Εγκατάσταση του Ollama Lab, παρακαλώ περιμένετε..."
+msgid "Ollama Lab Uninstall"
+msgstr "Απεγκατάσταση Ollama Lab"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Απεγκατάσταση του Ollama Lab, παρακαλώ περιμένετε..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Η εγκατάσταση του Ollama Lab ολοκληρώθηκε με επιτυχία!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Αποτυχία εγκατάστασης του Ollama Lab!"
+msgid "Krita Install"
+msgstr "Εγκατάσταση του Krita"
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "Εγκατάσταση του Krita, παρακαλώ περιμένετε..."
+msgid "Krita Uninstall"
+msgstr "Απεγκατάσταση του Krita"
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
+msgstr "Απεγκατάσταση του Krita, παρακαλώ περιμένετε..."
+msgid "Krita installed successfully!"
+msgstr "Το Krita εγκαταστάθηκε με επιτυχία!"
+msgid "Failed to install Krita!"
+msgstr "Αποτυχία εγκατάστασης του Krita!"
+msgid "Ollama Vulkan Install"
+msgstr "Εγκατάσταση Ollama Vulkan"
+msgid "Ollama Vulkan Uninstall"
+msgstr "Απεγκατάσταση Ollama Vulkan"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Απεγκατάσταση του Ollama Vulkan, παρακαλώ περιμένετε..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Η εγκατάσταση του Ollama Vulkan ολοκληρώθηκε με επιτυχία!"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Αποτυχία εγκατάστασης του Ollama Vulkan!"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "Δεν βρέθηκε GPU AMD/Nvidia!"
+msgid "ChatBox Install"
+msgstr "Εγκατάσταση ChatBox"
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
+msgstr "Εγκατάσταση του ChatBox, παρακαλώ περιμένετε..."
+msgid "ChatBox Uninstall"
+msgstr "Απεγκατάσταση ChatBox"
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
+msgstr "Απεγκατάσταση του ChatBox, παρακαλώ περιμένετε..."
+msgid "ChatBox installed successfully!"
+msgstr "Η εγκατάσταση του ChatBox ολοκληρώθηκε με επιτυχία!"
+msgid "Failed to install ChatBox!"
+msgstr "Αποτυχία εγκατάστασης του ChatBox!"
+msgid "comfyUI Install...."
+msgstr "comfyUI Εγκατάσταση...."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "Εγκατάσταση του comfyUI, αυτό το βήμα διαρκεί πολύ, παρακαλώ περιμένετε..."
+msgid "Uninstall comfyUI...."
+msgstr "Απεγκατάσταση του comfyUI...."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "Απεγκαθιστώ το comfyUI, παρακαλώ περιμένετε..."
+msgid "comfyUI installed successfully"
+msgstr "Η εγκατάσταση του ComfyUI ολοκληρώθηκε με επιτυχία."
+msgid "comfyUI uninstalled successfully"
+msgstr "Η εγκατάσταση του comfyUI απεγκαταστάθηκε με επιτυχία."
+msgid "Failed to install comfyUI!"
+msgstr "Αποτυχία εγκατάστασης του comfyUI!"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ο Ollama μοιράστηκε με επιτυχία.\\n"
+"Διεύθυνση: http://$localIp:11434"
+#: NEEDS WORK
+msgid "Failed to configure Ollama sharing!"
+msgstr "Αποτυχία ρύθμισης κοινής χρήσης Ollama!"
+msgid "comfyUI Depends Install"
+msgstr "comfyUI Εξαρτήσεις Εγκατάσταση"
+#: NEEDS WORK
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "Εγκατάσταση comfyUI Εξαρτήσεις, παρακαλώ περιμένετε..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "Η εξάρτηση ComfyUI εγκαταστάθηκε με επιτυχία!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "Αποτυχία εγκατάστασης του comfyUI Εξαρτάται!"
+msgid "Ollama CUDA Install"
+msgstr "Εγκατάσταση Ollama CUDA"
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "Εγκατάσταση του Ollama CUDA, παρακαλώ περιμένετε..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Απεγκατάσταση Ollama CUDA"
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "Απεγκατάσταση του Ollama CUDA, παρακαλώ περιμένετε..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Η Ollama CUDA εγκαταστάθηκε με επιτυχία!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Αποτυχία εγκατάστασης του Ollama CUDA!"
+msgid "Example Install"
+msgstr "Παράδειγμα Εγκατάστασης"
+msgid "Instaling Example, Please wait..."
+msgstr "Εγκατάσταση παραδείγματος, παρακαλώ περιμένετε..."
+msgid "Example Uninstall"
+msgstr "Παράδειγμα Απεγκατάστασης"
+msgid "Uninstaling Example, Please wait..."
+msgstr "Απεγκατάσταση παραδείγματος, παρακαλώ περιμένετε..."
+msgid "Example installed successfully!"
+msgstr "Η εγκατάσταση του παραδείγματος ολοκληρώθηκε με επιτυχία!"
+msgid "Failed to install Example!"
+msgstr "Αποτυχία εγκατάστασης του Παραδείγματος!"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
@@ -372,6 +414,11 @@ msgstr "Τεχνητή Νοημοσύνη"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
 msgid "Docker"
 msgstr "Ντόκερ"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 297
+#: NEEDS WORK
+msgid "Developer"
+msgstr "Προγραμματιστής"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
@@ -531,175 +578,6 @@ msgstr ""
 "Ορισμένα συστήματα δεν αναστέλλονται όταν είναι σε τροφοδοσία AC. Αυτό αναγκάζει την αναστολή όταν "
 "η θύρα είναι κλειστή."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Ρυθμίσεις χρήστη και οπτικού συστήματος."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Αρχική κατάσταση NumLock. Αγνοείται αν είναι ενεργοποιημένη η αυτόματη σύνδεση."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Κουμπί Παραθύρου Αριστερά"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Κουμπιά μεγιστοποίησης, ελαχιστοποίησης και κλεισίματος στην αριστερή πλευρά του παραθύρου."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZones"
-# 
-# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable window tiling zones for the KDE Plasma desktop."
-msgstr "Ενεργοποίηση ζωνών πλακιδίων παραθύρων για την επιφάνεια εργασίας KDE Plasma."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "Πρόσφατα Αρχεία & Τοποθεσίες"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
-msgstr ""
-"Επαναφέρει τη λειτουργία 'Πρόσφατα Αρχεία' και 'Πρόσφατες Τοποθεσίες' που εμφανίζεται κενή στο "
-"Dolphin και το Μενού Εφαρμογών."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
-msgid "Manage physical devices."
-msgstr "Διαχείριση φυσικών συσκευών."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable the Wi-Fi adapter."
-msgstr "Ενεργοποιήστε τον προσαρμογέα Wi-Fi."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Μπλουτούθ"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
-#: NEEDS WORK
-msgid "Enable the Bluetooth adapter."
-msgstr "Ενεργοποιήστε τον προσαρμογέα Bluetooth."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
-msgid "JamesDSP"
-msgstr "JamesDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "Προηγμένος επεξεργαστής ηχητικών εφέ που βελτιώνει την ποιότητα ήχου."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
-msgid "Reverse mouse scrolling"
-msgstr "Αντιστροφή κύλισης ποντικιού"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "Αντιστροφή κύλισης ποντικιού χωρίς επανεκκίνηση της συνεδρίας."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
-#: NEEDS WORK
-msgid "Network Interfaces"
-msgstr "Διεπαφές Δικτύου"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
-#: NEEDS WORK
-msgid "Connect or disconnect network devices."
-msgstr "Συνδέστε ή αποσυνδέστε τις συσκευές δικτύου."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
-#: NEEDS WORK
-#, python-brace-format
-msgid "{} — {}"
-msgstr "{} — {}"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
-#: NEEDS WORK
-#, python-brace-format
-msgid "{}: toggle connection"
-msgstr "{}: εναλλαγή σύνδεσης"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
-#: NEEDS WORK
-msgid "Applying…"
-msgstr "Εφαρμογή…"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: NEEDS WORK
-msgid "connected"
-msgstr "συνδεδεμένος"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: NEEDS WORK
-msgid "disconnected"
-msgstr "αποσυνδεδεμένος"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
-#: NEEDS WORK
-#, python-brace-format
-msgid "Failed to change network device: {}"
-msgstr "Αποτυχία αλλαγής συσκευής δικτύου: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "Προφόρτωση"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "Φορτώστε τις εφαρμογές στη μνήμη για να τις ανοίξετε πιο γρήγορα."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "ΦαIREFOX"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "Γενναίος"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "Κρόμειο"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "Χρωμίου"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "Λιμπρέγουλφ"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "Παλέμουν"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "Όπερα"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "ΛιμπρέΟφις"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
 msgstr "Διεπαφές Τεχνητής Νοημοσύνης"
@@ -717,6 +595,21 @@ msgstr "Ollama Server"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Επιλέξτε ποιος διακομιστής Ollama είναι καλύτερος για το υλικό σας."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Update Ollama"
+msgstr "Ενημέρωση Ollama"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Update the installed Ollama packages to the latest version."
+msgstr "Ενημερώστε τα εγκατεστημένα πακέτα Ollama στην τελευταία έκδοση."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
+#: NEEDS WORK
+msgid "Update now"
+msgstr "Ενημέρωση τώρα"
 # 
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
 #: NEEDS WORK
@@ -772,9 +665,41 @@ msgstr ""
 msgid "Open Notebook"
 msgstr "Άνοιγμα Σημειωματάριου"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
-msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "Μια ανοιχτού κώδικα, εστιασμένη στην ιδιωτικότητα εναλλακτική λύση στο Notebook LM της Google!"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+#: NEEDS WORK
+msgid "Open-source, privacy-focused alternative to Google's NotebookLM. Requires Docker enabled."
+msgstr ""
+"Ανοιχτού κώδικα, εστιασμένη στην ιδιωτικότητα εναλλακτική λύση για το NotebookLM της Google. "
+"Απαιτεί ενεργοποιημένο Docker."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 201
+#: NEEDS WORK
+msgid "Open Notebook Server"
+msgstr "Άνοιγμα Διακομιστή Σημειωματαρίου"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 202
+#: NEEDS WORK
+msgid "Start the Open Notebook server."
+msgstr "Ξεκινήστε τον διακομιστή Open Notebook."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+#, python-brace-format
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"Το Open Notebook εκτελείται.  \n"
+"Διεύθυνση: http://localhost:8502  \n"
+"και  \n"
+"Διεύθυνση: http://{}:8502"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
 msgid "ComfyUI (GPU ONLY)"
@@ -878,6 +803,423 @@ msgid ""
 msgstr ""
 "Τοπικός διακομιστής AI. Για νεότερες GPU AMD, ξεκινώντας από τη σειρά 6000. \n"
 "Σκεφτείτε να χρησιμοποιήσετε το Vulkan, σε πολλές δοκιμές, το Vulkan απέδωσε καλύτερα από το ROCm."
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 11
+#: NEEDS WORK
+msgid "AI Coding Assistants"
+msgstr "Βοηθοί Κωδικοποίησης Τεχνητής Νοημοσύνης"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 12
+#: NEEDS WORK
+msgid "Open-source coding agents powered by language models."
+msgstr "Ανοιχτού κώδικα προγραμματιστές που υποστηρίζονται από γλωσσικά μοντέλα."
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 21
+#: NEEDS WORK
+msgid "OpenClaude"
+msgstr "OpenClaude"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 23
+#: NEEDS WORK
+msgid ""
+"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ models. Installs nodejs, "
+"npm and ripgrep as dependencies."
+msgstr ""
+"CLI ανοιχτού κώδικα για το OpenAI, Gemini, DeepSeek, Ollama και 200+ μοντέλα. Εγκαθιστά το nodejs, "
+"το npm και το ripgrep ως εξαρτήσεις."
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
+#: NEEDS WORK
+msgid "Close"
+msgstr "Κλείσιμο"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+#: NEEDS WORK
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Προειδοποίηση: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
+#: NEEDS WORK
+msgid "Cancel"
+msgstr "Ακύρωση"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
+#: NEEDS WORK
+msgid "Continue"
+msgstr "Συνέχεια"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 220
+#: NEEDS WORK
+msgid "Run"
+msgstr "Εκτέλεση"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 226
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: run action"
+msgstr "{}: εκτέλεση ενέργειας"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+#, python-brace-format
+msgid "Script not found: {}"
+msgstr "Το σενάριο δεν βρέθηκε: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "Εφαρμογή…"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 279
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action script {} failed: {}"
+msgstr "Η εντολή δράσης {} απέτυχε: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 284
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action script timeout: {}"
+msgstr "Χρόνος εξάντλησης σεναρίου δράσης: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 287
+#: NEEDS WORK
+#, python-brace-format
+msgid "Error running action script {}: {}"
+msgstr "Σφάλμα κατά την εκτέλεση του σεναρίου δράσης {}: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 297
+#: NEEDS WORK
+msgid "Action completed successfully"
+msgstr "Η ενέργεια ολοκληρώθηκε με επιτυχία"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 300
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action failed: {}"
+msgstr "Η ενέργεια απέτυχε: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
+#: NEEDS WORK
+msgid "Recommended"
+msgstr "Συνιστώμενο"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: additional information"
+msgstr "{}: επιπλέον πληροφορίες"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+#: NEEDS WORK
+msgid "Learn more"
+msgstr "Μάθετε περισσότερα"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: learn more"
+msgstr "{}: μάθε περισσότερα"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
+msgid "Unavailable: script not found."
+msgstr "Μη διαθέσιμο: το σενάριο δεν βρέθηκε."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr ""
+"Ενεργοποιημένο από τη διαμόρφωση του συστήματος (π.χ., Πυρήνας Πραγματικού Χρόνου) και δεν μπορεί "
+"να αλλάξει εδώ."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
+msgid "Unavailable: script returned invalid output."
+msgstr "Μη διαθέσιμο: το σενάριο επέστρεψε μη έγκυρη έξοδο."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+#, python-brace-format
+msgid "output from script {}: {}"
+msgstr "έξοδος από το σενάριο {}: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
+msgid "Unavailable: script returned an error."
+msgstr "Μη διαθέσιμο: το σενάριο επέστρεψε σφάλμα."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+#, python-brace-format
+msgid "Error checking state: {}"
+msgstr "Σφάλμα ελέγχου κατάστασης: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
+msgid "Unavailable: failed to run script."
+msgstr "Μη διαθέσιμο: απέτυχε να εκτελέσει το σενάριο."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+#, python-brace-format
+msgid "Error running script {}: {}"
+msgstr "Σφάλμα κατά την εκτέλεση του σεναρίου {}: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
+msgid "State changed successfully"
+msgstr "Η κατάσταση άλλαξε με επιτυχία"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+#, python-brace-format
+msgid "Script output: {}"
+msgstr "{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+#, python-brace-format
+msgid "Script failed with exit code: {}"
+msgstr "Το σενάριο απέτυχε με κωδικό εξόδου: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+#, python-brace-format
+msgid "Script timeout: {}"
+msgstr "Λήξη χρόνου εκτέλεσης σεναρίου: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} sub-options available"
+msgstr "{} διαθέσιμες υποεπιλογές"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "on"
+msgstr "ενεργό"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "off"
+msgstr "απενεργοποιημένο"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
+#: NEEDS WORK
+#, python-brace-format
+msgid "Changing {} to {}…"
+msgstr "Αλλαγή {} σε {}…"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+#: NEEDS WORK
+msgid "Undo"
+msgstr "Αναίρεση"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
+#: NEEDS WORK
+msgid "Undo: reverted toggle"
+msgstr "Αναίρεση: αναστραμμένο εναλλασσόμενο"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+#, python-brace-format
+msgid "Changing {} to {}"
+msgstr "Αλλαγή {} σε {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+#, python-brace-format
+msgid "ERROR: Failed to change {} to {}"
+msgstr "ΣΦΑΛΜΑ: Αποτυχία αλλαγής {} σε {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+#, python-brace-format
+msgid "Failed to change setting: {}"
+msgstr "Αποτυχία αλλαγής ρύθμισης: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "Διαχείριση φυσικών συσκευών."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "Ενεργοποιήστε τον προσαρμογέα Wi-Fi."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Μπλουτούθ"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "Ενεργοποιήστε τον προσαρμογέα Bluetooth."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Προηγμένος επεξεργαστής ηχητικών εφέ που βελτιώνει την ποιότητα ήχου."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "Αντιστροφή κύλισης ποντικιού"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "Αντιστροφή κύλισης ποντικιού χωρίς επανεκκίνηση της συνεδρίας."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "Διεπαφές Δικτύου"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "Συνδέστε ή αποσυνδέστε τις συσκευές δικτύου."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} — {}"
+msgstr "{} — {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: εναλλαγή σύνδεσης"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "συνδεδεμένος"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "αποσυνδεδεμένος"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "Αποτυχία αλλαγής συσκευής δικτύου: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Προφόρτωση"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Φορτώστε τις εφαρμογές στη μνήμη για να τις ανοίξετε πιο γρήγορα."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "ΦαIREFOX"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Γενναίος"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Κρόμειο"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Χρωμίου"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "Λιμπρέγουλφ"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Παλέμουν"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Όπερα"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "ΛιμπρέΟφις"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Ρυθμίσεις χρήστη και οπτικού συστήματος."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Αρχική κατάσταση NumLock. Αγνοείται αν είναι ενεργοποιημένη η αυτόματη σύνδεση."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Κουμπί Παραθύρου Αριστερά"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Κουμπιά μεγιστοποίησης, ελαχιστοποίησης και κλεισίματος στην αριστερή πλευρά του παραθύρου."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZones"
+# 
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "Ενεργοποίηση ζωνών πλακιδίων παραθύρων για την επιφάνεια εργασίας KDE Plasma."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "Πρόσφατα Αρχεία & Τοποθεσίες"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
+msgstr ""
+"Επαναφέρει τη λειτουργία 'Πρόσφατα Αρχεία' και 'Πρόσφατες Τοποθεσίες' που εμφανίζεται κενή στο "
+"Dolphin και το Μενού Εφαρμογών."
 # 
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
 #: NEEDS WORK
@@ -1112,28 +1454,10 @@ msgstr ""
 "και  \n"
 "Διεύθυνση: http://{}:2017"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
-msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr ""
-"Εγκαταστήστε μια ανοιχτού κώδικα, προσανατολισμένη στην ιδιωτικότητα εναλλακτική λύση στο Google "
-"Notebook LM!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
-msgid "Run Open Notebook."
-msgstr "Εκτέλεση Ανοιχτού Σημειωματάριου."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
-#, python-brace-format
-msgid ""
-"Open Notebook is running.\n"
-"Address: http://localhost:8502\n"
-"and\n"
-"Address: http://{}:8502"
-msgstr ""
-"Το Open Notebook εκτελείται.  \n"
-"Διεύθυνση: http://localhost:8502  \n"
-"και  \n"
-"Διεύθυνση: http://{}:8502"
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 195
+#: NEEDS WORK
+msgid "Install the open-source alternative to Google's NotebookLM."
+msgstr "Εγκαταστήστε την ανοιχτού κώδικα εναλλακτική λύση του NotebookLM της Google."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -1213,190 +1537,6 @@ msgid ""
 msgstr ""
 "Αυτό θα απενεργοποιήσει τον παρακολουθητή υλικού. Το σύστημά σας δεν θα ανακτά αυτόματα πλέον από "
 "ορισμένους τύπους κραστών. Είστε σίγουροι ότι θέλετε να συνεχίσετε;"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
-#: NEEDS WORK
-msgid "Close"
-msgstr "Κλείσιμο"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
-#: NEEDS WORK
-#, python-brace-format
-msgid "Warning: {}"
-msgstr "Προειδοποίηση: {}"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
-#: NEEDS WORK
-msgid "Cancel"
-msgstr "Ακύρωση"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
-#: NEEDS WORK
-msgid "Continue"
-msgstr "Συνέχεια"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
-#: NEEDS WORK
-msgid "Recommended"
-msgstr "Συνιστώμενο"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
-#: NEEDS WORK
-#, python-brace-format
-msgid "{}: additional information"
-msgstr "{}: επιπλέον πληροφορίες"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
-#: NEEDS WORK
-msgid "Learn more"
-msgstr "Μάθετε περισσότερα"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
-#: NEEDS WORK
-#, python-brace-format
-msgid "{}: learn more"
-msgstr "{}: μάθε περισσότερα"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
-msgid "Unavailable: script not found."
-msgstr "Μη διαθέσιμο: το σενάριο δεν βρέθηκε."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
-#, python-brace-format
-msgid "Script not found: {}"
-msgstr "Το σενάριο δεν βρέθηκε: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
-msgid "Enabled"
-msgstr "Ενεργοποιημένο"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
-msgid "Disabled"
-msgstr "Απενεργοποιημένο"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
-msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
-msgstr ""
-"Ενεργοποιημένο από τη διαμόρφωση του συστήματος (π.χ., Πυρήνας Πραγματικού Χρόνου) και δεν μπορεί "
-"να αλλάξει εδώ."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
-msgid "Unavailable: script returned invalid output."
-msgstr "Μη διαθέσιμο: το σενάριο επέστρεψε μη έγκυρη έξοδο."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
-#, python-brace-format
-msgid "output from script {}: {}"
-msgstr "έξοδος από το σενάριο {}: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
-msgid "Unavailable: script returned an error."
-msgstr "Μη διαθέσιμο: το σενάριο επέστρεψε σφάλμα."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
-#, python-brace-format
-msgid "Error checking state: {}"
-msgstr "Σφάλμα ελέγχου κατάστασης: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
-msgid "Unavailable: failed to run script."
-msgstr "Μη διαθέσιμο: απέτυχε να εκτελέσει το σενάριο."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
-#, python-brace-format
-msgid "Error running script {}: {}"
-msgstr "Σφάλμα κατά την εκτέλεση του σεναρίου {}: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
-msgid "State changed successfully"
-msgstr "Η κατάσταση άλλαξε με επιτυχία"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
-#, python-brace-format
-msgid "Script output: {}"
-msgstr "{}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
-#, python-brace-format
-msgid "Script failed with exit code: {}"
-msgstr "Το σενάριο απέτυχε με κωδικό εξόδου: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
-#, python-brace-format
-msgid "Script timeout: {}"
-msgstr "Λήξη χρόνου εκτέλεσης σεναρίου: {}"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
-#: NEEDS WORK
-#, python-brace-format
-msgid "{} sub-options available"
-msgstr "{} διαθέσιμες υποεπιλογές"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
-#: NEEDS WORK
-msgid "on"
-msgstr "ενεργό"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
-#: NEEDS WORK
-msgid "off"
-msgstr "απενεργοποιημένο"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
-#: NEEDS WORK
-#, python-brace-format
-msgid "Changing {} to {}…"
-msgstr "Αλλαγή {} σε {}…"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
-#: NEEDS WORK
-msgid "Undo"
-msgstr "Αναίρεση"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
-#: NEEDS WORK
-msgid "Undo: reverted toggle"
-msgstr "Αναίρεση: αναστραμμένο εναλλασσόμενο"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-#, python-brace-format
-msgid "Changing {} to {}"
-msgstr "Αλλαγή {} σε {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-#, python-brace-format
-msgid "ERROR: Failed to change {} to {}"
-msgstr "ΣΦΑΛΜΑ: Αποτυχία αλλαγής {} σε {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-#, python-brace-format
-msgid "Failed to change setting: {}"
-msgstr "Αποτυχία αλλαγής ρύθμισης: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."

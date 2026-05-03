@@ -15,196 +15,18 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "comfyUI Depends Install"
-msgstr "comfyUI 依存関係のインストール"
-#: NEEDS WORK
-msgid "Installing comfyUI Depends, please wait..."
-msgstr "comfyUIの依存関係をインストール中です。しばらくお待ちください..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUIの依存関係が正常にインストールされました！"
-msgid "Failed to install comfyUI Depends!"
-msgstr "comfyUIの依存関係のインストールに失敗しました！"
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Ollamaサーバーが実行中です。\\n"
-"アドレス: http://localhost:11434"
-msgid "ChatBox Install"
-msgstr "チャットボックスのインストール"
-#: NEEDS WORK
-msgid "Installing ChatBox, please wait..."
-msgstr "ChatBoxをインストール中です。お待ちください..."
-msgid "ChatBox Uninstall"
-msgstr "チャットボックスのアンインストール"
-#: NEEDS WORK
-msgid "Uninstalling ChatBox, please wait..."
-msgstr "ChatBoxをアンインストール中です。しばらくお待ちください..."
-msgid "ChatBox installed successfully!"
-msgstr "ChatBoxが正常にインストールされました！"
-msgid "Failed to install ChatBox!"
-msgstr "ChatBoxのインストールに失敗しました！"
-msgid "Ollama Lab Install"
-msgstr "Ollama Lab インストール"
-#: NEEDS WORK
-msgid "Installing Ollama Lab, please wait..."
-msgstr "Ollama Labをインストール中です。お待ちください..."
-msgid "Ollama Lab Uninstall"
-msgstr "Ollama Lab アンインストール"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Lab, please wait..."
-msgstr "Ollama Labをアンインストール中です。しばらくお待ちください..."
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Labが正常にインストールされました！"
-msgid "Failed to install Ollama Lab!"
-msgstr "Ollama Labのインストールに失敗しました！"
-msgid "LM Studio Install"
-msgstr "LMスタジオインストール"
-#: NEEDS WORK
-msgid "Installing LM Studio, please wait..."
-msgstr "LM Studioをインストール中です。お待ちください..."
-msgid "LM Studio Uninstall"
-msgstr "LMスタジオのアンインストール"
-#: NEEDS WORK
-msgid "Uninstalling LM Studio, please wait..."
-msgstr "LM Studioをアンインストール中です。お待ちください..."
-msgid "LM Studio installed successfully!"
-msgstr "LM Studioが正常にインストールされました！"
-msgid "Failed to install LM Studio!"
-msgstr "LM Studioのインストールに失敗しました！"
-msgid "Ollama Install"
-msgstr "オラマインストール"
-#: NEEDS WORK
-msgid "Installing Ollama, please wait..."
-msgstr "Ollamaをインストール中です。お待ちください..."
-msgid "Ollama Uninstall"
-msgstr "Ollama アンインストール"
-#: NEEDS WORK
-msgid "Uninstalling Ollama, please wait..."
-msgstr "Ollamaをアンインストール中です。お待ちください..."
-msgid "Ollama installed successfully!"
-msgstr "Ollamaが正常にインストールされました！"
-msgid "Failed to install Ollama!"
-msgstr "Ollamaのインストールに失敗しました！"
-msgid "comfyUI Install...."
-msgstr "comfyUI インストール中...."
-#: NEEDS WORK
-msgid "Installing comfyUI, this step takes a long time, please wait..."
-msgstr "comfyUIをインストール中です。このステップは時間がかかりますので、お待ちください..."
-msgid "Uninstall comfyUI...."
-msgstr "コンフィUIをアンインストールします...."
-#: NEEDS WORK
-msgid "Uninstalling comfyUI, please wait..."
-msgstr "comfyUIをアンインストール中です。お待ちください..."
-msgid "comfyUI installed successfully"
-msgstr "comfyUIが正常にインストールされました。"
-msgid "comfyUI uninstalled successfully"
-msgstr "comfyUIが正常にアンインストールされました。"
-msgid "Failed to install comfyUI!"
-msgstr "comfyUIのインストールに失敗しました！"
-msgid "Ollama CUDA Install"
-msgstr "Ollama CUDA インストール"
-#: NEEDS WORK
-msgid "Installing Ollama CUDA, please wait..."
-msgstr "Ollama CUDAをインストール中です。しばらくお待ちください..."
-msgid "Ollama CUDA Uninstall"
-msgstr "Ollama CUDA アンインストール"
-#: NEEDS WORK
-msgid "Uninstalling Ollama CUDA, please wait..."
-msgstr "Ollama CUDAをアンインストール中です。しばらくお待ちください..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDAが正常にインストールされました！"
-msgid "Failed to install Ollama CUDA!"
-msgstr "Ollama CUDAのインストールに失敗しました！"
-msgid ""
-"Generative AI for Krita has been successfully installed.\\n"
-"\\n"
-"Open Krita, open an existing drawing or create a new one.\\n"
-"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
-"\\n"
-"In the window that opens on the bottom right.\\n"
-"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
-"click Install."
-msgstr ""
-"Krita用の生成AIが正常にインストールされました。\\n"
-"\\n"
-"Kritaを開き、既存のドローイングを開くか、新しいものを作成します。\\n"
-"上部パネルで設定 > パネル > AI画像生成ボックスをチェックします。\\n"
-"\\n"
-"右下に開くウィンドウで。\\n"
-"構成をクリック > ローカル管理サーバーを選択し、GPUまたはCPUを選択し、ワークロードでモデルを選択してインストールをクリックします。"
-msgid "AMD/Nvidia GPU not found!"
-msgstr "AMD/Nvidia GPUが見つかりません！"
-msgid "Krita Install"
-msgstr "Krita インストール"
-#: NEEDS WORK
-msgid "Installing Krita, please wait..."
-msgstr "Kritaをインストール中です。お待ちください..."
-msgid "Krita Uninstall"
-msgstr "Krita アンインストール"
-#: NEEDS WORK
-msgid "Uninstalling Krita, please wait..."
-msgstr "Kritaをアンインストール中です。お待ちください..."
-msgid "Krita installed successfully!"
-msgstr "Kritaが正常にインストールされました！"
-msgid "Failed to install Krita!"
-msgstr "Kritaのインストールに失敗しました！"
-msgid "Ollama Vulkan Install"
-msgstr "Ollama Vulkan インストール"
-msgid "Ollama Vulkan Uninstall"
-msgstr "Ollama Vulkan アンインストール"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Vulkan, please wait..."
-msgstr "Ollama Vulkanをアンインストール中です。しばらくお待ちください..."
-msgid "Ollama Vulkan installed successfully!"
-msgstr "Ollama Vulkanが正常にインストールされました！"
-msgid "Failed to install Ollama Vulkan!"
-msgstr "Ollama Vulkanのインストールに失敗しました！"
-msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
-msgstr ""
-"Ollamaが正常に共有されました。\\n"
-"アドレス: http://$localIp:11434"
-#: NEEDS WORK
-msgid "Failed to configure Ollama sharing!"
-msgstr "Ollamaの共有の設定に失敗しました！"
-msgid "Ollama ROCm Install"
-msgstr "Ollama ROCm インストール"
-#: NEEDS WORK
-msgid "Installing Ollama ROCm, please wait..."
-msgstr "Ollama ROCmをインストール中です。しばらくお待ちください..."
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm アンインストール"
-#: NEEDS WORK
-msgid "Uninstalling Ollama ROCm, please wait..."
-msgstr "Ollama ROCmをアンインストール中です。お待ちください..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCmが正常にインストールされました！"
-msgid "Failed to install Ollama ROCm!"
-msgstr "Ollama ROCmのインストールに失敗しました！"
 msgid "Applying, please wait..."
 msgstr "適用中です。お待ちください..."
-msgid "GRUB updated successfully!"
-msgstr "GRUBが正常に更新されました！"
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUBが正常に更新されました！\\n"
+"効果を得るためにコンピュータを再起動してください。"
 msgid "An error occurred while updating GRUB."
 msgstr "GRUBの更新中にエラーが発生しました。"
-msgid "Limits updated successfully!"
-msgstr "制限が正常に更新されました！"
-msgid "An error occurred while updating Limits."
-msgstr "制限の更新中にエラーが発生しました。"
-msgid "Example Install"
-msgstr "インストールの例"
-msgid "Instaling Example, Please wait..."
-msgstr "インストール中の例です。お待ちください..."
-msgid "Example Uninstall"
-msgstr "アンインストールの例"
-msgid "Uninstaling Example, Please wait..."
-msgstr "アンインストール中の例です。お待ちください..."
-msgid "Example installed successfully!"
-msgstr "インストールが成功しました！"
-msgid "Failed to install Example!"
-msgstr "インストールに失敗しました！"
+msgid "Already enabled. No changes made."
+msgstr "すでに有効です。変更はありません。"
 msgid "JamesDSP Install"
 msgstr "JamesDSPのインストール"
 #: NEEDS WORK
@@ -214,14 +36,6 @@ msgid "JamesDSP installed successfully!"
 msgstr "JamesDSPが正常にインストールされました！"
 msgid "Failed to install jamesDSP!"
 msgstr "jamesDSPのインストールに失敗しました！"
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUBが正常に更新されました！\\n"
-"効果を得るためにコンピュータを再起動してください。"
-msgid "Already enabled. No changes made."
-msgstr "すでに有効です。変更はありません。"
 msgid "Docker Install"
 msgstr "Dockerのインストール"
 #: NEEDS WORK
@@ -264,6 +78,39 @@ msgid "$package removed successfully!"
 msgstr "$パッケージが正常に削除されました！"
 msgid "An error occurred with $package."
 msgstr "$packageでエラーが発生しました。"
+#: NEEDS WORK
+msgid "OpenClaude Install"
+msgstr "OpenClaude インストール"
+#: NEEDS WORK
+msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
+msgstr "OpenClaudeをインストール中（nodejs、npm、ripgrepが必要です）、お待ちください..."
+#: NEEDS WORK
+msgid "OpenClaude Uninstall"
+msgstr "OpenClaude アンインストール"
+#: NEEDS WORK
+msgid "Uninstalling OpenClaude, please wait..."
+msgstr "OpenClaudeをアンインストール中です。お待ちください..."
+#: NEEDS WORK
+msgid ""
+"OpenClaude installed successfully!\\n"
+"\\n"
+"Run 'openclaude' in a terminal to start."
+msgstr ""
+"OpenClaudeが正常にインストールされました！\\n"
+"\\n"
+"ターミナルで「openclaude」を実行して開始してください。"
+#: NEEDS WORK
+msgid "OpenClaude removed successfully!"
+msgstr "OpenClaudeが正常に削除されました！"
+#: NEEDS WORK
+msgid "An error occurred with OpenClaude."
+msgstr "OpenClaudeでエラーが発生しました。"
+msgid "GRUB updated successfully!"
+msgstr "GRUBが正常に更新されました！"
+msgid "Limits updated successfully!"
+msgstr "制限が正常に更新されました！"
+msgid "An error occurred while updating Limits."
+msgstr "制限の更新中にエラーが発生しました。"
 msgid "kzones Install"
 msgstr "kzones インストール"
 #: NEEDS WORK
@@ -295,6 +142,201 @@ msgstr ""
 "効果を得るには、Dolphinを閉じて再起動する必要があります。"
 msgid "Failed to activate Recent Files!"
 msgstr "最近のファイルをアクティブ化できませんでした！"
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollamaサーバーが実行中です。\\n"
+"アドレス: http://localhost:11434"
+msgid "LM Studio Install"
+msgstr "LMスタジオインストール"
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
+msgstr "LM Studioをインストール中です。お待ちください..."
+msgid "LM Studio Uninstall"
+msgstr "LMスタジオのアンインストール"
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "LM Studioをアンインストール中です。お待ちください..."
+msgid "LM Studio installed successfully!"
+msgstr "LM Studioが正常にインストールされました！"
+msgid "Failed to install LM Studio!"
+msgstr "LM Studioのインストールに失敗しました！"
+msgid "Ollama Install"
+msgstr "オラマインストール"
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
+msgstr "Ollamaをインストール中です。お待ちください..."
+msgid "Ollama Uninstall"
+msgstr "Ollama アンインストール"
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Ollamaをアンインストール中です。お待ちください..."
+msgid "Ollama installed successfully!"
+msgstr "Ollamaが正常にインストールされました！"
+msgid "Failed to install Ollama!"
+msgstr "Ollamaのインストールに失敗しました！"
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm インストール"
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
+msgstr "Ollama ROCmをインストール中です。しばらくお待ちください..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm アンインストール"
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Ollama ROCmをアンインストール中です。お待ちください..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCmが正常にインストールされました！"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Ollama ROCmのインストールに失敗しました！"
+msgid ""
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"Krita用の生成AIが正常にインストールされました。\\n"
+"\\n"
+"Kritaを開き、既存のドローイングを開くか、新しいものを作成します。\\n"
+"上部パネルで設定 > パネル > AI画像生成ボックスをチェックします。\\n"
+"\\n"
+"右下に開くウィンドウで。\\n"
+"構成をクリック > ローカル管理サーバーを選択し、GPUまたはCPUを選択し、ワークロードでモデルを選択してインストールをクリックします。"
+#: NEEDS WORK
+msgid "No Ollama packages are installed. Enable an Ollama variant first."
+msgstr "Ollamaパッケージはインストールされていません。最初にOllamaのバリアントを有効にしてください。"
+#: NEEDS WORK
+msgid "Updating Ollama"
+msgstr "Ollamaを更新中"
+#: NEEDS WORK
+msgid "Synchronizing repositories and updating Ollama, please wait..."
+msgstr "リポジトリを同期中で、Ollamaを更新しています。お待ちください..."
+#: NEEDS WORK
+msgid "Ollama updated successfully!"
+msgstr "Ollamaが正常に更新されました！"
+#: NEEDS WORK
+msgid "Failed to update Ollama."
+msgstr "Ollamaの更新に失敗しました。"
+msgid "Ollama Lab Install"
+msgstr "Ollama Lab インストール"
+#: NEEDS WORK
+msgid "Installing Ollama Lab, please wait..."
+msgstr "Ollama Labをインストール中です。お待ちください..."
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Lab アンインストール"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Ollama Labをアンインストール中です。しばらくお待ちください..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Labが正常にインストールされました！"
+msgid "Failed to install Ollama Lab!"
+msgstr "Ollama Labのインストールに失敗しました！"
+msgid "Krita Install"
+msgstr "Krita インストール"
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "Kritaをインストール中です。お待ちください..."
+msgid "Krita Uninstall"
+msgstr "Krita アンインストール"
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
+msgstr "Kritaをアンインストール中です。お待ちください..."
+msgid "Krita installed successfully!"
+msgstr "Kritaが正常にインストールされました！"
+msgid "Failed to install Krita!"
+msgstr "Kritaのインストールに失敗しました！"
+msgid "Ollama Vulkan Install"
+msgstr "Ollama Vulkan インストール"
+msgid "Ollama Vulkan Uninstall"
+msgstr "Ollama Vulkan アンインストール"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Ollama Vulkanをアンインストール中です。しばらくお待ちください..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkanが正常にインストールされました！"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Ollama Vulkanのインストールに失敗しました！"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "AMD/Nvidia GPUが見つかりません！"
+msgid "ChatBox Install"
+msgstr "チャットボックスのインストール"
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
+msgstr "ChatBoxをインストール中です。お待ちください..."
+msgid "ChatBox Uninstall"
+msgstr "チャットボックスのアンインストール"
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
+msgstr "ChatBoxをアンインストール中です。しばらくお待ちください..."
+msgid "ChatBox installed successfully!"
+msgstr "ChatBoxが正常にインストールされました！"
+msgid "Failed to install ChatBox!"
+msgstr "ChatBoxのインストールに失敗しました！"
+msgid "comfyUI Install...."
+msgstr "comfyUI インストール中...."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "comfyUIをインストール中です。このステップは時間がかかりますので、お待ちください..."
+msgid "Uninstall comfyUI...."
+msgstr "コンフィUIをアンインストールします...."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "comfyUIをアンインストール中です。お待ちください..."
+msgid "comfyUI installed successfully"
+msgstr "comfyUIが正常にインストールされました。"
+msgid "comfyUI uninstalled successfully"
+msgstr "comfyUIが正常にアンインストールされました。"
+msgid "Failed to install comfyUI!"
+msgstr "comfyUIのインストールに失敗しました！"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollamaが正常に共有されました。\\n"
+"アドレス: http://$localIp:11434"
+#: NEEDS WORK
+msgid "Failed to configure Ollama sharing!"
+msgstr "Ollamaの共有の設定に失敗しました！"
+msgid "comfyUI Depends Install"
+msgstr "comfyUI 依存関係のインストール"
+#: NEEDS WORK
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "comfyUIの依存関係をインストール中です。しばらくお待ちください..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUIの依存関係が正常にインストールされました！"
+msgid "Failed to install comfyUI Depends!"
+msgstr "comfyUIの依存関係のインストールに失敗しました！"
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA インストール"
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "Ollama CUDAをインストール中です。しばらくお待ちください..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA アンインストール"
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "Ollama CUDAをアンインストール中です。しばらくお待ちください..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDAが正常にインストールされました！"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Ollama CUDAのインストールに失敗しました！"
+msgid "Example Install"
+msgstr "インストールの例"
+msgid "Instaling Example, Please wait..."
+msgstr "インストール中の例です。お待ちください..."
+msgid "Example Uninstall"
+msgstr "アンインストールの例"
+msgid "Uninstaling Example, Please wait..."
+msgstr "アンインストール中の例です。お待ちください..."
+msgid "Example installed successfully!"
+msgstr "インストールが成功しました！"
+msgid "Failed to install Example!"
+msgstr "インストールに失敗しました！"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
@@ -371,6 +413,11 @@ msgstr "人工知能"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
 msgid "Docker"
 msgstr "ドッカー"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 297
+#: NEEDS WORK
+msgid "Developer"
+msgstr "開発者"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
@@ -512,173 +559,6 @@ msgstr "蓋を閉じたときにサスペンド（AC電源）"
 msgid "Some systems do not suspend when on AC power. This forces suspend when the lid is closed."
 msgstr "一部のシステムはAC電源接続時にサスペンドしません。これにより、蓋が閉じられたときにサスペンドが強制されます。"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "ユーザーおよびビジュアルシステム設定。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "初期NumLock状態。自動ログインが有効な場合は無視されます。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "ウィンドウボタンは左側にあります"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "ウィンドウの左側にある最大化、最小化、閉じるボタン。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "Kゾーン"
-# 
-# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable window tiling zones for the KDE Plasma desktop."
-msgstr "KDE Plasmaデスクトップのウィンドウタイルゾーンを有効にする。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "最近のファイルと場所"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
-msgstr "Dolphinおよびアプリケーションメニューで空になっている「最近のファイル」と「最近の場所」の機能を復元します。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
-msgid "Manage physical devices."
-msgstr "物理デバイスを管理します。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "ワイファイ"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable the Wi-Fi adapter."
-msgstr "Wi-Fiアダプターを有効にする。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "ブルートゥース"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
-#: NEEDS WORK
-msgid "Enable the Bluetooth adapter."
-msgstr "Bluetoothアダプターを有効にする。"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
-msgid "JamesDSP"
-msgstr "JamesDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "音質を向上させる高度なオーディオエフェクトプロセッサ。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
-msgid "Reverse mouse scrolling"
-msgstr "マウスのスクロールを逆にする"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "セッションを再起動せずにマウススクロールを逆にする。"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
-#: NEEDS WORK
-msgid "Network Interfaces"
-msgstr "ネットワークインターフェース"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
-#: NEEDS WORK
-msgid "Connect or disconnect network devices."
-msgstr "ネットワークデバイスを接続または切断します。"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
-#: NEEDS WORK
-#, python-brace-format
-msgid "{} — {}"
-msgstr "申し訳ありませんが、翻訳する文字列が提供されていません。翻訳する文字列を入力してください。"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
-#: NEEDS WORK
-#, python-brace-format
-msgid "{}: toggle connection"
-msgstr "{}: 接続を切り替え"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
-#: NEEDS WORK
-msgid "Applying…"
-msgstr "適用中…"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: NEEDS WORK
-msgid "connected"
-msgstr "接続済み"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: NEEDS WORK
-msgid "disconnected"
-msgstr "切断されました"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
-#: NEEDS WORK
-#, python-brace-format
-msgid "Failed to change network device: {}"
-msgstr "ネットワークデバイスの変更に失敗しました: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "プリロード"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "アプリケーションをメモリにプリロードして、より速く開くことができます。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "ファイアフォックス"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "ブレイブ"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "クローム"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "クロミウム"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "リブレウルフ"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "パレムーン"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "オペラ"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "リブレオフィス"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
 msgstr "AIインターフェース"
@@ -696,6 +576,21 @@ msgstr "オラマサーバー"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "ハードウェアに最適なOllamaサーバーを選択してください。"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Update Ollama"
+msgstr "Ollamaを更新"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Update the installed Ollama packages to the latest version."
+msgstr "インストールされたOllamaパッケージを最新バージョンに更新します。"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
+#: NEEDS WORK
+msgid "Update now"
+msgstr "今すぐ更新"
 # 
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
 #: NEEDS WORK
@@ -749,9 +644,39 @@ msgstr "LM Studio - 大規模言語モデルをローカルで探索し実行す
 msgid "Open Notebook"
 msgstr "ノートブックを開く"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
-msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "GoogleのNotebook LMに対するオープンソースでプライバシー重視の代替品！"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+#: NEEDS WORK
+msgid "Open-source, privacy-focused alternative to Google's NotebookLM. Requires Docker enabled."
+msgstr "オープンソースでプライバシー重視のGoogleのNotebookLMの代替。Dockerが有効である必要があります。"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 201
+#: NEEDS WORK
+msgid "Open Notebook Server"
+msgstr "ノートブックサーバーを開く"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 202
+#: NEEDS WORK
+msgid "Start the Open Notebook server."
+msgstr "オープンノートブックサーバーを起動します。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+#, python-brace-format
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"ノートブックが実行中です。\n"
+"アドレス: http://localhost:8502\n"
+"および\n"
+"アドレス: http://{}:8502"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
 msgid "ComfyUI (GPU ONLY)"
@@ -855,6 +780,419 @@ msgid ""
 msgstr ""
 "ローカルAIサーバー。6000シリーズからの新しいAMD GPU用。\n"
 "多くのテストでVulkanがROCmよりも優れたパフォーマンスを発揮したため、Vulkanの使用を検討してください。"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 11
+#: NEEDS WORK
+msgid "AI Coding Assistants"
+msgstr "AIコーディングアシスタント"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 12
+#: NEEDS WORK
+msgid "Open-source coding agents powered by language models."
+msgstr "言語モデルによって動かされるオープンソースのコーディングエージェント。"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 21
+#: NEEDS WORK
+msgid "OpenClaude"
+msgstr "オープンクロード"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 23
+#: NEEDS WORK
+msgid ""
+"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ models. Installs nodejs, "
+"npm and ripgrep as dependencies."
+msgstr ""
+"OpenAI、Gemini、DeepSeek、Ollama、および200"
+"以上のモデル用のオープンソースコーディングエージェントCLI。依存関係としてnodejs、npm、ripgrepをインストールします。"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
+#: NEEDS WORK
+msgid "Close"
+msgstr "閉じる"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+#: NEEDS WORK
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "警告: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
+#: NEEDS WORK
+msgid "Cancel"
+msgstr "キャンセル"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
+#: NEEDS WORK
+msgid "Continue"
+msgstr "続行"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 220
+#: NEEDS WORK
+msgid "Run"
+msgstr "実行"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 226
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: run action"
+msgstr "{}: アクションを実行"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+#, python-brace-format
+msgid "Script not found: {}"
+msgstr "スクリプトが見つかりません: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "適用中…"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 279
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action script {} failed: {}"
+msgstr "アクションスクリプト {} が失敗しました: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 284
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action script timeout: {}"
+msgstr "アクションスクリプトのタイムアウト: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 287
+#: NEEDS WORK
+#, python-brace-format
+msgid "Error running action script {}: {}"
+msgstr "アクションスクリプト {} の実行中にエラーが発生しました: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 297
+#: NEEDS WORK
+msgid "Action completed successfully"
+msgstr "アクションが正常に完了しました"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 300
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action failed: {}"
+msgstr "アクションに失敗しました: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
+#: NEEDS WORK
+msgid "Recommended"
+msgstr "推奨"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: additional information"
+msgstr "{}: 追加情報"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+#: NEEDS WORK
+msgid "Learn more"
+msgstr "詳細を見る"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: learn more"
+msgstr "{}: 詳しく学ぶ"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
+msgid "Unavailable: script not found."
+msgstr "利用できません: スクリプトが見つかりません。"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
+msgid "Enabled"
+msgstr "有効化されました"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
+msgid "Disabled"
+msgstr "無効"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "システム構成によって有効化されており（例：リアルタイムカーネル）、ここでは変更できません。"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
+msgid "Unavailable: script returned invalid output."
+msgstr "利用できません: スクリプトが無効な出力を返しました。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+#, python-brace-format
+msgid "output from script {}: {}"
+msgstr "スクリプトからの出力 {}: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
+msgid "Unavailable: script returned an error."
+msgstr "利用できません: スクリプトがエラーを返しました。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+#, python-brace-format
+msgid "Error checking state: {}"
+msgstr "エラー確認状態: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
+msgid "Unavailable: failed to run script."
+msgstr "利用できません: スクリプトの実行に失敗しました。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+#, python-brace-format
+msgid "Error running script {}: {}"
+msgstr "スクリプトの実行中にエラーが発生しました {}: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
+msgid "State changed successfully"
+msgstr "状態が正常に変更されました"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+#, python-brace-format
+msgid "Script output: {}"
+msgstr "スクリプト出力: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+#, python-brace-format
+msgid "Script failed with exit code: {}"
+msgstr "スクリプトは終了コードで失敗しました: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+#, python-brace-format
+msgid "Script timeout: {}"
+msgstr "スクリプトタイムアウト: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} sub-options available"
+msgstr "{} のサブオプションが利用可能です"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "on"
+msgstr "オン"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "off"
+msgstr "オフ"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
+#: NEEDS WORK
+#, python-brace-format
+msgid "Changing {} to {}…"
+msgstr "{}を{}に変更中…"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+#: NEEDS WORK
+msgid "Undo"
+msgstr "元に戻す"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
+#: NEEDS WORK
+msgid "Undo: reverted toggle"
+msgstr "元に戻す: 切り替えを元に戻しました"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+#, python-brace-format
+msgid "Changing {} to {}"
+msgstr "{}を{}に変更中"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+#, python-brace-format
+msgid "ERROR: Failed to change {} to {}"
+msgstr "エラー: {} を {} に変更できませんでした。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+#, python-brace-format
+msgid "Failed to change setting: {}"
+msgstr "設定の変更に失敗しました: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "物理デバイスを管理します。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "ワイファイ"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "Wi-Fiアダプターを有効にする。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "ブルートゥース"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "Bluetoothアダプターを有効にする。"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "音質を向上させる高度なオーディオエフェクトプロセッサ。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "マウスのスクロールを逆にする"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "セッションを再起動せずにマウススクロールを逆にする。"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "ネットワークインターフェース"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "ネットワークデバイスを接続または切断します。"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} — {}"
+msgstr "申し訳ありませんが、翻訳する文字列が提供されていません。翻訳する文字列を入力してください。"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: 接続を切り替え"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "接続済み"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "切断されました"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "ネットワークデバイスの変更に失敗しました: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "プリロード"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "アプリケーションをメモリにプリロードして、より速く開くことができます。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "ファイアフォックス"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "ブレイブ"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "クローム"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "クロミウム"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "リブレウルフ"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "パレムーン"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "オペラ"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "リブレオフィス"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "ユーザーおよびビジュアルシステム設定。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "初期NumLock状態。自動ログインが有効な場合は無視されます。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "ウィンドウボタンは左側にあります"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "ウィンドウの左側にある最大化、最小化、閉じるボタン。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "Kゾーン"
+# 
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "KDE Plasmaデスクトップのウィンドウタイルゾーンを有効にする。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "最近のファイルと場所"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
+msgstr "Dolphinおよびアプリケーションメニューで空になっている「最近のファイル」と「最近の場所」の機能を復元します。"
 # 
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
 #: NEEDS WORK
@@ -1089,26 +1427,10 @@ msgstr ""
 "および\n"
 "アドレス: http://{}:2017"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
-msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "GoogleのNotebook LMのオープンソースでプライバシー重視の代替品をインストールしてください！"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
-msgid "Run Open Notebook."
-msgstr "オープンノートブックを実行します。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
-#, python-brace-format
-msgid ""
-"Open Notebook is running.\n"
-"Address: http://localhost:8502\n"
-"and\n"
-"Address: http://{}:8502"
-msgstr ""
-"ノートブックが実行中です。\n"
-"アドレス: http://localhost:8502\n"
-"および\n"
-"アドレス: http://{}:8502"
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 195
+#: NEEDS WORK
+msgid "Install the open-source alternative to Google's NotebookLM."
+msgstr "GoogleのNotebookLMのオープンソース代替をインストールします。"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -1178,188 +1500,6 @@ msgid ""
 "This will disable the hardware watchdog. Your system will no longer automatically recover from "
 "certain types of crashes. Are you sure you want to continue?"
 msgstr "これはハードウェアウォッチドッグを無効にします。システムは特定の種類のクラッシュから自動的に回復しなくなります。続行してもよろしいですか？"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
-#: NEEDS WORK
-msgid "Close"
-msgstr "閉じる"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
-#: NEEDS WORK
-#, python-brace-format
-msgid "Warning: {}"
-msgstr "警告: {}"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
-#: NEEDS WORK
-msgid "Cancel"
-msgstr "キャンセル"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
-#: NEEDS WORK
-msgid "Continue"
-msgstr "続行"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
-#: NEEDS WORK
-msgid "Recommended"
-msgstr "推奨"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
-#: NEEDS WORK
-#, python-brace-format
-msgid "{}: additional information"
-msgstr "{}: 追加情報"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
-#: NEEDS WORK
-msgid "Learn more"
-msgstr "詳細を見る"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
-#: NEEDS WORK
-#, python-brace-format
-msgid "{}: learn more"
-msgstr "{}: 詳しく学ぶ"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
-msgid "Unavailable: script not found."
-msgstr "利用できません: スクリプトが見つかりません。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
-#, python-brace-format
-msgid "Script not found: {}"
-msgstr "スクリプトが見つかりません: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
-msgid "Enabled"
-msgstr "有効化されました"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
-msgid "Disabled"
-msgstr "無効"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
-msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
-msgstr "システム構成によって有効化されており（例：リアルタイムカーネル）、ここでは変更できません。"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
-msgid "Unavailable: script returned invalid output."
-msgstr "利用できません: スクリプトが無効な出力を返しました。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
-#, python-brace-format
-msgid "output from script {}: {}"
-msgstr "スクリプトからの出力 {}: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
-msgid "Unavailable: script returned an error."
-msgstr "利用できません: スクリプトがエラーを返しました。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
-#, python-brace-format
-msgid "Error checking state: {}"
-msgstr "エラー確認状態: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
-msgid "Unavailable: failed to run script."
-msgstr "利用できません: スクリプトの実行に失敗しました。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
-#, python-brace-format
-msgid "Error running script {}: {}"
-msgstr "スクリプトの実行中にエラーが発生しました {}: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
-msgid "State changed successfully"
-msgstr "状態が正常に変更されました"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
-#, python-brace-format
-msgid "Script output: {}"
-msgstr "スクリプト出力: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
-#, python-brace-format
-msgid "Script failed with exit code: {}"
-msgstr "スクリプトは終了コードで失敗しました: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
-#, python-brace-format
-msgid "Script timeout: {}"
-msgstr "スクリプトタイムアウト: {}"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
-#: NEEDS WORK
-#, python-brace-format
-msgid "{} sub-options available"
-msgstr "{} のサブオプションが利用可能です"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
-#: NEEDS WORK
-msgid "on"
-msgstr "オン"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
-#: NEEDS WORK
-msgid "off"
-msgstr "オフ"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
-#: NEEDS WORK
-#, python-brace-format
-msgid "Changing {} to {}…"
-msgstr "{}を{}に変更中…"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
-#: NEEDS WORK
-msgid "Undo"
-msgstr "元に戻す"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
-#: NEEDS WORK
-msgid "Undo: reverted toggle"
-msgstr "元に戻す: 切り替えを元に戻しました"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-#, python-brace-format
-msgid "Changing {} to {}"
-msgstr "{}を{}に変更中"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-#, python-brace-format
-msgid "ERROR: Failed to change {} to {}"
-msgstr "エラー: {} を {} に変更できませんでした。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-#, python-brace-format
-msgid "Failed to change setting: {}"
-msgstr "設定の変更に失敗しました: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."

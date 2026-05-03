@@ -15,197 +15,18 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "comfyUI Depends Install"
-msgstr "comfyUI Riippuvuudet Asenna"
-#: NEEDS WORK
-msgid "Installing comfyUI Depends, please wait..."
-msgstr "Asennetaan comfyUI Riippuvuuksia, ole hyvä ja odota..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI Riippuvuudet asennettu onnistuneesti!"
-msgid "Failed to install comfyUI Depends!"
-msgstr "Asennus comfyUI epäonnistui! Riippuvuudet puuttuvat!"
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Ollama-palvelin on käynnissä.\\n"
-"Osoite: http://localhost:11434"
-msgid "ChatBox Install"
-msgstr "ChatBox Asennus"
-#: NEEDS WORK
-msgid "Installing ChatBox, please wait..."
-msgstr "Asennetaan ChatBoxia, ole hyvä ja odota..."
-msgid "ChatBox Uninstall"
-msgstr "ChatBoxin poistaminen"
-#: NEEDS WORK
-msgid "Uninstalling ChatBox, please wait..."
-msgstr "Poistetaan ChatBoxia, ole hyvä ja odota..."
-msgid "ChatBox installed successfully!"
-msgstr "ChatBox asennettu onnistuneesti!"
-msgid "Failed to install ChatBox!"
-msgstr "ChatBoxin asennus epäonnistui!"
-msgid "Ollama Lab Install"
-msgstr "Ollama Lab - Asennus"
-#: NEEDS WORK
-msgid "Installing Ollama Lab, please wait..."
-msgstr "Asennetaan Ollama Labia, ole hyvä ja odota..."
-msgid "Ollama Lab Uninstall"
-msgstr "Ollama Labin poistaminen"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Lab, please wait..."
-msgstr "Poistetaan Ollama Labia, ole hyvä ja odota..."
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Lab asennettu onnistuneesti!"
-msgid "Failed to install Ollama Lab!"
-msgstr "Ollama Labin asennus epäonnistui!"
-msgid "LM Studio Install"
-msgstr "LM Studio Asennus"
-#: NEEDS WORK
-msgid "Installing LM Studio, please wait..."
-msgstr "Asennetaan LM Studioa, ole hyvä ja odota..."
-msgid "LM Studio Uninstall"
-msgstr "LM Studio Poista asennus"
-#: NEEDS WORK
-msgid "Uninstalling LM Studio, please wait..."
-msgstr "Poistetaan LM Studioa, ole hyvä ja odota..."
-msgid "LM Studio installed successfully!"
-msgstr "LM Studio asennettu onnistuneesti!"
-msgid "Failed to install LM Studio!"
-msgstr "LM Studion asennus epäonnistui!"
-msgid "Ollama Install"
-msgstr "Ollama Asennus"
-#: NEEDS WORK
-msgid "Installing Ollama, please wait..."
-msgstr "Asennetaan Ollamaa, ole hyvä ja odota..."
-msgid "Ollama Uninstall"
-msgstr "Ollama Poista asennus"
-#: NEEDS WORK
-msgid "Uninstalling Ollama, please wait..."
-msgstr "Poistetaan Ollamaa, ole hyvä ja odota..."
-msgid "Ollama installed successfully!"
-msgstr "Ollama asennettu onnistuneesti!"
-msgid "Failed to install Ollama!"
-msgstr "Ollaman asennus epäonnistui!"
-msgid "comfyUI Install...."
-msgstr "comfyUI Asennus...."
-#: NEEDS WORK
-msgid "Installing comfyUI, this step takes a long time, please wait..."
-msgstr "Asennetaan comfyUI:tä, tämä vaihe vie paljon aikaa, ole hyvä ja odota..."
-msgid "Uninstall comfyUI...."
-msgstr "Poista comfyUI..."
-#: NEEDS WORK
-msgid "Uninstalling comfyUI, please wait..."
-msgstr "Poistetaan comfyUI:ta, ole hyvä ja odota..."
-msgid "comfyUI installed successfully"
-msgstr "comfyUI asennettu onnistuneesti"
-msgid "comfyUI uninstalled successfully"
-msgstr "comfyUI poistettiin onnistuneesti"
-msgid "Failed to install comfyUI!"
-msgstr "Asennus comfyUI:ta epäonnistui!"
-msgid "Ollama CUDA Install"
-msgstr "Ollama CUDA Asennus"
-#: NEEDS WORK
-msgid "Installing Ollama CUDA, please wait..."
-msgstr "Asennetaan Ollama CUDA, ole hyvä ja odota..."
-msgid "Ollama CUDA Uninstall"
-msgstr "Ollama CUDA Poista asennus"
-#: NEEDS WORK
-msgid "Uninstalling Ollama CUDA, please wait..."
-msgstr "Poistetaan Ollama CUDAa, ole hyvä ja odota..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA asennettu onnistuneesti!"
-msgid "Failed to install Ollama CUDA!"
-msgstr "Ollama CUDA:n asennus epäonnistui!"
-msgid ""
-"Generative AI for Krita has been successfully installed.\\n"
-"\\n"
-"Open Krita, open an existing drawing or create a new one.\\n"
-"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
-"\\n"
-"In the window that opens on the bottom right.\\n"
-"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
-"click Install."
-msgstr ""
-"Generatiivinen tekoäly Kritalle on asennettu onnistuneesti.\\n"
-"\\n"
-"Avaa Krita, avaa olemassa oleva piirustus tai luo uusi.\\n"
-"Yläpaneelissa siirry kohtaan Asetukset > Paneelit > valitse AI-kuvagenerointi -ruutu.\\n"
-"\\n"
-"Avaavassa ikkunassa oikeassa alakulmassa.\\n"
-"Napsauta Määritä > Paikallinen hallittu palvelin, valitse GPU tai CPU, valitse malli Työkuormista "
-"ja napsauta Asenna."
-msgid "AMD/Nvidia GPU not found!"
-msgstr "AMD/Nvidia GPU ei löytynyt!"
-msgid "Krita Install"
-msgstr "Krita Asennus"
-#: NEEDS WORK
-msgid "Installing Krita, please wait..."
-msgstr "Asennetaan Krita, ole hyvä ja odota..."
-msgid "Krita Uninstall"
-msgstr "Krita Poista asennus"
-#: NEEDS WORK
-msgid "Uninstalling Krita, please wait..."
-msgstr "Poistetaan Kritaa, ole hyvä ja odota..."
-msgid "Krita installed successfully!"
-msgstr "Krita asennettu onnistuneesti!"
-msgid "Failed to install Krita!"
-msgstr "Kritan asennus epäonnistui!"
-msgid "Ollama Vulkan Install"
-msgstr "Ollama Vulkan Asennus"
-msgid "Ollama Vulkan Uninstall"
-msgstr "Ollama Vulkan Poista asennus"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Vulkan, please wait..."
-msgstr "Poistetaan Ollama Vulkania, ole hyvä ja odota..."
-msgid "Ollama Vulkan installed successfully!"
-msgstr "Ollama Vulkan asennettu onnistuneesti!"
-msgid "Failed to install Ollama Vulkan!"
-msgstr "Ollama Vulkanin asennus epäonnistui!"
-msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
-msgstr ""
-"Ollama jaettiin onnistuneesti.\\n"
-"Osoite: http://$localIp:11434"
-#: NEEDS WORK
-msgid "Failed to configure Ollama sharing!"
-msgstr "Ollama-jakamisen konfigurointi epäonnistui!"
-msgid "Ollama ROCm Install"
-msgstr "Ollama ROCm Asennus"
-#: NEEDS WORK
-msgid "Installing Ollama ROCm, please wait..."
-msgstr "Asennetaan Ollama ROCm, ole hyvä ja odota..."
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm Poista asennus"
-#: NEEDS WORK
-msgid "Uninstalling Ollama ROCm, please wait..."
-msgstr "Poistetaan Ollama ROCm:ia, ole hyvä ja odota..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm asennettu onnistuneesti!"
-msgid "Failed to install Ollama ROCm!"
-msgstr "Ollama ROCm:n asennus epäonnistui!"
 msgid "Applying, please wait..."
 msgstr "Käytetään, ole hyvä ja odota..."
-msgid "GRUB updated successfully!"
-msgstr "GRUB päivitettiin onnistuneesti!"
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB päivitettiin onnistuneesti!\\n"
+"Käynnistä tietokoneesi uudelleen, jotta muutokset tulevat voimaan."
 msgid "An error occurred while updating GRUB."
 msgstr "Päivityksessä tapahtui virhe GRUB:issa."
-msgid "Limits updated successfully!"
-msgstr "Rajat päivitettiin onnistuneesti!"
-msgid "An error occurred while updating Limits."
-msgstr "Päivityksessä tapahtui virhe Limits."
-msgid "Example Install"
-msgstr "Esimerkkiasennus"
-msgid "Instaling Example, Please wait..."
-msgstr "Asennetaan esimerkkiä, ole hyvä ja odota..."
-msgid "Example Uninstall"
-msgstr "Esimerkki poistoasennus"
-msgid "Uninstaling Example, Please wait..."
-msgstr "Poistetaan esimerkkiä, ole hyvä ja odota..."
-msgid "Example installed successfully!"
-msgstr "Esimerkki asennettu onnistuneesti!"
-msgid "Failed to install Example!"
-msgstr "Esimerkin asennus epäonnistui!"
+msgid "Already enabled. No changes made."
+msgstr "Jo käytössä. Ei muutoksia tehty."
 msgid "JamesDSP Install"
 msgstr "JamesDSP Asennus"
 #: NEEDS WORK
@@ -215,14 +36,6 @@ msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP asennettu onnistuneesti!"
 msgid "Failed to install jamesDSP!"
 msgstr "JamesDSP:n asennus epäonnistui!"
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB päivitettiin onnistuneesti!\\n"
-"Käynnistä tietokoneesi uudelleen, jotta muutokset tulevat voimaan."
-msgid "Already enabled. No changes made."
-msgstr "Jo käytössä. Ei muutoksia tehty."
 msgid "Docker Install"
 msgstr "Dockerin asennus"
 #: NEEDS WORK
@@ -265,6 +78,39 @@ msgid "$package removed successfully!"
 msgstr "$paketti poistettu onnistuneesti!"
 msgid "An error occurred with $package."
 msgstr "Virhe tapahtui $package:n kanssa."
+#: NEEDS WORK
+msgid "OpenClaude Install"
+msgstr "OpenClaude Asennus"
+#: NEEDS WORK
+msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
+msgstr "Asennetaan OpenClaudea (nodejs, npm, ripgrep vaaditaan), ole hyvä ja odota..."
+#: NEEDS WORK
+msgid "OpenClaude Uninstall"
+msgstr "AvaaClaude Poista asennus"
+#: NEEDS WORK
+msgid "Uninstalling OpenClaude, please wait..."
+msgstr "Poistetaan OpenClaudea, ole hyvä ja odota..."
+#: NEEDS WORK
+msgid ""
+"OpenClaude installed successfully!\\n"
+"\\n"
+"Run 'openclaude' in a terminal to start."
+msgstr ""
+"OpenClaude asennettu onnistuneesti!\\n"
+"\\n"
+"Suorita 'openclaude' terminaalissa aloittaaksesi."
+#: NEEDS WORK
+msgid "OpenClaude removed successfully!"
+msgstr "OpenClaude poistettu onnistuneesti!"
+#: NEEDS WORK
+msgid "An error occurred with OpenClaude."
+msgstr "Virhe tapahtui OpenClaudessa."
+msgid "GRUB updated successfully!"
+msgstr "GRUB päivitettiin onnistuneesti!"
+msgid "Limits updated successfully!"
+msgstr "Rajat päivitettiin onnistuneesti!"
+msgid "An error occurred while updating Limits."
+msgstr "Päivityksessä tapahtui virhe Limits."
 msgid "kzones Install"
 msgstr "kzones Asennus"
 #: NEEDS WORK
@@ -296,6 +142,202 @@ msgstr ""
 "Sinun on suljettava ja avattava Dolphin uudelleen, jotta muutos astuu voimaan."
 msgid "Failed to activate Recent Files!"
 msgstr "Viimeisimpien tiedostojen aktivointi epäonnistui!"
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama-palvelin on käynnissä.\\n"
+"Osoite: http://localhost:11434"
+msgid "LM Studio Install"
+msgstr "LM Studio Asennus"
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
+msgstr "Asennetaan LM Studioa, ole hyvä ja odota..."
+msgid "LM Studio Uninstall"
+msgstr "LM Studio Poista asennus"
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "Poistetaan LM Studioa, ole hyvä ja odota..."
+msgid "LM Studio installed successfully!"
+msgstr "LM Studio asennettu onnistuneesti!"
+msgid "Failed to install LM Studio!"
+msgstr "LM Studion asennus epäonnistui!"
+msgid "Ollama Install"
+msgstr "Ollama Asennus"
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
+msgstr "Asennetaan Ollamaa, ole hyvä ja odota..."
+msgid "Ollama Uninstall"
+msgstr "Ollama Poista asennus"
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Poistetaan Ollamaa, ole hyvä ja odota..."
+msgid "Ollama installed successfully!"
+msgstr "Ollama asennettu onnistuneesti!"
+msgid "Failed to install Ollama!"
+msgstr "Ollaman asennus epäonnistui!"
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm Asennus"
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
+msgstr "Asennetaan Ollama ROCm, ole hyvä ja odota..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm Poista asennus"
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Poistetaan Ollama ROCm:ia, ole hyvä ja odota..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm asennettu onnistuneesti!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Ollama ROCm:n asennus epäonnistui!"
+msgid ""
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"Generatiivinen tekoäly Kritalle on asennettu onnistuneesti.\\n"
+"\\n"
+"Avaa Krita, avaa olemassa oleva piirustus tai luo uusi.\\n"
+"Yläpaneelissa siirry kohtaan Asetukset > Paneelit > valitse AI-kuvagenerointi -ruutu.\\n"
+"\\n"
+"Avaavassa ikkunassa oikeassa alakulmassa.\\n"
+"Napsauta Määritä > Paikallinen hallittu palvelin, valitse GPU tai CPU, valitse malli Työkuormista "
+"ja napsauta Asenna."
+#: NEEDS WORK
+msgid "No Ollama packages are installed. Enable an Ollama variant first."
+msgstr "Ei Ollama-paketteja ole asennettu. Ota ensin käyttöön Ollama-versio."
+#: NEEDS WORK
+msgid "Updating Ollama"
+msgstr "Päivitetään Ollamaa"
+#: NEEDS WORK
+msgid "Synchronizing repositories and updating Ollama, please wait..."
+msgstr "Synkronoidaan varastoja ja päivitetään Ollamaa, ole hyvä ja odota..."
+#: NEEDS WORK
+msgid "Ollama updated successfully!"
+msgstr "Ollama päivitettiin onnistuneesti!"
+#: NEEDS WORK
+msgid "Failed to update Ollama."
+msgstr "Päivitys Ollamalle epäonnistui."
+msgid "Ollama Lab Install"
+msgstr "Ollama Lab - Asennus"
+#: NEEDS WORK
+msgid "Installing Ollama Lab, please wait..."
+msgstr "Asennetaan Ollama Labia, ole hyvä ja odota..."
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Labin poistaminen"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Poistetaan Ollama Labia, ole hyvä ja odota..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab asennettu onnistuneesti!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Ollama Labin asennus epäonnistui!"
+msgid "Krita Install"
+msgstr "Krita Asennus"
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "Asennetaan Krita, ole hyvä ja odota..."
+msgid "Krita Uninstall"
+msgstr "Krita Poista asennus"
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
+msgstr "Poistetaan Kritaa, ole hyvä ja odota..."
+msgid "Krita installed successfully!"
+msgstr "Krita asennettu onnistuneesti!"
+msgid "Failed to install Krita!"
+msgstr "Kritan asennus epäonnistui!"
+msgid "Ollama Vulkan Install"
+msgstr "Ollama Vulkan Asennus"
+msgid "Ollama Vulkan Uninstall"
+msgstr "Ollama Vulkan Poista asennus"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Poistetaan Ollama Vulkania, ole hyvä ja odota..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan asennettu onnistuneesti!"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Ollama Vulkanin asennus epäonnistui!"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "AMD/Nvidia GPU ei löytynyt!"
+msgid "ChatBox Install"
+msgstr "ChatBox Asennus"
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
+msgstr "Asennetaan ChatBoxia, ole hyvä ja odota..."
+msgid "ChatBox Uninstall"
+msgstr "ChatBoxin poistaminen"
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
+msgstr "Poistetaan ChatBoxia, ole hyvä ja odota..."
+msgid "ChatBox installed successfully!"
+msgstr "ChatBox asennettu onnistuneesti!"
+msgid "Failed to install ChatBox!"
+msgstr "ChatBoxin asennus epäonnistui!"
+msgid "comfyUI Install...."
+msgstr "comfyUI Asennus...."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "Asennetaan comfyUI:tä, tämä vaihe vie paljon aikaa, ole hyvä ja odota..."
+msgid "Uninstall comfyUI...."
+msgstr "Poista comfyUI..."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "Poistetaan comfyUI:ta, ole hyvä ja odota..."
+msgid "comfyUI installed successfully"
+msgstr "comfyUI asennettu onnistuneesti"
+msgid "comfyUI uninstalled successfully"
+msgstr "comfyUI poistettiin onnistuneesti"
+msgid "Failed to install comfyUI!"
+msgstr "Asennus comfyUI:ta epäonnistui!"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama jaettiin onnistuneesti.\\n"
+"Osoite: http://$localIp:11434"
+#: NEEDS WORK
+msgid "Failed to configure Ollama sharing!"
+msgstr "Ollama-jakamisen konfigurointi epäonnistui!"
+msgid "comfyUI Depends Install"
+msgstr "comfyUI Riippuvuudet Asenna"
+#: NEEDS WORK
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "Asennetaan comfyUI Riippuvuuksia, ole hyvä ja odota..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI Riippuvuudet asennettu onnistuneesti!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "Asennus comfyUI epäonnistui! Riippuvuudet puuttuvat!"
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA Asennus"
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "Asennetaan Ollama CUDA, ole hyvä ja odota..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA Poista asennus"
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "Poistetaan Ollama CUDAa, ole hyvä ja odota..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA asennettu onnistuneesti!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Ollama CUDA:n asennus epäonnistui!"
+msgid "Example Install"
+msgstr "Esimerkkiasennus"
+msgid "Instaling Example, Please wait..."
+msgstr "Asennetaan esimerkkiä, ole hyvä ja odota..."
+msgid "Example Uninstall"
+msgstr "Esimerkki poistoasennus"
+msgid "Uninstaling Example, Please wait..."
+msgstr "Poistetaan esimerkkiä, ole hyvä ja odota..."
+msgid "Example installed successfully!"
+msgstr "Esimerkki asennettu onnistuneesti!"
+msgid "Failed to install Example!"
+msgstr "Esimerkin asennus epäonnistui!"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
@@ -372,6 +414,11 @@ msgstr "A.I."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
 msgid "Docker"
 msgstr "Docker"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 297
+#: NEEDS WORK
+msgid "Developer"
+msgstr "Kehittäjä"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
@@ -529,175 +576,6 @@ msgstr ""
 "Jotkut järjestelmät eivät siirry lepotilaan, kun ne ovat verkkovirrassa. Tämä pakottaa lepotilan, "
 "kun kansi on suljettu."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Käyttäjä- ja visuaalijärjestelmäasetukset."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Alkuperäinen NumLock-tila. Ohitetaan, jos automaattinen kirjautuminen on käytössä."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Ikkunapainike vasemmalla puolella"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Maksimoi, minimoi ja sulje painikkeet ikkunan vasemmalla puolella."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZones"
-# 
-# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable window tiling zones for the KDE Plasma desktop."
-msgstr "Ota käyttöön ikkunan laatoitusalueet KDE Plasma -työpöydälle."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "Viimeisimmät tiedostot ja sijainnit"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
-msgstr ""
-"Palauttaa 'Äskettäin käytetyt tiedostot' ja 'Äskettäin käytetyt sijainnit' -toiminnallisuuden, joka "
-"näkyy tyhjänä Dolphinissa ja Sovellusvalikossa."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
-msgid "Manage physical devices."
-msgstr "Hallitse fyysisiä laitteita."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable the Wi-Fi adapter."
-msgstr "Ota Wi-Fi-sovitin käyttöön."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
-#: NEEDS WORK
-msgid "Enable the Bluetooth adapter."
-msgstr "Ota käyttöön Bluetooth-sovitin."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
-msgid "JamesDSP"
-msgstr "JamesDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "Edistynyt äänenkäsittelyprosessori, joka parantaa äänenlaatua."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
-msgid "Reverse mouse scrolling"
-msgstr "Käänteinen hiiren vieritys"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "Käänteinen hiiren vieritys ilman istunnon uudelleenkäynnistämistä."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
-#: NEEDS WORK
-msgid "Network Interfaces"
-msgstr "Verkkoliitännät"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
-#: NEEDS WORK
-msgid "Connect or disconnect network devices."
-msgstr "Yhdistä tai irrota verkkolaitteet."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
-#: NEEDS WORK
-#, python-brace-format
-msgid "{} — {}"
-msgstr "{} — {}"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
-#: NEEDS WORK
-#, python-brace-format
-msgid "{}: toggle connection"
-msgstr "{}: kytke yhteys päälle/pois"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
-#: NEEDS WORK
-msgid "Applying…"
-msgstr "Käytetään…"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: NEEDS WORK
-msgid "connected"
-msgstr "yhdistetty"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: NEEDS WORK
-msgid "disconnected"
-msgstr "katkaistu"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
-#: NEEDS WORK
-#, python-brace-format
-msgid "Failed to change network device: {}"
-msgstr "Verkon laitteen vaihtaminen epäonnistui: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "Esilataus"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "Esilataa sovelluksia muistiin avatakseen ne nopeammin."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "Firefox"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "Brave"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "Chrome"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "Chromium"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "Librewolf"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "Palemoon"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "Opera"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "LibreOffice"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
 msgstr "AI-käyttöliittymät"
@@ -715,6 +593,21 @@ msgstr "Ollama-palvelin"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Valitse, mikä Ollama-palvelin on paras laitteistollasi."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Update Ollama"
+msgstr "Päivitä Ollama"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Update the installed Ollama packages to the latest version."
+msgstr "Päivitä asennetut Ollama-paketit uusimpaan versioon."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
+#: NEEDS WORK
+msgid "Update now"
+msgstr "Päivitä nyt"
 # 
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
 #: NEEDS WORK
@@ -768,9 +661,41 @@ msgstr "LM Studio - Työpöytäsovellus suurten kielimallien tutkimiseen ja suor
 msgid "Open Notebook"
 msgstr "Avaa muistikirja"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
-msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "Avoimen lähdekoodin, yksityisyyteen keskittyvä vaihtoehto Googlen Notebook LM:lle!"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+#: NEEDS WORK
+msgid "Open-source, privacy-focused alternative to Google's NotebookLM. Requires Docker enabled."
+msgstr ""
+"Avoimen lähdekoodin, yksityisyyteen keskittyvä vaihtoehto Googlen NotebookLM:lle. Vaatii Dockerin "
+"käytön."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 201
+#: NEEDS WORK
+msgid "Open Notebook Server"
+msgstr "Avaa Muistikirjan Palvelin"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 202
+#: NEEDS WORK
+msgid "Start the Open Notebook server."
+msgstr "Aloita Open Notebook -palvelin."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+#, python-brace-format
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"Avoin muistikirja on käynnissä.  \n"
+"Osoite: http://localhost:8502  \n"
+"ja  \n"
+"Osoite: http://{}:8502"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
 msgid "ComfyUI (GPU ONLY)"
@@ -874,6 +799,421 @@ msgid ""
 msgstr ""
 "Paikallinen AI-palvelin. Uudemmille AMD GPU:ille, alkaen 6000-sarjasta. Harkitse Vulkanin käyttöä, "
 "monissa testeissä Vulkan suoriutui paremmin kuin ROCm."
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 11
+#: NEEDS WORK
+msgid "AI Coding Assistants"
+msgstr "AI-koodausavustajat"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 12
+#: NEEDS WORK
+msgid "Open-source coding agents powered by language models."
+msgstr "Avoimen lähdekoodin koodausagentit, joita ohjaavat kielimallit."
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 21
+#: NEEDS WORK
+msgid "OpenClaude"
+msgstr "OpenClaude"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 23
+#: NEEDS WORK
+msgid ""
+"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ models. Installs nodejs, "
+"npm and ripgrep as dependencies."
+msgstr ""
+"Avoimen lähdekoodin koodausagentti CLI OpenAI:lle, Geminille, DeepSeekille, Ollamalle ja yli 200 "
+"mallille. Asentaa nodejs:n, npm:n ja ripgrepin riippuvuuksina."
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
+#: NEEDS WORK
+msgid "Close"
+msgstr "Sulje"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+#: NEEDS WORK
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Varoitus: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
+#: NEEDS WORK
+msgid "Cancel"
+msgstr "Peruuta"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
+#: NEEDS WORK
+msgid "Continue"
+msgstr "Jatka"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 220
+#: NEEDS WORK
+msgid "Run"
+msgstr "Suorita"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 226
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: run action"
+msgstr "{}: suorita toiminto"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+#, python-brace-format
+msgid "Script not found: {}"
+msgstr "Skriptiä ei löytynyt: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "Käytetään…"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 279
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action script {} failed: {}"
+msgstr "Toimintaskripti {} epäonnistui: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 284
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action script timeout: {}"
+msgstr "Toimintaskripti aikakatkaisu: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 287
+#: NEEDS WORK
+#, python-brace-format
+msgid "Error running action script {}: {}"
+msgstr "Virhe toimiessasi toimintaskriptiä {}: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 297
+#: NEEDS WORK
+msgid "Action completed successfully"
+msgstr "Toiminto suoritettu onnistuneesti"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 300
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action failed: {}"
+msgstr "Toiminto epäonnistui: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
+#: NEEDS WORK
+msgid "Recommended"
+msgstr "Suositeltu"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: additional information"
+msgstr "{}: lisätietoja"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+#: NEEDS WORK
+msgid "Learn more"
+msgstr "Lisätietoja"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: learn more"
+msgstr "{}: lue lisää"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
+msgid "Unavailable: script not found."
+msgstr "Ei saatavilla: skriptiä ei löytynyt."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
+msgid "Enabled"
+msgstr "Oma käytössä"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
+msgid "Disabled"
+msgstr "Poistettu käytöstä"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "Oletettu järjestelmäasetusten (esim. Reaaliaikainen ydin) avulla, eikä sitä voida muuttaa täällä."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
+msgid "Unavailable: script returned invalid output."
+msgstr "Ei saatavilla: skripti palautti virheellisen tuloksen."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+#, python-brace-format
+msgid "output from script {}: {}"
+msgstr "skriptin tulos {}: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
+msgid "Unavailable: script returned an error."
+msgstr "Ei saatavilla: skripti palautti virheen."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+#, python-brace-format
+msgid "Error checking state: {}"
+msgstr "Virheen tarkistustila: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
+msgid "Unavailable: failed to run script."
+msgstr "Ei saatavilla: skriptin suorittaminen epäonnistui."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+#, python-brace-format
+msgid "Error running script {}: {}"
+msgstr "Virhe skriptin suorittamisessa {}: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
+msgid "State changed successfully"
+msgstr "Tila muutettu onnistuneesti"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+#, python-brace-format
+msgid "Script output: {}"
+msgstr "{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+#, python-brace-format
+msgid "Script failed with exit code: {}"
+msgstr "Skripti epäonnistui poistumiskoodilla: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+#, python-brace-format
+msgid "Script timeout: {}"
+msgstr "Skripti aikakatkaisu: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} sub-options available"
+msgstr "{} alivalinnat saatavilla"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "on"
+msgstr "päällä"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "off"
+msgstr "pois päältä"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
+#: NEEDS WORK
+#, python-brace-format
+msgid "Changing {} to {}…"
+msgstr "Muutetaan {} {}:ksi…"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+#: NEEDS WORK
+msgid "Undo"
+msgstr "Kumoa"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
+#: NEEDS WORK
+msgid "Undo: reverted toggle"
+msgstr "Kumoa: palautettu kytkin"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+#, python-brace-format
+msgid "Changing {} to {}"
+msgstr "Muutetaan {} {}:ksi"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+#, python-brace-format
+msgid "ERROR: Failed to change {} to {}"
+msgstr "VIRHE: Muutosta {} {} ei voitu suorittaa."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+#, python-brace-format
+msgid "Failed to change setting: {}"
+msgstr "Asetuksen muuttaminen epäonnistui: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "Hallitse fyysisiä laitteita."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "Ota Wi-Fi-sovitin käyttöön."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "Ota käyttöön Bluetooth-sovitin."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Edistynyt äänenkäsittelyprosessori, joka parantaa äänenlaatua."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "Käänteinen hiiren vieritys"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "Käänteinen hiiren vieritys ilman istunnon uudelleenkäynnistämistä."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "Verkkoliitännät"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "Yhdistä tai irrota verkkolaitteet."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} — {}"
+msgstr "{} — {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: kytke yhteys päälle/pois"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "yhdistetty"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "katkaistu"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "Verkon laitteen vaihtaminen epäonnistui: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Esilataus"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Esilataa sovelluksia muistiin avatakseen ne nopeammin."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Brave"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Chromium"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "Librewolf"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Opera"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "LibreOffice"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Käyttäjä- ja visuaalijärjestelmäasetukset."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Alkuperäinen NumLock-tila. Ohitetaan, jos automaattinen kirjautuminen on käytössä."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Ikkunapainike vasemmalla puolella"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Maksimoi, minimoi ja sulje painikkeet ikkunan vasemmalla puolella."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZones"
+# 
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "Ota käyttöön ikkunan laatoitusalueet KDE Plasma -työpöydälle."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "Viimeisimmät tiedostot ja sijainnit"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
+msgstr ""
+"Palauttaa 'Äskettäin käytetyt tiedostot' ja 'Äskettäin käytetyt sijainnit' -toiminnallisuuden, joka "
+"näkyy tyhjänä Dolphinissa ja Sovellusvalikossa."
 # 
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
 #: NEEDS WORK
@@ -1108,26 +1448,10 @@ msgstr ""
 "ja  \n"
 "Osoite: http://{}:2017"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
-msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "Asenna avoimen lähdekoodin, yksityisyyteen keskittyvä vaihtoehto Googlen Notebook LM:lle!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
-msgid "Run Open Notebook."
-msgstr "Avaa Avoin Muistikirja."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
-#, python-brace-format
-msgid ""
-"Open Notebook is running.\n"
-"Address: http://localhost:8502\n"
-"and\n"
-"Address: http://{}:8502"
-msgstr ""
-"Avoin muistikirja on käynnissä.  \n"
-"Osoite: http://localhost:8502  \n"
-"ja  \n"
-"Osoite: http://{}:8502"
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 195
+#: NEEDS WORK
+msgid "Install the open-source alternative to Google's NotebookLM."
+msgstr "Asenna Googlen NotebookLM:lle avoimen lähdekoodin vaihtoehto."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -1207,188 +1531,6 @@ msgid ""
 msgstr ""
 "Tämä poistaa käytöstä laitteiston valvontakellon. Järjestelmäsi ei enää automaattisesti palaudu "
 "tietyntyyppisistä kaatumisista. Oletko varma, että haluat jatkaa?"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
-#: NEEDS WORK
-msgid "Close"
-msgstr "Sulje"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
-#: NEEDS WORK
-#, python-brace-format
-msgid "Warning: {}"
-msgstr "Varoitus: {}"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
-#: NEEDS WORK
-msgid "Cancel"
-msgstr "Peruuta"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
-#: NEEDS WORK
-msgid "Continue"
-msgstr "Jatka"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
-#: NEEDS WORK
-msgid "Recommended"
-msgstr "Suositeltu"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
-#: NEEDS WORK
-#, python-brace-format
-msgid "{}: additional information"
-msgstr "{}: lisätietoja"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
-#: NEEDS WORK
-msgid "Learn more"
-msgstr "Lisätietoja"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
-#: NEEDS WORK
-#, python-brace-format
-msgid "{}: learn more"
-msgstr "{}: lue lisää"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
-msgid "Unavailable: script not found."
-msgstr "Ei saatavilla: skriptiä ei löytynyt."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
-#, python-brace-format
-msgid "Script not found: {}"
-msgstr "Skriptiä ei löytynyt: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
-msgid "Enabled"
-msgstr "Oma käytössä"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
-msgid "Disabled"
-msgstr "Poistettu käytöstä"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
-msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
-msgstr "Oletettu järjestelmäasetusten (esim. Reaaliaikainen ydin) avulla, eikä sitä voida muuttaa täällä."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
-msgid "Unavailable: script returned invalid output."
-msgstr "Ei saatavilla: skripti palautti virheellisen tuloksen."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
-#, python-brace-format
-msgid "output from script {}: {}"
-msgstr "skriptin tulos {}: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
-msgid "Unavailable: script returned an error."
-msgstr "Ei saatavilla: skripti palautti virheen."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
-#, python-brace-format
-msgid "Error checking state: {}"
-msgstr "Virheen tarkistustila: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
-msgid "Unavailable: failed to run script."
-msgstr "Ei saatavilla: skriptin suorittaminen epäonnistui."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
-#, python-brace-format
-msgid "Error running script {}: {}"
-msgstr "Virhe skriptin suorittamisessa {}: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
-msgid "State changed successfully"
-msgstr "Tila muutettu onnistuneesti"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
-#, python-brace-format
-msgid "Script output: {}"
-msgstr "{}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
-#, python-brace-format
-msgid "Script failed with exit code: {}"
-msgstr "Skripti epäonnistui poistumiskoodilla: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
-#, python-brace-format
-msgid "Script timeout: {}"
-msgstr "Skripti aikakatkaisu: {}"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
-#: NEEDS WORK
-#, python-brace-format
-msgid "{} sub-options available"
-msgstr "{} alivalinnat saatavilla"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
-#: NEEDS WORK
-msgid "on"
-msgstr "päällä"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
-#: NEEDS WORK
-msgid "off"
-msgstr "pois päältä"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
-#: NEEDS WORK
-#, python-brace-format
-msgid "Changing {} to {}…"
-msgstr "Muutetaan {} {}:ksi…"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
-#: NEEDS WORK
-msgid "Undo"
-msgstr "Kumoa"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
-#: NEEDS WORK
-msgid "Undo: reverted toggle"
-msgstr "Kumoa: palautettu kytkin"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-#, python-brace-format
-msgid "Changing {} to {}"
-msgstr "Muutetaan {} {}:ksi"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-#, python-brace-format
-msgid "ERROR: Failed to change {} to {}"
-msgstr "VIRHE: Muutosta {} {} ei voitu suorittaa."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-#, python-brace-format
-msgid "Failed to change setting: {}"
-msgstr "Asetuksen muuttaminen epäonnistui: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."

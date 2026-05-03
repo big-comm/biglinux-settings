@@ -15,197 +15,18 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "comfyUI Depends Install"
-msgstr "התקנת תלות ComfyUI"
-#: NEEDS WORK
-msgid "Installing comfyUI Depends, please wait..."
-msgstr "מתקין את תלות comfyUI, אנא המתן..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI תלות הותקנה בהצלחה!"
-msgid "Failed to install comfyUI Depends!"
-msgstr "כישלון בהתקנת comfyUI תלות!"
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"שרת אולמה פועל.\\n"
-"כתובת: http://localhost:11434"
-msgid "ChatBox Install"
-msgstr "התקנת צ'אטבוקס"
-#: NEEDS WORK
-msgid "Installing ChatBox, please wait..."
-msgstr "מתקין את ChatBox, אנא המתן..."
-msgid "ChatBox Uninstall"
-msgstr "הסרת התקנה של ChatBox"
-#: NEEDS WORK
-msgid "Uninstalling ChatBox, please wait..."
-msgstr "מניחים את ChatBox, אנא המתן..."
-msgid "ChatBox installed successfully!"
-msgstr "ChatBox הותקן בהצלחה!"
-msgid "Failed to install ChatBox!"
-msgstr "ההתקנה של ChatBox נכשלה!"
-msgid "Ollama Lab Install"
-msgstr "התקנת אולמה Lab"
-#: NEEDS WORK
-msgid "Installing Ollama Lab, please wait..."
-msgstr "מתקין את Ollama Lab, אנא המתן..."
-msgid "Ollama Lab Uninstall"
-msgstr "אולמה מעבדה הסרה"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Lab, please wait..."
-msgstr "מניחים את Ollama Lab, אנא המתן..."
-msgid "Ollama Lab installed successfully!"
-msgstr "אולמה מעבדה הותקנה בהצלחה!"
-msgid "Failed to install Ollama Lab!"
-msgstr "ההתקנה של Ollama Lab נכשלה!"
-msgid "LM Studio Install"
-msgstr "התקנת LM Studio"
-#: NEEDS WORK
-msgid "Installing LM Studio, please wait..."
-msgstr "מתקין את LM Studio, אנא המתן..."
-msgid "LM Studio Uninstall"
-msgstr "הסרת התקנה של LM Studio"
-#: NEEDS WORK
-msgid "Uninstalling LM Studio, please wait..."
-msgstr "מניחים את LM Studio, אנא המתן..."
-msgid "LM Studio installed successfully!"
-msgstr "ההתקנה של LM Studio הושלמה בהצלחה!"
-msgid "Failed to install LM Studio!"
-msgstr "ההתקנה של LM Studio נכשלה!"
-msgid "Ollama Install"
-msgstr "התקנת אולמה"
-#: NEEDS WORK
-msgid "Installing Ollama, please wait..."
-msgstr "מתקין את אולמה, אנא המתן..."
-msgid "Ollama Uninstall"
-msgstr "אולמה הסרה"
-#: NEEDS WORK
-msgid "Uninstalling Ollama, please wait..."
-msgstr "מניחים את אולמה, אנא המתן..."
-msgid "Ollama installed successfully!"
-msgstr "אולמה הותקן בהצלחה!"
-msgid "Failed to install Ollama!"
-msgstr "ההתקנה של אולמה נכשלה!"
-msgid "comfyUI Install...."
-msgstr "התקנת ComfyUI...."
-#: NEEDS WORK
-msgid "Installing comfyUI, this step takes a long time, please wait..."
-msgstr "מתקין את comfyUI, שלב זה לוקח הרבה זמן, אנא המתן..."
-msgid "Uninstall comfyUI...."
-msgstr "הסר את התקנת comfyUI...."
-#: NEEDS WORK
-msgid "Uninstalling comfyUI, please wait..."
-msgstr "מניחים את comfyUI, אנא המתן..."
-msgid "comfyUI installed successfully"
-msgstr "comfyUI הותקן בהצלחה"
-msgid "comfyUI uninstalled successfully"
-msgstr "comfyUI הוסרה בהצלחה"
-msgid "Failed to install comfyUI!"
-msgstr "ההתקנה של comfyUI נכשלה!"
-msgid "Ollama CUDA Install"
-msgstr "התקנת אולמה CUDA"
-#: NEEDS WORK
-msgid "Installing Ollama CUDA, please wait..."
-msgstr "מתקין את אולמה CUDA, אנא המתן..."
-msgid "Ollama CUDA Uninstall"
-msgstr "אולמה CUDA הסרה"
-#: NEEDS WORK
-msgid "Uninstalling Ollama CUDA, please wait..."
-msgstr "מניחים את Ollama CUDA, אנא המתן..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "אולמה CUDA הותקן בהצלחה!"
-msgid "Failed to install Ollama CUDA!"
-msgstr "ההתקנה של Ollama CUDA נכשלה!"
-msgid ""
-"Generative AI for Krita has been successfully installed.\\n"
-"\\n"
-"Open Krita, open an existing drawing or create a new one.\\n"
-"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
-"\\n"
-"In the window that opens on the bottom right.\\n"
-"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
-"click Install."
-msgstr ""
-"ה-AI הגנרטיבי עבור Krita הותקן בהצלחה.\\n"
-"\\n"
-"פתח את Krita, פתח ציור קיים או צור חדש.\\n"
-"בלוח העליון עבור ל\"הגדרות\" > \"פאנלים\" > סמן את תיבת \"יצירת תמונות בעזרת AI\".\\n"
-"\\n"
-"בחלון שנפתח בפינה הימנית התחתונה.\\n"
-"לחץ על \"הגדר\" > \"שרת מנוהל מקומית\", בחר את ה-GPU או ה-CPU שלך, בחר את המודל ב\"עומסים\" ולחץ על "
-"\"התקן\"."
-msgid "AMD/Nvidia GPU not found!"
-msgstr "כרטיס גרפי AMD/Nvidia לא נמצא!"
-msgid "Krita Install"
-msgstr "התקנת קריטה"
-#: NEEDS WORK
-msgid "Installing Krita, please wait..."
-msgstr "מתקין את קריטה, אנא המתן..."
-msgid "Krita Uninstall"
-msgstr "הסרת Krita"
-#: NEEDS WORK
-msgid "Uninstalling Krita, please wait..."
-msgstr "מניחים את Krita, אנא המתן..."
-msgid "Krita installed successfully!"
-msgstr "קריטה הותקנה בהצלחה!"
-msgid "Failed to install Krita!"
-msgstr "ההתקנה של קריטה נכשלה!"
-msgid "Ollama Vulkan Install"
-msgstr "התקנת אולמה וולקן"
-msgid "Ollama Vulkan Uninstall"
-msgstr "אולמה וולקן הסרה"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Vulkan, please wait..."
-msgstr "מניחים את Ollama Vulkan, אנא המתן..."
-msgid "Ollama Vulkan installed successfully!"
-msgstr "אולמה וולקן הותקן בהצלחה!"
-msgid "Failed to install Ollama Vulkan!"
-msgstr "כישלון בהתקנת אולמה וולקן!"
-msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
-msgstr ""
-"אולמה שותף בהצלחה.\\n"
-"כתובת: http://$localIp:11434"
-#: NEEDS WORK
-msgid "Failed to configure Ollama sharing!"
-msgstr "נכשל בהגדרת שיתוף אולמה!"
-msgid "Ollama ROCm Install"
-msgstr "התקנת Ollama ROCm"
-#: NEEDS WORK
-msgid "Installing Ollama ROCm, please wait..."
-msgstr "מתקין את Ollama ROCm, אנא המתן..."
-msgid "Ollama ROCm Uninstall"
-msgstr "הסרת התקנה של Ollama ROCm"
-#: NEEDS WORK
-msgid "Uninstalling Ollama ROCm, please wait..."
-msgstr "מניחים את Ollama ROCm, אנא המתן..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm הותקן בהצלחה!"
-msgid "Failed to install Ollama ROCm!"
-msgstr "ההתקנה של Ollama ROCm נכשלה!"
 msgid "Applying, please wait..."
 msgstr "מגיש, אנא המתן..."
-msgid "GRUB updated successfully!"
-msgstr "GRUB עודכן בהצלחה!"
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB עודכן בהצלחה!\\n"
+"אתה צריך לאתחל את המחשב שלך כדי שזה ייכנס לתוקף."
 msgid "An error occurred while updating GRUB."
 msgstr "אירעה שגיאה בעת עדכון GRUB."
-msgid "Limits updated successfully!"
-msgstr "המגבלות עודכנו בהצלחה!"
-msgid "An error occurred while updating Limits."
-msgstr "שגיאה התרחשה בעת עדכון הגבולות."
-msgid "Example Install"
-msgstr "התקנה לדוגמה"
-msgid "Instaling Example, Please wait..."
-msgstr "מתקין דוגמה, אנא המתן..."
-msgid "Example Uninstall"
-msgstr "דוגמה להסרה"
-msgid "Uninstaling Example, Please wait..."
-msgstr "מניחים דוגמה, אנא המתן..."
-msgid "Example installed successfully!"
-msgstr "הדוגמה הותקנה בהצלחה!"
-msgid "Failed to install Example!"
-msgstr "ההתקנה של דוגמה נכשלה!"
+msgid "Already enabled. No changes made."
+msgstr "כבר מופעל. לא בוצעו שינויים."
 msgid "JamesDSP Install"
 msgstr "התקנת JamesDSP"
 #: NEEDS WORK
@@ -215,14 +36,6 @@ msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP הותקן בהצלחה!"
 msgid "Failed to install jamesDSP!"
 msgstr "ההתקנה של jamesDSP נכשלה!"
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB עודכן בהצלחה!\\n"
-"אתה צריך לאתחל את המחשב שלך כדי שזה ייכנס לתוקף."
-msgid "Already enabled. No changes made."
-msgstr "כבר מופעל. לא בוצעו שינויים."
 msgid "Docker Install"
 msgstr "התקנת דוקר"
 #: NEEDS WORK
@@ -265,6 +78,39 @@ msgid "$package removed successfully!"
 msgstr "החבילה הוסרה בהצלחה!"
 msgid "An error occurred with $package."
 msgstr "אירעה שגיאה עם $package."
+#: NEEDS WORK
+msgid "OpenClaude Install"
+msgstr "אופן קלוד התקנה"
+#: NEEDS WORK
+msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
+msgstr "מתקין את OpenClaude (דרושים nodejs, npm, ripgrep), אנא המתן..."
+#: NEEDS WORK
+msgid "OpenClaude Uninstall"
+msgstr "איפוס OpenClaude"
+#: NEEDS WORK
+msgid "Uninstalling OpenClaude, please wait..."
+msgstr "מניחים את OpenClaude, אנא המתן..."
+#: NEEDS WORK
+msgid ""
+"OpenClaude installed successfully!\\n"
+"\\n"
+"Run 'openclaude' in a terminal to start."
+msgstr ""
+"אופן קלוד הותקן בהצלחה!\\n"
+"\\n"
+"הרץ 'openclaude' במסוף כדי להתחיל."
+#: NEEDS WORK
+msgid "OpenClaude removed successfully!"
+msgstr "אופן קלוד הוסר בהצלחה!"
+#: NEEDS WORK
+msgid "An error occurred with OpenClaude."
+msgstr "שגיאה התרחשה עם OpenClaude."
+msgid "GRUB updated successfully!"
+msgstr "GRUB עודכן בהצלחה!"
+msgid "Limits updated successfully!"
+msgstr "המגבלות עודכנו בהצלחה!"
+msgid "An error occurred while updating Limits."
+msgstr "שגיאה התרחשה בעת עדכון הגבולות."
 msgid "kzones Install"
 msgstr "התקנת kzones"
 #: NEEDS WORK
@@ -296,6 +142,202 @@ msgstr ""
 "עליך לסגור ולפתוח מחדש את דולפין כדי שזה ייכנס לתוקף."
 msgid "Failed to activate Recent Files!"
 msgstr "כישלון בהפעלה של קבצים אחרונים!"
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"שרת אולמה פועל.\\n"
+"כתובת: http://localhost:11434"
+msgid "LM Studio Install"
+msgstr "התקנת LM Studio"
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
+msgstr "מתקין את LM Studio, אנא המתן..."
+msgid "LM Studio Uninstall"
+msgstr "הסרת התקנה של LM Studio"
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "מניחים את LM Studio, אנא המתן..."
+msgid "LM Studio installed successfully!"
+msgstr "ההתקנה של LM Studio הושלמה בהצלחה!"
+msgid "Failed to install LM Studio!"
+msgstr "ההתקנה של LM Studio נכשלה!"
+msgid "Ollama Install"
+msgstr "התקנת אולמה"
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
+msgstr "מתקין את אולמה, אנא המתן..."
+msgid "Ollama Uninstall"
+msgstr "אולמה הסרה"
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
+msgstr "מניחים את אולמה, אנא המתן..."
+msgid "Ollama installed successfully!"
+msgstr "אולמה הותקן בהצלחה!"
+msgid "Failed to install Ollama!"
+msgstr "ההתקנה של אולמה נכשלה!"
+msgid "Ollama ROCm Install"
+msgstr "התקנת Ollama ROCm"
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
+msgstr "מתקין את Ollama ROCm, אנא המתן..."
+msgid "Ollama ROCm Uninstall"
+msgstr "הסרת התקנה של Ollama ROCm"
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "מניחים את Ollama ROCm, אנא המתן..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm הותקן בהצלחה!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "ההתקנה של Ollama ROCm נכשלה!"
+msgid ""
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"ה-AI הגנרטיבי עבור Krita הותקן בהצלחה.\\n"
+"\\n"
+"פתח את Krita, פתח ציור קיים או צור חדש.\\n"
+"בלוח העליון עבור ל\"הגדרות\" > \"פאנלים\" > סמן את תיבת \"יצירת תמונות בעזרת AI\".\\n"
+"\\n"
+"בחלון שנפתח בפינה הימנית התחתונה.\\n"
+"לחץ על \"הגדר\" > \"שרת מנוהל מקומית\", בחר את ה-GPU או ה-CPU שלך, בחר את המודל ב\"עומסים\" ולחץ על "
+"\"התקן\"."
+#: NEEDS WORK
+msgid "No Ollama packages are installed. Enable an Ollama variant first."
+msgstr "אין חבילות אולמה מותקנות. הפעל קודם גרסה של אולמה."
+#: NEEDS WORK
+msgid "Updating Ollama"
+msgstr "מעודכן אולמה"
+#: NEEDS WORK
+msgid "Synchronizing repositories and updating Ollama, please wait..."
+msgstr "סנכרון מאגרי מידע ועדכון אולמה, אנא המתן..."
+#: NEEDS WORK
+msgid "Ollama updated successfully!"
+msgstr "אולמה עודכן בהצלחה!"
+#: NEEDS WORK
+msgid "Failed to update Ollama."
+msgstr "כישלון בעדכון אולמה."
+msgid "Ollama Lab Install"
+msgstr "התקנת אולמה Lab"
+#: NEEDS WORK
+msgid "Installing Ollama Lab, please wait..."
+msgstr "מתקין את Ollama Lab, אנא המתן..."
+msgid "Ollama Lab Uninstall"
+msgstr "אולמה מעבדה הסרה"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "מניחים את Ollama Lab, אנא המתן..."
+msgid "Ollama Lab installed successfully!"
+msgstr "אולמה מעבדה הותקנה בהצלחה!"
+msgid "Failed to install Ollama Lab!"
+msgstr "ההתקנה של Ollama Lab נכשלה!"
+msgid "Krita Install"
+msgstr "התקנת קריטה"
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "מתקין את קריטה, אנא המתן..."
+msgid "Krita Uninstall"
+msgstr "הסרת Krita"
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
+msgstr "מניחים את Krita, אנא המתן..."
+msgid "Krita installed successfully!"
+msgstr "קריטה הותקנה בהצלחה!"
+msgid "Failed to install Krita!"
+msgstr "ההתקנה של קריטה נכשלה!"
+msgid "Ollama Vulkan Install"
+msgstr "התקנת אולמה וולקן"
+msgid "Ollama Vulkan Uninstall"
+msgstr "אולמה וולקן הסרה"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "מניחים את Ollama Vulkan, אנא המתן..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "אולמה וולקן הותקן בהצלחה!"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "כישלון בהתקנת אולמה וולקן!"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "כרטיס גרפי AMD/Nvidia לא נמצא!"
+msgid "ChatBox Install"
+msgstr "התקנת צ'אטבוקס"
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
+msgstr "מתקין את ChatBox, אנא המתן..."
+msgid "ChatBox Uninstall"
+msgstr "הסרת התקנה של ChatBox"
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
+msgstr "מניחים את ChatBox, אנא המתן..."
+msgid "ChatBox installed successfully!"
+msgstr "ChatBox הותקן בהצלחה!"
+msgid "Failed to install ChatBox!"
+msgstr "ההתקנה של ChatBox נכשלה!"
+msgid "comfyUI Install...."
+msgstr "התקנת ComfyUI...."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "מתקין את comfyUI, שלב זה לוקח הרבה זמן, אנא המתן..."
+msgid "Uninstall comfyUI...."
+msgstr "הסר את התקנת comfyUI...."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "מניחים את comfyUI, אנא המתן..."
+msgid "comfyUI installed successfully"
+msgstr "comfyUI הותקן בהצלחה"
+msgid "comfyUI uninstalled successfully"
+msgstr "comfyUI הוסרה בהצלחה"
+msgid "Failed to install comfyUI!"
+msgstr "ההתקנה של comfyUI נכשלה!"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"אולמה שותף בהצלחה.\\n"
+"כתובת: http://$localIp:11434"
+#: NEEDS WORK
+msgid "Failed to configure Ollama sharing!"
+msgstr "נכשל בהגדרת שיתוף אולמה!"
+msgid "comfyUI Depends Install"
+msgstr "התקנת תלות ComfyUI"
+#: NEEDS WORK
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "מתקין את תלות comfyUI, אנא המתן..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI תלות הותקנה בהצלחה!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "כישלון בהתקנת comfyUI תלות!"
+msgid "Ollama CUDA Install"
+msgstr "התקנת אולמה CUDA"
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "מתקין את אולמה CUDA, אנא המתן..."
+msgid "Ollama CUDA Uninstall"
+msgstr "אולמה CUDA הסרה"
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "מניחים את Ollama CUDA, אנא המתן..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "אולמה CUDA הותקן בהצלחה!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "ההתקנה של Ollama CUDA נכשלה!"
+msgid "Example Install"
+msgstr "התקנה לדוגמה"
+msgid "Instaling Example, Please wait..."
+msgstr "מתקין דוגמה, אנא המתן..."
+msgid "Example Uninstall"
+msgstr "דוגמה להסרה"
+msgid "Uninstaling Example, Please wait..."
+msgstr "מניחים דוגמה, אנא המתן..."
+msgid "Example installed successfully!"
+msgstr "הדוגמה הותקנה בהצלחה!"
+msgid "Failed to install Example!"
+msgstr "ההתקנה של דוגמה נכשלה!"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
@@ -372,6 +414,11 @@ msgstr "בינה מלאכותית"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
 msgid "Docker"
 msgstr "דוקר"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 297
+#: NEEDS WORK
+msgid "Developer"
+msgstr "מפתח"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
@@ -521,175 +568,6 @@ msgstr ""
 "חלק מהמערכות אינן נכנסות למצב שינה כאשר הן מחוברות לחשמל. זה מאלץ את המערכת להיכנס למצב שינה כאשר "
 "המכסה סגור."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "הגדרות משתמש ומערכת חזותית."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "נומרוק"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "מצב NumLock התחלתי. מתעלמים אם כניסה אוטומטית מופעלת."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "כפתור חלון בצד שמאל"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "כפתורי מקסימום, מינימום וסגירה בצד השמאלי של החלון."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZones"
-# 
-# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable window tiling zones for the KDE Plasma desktop."
-msgstr "אפשר להפעיל אזורי ריצוף חלונות עבור שולחן העבודה של KDE Plasma."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "קבצים ומיקומים אחרונים"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
-msgstr ""
-"ש restores את הפונקציונליות של 'קבצים אחרונים' ו'מיקומים אחרונים' שמופיעה ריקה ב-Dolphin ובתפריט "
-"היישומים."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
-msgid "Manage physical devices."
-msgstr "נהל מכשירים פיזיים."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "ווי-פיי"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable the Wi-Fi adapter."
-msgstr "אפשר את מתאם ה-Wi-Fi."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "בלוטות'"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
-#: NEEDS WORK
-msgid "Enable the Bluetooth adapter."
-msgstr "אפשר את מתאם ה-Bluetooth."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
-msgid "JamesDSP"
-msgstr "ג'יימסDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "מעבד אפקטים קוליים מתקדם שמשפר את איכות הסאונד."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
-msgid "Reverse mouse scrolling"
-msgstr "גלילה הפוכה בעכבר"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "הפוך את גלילת העכבר מבלי לאתחל את המושב."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
-#: NEEDS WORK
-msgid "Network Interfaces"
-msgstr "ממשקי רשת"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
-#: NEEDS WORK
-msgid "Connect or disconnect network devices."
-msgstr "חבר או נתק מכשירי רשת."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
-#: NEEDS WORK
-#, python-brace-format
-msgid "{} — {}"
-msgstr "אני כאן כדי לעזור, אך אני זקוק למידע נוסף כדי לבצע את התרגום. אנא ספק את המחרוזת שברצונך לתרגם."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
-#: NEEDS WORK
-#, python-brace-format
-msgid "{}: toggle connection"
-msgstr "{}: הפעל/י חיבור"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
-#: NEEDS WORK
-msgid "Applying…"
-msgstr "מיישם…"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: NEEDS WORK
-msgid "connected"
-msgstr "מחובר"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: NEEDS WORK
-msgid "disconnected"
-msgstr "מנותק"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
-#: NEEDS WORK
-#, python-brace-format
-msgid "Failed to change network device: {}"
-msgstr "נכשל בשינוי מכשיר הרשת: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "טען מראש"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "טען יישומים לזיכרון כדי לפתוח אותם מהר יותר."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "פיירפוקס"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "ברייב"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "כרום"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "כרומיום"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "ליברווולף"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "פאלימון"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "אופרה"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "ליבראOffice"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
 msgstr "ממשקי בינה מלאכותית"
@@ -707,6 +585,21 @@ msgstr "אולמה סרבר"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "בחר איזה שרת של אולמה הכי מתאים לחומרה שלך."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Update Ollama"
+msgstr "עדכן את אולמה"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Update the installed Ollama packages to the latest version."
+msgstr "עדכן את חבילות אולמה המותקנות לגרסה האחרונה."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
+#: NEEDS WORK
+msgid "Update now"
+msgstr "עדכן עכשיו"
 # 
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
 #: NEEDS WORK
@@ -760,9 +653,39 @@ msgstr "LM Studio - אפליקציה שולחנית לחקר והרצת מודל
 msgid "Open Notebook"
 msgstr "פתח מחברת"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
-msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "חלופה פתוחה, ממוקדת פרטיות ל-Notebook LM של גוגל!"
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+#: NEEDS WORK
+msgid "Open-source, privacy-focused alternative to Google's NotebookLM. Requires Docker enabled."
+msgstr "חלופה בקוד פתוח הממוקדת בפרטיות ל-NotebookLM של גוגל. דורש Docker מופעל."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 201
+#: NEEDS WORK
+msgid "Open Notebook Server"
+msgstr "שרת מחברות פתוח"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 202
+#: NEEDS WORK
+msgid "Start the Open Notebook server."
+msgstr "התחל את שרת המחברת הפתוחה."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+#, python-brace-format
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"המחברת פתוחה ופועלת.\n"
+"כתובת: http://localhost:8502\n"
+"וגם\n"
+"כתובת: http://{}:8502"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
 msgid "ComfyUI (GPU ONLY)"
@@ -866,6 +789,421 @@ msgid ""
 msgstr ""
 "שרת AI מקומי. עבור כרטיסי גרפיקה AMD חדשים יותר, החל מסדרת 6000.  \n"
 "שקול להשתמש ב-Vulkan, במבחנים רבים, Vulkan ביצע טוב יותר מ-ROCm."
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 11
+#: NEEDS WORK
+msgid "AI Coding Assistants"
+msgstr "אסיסטנטים לקידוד מבוססי בינה מלאכותית"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 12
+#: NEEDS WORK
+msgid "Open-source coding agents powered by language models."
+msgstr "סוכני קוד קוד פתוח המונעים על ידי מודלים של שפה."
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 21
+#: NEEDS WORK
+msgid "OpenClaude"
+msgstr "אופן קלוד"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 23
+#: NEEDS WORK
+msgid ""
+"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ models. Installs nodejs, "
+"npm and ripgrep as dependencies."
+msgstr ""
+"CLI סוכן קוד קוד פתוח עבור OpenAI, Gemini, DeepSeek, Ollama ו-200+ מודלים. מתקין nodejs, npm "
+"ו-ripgrep כתלות."
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
+#: NEEDS WORK
+msgid "Close"
+msgstr "סגור"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+#: NEEDS WORK
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "אזהרה: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
+#: NEEDS WORK
+msgid "Cancel"
+msgstr "ביטול"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
+#: NEEDS WORK
+msgid "Continue"
+msgstr "המשך"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 220
+#: NEEDS WORK
+msgid "Run"
+msgstr "הרץ"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 226
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: run action"
+msgstr "{}: הרץ פעולה"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+#, python-brace-format
+msgid "Script not found: {}"
+msgstr "סקריפט לא נמצא: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "מיישם…"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 279
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action script {} failed: {}"
+msgstr "סקריפט פעולה {} נכשל: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 284
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action script timeout: {}"
+msgstr "זמן קצוב לפעולה: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 287
+#: NEEDS WORK
+#, python-brace-format
+msgid "Error running action script {}: {}"
+msgstr "שגיאה בהרצת סקריפט פעולה {}: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 297
+#: NEEDS WORK
+msgid "Action completed successfully"
+msgstr "הפעולה הושלמה בהצלחה"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 300
+#: NEEDS WORK
+#, python-brace-format
+msgid "Action failed: {}"
+msgstr "הפעולה נכשלה: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
+#: NEEDS WORK
+msgid "Recommended"
+msgstr "מומלץ"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: additional information"
+msgstr "{}: מידע נוסף"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+#: NEEDS WORK
+msgid "Learn more"
+msgstr "למד עוד"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: learn more"
+msgstr "{}: למידע נוסף"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
+msgid "Unavailable: script not found."
+msgstr "לא זמין: הסקריפט לא נמצא."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
+msgid "Enabled"
+msgstr "מופעל"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
+msgid "Disabled"
+msgstr "מושבת"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "מופעל על ידי תצורת המערכת (למשל, ליבת זמן אמת) ואינו יכול להשתנות כאן."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
+msgid "Unavailable: script returned invalid output."
+msgstr "לא זמין: הסקריפט החזיר פלט לא תקין."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+#, python-brace-format
+msgid "output from script {}: {}"
+msgstr "פלט מהסקריפט {}: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
+msgid "Unavailable: script returned an error."
+msgstr "לא זמין: הסקריפט החזיר שגיאה."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+#, python-brace-format
+msgid "Error checking state: {}"
+msgstr "שגיאת בדיקת מצב: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
+msgid "Unavailable: failed to run script."
+msgstr "לא זמין: נכשל בהרצת הסקריפט."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+#, python-brace-format
+msgid "Error running script {}: {}"
+msgstr "שגיאה בהרצת סקריפט {}: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
+msgid "State changed successfully"
+msgstr "המצב שונה בהצלחה"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+#, python-brace-format
+msgid "Script output: {}"
+msgstr "{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+#, python-brace-format
+msgid "Script failed with exit code: {}"
+msgstr "הסקריפט נכשל עם קוד יציאה: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+#, python-brace-format
+msgid "Script timeout: {}"
+msgstr "זמן ההמתנה של הסקריפט: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} sub-options available"
+msgstr "{} אפשרויות משנה זמינות"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "on"
+msgstr "על"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: NEEDS WORK
+msgid "off"
+msgstr "כבוי"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
+#: NEEDS WORK
+#, python-brace-format
+msgid "Changing {} to {}…"
+msgstr "שינוי {} ל-{}…"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+#: NEEDS WORK
+msgid "Undo"
+msgstr "ביטול"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
+#: NEEDS WORK
+msgid "Undo: reverted toggle"
+msgstr "ביטול: מתג הוחזר"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+#, python-brace-format
+msgid "Changing {} to {}"
+msgstr "שינוי {} ל{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+#, python-brace-format
+msgid "ERROR: Failed to change {} to {}"
+msgstr "שגיאה: לא הצליח לשנות {} ל{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+#, python-brace-format
+msgid "Failed to change setting: {}"
+msgstr "שינוי ההגדרה נכשל: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "נהל מכשירים פיזיים."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "ווי-פיי"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "אפשר את מתאם ה-Wi-Fi."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "בלוטות'"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "אפשר את מתאם ה-Bluetooth."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "ג'יימסDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "מעבד אפקטים קוליים מתקדם שמשפר את איכות הסאונד."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "גלילה הפוכה בעכבר"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "הפוך את גלילת העכבר מבלי לאתחל את המושב."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "ממשקי רשת"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "חבר או נתק מכשירי רשת."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} — {}"
+msgstr "אני כאן כדי לעזור, אך אני זקוק למידע נוסף כדי לבצע את התרגום. אנא ספק את המחרוזת שברצונך לתרגם."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: הפעל/י חיבור"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "מחובר"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "מנותק"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "נכשל בשינוי מכשיר הרשת: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "טען מראש"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "טען יישומים לזיכרון כדי לפתוח אותם מהר יותר."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "פיירפוקס"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "ברייב"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "כרום"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "כרומיום"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "ליברווולף"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "פאלימון"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "אופרה"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "ליבראOffice"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "הגדרות משתמש ומערכת חזותית."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "נומרוק"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "מצב NumLock התחלתי. מתעלמים אם כניסה אוטומטית מופעלת."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "כפתור חלון בצד שמאל"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "כפתורי מקסימום, מינימום וסגירה בצד השמאלי של החלון."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZones"
+# 
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "אפשר להפעיל אזורי ריצוף חלונות עבור שולחן העבודה של KDE Plasma."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "קבצים ומיקומים אחרונים"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
+msgstr ""
+"ש restores את הפונקציונליות של 'קבצים אחרונים' ו'מיקומים אחרונים' שמופיעה ריקה ב-Dolphin ובתפריט "
+"היישומים."
 # 
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
 #: NEEDS WORK
@@ -1100,26 +1438,10 @@ msgstr ""
 "ו\n"
 "כתובת: http://{}:2017"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
-msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "התקן אלטרנטיבה פתוחה, ממוקדת פרטיות ל-Google's Notebook LM!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
-msgid "Run Open Notebook."
-msgstr "הרץ מחברת פתוחה."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
-#, python-brace-format
-msgid ""
-"Open Notebook is running.\n"
-"Address: http://localhost:8502\n"
-"and\n"
-"Address: http://{}:8502"
-msgstr ""
-"המחברת פתוחה ופועלת.\n"
-"כתובת: http://localhost:8502\n"
-"וגם\n"
-"כתובת: http://{}:8502"
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 195
+#: NEEDS WORK
+msgid "Install the open-source alternative to Google's NotebookLM."
+msgstr "התקן את האלטרנטיבה הקוד פתוח ל-NotebookLM של גוגל."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -1195,188 +1517,6 @@ msgid ""
 msgstr ""
 "זה יכבה את השעון המעורר החומרתי. המערכת שלך לא תוכל יותר לשחזר אוטומטית מסוגים מסוימים של קריסות. "
 "האם אתה בטוח שברצונך להמשיך?"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
-#: NEEDS WORK
-msgid "Close"
-msgstr "סגור"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
-#: NEEDS WORK
-#, python-brace-format
-msgid "Warning: {}"
-msgstr "אזהרה: {}"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
-#: NEEDS WORK
-msgid "Cancel"
-msgstr "ביטול"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
-#: NEEDS WORK
-msgid "Continue"
-msgstr "המשך"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
-#: NEEDS WORK
-msgid "Recommended"
-msgstr "מומלץ"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
-#: NEEDS WORK
-#, python-brace-format
-msgid "{}: additional information"
-msgstr "{}: מידע נוסף"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
-#: NEEDS WORK
-msgid "Learn more"
-msgstr "למד עוד"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
-#: NEEDS WORK
-#, python-brace-format
-msgid "{}: learn more"
-msgstr "{}: למידע נוסף"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
-msgid "Unavailable: script not found."
-msgstr "לא זמין: הסקריפט לא נמצא."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
-#, python-brace-format
-msgid "Script not found: {}"
-msgstr "סקריפט לא נמצא: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
-msgid "Enabled"
-msgstr "מופעל"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
-msgid "Disabled"
-msgstr "מושבת"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
-msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
-msgstr "מופעל על ידי תצורת המערכת (למשל, ליבת זמן אמת) ואינו יכול להשתנות כאן."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
-msgid "Unavailable: script returned invalid output."
-msgstr "לא זמין: הסקריפט החזיר פלט לא תקין."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
-#, python-brace-format
-msgid "output from script {}: {}"
-msgstr "פלט מהסקריפט {}: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
-msgid "Unavailable: script returned an error."
-msgstr "לא זמין: הסקריפט החזיר שגיאה."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
-#, python-brace-format
-msgid "Error checking state: {}"
-msgstr "שגיאת בדיקת מצב: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
-msgid "Unavailable: failed to run script."
-msgstr "לא זמין: נכשל בהרצת הסקריפט."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
-#, python-brace-format
-msgid "Error running script {}: {}"
-msgstr "שגיאה בהרצת סקריפט {}: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
-msgid "State changed successfully"
-msgstr "המצב שונה בהצלחה"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
-#, python-brace-format
-msgid "Script output: {}"
-msgstr "{}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
-#, python-brace-format
-msgid "Script failed with exit code: {}"
-msgstr "הסקריפט נכשל עם קוד יציאה: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
-#, python-brace-format
-msgid "Script timeout: {}"
-msgstr "זמן ההמתנה של הסקריפט: {}"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
-#: NEEDS WORK
-#, python-brace-format
-msgid "{} sub-options available"
-msgstr "{} אפשרויות משנה זמינות"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
-#: NEEDS WORK
-msgid "on"
-msgstr "על"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
-#: NEEDS WORK
-msgid "off"
-msgstr "כבוי"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
-#: NEEDS WORK
-#, python-brace-format
-msgid "Changing {} to {}…"
-msgstr "שינוי {} ל-{}…"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
-#: NEEDS WORK
-msgid "Undo"
-msgstr "ביטול"
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
-#: NEEDS WORK
-msgid "Undo: reverted toggle"
-msgstr "ביטול: מתג הוחזר"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-#, python-brace-format
-msgid "Changing {} to {}"
-msgstr "שינוי {} ל{}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-#, python-brace-format
-msgid "ERROR: Failed to change {} to {}"
-msgstr "שגיאה: לא הצליח לשנות {} ל{}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-#, python-brace-format
-msgid "Failed to change setting: {}"
-msgstr "שינוי ההגדרה נכשל: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."
