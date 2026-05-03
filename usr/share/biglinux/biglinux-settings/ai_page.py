@@ -26,6 +26,17 @@ class AIPage(BaseSettingsPage):
         )
         content.append(ollamaServer)
 
+        # Action: update installed Ollama variants
+        self.create_action_row(
+            ollamaServer,
+            _("Update Ollama"),
+            _("Update the installed Ollama packages to the latest version."),
+            "ollamaUpdate",
+            "ollama-symbolic",
+            action_label=_("Update now"),
+            timeout=1800,
+        )
+
         # ExpanderRow to collapse the 4 Ollama variants
         ollama_expander = self.create_expander_row(
             ollamaServer,
@@ -68,13 +79,26 @@ class AIPage(BaseSettingsPage):
             "lmStudio",
             "lmstudio-symbolic",
         )
-        # Open Notebook
-        self.create_row(
+        # Open Notebook (requires Docker)
+        openNotebook = self.create_row(
             aiGui,
             _("Open Notebook"),
-            _("An open source, privacy-focused alternative to Google's Notebook LM!"),
+            _(
+                "Open-source, privacy-focused alternative to Google's NotebookLM. Requires Docker enabled."
+            ),
             "openNotebookInstall",
             "openNotebook-symbolic",
+        )
+        self.create_sub_row(
+            aiGui,
+            _("Open Notebook Server"),
+            _("Start the Open Notebook server."),
+            "openNotebookRun",
+            "openNotebook-symbolic",
+            openNotebook,
+            info_text=_(
+                "Open Notebook is running.\nAddress: http://localhost:8502\nand\nAddress: http://{}:8502"
+            ).format(local_ip),
         )
         # ComfyUI
         link_comfyui = "https://github.com/Comfy-Org/ComfyUI"
@@ -90,9 +114,7 @@ class AIPage(BaseSettingsPage):
         self.create_sub_row(
             aiGui,
             _("ComfyUI Server"),
-            _(
-                "Start the ComfyUI server."
-            ),
+            _("Start the ComfyUI server."),
             "comfyUIRun",
             "comfyUI-symbolic",
             comfyUI,

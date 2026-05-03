@@ -150,7 +150,9 @@ class BaseSettingsPage(Adw.Bin):
         """Placeholder method for search mode compatibility."""
         pass
 
-    def create_group(self, title: str, description: str, script_group: str) -> Adw.PreferencesGroup:
+    def create_group(
+        self, title: str, description: str, script_group: str
+    ) -> Adw.PreferencesGroup:
         """Cria um PreferencesGroup com o botão de reload automático."""
         group = Adw.PreferencesGroup()
         group.set_title(title)
@@ -189,6 +191,117 @@ class BaseSettingsPage(Adw.Bin):
         self._set_wd(expander, "script_group", script_group)
         parent_group.add(expander)
         return expander
+
+    def create_action_row(
+        self,
+        parent_group: Union[Adw.PreferencesGroup, Adw.ExpanderRow],
+        title: str,
+        subtitle: str,
+        script_name: str,
+        icon_name: str,
+        action_label: Optional[str] = None,
+        timeout: Optional[int] = None,
+    ) -> Adw.ActionRow:
+        """Builds an ActionRow with a single action button suffix.
+        The button invokes the script with argument 'run' (one-shot, not toggle)."""
+        row = Adw.ActionRow(title=title)
+        if subtitle:
+            row.set_subtitle(subtitle)
+
+        icon_path = os.path.join(ICONS_DIR, f"{icon_name}.svg")
+        gfile = Gio.File.new_for_path(icon_path)
+        icon = Gio.FileIcon.new(gfile)
+        img = Gtk.Image.new_from_gicon(icon)
+        img.set_pixel_size(24)
+        img.add_css_class("symbolic-icon")
+        row.add_prefix(img)
+
+        button = Gtk.Button(
+            label=action_label or _("Run"),
+            valign=Gtk.Align.CENTER,
+        )
+        button.add_css_class("suggested-action")
+        button.update_property(
+            [Gtk.AccessibleProperty.LABEL],
+            [_("{}: run action").format(title)],
+        )
+        row.add_suffix(button)
+        row.set_activatable_widget(button)
+
+        script_group = self._get_wd(parent_group, "script_group", "default")
+        script_path = os.path.join(script_group, f"{script_name}.sh")
+
+        button.connect(
+            "clicked",
+            lambda btn: self._execute_action(btn, row, script_path, timeout),
+        )
+
+        if isinstance(parent_group, Adw.ExpanderRow):
+            parent_group.add_row(row)
+        else:
+            parent_group.add(row)
+        return row
+
+    def _execute_action(
+        self,
+        button: Gtk.Button,
+        row: Adw.ActionRow,
+        script_path: str,
+        timeout: Optional[int],
+    ) -> None:
+        """Execute a one-shot action script in a background thread."""
+        if not os.path.exists(script_path):
+            logger.warning(_("Script not found: {}").format(script_path))
+            self.main_window.show_toast(
+                _("Script not found: {}").format(os.path.basename(script_path))
+            )
+            return
+
+        original_label = button.get_label()
+        original_subtitle = row.get_subtitle() or ""
+        spinner = Gtk.Spinner(spinning=True, valign=Gtk.Align.CENTER)
+        button.set_sensitive(False)
+        row.add_suffix(spinner)
+        row.set_subtitle(_("Applying…"))
+
+        def _run_in_thread():
+            success = False
+            try:
+                result = subprocess.run(
+                    [script_path, "run"],
+                    capture_output=True,
+                    text=True,
+                    timeout=timeout or 600,
+                )
+                success = result.returncode == 0
+                if not success:
+                    logger.error(
+                        _("Action script {} failed: {}").format(
+                            script_path, result.stderr.strip()
+                        )
+                    )
+            except subprocess.TimeoutExpired:
+                logger.error(_("Action script timeout: {}").format(script_path))
+            except Exception as e:
+                logger.error(
+                    _("Error running action script {}: {}").format(script_path, e)
+                )
+            GLib.idle_add(_on_done, success)
+
+        def _on_done(success: bool) -> bool:
+            row.remove(spinner)
+            button.set_sensitive(True)
+            button.set_label(original_label)
+            row.set_subtitle(original_subtitle)
+            if success:
+                self.main_window.show_toast(_("Action completed successfully"))
+            else:
+                self.main_window.show_toast(
+                    _("Action failed: {}").format(os.path.basename(script_path))
+                )
+            return False
+
+        threading.Thread(target=_run_in_thread, daemon=True).start()
 
     def create_row(
         self,
@@ -465,7 +578,9 @@ class BaseSettingsPage(Adw.Bin):
             is_supported = not self._get_wd(row, "hidden_no_support", False)
             info_icon.set_visible(state and is_supported)
 
-    def _update_sub_switches_visibility(self, parent_switch: Gtk.Switch, state: bool) -> None:
+    def _update_sub_switches_visibility(
+        self, parent_switch: Gtk.Switch, state: bool
+    ) -> None:
         """Update child rows visibility and parent accessible description."""
         if parent_switch not in self.sub_switches:
             return
@@ -493,16 +608,20 @@ class BaseSettingsPage(Adw.Bin):
 
             indicator_results = []
             for indicator, script_path in self.status_indicators.items():
-                indicator_results.append((
-                    indicator,
-                    self.check_script_state(script_path),
-                ))
+                indicator_results.append(
+                    (
+                        indicator,
+                        self.check_script_state(script_path),
+                    )
+                )
 
             GLib.idle_add(self._apply_sync_results, switch_results, indicator_results)
 
         threading.Thread(target=_check_all, daemon=True).start()
 
-    def _apply_sync_results(self, switch_results: list, indicator_results: list) -> bool:
+    def _apply_sync_results(
+        self, switch_results: list, indicator_results: list
+    ) -> bool:
         """Apply sync results on the main thread (called via GLib.idle_add)."""
         for switch, (status, message) in switch_results:
             row = self._get_wd(switch, "row")
@@ -684,7 +803,9 @@ class BaseSettingsPage(Adw.Bin):
 
         return total_visible > 0
 
-    def get_matching_rows(self, search_text: str) -> list[tuple[Adw.PreferencesRow, Adw.PreferencesGroup]]:
+    def get_matching_rows(
+        self, search_text: str
+    ) -> list[tuple[Adw.PreferencesRow, Adw.PreferencesGroup]]:
         """Get list of rows that match search text with their parent groups."""
         if not hasattr(self, "content_box"):
             return []
@@ -751,7 +872,10 @@ class BaseSettingsPage(Adw.Bin):
                 suffix.set_visible(True)
 
     def _filter_group(
-        self, group: Adw.PreferencesGroup, search_text: str, hide_group_headers: bool = False
+        self,
+        group: Adw.PreferencesGroup,
+        search_text: str,
+        hide_group_headers: bool = False,
     ) -> int:
         """Filter rows within a PreferencesGroup. Returns count of visible rows."""
         self._update_group_header(group, search_text, hide_group_headers)

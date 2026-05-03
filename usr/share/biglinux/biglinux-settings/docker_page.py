@@ -192,16 +192,14 @@ class DockerPage(BaseSettingsPage):
         openNotebook = self.create_row(
             dev_expander,
             _("Open Notebook"),
-            _(
-                "Install An open source, privacy-focused alternative to Google's Notebook LM!"
-            ),
+            _("Install the open-source alternative to Google's NotebookLM."),
             "openNotebookInstall",
             "openNotebook-symbolic",
         )
         self.create_sub_row(
             dev_expander,
-            _("Open Notebook"),
-            _("Run Open Notebook."),
+            _("Open Notebook Server"),
+            _("Start the Open Notebook server."),
             "openNotebookRun",
             "openNotebook-symbolic",
             openNotebook,

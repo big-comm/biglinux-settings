@@ -15,39 +15,185 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "kzones Install"
-msgstr "kzones Instalace"
+msgid "comfyUI Depends Install"
+msgstr "comfyUI Závislosti Instalace"
 #: NEEDS WORK
-msgid "Installing Kzones, please wait..."
-msgstr "Instalace Kzones, prosím čekejte..."
-msgid "Kzones installed successfully!"
-msgstr "Kzones byl úspěšně nainstalován!"
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "Instalace závislostí comfyUI, prosím čekejte..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI Závislosti byly úspěšně nainstalovány!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "Nepodařilo se nainstalovat comfyUI závislosti!"
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Server Ollama běží.\\n"
+"Adresa: http://localhost:11434"
+msgid "ChatBox Install"
+msgstr "Instalace ChatBox"
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
+msgstr "Instalace ChatBox, prosím čekejte..."
+msgid "ChatBox Uninstall"
+msgstr "Odinstalovat ChatBox"
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
+msgstr "Odinstalovávání ChatBoxu, prosím čekejte..."
+msgid "ChatBox installed successfully!"
+msgstr "ChatBox byl úspěšně nainstalován!"
+msgid "Failed to install ChatBox!"
+msgstr "Instalace ChatBoxu se nezdařila!"
+msgid "Ollama Lab Install"
+msgstr "Instalace Ollama Lab"
+#: NEEDS WORK
+msgid "Installing Ollama Lab, please wait..."
+msgstr "Instalace Ollama Lab, prosím čekejte..."
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Lab Odinstalovat"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Odinstalovávání Ollama Lab, prosím čekejte..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab byl úspěšně nainstalován!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Instalace Ollama Lab se nezdařila!"
+msgid "LM Studio Install"
+msgstr "Instalace LM Studia"
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
+msgstr "Instalace LM Studia, prosím čekejte..."
+msgid "LM Studio Uninstall"
+msgstr "Odinstalovat LM Studio"
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "Odinstalovávání LM Studia, prosím čekejte..."
+msgid "LM Studio installed successfully!"
+msgstr "LM Studio bylo úspěšně nainstalováno!"
+msgid "Failed to install LM Studio!"
+msgstr "Instalace LM Studia se nezdařila!"
+msgid "Ollama Install"
+msgstr "Ollama Instalace"
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
+msgstr "Instalace Ollama, prosím čekejte..."
+msgid "Ollama Uninstall"
+msgstr "Ollama Odinstalovat"
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Odinstalovávání Ollama, prosím čekejte..."
+msgid "Ollama installed successfully!"
+msgstr "Ollama byl úspěšně nainstalován!"
+msgid "Failed to install Ollama!"
+msgstr "Instalace Ollama se nezdařila!"
+msgid "comfyUI Install...."
+msgstr "comfyUI Instalace...."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "Instalace comfyUI, tento krok trvá dlouho, prosím čekejte..."
+msgid "Uninstall comfyUI...."
+msgstr "Odinstalovat comfyUI...."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "Odinstalovávání comfyUI, prosím čekejte..."
+msgid "comfyUI installed successfully"
+msgstr "comfyUI bylo úspěšně nainstalováno"
+msgid "comfyUI uninstalled successfully"
+msgstr "comfyUI byl úspěšně odinstalován"
+msgid "Failed to install comfyUI!"
+msgstr "Instalace comfyUI se nezdařila!"
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA Instalace"
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "Instalace Ollama CUDA, prosím čekejte..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA Odinstalace"
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "Odinstalovávání Ollama CUDA, prosím čekejte..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA byl úspěšně nainstalován!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Nepodařilo se nainstalovat Ollama CUDA!"
+msgid ""
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"Generativní AI pro Krita byla úspěšně nainstalována.\\n"
+"\\n"
+"Otevřete Krita, otevřete existující kresbu nebo vytvořte novou.\\n"
+"V horním panelu přejděte na Nastavení > Panely > zaškrtněte políčko Generování obrázků AI.\\n"
+"\\n"
+"V okně, které se otevře v pravém dolním rohu.\\n"
+"Klikněte na Konfigurovat > Místní spravovaný server, vyberte svou GPU nebo CPU, vyberte model v "
+"Zátěžích a klikněte na Instalovat."
+msgid "AMD/Nvidia GPU not found!"
+msgstr "GPU AMD/Nvidia nebyl nalezen!"
+msgid "Krita Install"
+msgstr "Instalace Krita"
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "Instalace Krita, prosím čekejte..."
+msgid "Krita Uninstall"
+msgstr "Odinstalovat Krita"
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
+msgstr "Odinstalovávání Krita, prosím čekejte..."
+msgid "Krita installed successfully!"
+msgstr "Krita byla úspěšně nainstalována!"
+msgid "Failed to install Krita!"
+msgstr "Instalace Krita se nezdařila!"
+msgid "Ollama Vulkan Install"
+msgstr "Ollama Vulkan Instalace"
+msgid "Ollama Vulkan Uninstall"
+msgstr "Ollama Vulkan Odinstalovat"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Odinstalovávání Ollama Vulkan, prosím čekejte..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan byl úspěšně nainstalován!"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Nepodařilo se nainstalovat Ollama Vulkan!"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama bylo úspěšně sdíleno.\\n"
+"Adresa: http://$localIp:11434"
+#: NEEDS WORK
+msgid "Failed to configure Ollama sharing!"
+msgstr "Nepodařilo se nakonfigurovat sdílení Ollama!"
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm Instalace"
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
+msgstr "Instalace Ollama ROCm, prosím čekejte..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm Odinstalovat"
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Odinstalovávání Ollama ROCm, prosím čekejte..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm byl úspěšně nainstalován!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Nepodařilo se nainstalovat Ollama ROCm!"
 msgid "Applying, please wait..."
 msgstr "Aplikuji, prosím čekejte..."
-msgid "Recent Files enabling...."
-msgstr "Povolení nedávných souborů...."
-#: NEEDS WORK
-msgid "Recent Files enabling, please wait..."
-msgstr "Aktivace nedávných souborů, prosím čekejte..."
-msgid "Recent Files disabling...."
-msgstr "Zakázání nedávných souborů...."
-#: NEEDS WORK
-msgid "Recent Files disabling, please wait..."
-msgstr "Zakázání nedávných souborů, prosím čekejte..."
-msgid ""
-"Recent Files successfully enabled!\\n"
-"You need to close and reopen Dolphin for it to take effect."
-msgstr ""
-"Nedávné soubory byly úspěšně povoleny!\\n"
-"Musíte zavřít a znovu otevřít Dophina, aby to mělo účinek."
-msgid ""
-"Recent Files successfully disable!\\n"
-"You need to close and reopen Dolphin for it to take effect."
-msgstr ""
-"Nedávné soubory byly úspěšně zakázány!\\n"
-"Musíte zavřít a znovu otevřít Dolphin, aby se změna projevila."
-msgid "Failed to activate Recent Files!"
-msgstr "Nepodařilo se aktivovat Nedávné soubory!"
+msgid "GRUB updated successfully!"
+msgstr "GRUB byl úspěšně aktualizován!"
+msgid "An error occurred while updating GRUB."
+msgstr "Při aktualizaci GRUB došlo k chybě."
+msgid "Limits updated successfully!"
+msgstr "Limity byly úspěšně aktualizovány!"
+msgid "An error occurred while updating Limits."
+msgstr "Při aktualizaci limitů došlo k chybě."
 msgid "Example Install"
 msgstr "Příklad instalace"
 msgid "Instaling Example, Please wait..."
@@ -69,6 +215,14 @@ msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP byl úspěšně nainstalován!"
 msgid "Failed to install jamesDSP!"
 msgstr "Instalace jamesDSP se nezdařila!"
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB byl úspěšně aktualizován!\\n"
+"Restartujte počítač, aby se změny projevily."
+msgid "Already enabled. No changes made."
+msgstr "Již povoleno. Žádné změny nebyly provedeny."
 msgid "Docker Install"
 msgstr "Instalace Dockeru"
 #: NEEDS WORK
@@ -111,195 +265,607 @@ msgid "$package removed successfully!"
 msgstr "$balíček byl úspěšně odstraněn!"
 msgid "An error occurred with $package."
 msgstr "Došlo k chybě s $package."
-msgid "GRUB updated successfully!"
-msgstr "GRUB byl úspěšně aktualizován!"
-msgid "An error occurred while updating GRUB."
-msgstr "Při aktualizaci GRUB došlo k chybě."
-msgid "Limits updated successfully!"
-msgstr "Limity byly úspěšně aktualizovány!"
-msgid "An error occurred while updating Limits."
-msgstr "Při aktualizaci limitů došlo k chybě."
+msgid "kzones Install"
+msgstr "kzones Instalace"
+#: NEEDS WORK
+msgid "Installing Kzones, please wait..."
+msgstr "Instalace Kzones, prosím čekejte..."
+msgid "Kzones installed successfully!"
+msgstr "Kzones byl úspěšně nainstalován!"
+msgid "Recent Files enabling...."
+msgstr "Povolení nedávných souborů...."
+#: NEEDS WORK
+msgid "Recent Files enabling, please wait..."
+msgstr "Aktivace nedávných souborů, prosím čekejte..."
+msgid "Recent Files disabling...."
+msgstr "Zakázání nedávných souborů...."
+#: NEEDS WORK
+msgid "Recent Files disabling, please wait..."
+msgstr "Zakázání nedávných souborů, prosím čekejte..."
 msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
+"Recent Files successfully enabled!\\n"
+"You need to close and reopen Dolphin for it to take effect."
 msgstr ""
-"GRUB byl úspěšně aktualizován!\\n"
-"Restartujte počítač, aby se změny projevily."
-msgid "Already enabled. No changes made."
-msgstr "Již povoleno. Žádné změny nebyly provedeny."
-msgid "Ollama Vulkan Install"
-msgstr "Ollama Vulkan Instalace"
-#: NEEDS WORK
-msgid "Installing Ollama, please wait..."
-msgstr "Instalace Ollama, prosím čekejte..."
-msgid "Ollama Vulkan Uninstall"
-msgstr "Ollama Vulkan Odinstalovat"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Vulkan, please wait..."
-msgstr "Odinstalovávání Ollama Vulkan, prosím čekejte..."
-msgid "Ollama Vulkan installed successfully!"
-msgstr "Ollama Vulkan byl úspěšně nainstalován!"
-msgid "Failed to install Ollama Vulkan!"
-msgstr "Nepodařilo se nainstalovat Ollama Vulkan!"
-msgid "ChatBox Install"
-msgstr "Instalace ChatBox"
-#: NEEDS WORK
-msgid "Installing ChatBox, please wait..."
-msgstr "Instalace ChatBox, prosím čekejte..."
-msgid "ChatBox Uninstall"
-msgstr "Odinstalovat ChatBox"
-#: NEEDS WORK
-msgid "Uninstalling ChatBox, please wait..."
-msgstr "Odinstalovávání ChatBoxu, prosím čekejte..."
-msgid "ChatBox installed successfully!"
-msgstr "ChatBox byl úspěšně nainstalován!"
-msgid "Failed to install ChatBox!"
-msgstr "Instalace ChatBoxu se nezdařila!"
-msgid "Ollama Lab Install"
-msgstr "Instalace Ollama Lab"
-#: NEEDS WORK
-msgid "Installing Ollama Lab, please wait..."
-msgstr "Instalace Ollama Lab, prosím čekejte..."
-msgid "Ollama Lab Uninstall"
-msgstr "Ollama Lab Odinstalovat"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Lab, please wait..."
-msgstr "Odinstalovávání Ollama Lab, prosím čekejte..."
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Lab byl úspěšně nainstalován!"
-msgid "Failed to install Ollama Lab!"
-msgstr "Instalace Ollama Lab se nezdařila!"
+"Nedávné soubory byly úspěšně povoleny!\\n"
+"Musíte zavřít a znovu otevřít Dophina, aby to mělo účinek."
 msgid ""
-"Generative AI for Krita has been successfully installed.\\n"
-"\\n"
-"Open Krita, open an existing drawing or create a new one.\\n"
-"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
-"\\n"
-"In the window that opens on the bottom right.\\n"
-"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
-"click Install."
+"Recent Files successfully disable!\\n"
+"You need to close and reopen Dolphin for it to take effect."
 msgstr ""
-"Generativní AI pro Krita byla úspěšně nainstalována.\\n"
-"\\n"
-"Otevřete Krita, otevřete existující kresbu nebo vytvořte novou.\\n"
-"V horním panelu přejděte na Nastavení > Panely > zaškrtněte políčko Generování obrázků AI.\\n"
-"\\n"
-"V okně, které se otevře v pravém dolním rohu.\\n"
-"Klikněte na Konfigurovat > Místní spravovaný server, vyberte svou GPU nebo CPU, vyberte model v "
-"Zátěžích a klikněte na Instalovat."
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Server Ollama běží.\\n"
-"Adresa: http://localhost:11434"
-msgid "Ollama Install"
-msgstr "Ollama Instalace"
-msgid "Ollama Uninstall"
-msgstr "Ollama Odinstalovat"
+"Nedávné soubory byly úspěšně zakázány!\\n"
+"Musíte zavřít a znovu otevřít Dolphin, aby se změna projevila."
+msgid "Failed to activate Recent Files!"
+msgstr "Nepodařilo se aktivovat Nedávné soubory!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "Nastavení BigLinux"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
 #: NEEDS WORK
-msgid "Uninstalling Ollama, please wait..."
-msgstr "Odinstalovávání Ollama, prosím čekejte..."
-msgid "Ollama installed successfully!"
-msgstr "Ollama byl úspěšně nainstalován!"
-msgid "Failed to install Ollama!"
-msgstr "Instalace Ollama se nezdařila!"
-msgid "Ollama ROCm Install"
-msgstr "Ollama ROCm Instalace"
+msgid "BigLinux Community"
+msgstr "BigLinux Komunita"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Hledat..."
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
 #: NEEDS WORK
-msgid "Installing Ollama ROCm, please wait..."
-msgstr "Instalace Ollama ROCm, prosím čekejte..."
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm Odinstalovat"
+msgid "Search settings"
+msgstr "Nastavení vyhledávání"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
 #: NEEDS WORK
-msgid "Uninstalling Ollama ROCm, please wait..."
-msgstr "Odinstalovávání Ollama ROCm, prosím čekejte..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm byl úspěšně nainstalován!"
-msgid "Failed to install Ollama ROCm!"
-msgstr "Nepodařilo se nainstalovat Ollama ROCm!"
-msgid "comfyUI Install...."
-msgstr "comfyUI Instalace...."
+msgid "Toggle navigation sidebar"
+msgstr "Přepnout navigační postranní panel"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
 #: NEEDS WORK
-msgid "Installing comfyUI, this step takes a long time, please wait..."
-msgstr "Instalace comfyUI, tento krok trvá dlouho, prosím čekejte..."
-msgid "Uninstall comfyUI...."
-msgstr "Odinstalovat comfyUI...."
+msgid "About"
+msgstr "O aplikaci"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
 #: NEEDS WORK
-msgid "Uninstalling comfyUI, please wait..."
-msgstr "Odinstalovávání comfyUI, prosím čekejte..."
-msgid "comfyUI installed successfully"
-msgstr "comfyUI bylo úspěšně nainstalováno"
-msgid "comfyUI uninstalled successfully"
-msgstr "comfyUI byl úspěšně odinstalován"
-msgid "Failed to install comfyUI!"
-msgstr "Instalace comfyUI se nezdařila!"
-msgid "AMD/Nvidia GPU not found!"
-msgstr "GPU AMD/Nvidia nebyl nalezen!"
-msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
-msgstr ""
-"Ollama bylo úspěšně sdíleno.\\n"
-"Adresa: http://$localIp:11434"
-#: NEEDS WORK
-msgid "Failed to configure Ollama sharing!"
-msgstr "Nepodařilo se nakonfigurovat sdílení Ollama!"
-msgid "Ollama CUDA Install"
-msgstr "Ollama CUDA Instalace"
-#: NEEDS WORK
-msgid "Installing Ollama CUDA, please wait..."
-msgstr "Instalace Ollama CUDA, prosím čekejte..."
-msgid "Ollama CUDA Uninstall"
-msgstr "Ollama CUDA Odinstalace"
-#: NEEDS WORK
-msgid "Uninstalling Ollama CUDA, please wait..."
-msgstr "Odinstalovávání Ollama CUDA, prosím čekejte..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA byl úspěšně nainstalován!"
-msgid "Failed to install Ollama CUDA!"
-msgstr "Nepodařilo se nainstalovat Ollama CUDA!"
-msgid "LM Studio Install"
-msgstr "Instalace LM Studia"
-#: NEEDS WORK
-msgid "Installing LM Studio, please wait..."
-msgstr "Instalace LM Studia, prosím čekejte..."
-msgid "LM Studio Uninstall"
-msgstr "Odinstalovat LM Studio"
-#: NEEDS WORK
-msgid "Uninstalling LM Studio, please wait..."
-msgstr "Odinstalovávání LM Studia, prosím čekejte..."
-msgid "LM Studio installed successfully!"
-msgstr "LM Studio bylo úspěšně nainstalováno!"
-msgid "Failed to install LM Studio!"
-msgstr "Instalace LM Studia se nezdařila!"
-msgid "Krita Install"
-msgstr "Instalace Krita"
-#: NEEDS WORK
-msgid "Installing Krita, please wait..."
-msgstr "Instalace Krita, prosím čekejte..."
-msgid "Krita Uninstall"
-msgstr "Odinstalovat Krita"
-#: NEEDS WORK
-msgid "Uninstalling Krita, please wait..."
-msgstr "Odinstalovávání Krita, prosím čekejte..."
-msgid "Krita installed successfully!"
-msgstr "Krita byla úspěšně nainstalována!"
-msgid "Failed to install Krita!"
-msgstr "Instalace Krita se nezdařila!"
-msgid "comfyUI Depends Install"
-msgstr "comfyUI Závislosti Instalace"
-#: NEEDS WORK
-msgid "Installing comfyUI Depends, please wait..."
-msgstr "Instalace závislostí comfyUI, prosím čekejte..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI Závislosti byly úspěšně nainstalovány!"
-msgid "Failed to install comfyUI Depends!"
-msgstr "Nepodařilo se nainstalovat comfyUI závislosti!"
+msgid "Main Menu"
+msgstr "Hlavní nabídka"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "Systém"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Použitelnost"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "Přednačtení"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
+msgid "Devices"
+msgstr "Zařízení"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+msgid "A.I."
+msgstr "A.I."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
 msgid "Docker"
 msgstr "Docker"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
+msgid "Performance"
+msgstr "Výkon"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 302
+#: NEEDS WORK
+msgid "Suspend"
+msgstr "Pozastavit"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
+#: NEEDS WORK
+msgid "Dismiss"
+msgstr "Zavřít"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
+#: NEEDS WORK
+msgid "Sleep Mode"
+msgstr "Režim spánku"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
+#: NEEDS WORK
+msgid "Configure how the system suspends."
+msgstr "Nakonfigurujte, jak systém pozastavuje."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
+#: NEEDS WORK
+msgid "Use s2idle (light sleep)"
+msgstr "Použijte s2idle (lehký spánek)"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
+#: NEEDS WORK
+msgid "Uses a lighter sleep mode that preserves Fn keys and device state. Recommended for ASUS notebooks."
+msgstr ""
+"Používá lehčí režim spánku, který zachovává klávesy Fn a stav zařízení. Doporučeno pro notebooky "
+"ASUS."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
+#: NEEDS WORK
+msgid ""
+"S3 deep sleep can cause the Embedded Controller to stop generating hotkey interrupts. s2idle keeps "
+"the EC powered, avoiding this issue at a small cost in battery consumption."
+msgstr ""
+"S3 hluboký spánek může způsobit, že vestavěný řadič přestane generovat přerušení horkých kláves. "
+"s2idle udržuje EC napájený, čímž se tomuto problému vyhne za malou cenu v spotřebě baterie."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
+#: NEEDS WORK
+msgid "WiFi"
+msgstr "WiFi"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
+#: NEEDS WORK
+msgid "Prevent WiFi issues after suspend."
+msgstr "Zabraňte problémům s WiFi po uspání."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
+#: NEEDS WORK
+msgid "Protect WiFi on suspend"
+msgstr "Chraňte WiFi při pozastavení"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
+#: NEEDS WORK
+msgid ""
+"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding connection loss after "
+"resume."
+msgstr "Zabraňuje plnému vypnutí čipu Realtek WiFi (d3cold), čímž se vyhýbá ztrátě připojení po obnovení."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
+#: NEEDS WORK
+msgid ""
+"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power gating. This keeps the chip "
+"in d3hot (PCIe link alive) during suspend."
+msgstr ""
+"Některé čipy Realtek RTL8852BE/CE se po d3cold vypnutí napájení neúspěšně znovu inicializují. To "
+"udržuje čip v d3hot (PCIe link aktivní) během pozastavení."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
+#: NEEDS WORK
+msgid "Display and Keyboard"
+msgstr "Displej a Klávesnice"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
+#: NEEDS WORK
+msgid "Preserve brightness and LED state across suspend."
+msgstr "Zachovat jas a stav LED při pozastavení."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
+#: NEEDS WORK
+msgid "Save/restore brightness on suspend"
+msgstr "Uložit/obnovit jas při pozastavení"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
+#: NEEDS WORK
+msgid "Saves screen brightness and keyboard LEDs before suspending and restores them on resume."
+msgstr "Ukládá jas obrazovky a LED klávesnice před pozastavením a obnovuje je po obnovení."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
+#: NEEDS WORK
+msgid "GNOME Shell Extensions"
+msgstr "GNOME Shell rozšíření"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
+#: NEEDS WORK
+msgid "Automatic health check after resume."
+msgstr "Automatická kontrola zdraví po obnovení."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
+#: NEEDS WORK
+msgid "Extension health monitor"
+msgstr "Monitor zdraví rozšíření"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
+#: NEEDS WORK
+msgid "Detects GNOME Shell extensions in error state after resume and automatically restarts them."
+msgstr "Detekuje rozšíření GNOME Shell ve stavu chyby po obnovení a automaticky je restartuje."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
+#: NEEDS WORK
+msgid "Lid Switch"
+msgstr "Přepínač víka"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
+#: NEEDS WORK
+msgid "Laptop lid close behavior."
+msgstr "Chování při zavření víka notebooku."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#: NEEDS WORK
+msgid "Suspend on lid close (AC power)"
+msgstr "Pozastavit při zavření víka (napájení ze sítě)"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#: NEEDS WORK
+msgid "Some systems do not suspend when on AC power. This forces suspend when the lid is closed."
+msgstr "Některé systémy se při napájení ze sítě neuspávají. To způsobí uspání, když je víko zavřené."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Nastavení uživatele a vizuálního systému."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Počáteční stav NumLock. Ignorováno, pokud je povoleno automatické přihlášení."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Tlačítko okna na levé straně"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Tlačítka pro maximalizaci, minimalizaci a zavření na levé straně okna."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZóny"
+# 
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "Povolit zónování oken pro desktop KDE Plasma."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "Nedávné soubory a umístění"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
+msgstr ""
+"Obnovuje funkčnost 'Nedávné soubory' a 'Nedávné umístění', která se zobrazuje jako prázdná v "
+"Dolphin a v aplikačním menu."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "Spravujte fyzická zařízení."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "Povolit adaptér Wi-Fi."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "Povolit adaptér Bluetooth."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Pokročilý procesor audio efektů, který zlepšuje kvalitu zvuku."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "Otočení posouvání myši"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "Obrátit posouvání myši bez restartování relace."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "Síťové rozhraní"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "Připojit nebo odpojit síťová zařízení."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} — {}"
+msgstr "{} — {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: přepnout připojení"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "Aplikuji…"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "připojeno"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "odpojeno"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "Nepodařilo se změnit síťové zařízení: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Přednačíst"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Přednačítání aplikací do paměti pro rychlejší otevření."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Brave"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Chromium"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "Librewolf"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Opera"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "LibreOffice"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
+msgid "AI Interfaces"
+msgstr "AI rozhraní"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 16
+#: NEEDS WORK
+msgid "Graphical interface for artificial intelligence."
+msgstr "Grafické rozhraní pro umělou inteligenci."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+#: NEEDS WORK
+msgid "Ollama Server"
+msgstr "Ollama Server"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+msgid "Choose which Ollama server is best for your hardware."
+msgstr "Vyberte, který server Ollama je nejlepší pro váš hardware."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Ollama Variants"
+msgstr "Ollama Varianty"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Select the variant that matches your GPU hardware."
+msgstr "Vyberte variantu, která odpovídá vaší hardwarové GPU."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
+msgid "ChatAI"
+msgstr "ChatAI"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
+msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
+msgstr "Různé chaty jako Plasmoid pro vaši pracovní plochu KDE Plasma."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
+msgid "Ollama LAB"
+msgstr "Ollama LAB"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
+msgid "Graphical interface for managing Ollama models and chat."
+msgstr "Grafické rozhraní pro správu modelů Ollama a chatu."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+#: NEEDS WORK
+msgid "ChatBox"
+msgstr "ChatBox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
+msgid "User-friendly Desktop Client App for AI Models/LLMs."
+msgstr "Uživatelsky přívětivá desktopová aplikace pro AI modely/LLM."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
+msgid "LM Studio"
+msgstr "LM Studio"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
+msgid "LM Studio - A desktop app for exploring and running large language models locally."
+msgstr "LM Studio - Desktopová aplikace pro prozkoumávání a spouštění velkých jazykových modelů lokálně."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 203
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
+#: NEEDS WORK
+msgid "Open Notebook"
+msgstr "Otevřít poznámkový blok"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
+msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
+msgstr "Otevřená alternativa zaměřená na ochranu soukromí k Google Notebook LM!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+msgid "ComfyUI (GPU ONLY)"
+msgstr "ComfyUI (POUZE GPU)"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
+msgid "The most powerful and modular visual AI engine and application."
+msgstr "Nejvýkonnější a modulární vizuální AI engine a aplikace."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+msgid "ComfyUI Server"
+msgstr "ComfyUI Server"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+#: NEEDS WORK
+msgid "Start the ComfyUI server."
+msgstr "Spusťte server ComfyUI."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+#, python-brace-format
+msgid ""
+"ComfyUI server is running.\n"
+"Address: http://localhost:8188\n"
+"and\n"
+"Address: http://{}:8188"
+msgstr ""
+"Server ComfyUI běží.  \n"
+"Adresa: http://localhost:8188  \n"
+"a  \n"
+"Adresa: http://{}:8188"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 55
+msgid "OllamaCPU"
+msgstr "OllamaCPU"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+msgid "Local AI server. For CPUs only."
+msgstr "Místní AI server. Pouze pro CPU."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 113
+msgid ""
+"Ollama server is running.\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama server běží.  \n"
+"Adresa: http://localhost:11434"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 81
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 99
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 117
+msgid "Share Ollama"
+msgstr "Sdílet Ollama"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 64
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 82
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 118
+msgid "Share ollama on the local network."
+msgstr "Sdílet ollama v místní síti."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 68
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 86
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 104
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 122
+#, python-brace-format
+msgid ""
+"Ollama server is running.\n"
+"Address: http://{}:11434"
+msgstr ""
+"Ollama server běží.  \n"
+"Adresa: http://{}:11434"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 73
+msgid "Ollama Vulkan"
+msgstr "Ollama Vulkan"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 75
+msgid "Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."
+msgstr "Místní AI server. Pro CPU, AMD/Nvidia a integrované GPU."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 109
+msgid "Ollama Nvidia CUDA"
+msgstr "Ollama Nvidia CUDA"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 110
+msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
+msgstr "Místní AI server. Pro novější GPU Nvidia, počínaje sérií 2000."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 91
+msgid "Ollama AMD ROCm"
+msgstr "Ollama AMD ROCm"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 111
+msgid ""
+"Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
+"Consider using Vulkan, in many tests, Vulkan performed better than ROCm."
+msgstr ""
+"Místní AI server. Pro novější GPU AMD, počínaje sérií 6000. Zvažte použití Vulkanu, v mnoha testech "
+"Vulkan vykazoval lepší výkon než ROCm."
 # 
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
 #: NEEDS WORK
@@ -534,15 +1100,6 @@ msgstr ""
 "a\n"
 "Adresa: http://{}:2017"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
-# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 203
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
-#: NEEDS WORK
-msgid "Open Notebook"
-msgstr "Otevřít poznámkový blok"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
 msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "Nainstalujte open source, na ochranu soukromí zaměřenou alternativu k Google Notebook LM!"
@@ -563,6 +1120,81 @@ msgstr ""
 "Adresa: http://localhost:8502\n"
 "a\n"
 "Adresa: http://{}:8502"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "Vylepšení výkonu BigLinux."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
+msgid "Disable Visual Effects"
+msgstr "Zakázat vizuální efekty"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
+msgstr "Zakáže vizuální efekty KWin (rozostření, stíny, animace). Snižuje zátěž GPU a uvolňuje paměť."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "Maximální výkon CPU"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr "Nastaví maximální výkon procesoru. Zajišťuje, že procesor používá maximální frekvenci."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Deaktivovat indexátor Baloo"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Zakáže indexátor souborů Baloo. Vyhýbá se zátěži I/O na disku."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "Uvolnit S.M.A.R.T Monitor"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Zakáže monitorování disku S.M.A.R.T. Snižuje I/O disku a využití CPU."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Omezení Meltdown vypnuta"
+# 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
+#: NEEDS WORK
+msgid "Using mitigations=off will make your machine faster and less secure!"
+msgstr "Použití mitigations=off zrychlí váš stroj, ale sníží jeho bezpečnost!"
+# 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
+#: NEEDS WORK
+msgid ""
+"This will disable CPU security mitigations (Meltdown/Spectre). Your system will be faster but "
+"vulnerable to hardware-level attacks. Are you sure you want to continue?"
+msgstr ""
+"Tímto se deaktivují bezpečnostní opatření CPU (Meltdown/Spectre). Váš systém bude rychlejší, ale "
+"zranitelný vůči útokům na úrovni hardwaru. Opravdu chcete pokračovat?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "žádnýDozorčíPes"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Deaktivuje systémy hardwarového watchdogu a hodinového zdroje TSC, udržuje vysoký výkon, ale "
+"odstraňuje automatické ochrany proti selhání systému."
+# 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
+#: NEEDS WORK
+msgid ""
+"This will disable the hardware watchdog. Your system will no longer automatically recover from "
+"certain types of crashes. Are you sure you want to continue?"
+msgstr ""
+"Tímto se deaktivuje hardwarový watchdog. Váš systém se již nebude automaticky zotavovat z určitých "
+"typů havárií. Jste si jisti, že chcete pokračovat?"
 # 
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
 #: NEEDS WORK
@@ -736,14 +1368,6 @@ msgstr "Zpět: vrácený přepínač"
 msgid "Changing {} to {}"
 msgstr "Změna {} na {}"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
-#: NEEDS WORK
-msgid "Applying…"
-msgstr "Aplikuji…"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
 #, python-brace-format
 msgid "ERROR: Failed to change {} to {}"
@@ -753,99 +1377,6 @@ msgstr "CHYBA: Nepodařilo se změnit {} na {}"
 #, python-brace-format
 msgid "Failed to change setting: {}"
 msgstr "Nepodařilo se změnit nastavení: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "BigLinux Settings"
-msgstr "Nastavení BigLinux"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
-#: NEEDS WORK
-msgid "BigLinux Community"
-msgstr "BigLinux Komunita"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
-msgid "Search..."
-msgstr "Hledat..."
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
-#: NEEDS WORK
-msgid "Search settings"
-msgstr "Nastavení vyhledávání"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
-#: NEEDS WORK
-msgid "Toggle navigation sidebar"
-msgstr "Přepnout navigační postranní panel"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
-#: NEEDS WORK
-msgid "About"
-msgstr "O aplikaci"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
-#: NEEDS WORK
-msgid "Main Menu"
-msgstr "Hlavní nabídka"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Systém"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Použitelnost"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
-msgid "PreLoad"
-msgstr "Přednačtení"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
-msgid "Devices"
-msgstr "Zařízení"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
-msgid "A.I."
-msgstr "A.I."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
-msgid "Performance"
-msgstr "Výkon"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
-#: NEEDS WORK
-msgid "Dismiss"
-msgstr "Zavřít"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."
@@ -887,407 +1418,3 @@ msgstr "Automatické připojení oddílů"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Automaticky připojit oddíly na interních discích při spuštění."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "Přednačíst"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "Přednačítání aplikací do paměti pro rychlejší otevření."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "Firefox"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "Brave"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "Chrome"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "Chromium"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "Librewolf"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "Palemoon"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "Opera"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "LibreOffice"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
-msgid "Manage physical devices."
-msgstr "Spravujte fyzická zařízení."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable the Wi-Fi adapter."
-msgstr "Povolit adaptér Wi-Fi."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
-#: NEEDS WORK
-msgid "Enable the Bluetooth adapter."
-msgstr "Povolit adaptér Bluetooth."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
-msgid "JamesDSP"
-msgstr "JamesDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "Pokročilý procesor audio efektů, který zlepšuje kvalitu zvuku."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
-msgid "Reverse mouse scrolling"
-msgstr "Otočení posouvání myši"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "Obrátit posouvání myši bez restartování relace."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
-#: NEEDS WORK
-msgid "Network Interfaces"
-msgstr "Síťové rozhraní"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
-#: NEEDS WORK
-msgid "Connect or disconnect network devices."
-msgstr "Připojit nebo odpojit síťová zařízení."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
-#: NEEDS WORK
-#, python-brace-format
-msgid "{} — {}"
-msgstr "{} — {}"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
-#: NEEDS WORK
-#, python-brace-format
-msgid "{}: toggle connection"
-msgstr "{}: přepnout připojení"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: NEEDS WORK
-msgid "connected"
-msgstr "připojeno"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: NEEDS WORK
-msgid "disconnected"
-msgstr "odpojeno"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
-#: NEEDS WORK
-#, python-brace-format
-msgid "Failed to change network device: {}"
-msgstr "Nepodařilo se změnit síťové zařízení: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
-msgid "BigLinux performance tweaks."
-msgstr "Vylepšení výkonu BigLinux."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
-msgid "Disable Visual Effects"
-msgstr "Zakázat vizuální efekty"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
-msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
-msgstr "Zakáže vizuální efekty KWin (rozostření, stíny, animace). Snižuje zátěž GPU a uvolňuje paměť."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
-msgid "CPU Maximum Performance"
-msgstr "Maximální výkon CPU"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
-msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
-msgstr "Nastaví maximální výkon procesoru. Zajišťuje, že procesor používá maximální frekvenci."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
-msgid "Disable Baloo Indexer"
-msgstr "Deaktivovat indexátor Baloo"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
-msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
-msgstr "Zakáže indexátor souborů Baloo. Vyhýbá se zátěži I/O na disku."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
-msgid "Unload S.M.A.R.T Monitor"
-msgstr "Uvolnit S.M.A.R.T Monitor"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
-msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
-msgstr "Zakáže monitorování disku S.M.A.R.T. Snižuje I/O disku a využití CPU."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "Omezení Meltdown vypnuta"
-# 
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
-#: NEEDS WORK
-msgid "Using mitigations=off will make your machine faster and less secure!"
-msgstr "Použití mitigations=off zrychlí váš stroj, ale sníží jeho bezpečnost!"
-# 
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
-#: NEEDS WORK
-msgid ""
-"This will disable CPU security mitigations (Meltdown/Spectre). Your system will be faster but "
-"vulnerable to hardware-level attacks. Are you sure you want to continue?"
-msgstr ""
-"Tímto se deaktivují bezpečnostní opatření CPU (Meltdown/Spectre). Váš systém bude rychlejší, ale "
-"zranitelný vůči útokům na úrovni hardwaru. Opravdu chcete pokračovat?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "žádnýDozorčíPes"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr ""
-"Deaktivuje systémy hardwarového watchdogu a hodinového zdroje TSC, udržuje vysoký výkon, ale "
-"odstraňuje automatické ochrany proti selhání systému."
-# 
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
-#: NEEDS WORK
-msgid ""
-"This will disable the hardware watchdog. Your system will no longer automatically recover from "
-"certain types of crashes. Are you sure you want to continue?"
-msgstr ""
-"Tímto se deaktivuje hardwarový watchdog. Váš systém se již nebude automaticky zotavovat z určitých "
-"typů havárií. Jste si jisti, že chcete pokračovat?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
-msgid "AI Interfaces"
-msgstr "AI rozhraní"
-# 
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 16
-#: NEEDS WORK
-msgid "Graphical interface for artificial intelligence."
-msgstr "Grafické rozhraní pro umělou inteligenci."
-# 
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
-#: NEEDS WORK
-msgid "Ollama Server"
-msgstr "Ollama Server"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
-msgid "Choose which Ollama server is best for your hardware."
-msgstr "Vyberte, který server Ollama je nejlepší pro váš hardware."
-# 
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-#: NEEDS WORK
-msgid "Ollama Variants"
-msgstr "Ollama Varianty"
-# 
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
-#: NEEDS WORK
-msgid "Select the variant that matches your GPU hardware."
-msgstr "Vyberte variantu, která odpovídá vaší hardwarové GPU."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
-msgid "ChatAI"
-msgstr "ChatAI"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
-msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
-msgstr "Různé chaty jako Plasmoid pro vaši pracovní plochu KDE Plasma."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
-msgid "Ollama LAB"
-msgstr "Ollama LAB"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
-msgid "Graphical interface for managing Ollama models and chat."
-msgstr "Grafické rozhraní pro správu modelů Ollama a chatu."
-# 
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
-#: NEEDS WORK
-msgid "ChatBox"
-msgstr "ChatBox"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
-msgid "User-friendly Desktop Client App for AI Models/LLMs."
-msgstr "Uživatelsky přívětivá desktopová aplikace pro AI modely/LLM."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
-msgid "LM Studio"
-msgstr "LM Studio"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
-msgid "LM Studio - A desktop app for exploring and running large language models locally."
-msgstr "LM Studio - Desktopová aplikace pro prozkoumávání a spouštění velkých jazykových modelů lokálně."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
-msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "Otevřená alternativa zaměřená na ochranu soukromí k Google Notebook LM!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
-msgid "ComfyUI (GPU ONLY)"
-msgstr "ComfyUI (POUZE GPU)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
-msgid "The most powerful and modular visual AI engine and application."
-msgstr "Nejvýkonnější a modulární vizuální AI engine a aplikace."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
-msgid "ComfyUI Server"
-msgstr "ComfyUI Server"
-# 
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
-#: NEEDS WORK
-msgid "Start the ComfyUI server."
-msgstr "Spusťte server ComfyUI."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
-#, python-brace-format
-msgid ""
-"ComfyUI server is running.\n"
-"Address: http://localhost:8188\n"
-"and\n"
-"Address: http://{}:8188"
-msgstr ""
-"Server ComfyUI běží.  \n"
-"Adresa: http://localhost:8188  \n"
-"a  \n"
-"Adresa: http://{}:8188"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 55
-msgid "OllamaCPU"
-msgstr "OllamaCPU"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
-msgid "Local AI server. For CPUs only."
-msgstr "Místní AI server. Pouze pro CPU."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 113
-msgid ""
-"Ollama server is running.\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Ollama server běží.  \n"
-"Adresa: http://localhost:11434"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 81
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 99
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 117
-msgid "Share Ollama"
-msgstr "Sdílet Ollama"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 64
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 82
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 118
-msgid "Share ollama on the local network."
-msgstr "Sdílet ollama v místní síti."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 68
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 86
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 104
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 122
-#, python-brace-format
-msgid ""
-"Ollama server is running.\n"
-"Address: http://{}:11434"
-msgstr ""
-"Ollama server běží.  \n"
-"Adresa: http://{}:11434"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 73
-msgid "Ollama Vulkan"
-msgstr "Ollama Vulkan"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 75
-msgid "Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."
-msgstr "Místní AI server. Pro CPU, AMD/Nvidia a integrované GPU."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 109
-msgid "Ollama Nvidia CUDA"
-msgstr "Ollama Nvidia CUDA"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 110
-msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
-msgstr "Místní AI server. Pro novější GPU Nvidia, počínaje sérií 2000."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 91
-msgid "Ollama AMD ROCm"
-msgstr "Ollama AMD ROCm"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 111
-msgid ""
-"Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
-"Consider using Vulkan, in many tests, Vulkan performed better than ROCm."
-msgstr ""
-"Místní AI server. Pro novější GPU AMD, počínaje sérií 6000. Zvažte použití Vulkanu, v mnoha testech "
-"Vulkan vykazoval lepší výkon než ROCm."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Nastavení uživatele a vizuálního systému."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Počáteční stav NumLock. Ignorováno, pokud je povoleno automatické přihlášení."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Tlačítko okna na levé straně"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Tlačítka pro maximalizaci, minimalizaci a zavření na levé straně okna."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZóny"
-# 
-# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable window tiling zones for the KDE Plasma desktop."
-msgstr "Povolit zónování oken pro desktop KDE Plasma."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "Nedávné soubory a umístění"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
-msgstr ""
-"Obnovuje funkčnost 'Nedávné soubory' a 'Nedávné umístění', která se zobrazuje jako prázdná v "
-"Dolphin a v aplikačním menu."

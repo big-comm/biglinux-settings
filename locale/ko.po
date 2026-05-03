@@ -15,39 +15,184 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "kzones Install"
-msgstr "kzones 설치"
+msgid "comfyUI Depends Install"
+msgstr "comfyUI 의존성 설치"
 #: NEEDS WORK
-msgid "Installing Kzones, please wait..."
-msgstr "Kzones 설치 중입니다. 잠시 기다려 주십시오..."
-msgid "Kzones installed successfully!"
-msgstr "Kzones가 성공적으로 설치되었습니다!"
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "comfyUI 설치 중 의존성, 잠시 기다려 주십시오..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI 의존성이 성공적으로 설치되었습니다!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "comfyUI 설치 실패! 의존성 문제!"
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama 서버가 실행 중입니다.\\n"
+"주소: http://localhost:11434"
+msgid "ChatBox Install"
+msgstr "챗박스 설치"
+#: NEEDS WORK
+msgid "Installing ChatBox, please wait..."
+msgstr "ChatBox 설치 중입니다. 잠시만 기다려 주십시오..."
+msgid "ChatBox Uninstall"
+msgstr "채팅 상자 제거"
+#: NEEDS WORK
+msgid "Uninstalling ChatBox, please wait..."
+msgstr "ChatBox를 제거하는 중입니다. 잠시만 기다려 주십시오..."
+msgid "ChatBox installed successfully!"
+msgstr "ChatBox가 성공적으로 설치되었습니다!"
+msgid "Failed to install ChatBox!"
+msgstr "ChatBox 설치에 실패했습니다!"
+msgid "Ollama Lab Install"
+msgstr "올라마 실험실 설치"
+#: NEEDS WORK
+msgid "Installing Ollama Lab, please wait..."
+msgstr "Ollama Lab 설치 중입니다. 잠시만 기다려 주십시오..."
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Lab 제거"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Ollama Lab를 제거하는 중입니다. 잠시만 기다려 주십시오..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab가 성공적으로 설치되었습니다!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Ollama Lab 설치에 실패했습니다!"
+msgid "LM Studio Install"
+msgstr "LM 스튜디오 설치"
+#: NEEDS WORK
+msgid "Installing LM Studio, please wait..."
+msgstr "LM 스튜디오 설치 중입니다. 잠시만 기다려 주십시오..."
+msgid "LM Studio Uninstall"
+msgstr "LM 스튜디오 제거"
+#: NEEDS WORK
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "LM 스튜디오를 제거하는 중입니다. 잠시만 기다려 주십시오..."
+msgid "LM Studio installed successfully!"
+msgstr "LM 스튜디오가 성공적으로 설치되었습니다!"
+msgid "Failed to install LM Studio!"
+msgstr "LM Studio 설치에 실패했습니다!"
+msgid "Ollama Install"
+msgstr "올라마 설치"
+#: NEEDS WORK
+msgid "Installing Ollama, please wait..."
+msgstr "Ollama 설치 중입니다. 잠시 기다려 주십시오..."
+msgid "Ollama Uninstall"
+msgstr "Ollama 제거"
+#: NEEDS WORK
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Ollama를 제거하는 중입니다. 잠시만 기다려 주십시오..."
+msgid "Ollama installed successfully!"
+msgstr "Ollama가 성공적으로 설치되었습니다!"
+msgid "Failed to install Ollama!"
+msgstr "Ollama 설치에 실패했습니다!"
+msgid "comfyUI Install...."
+msgstr "comfyUI 설치...."
+#: NEEDS WORK
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "comfyUI 설치 중, 이 단계는 시간이 오래 걸립니다. 잠시만 기다려 주십시오..."
+msgid "Uninstall comfyUI...."
+msgstr "컴피UI 제거...."
+#: NEEDS WORK
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "comfyUI를 제거하는 중입니다. 잠시만 기다려 주십시오..."
+msgid "comfyUI installed successfully"
+msgstr "comfyUI가 성공적으로 설치되었습니다."
+msgid "comfyUI uninstalled successfully"
+msgstr "comfyUI가 성공적으로 제거되었습니다."
+msgid "Failed to install comfyUI!"
+msgstr "comfyUI 설치에 실패했습니다!"
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA 설치"
+#: NEEDS WORK
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "Ollama CUDA 설치 중입니다. 잠시 기다려 주십시오..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA 제거"
+#: NEEDS WORK
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "Ollama CUDA를 제거하는 중입니다. 잠시만 기다려 주십시오..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA가 성공적으로 설치되었습니다!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Ollama CUDA 설치에 실패했습니다!"
+msgid ""
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"Krita용 생성적 AI가 성공적으로 설치되었습니다.\\n"
+"\\n"
+"Krita를 열고 기존 그림을 열거나 새로 만드세요.\\n"
+"상단 패널에서 설정 > 패널로 이동하여 AI 이미지 생성 상자를 선택하세요.\\n"
+"\\n"
+"오른쪽 하단에 열리는 창에서.\\n"
+"구성 > 로컬 관리 서버를 클릭하고, GPU 또는 CPU를 선택하고, 작업 부하에서 모델을 선택한 후 설치를 클릭하세요."
+msgid "AMD/Nvidia GPU not found!"
+msgstr "AMD/Nvidia GPU를 찾을 수 없습니다!"
+msgid "Krita Install"
+msgstr "크리타 설치"
+#: NEEDS WORK
+msgid "Installing Krita, please wait..."
+msgstr "Krita를 설치하는 중입니다. 잠시만 기다려 주십시오..."
+msgid "Krita Uninstall"
+msgstr "Krita 제거"
+#: NEEDS WORK
+msgid "Uninstalling Krita, please wait..."
+msgstr "크리타를 제거하는 중입니다. 잠시만 기다려 주십시오..."
+msgid "Krita installed successfully!"
+msgstr "Krita가 성공적으로 설치되었습니다!"
+msgid "Failed to install Krita!"
+msgstr "Krita 설치에 실패했습니다!"
+msgid "Ollama Vulkan Install"
+msgstr "올라마 벌칸 설치"
+msgid "Ollama Vulkan Uninstall"
+msgstr "Ollama Vulkan 제거"
+#: NEEDS WORK
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Ollama Vulkan을 제거하는 중입니다. 잠시만 기다려 주십시오..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan이 성공적으로 설치되었습니다!"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Ollama Vulkan 설치에 실패했습니다!"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama가 성공적으로 공유되었습니다.\\n"
+"주소: http://$localIp:11434"
+#: NEEDS WORK
+msgid "Failed to configure Ollama sharing!"
+msgstr "Ollama 공유 구성을 실패했습니다!"
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm 설치"
+#: NEEDS WORK
+msgid "Installing Ollama ROCm, please wait..."
+msgstr "Ollama ROCm 설치 중입니다. 잠시 기다려 주십시오..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm 제거"
+#: NEEDS WORK
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Ollama ROCm을 제거하는 중입니다. 잠시만 기다려 주십시오..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm이 성공적으로 설치되었습니다!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Ollama ROCm 설치에 실패했습니다!"
 msgid "Applying, please wait..."
 msgstr "적용 중입니다. 잠시만 기다려 주십시오..."
-msgid "Recent Files enabling...."
-msgstr "최근 파일 활성화 중...."
-#: NEEDS WORK
-msgid "Recent Files enabling, please wait..."
-msgstr "최근 파일 활성화 중, 잠시만 기다려 주십시오..."
-msgid "Recent Files disabling...."
-msgstr "최근 파일 비활성화 중...."
-#: NEEDS WORK
-msgid "Recent Files disabling, please wait..."
-msgstr "최근 파일 비활성화 중, 잠시만 기다려 주십시오..."
-msgid ""
-"Recent Files successfully enabled!\\n"
-"You need to close and reopen Dolphin for it to take effect."
-msgstr ""
-"최근 파일이 성공적으로 활성화되었습니다!\\n"
-"변경 사항을 적용하려면 Dolphin을 닫았다가 다시 열어야 합니다."
-msgid ""
-"Recent Files successfully disable!\\n"
-"You need to close and reopen Dolphin for it to take effect."
-msgstr ""
-"최근 파일이 성공적으로 비활성화되었습니다!\\n"
-"변경 사항을 적용하려면 Dolphin을 닫았다가 다시 열어야 합니다."
-msgid "Failed to activate Recent Files!"
-msgstr "최근 파일을 활성화하지 못했습니다!"
+msgid "GRUB updated successfully!"
+msgstr "GRUB이 성공적으로 업데이트되었습니다!"
+msgid "An error occurred while updating GRUB."
+msgstr "GRUB을 업데이트하는 동안 오류가 발생했습니다."
+msgid "Limits updated successfully!"
+msgstr "제한이 성공적으로 업데이트되었습니다!"
+msgid "An error occurred while updating Limits."
+msgstr "Limits를 업데이트하는 동안 오류가 발생했습니다."
 msgid "Example Install"
 msgstr "예제 설치"
 msgid "Instaling Example, Please wait..."
@@ -69,6 +214,14 @@ msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP가 성공적으로 설치되었습니다!"
 msgid "Failed to install jamesDSP!"
 msgstr "jamesDSP 설치에 실패했습니다!"
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB이 성공적으로 업데이트되었습니다!\\n"
+"변경 사항을 적용하려면 컴퓨터를 재시작하세요."
+msgid "Already enabled. No changes made."
+msgstr "이미 활성화되었습니다. 변경 사항이 없습니다."
 msgid "Docker Install"
 msgstr "도커 설치"
 #: NEEDS WORK
@@ -111,194 +264,581 @@ msgid "$package removed successfully!"
 msgstr "$패키지가 성공적으로 제거되었습니다!"
 msgid "An error occurred with $package."
 msgstr "$package에서 오류가 발생했습니다."
-msgid "GRUB updated successfully!"
-msgstr "GRUB이 성공적으로 업데이트되었습니다!"
-msgid "An error occurred while updating GRUB."
-msgstr "GRUB을 업데이트하는 동안 오류가 발생했습니다."
-msgid "Limits updated successfully!"
-msgstr "제한이 성공적으로 업데이트되었습니다!"
-msgid "An error occurred while updating Limits."
-msgstr "Limits를 업데이트하는 동안 오류가 발생했습니다."
+msgid "kzones Install"
+msgstr "kzones 설치"
+#: NEEDS WORK
+msgid "Installing Kzones, please wait..."
+msgstr "Kzones 설치 중입니다. 잠시 기다려 주십시오..."
+msgid "Kzones installed successfully!"
+msgstr "Kzones가 성공적으로 설치되었습니다!"
+msgid "Recent Files enabling...."
+msgstr "최근 파일 활성화 중...."
+#: NEEDS WORK
+msgid "Recent Files enabling, please wait..."
+msgstr "최근 파일 활성화 중, 잠시만 기다려 주십시오..."
+msgid "Recent Files disabling...."
+msgstr "최근 파일 비활성화 중...."
+#: NEEDS WORK
+msgid "Recent Files disabling, please wait..."
+msgstr "최근 파일 비활성화 중, 잠시만 기다려 주십시오..."
 msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
+"Recent Files successfully enabled!\\n"
+"You need to close and reopen Dolphin for it to take effect."
 msgstr ""
-"GRUB이 성공적으로 업데이트되었습니다!\\n"
-"변경 사항을 적용하려면 컴퓨터를 재시작하세요."
-msgid "Already enabled. No changes made."
-msgstr "이미 활성화되었습니다. 변경 사항이 없습니다."
-msgid "Ollama Vulkan Install"
-msgstr "올라마 벌칸 설치"
-#: NEEDS WORK
-msgid "Installing Ollama, please wait..."
-msgstr "Ollama 설치 중입니다. 잠시 기다려 주십시오..."
-msgid "Ollama Vulkan Uninstall"
-msgstr "Ollama Vulkan 제거"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Vulkan, please wait..."
-msgstr "Ollama Vulkan을 제거하는 중입니다. 잠시만 기다려 주십시오..."
-msgid "Ollama Vulkan installed successfully!"
-msgstr "Ollama Vulkan이 성공적으로 설치되었습니다!"
-msgid "Failed to install Ollama Vulkan!"
-msgstr "Ollama Vulkan 설치에 실패했습니다!"
-msgid "ChatBox Install"
-msgstr "챗박스 설치"
-#: NEEDS WORK
-msgid "Installing ChatBox, please wait..."
-msgstr "ChatBox 설치 중입니다. 잠시만 기다려 주십시오..."
-msgid "ChatBox Uninstall"
-msgstr "채팅 상자 제거"
-#: NEEDS WORK
-msgid "Uninstalling ChatBox, please wait..."
-msgstr "ChatBox를 제거하는 중입니다. 잠시만 기다려 주십시오..."
-msgid "ChatBox installed successfully!"
-msgstr "ChatBox가 성공적으로 설치되었습니다!"
-msgid "Failed to install ChatBox!"
-msgstr "ChatBox 설치에 실패했습니다!"
-msgid "Ollama Lab Install"
-msgstr "올라마 실험실 설치"
-#: NEEDS WORK
-msgid "Installing Ollama Lab, please wait..."
-msgstr "Ollama Lab 설치 중입니다. 잠시만 기다려 주십시오..."
-msgid "Ollama Lab Uninstall"
-msgstr "Ollama Lab 제거"
-#: NEEDS WORK
-msgid "Uninstalling Ollama Lab, please wait..."
-msgstr "Ollama Lab를 제거하는 중입니다. 잠시만 기다려 주십시오..."
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Lab가 성공적으로 설치되었습니다!"
-msgid "Failed to install Ollama Lab!"
-msgstr "Ollama Lab 설치에 실패했습니다!"
+"최근 파일이 성공적으로 활성화되었습니다!\\n"
+"변경 사항을 적용하려면 Dolphin을 닫았다가 다시 열어야 합니다."
 msgid ""
-"Generative AI for Krita has been successfully installed.\\n"
-"\\n"
-"Open Krita, open an existing drawing or create a new one.\\n"
-"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
-"\\n"
-"In the window that opens on the bottom right.\\n"
-"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
-"click Install."
+"Recent Files successfully disable!\\n"
+"You need to close and reopen Dolphin for it to take effect."
 msgstr ""
-"Krita용 생성적 AI가 성공적으로 설치되었습니다.\\n"
-"\\n"
-"Krita를 열고 기존 그림을 열거나 새로 만드세요.\\n"
-"상단 패널에서 설정 > 패널로 이동하여 AI 이미지 생성 상자를 선택하세요.\\n"
-"\\n"
-"오른쪽 하단에 열리는 창에서.\\n"
-"구성 > 로컬 관리 서버를 클릭하고, GPU 또는 CPU를 선택하고, 작업 부하에서 모델을 선택한 후 설치를 클릭하세요."
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Ollama 서버가 실행 중입니다.\\n"
-"주소: http://localhost:11434"
-msgid "Ollama Install"
-msgstr "올라마 설치"
-msgid "Ollama Uninstall"
-msgstr "Ollama 제거"
+"최근 파일이 성공적으로 비활성화되었습니다!\\n"
+"변경 사항을 적용하려면 Dolphin을 닫았다가 다시 열어야 합니다."
+msgid "Failed to activate Recent Files!"
+msgstr "최근 파일을 활성화하지 못했습니다!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "빅리눅스 설정"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
 #: NEEDS WORK
-msgid "Uninstalling Ollama, please wait..."
-msgstr "Ollama를 제거하는 중입니다. 잠시만 기다려 주십시오..."
-msgid "Ollama installed successfully!"
-msgstr "Ollama가 성공적으로 설치되었습니다!"
-msgid "Failed to install Ollama!"
-msgstr "Ollama 설치에 실패했습니다!"
-msgid "Ollama ROCm Install"
-msgstr "Ollama ROCm 설치"
+msgid "BigLinux Community"
+msgstr "빅리눅스 커뮤니티"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "검색..."
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
 #: NEEDS WORK
-msgid "Installing Ollama ROCm, please wait..."
-msgstr "Ollama ROCm 설치 중입니다. 잠시 기다려 주십시오..."
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm 제거"
+msgid "Search settings"
+msgstr "검색 설정"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
 #: NEEDS WORK
-msgid "Uninstalling Ollama ROCm, please wait..."
-msgstr "Ollama ROCm을 제거하는 중입니다. 잠시만 기다려 주십시오..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm이 성공적으로 설치되었습니다!"
-msgid "Failed to install Ollama ROCm!"
-msgstr "Ollama ROCm 설치에 실패했습니다!"
-msgid "comfyUI Install...."
-msgstr "comfyUI 설치...."
+msgid "Toggle navigation sidebar"
+msgstr "탐색 사이드바 전환"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
 #: NEEDS WORK
-msgid "Installing comfyUI, this step takes a long time, please wait..."
-msgstr "comfyUI 설치 중, 이 단계는 시간이 오래 걸립니다. 잠시만 기다려 주십시오..."
-msgid "Uninstall comfyUI...."
-msgstr "컴피UI 제거...."
+msgid "About"
+msgstr "정보"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
 #: NEEDS WORK
-msgid "Uninstalling comfyUI, please wait..."
-msgstr "comfyUI를 제거하는 중입니다. 잠시만 기다려 주십시오..."
-msgid "comfyUI installed successfully"
-msgstr "comfyUI가 성공적으로 설치되었습니다."
-msgid "comfyUI uninstalled successfully"
-msgstr "comfyUI가 성공적으로 제거되었습니다."
-msgid "Failed to install comfyUI!"
-msgstr "comfyUI 설치에 실패했습니다!"
-msgid "AMD/Nvidia GPU not found!"
-msgstr "AMD/Nvidia GPU를 찾을 수 없습니다!"
-msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
-msgstr ""
-"Ollama가 성공적으로 공유되었습니다.\\n"
-"주소: http://$localIp:11434"
-#: NEEDS WORK
-msgid "Failed to configure Ollama sharing!"
-msgstr "Ollama 공유 구성을 실패했습니다!"
-msgid "Ollama CUDA Install"
-msgstr "Ollama CUDA 설치"
-#: NEEDS WORK
-msgid "Installing Ollama CUDA, please wait..."
-msgstr "Ollama CUDA 설치 중입니다. 잠시 기다려 주십시오..."
-msgid "Ollama CUDA Uninstall"
-msgstr "Ollama CUDA 제거"
-#: NEEDS WORK
-msgid "Uninstalling Ollama CUDA, please wait..."
-msgstr "Ollama CUDA를 제거하는 중입니다. 잠시만 기다려 주십시오..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA가 성공적으로 설치되었습니다!"
-msgid "Failed to install Ollama CUDA!"
-msgstr "Ollama CUDA 설치에 실패했습니다!"
-msgid "LM Studio Install"
-msgstr "LM 스튜디오 설치"
-#: NEEDS WORK
-msgid "Installing LM Studio, please wait..."
-msgstr "LM 스튜디오 설치 중입니다. 잠시만 기다려 주십시오..."
-msgid "LM Studio Uninstall"
-msgstr "LM 스튜디오 제거"
-#: NEEDS WORK
-msgid "Uninstalling LM Studio, please wait..."
-msgstr "LM 스튜디오를 제거하는 중입니다. 잠시만 기다려 주십시오..."
-msgid "LM Studio installed successfully!"
-msgstr "LM 스튜디오가 성공적으로 설치되었습니다!"
-msgid "Failed to install LM Studio!"
-msgstr "LM Studio 설치에 실패했습니다!"
-msgid "Krita Install"
-msgstr "크리타 설치"
-#: NEEDS WORK
-msgid "Installing Krita, please wait..."
-msgstr "Krita를 설치하는 중입니다. 잠시만 기다려 주십시오..."
-msgid "Krita Uninstall"
-msgstr "Krita 제거"
-#: NEEDS WORK
-msgid "Uninstalling Krita, please wait..."
-msgstr "크리타를 제거하는 중입니다. 잠시만 기다려 주십시오..."
-msgid "Krita installed successfully!"
-msgstr "Krita가 성공적으로 설치되었습니다!"
-msgid "Failed to install Krita!"
-msgstr "Krita 설치에 실패했습니다!"
-msgid "comfyUI Depends Install"
-msgstr "comfyUI 의존성 설치"
-#: NEEDS WORK
-msgid "Installing comfyUI Depends, please wait..."
-msgstr "comfyUI 설치 중 의존성, 잠시 기다려 주십시오..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI 의존성이 성공적으로 설치되었습니다!"
-msgid "Failed to install comfyUI Depends!"
-msgstr "comfyUI 설치 실패! 의존성 문제!"
+msgid "Main Menu"
+msgstr "메인 메뉴"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "시스템"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "사용성"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "프리로드"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
+msgid "Devices"
+msgstr "장치"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+msgid "A.I."
+msgstr "인공지능"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
 msgid "Docker"
 msgstr "도커"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
+msgid "Performance"
+msgstr "성능"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 302
+#: NEEDS WORK
+msgid "Suspend"
+msgstr "일시 중지"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
+#: NEEDS WORK
+msgid "Dismiss"
+msgstr "해제"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
+#: NEEDS WORK
+msgid "Sleep Mode"
+msgstr "절전 모드"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
+#: NEEDS WORK
+msgid "Configure how the system suspends."
+msgstr "시스템이 일시 중지되는 방식을 구성합니다."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
+#: NEEDS WORK
+msgid "Use s2idle (light sleep)"
+msgstr "s2idle 사용 (경량 절전 모드)"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
+#: NEEDS WORK
+msgid "Uses a lighter sleep mode that preserves Fn keys and device state. Recommended for ASUS notebooks."
+msgstr "Fn 키와 장치 상태를 유지하는 더 가벼운 절전 모드를 사용합니다. ASUS 노트북에 권장됩니다."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
+#: NEEDS WORK
+msgid ""
+"S3 deep sleep can cause the Embedded Controller to stop generating hotkey interrupts. s2idle keeps "
+"the EC powered, avoiding this issue at a small cost in battery consumption."
+msgstr ""
+"S3 깊은 수면은 임베디드 컨트롤러가 핫키 인터럽트를 생성하는 것을 중지시킬 수 있습니다. s2idle은 EC에 전원을 공급하여 이 문제를 피하며, 배터리 소비에서 약간의 비용이 "
+"발생합니다."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
+#: NEEDS WORK
+msgid "WiFi"
+msgstr "와이파이"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
+#: NEEDS WORK
+msgid "Prevent WiFi issues after suspend."
+msgstr "일시 중단 후 WiFi 문제 방지."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
+#: NEEDS WORK
+msgid "Protect WiFi on suspend"
+msgstr "일시 중지 시 WiFi 보호"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
+#: NEEDS WORK
+msgid ""
+"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding connection loss after "
+"resume."
+msgstr "Realtek WiFi 칩이 완전히 전원이 꺼지는 것을 방지하여(d3cold), 재개 후 연결 손실을 피합니다."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
+#: NEEDS WORK
+msgid ""
+"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power gating. This keeps the chip "
+"in d3hot (PCIe link alive) during suspend."
+msgstr "일부 Realtek RTL8852BE/CE 칩은 d3cold 전원 차단 후 재초기화에 실패합니다. 이로 인해 칩이 대기 중에 d3hot(PCIe 링크 활성 상태)에 유지됩니다."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
+#: NEEDS WORK
+msgid "Display and Keyboard"
+msgstr "디스플레이 및 키보드"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
+#: NEEDS WORK
+msgid "Preserve brightness and LED state across suspend."
+msgstr "일시 중단 시 밝기 및 LED 상태 유지."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
+#: NEEDS WORK
+msgid "Save/restore brightness on suspend"
+msgstr "일시 중지 시 밝기 저장/복원"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
+#: NEEDS WORK
+msgid "Saves screen brightness and keyboard LEDs before suspending and restores them on resume."
+msgstr "일시 중단하기 전에 화면 밝기와 키보드 LED를 저장하고, 다시 시작할 때 복원합니다."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
+#: NEEDS WORK
+msgid "GNOME Shell Extensions"
+msgstr "GNOME 셸 확장"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
+#: NEEDS WORK
+msgid "Automatic health check after resume."
+msgstr "재개 후 자동 건강 검사."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
+#: NEEDS WORK
+msgid "Extension health monitor"
+msgstr "확장 프로그램 상태 모니터"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
+#: NEEDS WORK
+msgid "Detects GNOME Shell extensions in error state after resume and automatically restarts them."
+msgstr "재개 후 오류 상태에 있는 GNOME Shell 확장을 감지하고 자동으로 다시 시작합니다."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
+#: NEEDS WORK
+msgid "Lid Switch"
+msgstr "뚜껑 스위치"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
+#: NEEDS WORK
+msgid "Laptop lid close behavior."
+msgstr "노트북 뚜껑 닫기 동작."
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#: NEEDS WORK
+msgid "Suspend on lid close (AC power)"
+msgstr "덮개 닫을 때 일시 중지 (AC 전원)"
+# 
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#: NEEDS WORK
+msgid "Some systems do not suspend when on AC power. This forces suspend when the lid is closed."
+msgstr "일부 시스템은 AC 전원에서 일시 중지하지 않습니다. 이는 덮개가 닫힐 때 일시 중지를 강제합니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "사용자 및 시각 시스템 설정."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "넘록"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "초기 NumLock 상태. 자동 로그인 활성화 시 무시됩니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "왼쪽에 있는 창 버튼"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "창의 왼쪽에 있는 최대화, 최소화 및 닫기 버튼."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "K존"
+# 
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "KDE Plasma 데스크탑의 창 타일링 영역 활성화."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "최근 파일 및 위치"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
+msgstr "Dolphin 및 애플리케이션 메뉴에서 비어 있는 '최근 파일' 및 '최근 위치' 기능을 복원합니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "물리적 장치 관리."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "와이파이"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: NEEDS WORK
+msgid "Enable the Wi-Fi adapter."
+msgstr "Wi-Fi 어댑터 활성화."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "블루투스"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: NEEDS WORK
+msgid "Enable the Bluetooth adapter."
+msgstr "블루투스 어댑터를 활성화합니다."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "제임스DSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "사운드 품질을 향상시키는 고급 오디오 효과 프로세서."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "마우스 스크롤 반전"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "세션을 재시작하지 않고 마우스 스크롤 방향 반전."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: NEEDS WORK
+msgid "Network Interfaces"
+msgstr "네트워크 인터페이스"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: NEEDS WORK
+msgid "Connect or disconnect network devices."
+msgstr "네트워크 장치를 연결하거나 연결 해제합니다."
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: NEEDS WORK
+#, python-brace-format
+msgid "{} — {}"
+msgstr "알림 — 알림"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: NEEDS WORK
+#, python-brace-format
+msgid "{}: toggle connection"
+msgstr "{}: 연결 전환"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+#: NEEDS WORK
+msgid "Applying…"
+msgstr "적용 중…"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "connected"
+msgstr "연결됨"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: NEEDS WORK
+msgid "disconnected"
+msgstr "연결 끊김"
+# 
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: NEEDS WORK
+#, python-brace-format
+msgid "Failed to change network device: {}"
+msgstr "네트워크 장치를 변경하지 못했습니다: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "프리로드"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "애플리케이션을 메모리에 미리 로드하여 더 빠르게 열 수 있습니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "파이어폭스"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "브레이브"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "크롬"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "크로미움"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "리브레울프"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "팔레문"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "오페라"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "리브레오피스"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
+msgid "AI Interfaces"
+msgstr "AI 인터페이스"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 16
+#: NEEDS WORK
+msgid "Graphical interface for artificial intelligence."
+msgstr "인공지능을 위한 그래픽 인터페이스."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+#: NEEDS WORK
+msgid "Ollama Server"
+msgstr "올라마 서버"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+msgid "Choose which Ollama server is best for your hardware."
+msgstr "하드웨어에 가장 적합한 Ollama 서버를 선택하세요."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: NEEDS WORK
+msgid "Ollama Variants"
+msgstr "올라마 변형"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: NEEDS WORK
+msgid "Select the variant that matches your GPU hardware."
+msgstr "GPU 하드웨어와 일치하는 변형을 선택하십시오."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
+msgid "ChatAI"
+msgstr "챗AI"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
+msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
+msgstr "KDE Plasma 데스크탑을 위한 Plasmoid와 같은 다양한 채팅."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
+msgid "Ollama LAB"
+msgstr "올라마 실험실"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
+msgid "Graphical interface for managing Ollama models and chat."
+msgstr "Ollama 모델 및 채팅 관리를 위한 그래픽 인터페이스."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+#: NEEDS WORK
+msgid "ChatBox"
+msgstr "채팅 상자"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
+msgid "User-friendly Desktop Client App for AI Models/LLMs."
+msgstr "AI 모델/LLM을 위한 사용자 친화적인 데스크톱 클라이언트 앱."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
+msgid "LM Studio"
+msgstr "LM 스튜디오"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
+msgid "LM Studio - A desktop app for exploring and running large language models locally."
+msgstr "LM 스튜디오 - 대규모 언어 모델을 로컬에서 탐색하고 실행하기 위한 데스크톱 앱."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 203
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
+#: NEEDS WORK
+msgid "Open Notebook"
+msgstr "노트북 열기"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
+msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
+msgstr "구글의 노트북 LM에 대한 오픈 소스, 개인 정보 보호 중심의 대안!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+msgid "ComfyUI (GPU ONLY)"
+msgstr "ComfyUI (GPU 전용)"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
+msgid "The most powerful and modular visual AI engine and application."
+msgstr "가장 강력하고 모듈화된 비주얼 AI 엔진 및 애플리케이션."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+msgid "ComfyUI Server"
+msgstr "컴피UI 서버"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+#: NEEDS WORK
+msgid "Start the ComfyUI server."
+msgstr "ComfyUI 서버를 시작합니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+#, python-brace-format
+msgid ""
+"ComfyUI server is running.\n"
+"Address: http://localhost:8188\n"
+"and\n"
+"Address: http://{}:8188"
+msgstr ""
+"ComfyUI 서버가 실행 중입니다.\n"
+"주소: http://localhost:8188\n"
+"및\n"
+"주소: http://{}:8188"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 55
+msgid "OllamaCPU"
+msgstr "OllamaCPU"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+msgid "Local AI server. For CPUs only."
+msgstr "로컬 AI 서버. CPU 전용."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 113
+msgid ""
+"Ollama server is running.\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama 서버가 실행 중입니다.  \n"
+"주소: http://localhost:11434"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 81
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 99
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 117
+msgid "Share Ollama"
+msgstr "올라마 공유"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 64
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 82
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 118
+msgid "Share ollama on the local network."
+msgstr "로컬 네트워크에서 ollama 공유."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 68
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 86
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 104
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 122
+#, python-brace-format
+msgid ""
+"Ollama server is running.\n"
+"Address: http://{}:11434"
+msgstr ""
+"Ollama 서버가 실행 중입니다.  \n"
+"주소: http://{}:11434"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 73
+msgid "Ollama Vulkan"
+msgstr "올라마 벌칸"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 75
+msgid "Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."
+msgstr "로컬 AI 서버. CPU용, AMD/Nvidia 및 통합 GPU."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 109
+msgid "Ollama Nvidia CUDA"
+msgstr "올라마 엔비디아 CUDA"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 110
+msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
+msgstr "로컬 AI 서버. 2000 시리즈부터 시작하는 최신 Nvidia GPU용."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 91
+msgid "Ollama AMD ROCm"
+msgstr "Ollama AMD ROCm"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 111
+msgid ""
+"Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
+"Consider using Vulkan, in many tests, Vulkan performed better than ROCm."
+msgstr "로컬 AI 서버. 6000 시리즈부터 최신 AMD GPU에 대해 지원합니다. 많은 테스트에서 Vulkan이 ROCm보다 더 나은 성능을 보였습니다."
 # 
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
 #: NEEDS WORK
@@ -533,15 +1073,6 @@ msgstr ""
 "및\n"
 "주소: http://{}:2017"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
-# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 203
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
-#: NEEDS WORK
-msgid "Open Notebook"
-msgstr "노트북 열기"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
 msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "구글의 노트북 LM에 대한 오픈 소스, 개인 정보 보호 중심의 대안을 설치하세요!"
@@ -562,6 +1093,75 @@ msgstr ""
 "주소: http://localhost:8502\n"
 "및\n"
 "주소: http://{}:8502"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux 성능 조정."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
+msgid "Disable Visual Effects"
+msgstr "비주얼 효과 비활성화"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
+msgstr "KWin 시각 효과(블러, 그림자, 애니메이션)를 비활성화합니다. GPU 부하를 줄이고 메모리를 해제합니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "CPU 최대 성능"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr "최대 프로세서 성능 모드를 강제합니다. 프로세서가 최대 주파수를 사용하도록 보장합니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Baloo 인덱서 비활성화"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Baloo 파일 인덱서를 비활성화합니다. 디스크 I/O 오버헤드를 피합니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "S.M.A.R.T 모니터 언로드"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "S.M.A.R.T 디스크 모니터링을 비활성화합니다. 디스크 I/O 및 CPU 사용량을 줄입니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "멜트다운 완화 비활성화"
+# 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
+#: NEEDS WORK
+msgid "Using mitigations=off will make your machine faster and less secure!"
+msgstr "완화 사용=끄기를 사용하면 컴퓨터가 더 빨라지지만 보안이 낮아집니다!"
+# 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
+#: NEEDS WORK
+msgid ""
+"This will disable CPU security mitigations (Meltdown/Spectre). Your system will be faster but "
+"vulnerable to hardware-level attacks. Are you sure you want to continue?"
+msgstr "이렇게 하면 CPU 보안 완화(Meltdown/Spectre)가 비활성화됩니다. 시스템이 더 빨라지지만 하드웨어 수준의 공격에 취약해집니다. 계속 진행하시겠습니까?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "노워치독"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr "하드웨어 감시 타이머 및 TSC 클록 소스 시스템을 비활성화하여 높은 성능을 유지하지만 시스템 충돌에 대한 자동 보호 기능을 제거합니다."
+# 
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
+#: NEEDS WORK
+msgid ""
+"This will disable the hardware watchdog. Your system will no longer automatically recover from "
+"certain types of crashes. Are you sure you want to continue?"
+msgstr "이렇게 하면 하드웨어 감시 타이머가 비활성화됩니다. 시스템이 특정 유형의 충돌에서 더 이상 자동으로 복구되지 않습니다. 계속 진행하시겠습니까?"
 # 
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
 #: NEEDS WORK
@@ -735,14 +1335,6 @@ msgstr "실행 취소: 되돌린 토글"
 msgid "Changing {} to {}"
 msgstr "{}를 {}로 변경 중"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
-#: NEEDS WORK
-msgid "Applying…"
-msgstr "적용 중…"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
 #, python-brace-format
 msgid "ERROR: Failed to change {} to {}"
@@ -752,81 +1344,6 @@ msgstr "오류: {}를 {}로 변경하지 못했습니다."
 #, python-brace-format
 msgid "Failed to change setting: {}"
 msgstr "설정을 변경하지 못했습니다: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "BigLinux Settings"
-msgstr "빅리눅스 설정"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
-#: NEEDS WORK
-msgid "BigLinux Community"
-msgstr "빅리눅스 커뮤니티"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
-msgid "Search..."
-msgstr "검색..."
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
-#: NEEDS WORK
-msgid "Search settings"
-msgstr "검색 설정"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
-#: NEEDS WORK
-msgid "Toggle navigation sidebar"
-msgstr "탐색 사이드바 전환"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
-#: NEEDS WORK
-msgid "About"
-msgstr "정보"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
-#: NEEDS WORK
-msgid "Main Menu"
-msgstr "메인 메뉴"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "시스템"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "사용성"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
-msgid "PreLoad"
-msgstr "프리로드"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
-msgid "Devices"
-msgstr "장치"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
-msgid "A.I."
-msgstr "인공지능"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
-msgid "Performance"
-msgstr "성능"
-# 
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
-#: NEEDS WORK
-msgid "Dismiss"
-msgstr "해제"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."
@@ -868,397 +1385,3 @@ msgstr "자동 마운트 파티션"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "부팅 시 내부 디스크의 파티션 자동 마운트."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "프리로드"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "애플리케이션을 메모리에 미리 로드하여 더 빠르게 열 수 있습니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "파이어폭스"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "브레이브"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "크롬"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "크로미움"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "리브레울프"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "팔레문"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "오페라"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "리브레오피스"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
-msgid "Manage physical devices."
-msgstr "물리적 장치 관리."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "와이파이"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable the Wi-Fi adapter."
-msgstr "Wi-Fi 어댑터 활성화."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "블루투스"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
-#: NEEDS WORK
-msgid "Enable the Bluetooth adapter."
-msgstr "블루투스 어댑터를 활성화합니다."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
-msgid "JamesDSP"
-msgstr "제임스DSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "사운드 품질을 향상시키는 고급 오디오 효과 프로세서."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
-msgid "Reverse mouse scrolling"
-msgstr "마우스 스크롤 반전"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "세션을 재시작하지 않고 마우스 스크롤 방향 반전."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
-#: NEEDS WORK
-msgid "Network Interfaces"
-msgstr "네트워크 인터페이스"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
-#: NEEDS WORK
-msgid "Connect or disconnect network devices."
-msgstr "네트워크 장치를 연결하거나 연결 해제합니다."
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
-#: NEEDS WORK
-#, python-brace-format
-msgid "{} — {}"
-msgstr "알림 — 알림"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
-#: NEEDS WORK
-#, python-brace-format
-msgid "{}: toggle connection"
-msgstr "{}: 연결 전환"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: NEEDS WORK
-msgid "connected"
-msgstr "연결됨"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: NEEDS WORK
-msgid "disconnected"
-msgstr "연결 끊김"
-# 
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
-#: NEEDS WORK
-#, python-brace-format
-msgid "Failed to change network device: {}"
-msgstr "네트워크 장치를 변경하지 못했습니다: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
-msgid "BigLinux performance tweaks."
-msgstr "BigLinux 성능 조정."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
-msgid "Disable Visual Effects"
-msgstr "비주얼 효과 비활성화"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
-msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
-msgstr "KWin 시각 효과(블러, 그림자, 애니메이션)를 비활성화합니다. GPU 부하를 줄이고 메모리를 해제합니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
-msgid "CPU Maximum Performance"
-msgstr "CPU 최대 성능"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
-msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
-msgstr "최대 프로세서 성능 모드를 강제합니다. 프로세서가 최대 주파수를 사용하도록 보장합니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
-msgid "Disable Baloo Indexer"
-msgstr "Baloo 인덱서 비활성화"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
-msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
-msgstr "Baloo 파일 인덱서를 비활성화합니다. 디스크 I/O 오버헤드를 피합니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
-msgid "Unload S.M.A.R.T Monitor"
-msgstr "S.M.A.R.T 모니터 언로드"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
-msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
-msgstr "S.M.A.R.T 디스크 모니터링을 비활성화합니다. 디스크 I/O 및 CPU 사용량을 줄입니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "멜트다운 완화 비활성화"
-# 
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
-#: NEEDS WORK
-msgid "Using mitigations=off will make your machine faster and less secure!"
-msgstr "완화 사용=끄기를 사용하면 컴퓨터가 더 빨라지지만 보안이 낮아집니다!"
-# 
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
-#: NEEDS WORK
-msgid ""
-"This will disable CPU security mitigations (Meltdown/Spectre). Your system will be faster but "
-"vulnerable to hardware-level attacks. Are you sure you want to continue?"
-msgstr "이렇게 하면 CPU 보안 완화(Meltdown/Spectre)가 비활성화됩니다. 시스템이 더 빨라지지만 하드웨어 수준의 공격에 취약해집니다. 계속 진행하시겠습니까?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "노워치독"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr "하드웨어 감시 타이머 및 TSC 클록 소스 시스템을 비활성화하여 높은 성능을 유지하지만 시스템 충돌에 대한 자동 보호 기능을 제거합니다."
-# 
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
-#: NEEDS WORK
-msgid ""
-"This will disable the hardware watchdog. Your system will no longer automatically recover from "
-"certain types of crashes. Are you sure you want to continue?"
-msgstr "이렇게 하면 하드웨어 감시 타이머가 비활성화됩니다. 시스템이 특정 유형의 충돌에서 더 이상 자동으로 복구되지 않습니다. 계속 진행하시겠습니까?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
-msgid "AI Interfaces"
-msgstr "AI 인터페이스"
-# 
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 16
-#: NEEDS WORK
-msgid "Graphical interface for artificial intelligence."
-msgstr "인공지능을 위한 그래픽 인터페이스."
-# 
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
-#: NEEDS WORK
-msgid "Ollama Server"
-msgstr "올라마 서버"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
-msgid "Choose which Ollama server is best for your hardware."
-msgstr "하드웨어에 가장 적합한 Ollama 서버를 선택하세요."
-# 
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-#: NEEDS WORK
-msgid "Ollama Variants"
-msgstr "올라마 변형"
-# 
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
-#: NEEDS WORK
-msgid "Select the variant that matches your GPU hardware."
-msgstr "GPU 하드웨어와 일치하는 변형을 선택하십시오."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
-msgid "ChatAI"
-msgstr "챗AI"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
-msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
-msgstr "KDE Plasma 데스크탑을 위한 Plasmoid와 같은 다양한 채팅."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
-msgid "Ollama LAB"
-msgstr "올라마 실험실"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
-msgid "Graphical interface for managing Ollama models and chat."
-msgstr "Ollama 모델 및 채팅 관리를 위한 그래픽 인터페이스."
-# 
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
-#: NEEDS WORK
-msgid "ChatBox"
-msgstr "채팅 상자"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
-msgid "User-friendly Desktop Client App for AI Models/LLMs."
-msgstr "AI 모델/LLM을 위한 사용자 친화적인 데스크톱 클라이언트 앱."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
-msgid "LM Studio"
-msgstr "LM 스튜디오"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
-msgid "LM Studio - A desktop app for exploring and running large language models locally."
-msgstr "LM 스튜디오 - 대규모 언어 모델을 로컬에서 탐색하고 실행하기 위한 데스크톱 앱."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
-msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "구글의 노트북 LM에 대한 오픈 소스, 개인 정보 보호 중심의 대안!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
-msgid "ComfyUI (GPU ONLY)"
-msgstr "ComfyUI (GPU 전용)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
-msgid "The most powerful and modular visual AI engine and application."
-msgstr "가장 강력하고 모듈화된 비주얼 AI 엔진 및 애플리케이션."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
-msgid "ComfyUI Server"
-msgstr "컴피UI 서버"
-# 
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
-#: NEEDS WORK
-msgid "Start the ComfyUI server."
-msgstr "ComfyUI 서버를 시작합니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
-#, python-brace-format
-msgid ""
-"ComfyUI server is running.\n"
-"Address: http://localhost:8188\n"
-"and\n"
-"Address: http://{}:8188"
-msgstr ""
-"ComfyUI 서버가 실행 중입니다.\n"
-"주소: http://localhost:8188\n"
-"및\n"
-"주소: http://{}:8188"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 55
-msgid "OllamaCPU"
-msgstr "OllamaCPU"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
-msgid "Local AI server. For CPUs only."
-msgstr "로컬 AI 서버. CPU 전용."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 113
-msgid ""
-"Ollama server is running.\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Ollama 서버가 실행 중입니다.  \n"
-"주소: http://localhost:11434"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 81
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 99
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 117
-msgid "Share Ollama"
-msgstr "올라마 공유"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 64
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 82
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 118
-msgid "Share ollama on the local network."
-msgstr "로컬 네트워크에서 ollama 공유."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 68
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 86
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 104
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 122
-#, python-brace-format
-msgid ""
-"Ollama server is running.\n"
-"Address: http://{}:11434"
-msgstr ""
-"Ollama 서버가 실행 중입니다.  \n"
-"주소: http://{}:11434"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 73
-msgid "Ollama Vulkan"
-msgstr "올라마 벌칸"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 75
-msgid "Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."
-msgstr "로컬 AI 서버. CPU용, AMD/Nvidia 및 통합 GPU."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 109
-msgid "Ollama Nvidia CUDA"
-msgstr "올라마 엔비디아 CUDA"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 110
-msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
-msgstr "로컬 AI 서버. 2000 시리즈부터 시작하는 최신 Nvidia GPU용."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 91
-msgid "Ollama AMD ROCm"
-msgstr "Ollama AMD ROCm"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 111
-msgid ""
-"Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
-"Consider using Vulkan, in many tests, Vulkan performed better than ROCm."
-msgstr "로컬 AI 서버. 6000 시리즈부터 최신 AMD GPU에 대해 지원합니다. 많은 테스트에서 Vulkan이 ROCm보다 더 나은 성능을 보였습니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "사용자 및 시각 시스템 설정."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "넘록"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "초기 NumLock 상태. 자동 로그인 활성화 시 무시됩니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "왼쪽에 있는 창 버튼"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "창의 왼쪽에 있는 최대화, 최소화 및 닫기 버튼."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "K존"
-# 
-# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
-#: NEEDS WORK
-msgid "Enable window tiling zones for the KDE Plasma desktop."
-msgstr "KDE Plasma 데스크탑의 창 타일링 영역 활성화."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "최근 파일 및 위치"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
-msgstr "Dolphin 및 애플리케이션 메뉴에서 비어 있는 '최근 파일' 및 '최근 위치' 기능을 복원합니다."

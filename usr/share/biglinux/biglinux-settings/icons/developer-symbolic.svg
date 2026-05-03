@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+  <defs>
+    <style type="text/css">.ColorScheme-Text { color: #fcfcfc; }</style>
+  </defs>
+  <path style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-Text"
+    d="M 8.207 6.293 L 3.5 11 L 8.207 15.707 L 9.621 14.293 L 6.328 11 L 9.621 7.707 L 8.207 6.293 z M 13.793 6.293 L 12.379 7.707 L 15.672 11 L 12.379 14.293 L 13.793 15.707 L 18.5 11 L 13.793 6.293 z"/>
+</svg>
