@@ -41,6 +41,15 @@ class SystemPage(BaseSettingsPage):
             recommended=True,
         )
 
+        # plymouthBootMessages
+        self.create_row(
+            group,
+            _("Boot messages"),
+            _("Show system messages below the boot animation."),
+            "plymouthBootMessages",
+            "system-symbolic",
+        )
+
         # bigMount
         self.create_row(
             group,
