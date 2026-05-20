@@ -15,180 +15,137 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:28
 msgid "comfyUI Depends Install"
 msgstr "comfyUI Ferðir Uppsetning"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:29
 msgid "Installing comfyUI Depends, please wait..."
 msgstr "Installing comfyUI ferðir, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:47
 msgid "comfyUI Depends installed successfully!"
 msgstr "comfyUI háðingar uppsett með góðum árangri!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:50
 msgid "Failed to install comfyUI Depends!"
 msgstr "Ekki tókst að setja upp comfyUI. Háð!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmd.sh:8
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpu.sh:8
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidia.sh:8
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkan.sh:8
 msgid "Ollama server is running.\\nAddress: http://localhost:11434"
 msgstr "Ollama þjónninn er í gangi.\\nHeimilisfang: http://localhost:11434"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:28
 msgid "ChatBox Install"
 msgstr "ChatBox Uppsetning"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:29
 msgid "Installing ChatBox, please wait..."
 msgstr "Installing ChatBox, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:31
 msgid "ChatBox Uninstall"
 msgstr "Fjarlægja ChatBox"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:32
 msgid "Uninstalling ChatBox, please wait..."
 msgstr "Að afinstallera ChatBox, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:52
 msgid "ChatBox installed successfully!"
 msgstr "ChatBox var sett upp með góðum árangri!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:55
 msgid "Failed to install ChatBox!"
 msgstr "Ekki tókst að setja upp ChatBox!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:28
 msgid "Ollama Lab Install"
 msgstr "Ollama Lab Uppsetning"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:29
 msgid "Installing Ollama Lab, please wait..."
 msgstr "Installing Ollama Lab, vinsamlegið bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:31
 msgid "Ollama Lab Uninstall"
 msgstr "Ollama Lab Eyða út"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:32
 msgid "Uninstalling Ollama Lab, please wait..."
 msgstr "Að afinstallera Ollama Lab, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:52
 msgid "Ollama Lab installed successfully!"
 msgstr "Ollama Lab var sett upp með góðum árangri!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:55
 msgid "Failed to install Ollama Lab!"
 msgstr "Ekki tókst að setja upp Ollama Lab!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:28
 msgid "LM Studio Install"
 msgstr "LM Studio Uppsetning"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:29
 msgid "Installing LM Studio, please wait..."
 msgstr "Installing LM Studio, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:31
 msgid "LM Studio Uninstall"
 msgstr "LM Studio Eyða"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:32
 msgid "Uninstalling LM Studio, please wait..."
 msgstr "Að afinstallera LM Studio, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:52
 msgid "LM Studio installed successfully!"
 msgstr "LM Studio var sett upp með góðum árangri!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:55
 msgid "Failed to install LM Studio!"
 msgstr "Ekki tókst að setja upp LM Studio!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:28
 msgid "Ollama Install"
 msgstr "Ollama Uppsetning"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:29
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:29
 msgid "Installing Ollama, please wait..."
 msgstr "Installing Ollama, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:31
 msgid "Ollama Uninstall"
 msgstr "Ollama Eyða"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:32
 msgid "Uninstalling Ollama, please wait..."
 msgstr "Aftengreining Ollama, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:54
 msgid "Ollama installed successfully!"
 msgstr "Ollama var sett upp með góðum árangri!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:57
 msgid "Failed to install Ollama!"
 msgstr "Ekki tókst að setja Ollama upp!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:12
 msgid "comfyUI Install...."
 msgstr "comfyUI Uppsetning...."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:13
 msgid "Installing comfyUI, this step takes a long time, please wait..."
 msgstr ""
 "Að setja upp comfyUI, þetta skref tekur langan tíma, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:15
 msgid "Uninstall comfyUI...."
 msgstr "Fjarlægja comfyUI...."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:16
 msgid "Uninstalling comfyUI, please wait..."
 msgstr "Að afinstallera comfyUI, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:78
 msgid "comfyUI installed successfully"
 msgstr "comfyUI var sett upp með góðum árangri"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:81
 msgid "comfyUI uninstalled successfully"
 msgstr "comfyUI var afinstallert með góðum árangri"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:84
 msgid "Failed to install comfyUI!"
 msgstr "Ekki tókst að setja upp comfyUI!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:28
 msgid "Ollama CUDA Install"
 msgstr "Ollama CUDA Uppsetning"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:29
 msgid "Installing Ollama CUDA, please wait..."
 msgstr "Installing Ollama CUDA, vinsamlegð..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:31
 msgid "Ollama CUDA Uninstall"
 msgstr "Ollama CUDA Eyða út"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:32
 msgid "Uninstalling Ollama CUDA, please wait..."
 msgstr "Að afinstallera Ollama CUDA, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:54
 msgid "Ollama CUDA installed successfully!"
 msgstr "Ollama CUDA var uppsett með góðum árangri!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:57
 msgid "Failed to install Ollama CUDA!"
 msgstr "Ekki tókst að setja upp Ollama CUDA!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita.sh:31
 msgid ""
 "Generative AI for Krita has been successfully installed.\\n\\nOpen Krita, "
@@ -202,88 +159,67 @@ msgstr ""
 " í Stillingar > Panelar > merkja AI Myndagerð reitinn.\\n\\nÍ glugganum sem "
 "opnast neðst til hægri.\\nSmelltu á Stilltu > Stýrður staðbundinn þjónn, "
 "veldu GPU eða CPU, veldu líkanið í Vinnslum og smelltu á Setja upp."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUI.sh:21
 msgid "AMD/Nvidia GPU not found!"
 msgstr "AMD/Nvidia GPU fannst ekki!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:28
 msgid "Krita Install"
 msgstr "Krita Uppsetning"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:29
 msgid "Installing Krita, please wait..."
 msgstr "Installing Krita, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:31
 msgid "Krita Uninstall"
 msgstr "Krita afinstallera"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:32
 msgid "Uninstalling Krita, please wait..."
 msgstr "Að afinstallera Krita, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:50
 msgid "Krita installed successfully!"
 msgstr "Krita var sett upp með góðum árangri!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:53
 msgid "Failed to install Krita!"
 msgstr "Ekki tókst að setja upp Krita!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:28
 msgid "Ollama Vulkan Install"
 msgstr "Ollama Vulkan Uppsetning"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:31
 msgid "Ollama Vulkan Uninstall"
 msgstr "Ollama Vulkan Afinstallera"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:32
 msgid "Uninstalling Ollama Vulkan, please wait..."
 msgstr "Að afinstallera Ollama Vulkan, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:54
 msgid "Ollama Vulkan installed successfully!"
 msgstr "Ollama Vulkan var settur upp með árangri!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:57
 msgid "Failed to install Ollama Vulkan!"
 msgstr "Ekki tókst að setja upp Ollama Vulkan!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:48
 #, sh-format
 msgid "Ollama shared successfully.\\nAddress: http://$localIp:11434"
 msgstr "Ollama deilt velgengilega.\\nHeimilisfang: http://$localIp:11434"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:51
 msgid "Failed to configure Ollama sharing!"
 msgstr "Mistók að stilla deilingu Ollama!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:28
 msgid "Ollama ROCm Install"
 msgstr "Ollama ROCm Uppsetning"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:29
 msgid "Installing Ollama ROCm, please wait..."
 msgstr "Installing Ollama ROCm, vinsamlegð..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:31
 msgid "Ollama ROCm Uninstall"
 msgstr "Ollama ROCm Eyða út"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:32
 msgid "Uninstalling Ollama ROCm, please wait..."
 msgstr "Að afinstallera Ollama ROCm, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:54
 msgid "Ollama ROCm installed successfully!"
 msgstr "Ollama ROCm var sett upp með góðum árangri!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:57
 msgid "Failed to install Ollama ROCm!"
 msgstr "Mistók að setja upp Ollama ROCm!"
-
 #. 2. Starts Zenity IN THE BACKGROUND, as the user, with the full environment
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:28
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:28
@@ -292,11 +228,9 @@ msgstr "Mistók að setja upp Ollama ROCm!"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/windowButtonOnLeftSide.sh:72
 msgid "Applying, please wait..."
 msgstr "Beiðni í gangi, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:43
 msgid "GRUB updated successfully!"
 msgstr "GRUB uppfært með góðum árangri!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:36
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:87
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:36
@@ -304,61 +238,48 @@ msgstr "GRUB uppfært með góðum árangri!"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:46
 msgid "An error occurred while updating GRUB."
 msgstr "Við uppfærslu á GRUB kom upp villa."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:47
 msgid "Limits updated successfully!"
 msgstr "Takmarka uppfærð með góðum árangri!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:50
 msgid "An error occurred while updating Limits."
 msgstr "Villa kom uppsökt við að uppfæra takmarkanir."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleRun.sh:28
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:28
 msgid "Example Install"
 msgstr "Dæmi Uppsetning"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleRun.sh:29
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:29
 msgid "Instaling Example, Please wait..."
 msgstr "Þú ert að setja upp dæmi, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleRun.sh:31
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:31
 msgid "Example Uninstall"
 msgstr "Dæmi af afinstallering"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleRun.sh:32
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:32
 msgid "Uninstaling Example, Please wait..."
 msgstr "Afturhentun Dæmi, Vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleRun.sh:54
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:54
 msgid "Example installed successfully!"
 msgstr "Dæmi var sett upp með góðum árangri!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleRun.sh:57
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:57
 msgid "Failed to install Example!"
 msgstr "Ekki tókst að setja upp Dæmi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdspRun.sh:28
 msgid "JamesDSP Install"
 msgstr "JamesDSP Uppsetning"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdspRun.sh:29
 msgid "Installing JamesDSP, please wait..."
 msgstr "Installing JamesDSP, vinsamlegð..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdspRun.sh:47
 msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP var sett upp með góðum árangri!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdspRun.sh:50
 msgid "Failed to install jamesDSP!"
 msgstr "Ekki tókst að setja upp jamesDSP!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:33
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:84
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:33
@@ -368,66 +289,52 @@ msgid ""
 msgstr ""
 "GRUB uppfært með góðum árangri!\\nEndurræstu tölvuna þína til að það taki "
 "gildi."
-
 #. Already enabled, nothing to do. Inform zenity and exit the function
 #. gracefully.
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:46
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:46
 msgid "Already enabled. No changes made."
 msgstr "Nú þegar virkt. Engar breytingar gerðar."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:28
 msgid "Docker Install"
 msgstr "Docker Uppsetning"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:29
 msgid "Installing Docker, please wait..."
 msgstr "Installing Docker, vinsamlegð..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:31
 msgid "Docker Start"
 msgstr "Docker Byrjaðu"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:32
 msgid "Docker Starting, please wait..."
 msgstr "Docker er að byrja, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:34
 msgid "Docker Stop"
 msgstr "Docker Stöðva"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:35
 msgid "Docker Stopping, please wait..."
 msgstr "Docker er að stöðva, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:60
 msgid "Docker installed successfully!"
 msgstr "Docker var sett upp með góðum árangri!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:63
 msgid "An error occurred while installing Docker."
 msgstr "Villa kom upp við uppsetningu Docker."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:31
 #, sh-format
 msgid "Installing $package"
 msgstr "Installing $package"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:32
 #, sh-format
 msgid "Installing $package, please wait..."
 msgstr "Installing $package, vinsamleg að bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:34
 #, sh-format
 msgid "Removing $package"
 msgstr "Að fjarlægja $package"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:35
 #, sh-format
 msgid "Removing $package, please wait..."
 msgstr "Fjarlægir $package, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:61
 #, sh-format
 msgid ""
@@ -436,45 +343,35 @@ msgid ""
 msgstr ""
 "$title varinnstallerast með góðum árangri!\\n\\nStillt á porti $port, til að"
 " aðgangs nota $url"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:68
 #, sh-format
 msgid "$package removed successfully!"
 msgstr "Pakkinn var fjarlægður með góðum árangri!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:72
 #, sh-format
 msgid "An error occurred with $package."
 msgstr "Villa kom upp með $package."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:28
 msgid "kzones Install"
 msgstr "kzones Uppsetning"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:29
 msgid "Installing Kzones, please wait..."
 msgstr "Installing Kzones, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:47
 msgid "Kzones installed successfully!"
 msgstr "Kzones var sett upp með góðum árangri!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:28
 msgid "Recent Files enabling...."
 msgstr "Nýleg skjöl að virkja...."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:29
 msgid "Recent Files enabling, please wait..."
 msgstr "Síðustu skrár virkjaðar, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:31
 msgid "Recent Files disabling...."
 msgstr "Að loka nýjustu skrám...."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:32
 msgid "Recent Files disabling, please wait..."
 msgstr "Nýleg skjöl er verið að slökkva á, vinsamlegast bíða..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:136
 msgid ""
 "Recent Files successfully enabled!\\nYou need to close and reopen Dolphin "
@@ -482,7 +379,6 @@ msgid ""
 msgstr ""
 "Skráðar skrár hafa verið virkjaðar með góðum árangri!\\nÞú þarft að loka og "
 "opna Dolphin aftur til að breytingin taki gildi."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:139
 msgid ""
 "Recent Files successfully disable!\\nYou need to close and reopen Dolphin "
@@ -490,11 +386,9 @@ msgid ""
 msgstr ""
 "Nýjustu skrár hafa verið óvirkjaðar með góðum árangri!\\nÞú þarft að loka og"
 " opna Dolphin aftur til að breytingin taki gildi."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:142
 msgid "Failed to activate Recent Files!"
 msgstr "Ekki tókst að virkja Nýleg skjöl!"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 49
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
@@ -505,42 +399,35 @@ msgstr "Ekki tókst að virkja Nýleg skjöl!"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:144
 msgid "BigLinux Settings"
 msgstr "BigLinux Stillingar"
-
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 49
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:51
 msgid "BigLinux Community"
 msgstr "BigLinux Samfélagið"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 144
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:181
 msgid "Search..."
 msgstr "Leita..."
-
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 185
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:187
 msgid "Search settings"
 msgstr "Leitarstillingar"
-
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 192
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 195
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:194
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:197
 msgid "Toggle navigation sidebar"
 msgstr "Virkja hliðarvalmynd"
-
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 202
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:204
 msgid "About"
 msgstr "Um umfjöllun"
-
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 206
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 209
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:208
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:211
 msgid "Main Menu"
 msgstr "Aðalvalmynd"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 108
 #. # GROUP: System ##
@@ -548,7 +435,6 @@ msgstr "Aðalvalmynd"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:261
 msgid "System"
 msgstr "Kerfi"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/devices/jamesdsp_dialog.py, line: 208
 # 
@@ -573,7 +459,6 @@ msgstr "Kerfi"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:267
 msgid "Usability"
 msgstr "Notkunarhæfi"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 158
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
@@ -581,7 +466,6 @@ msgstr "Notkunarhæfi"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:273
 msgid "PreLoad"
 msgstr "PreLoad"
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -592,13 +476,11 @@ msgstr "PreLoad"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:279
 msgid "Devices"
 msgstr "Tæki"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 161
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:285
 msgid "A.I."
 msgstr "Gervi."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 204
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:15
@@ -606,7 +488,6 @@ msgstr "Gervi."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:291
 msgid "Docker"
 msgstr "Docker"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/performance_games_page.py, line: 181
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -628,32 +509,26 @@ msgstr "Docker"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:303
 msgid "Performance"
 msgstr "Frammistað."
-
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 302
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:309
 msgid "Suspend"
 msgstr "Hvíla"
-
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 469
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:483
 msgid "Dismiss"
 msgstr "Hætta við"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:75
 msgid "Sleep Mode"
 msgstr "Svefnstilling"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:76
 msgid "Configure how the system suspends."
 msgstr "Stillir hvernig kerfið hvílir."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:83
 msgid "Use s2idle (light sleep)"
 msgstr "Notaðu s2idle (létt svefn)"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:85
 msgid ""
@@ -662,7 +537,6 @@ msgid ""
 msgstr ""
 "Notar léttari svefnstilling sem varðveitir Fn takka og tækjustöðu. Mælt með "
 "ASUS fartölvum."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:91
 msgid ""
@@ -673,22 +547,18 @@ msgstr ""
 "S3 djúpur svefn getur valdið því að innbyggði stjórnandinn hætti að búa til "
 "heitlyklaskipti. s2idle heldur EC virkum, forðast þetta vandamál með litlu "
 "kostnaði í rafhlöðuframleiðslu."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:100
 msgid "WiFi"
 msgstr "WiFi"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:101
 msgid "Prevent WiFi issues after suspend."
 msgstr "Forðast WiFi vandamál eftir að hvíld er lokið."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:108
 msgid "Protect WiFi on suspend"
 msgstr "Vernda WiFi í hvíldartímabili"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:110
 msgid ""
@@ -697,7 +567,6 @@ msgid ""
 msgstr ""
 "Hindrar Realtek WiFi örgjörvuna frá því að slökkva alveg á sér (d3cold), "
 "forðast tengingarleysi eftir að endurræsa."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:116
 msgid ""
@@ -707,22 +576,18 @@ msgstr ""
 "Sumir Realtek RTL8852BE/CE örgjörvar mistakast við að endurstillast eftir "
 "d3cold rafmagns lokun. Þetta heldur örgjörvanum í d3hot (PCIe tenging "
 "lifandi) meðan á hvíld stendur."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:124
 msgid "Display and Keyboard"
 msgstr "Sýning og Tölvutakki"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:125
 msgid "Preserve brightness and LED state across suspend."
 msgstr "Vernda birtu og LED ástand yfir hvíld."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:132
 msgid "Save/restore brightness on suspend"
 msgstr "Vista/endurðu birtu við hvíld"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:134
 msgid ""
@@ -731,22 +596,18 @@ msgid ""
 msgstr ""
 "Sparar skjábirta og lyklaborðs LED-ljós áður en kerfið fer í dvala og "
 "endurheimtir þau við endurvakningu."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:144
 msgid "GNOME Shell Extensions"
 msgstr "GNOME Shell viðbætur"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:145
 msgid "Automatic health check after resume."
 msgstr "Sjálfvirk heilsuathugun eftir endurupptöku."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:152
 msgid "Extension health monitor"
 msgstr "Viðbótarheilbrigðisvöktun"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:154
 msgid ""
@@ -755,22 +616,18 @@ msgid ""
 msgstr ""
 "Greinir GNOME Shell viðbætur í villuástandi eftir að hvíld er lokið og "
 "endurræsir þær sjálfkrafa."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:163
 msgid "Lid Switch"
 msgstr "Loka rofi"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:164
 msgid "Laptop lid close behavior."
 msgstr "Loka hlið lokunar hegðun."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:171
 msgid "Suspend on lid close (AC power)"
 msgstr "Hvíla við lokun lokans (AC rafmagn)"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:173
 msgid ""
@@ -779,55 +636,46 @@ msgid ""
 msgstr ""
 "Sumir kerfi setja ekki í hvíld þegar rafmagn er tengt. Þetta neyðir kerfið í"
 " hvíld þegar lokið er lokað."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 14
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:12
 msgid "User and Visual system settings."
 msgstr "Notandi og sjónkerfisstillingar."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 114
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:19
 msgid "NumLock"
 msgstr "Tölvulásar"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 115
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:20
 msgid "Initial NumLock state. Ignored if autologin is enabled."
 msgstr ""
 "Upprunalegt NumLock ástand. Hunsað ef sjálfvirk innskráning er virkjuð."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 131
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:28
 msgid "Window Button On Left Side"
 msgstr "Gluggi hnappur vinstra megin"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 132
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:29
 msgid "Maximize, minimize, and close buttons on the left side of the window."
 msgstr "Maksimera, lágmarka og loka hnappana vinstra megin í glugganum."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 72
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:37
 msgid "KZones"
 msgstr "KZones"
-
 # File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:39
 msgid "Enable window tiling zones for the KDE Plasma desktop."
 msgstr "Virkja gluggaskipulagssvæði fyrir KDE Plasma skrifborðið."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 169
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:48
 msgid "Recent Files & Locations"
 msgstr "Nýleg skjöl og staðsetningar"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 170
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:50
@@ -837,36 +685,30 @@ msgid ""
 msgstr ""
 "Endurðar virkni 'Nýleg skjöl' og 'Nýleg staðsetningar' sem virðist tóm í "
 "Dolphin og forritaskránni."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/devices_page.py, line: 15
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:34
 msgid "Manage physical devices."
 msgstr "Stjórna líkamlegum tækjum."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 190
 #. Wifi
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
 msgid "Wifi"
 msgstr "Wifi"
-
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
 msgid "Enable the Wi-Fi adapter."
 msgstr "Virkja Wi-Fi aðlaga."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 197
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
 msgid "Bluetooth"
 msgstr "Bluetooth"
-
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
 msgid "Enable the Bluetooth adapter."
 msgstr "Virkja Bluetooth aðlaga."
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -876,35 +718,29 @@ msgstr "Virkja Bluetooth aðlaga."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:49
 msgid "JamesDSP"
 msgstr "JamesDSP"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/dispositivos_page.py, line: 84
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:50
 msgid "Advanced audio effects processor that improves sound quality."
 msgstr "Vanda hljóðáhrifavinnsla sem bætir hljóðgæði."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/devices_page.py, line: 71
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:58
 msgid "Reverse mouse scrolling"
 msgstr "Aftursnúning músar skrollunar"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/devices_page.py, line: 72
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:59
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Afturhenda músaskrollun án þess að endurræsa sessjónina."
-
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:66
 msgid "Network Interfaces"
 msgstr "Netkerfisviðmót"
-
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:67
 msgid "Connect or disconnect network devices."
 msgstr "Tengdu eða losaðu nettæki."
-
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:99
@@ -914,13 +750,11 @@ msgid "{} — {}"
 msgstr ""
 "I'm ready to assist with your translation. Please provide the string you "
 "would like to translate. {} {}"
-
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:113
 #, python-brace-format
 msgid "{}: toggle connection"
 msgstr "{}: kveikja tengingu"
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
@@ -930,156 +764,129 @@ msgstr "{}: kveikja tengingu"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:751
 msgid "Applying…"
 msgstr "Beinað…"
-
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
 msgid "connected"
 msgstr "tengdur"
-
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
 msgid "disconnected"
 msgstr "frá tengingu"
-
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:161
 #, python-brace-format
 msgid "Failed to change network device: {}"
 msgstr "Mistók að breyta nettæki: {}"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 103
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:10
 msgid "Preload"
 msgstr "Forskráning"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 105
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:11
 msgid "Preload applications into memory to open them faster."
 msgstr "Hlaða forritum í minni til að opna þau hraðar."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 120
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:18
 msgid "Firefox"
 msgstr "Firefox"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 126
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:19
 msgid "Brave"
 msgstr "Hugrakkur"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 132
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:20
 msgid "Chrome"
 msgstr "Krom"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 138
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:21
 msgid "Chromium"
 msgstr "Krómium"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 126
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:22
 msgid "Librewolf"
 msgstr "Librewolf"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 144
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:23
 msgid "Palemoon"
 msgstr "Palemoon"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 150
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:24
 msgid "Opera"
 msgstr "Ópera"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 156
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:25
 msgid "Libreoffice"
 msgstr "LibreOffice"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 30
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:15
 msgid "AI Interfaces"
 msgstr "AI viðmót"
-
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 16
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:16
 msgid "Graphical interface for artificial intelligence."
 msgstr "Grafískur viðmót fyrir gervigreind."
-
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:23
 msgid "Ollama Server"
 msgstr "Ollama Server"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 23
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:24
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Veldu hvaða Ollama þjónn hentar best fyrir vélbúnaðinn þinn."
-
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:43
 msgid "Ollama Variants"
 msgstr "Ollama Breytur"
-
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:44
 msgid "Select the variant that matches your GPU hardware."
 msgstr "Veldu þá útgáfu sem passar við GPU vélbúnaðinn þinn."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 46
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:51
 msgid "ChatAI"
 msgstr "ChatAI"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 47
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:52
 msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
 msgstr "Margarí af spjallum eins og Plasmoid fyrir KDE Plasma skrifborðið."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 127
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:59
 msgid "Ollama LAB"
 msgstr "Ollama LAB"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 128
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:60
 msgid "Graphical interface for managing Ollama models and chat."
 msgstr "Grafísk viðmót fyrir að stjórna Ollama líkanum og spjalli."
-
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:67
 msgid "ChatBox"
 msgstr "SamskiptiRúlla"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 136
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:68
 msgid "User-friendly Desktop Client App for AI Models/LLMs."
 msgstr "Notendavennileg skrifborðsforrit fyrir gervigreindarlíkan/LLM."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 143
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:75
 msgid "LM Studio"
 msgstr "LM Stúdíó"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 144
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:77
@@ -1089,7 +896,6 @@ msgid ""
 msgstr ""
 "LM Studio - Forrit á skrifborðinu til að kanna og keyra stór tungumálalíkön "
 "á staðnum."
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
@@ -1099,30 +905,25 @@ msgstr ""
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:194
 msgid "Open Notebook"
 msgstr "Opna skjaldið"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 87
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:107
 msgid "ComfyUI (GPU ONLY)"
 msgstr "ComfyUI (BARA GPU)"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 88
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:108
 msgid "The most powerful and modular visual AI engine and application."
 msgstr "Mesta öfluga og modulísa sjónræna AI vélin og forritið."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 94
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:116
 msgid "ComfyUI Server"
 msgstr "ComfyUI Server"
-
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:117
 msgid "Start the ComfyUI server."
 msgstr "Byrjaðu ComfyUI þjóninn."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 100
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:122
@@ -1137,19 +938,16 @@ msgstr ""
 "Heimilisfang: http://localhost:8188  \n"
 "og  \n"
 "Heimilisfang: http://{}:8188"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 55
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:128
 msgid "OllamaCPU"
 msgstr "OllamaCPU"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 56
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:129
 msgid "Local AI server. For CPUs only."
 msgstr "Staðbundin AI þjónusta. Aðeins fyrir CPU."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 59
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
@@ -1168,7 +966,6 @@ msgid ""
 msgstr ""
 "Ollama þjónn er í gangi.  \n"
 "Heimilisfang: http://localhost:11434"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 63
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
@@ -1183,7 +980,6 @@ msgstr ""
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:198
 msgid "Share Ollama"
 msgstr "Deildu Ollama"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 64
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
@@ -1198,7 +994,6 @@ msgstr "Deildu Ollama"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:199
 msgid "Share ollama on the local network."
 msgstr "Deildu ollama á staðarnetinu."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 68
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
@@ -1218,38 +1013,32 @@ msgid ""
 msgstr ""
 "Ollama þjónninn er í gangi.  \n"
 "Heimilisfang: http://{}:11434"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 73
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:148
 msgid "Ollama Vulkan"
 msgstr "Ollama Vulkan"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 75
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:149
 msgid "Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."
 msgstr "Staðbundin AI þjónusta. Fyrir CPU, AMD/Nvidia og samþætt GPU."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 109
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:168
 msgid "Ollama Nvidia CUDA"
 msgstr "Ollama Nvidia CUDA"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 110
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:169
 msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
 msgstr ""
 "Staðbundin AI þjónusta. Fyrir nýrri Nvidia GPU, byrjað frá 2000 seríu."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 91
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:188
 msgid "Ollama AMD ROCm"
 msgstr "Ollama AMD ROCm"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 111
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:190
@@ -1259,12 +1048,10 @@ msgid ""
 msgstr ""
 "Staðbundin AI þjónusta. Fyrir nýrri AMD GPU, frá 6000 seríu. Íhugaðu að nota"
 " Vulkan, í mörgum prófunum kom Vulkan betur út en ROCm."
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:16
 msgid "Container service — enable to use containers below."
 msgstr "Gámaþjónusta — leyfa að nota gáma hér að neðan."
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
@@ -1274,66 +1061,54 @@ msgstr "Gámaþjónusta — leyfa að nota gáma hér að neðan."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:23
 msgid "Containers"
 msgstr "Geymslur"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 23
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:23
 msgid "Manage container technologies."
 msgstr "Stjórna gáma tækni."
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 30
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:30
 msgid "Media &amp; Cloud"
 msgstr "Miðlar &amp; Ský"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 31
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:31
 msgid "Media servers and cloud storage containers."
 msgstr "Miðlarar og skýgeymslu ílát."
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 36
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:36
 msgid "Network &amp; Security"
 msgstr "Net og öryggi"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 37
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:37
 msgid "Network tools and security containers."
 msgstr "Netnaðarverkfæri og öryggiskerfi."
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 42
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:42
 msgid "Development &amp; Tools"
 msgstr "Þróun & Tól"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 43
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:43
 msgid "Development stacks and utility containers."
 msgstr "Þróunarstakkar og gagnlegir ílát."
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:52
 msgid "Enable Docker container engine."
 msgstr "Virkja Docker ílátavél."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/containers_page.py, line: 35
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:61
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:68
 msgid "Nextcloud Plus"
 msgstr "Nextcloud Plus"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 62
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:62
 msgid "Install Nextcloud Plus cloud storage container."
 msgstr "Settu upp Nextcloud Plus skýjageymslu ílát."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 52
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:69
 msgid "Run Nextcloud Plus."
 msgstr "Keyrðu Nextcloud Plus."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 48
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:74
@@ -1348,25 +1123,21 @@ msgstr ""
 "Heimilisfang: http://localhost:8286  \n"
 "og  \n"
 "Heimilisfang: http://{}:8286"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/containers_page.py, line: 44
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:80
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:87
 msgid "AdGuard"
 msgstr "AdGuard"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 81
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:81
 msgid "Install AdGuard Home DNS ad-blocker container."
 msgstr "Settu upp AdGuard Home DNS auglýsinga-blokkar gáma."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 71
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:88
 msgid "Run AdGuard."
 msgstr "Keyrðu AdGuard."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 57
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:93
@@ -1381,25 +1152,21 @@ msgstr ""
 "Heimilisfang: http://localhost:3030  \n"
 "og  \n"
 "Heimilisfang: http://{}:3030"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/containers_page.py, line: 71
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:99
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:106
 msgid "Jellyfin"
 msgstr "Jellyfin"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 100
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:100
 msgid "Install Jellyfin media server container."
 msgstr "Settu upp Jellyfin fjölmiðlaserver ílát."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 90
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:107
 msgid "Run Jellyfin."
 msgstr "Keyrðu Jellyfin."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 75
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:112
@@ -1414,25 +1181,21 @@ msgstr ""
 "Heimilisfang: http://localhost:8096  \n"
 "og  \n"
 "Heimilisfang: http://{}:8096"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/containers_page.py, line: 80
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:118
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:125
 msgid "LAMP"
 msgstr "LAMP"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 119
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:119
 msgid "Install LAMP stack container (Linux, Apache, MySQL, PHP)."
 msgstr "Setja upp LAMP stack í gámi (Linux, Apache, MySQL, PHP)."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 109
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:126
 msgid "Run LAMP."
 msgstr "Keyra LAMP."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 84
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:131
@@ -1447,25 +1210,21 @@ msgstr ""
 "Heimilisfang: http://localhost:8080  \n"
 "og  \n"
 "Heimilisfang: http://{}:8080"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/containers_page.py, line: 89
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:137
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:144
 msgid "Portainer Client"
 msgstr "Portainer viðskiptavinur"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 138
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:138
 msgid "Install Portainer Agent container for cluster management."
 msgstr "Settu upp Portainer Agent gáma fyrir klasa stjórnun."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 128
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:145
 msgid "Run Portainer Client."
 msgstr "Keyrðu Portainer viðskiptavin."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 93
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:150
@@ -1480,25 +1239,21 @@ msgstr ""
 "Heimilisfang: http://localhost:9000  \n"
 "og  \n"
 "Heimilisfang: http://{}:9000"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/containers_page.py, line: 98
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:156
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:163
 msgid "SWS"
 msgstr "SWS"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 157
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:157
 msgid "Install SWS static web server container."
 msgstr "Settu SWS statíska vefþjónustukerfi í gámi."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 147
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:164
 msgid "Run SWS."
 msgstr "Keyra SWS."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 102
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:169
@@ -1513,25 +1268,21 @@ msgstr ""
 "Heimilisfang: http://localhost:8182\n"
 "og\n"
 "Heimilisfang: http://{}:8182"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/containers_page.py, line: 107
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:175
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:182
 msgid "V2RayA"
 msgstr "V2RayA"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 176
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:176
 msgid "Install V2RayA network proxy container."
 msgstr "Settu V2RayA netkerfi skugga ílát."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 166
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:183
 msgid "Run V2RayA."
 msgstr "Keyrðu V2RayA."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 111
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:188
@@ -1546,7 +1297,6 @@ msgstr ""
 "Heimilisfang: http://localhost:2017\n"
 "og\n"
 "Heimilisfang: http://{}:2017"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 190
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:100
@@ -1562,19 +1312,16 @@ msgstr ""
 "Heimilisfang: http://localhost:8502  \n"
 "og  \n"
 "Heimilisfang: http://{}:8502"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/performance_games_page.py, line: 16
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:15
 msgid "BigLinux performance tweaks."
 msgstr "BigLinux frammistöðubreytingar."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/usability/gamemode_config_dialog.py, line: 91
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:22
 msgid "Disable Visual Effects"
 msgstr "Aftengja sjónræna áhrif"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/performance_games_page.py, line: 35
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:24
@@ -1584,13 +1331,11 @@ msgid ""
 msgstr ""
 "Veldur KWin sjónræn áhrif (óskýr, skuggar, hreyfingar). Minnkar GPU álag og "
 "losar minni."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/performance_games_page.py, line: 63
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:32
 msgid "CPU Maximum Performance"
 msgstr "CPU hámarksframmistaða"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/performance_games_page.py, line: 51
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:34
@@ -1599,42 +1344,35 @@ msgid ""
 "maximum frequency."
 msgstr ""
 "Þvingar hámarksafköst örgjörva. Tryggir að örgjörvinn noti hámarks tíðni."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/performance_games_page.py, line: 79
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:42
 msgid "Disable Baloo Indexer"
 msgstr "Aftengreina Baloo Indexer"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/performance_games_page.py, line: 67
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:43
 msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
 msgstr "Veitir Baloo skráningara. Forðast disk I/O yfirhöfuð."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/usability/gamemode_config_dialog.py, line: 136
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:51
 msgid "Unload S.M.A.R.T Monitor"
 msgstr "Afretta S.M.A.R.T Vöktun"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/performance_games_page.py, line: 83
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:52
 msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
 msgstr "Veitir S.M.A.R.T disk eftirlit. Minnkar disk I/O og CPU notkun."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 169
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:60
 msgid "Meltdown Mitigations off"
 msgstr "Meltdown Mitigations slökkt"
-
 # File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:62
 msgid "Using mitigations=off will make your machine faster and less secure!"
 msgstr "Að nota mitigations=off mun gera vélina þína hraðari og minna örugga!"
-
 # File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:67
 msgid ""
@@ -1645,13 +1383,11 @@ msgstr ""
 "Þetta mun slökkva á öryggisvörnum CPU (Meltdown/Spectre). Kerfið þitt mun "
 "vera hraðara en viðkvæmt fyrir árásum á vélbúnaðarstigi. Ertu viss um að þú "
 "viljir halda áfram?"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 176
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:74
 msgid "noWatchdog"
 msgstr "ekkiVöktun"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 177
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:76
@@ -1661,7 +1397,6 @@ msgid ""
 msgstr ""
 "Veitir harðvaru vöktunina og TSC klukkuheimildir, viðhalda háum frammistöðu "
 "en fjarlægja sjálfvirkar verndaraðgerðir gegn kerfisfalli."
-
 # File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:81
 msgid ""
@@ -1672,33 +1407,27 @@ msgstr ""
 "Þetta mun slökkva á vélbúnaðarvöktuninni. Kerfið þitt mun ekki lengur "
 "sjálfkrafa endurheimta sig frá ákveðnum tegundum hruns. Ertu viss um að þú "
 "viljir halda áfram?"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:53
 msgid "Close"
 msgstr "Lokaðu"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:68
 #, python-brace-format
 msgid "Warning: {}"
 msgstr "Viðvörun: {}"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:71
 msgid "Cancel"
 msgstr "Hætta við"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:72
 msgid "Continue"
 msgstr "Halda áfram"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:333
 msgid "Recommended"
 msgstr "Mælt með"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:356
@@ -1706,18 +1435,15 @@ msgstr "Mælt með"
 #, python-brace-format
 msgid "{}: additional information"
 msgstr "{}: aukagögn"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:369
 msgid "Learn more"
 msgstr "Lærðu meira"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:375
 #, python-brace-format
 msgid "{}: learn more"
 msgstr "{}: læra meira"
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -1727,7 +1453,6 @@ msgstr "{}: læra meira"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:483
 msgid "Unavailable: script not found."
 msgstr "Ófært: skrift fannst ekki."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 173
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
@@ -1739,7 +1464,6 @@ msgstr "Ófært: skrift fannst ekki."
 #, python-brace-format
 msgid "Script not found: {}"
 msgstr "Skrá fannst ekki: {}"
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -1749,7 +1473,6 @@ msgstr "Skrá fannst ekki: {}"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:494
 msgid "Enabled"
 msgstr "Virkjað"
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -1759,7 +1482,6 @@ msgstr "Virkjað"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:496
 msgid "Disabled"
 msgstr "Óttengt"
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -1772,7 +1494,6 @@ msgid ""
 "changed here."
 msgstr ""
 "Virkjað af kerfisskipan (t.d. Rauntíma kjarni) og ekki hægt að breyta hér."
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -1782,14 +1503,12 @@ msgstr ""
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:506
 msgid "Unavailable: script returned invalid output."
 msgstr "Ófært: skriftin skilaði ógildum úttaki."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py,
 # line: 261
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:508
 #, python-brace-format
 msgid "output from script {}: {}"
 msgstr "úttak frá skrift {}: {}"
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -1799,14 +1518,12 @@ msgstr "úttak frá skrift {}: {}"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:514
 msgid "Unavailable: script returned an error."
 msgstr "Ófært: skriftin skilaði villu."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 184
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:515
 #, python-brace-format
 msgid "Error checking state: {}"
 msgstr "Villa að athuga stöðu: {}"
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -1816,7 +1533,6 @@ msgstr "Villa að athuga stöðu: {}"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:518
 msgid "Unavailable: failed to run script."
 msgstr "Ófært: mistókst að keyra skriftu."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
@@ -1826,20 +1542,17 @@ msgstr "Ófært: mistókst að keyra skriftu."
 #, python-brace-format
 msgid "Error running script {}: {}"
 msgstr "Villa við að keyra skrift {}: {}"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 209
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:544
 msgid "State changed successfully"
 msgstr "Ástandi breytt með góðum árangri"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 211
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:546
 #, python-brace-format
 msgid "Script output: {}"
 msgstr "{}"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 215
 #. Exit code != 0 indicates failure
@@ -1847,7 +1560,6 @@ msgstr "{}"
 #, python-brace-format
 msgid "Script failed with exit code: {}"
 msgstr "Skráning mistókst með útgöngukóða: {}"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 190
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
@@ -1856,158 +1568,129 @@ msgstr "Skráning mistókst með útgöngukóða: {}"
 #, python-brace-format
 msgid "Script timeout: {}"
 msgstr "Skrá tímamörk: {}"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:596
 #, python-brace-format
 msgid "{} sub-options available"
 msgstr "{} undirvalkostir í boði"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
 msgid "on"
 msgstr "áfram"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
 msgid "off"
 msgstr "slökkt"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:699
 #, python-brace-format
 msgid "Changing {} to {}…"
 msgstr "Breyting {} í {}…"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:701
 msgid "Undo"
 msgstr "Afturkalla"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:725
 msgid "Undo: reverted toggle"
 msgstr "Aftur: endurheimt val"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 244
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:741
 #, python-brace-format
 msgid "Changing {} to {}"
 msgstr "Breyta {} í {}"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 271
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:771
 #, python-brace-format
 msgid "ERROR: Failed to change {} to {}"
 msgstr "ERROR: Mistók að breyta {} í {}"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 274
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:776
 #, python-brace-format
 msgid "Failed to change setting: {}"
 msgstr "Mistók að breyta stillingu: {}"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:13
 msgid "General system settings."
 msgstr "Almennar kerfisskilyrði."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 21
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:19
 msgid "SSH"
 msgstr "SSH"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 22
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:20
 msgid "Enable remote access via ssh."
 msgstr "Virkja fjarstýringu í gegnum ssh."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 27
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:23
 #, python-brace-format
 msgid "SSH Address: {}"
 msgstr "SSH heimilisfang: {}"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 147
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:27
 msgid "SSH always on"
 msgstr "SSH alltaf á"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 149
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:28
 msgid "Turn on ssh remote access at boot."
 msgstr "Sláðu inn ssh fjarstýringu við ræsingu."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 162
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:37
 msgid "Fast Grub"
 msgstr "Fast Grub"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 163
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:38
 msgid "Decreases grub display time."
 msgstr "Minnkar sýnistíma grub."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 170
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:56
 msgid "Auto-mount Partitions"
 msgstr "Sjálfvirk uppsetning skiptiskipta"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 171
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:57
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Sjálfvirk uppsetning á skiptum í innri diskum við ræsingu."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:28
 msgid "No Ollama packages are installed. Enable an Ollama variant first."
 msgstr "Engin Ollama-pakka eru uppsett. Virkjaðu Ollama-afbrigði fyrst."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:37
 msgid "Updating Ollama"
 msgstr "Uppfæri Ollama"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:38
 msgid "Synchronizing repositories and updating Ollama, please wait..."
 msgstr "Samstilli gagnasöfn og uppfæri Ollama, vinsamlegast bíðið..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:50
 msgid "Ollama updated successfully!"
 msgstr "Ollama uppfært með góðum árangri!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:53
 msgid "Failed to update Ollama."
 msgstr "Mistókst að uppfæra Ollama."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:25
 msgid "OpenClaude Install"
 msgstr "OpenClaude uppsetning"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:26
 msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
 msgstr ""
 "Set upp OpenClaude (nodejs, npm, ripgrep krafist), vinsamlegast bíðið..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:28
 msgid "OpenClaude Uninstall"
 msgstr "OpenClaude fjarlæging"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:29
 msgid "Uninstalling OpenClaude, please wait..."
 msgstr "Fjarlægi OpenClaude, vinsamlegast bíðið..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:56
 msgid ""
 "OpenClaude installed successfully!\\n\\nRun 'openclaude' in a terminal to "
@@ -2015,35 +1698,27 @@ msgid ""
 msgstr ""
 "OpenClaude sett upp með góðum árangri!\\n\\nKeyrðu 'openclaude' í "
 "skipanalínu til að byrja."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:59
 msgid "OpenClaude removed successfully!"
 msgstr "OpenClaude fjarlægt með góðum árangri!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:63
 msgid "An error occurred with OpenClaude."
 msgstr "Villa kom upp með OpenClaude."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:47
 msgid "Boot messages"
 msgstr "Ræsiskilaboð"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:48
 msgid "Show system messages below the boot animation."
 msgstr "Sýna kerfisskilaboð fyrir neðan ræsihreyfimyndina."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:32
 msgid "Update Ollama"
 msgstr "Uppfæra Ollama"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:33
 msgid "Update the installed Ollama packages to the latest version."
 msgstr "Uppfæra uppsettar Ollama-pakkar í nýjustu útgáfuna."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:36
 msgid "Update now"
 msgstr "Uppfæra núna"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:87
 msgid ""
 "Open-source, privacy-focused alternative to Google's NotebookLM. Requires "
@@ -2051,62 +1726,49 @@ msgid ""
 msgstr ""
 "Opinn hugbúnaður, persónuverndarmiðaður valkostur við Google's NotebookLM. "
 "Krefst þess að Docker sé virkt."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:94
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:201
 msgid "Open Notebook Server"
 msgstr "Opna Notebook Server"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:95
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:202
 msgid "Start the Open Notebook server."
 msgstr "Ræsa Open Notebook-þjóninn."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:220
 msgid "Run"
 msgstr "Keyra"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:226
 #, python-brace-format
 msgid "{}: run action"
 msgstr "{}: keyra aðgerð"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:279
 #, python-brace-format
 msgid "Action script {} failed: {}"
 msgstr "Aðgerðarskrift {} mistókst: {}"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:284
 #, python-brace-format
 msgid "Action script timeout: {}"
 msgstr "Aðgerðarskrift tók of langan tíma: {}"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:287
 #, python-brace-format
 msgid "Error running action script {}: {}"
 msgstr "Villa við að keyra aðgerðarskrift {}: {}"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:297
 msgid "Action completed successfully"
 msgstr "Aðgerð lauk með góðum árangri"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:300
 #, python-brace-format
 msgid "Action failed: {}"
 msgstr "Aðgerð mistókst: {}"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:11
 msgid "AI Coding Assistants"
 msgstr "Gervigreindar kóðunaraðstoðarmenn"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:12
 msgid "Open-source coding agents powered by language models."
 msgstr "Opinn hugbúnaður kóðunarfulltrúar knúnir af tungumálalíkönum."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:21
 msgid "OpenClaude"
 msgstr "OpenClaude"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:23
 msgid ""
 "Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ "
@@ -2114,27 +1776,22 @@ msgid ""
 msgstr ""
 "Opinn-kóða kóðunar-umboðsmaður CLI fyrir OpenAI, Gemini, DeepSeek, Ollama og"
 " 200+ gerðir. Setur upp nodejs, npm og ripgrep sem ósjálfstæðar forritasöfn."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:195
 msgid "Install the open-source alternative to Google's NotebookLM."
 msgstr "Settu upp opinn-kóða valkostinn við Google's NotebookLM."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:297
 msgid "Developer"
 msgstr "Forritari"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 80
 #~ msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
 #~ msgstr "Opinnur, persónuverndarsinnuð valkostur við Google’s Notebook LM!"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 178
 #~ msgid ""
 #~ "Install An open source, privacy-focused alternative to Google's Notebook LM!"
 #~ msgstr ""
 #~ "Install opinnsækið, persónuverndartengt valkost við Google’s Notebook LM!"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 185
 #~ msgid "Run Open Notebook."

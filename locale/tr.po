@@ -15,179 +15,136 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:28
 msgid "comfyUI Depends Install"
 msgstr "comfyUI Bağımlılıkları Yükle"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:29
 msgid "Installing comfyUI Depends, please wait..."
 msgstr "comfyUI Bağımlılıkları Yükleniyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:47
 msgid "comfyUI Depends installed successfully!"
 msgstr "comfyUI Bağımlılıkları başarıyla yüklendi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:50
 msgid "Failed to install comfyUI Depends!"
 msgstr "comfyUI Bağımlılıklarını yükleme başarısız!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmd.sh:8
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpu.sh:8
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidia.sh:8
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkan.sh:8
 msgid "Ollama server is running.\\nAddress: http://localhost:11434"
 msgstr "Ollama sunucusu çalışıyor.\\nAdres: http://localhost:11434"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:28
 msgid "ChatBox Install"
 msgstr "ChatBox Kurulum"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:29
 msgid "Installing ChatBox, please wait..."
 msgstr "ChatBox kuruluyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:31
 msgid "ChatBox Uninstall"
 msgstr "ChatBox Kaldır"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:32
 msgid "Uninstalling ChatBox, please wait..."
 msgstr "ChatBox kaldırılıyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:52
 msgid "ChatBox installed successfully!"
 msgstr "ChatBox başarıyla yüklendi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:55
 msgid "Failed to install ChatBox!"
 msgstr "ChatBox kurulumu başarısız oldu!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:28
 msgid "Ollama Lab Install"
 msgstr "Ollama Lab Kurulumu"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:29
 msgid "Installing Ollama Lab, please wait..."
 msgstr "Ollama Lab kuruluyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:31
 msgid "Ollama Lab Uninstall"
 msgstr "Ollama Lab Kaldırma"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:32
 msgid "Uninstalling Ollama Lab, please wait..."
 msgstr "Ollama Lab kaldırılıyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:52
 msgid "Ollama Lab installed successfully!"
 msgstr "Ollama Lab başarıyla yüklendi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:55
 msgid "Failed to install Ollama Lab!"
 msgstr "Ollama Lab'ı yükleme başarısız!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:28
 msgid "LM Studio Install"
 msgstr "LM Stüdyo Kurulum"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:29
 msgid "Installing LM Studio, please wait..."
 msgstr "LM Studio kuruluyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:31
 msgid "LM Studio Uninstall"
 msgstr "LM Studio Kaldır"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:32
 msgid "Uninstalling LM Studio, please wait..."
 msgstr "LM Studio kaldırılıyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:52
 msgid "LM Studio installed successfully!"
 msgstr "LM Studio başarıyla yüklendi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:55
 msgid "Failed to install LM Studio!"
 msgstr "LM Studio kurulumu başarısız oldu!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:28
 msgid "Ollama Install"
 msgstr "Ollama Kurulum"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:29
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:29
 msgid "Installing Ollama, please wait..."
 msgstr "Ollama kuruluyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:31
 msgid "Ollama Uninstall"
 msgstr "Ollama Kaldır"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:32
 msgid "Uninstalling Ollama, please wait..."
 msgstr "Ollama kaldırılıyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:54
 msgid "Ollama installed successfully!"
 msgstr "Ollama başarıyla yüklendi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:57
 msgid "Failed to install Ollama!"
 msgstr "Ollama yüklenemedi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:12
 msgid "comfyUI Install...."
 msgstr "comfyUI Kurulumu...."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:13
 msgid "Installing comfyUI, this step takes a long time, please wait..."
 msgstr "comfyUI kurulumu, bu adım uzun sürüyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:15
 msgid "Uninstall comfyUI...."
 msgstr "ComfyUI'yi kaldır..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:16
 msgid "Uninstalling comfyUI, please wait..."
 msgstr "comfyUI kaldırılıyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:78
 msgid "comfyUI installed successfully"
 msgstr "comfyUI başarıyla yüklendi"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:81
 msgid "comfyUI uninstalled successfully"
 msgstr "comfyUI başarıyla kaldırıldı"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:84
 msgid "Failed to install comfyUI!"
 msgstr "comfyUI yüklenemedi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:28
 msgid "Ollama CUDA Install"
 msgstr "Ollama CUDA Kurulumu"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:29
 msgid "Installing Ollama CUDA, please wait..."
 msgstr "Ollama CUDA kuruluyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:31
 msgid "Ollama CUDA Uninstall"
 msgstr "Ollama CUDA Kaldırma"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:32
 msgid "Uninstalling Ollama CUDA, please wait..."
 msgstr "Ollama CUDA kaldırılıyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:54
 msgid "Ollama CUDA installed successfully!"
 msgstr "Ollama CUDA başarıyla yüklendi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:57
 msgid "Failed to install Ollama CUDA!"
 msgstr "Ollama CUDA yüklemesi başarısız oldu!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita.sh:31
 msgid ""
 "Generative AI for Krita has been successfully installed.\\n\\nOpen Krita, "
@@ -201,88 +158,67 @@ msgstr ""
 "gidin > AI Görüntü Üretimi kutusunu işaretleyin.\\n\\nAçılan pencerede sağ "
 "altta.\\nYapılandır'a tıklayın > Yerel Yönetilen Sunucu, GPU veya CPU'nuzu "
 "seçin, İş Yükleri'nde modeli seçin ve Yükle'ye tıklayın."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUI.sh:21
 msgid "AMD/Nvidia GPU not found!"
 msgstr "AMD/Nvidia GPU bulunamadı!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:28
 msgid "Krita Install"
 msgstr "Krita Kurulumu"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:29
 msgid "Installing Krita, please wait..."
 msgstr "Krita kuruluyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:31
 msgid "Krita Uninstall"
 msgstr "Krita Kaldır"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:32
 msgid "Uninstalling Krita, please wait..."
 msgstr "Krita kaldırılıyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:50
 msgid "Krita installed successfully!"
 msgstr "Krita başarıyla yüklendi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:53
 msgid "Failed to install Krita!"
 msgstr "Krita'yı yükleme başarısız!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:28
 msgid "Ollama Vulkan Install"
 msgstr "Ollama Vulkan Kurulumu"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:31
 msgid "Ollama Vulkan Uninstall"
 msgstr "Ollama Vulkan Kaldırma"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:32
 msgid "Uninstalling Ollama Vulkan, please wait..."
 msgstr "Ollama Vulkan kaldırılıyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:54
 msgid "Ollama Vulkan installed successfully!"
 msgstr "Ollama Vulkan başarıyla yüklendi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:57
 msgid "Failed to install Ollama Vulkan!"
 msgstr "Ollama Vulkan yüklenemedi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:48
 #, sh-format
 msgid "Ollama shared successfully.\\nAddress: http://$localIp:11434"
 msgstr "Ollama başarıyla paylaşıldı.\\nAdres: http://$localIp:11434"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:51
 msgid "Failed to configure Ollama sharing!"
 msgstr "Ollama paylaşımını yapılandırma başarısız oldu!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:28
 msgid "Ollama ROCm Install"
 msgstr "Ollama ROCm Kurulumu"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:29
 msgid "Installing Ollama ROCm, please wait..."
 msgstr "Ollama ROCm kuruluyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:31
 msgid "Ollama ROCm Uninstall"
 msgstr "Ollama ROCm Kaldırma"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:32
 msgid "Uninstalling Ollama ROCm, please wait..."
 msgstr "Ollama ROCm kaldırılıyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:54
 msgid "Ollama ROCm installed successfully!"
 msgstr "Ollama ROCm başarıyla yüklendi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:57
 msgid "Failed to install Ollama ROCm!"
 msgstr "Ollama ROCm yüklemesi başarısız oldu!"
-
 #. 2. Starts Zenity IN THE BACKGROUND, as the user, with the full environment
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:28
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:28
@@ -291,11 +227,9 @@ msgstr "Ollama ROCm yüklemesi başarısız oldu!"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/windowButtonOnLeftSide.sh:72
 msgid "Applying, please wait..."
 msgstr "Uygulanıyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:43
 msgid "GRUB updated successfully!"
 msgstr "GRUB başarıyla güncellendi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:36
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:87
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:36
@@ -303,61 +237,48 @@ msgstr "GRUB başarıyla güncellendi!"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:46
 msgid "An error occurred while updating GRUB."
 msgstr "GRUB güncellenirken bir hata oluştu."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:47
 msgid "Limits updated successfully!"
 msgstr "Limitler başarıyla güncellendi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:50
 msgid "An error occurred while updating Limits."
 msgstr "Limitler güncellenirken bir hata oluştu."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleRun.sh:28
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:28
 msgid "Example Install"
 msgstr "Örnek Kurulum"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleRun.sh:29
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:29
 msgid "Instaling Example, Please wait..."
 msgstr "Örnek Yükleniyor, Lütfen Bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleRun.sh:31
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:31
 msgid "Example Uninstall"
 msgstr "Örnek Kaldırma"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleRun.sh:32
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:32
 msgid "Uninstaling Example, Please wait..."
 msgstr "Örnek kaldırılıyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleRun.sh:54
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:54
 msgid "Example installed successfully!"
 msgstr "Örnek başarıyla yüklendi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleRun.sh:57
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:57
 msgid "Failed to install Example!"
 msgstr "Örnek yüklenemedi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdspRun.sh:28
 msgid "JamesDSP Install"
 msgstr "JamesDSP Kurulumu"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdspRun.sh:29
 msgid "Installing JamesDSP, please wait..."
 msgstr "JamesDSP kuruluyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdspRun.sh:47
 msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP başarıyla yüklendi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdspRun.sh:50
 msgid "Failed to install jamesDSP!"
 msgstr "jamesDSP yüklenemedi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:33
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:84
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:33
@@ -367,66 +288,52 @@ msgid ""
 msgstr ""
 "GRUB başarıyla güncellendi!\\nUygulamak için bilgisayarınızı yeniden "
 "başlatın."
-
 #. Already enabled, nothing to do. Inform zenity and exit the function
 #. gracefully.
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:46
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:46
 msgid "Already enabled. No changes made."
 msgstr "Zaten etkinleştirildi. Değişiklik yapılmadı."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:28
 msgid "Docker Install"
 msgstr "Docker Kurulumu"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:29
 msgid "Installing Docker, please wait..."
 msgstr "Docker kuruluyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:31
 msgid "Docker Start"
 msgstr "Docker Başlat"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:32
 msgid "Docker Starting, please wait..."
 msgstr "Docker Başlatılıyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:34
 msgid "Docker Stop"
 msgstr "Docker Durdur"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:35
 msgid "Docker Stopping, please wait..."
 msgstr "Docker Durduruluyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:60
 msgid "Docker installed successfully!"
 msgstr "Docker başarıyla yüklendi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:63
 msgid "An error occurred while installing Docker."
 msgstr "Docker yüklenirken bir hata oluştu."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:31
 #, sh-format
 msgid "Installing $package"
 msgstr "$package kuruluyor"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:32
 #, sh-format
 msgid "Installing $package, please wait..."
 msgstr "$package kuruluyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:34
 #, sh-format
 msgid "Removing $package"
 msgstr "$package kaldırılıyor"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:35
 #, sh-format
 msgid "Removing $package, please wait..."
 msgstr "$package kaldırılıyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:61
 #, sh-format
 msgid ""
@@ -435,45 +342,35 @@ msgid ""
 msgstr ""
 "$title başarıyla yüklendi!\\n\\nErişim için $url kullanarak $port üzerinde "
 "yapılandırıldı."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:68
 #, sh-format
 msgid "$package removed successfully!"
 msgstr "$paket başarıyla kaldırıldı!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:72
 #, sh-format
 msgid "An error occurred with $package."
 msgstr "$package ile ilgili bir hata oluştu."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:28
 msgid "kzones Install"
 msgstr "kzones Kurulumu"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:29
 msgid "Installing Kzones, please wait..."
 msgstr "Kzones kuruluyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:47
 msgid "Kzones installed successfully!"
 msgstr "Kzones başarıyla yüklendi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:28
 msgid "Recent Files enabling...."
 msgstr "Son Dosyalar etkinleştiriliyor...."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:29
 msgid "Recent Files enabling, please wait..."
 msgstr "Son Dosyalar etkinleştiriliyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:31
 msgid "Recent Files disabling...."
 msgstr "Son Dosyalar devre dışı bırakılıyor...."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:32
 msgid "Recent Files disabling, please wait..."
 msgstr "Son Dosyalar devre dışı bırakılıyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:136
 msgid ""
 "Recent Files successfully enabled!\\nYou need to close and reopen Dolphin "
@@ -481,7 +378,6 @@ msgid ""
 msgstr ""
 "Son Dosyalar başarıyla etkinleştirildi!\\nBunun etkili olması için Dolphin'i"
 " kapatıp açmanız gerekiyor."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:139
 msgid ""
 "Recent Files successfully disable!\\nYou need to close and reopen Dolphin "
@@ -489,11 +385,9 @@ msgid ""
 msgstr ""
 "Son Dosyalar başarıyla devre dışı bırakıldı!\\nBunun etkili olması için "
 "Dolphin'i kapatıp açmanız gerekiyor."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:142
 msgid "Failed to activate Recent Files!"
 msgstr "Son Dosyaları etkinleştirme başarısız!"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 49
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
@@ -504,42 +398,35 @@ msgstr "Son Dosyaları etkinleştirme başarısız!"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:144
 msgid "BigLinux Settings"
 msgstr "BigLinux Ayarları"
-
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 49
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:51
 msgid "BigLinux Community"
 msgstr "BigLinux Topluluğu"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 144
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:181
 msgid "Search..."
 msgstr "Ara..."
-
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 185
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:187
 msgid "Search settings"
 msgstr "Arama ayarları"
-
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 192
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 195
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:194
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:197
 msgid "Toggle navigation sidebar"
 msgstr "Navigasyon yan çubuğunu aç/kapat"
-
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 202
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:204
 msgid "About"
 msgstr "Hakkında"
-
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 206
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 209
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:208
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:211
 msgid "Main Menu"
 msgstr "Ana Menü"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 108
 #. # GROUP: System ##
@@ -547,7 +434,6 @@ msgstr "Ana Menü"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:261
 msgid "System"
 msgstr "Sistem"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/devices/jamesdsp_dialog.py, line: 208
 # 
@@ -572,7 +458,6 @@ msgstr "Sistem"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:267
 msgid "Usability"
 msgstr "Kullanılabilirlik"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 158
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
@@ -580,7 +465,6 @@ msgstr "Kullanılabilirlik"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:273
 msgid "PreLoad"
 msgstr "Ön Yükleme"
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -591,13 +475,11 @@ msgstr "Ön Yükleme"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:279
 msgid "Devices"
 msgstr "Cihazlar"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 161
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:285
 msgid "A.I."
 msgstr "Yapay Zeka"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 204
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:15
@@ -605,7 +487,6 @@ msgstr "Yapay Zeka"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:291
 msgid "Docker"
 msgstr "Docker"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/performance_games_page.py, line: 181
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -622,32 +503,26 @@ msgstr "Docker"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:303
 msgid "Performance"
 msgstr "Performans"
-
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 302
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:309
 msgid "Suspend"
 msgstr "Askıya Al"
-
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 469
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:483
 msgid "Dismiss"
 msgstr "Kapat"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:75
 msgid "Sleep Mode"
 msgstr "Uyku Modu"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:76
 msgid "Configure how the system suspends."
 msgstr "Sistemin nasıl askıya alındığını yapılandırın."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:83
 msgid "Use s2idle (light sleep)"
 msgstr "s2idle kullanın (hafif uyku)"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:85
 msgid ""
@@ -656,7 +531,6 @@ msgid ""
 msgstr ""
 "Fn tuşlarını ve cihaz durumunu koruyan daha hafif bir uyku modu kullanır. "
 "ASUS dizüstü bilgisayarlar için önerilir."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:91
 msgid ""
@@ -667,22 +541,18 @@ msgstr ""
 "S3 derin uyku, Gömülü Kontrolcünün kısayol tuşu kesintileri üretmeyi "
 "durdurmasına neden olabilir. s2idle, EC'yi güçte tutarak bu sorunu küçük bir"
 " pil tüketimi maliyetiyle önler."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:100
 msgid "WiFi"
 msgstr "WiFi"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:101
 msgid "Prevent WiFi issues after suspend."
 msgstr "Süspendeden sonra WiFi sorunlarını önleyin."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:108
 msgid "Protect WiFi on suspend"
 msgstr "WiFi'yi askıya alındığında koru"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:110
 msgid ""
@@ -691,7 +561,6 @@ msgid ""
 msgstr ""
 "Realtek WiFi yongası tamamen kapatılmasını (d3cold) engeller, yeniden "
 "başlatma sonrası bağlantı kaybını önler."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:116
 msgid ""
@@ -701,22 +570,18 @@ msgstr ""
 "Bazı Realtek RTL8852BE/CE yongaları, d3cold güç kapama işleminden sonra "
 "yeniden başlatılamaz. Bu, yongayı askıya alma sırasında d3hot'ta (PCIe "
 "bağlantısı aktif) tutar."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:124
 msgid "Display and Keyboard"
 msgstr "Ekran ve Klavye"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:125
 msgid "Preserve brightness and LED state across suspend."
 msgstr "Suspend sırasında parlaklığı ve LED durumunu koru."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:132
 msgid "Save/restore brightness on suspend"
 msgstr "Süspendede parlaklığı kaydet/geri yükle"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:134
 msgid ""
@@ -725,22 +590,18 @@ msgid ""
 msgstr ""
 "Ekran parlaklığını ve klavye LED'lerini askıya almadan önce kaydeder ve "
 "yeniden başlatıldığında geri yükler."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:144
 msgid "GNOME Shell Extensions"
 msgstr "GNOME Shell Uzantıları"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:145
 msgid "Automatic health check after resume."
 msgstr "Otomatik sağlık kontrolü, yeniden başlatmadan sonra."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:152
 msgid "Extension health monitor"
 msgstr "Uzantı sağlık izleyici"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:154
 msgid ""
@@ -749,22 +610,18 @@ msgid ""
 msgstr ""
 "GNOME Shell uzantılarını, uyku modundan sonra hata durumunda tespit eder ve "
 "otomatik olarak yeniden başlatır."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:163
 msgid "Lid Switch"
 msgstr "Kapa Anahtarı"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:164
 msgid "Laptop lid close behavior."
 msgstr "Laptop kapa kapama davranışı."
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:171
 msgid "Suspend on lid close (AC power)"
 msgstr "Kapağı kapatınca askıya al (Şebeke gücü)"
-
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:173
 msgid ""
@@ -773,54 +630,45 @@ msgid ""
 msgstr ""
 "Bazı sistemler AC güçteyken askıya alınmaz. Bu, kapağın kapatılması "
 "durumunda askıya alınmayı zorlar."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 14
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:12
 msgid "User and Visual system settings."
 msgstr "Kullanıcı ve Görsel sistem ayarları."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 114
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:19
 msgid "NumLock"
 msgstr "NumLock"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 115
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:20
 msgid "Initial NumLock state. Ignored if autologin is enabled."
 msgstr "Başlangıç NumLock durumu. Otomatik giriş etkinse göz ardı edilir."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 131
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:28
 msgid "Window Button On Left Side"
 msgstr "Pencere Düğmesi Sol Tarafta"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 132
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:29
 msgid "Maximize, minimize, and close buttons on the left side of the window."
 msgstr "Pencerenin sol tarafında maksimum, minimum ve kapatma düğmeleri."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 72
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:37
 msgid "KZones"
 msgstr "KZones"
-
 # File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:39
 msgid "Enable window tiling zones for the KDE Plasma desktop."
 msgstr "KDE Plasma masaüstü için pencere döşeme alanlarını etkinleştir."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 169
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:48
 msgid "Recent Files & Locations"
 msgstr "Son Dosyalar ve Konumlar"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 170
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:50
@@ -830,36 +678,30 @@ msgid ""
 msgstr ""
 "Dolphin ve Uygulama Menüsü'nde boş görünen 'Son Dosyalar' ve 'Son Konumlar' "
 "işlevselliğini geri yükler."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/devices_page.py, line: 15
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:34
 msgid "Manage physical devices."
 msgstr "Fiziksel cihazları yönetin."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 190
 #. Wifi
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
 msgid "Wifi"
 msgstr "Wifi"
-
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
 msgid "Enable the Wi-Fi adapter."
 msgstr "Wi-Fi adaptörünü etkinleştir."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 197
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
 msgid "Bluetooth"
 msgstr "Bluetooth"
-
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
 msgid "Enable the Bluetooth adapter."
 msgstr "Bluetooth adaptörünü etkinleştir."
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -869,35 +711,29 @@ msgstr "Bluetooth adaptörünü etkinleştir."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:49
 msgid "JamesDSP"
 msgstr "JamesDSP"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/dispositivos_page.py, line: 84
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:50
 msgid "Advanced audio effects processor that improves sound quality."
 msgstr "Ses kalitesini artıran gelişmiş ses efekti işlemcisi."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/devices_page.py, line: 71
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:58
 msgid "Reverse mouse scrolling"
 msgstr "Tersine fare kaydırma"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/devices_page.py, line: 72
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:59
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Oturumu yeniden başlatmadan fare kaydırmasını tersine çevir."
-
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:66
 msgid "Network Interfaces"
 msgstr "Ağ Arayüzleri"
-
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:67
 msgid "Connect or disconnect network devices."
 msgstr "Ağ cihazlarını bağlayın veya ayırın."
-
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:99
@@ -905,13 +741,11 @@ msgstr "Ağ cihazlarını bağlayın veya ayırın."
 #, python-brace-format
 msgid "{} — {}"
 msgstr "Tam anahtarı (kullanım bağlamı): {} — {}"
-
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:113
 #, python-brace-format
 msgid "{}: toggle connection"
 msgstr "{}: bağlantıyı aç/kapat"
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
@@ -921,157 +755,130 @@ msgstr "{}: bağlantıyı aç/kapat"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:751
 msgid "Applying…"
 msgstr "Uygulanıyor…"
-
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
 msgid "connected"
 msgstr "bağlı"
-
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
 msgid "disconnected"
 msgstr "bağlantı kesildi"
-
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:161
 #, python-brace-format
 msgid "Failed to change network device: {}"
 msgstr "Ağ cihazı değiştirilemedi: {}"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 103
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:10
 msgid "Preload"
 msgstr "Önceden Yükle"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 105
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:11
 msgid "Preload applications into memory to open them faster."
 msgstr "Uygulamaları daha hızlı açmak için belleğe önceden yükleyin."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 120
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:18
 msgid "Firefox"
 msgstr "Firefox"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 126
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:19
 msgid "Brave"
 msgstr "Brave"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 132
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:20
 msgid "Chrome"
 msgstr "Chrome"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 138
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:21
 msgid "Chromium"
 msgstr "Kromium"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 126
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:22
 msgid "Librewolf"
 msgstr "Librewolf"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 144
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:23
 msgid "Palemoon"
 msgstr "Palemoon"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 150
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:24
 msgid "Opera"
 msgstr "Opera"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/preload_page.py, line: 156
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:25
 msgid "Libreoffice"
 msgstr "Libreoffice"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 30
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:15
 msgid "AI Interfaces"
 msgstr "Yapay Zeka Arayüzleri"
-
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 16
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:16
 msgid "Graphical interface for artificial intelligence."
 msgstr "Yapay zeka için grafik arayüz."
-
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:23
 msgid "Ollama Server"
 msgstr "Ollama Sunucusu"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 23
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:24
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Donanımınız için en iyi Ollama sunucusunu seçin."
-
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:43
 msgid "Ollama Variants"
 msgstr "Ollama Varyantları"
-
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:44
 msgid "Select the variant that matches your GPU hardware."
 msgstr "GPU donanımınıza uyan varyantı seçin."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 46
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:51
 msgid "ChatAI"
 msgstr "ChatAI"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 47
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:52
 msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
 msgstr "KDE Plasma masaüstünüz için Plasmoid gibi çeşitli sohbetler."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 128
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:59
 msgid "Ollama LAB"
 msgstr "Ollama LAB"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 129
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:60
 msgid "Graphical interface for managing Ollama models and chat."
 msgstr "Ollama modellerini ve sohbeti yönetmek için grafik arayüz."
-
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:67
 msgid "ChatBox"
 msgstr "Sohbet Kutusu"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 137
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:68
 msgid "User-friendly Desktop Client App for AI Models/LLMs."
 msgstr ""
 "Kullanıcı dostu Masaüstü İstemci Uygulaması AI Modelleri/LLM'ler için."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 144
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:75
 msgid "LM Studio"
 msgstr "LM Stüdyosu"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 145
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:77
@@ -1081,7 +888,6 @@ msgid ""
 msgstr ""
 "LM Studio - Büyük dil modellerini yerel olarak keşfetmek ve çalıştırmak için"
 " bir masaüstü uygulaması."
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
@@ -1091,30 +897,25 @@ msgstr ""
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:194
 msgid "Open Notebook"
 msgstr "Not Defteri Açık"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 87
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:107
 msgid "ComfyUI (GPU ONLY)"
 msgstr "ComfyUI (YALNIZCA GPU)"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 88
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:108
 msgid "The most powerful and modular visual AI engine and application."
 msgstr "En güçlü ve modüler görsel yapay zeka motoru ve uygulaması."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 94
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:116
 msgid "ComfyUI Server"
 msgstr "ComfyUI Sunucusu"
-
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:117
 msgid "Start the ComfyUI server."
 msgstr "ComfyUI sunucusunu başlat."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 100
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:122
@@ -1129,19 +930,16 @@ msgstr ""
 "Adres: http://localhost:8188  \n"
 "ve  \n"
 "Adres: http://{}:8188"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 56
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:128
 msgid "OllamaCPU"
 msgstr "OllamaCPU"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 57
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:129
 msgid "Local AI server. For CPUs only."
 msgstr "Yerel AI sunucusu. Sadece CPU'lar için."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 60
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
@@ -1160,7 +958,6 @@ msgid ""
 msgstr ""
 "Ollama sunucusu çalışıyor.  \n"
 "Adres: http://localhost:11434"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 64
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
@@ -1175,7 +972,6 @@ msgstr ""
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:198
 msgid "Share Ollama"
 msgstr "Ollama'yı Paylaş"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 65
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
@@ -1190,7 +986,6 @@ msgstr "Ollama'yı Paylaş"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:199
 msgid "Share ollama on the local network."
 msgstr "Ollama'yı yerel ağda paylaş."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 69
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
@@ -1210,38 +1005,32 @@ msgid ""
 msgstr ""
 "Ollama sunucusu çalışıyor.  \n"
 "Adres: http://{}:11434"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 74
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:148
 msgid "Ollama Vulkan"
 msgstr "Ollama Vulkan"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 75
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:149
 msgid "Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."
 msgstr "Yerel AI sunucusu. CPU'lar için, AMD/Nvidia ve entegre GPU'lar."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 110
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:168
 msgid "Ollama Nvidia CUDA"
 msgstr "Ollama Nvidia CUDA"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 111
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:169
 msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
 msgstr ""
 "Yerel AI sunucusu. 2000 serisinden itibaren daha yeni Nvidia GPU'lar için."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 92
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:188
 msgid "Ollama AMD ROCm"
 msgstr "Ollama AMD ROCm"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 111
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:190
@@ -1252,12 +1041,10 @@ msgstr ""
 "Yerel AI sunucusu. 6000 serisinden itibaren daha yeni AMD GPU'ları için. "
 "Vulkan kullanmayı düşünün, birçok testte Vulkan, ROCm'den daha iyi "
 "performans gösterdi."
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:16
 msgid "Container service — enable to use containers below."
 msgstr "Konteyner hizmeti — aşağıdaki konteynerleri kullanmayı etkinleştir."
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
@@ -1267,66 +1054,54 @@ msgstr "Konteyner hizmeti — aşağıdaki konteynerleri kullanmayı etkinleşti
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:23
 msgid "Containers"
 msgstr "Konteynerler"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 23
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:23
 msgid "Manage container technologies."
 msgstr "Konteyner teknolojilerini yönetin."
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 30
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:30
 msgid "Media &amp; Cloud"
 msgstr "Medya ve Bulut"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 31
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:31
 msgid "Media servers and cloud storage containers."
 msgstr "Medya sunucuları ve bulut depolama konteynerleri."
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 36
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:36
 msgid "Network &amp; Security"
 msgstr "Ağ ve Güvenlik"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 37
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:37
 msgid "Network tools and security containers."
 msgstr "Ağ araçları ve güvenlik konteynerleri."
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 42
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:42
 msgid "Development &amp; Tools"
 msgstr "Geliştirme ve Araçlar"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 43
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:43
 msgid "Development stacks and utility containers."
 msgstr "Geliştirme yığınları ve yardımcı konteynerler."
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:52
 msgid "Enable Docker container engine."
 msgstr "Docker konteyner motorunu etkinleştir."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/containers_page.py, line: 35
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:61
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:68
 msgid "Nextcloud Plus"
 msgstr "Nextcloud Plus"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 62
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:62
 msgid "Install Nextcloud Plus cloud storage container."
 msgstr "Nextcloud Plus bulut depolama konteynerini kurun."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 52
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:69
 msgid "Run Nextcloud Plus."
 msgstr "Nextcloud Plus'ı çalıştır."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 48
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:74
@@ -1341,25 +1116,21 @@ msgstr ""
 "Adres: http://localhost:8286  \n"
 "ve  \n"
 "Adres: http://{}:8286"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/containers_page.py, line: 44
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:80
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:87
 msgid "AdGuard"
 msgstr "AdGuard"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 81
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:81
 msgid "Install AdGuard Home DNS ad-blocker container."
 msgstr "AdGuard Home DNS reklam engelleyici konteynerini kurun."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 71
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:88
 msgid "Run AdGuard."
 msgstr "AdGuard'ı çalıştır."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 57
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:93
@@ -1374,25 +1145,21 @@ msgstr ""
 "Adres: http://localhost:3030\n"
 "ve\n"
 "Adres: http://{}:3030"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/containers_page.py, line: 71
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:99
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:106
 msgid "Jellyfin"
 msgstr "Jellyfin"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 100
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:100
 msgid "Install Jellyfin media server container."
 msgstr "Jellyfin medya sunucusu konteynerini kur."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 90
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:107
 msgid "Run Jellyfin."
 msgstr "Jellyfin'i çalıştır."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 75
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:112
@@ -1407,25 +1174,21 @@ msgstr ""
 "Adres: http://localhost:8096\n"
 "ve\n"
 "Adres: http://{}:8096"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/containers_page.py, line: 80
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:118
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:125
 msgid "LAMP"
 msgstr "LAMP"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 119
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:119
 msgid "Install LAMP stack container (Linux, Apache, MySQL, PHP)."
 msgstr "LAMP yığını konteynerini kurun (Linux, Apache, MySQL, PHP)."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 109
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:126
 msgid "Run LAMP."
 msgstr "LAMP'i çalıştır."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 84
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:131
@@ -1440,25 +1203,21 @@ msgstr ""
 "Adres: http://localhost:8080\n"
 "ve\n"
 "Adres: http://{}:8080"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/containers_page.py, line: 89
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:137
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:144
 msgid "Portainer Client"
 msgstr "Portainer İstemcisi"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 138
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:138
 msgid "Install Portainer Agent container for cluster management."
 msgstr "Portainer Agent konteynerini küme yönetimi için kurun."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 128
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:145
 msgid "Run Portainer Client."
 msgstr "Portainer İstemcisini Çalıştır."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 93
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:150
@@ -1473,25 +1232,21 @@ msgstr ""
 "Adres: http://localhost:9000\n"
 "ve\n"
 "Adres: http://{}:9000"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/containers_page.py, line: 98
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:156
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:163
 msgid "SWS"
 msgstr "SWS"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 157
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:157
 msgid "Install SWS static web server container."
 msgstr "SWS statik web sunucusu konteynerini kurun."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 147
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:164
 msgid "Run SWS."
 msgstr "SWS'yi çalıştır."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 102
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:169
@@ -1506,25 +1261,21 @@ msgstr ""
 "Adres: http://localhost:8182\n"
 "ve\n"
 "Adres: http://{}:8182"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/containers_page.py, line: 107
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:175
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:182
 msgid "V2RayA"
 msgstr "V2RayA"
-
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 176
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:176
 msgid "Install V2RayA network proxy container."
 msgstr "V2RayA ağ proxy konteynerini kurun."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 166
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:183
 msgid "Run V2RayA."
 msgstr "V2RayA'yı çalıştır."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 111
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:188
@@ -1539,7 +1290,6 @@ msgstr ""
 "Adres: http://localhost:2017\n"
 "ve\n"
 "Adres: http://{}:2017"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 190
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:100
@@ -1555,19 +1305,16 @@ msgstr ""
 "Adres: http://localhost:8502\n"
 "ve\n"
 "Adres: http://{}:8502"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/performance_games_page.py, line: 16
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:15
 msgid "BigLinux performance tweaks."
 msgstr "BigLinux performans iyileştirmeleri."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/usability/gamemode_config_dialog.py, line: 91
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:22
 msgid "Disable Visual Effects"
 msgstr "Görsel Efektleri Devre Dışı Bırak"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/performance_games_page.py, line: 35
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:24
@@ -1577,13 +1324,11 @@ msgid ""
 msgstr ""
 "KWin görsel efektlerini (bulanıklık, gölgeler, animasyonlar) devre dışı "
 "bırakır. GPU yükünü azaltır ve bellek serbest bırakır."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/performance_games_page.py, line: 63
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:32
 msgid "CPU Maximum Performance"
 msgstr "CPU Maksimum Performansı"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/performance_games_page.py, line: 51
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:34
@@ -1593,26 +1338,22 @@ msgid ""
 msgstr ""
 "Maksimum işlemci performansı modunu zorlar. İşlemcinin maksimum frekansı "
 "kullanmasını sağlar."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/performance_games_page.py, line: 79
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:42
 msgid "Disable Baloo Indexer"
 msgstr "Baloo İndeksleyicisini Devre Dışı Bırak"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/performance_games_page.py, line: 67
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:43
 msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
 msgstr ""
 "Baloo dosya dizinleyicisini devre dışı bırakır. Disk I/O yükünü önler."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/usability/gamemode_config_dialog.py, line: 136
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:51
 msgid "Unload S.M.A.R.T Monitor"
 msgstr "S.M.A.R.T Monitörü Boşalt"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/performance_games_page.py, line: 83
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:52
@@ -1620,20 +1361,17 @@ msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
 msgstr ""
 "S.M.A.R.T disk izleme devre dışı bırakılır. Disk I/O ve CPU kullanımını "
 "azaltır."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 169
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:60
 msgid "Meltdown Mitigations off"
 msgstr "Meltdown Azaltmaları kapalı"
-
 # File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:62
 msgid "Using mitigations=off will make your machine faster and less secure!"
 msgstr ""
 "Mitigasyonları kapatmak, makinenizi daha hızlı ve daha az güvenli hale "
 "getirecektir!"
-
 # File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:67
 msgid ""
@@ -1644,13 +1382,11 @@ msgstr ""
 "Bu, CPU güvenlik önlemlerini (Meltdown/Spectre) devre dışı bırakacaktır. "
 "Sisteminiz daha hızlı olacak ancak donanım düzeyindeki saldırılara karşı "
 "savunmasız kalacaktır. Devam etmek istediğinizden emin misiniz?"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 176
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:74
 msgid "noWatchdog"
 msgstr "noWatchdog"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 177
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:76
@@ -1661,7 +1397,6 @@ msgstr ""
 "Donanım izleyicisini ve TSC saat kaynağı sistemlerini devre dışı bırakır, "
 "yüksek performansı korur ancak sistem çökmesine karşı otomatik korumaları "
 "kaldırır."
-
 # File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:81
 msgid ""
@@ -1672,33 +1407,27 @@ msgstr ""
 "Bu, donanım izleyicisini devre dışı bırakacaktır. Sisteminiz artık belirli "
 "türdeki çöküşlerden otomatik olarak kurtulmayacaktır. Devam etmek "
 "istediğinizden emin misiniz?"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:53
 msgid "Close"
 msgstr "Kapat"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:68
 #, python-brace-format
 msgid "Warning: {}"
 msgstr "Uyarı: {}"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:71
 msgid "Cancel"
 msgstr "İptal"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:72
 msgid "Continue"
 msgstr "Devam et"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:333
 msgid "Recommended"
 msgstr "Tavsiye Edilen"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:356
@@ -1706,18 +1435,15 @@ msgstr "Tavsiye Edilen"
 #, python-brace-format
 msgid "{}: additional information"
 msgstr "{}: ek bilgi"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:369
 msgid "Learn more"
 msgstr "Daha fazla bilgi edinin"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:375
 #, python-brace-format
 msgid "{}: learn more"
 msgstr "{}: daha fazla bilgi edinin"
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -1727,7 +1453,6 @@ msgstr "{}: daha fazla bilgi edinin"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:483
 msgid "Unavailable: script not found."
 msgstr "Kullanılamıyor: betik bulunamadı."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 173
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
@@ -1739,7 +1464,6 @@ msgstr "Kullanılamıyor: betik bulunamadı."
 #, python-brace-format
 msgid "Script not found: {}"
 msgstr "Script bulunamadı: {}"
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -1749,7 +1473,6 @@ msgstr "Script bulunamadı: {}"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:494
 msgid "Enabled"
 msgstr "Etkinleştirildi"
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -1759,7 +1482,6 @@ msgstr "Etkinleştirildi"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:496
 msgid "Disabled"
 msgstr "Devre Dışı Bırakıldı"
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -1773,7 +1495,6 @@ msgid ""
 msgstr ""
 "Sistem yapılandırması (örneğin, Gerçek Zamanlı Çekirdek) tarafından "
 "etkinleştirildi ve burada değiştirilemez."
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -1783,14 +1504,12 @@ msgstr ""
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:506
 msgid "Unavailable: script returned invalid output."
 msgstr "Kullanılamıyor: betik geçersiz çıktı döndürdü."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py,
 # line: 261
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:508
 #, python-brace-format
 msgid "output from script {}: {}"
 msgstr "script çıktısı {}: {}"
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -1800,14 +1519,12 @@ msgstr "script çıktısı {}: {}"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:514
 msgid "Unavailable: script returned an error."
 msgstr "Kullanılamıyor: betik bir hata döndürdü."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 184
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:515
 #, python-brace-format
 msgid "Error checking state: {}"
 msgstr "Hata kontrol durumu: {}"
-
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -1817,7 +1534,6 @@ msgstr "Hata kontrol durumu: {}"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:518
 msgid "Unavailable: failed to run script."
 msgstr "Kullanılamıyor: betik çalıştırılamadı."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
@@ -1827,20 +1543,17 @@ msgstr "Kullanılamıyor: betik çalıştırılamadı."
 #, python-brace-format
 msgid "Error running script {}: {}"
 msgstr "Hata, betik çalıştırılırken {}: {}"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 209
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:544
 msgid "State changed successfully"
 msgstr "Durum başarıyla değiştirildi."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 211
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:546
 #, python-brace-format
 msgid "Script output: {}"
 msgstr "{}"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 215
 #. Exit code != 0 indicates failure
@@ -1848,7 +1561,6 @@ msgstr "{}"
 #, python-brace-format
 msgid "Script failed with exit code: {}"
 msgstr "Script, çıkış kodu ile başarısız oldu: {}"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 190
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
@@ -1857,160 +1569,131 @@ msgstr "Script, çıkış kodu ile başarısız oldu: {}"
 #, python-brace-format
 msgid "Script timeout: {}"
 msgstr "Betik zaman aşımı: {}"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:596
 #, python-brace-format
 msgid "{} sub-options available"
 msgstr "{} alt seçenekler mevcut"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
 msgid "on"
 msgstr "açık"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
 msgid "off"
 msgstr "kapalı"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:699
 #, python-brace-format
 msgid "Changing {} to {}…"
 msgstr "{}'yi {}'ye değiştiriyor…"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:701
 msgid "Undo"
 msgstr "Geri Al"
-
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:725
 msgid "Undo: reverted toggle"
 msgstr "Geri Al: geri alınmış anahtar"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 244
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:741
 #, python-brace-format
 msgid "Changing {} to {}"
 msgstr "{}'yi {} ile değiştirme"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 271
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:771
 #, python-brace-format
 msgid "ERROR: Failed to change {} to {}"
 msgstr "HATA: {}'yi {}'ye değiştirme başarısız oldu."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 274
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:776
 #, python-brace-format
 msgid "Failed to change setting: {}"
 msgstr "Ayar değiştirilemedi: {}"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:13
 msgid "General system settings."
 msgstr "Genel sistem ayarları."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 23
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:19
 msgid "SSH"
 msgstr "SSH"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 24
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:20
 msgid "Enable remote access via ssh."
 msgstr "SSH üzerinden uzaktan erişimi etkinleştir."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 27
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:23
 #, python-brace-format
 msgid "SSH Address: {}"
 msgstr "SSH Adresi: {}"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 147
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:27
 msgid "SSH always on"
 msgstr "SSH her zaman açık"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 149
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:28
 msgid "Turn on ssh remote access at boot."
 msgstr "Açılışta ssh uzaktan erişimi etkinleştir."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 162
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:37
 msgid "Fast Grub"
 msgstr "Hızlı Grub"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 163
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:38
 msgid "Decreases grub display time."
 msgstr "Grub görüntüleme süresini azaltır."
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 170
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:56
 msgid "Auto-mount Partitions"
 msgstr "Otomatik Bağlama Bölümleri"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 171
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:57
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Önyüklemede dahili disklerdeki bölümleri otomatik olarak bağla."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:28
 msgid "No Ollama packages are installed. Enable an Ollama variant first."
 msgstr ""
 "Hiçbir Ollama paketi yüklü değil. Önce bir Ollama çeşidini etkinleştirin."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:37
 msgid "Updating Ollama"
 msgstr "Ollama Güncelleniyor"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:38
 msgid "Synchronizing repositories and updating Ollama, please wait..."
 msgstr ""
 "Depolar senkronize ediliyor ve Ollama güncelleniyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:50
 msgid "Ollama updated successfully!"
 msgstr "Ollama başarıyla güncellendi!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:53
 msgid "Failed to update Ollama."
 msgstr "Ollama güncellenemedi."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:25
 msgid "OpenClaude Install"
 msgstr "OpenClaude Kurulumu"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:26
 msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
 msgstr ""
 "OpenClaude kuruluyor (nodejs, npm, ripgrep gerekli), lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:28
 msgid "OpenClaude Uninstall"
 msgstr "OpenClaude Kaldırma"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:29
 msgid "Uninstalling OpenClaude, please wait..."
 msgstr "OpenClaude kaldırılıyor, lütfen bekleyin..."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:56
 msgid ""
 "OpenClaude installed successfully!\\n\\nRun 'openclaude' in a terminal to "
@@ -2018,35 +1701,27 @@ msgid ""
 msgstr ""
 "OpenClaude başarıyla kuruldu!\\n\\nBaşlatmak için bir terminalde "
 "'openclaude' yazın."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:59
 msgid "OpenClaude removed successfully!"
 msgstr "OpenClaude başarıyla kaldırıldı!"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:63
 msgid "An error occurred with OpenClaude."
 msgstr "OpenClaude ile ilgili bir hata oluştu."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:47
 msgid "Boot messages"
 msgstr "Önyükleme mesajları"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:48
 msgid "Show system messages below the boot animation."
 msgstr "Önyükleme animasyonunun altında sistem mesajlarını göster."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:32
 msgid "Update Ollama"
 msgstr "Ollama'yı Güncelle"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:33
 msgid "Update the installed Ollama packages to the latest version."
 msgstr "Yüklü Ollama paketlerini en son sürüme güncelleyin."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:36
 msgid "Update now"
 msgstr "Şimdi güncelle"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:87
 msgid ""
 "Open-source, privacy-focused alternative to Google's NotebookLM. Requires "
@@ -2054,62 +1729,49 @@ msgid ""
 msgstr ""
 "Google'ın NotebookLM'ine açık kaynaklı, gizlilik odaklı alternatif. "
 "Docker'ın etkinleştirilmesini gerektirir."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:94
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:201
 msgid "Open Notebook Server"
 msgstr "Notebook Sunucusunu Aç"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:95
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:202
 msgid "Start the Open Notebook server."
 msgstr "Open Notebook sunucusunu başlatın."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:220
 msgid "Run"
 msgstr "Çalıştır"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:226
 #, python-brace-format
 msgid "{}: run action"
 msgstr "{}: eylemi çalıştır"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:279
 #, python-brace-format
 msgid "Action script {} failed: {}"
 msgstr "{} eylem betiği başarısız oldu: {}"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:284
 #, python-brace-format
 msgid "Action script timeout: {}"
 msgstr "{} eylem betiği zaman aşımına uğradı"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:287
 #, python-brace-format
 msgid "Error running action script {}: {}"
 msgstr "{} eylem betiği çalıştırılırken hata oluştu: {}"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:297
 msgid "Action completed successfully"
 msgstr "Eylem başarıyla tamamlandı"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:300
 #, python-brace-format
 msgid "Action failed: {}"
 msgstr "Eylem başarısız oldu: {}"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:11
 msgid "AI Coding Assistants"
 msgstr "Yapay Zeka Kodlama Asistanları"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:12
 msgid "Open-source coding agents powered by language models."
 msgstr "Dil modelleri tarafından desteklenen açık kaynaklı kodlama ajanları."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:21
 msgid "OpenClaude"
 msgstr "OpenClaude"
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:23
 msgid ""
 "Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ "
@@ -2117,21 +1779,17 @@ msgid ""
 msgstr ""
 "OpenAI, Gemini, DeepSeek, Ollama ve 200'den fazla model için açık kaynaklı "
 "kodlama aracı CLI'si. Bağımlılık olarak nodejs, npm ve ripgrep yükler."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:195
 msgid "Install the open-source alternative to Google's NotebookLM."
 msgstr "Google'ın NotebookLM'ine açık kaynaklı alternatifi yükleyin."
-
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:297
 msgid "Developer"
 msgstr "Geliştirici"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 80
 #~ msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
 #~ msgstr ""
 #~ "Google'ın Notebook LM'sine açık kaynaklı, gizliliğe odaklı bir alternatif!"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 178
 #~ msgid ""
@@ -2139,7 +1797,6 @@ msgstr "Geliştirici"
 #~ msgstr ""
 #~ "Google'ın Notebook LM'sine açık kaynaklı, gizliliğe odaklı bir alternatif "
 #~ "kurun!"
-
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
 # line: 185
 #~ msgid "Run Open Notebook."
