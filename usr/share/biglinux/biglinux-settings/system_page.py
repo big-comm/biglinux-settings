@@ -48,6 +48,7 @@ class SystemPage(BaseSettingsPage):
             _("Show system messages below the boot animation."),
             "plymouthBootMessages",
             "system-symbolic",
+            timeout=240,
         )
 
         # bigMount
