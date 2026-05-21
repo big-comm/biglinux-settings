@@ -6,7 +6,6 @@ import gi
 
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
-from gi.repository import Adw, Gtk  # noqa: E402
 
 from base_page import BaseSettingsPage, _  # noqa: E402
 

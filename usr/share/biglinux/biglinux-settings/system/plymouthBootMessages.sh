@@ -5,10 +5,10 @@ runScript="/usr/share/biglinux/biglinux-settings/system/plymouthBootMessagesRun.
 
 # check current status
 if [ "$1" == "check" ]; then
-  if grep -Eq '^[[:space:]]*SHOW_BOOT_MESSAGES[[:space:]]*=[[:space:]]*true([[:space:]]*(#.*)?)?$' "$configFile" 2>/dev/null; then
-    echo "true"
-  else
+  if grep -Eq '^[[:space:]]*SHOW_BOOT_MESSAGES[[:space:]]*=[[:space:]]*false([[:space:]]*(#.*)?)?$' "$configFile" 2>/dev/null; then
     echo "false"
+  else
+    echo "true"
   fi
 
 # change the state
