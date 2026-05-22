@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the biglinux-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -15,237 +15,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:28
-msgid "comfyUI Depends Install"
-msgstr "comfyUI Függőségek Telepítése"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:29
-msgid "Installing comfyUI Depends, please wait..."
-msgstr "A comfyUI telepítése függőségekkel, kérem várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:47
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI függőségek sikeresen telepítve!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:50
-msgid "Failed to install comfyUI Depends!"
-msgstr "A comfyUI telepítése meghiúsult!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmd.sh:8
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpu.sh:8
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidia.sh:8
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkan.sh:8
-msgid "Ollama server is running.\\nAddress: http://localhost:11434"
-msgstr "Ollama szerver fut.\\nCím: http://localhost:11434"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:28
-msgid "ChatBox Install"
-msgstr "ChatBox Telepítés"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:29
-msgid "Installing ChatBox, please wait..."
-msgstr "A ChatBox telepítése, kérem várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:31
-msgid "ChatBox Uninstall"
-msgstr "ChatBox eltávolítása"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:32
-msgid "Uninstalling ChatBox, please wait..."
-msgstr "A ChatBox eltávolítása folyamatban, kérem, várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:52
-msgid "ChatBox installed successfully!"
-msgstr "A ChatBox sikeresen telepítve lett!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:55
-msgid "Failed to install ChatBox!"
-msgstr "A ChatBox telepítése nem sikerült!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:28
-msgid "Ollama Lab Install"
-msgstr "Ollama Lab Telepítés"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:29
-msgid "Installing Ollama Lab, please wait..."
-msgstr "Ollama Lab telepítése, kérem várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:31
-msgid "Ollama Lab Uninstall"
-msgstr "Ollama Lab eltávolítása"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:32
-msgid "Uninstalling Ollama Lab, please wait..."
-msgstr "Ollama Lab eltávolítása, kérem várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:52
-msgid "Ollama Lab installed successfully!"
-msgstr "Az Ollama Lab sikeresen telepítve!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:55
-msgid "Failed to install Ollama Lab!"
-msgstr "Ollama Lab telepítése nem sikerült!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:28
-msgid "LM Studio Install"
-msgstr "LM Stúdió Telepítés"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:29
-msgid "Installing LM Studio, please wait..."
-msgstr "LM Studio telepítése, kérem várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:31
-msgid "LM Studio Uninstall"
-msgstr "LM Stúdió Eltávolítása"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:32
-msgid "Uninstalling LM Studio, please wait..."
-msgstr "LM Studio eltávolítása, kérem várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:52
-msgid "LM Studio installed successfully!"
-msgstr "Az LM Studio sikeresen telepítve!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:55
-msgid "Failed to install LM Studio!"
-msgstr "A LM Studio telepítése nem sikerült!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:28
-msgid "Ollama Install"
-msgstr "Ollama Telepítés"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:29
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:29
-msgid "Installing Ollama, please wait..."
-msgstr "Ollama telepítése, kérem várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:31
-msgid "Ollama Uninstall"
-msgstr "Ollama eltávolítása"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:32
-msgid "Uninstalling Ollama, please wait..."
-msgstr "Ollama eltávolítása, kérem várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:54
-msgid "Ollama installed successfully!"
-msgstr "Az Ollama sikeresen telepítve!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:57
-msgid "Failed to install Ollama!"
-msgstr "Ollama telepítése nem sikerült!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:12
-msgid "comfyUI Install...."
-msgstr "comfyUI telepítése...."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:13
-msgid "Installing comfyUI, this step takes a long time, please wait..."
-msgstr ""
-"A comfyUI telepítése, ez a lépés hosszú időt vehet igénybe, kérjük, "
-"várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:15
-msgid "Uninstall comfyUI...."
-msgstr "Távolítsa el a comfyUI-t...."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:16
-msgid "Uninstalling comfyUI, please wait..."
-msgstr "A comfyUI eltávolítása, kérem várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:78
-msgid "comfyUI installed successfully"
-msgstr "A comfyUI sikeresen telepítve lett."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:81
-msgid "comfyUI uninstalled successfully"
-msgstr "A comfyUI sikeresen eltávolítva."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:84
-msgid "Failed to install comfyUI!"
-msgstr "A comfyUI telepítése nem sikerült!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:28
-msgid "Ollama CUDA Install"
-msgstr "Ollama CUDA telepítése"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:29
-msgid "Installing Ollama CUDA, please wait..."
-msgstr "Ollama CUDA telepítése, kérem várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:31
-msgid "Ollama CUDA Uninstall"
-msgstr "Ollama CUDA eltávolítása"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:32
-msgid "Uninstalling Ollama CUDA, please wait..."
-msgstr "Ollama CUDA eltávolítása, kérem várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:54
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA sikeresen telepítve!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:57
-msgid "Failed to install Ollama CUDA!"
-msgstr "Ollama CUDA telepítése nem sikerült!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita.sh:31
-msgid ""
-"Generative AI for Krita has been successfully installed.\\n\\nOpen Krita, "
-"open an existing drawing or create a new one.\\nIn the top panel go to "
-"Settings > Panels > check the AI Image Generation box.\\n\\nIn the window "
-"that opens on the bottom right.\\nClick Configure > Local Managed Server, "
-"choose your GPU or CPU, choose the model in Workloads and click Install."
-msgstr ""
-"A Krita generatív AI sikeresen telepítve lett.\\n\\nNyisd meg a Kritát, "
-"nyiss meg egy meglévő rajzot vagy készíts egy újat.\\nA felső panelen menj a"
-" Beállítások > Panelek > jelöld be az AI Kép Generálás dobozt.\\n\\nA jobb "
-"alsó sarokban megnyíló ablakban.\\nKattints a Konfigurálás > Helyi Kezelt "
-"Szerverre, válaszd ki a GPU-dat vagy CPU-dat, válaszd ki a modellt a Munka "
-"terhelésekben, és kattints a Telepítésre."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUI.sh:21
-msgid "AMD/Nvidia GPU not found!"
-msgstr "AMD/Nvidia GPU nem található!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:28
-msgid "Krita Install"
-msgstr "Krita telepítése"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:29
-msgid "Installing Krita, please wait..."
-msgstr "Krita telepítése, kérem várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:31
-msgid "Krita Uninstall"
-msgstr "Krita eltávolítása"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:32
-msgid "Uninstalling Krita, please wait..."
-msgstr "A Krita eltávolítása folyamatban, kérem várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:50
-msgid "Krita installed successfully!"
-msgstr "A Krita sikeresen telepítve lett!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:53
-msgid "Failed to install Krita!"
-msgstr "A Krita telepítése nem sikerült!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:28
-msgid "Ollama Vulkan Install"
-msgstr "Ollama Vulkan Telepítés"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:31
-msgid "Ollama Vulkan Uninstall"
-msgstr "Ollama Vulkan Eltávolítás"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:32
-msgid "Uninstalling Ollama Vulkan, please wait..."
-msgstr "Ollama Vulkan eltávolítása, kérem várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:54
-msgid "Ollama Vulkan installed successfully!"
-msgstr "Ollama Vulkan sikeresen telepítve!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:57
-msgid "Failed to install Ollama Vulkan!"
-msgstr "Ollama Vulkan telepítése nem sikerült!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:48
-#, sh-format
-msgid "Ollama shared successfully.\\nAddress: http://$localIp:11434"
-msgstr "Ollama megosztva. \\nCím: http://$localIp:11434"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:51
-msgid "Failed to configure Ollama sharing!"
-msgstr "Sikertelen az Ollama megosztás konfigurálása!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:28
-msgid "Ollama ROCm Install"
-msgstr "Ollama ROCm Telepítés"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:29
-msgid "Installing Ollama ROCm, please wait..."
-msgstr "Ollama ROCm telepítése, kérem várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:31
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm eltávolítása"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:32
-msgid "Uninstalling Ollama ROCm, please wait..."
-msgstr "Ollama ROCm eltávolítása, kérem várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:54
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm sikeresen telepítve!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:57
-msgid "Failed to install Ollama ROCm!"
-msgstr "Ollama ROCm telepítése nem sikerült!"
-#. 2. Starts Zenity IN THE BACKGROUND, as the user, with the full environment
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:28
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:28
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:27
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:26
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/windowButtonOnLeftSide.sh:72
-msgid "Applying, please wait..."
-msgstr "Alkalmazás folyamatban, kérjük várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:43
-msgid "GRUB updated successfully!"
-msgstr "A GRUB sikeresen frissítve lett!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:36
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:87
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:36
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:87
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:46
-msgid "An error occurred while updating GRUB."
-msgstr "Hiba történt a GRUB frissítésekor."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:47
-msgid "Limits updated successfully!"
-msgstr "A korlátok sikeresen frissítve!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:50
-msgid "An error occurred while updating Limits."
-msgstr "Hiba történt a Korlátok frissítésekor."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleRun.sh:28
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:28
 msgid "Example Install"
@@ -270,6 +39,335 @@ msgstr "A példa sikeresen telepítve!"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:57
 msgid "Failed to install Example!"
 msgstr "A telepítés nem sikerült: Példa!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:25
+msgid "OpenClaude Install"
+msgstr "OpenClaude telepítése"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:26
+msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
+msgstr "OpenClaude telepítése (nodejs, npm, ripgrep szükséges), kérjük, várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:28
+msgid "OpenClaude Uninstall"
+msgstr "OpenClaude eltávolítása"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:29
+msgid "Uninstalling OpenClaude, please wait..."
+msgstr "OpenClaude eltávolítása, kérjük, várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:56
+msgid ""
+"OpenClaude installed successfully!\\n"
+"\\n"
+"Run 'openclaude' in a terminal to start."
+msgstr ""
+"Az OpenClaude sikeresen telepítve!\\n"
+"\\n"
+"Az indításhoz futtassa a 'openclaude' parancsot a terminálban."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:59
+msgid "OpenClaude removed successfully!"
+msgstr "Az OpenClaude sikeresen eltávolítva!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:63
+msgid "An error occurred with OpenClaude."
+msgstr "Hiba történt az OpenClaude-dal."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:28
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:28
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:27
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:26
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/windowButtonOnLeftSide.sh:72
+#. 2. Starts Zenity IN THE BACKGROUND, as the user, with the full environment
+msgid "Applying, please wait..."
+msgstr "Alkalmazás folyamatban, kérjük várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:28
+msgid "kzones Install"
+msgstr "kzones Telepítés"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:29
+msgid "Installing Kzones, please wait..."
+msgstr "Kzones telepítése, kérem várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:47
+msgid "Kzones installed successfully!"
+msgstr "A Kzones sikeresen telepítve lett!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:28
+msgid "Recent Files enabling...."
+msgstr "Legutóbbi fájlok engedélyezése...."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:29
+msgid "Recent Files enabling, please wait..."
+msgstr "Legutóbbi fájlok engedélyezése, kérem várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:31
+msgid "Recent Files disabling...."
+msgstr "A legutóbbi fájlok letiltása...."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:32
+msgid "Recent Files disabling, please wait..."
+msgstr "A legutóbbi fájlok letiltása, kérem várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:136
+msgid ""
+"Recent Files successfully enabled!\\n"
+"You need to close and reopen Dolphin for it to take effect."
+msgstr ""
+"A legutóbbi fájlok sikeresen engedélyezve! \\n"
+"A Dolphin bezárása és újra megnyitása szükséges a hatás érvényesüléséhez."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:139
+msgid ""
+"Recent Files successfully disable!\\n"
+"You need to close and reopen Dolphin for it to take effect."
+msgstr ""
+"A legutóbbi fájlok sikeresen letiltva!\\n"
+"A változtatások érvényesítéséhez be kell zárnod és újra kell nyitnod a Dolfint."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:142
+msgid "Failed to activate Recent Files!"
+msgstr "A Legutóbbi Fájlok aktiválása nem sikerült!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:33
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:84
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:33
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:84
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"A GRUB sikeresen frissítve lett!\\n"
+"Indítsa újra a számítógépét, hogy érvénybe lépjen."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:36
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:87
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:36
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:87
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:46
+msgid "An error occurred while updating GRUB."
+msgstr "Hiba történt a GRUB frissítésekor."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:46
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:46
+#. Already enabled, nothing to do. Inform zenity and exit the function
+#. gracefully.
+msgid "Already enabled. No changes made."
+msgstr "Már engedélyezve van. Nincsenek változtatások."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:28
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA telepítése"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:29
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "Ollama CUDA telepítése, kérem várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:31
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA eltávolítása"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:32
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "Ollama CUDA eltávolítása, kérem várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:54
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA sikeresen telepítve!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:57
+msgid "Failed to install Ollama CUDA!"
+msgstr "Ollama CUDA telepítése nem sikerült!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmd.sh:8
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpu.sh:8
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidia.sh:8
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkan.sh:8
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama szerver fut.\\n"
+"Cím: http://localhost:11434"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:28
+msgid "LM Studio Install"
+msgstr "LM Stúdió Telepítés"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:29
+msgid "Installing LM Studio, please wait..."
+msgstr "LM Studio telepítése, kérem várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:31
+msgid "LM Studio Uninstall"
+msgstr "LM Stúdió Eltávolítása"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:32
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "LM Studio eltávolítása, kérem várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:52
+msgid "LM Studio installed successfully!"
+msgstr "Az LM Studio sikeresen telepítve!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:55
+msgid "Failed to install LM Studio!"
+msgstr "A LM Studio telepítése nem sikerült!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUI.sh:21
+msgid "AMD/Nvidia GPU not found!"
+msgstr "AMD/Nvidia GPU nem található!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:28
+msgid "ChatBox Install"
+msgstr "ChatBox Telepítés"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:29
+msgid "Installing ChatBox, please wait..."
+msgstr "A ChatBox telepítése, kérem várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:31
+msgid "ChatBox Uninstall"
+msgstr "ChatBox eltávolítása"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:32
+msgid "Uninstalling ChatBox, please wait..."
+msgstr "A ChatBox eltávolítása folyamatban, kérem, várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:52
+msgid "ChatBox installed successfully!"
+msgstr "A ChatBox sikeresen telepítve lett!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:55
+msgid "Failed to install ChatBox!"
+msgstr "A ChatBox telepítése nem sikerült!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:28
+msgid "Ollama Install"
+msgstr "Ollama Telepítés"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:29
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:29
+msgid "Installing Ollama, please wait..."
+msgstr "Ollama telepítése, kérem várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:31
+msgid "Ollama Uninstall"
+msgstr "Ollama eltávolítása"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:32
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Ollama eltávolítása, kérem várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:54
+msgid "Ollama installed successfully!"
+msgstr "Az Ollama sikeresen telepítve!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:57
+msgid "Failed to install Ollama!"
+msgstr "Ollama telepítése nem sikerült!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:28
+msgid "Ollama Lab Install"
+msgstr "Ollama Lab Telepítés"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:29
+msgid "Installing Ollama Lab, please wait..."
+msgstr "Ollama Lab telepítése, kérem várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:31
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Lab eltávolítása"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:32
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Ollama Lab eltávolítása, kérem várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:52
+msgid "Ollama Lab installed successfully!"
+msgstr "Az Ollama Lab sikeresen telepítve!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:55
+msgid "Failed to install Ollama Lab!"
+msgstr "Ollama Lab telepítése nem sikerült!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:28
+msgid "Ollama Vulkan Install"
+msgstr "Ollama Vulkan Telepítés"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:31
+msgid "Ollama Vulkan Uninstall"
+msgstr "Ollama Vulkan Eltávolítás"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:32
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Ollama Vulkan eltávolítása, kérem várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:54
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan sikeresen telepítve!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:57
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Ollama Vulkan telepítése nem sikerült!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:28
+msgid "Krita Install"
+msgstr "Krita telepítése"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:29
+msgid "Installing Krita, please wait..."
+msgstr "Krita telepítése, kérem várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:31
+msgid "Krita Uninstall"
+msgstr "Krita eltávolítása"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:32
+msgid "Uninstalling Krita, please wait..."
+msgstr "A Krita eltávolítása folyamatban, kérem várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:50
+msgid "Krita installed successfully!"
+msgstr "A Krita sikeresen telepítve lett!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:53
+msgid "Failed to install Krita!"
+msgstr "A Krita telepítése nem sikerült!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:28
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm Telepítés"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:29
+msgid "Installing Ollama ROCm, please wait..."
+msgstr "Ollama ROCm telepítése, kérem várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:31
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm eltávolítása"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:32
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Ollama ROCm eltávolítása, kérem várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:54
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm sikeresen telepítve!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:57
+msgid "Failed to install Ollama ROCm!"
+msgstr "Ollama ROCm telepítése nem sikerült!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:12
+msgid "comfyUI Install...."
+msgstr "comfyUI telepítése...."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:13
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "A comfyUI telepítése, ez a lépés hosszú időt vehet igénybe, kérjük, várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:15
+msgid "Uninstall comfyUI...."
+msgstr "Távolítsa el a comfyUI-t...."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:16
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "A comfyUI eltávolítása, kérem várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:78
+msgid "comfyUI installed successfully"
+msgstr "A comfyUI sikeresen telepítve lett."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:81
+msgid "comfyUI uninstalled successfully"
+msgstr "A comfyUI sikeresen eltávolítva."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:84
+msgid "Failed to install comfyUI!"
+msgstr "A comfyUI telepítése nem sikerült!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:28
+msgid "comfyUI Depends Install"
+msgstr "comfyUI Függőségek Telepítése"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:29
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "A comfyUI telepítése függőségekkel, kérem várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:47
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI függőségek sikeresen telepítve!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:50
+msgid "Failed to install comfyUI Depends!"
+msgstr "A comfyUI telepítése meghiúsult!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:28
+msgid "No Ollama packages are installed. Enable an Ollama variant first."
+msgstr "Nincsenek telepítve Ollama-csomagok. Először engedélyezzen egy Ollama-változatot."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:37
+msgid "Updating Ollama"
+msgstr "Ollama frissítése"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:38
+msgid "Synchronizing repositories and updating Ollama, please wait..."
+msgstr "Adattárak szinkronizálása és az Ollama frissítése, kérjük, várjon..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:50
+msgid "Ollama updated successfully!"
+msgstr "Az Ollama sikeresen frissült!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:53
+msgid "Failed to update Ollama."
+msgstr "Az Ollama frissítése sikertelen."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:48
+#, sh-format
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama megosztva. \\n"
+"Cím: http://$localIp:11434"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:51
+msgid "Failed to configure Ollama sharing!"
+msgstr "Sikertelen az Ollama megosztás konfigurálása!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita.sh:31
+msgid ""
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"A Krita generatív AI sikeresen telepítve lett.\\n"
+"\\n"
+"Nyisd meg a Kritát, nyiss meg egy meglévő rajzot vagy készíts egy újat.\\n"
+"A felső panelen menj a Beállítások > Panelek > jelöld be az AI Kép Generálás dobozt.\\n"
+"\\n"
+"A jobb alsó sarokban megnyíló ablakban.\\n"
+"Kattints a Konfigurálás > Helyi Kezelt Szerverre, válaszd ki a GPU-dat vagy CPU-dat, válaszd ki a "
+"modellt a Munka terhelésekben, és kattints a Telepítésre."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdspRun.sh:28
 msgid "JamesDSP Install"
 msgstr "JamesDSP telepítése"
@@ -282,21 +380,6 @@ msgstr "A JamesDSP sikeresen telepítve lett!"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdspRun.sh:50
 msgid "Failed to install jamesDSP!"
 msgstr "A jamesDSP telepítése nem sikerült!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:33
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:84
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:33
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:84
-msgid ""
-"GRUB updated successfully!\\nRestart your computer for it to take effect."
-msgstr ""
-"A GRUB sikeresen frissítve lett!\\nIndítsa újra a számítógépét, hogy "
-"érvénybe lépjen."
-#. Already enabled, nothing to do. Inform zenity and exit the function
-#. gracefully.
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:46
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:46
-msgid "Already enabled. No changes made."
-msgstr "Már engedélyezve van. Nincsenek változtatások."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:28
 msgid "Docker Install"
 msgstr "Docker telepítése"
@@ -340,11 +423,13 @@ msgstr "A $package eltávolítása, kérem várjon..."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:61
 #, sh-format
 msgid ""
-"$title installed successfully!\\n\\nConfigured on port $port, to access use "
-"$url"
+"$title installed successfully!\\n"
+"\\n"
+"Configured on port $port, to access use $url"
 msgstr ""
-"$title sikeresen telepítve!\\n\\nA $port porton van konfigurálva, a "
-"hozzáféréshez használja a $url-t."
+"$title sikeresen telepítve!\\n"
+"\\n"
+"A $port porton van konfigurálva, a hozzáféréshez használja a $url-t."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:68
 #, sh-format
 msgid "$package removed successfully!"
@@ -353,52 +438,77 @@ msgstr "A csomag sikeresen eltávolítva!"
 #, sh-format
 msgid "An error occurred with $package."
 msgstr "Hiba történt a $package használatakor."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:28
-msgid "kzones Install"
-msgstr "kzones Telepítés"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:29
-msgid "Installing Kzones, please wait..."
-msgstr "Kzones telepítése, kérem várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:47
-msgid "Kzones installed successfully!"
-msgstr "A Kzones sikeresen telepítve lett!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:28
-msgid "Recent Files enabling...."
-msgstr "Legutóbbi fájlok engedélyezése...."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:29
-msgid "Recent Files enabling, please wait..."
-msgstr "Legutóbbi fájlok engedélyezése, kérem várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:31
-msgid "Recent Files disabling...."
-msgstr "A legutóbbi fájlok letiltása...."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:32
-msgid "Recent Files disabling, please wait..."
-msgstr "A legutóbbi fájlok letiltása, kérem várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:136
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:43
+msgid "GRUB updated successfully!"
+msgstr "A GRUB sikeresen frissítve lett!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:47
+msgid "Limits updated successfully!"
+msgstr "A korlátok sikeresen frissítve!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:50
+msgid "An error occurred while updating Limits."
+msgstr "Hiba történt a Korlátok frissítésekor."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 107
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:12
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:267
+msgid "Usability"
+msgstr "Használhatóság"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 14
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:12
+msgid "User and Visual system settings."
+msgstr "Felhasználói és vizuális rendszerbeállítások."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 114
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:19
+msgid "NumLock"
+msgstr "NumLock"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 115
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:20
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Kezdő NumLock állapot. Figyelmen kívül hagyva, ha az automatikus bejelentkezés engedélyezve van."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 131
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:28
+msgid "Window Button On Left Side"
+msgstr "Ablak gomb bal oldalon"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 132
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:29
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Ablak bal oldalán található maximalizálás, minimalizálás és bezárás gombok."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 72
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:37
+msgid "KZones"
+msgstr "KZones"
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:39
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "Engedélyezze az ablakcsempézés zónáit a KDE Plasma asztalhoz."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 169
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:48
+msgid "Recent Files & Locations"
+msgstr "Legutóbbi fájlok és helyek"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 170
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:50
 msgid ""
-"Recent Files successfully enabled!\\nYou need to close and reopen Dolphin "
-"for it to take effect."
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
 msgstr ""
-"A legutóbbi fájlok sikeresen engedélyezve! \\nA Dolphin bezárása és újra "
-"megnyitása szükséges a hatás érvényesüléséhez."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:139
-msgid ""
-"Recent Files successfully disable!\\nYou need to close and reopen Dolphin "
-"for it to take effect."
-msgstr ""
-"A legutóbbi fájlok sikeresen letiltva!\\nA változtatások érvényesítéséhez be"
-" kell zárnod és újra kell nyitnod a Dolfint."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:142
-msgid "Failed to activate Recent Files!"
-msgstr "A Legutóbbi Fájlok aktiválása nem sikerült!"
+"Visszaállítja a 'Legutóbbi fájlok' és 'Legutóbbi helyek' funkciót, amely üresen jelenik meg a "
+"Dolphinban és az Alkalmazásmenüben."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 49
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 120
-#. Centered title
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:44
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:59
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:144
+#. Centered title
 msgid "BigLinux Settings"
 msgstr "BigLinux Beállítások"
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 49
@@ -432,17 +542,11 @@ msgid "Main Menu"
 msgstr "Főmenü"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 108
-#. # GROUP: System ##
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:13
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:261
+#. # GROUP: System ##
 msgid "System"
 msgstr "Rendszer"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 107
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:12
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:267
-msgid "Usability"
-msgstr "Használhatóság"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 158
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
@@ -472,6 +576,11 @@ msgstr "Mesterséges intelligencia."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:291
 msgid "Docker"
 msgstr "Docker"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 315
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:297
+msgid "Developer"
+msgstr "Fejlesztő"
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/usability/gamemode_dialog.py, line: 204
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:15
@@ -486,244 +595,45 @@ msgstr "Felfüggesztés"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:483
 msgid "Dismiss"
 msgstr "Elutasít"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:75
-msgid "Sleep Mode"
-msgstr "Alvó üzemmód"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:76
-msgid "Configure how the system suspends."
-msgstr "Állítsa be, hogyan felfüggeszti a rendszert."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:83
-msgid "Use s2idle (light sleep)"
-msgstr "Használja a s2idle-t (könnyű alvás)"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:85
-msgid ""
-"Uses a lighter sleep mode that preserves Fn keys and device state. "
-"Recommended for ASUS notebooks."
-msgstr ""
-"Könnyebb alvó üzemmódot használ, amely megőrzi az Fn billentyűket és az "
-"eszköz állapotát. Ajánlott ASUS noteszgépekhez."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:91
-msgid ""
-"S3 deep sleep can cause the Embedded Controller to stop generating hotkey "
-"interrupts. s2idle keeps the EC powered, avoiding this issue at a small cost"
-" in battery consumption."
-msgstr ""
-"Az S3 mély alvás megakadályozhatja, hogy a Beágyazott Vezérlő forróbillentyű"
-" megszakításokat generáljon. Az s2idle fenntartja az EC áramellátását, "
-"elkerülve ezt a problémát, kis költséggel az akkumulátor-fogyasztásban."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:100
-msgid "WiFi"
-msgstr "WiFi"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:101
-msgid "Prevent WiFi issues after suspend."
-msgstr "Megakadályozza a WiFi problémákat a felfüggesztés után."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:108
-msgid "Protect WiFi on suspend"
-msgstr "Védd a WiFi-t szüneteltetéskor"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:110
-msgid ""
-"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding "
-"connection loss after resume."
-msgstr ""
-"Megakadályozza a Realtek WiFi chip teljes kikapcsolását (d3cold), elkerülve "
-"a kapcsolat megszakadását a folytatás után."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:116
-msgid ""
-"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power "
-"gating. This keeps the chip in d3hot (PCIe link alive) during suspend."
-msgstr ""
-"Néhány Realtek RTL8852BE/CE chip nem tud újra inicializálódni a d3cold "
-"áramellátás lekapcsolása után. Ez a chipet d3hot állapotban (PCIe kapcsolat "
-"aktív) tartja a felfüggesztés alatt."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:124
-msgid "Display and Keyboard"
-msgstr "Kijelző és Billentyűzet"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:125
-msgid "Preserve brightness and LED state across suspend."
-msgstr "Tartsa meg a fényerőt és az LED állapotát a felfüggesztés alatt."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:132
-msgid "Save/restore brightness on suspend"
-msgstr "Fényerő mentése/visszaállítása felfüggesztéskor"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:134
-msgid ""
-"Saves screen brightness and keyboard LEDs before suspending and restores "
-"them on resume."
-msgstr ""
-"Mentés a képernyő fényerejét és a billentyűzet LED-jeit felfüggesztés előtt,"
-" és visszaállítja azokat a folytatáskor."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:144
-msgid "GNOME Shell Extensions"
-msgstr "GNOME Shell kiterjesztések"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:145
-msgid "Automatic health check after resume."
-msgstr "Automatikus egészségellenőrzés ébresztés után."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:152
-msgid "Extension health monitor"
-msgstr "Bővítmény állapotfigyelő"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:154
-msgid ""
-"Detects GNOME Shell extensions in error state after resume and automatically"
-" restarts them."
-msgstr ""
-"Észleli a GNOME Shell kiterjesztéseket hibás állapotban a folytatás után, és"
-" automatikusan újraindítja őket."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:163
-msgid "Lid Switch"
-msgstr "Fedélkapcsoló"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:164
-msgid "Laptop lid close behavior."
-msgstr "Laptop fedél zárási viselkedése."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:171
-msgid "Suspend on lid close (AC power)"
-msgstr "Felfüggesztés fedél zárásakor (AC tápegység)"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:173
-msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
-msgstr ""
-"Néhány rendszer nem áll le, amikor hálózati áramon van. Ez kényszeríti a "
-"leállítást, amikor a fedelet bezárják."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 14
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:12
-msgid "User and Visual system settings."
-msgstr "Felhasználói és vizuális rendszerbeállítások."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 114
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:19
-msgid "NumLock"
-msgstr "NumLock"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 115
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:20
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr ""
-"Kezdő NumLock állapot. Figyelmen kívül hagyva, ha az automatikus "
-"bejelentkezés engedélyezve van."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 131
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:28
-msgid "Window Button On Left Side"
-msgstr "Ablak gomb bal oldalon"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 132
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:29
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr ""
-"Ablak bal oldalán található maximalizálás, minimalizálás és bezárás gombok."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 72
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:37
-msgid "KZones"
-msgstr "KZones"
-# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:39
-msgid "Enable window tiling zones for the KDE Plasma desktop."
-msgstr "Engedélyezze az ablakcsempézés zónáit a KDE Plasma asztalhoz."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 169
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:48
-msgid "Recent Files & Locations"
-msgstr "Legutóbbi fájlok és helyek"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 170
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:50
-msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that "
-"appears empty in Dolphin and the Application Menu."
-msgstr ""
-"Visszaállítja a 'Legutóbbi fájlok' és 'Legutóbbi helyek' funkciót, amely "
-"üresen jelenik meg a Dolphinban és az Alkalmazásmenüben."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices_page.py, line: 15
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:34
-msgid "Manage physical devices."
-msgstr "Fizikai eszközök kezelése."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 190
-#. Wifi
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
-msgid "Wifi"
-msgstr "Wifi"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
-msgid "Enable the Wi-Fi adapter."
-msgstr "Engedélyezze a Wi-Fi adaptert."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 197
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
-msgid "Enable the Bluetooth adapter."
-msgstr "Engedélyezze a Bluetooth adaptert."
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:53
+msgid "Close"
+msgstr "Bezárás"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:68
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Figyelmeztetés: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:71
+msgid "Cancel"
+msgstr "Mégse"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:72
+msgid "Continue"
+msgstr "Folytatás"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices/jamesdsp_dialog.py, line: 155
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:49
-msgid "JamesDSP"
-msgstr "JamesDSP"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/dispositivos_page.py, line: 84
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:50
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "Fejlett audioeffektus-processzor, amely javítja a hangminőséget."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices_page.py, line: 71
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:58
-msgid "Reverse mouse scrolling"
-msgstr "Fordított egér görgetés"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices_page.py, line: 72
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:59
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "Az egér görgetésének megfordítása a munkamenet újraindítása nélkül."
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:66
-msgid "Network Interfaces"
-msgstr "Hálózati interfészek"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:67
-msgid "Connect or disconnect network devices."
-msgstr "Hálózati eszközök csatlakoztatása vagy leválasztása."
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:99
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:154
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 230
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:220
+msgid "Run"
+msgstr "Futtatás"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 236
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:226
 #, python-brace-format
-msgid "{} — {}"
-msgstr "{} — {}"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:113
+msgid "{}: run action"
+msgstr "{}: művelet futtatása"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 199
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:254
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:256
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:484
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:530
 #, python-brace-format
-msgid "{}: toggle connection"
-msgstr "{}: kapcsolat váltása"
+msgid "Script not found: {}"
+msgstr "A szkript nem található: {}"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
@@ -733,71 +643,214 @@ msgstr "{}: kapcsolat váltása"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:751
 msgid "Applying…"
 msgstr "Alkalmazás…"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
-msgid "connected"
-msgstr "csatlakoztatva"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
-msgid "disconnected"
-msgstr "kapcsolat megszakítva"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:161
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 289
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:279
 #, python-brace-format
-msgid "Failed to change network device: {}"
-msgstr "Hálózati eszköz módosítása nem sikerült: {}"
+msgid "Action script {} failed: {}"
+msgstr "A {} műveleti szkript sikertelen: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 294
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:284
+#, python-brace-format
+msgid "Action script timeout: {}"
+msgstr "Action script timeout: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 297
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:287
+#, python-brace-format
+msgid "Error running action script {}: {}"
+msgstr "Hiba a {} műveleti szkript futtatásakor: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 307
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:297
+msgid "Action completed successfully"
+msgstr "Művelet sikeresen befejeződött"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 310
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:300
+#, python-brace-format
+msgid "Action failed: {}"
+msgstr "Művelet sikertelen: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:333
+msgid "Recommended"
+msgstr "Ajánlott"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:356
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:444
+#, python-brace-format
+msgid "{}: additional information"
+msgstr "{}: kiegészítő információ"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:369
+msgid "Learn more"
+msgstr "Tudj meg többet"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:375
+#, python-brace-format
+msgid "{}: learn more"
+msgstr "{}: további információk"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 103
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:10
-msgid "Preload"
-msgstr "Előbetöltés"
+# settings/system_usability_page.py, line: 206
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 105
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:11
-msgid "Preload applications into memory to open them faster."
-msgstr ""
-"Előregisztrálja az alkalmazásokat a memóriába, hogy gyorsabban nyithassa meg"
-" őket."
+# settings/preload_page.py, line: 165
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:483
+msgid "Unavailable: script not found."
+msgstr "Nem elérhető: a szkript nem található."
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 120
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:18
-msgid "Firefox"
-msgstr "Firefox"
+# settings/system_usability_page.py, line: 218
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 126
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:19
-msgid "Brave"
-msgstr "Brave"
+# settings/preload_page.py, line: 177
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:494
+msgid "Enabled"
+msgstr "Engedélyezve"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 132
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:20
-msgid "Chrome"
-msgstr "Chrome"
+# settings/system_usability_page.py, line: 220
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 138
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:21
-msgid "Chromium"
-msgstr "Króm"
+# settings/preload_page.py, line: 179
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:496
+msgid "Disabled"
+msgstr "Letiltva"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 126
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:22
-msgid "Librewolf"
-msgstr "Librewolf"
+# settings/system_usability_page.py, line: 223
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 144
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:23
-msgid "Palemoon"
-msgstr "Palemoon"
+# settings/preload_page.py, line: 182
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:502
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "A rendszerkonfiguráció engedélyezte (pl. Valós idejű kernel), és itt nem módosítható."
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 516
+#: NEEDS WORK
+msgid "Unavailable in this desktop environment."
+msgstr "Nem elérhető ebben az asztali környezetben."
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 150
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:24
-msgid "Opera"
-msgstr "Opera"
+# settings/system_usability_page.py, line: 225
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 156
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:25
-msgid "Libreoffice"
-msgstr "LibreOffice"
+# settings/preload_page.py, line: 184
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:506
+msgid "Unavailable: script returned invalid output."
+msgstr "Nem elérhető: a szkript érvénytelen kimenetet adott vissza."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py,
+# line: 261
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:508
+#, python-brace-format
+msgid "output from script {}: {}"
+msgstr "A szkript kimenete {}: {}"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 188
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:514
+msgid "Unavailable: script returned an error."
+msgstr "Nem elérhető: a szkript hibaüzenetet adott vissza."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 184
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:515
+#, python-brace-format
+msgid "Error checking state: {}"
+msgstr "Hibaellenőrzési állapot: {}"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 192
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:518
+msgid "Unavailable: failed to run script."
+msgstr "Nem elérhető: a szkript futtatása nem sikerült."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 193
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 220
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:519
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:568
+#, python-brace-format
+msgid "Error running script {}: {}"
+msgstr "Hiba a szkript futtatása közben {}: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 209
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:544
+msgid "State changed successfully"
+msgstr "Állapot sikeresen megváltozott"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 211
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:546
+#, python-brace-format
+msgid "Script output: {}"
+msgstr "{}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 215
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:550
+#. Exit code != 0 indicates failure
+#, python-brace-format
+msgid "Script failed with exit code: {}"
+msgstr "A szkript hibával leállt a következő kóddal: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 217
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:564
+#, python-brace-format
+msgid "Script timeout: {}"
+msgstr "Script időtúllépés: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:596
+#, python-brace-format
+msgid "{} sub-options available"
+msgstr "{} elérhető alkérdések"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
+msgid "on"
+msgstr "beállítva"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
+msgid "off"
+msgstr "ki."
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:699
+#, python-brace-format
+msgid "Changing {} to {}…"
+msgstr "{}-t {}-ra változtatás…"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:701
+msgid "Undo"
+msgstr "Visszavonás"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:725
+msgid "Undo: reverted toggle"
+msgstr "Visszavonás: visszaállított kapcsoló"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 244
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:741
+#, python-brace-format
+msgid "Changing {} to {}"
+msgstr "A {} átkonvertálása {}-ra"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 271
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:771
+#, python-brace-format
+msgid "ERROR: Failed to change {} to {}"
+msgstr "HIBA: A {}-t {}-ra nem sikerült megváltoztatni."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 274
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:776
+#, python-brace-format
+msgid "Failed to change setting: {}"
+msgstr "A beállítás módosítása nem sikerült: {}"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 30
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:15
@@ -816,6 +869,21 @@ msgstr "Ollama Szerver"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:24
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Válaszd ki, melyik Ollama szerver a legjobb a hardveredhez."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:32
+msgid "Update Ollama"
+msgstr "Ollama frissítése"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:33
+msgid "Update the installed Ollama packages to the latest version."
+msgstr "A telepített Ollama-csomagok frissítése a legújabb verzióra."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:36
+msgid "Update now"
+msgstr "Frissítés most"
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:43
 msgid "Ollama Variants"
@@ -833,8 +901,7 @@ msgstr "ChatAI"
 # line: 47
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:52
 msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
-msgstr ""
-"Különböző csevegések, mint a Plasmoid, a KDE Plasma asztali környezetedhez."
+msgstr "Különböző csevegések, mint a Plasmoid, a KDE Plasma asztali környezetedhez."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 127
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:59
@@ -853,8 +920,7 @@ msgstr "Csevegőablak"
 # line: 136
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:68
 msgid "User-friendly Desktop Client App for AI Models/LLMs."
-msgstr ""
-"Felhasználóbarát Asztali Kliensek Alkalmazás AI Modellekhez/LLM-ekhez."
+msgstr "Felhasználóbarát Asztali Kliensek Alkalmazás AI Modellekhez/LLM-ekhez."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 143
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:75
@@ -863,12 +929,8 @@ msgstr "LM Stúdió"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 144
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:77
-msgid ""
-"LM Studio - A desktop app for exploring and running large language models "
-"locally."
-msgstr ""
-"LM Stúdió - Asztali alkalmazás nagy nyelvi modellek helyi felfedezésére és "
-"futtatására."
+msgid "LM Studio - A desktop app for exploring and running large language models locally."
+msgstr "LM Stúdió - Asztali alkalmazás nagy nyelvi modellek helyi felfedezésére és futtatására."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
@@ -878,6 +940,46 @@ msgstr ""
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:194
 msgid "Open Notebook"
 msgstr "Nyitott Jegyzetfüzet"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:87
+msgid "Open-source, privacy-focused alternative to Google's NotebookLM. Requires Docker enabled."
+msgstr ""
+"Nyílt forráskódú, adatvédelmet előtérbe helyező alternatíva a Google NotebookLM-hez. Docker "
+"engedélyezése szükséges."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 201
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:94
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:201
+msgid "Open Notebook Server"
+msgstr "Open Notebook szerver megnyitása"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 202
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:95
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:202
+msgid "Start the Open Notebook server."
+msgstr "Az Open Notebook szerver elindítása."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
+# line: 190
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:100
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:207
+#, python-brace-format
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"Az Open Notebook fut.  \n"
+"Cím: http://localhost:8502  \n"
+"és  \n"
+"Cím: http://{}:8502"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 87
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:107
@@ -1005,8 +1107,7 @@ msgstr "Ollama Nvidia CUDA"
 # line: 110
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:169
 msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
-msgstr ""
-"Helyi AI szerver. Újabb Nvidia GPU-khoz, a 2000-as sorozattól kezdődően."
+msgstr "Helyi AI szerver. Újabb Nvidia GPU-khoz, a 2000-as sorozattól kezdődően."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 91
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:188
@@ -1019,9 +1120,8 @@ msgid ""
 "Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
 "Consider using Vulkan, in many tests, Vulkan performed better than ROCm."
 msgstr ""
-"Helyi AI szerver. Újabb AMD GPU-khoz, a 6000 sorozattól kezdődően. Fontolja "
-"meg a Vulkan használatát, sok tesztben a Vulkan jobban teljesített, mint a "
-"ROCm."
+"Helyi AI szerver. Újabb AMD GPU-khoz, a 6000 sorozattól kezdődően. Fontolja meg a Vulkan "
+"használatát, sok tesztben a Vulkan jobban teljesített, mint a ROCm."
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:16
 msgid "Container service — enable to use containers below."
@@ -1271,326 +1371,92 @@ msgstr ""
 "Cím: http://localhost:2017  \n"
 "és  \n"
 "Cím: http://{}:2017"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
-# line: 190
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:100
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:207
-#, python-brace-format
-msgid ""
-"Open Notebook is running.\n"
-"Address: http://localhost:8502\n"
-"and\n"
-"Address: http://{}:8502"
-msgstr ""
-"Az Open Notebook fut.  \n"
-"Cím: http://localhost:8502  \n"
-"és  \n"
-"Cím: http://{}:8502"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 195
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:195
+msgid "Install the open-source alternative to Google's NotebookLM."
+msgstr "Telepítse a Google NotebookLM nyílt forráskódú alternatíváját."
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 16
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:15
-msgid "BigLinux performance tweaks."
-msgstr "BigLinux teljesítményjavítások."
+# settings/devices_page.py, line: 15
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:34
+msgid "Manage physical devices."
+msgstr "Fizikai eszközök kezelése."
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/usability/gamemode_config_dialog.py, line: 91
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:22
-msgid "Disable Visual Effects"
-msgstr "Visualis hatások letiltása"
+# settings/system_usability_page.py, line: 190
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
+#. Wifi
+msgid "Wifi"
+msgstr "Wifi"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
+msgid "Enable the Wi-Fi adapter."
+msgstr "Engedélyezze a Wi-Fi adaptert."
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 35
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:24
-msgid ""
-"Disables KWin visual effects (blur, shadows, animations). Reduces GPU load "
-"and frees memory."
-msgstr ""
-"Letiltja a KWin vizuális effektusait (elmosódás, árnyékok, animációk). "
-"Csökkenti a GPU terhelését és felszabadítja a memóriát."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 63
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:32
-msgid "CPU Maximum Performance"
-msgstr "CPU Maximális Teljesítmény"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 51
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:34
-msgid ""
-"Forces maximum processor performance mode. Ensures the processor uses "
-"maximum frequency."
-msgstr ""
-"Maximális processzor teljesítmény módra kényszerít. Biztosítja, hogy a "
-"processzor a maximális frekvenciát használja."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 79
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:42
-msgid "Disable Baloo Indexer"
-msgstr "Baloo indexert letiltása"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 67
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:43
-msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
-msgstr "Letiltja a Baloo fájlindexelőt. Elkerüli a lemez I/O terhelést."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/usability/gamemode_config_dialog.py, line: 136
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:51
-msgid "Unload S.M.A.R.T Monitor"
-msgstr "S.M.A.R.T Monitor kiürítése"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 83
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:52
-msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
-msgstr ""
-"Letiltja a S.M.A.R.T lemezfigyelést. Csökkenti a lemez I/O és a CPU "
-"használatát."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 169
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:60
-msgid "Meltdown Mitigations off"
-msgstr "Meltdown mérséklések kikapcsolva"
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:62
-msgid "Using mitigations=off will make your machine faster and less secure!"
-msgstr ""
-"A mitigációk kikapcsolása gyorsabbá és kevésbé biztonsossá teszi a gépét!"
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:67
-msgid ""
-"This will disable CPU security mitigations (Meltdown/Spectre). Your system "
-"will be faster but vulnerable to hardware-level attacks. Are you sure you "
-"want to continue?"
-msgstr ""
-"Ez letiltja a CPU biztonsági intézkedéseit (Meltdown/Spectre). A rendszere "
-"gyorsabb lesz, de sebezhető a hardver szintű támadásokkal szemben. Biztos "
-"benne, hogy folytatni akarja?"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 176
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:74
-msgid "noWatchdog"
-msgstr "nincsFelügyelő"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 177
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:76
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high"
-" performance but removing automatic protections against system crashes."
-msgstr ""
-"Letiltja a hardveres figyelő és a TSC óraforrás rendszereket, fenntartva a "
-"magas teljesítményt, de eltávolítva az automatikus védelmet a "
-"rendszerösszeomlások ellen."
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:81
-msgid ""
-"This will disable the hardware watchdog. Your system will no longer "
-"automatically recover from certain types of crashes. Are you sure you want "
-"to continue?"
-msgstr ""
-"Ez letiltja a hardveres figyelőt. A rendszered már nem fog automatikusan "
-"helyreállni bizonyos típusú összeomlásokból. Biztosan folytatni szeretnéd?"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:53
-msgid "Close"
-msgstr "Bezárás"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:68
-#, python-brace-format
-msgid "Warning: {}"
-msgstr "Figyelmeztetés: {}"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:71
-msgid "Cancel"
-msgstr "Mégse"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:72
-msgid "Continue"
-msgstr "Folytatás"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:333
-msgid "Recommended"
-msgstr "Ajánlott"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:356
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:444
-#, python-brace-format
-msgid "{}: additional information"
-msgstr "{}: kiegészítő információ"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:369
-msgid "Learn more"
-msgstr "Tudj meg többet"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:375
-#, python-brace-format
-msgid "{}: learn more"
-msgstr "{}: további információk"
+# settings/system_usability_page.py, line: 197
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
+msgid "Enable the Bluetooth adapter."
+msgstr "Engedélyezze a Bluetooth adaptert."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 206
+# settings/dispositivos_page.py, line: 77
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 165
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:483
-msgid "Unavailable: script not found."
-msgstr "Nem elérhető: a szkript nem található."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 173
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 199
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:254
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:256
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:484
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:530
+# settings/devices/jamesdsp_dialog.py, line: 155
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:49
+msgid "JamesDSP"
+msgstr "JamesDSP"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/dispositivos_page.py, line: 84
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:50
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Fejlett audioeffektus-processzor, amely javítja a hangminőséget."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices_page.py, line: 71
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:58
+msgid "Reverse mouse scrolling"
+msgstr "Fordított egér görgetés"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices_page.py, line: 72
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:59
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "Az egér görgetésének megfordítása a munkamenet újraindítása nélkül."
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:66
+msgid "Network Interfaces"
+msgstr "Hálózati interfészek"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:67
+msgid "Connect or disconnect network devices."
+msgstr "Hálózati eszközök csatlakoztatása vagy leválasztása."
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:99
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:154
 #, python-brace-format
-msgid "Script not found: {}"
-msgstr "A szkript nem található: {}"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 218
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 177
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:494
-msgid "Enabled"
-msgstr "Engedélyezve"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 220
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 179
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:496
-msgid "Disabled"
-msgstr "Letiltva"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 223
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 182
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:502
-msgid ""
-"Enabled by system configuration (e.g., Real-Time Kernel) and cannot be "
-"changed here."
-msgstr ""
-"A rendszerkonfiguráció engedélyezte (pl. Valós idejű kernel), és itt nem "
-"módosítható."
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 225
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 184
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:506
-msgid "Unavailable: script returned invalid output."
-msgstr "Nem elérhető: a szkript érvénytelen kimenetet adott vissza."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py,
-# line: 261
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:508
+msgid "{} — {}"
+msgstr "{} — {}"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:113
 #, python-brace-format
-msgid "output from script {}: {}"
-msgstr "A szkript kimenete {}: {}"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 229
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 188
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:514
-msgid "Unavailable: script returned an error."
-msgstr "Nem elérhető: a szkript hibaüzenetet adott vissza."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 184
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:515
+msgid "{}: toggle connection"
+msgstr "{}: kapcsolat váltása"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
+msgid "connected"
+msgstr "csatlakoztatva"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
+msgid "disconnected"
+msgstr "kapcsolat megszakítva"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:161
 #, python-brace-format
-msgid "Error checking state: {}"
-msgstr "Hibaellenőrzési állapot: {}"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 233
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 192
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:518
-msgid "Unavailable: failed to run script."
-msgstr "Nem elérhető: a szkript futtatása nem sikerült."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 193
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 220
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:519
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:568
-#, python-brace-format
-msgid "Error running script {}: {}"
-msgstr "Hiba a szkript futtatása közben {}: {}"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 209
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:544
-msgid "State changed successfully"
-msgstr "Állapot sikeresen megváltozott"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 211
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:546
-#, python-brace-format
-msgid "Script output: {}"
-msgstr "{}"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 215
-#. Exit code != 0 indicates failure
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:550
-#, python-brace-format
-msgid "Script failed with exit code: {}"
-msgstr "A szkript hibával leállt a következő kóddal: {}"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 217
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:564
-#, python-brace-format
-msgid "Script timeout: {}"
-msgstr "Script időtúllépés: {}"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:596
-#, python-brace-format
-msgid "{} sub-options available"
-msgstr "{} elérhető alkérdések"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
-msgid "on"
-msgstr "beállítva"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
-msgid "off"
-msgstr "ki."
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:699
-#, python-brace-format
-msgid "Changing {} to {}…"
-msgstr "{}-t {}-ra változtatás…"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:701
-msgid "Undo"
-msgstr "Visszavonás"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:725
-msgid "Undo: reverted toggle"
-msgstr "Visszavonás: visszaállított kapcsoló"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 244
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:741
-#, python-brace-format
-msgid "Changing {} to {}"
-msgstr "A {} átkonvertálása {}-ra"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 271
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:771
-#, python-brace-format
-msgid "ERROR: Failed to change {} to {}"
-msgstr "HIBA: A {}-t {}-ra nem sikerült megváltoztatni."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 274
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:776
-#, python-brace-format
-msgid "Failed to change setting: {}"
-msgstr "A beállítás módosítása nem sikerült: {}"
+msgid "Failed to change network device: {}"
+msgstr "Hálózati eszköz módosítása nem sikerült: {}"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:13
@@ -1632,6 +1498,16 @@ msgstr "Gyors Grub"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:38
 msgid "Decreases grub display time."
 msgstr "Csökkenti a grub megjelenítési időt."
+# 
+# File: usr/share/biglinux/biglinux-settings/system_page.py, line: 47
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:47
+msgid "Boot messages"
+msgstr "Rendszerindítási üzenetek"
+# 
+# File: usr/share/biglinux/biglinux-settings/system_page.py, line: 48
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:48
+msgid "Show system messages below the boot animation."
+msgstr "Rendszerüzenetek megjelenítése a rendszerindító animáció alatt."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 170
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:56
@@ -1642,141 +1518,274 @@ msgstr "Automatikus csatolás partíciók"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:57
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Automatikus partíciók csatolása a belső lemezeken indításkor."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:28
-msgid "No Ollama packages are installed. Enable an Ollama variant first."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:75
+msgid "Sleep Mode"
+msgstr "Alvó üzemmód"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:76
+msgid "Configure how the system suspends."
+msgstr "Állítsa be, hogyan felfüggeszti a rendszert."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:83
+msgid "Use s2idle (light sleep)"
+msgstr "Használja a s2idle-t (könnyű alvás)"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:85
+msgid "Uses a lighter sleep mode that preserves Fn keys and device state. Recommended for ASUS notebooks."
 msgstr ""
-"Nincsenek telepítve Ollama-csomagok. Először engedélyezzen egy Ollama-"
-"változatot."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:37
-msgid "Updating Ollama"
-msgstr "Ollama frissítése"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:38
-msgid "Synchronizing repositories and updating Ollama, please wait..."
-msgstr "Adattárak szinkronizálása és az Ollama frissítése, kérjük, várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:50
-msgid "Ollama updated successfully!"
-msgstr "Az Ollama sikeresen frissült!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:53
-msgid "Failed to update Ollama."
-msgstr "Az Ollama frissítése sikertelen."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:25
-msgid "OpenClaude Install"
-msgstr "OpenClaude telepítése"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:26
-msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
-msgstr ""
-"OpenClaude telepítése (nodejs, npm, ripgrep szükséges), kérjük, várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:28
-msgid "OpenClaude Uninstall"
-msgstr "OpenClaude eltávolítása"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:29
-msgid "Uninstalling OpenClaude, please wait..."
-msgstr "OpenClaude eltávolítása, kérjük, várjon..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:56
+"Könnyebb alvó üzemmódot használ, amely megőrzi az Fn billentyűket és az eszköz állapotát. Ajánlott "
+"ASUS noteszgépekhez."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:91
 msgid ""
-"OpenClaude installed successfully!\\n\\nRun 'openclaude' in a terminal to "
-"start."
+"S3 deep sleep can cause the Embedded Controller to stop generating hotkey interrupts. s2idle keeps "
+"the EC powered, avoiding this issue at a small cost in battery consumption."
 msgstr ""
-"Az OpenClaude sikeresen telepítve!\\n\\nAz indításhoz futtassa a "
-"'openclaude' parancsot a terminálban."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:59
-msgid "OpenClaude removed successfully!"
-msgstr "Az OpenClaude sikeresen eltávolítva!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:63
-msgid "An error occurred with OpenClaude."
-msgstr "Hiba történt az OpenClaude-dal."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:47
-msgid "Boot messages"
-msgstr "Rendszerindítási üzenetek"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:48
-msgid "Show system messages below the boot animation."
-msgstr "Rendszerüzenetek megjelenítése a rendszerindító animáció alatt."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:32
-msgid "Update Ollama"
-msgstr "Ollama frissítése"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:33
-msgid "Update the installed Ollama packages to the latest version."
-msgstr "A telepített Ollama-csomagok frissítése a legújabb verzióra."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:36
-msgid "Update now"
-msgstr "Frissítés most"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:87
+"Az S3 mély alvás megakadályozhatja, hogy a Beágyazott Vezérlő forróbillentyű megszakításokat "
+"generáljon. Az s2idle fenntartja az EC áramellátását, elkerülve ezt a problémát, kis költséggel az "
+"akkumulátor-fogyasztásban."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:100
+msgid "WiFi"
+msgstr "WiFi"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:101
+msgid "Prevent WiFi issues after suspend."
+msgstr "Megakadályozza a WiFi problémákat a felfüggesztés után."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:108
+msgid "Protect WiFi on suspend"
+msgstr "Védd a WiFi-t szüneteltetéskor"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:110
 msgid ""
-"Open-source, privacy-focused alternative to Google's NotebookLM. Requires "
-"Docker enabled."
+"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding connection loss after "
+"resume."
 msgstr ""
-"Nyílt forráskódú, adatvédelmet előtérbe helyező alternatíva a Google "
-"NotebookLM-hez. Docker engedélyezése szükséges."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:94
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:201
-msgid "Open Notebook Server"
-msgstr "Open Notebook szerver megnyitása"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:95
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:202
-msgid "Start the Open Notebook server."
-msgstr "Az Open Notebook szerver elindítása."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:220
-msgid "Run"
-msgstr "Futtatás"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:226
-#, python-brace-format
-msgid "{}: run action"
-msgstr "{}: művelet futtatása"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:279
-#, python-brace-format
-msgid "Action script {} failed: {}"
-msgstr "A {} műveleti szkript sikertelen: {}"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:284
-#, python-brace-format
-msgid "Action script timeout: {}"
-msgstr "Action script timeout: {}"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:287
-#, python-brace-format
-msgid "Error running action script {}: {}"
-msgstr "Hiba a {} műveleti szkript futtatásakor: {}"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:297
-msgid "Action completed successfully"
-msgstr "Művelet sikeresen befejeződött"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:300
-#, python-brace-format
-msgid "Action failed: {}"
-msgstr "Művelet sikertelen: {}"
+"Megakadályozza a Realtek WiFi chip teljes kikapcsolását (d3cold), elkerülve a kapcsolat "
+"megszakadását a folytatás után."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:116
+msgid ""
+"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power gating. This keeps the chip "
+"in d3hot (PCIe link alive) during suspend."
+msgstr ""
+"Néhány Realtek RTL8852BE/CE chip nem tud újra inicializálódni a d3cold áramellátás lekapcsolása "
+"után. Ez a chipet d3hot állapotban (PCIe kapcsolat aktív) tartja a felfüggesztés alatt."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:124
+msgid "Display and Keyboard"
+msgstr "Kijelző és Billentyűzet"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:125
+msgid "Preserve brightness and LED state across suspend."
+msgstr "Tartsa meg a fényerőt és az LED állapotát a felfüggesztés alatt."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:132
+msgid "Save/restore brightness on suspend"
+msgstr "Fényerő mentése/visszaállítása felfüggesztéskor"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:134
+msgid "Saves screen brightness and keyboard LEDs before suspending and restores them on resume."
+msgstr ""
+"Mentés a képernyő fényerejét és a billentyűzet LED-jeit felfüggesztés előtt, és visszaállítja "
+"azokat a folytatáskor."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:144
+msgid "GNOME Shell Extensions"
+msgstr "GNOME Shell kiterjesztések"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:145
+msgid "Automatic health check after resume."
+msgstr "Automatikus egészségellenőrzés ébresztés után."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:152
+msgid "Extension health monitor"
+msgstr "Bővítmény állapotfigyelő"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:154
+msgid "Detects GNOME Shell extensions in error state after resume and automatically restarts them."
+msgstr ""
+"Észleli a GNOME Shell kiterjesztéseket hibás állapotban a folytatás után, és automatikusan "
+"újraindítja őket."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:163
+msgid "Lid Switch"
+msgstr "Fedélkapcsoló"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:164
+msgid "Laptop lid close behavior."
+msgstr "Laptop fedél zárási viselkedése."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:171
+msgid "Suspend on lid close (AC power)"
+msgstr "Felfüggesztés fedél zárásakor (AC tápegység)"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:173
+msgid "Some systems do not suspend when on AC power. This forces suspend when the lid is closed."
+msgstr ""
+"Néhány rendszer nem áll le, amikor hálózati áramon van. Ez kényszeríti a leállítást, amikor a "
+"fedelet bezárják."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 103
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:10
+msgid "Preload"
+msgstr "Előbetöltés"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 105
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:11
+msgid "Preload applications into memory to open them faster."
+msgstr "Előregisztrálja az alkalmazásokat a memóriába, hogy gyorsabban nyithassa meg őket."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 120
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:18
+msgid "Firefox"
+msgstr "Firefox"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 126
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:19
+msgid "Brave"
+msgstr "Brave"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 132
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:20
+msgid "Chrome"
+msgstr "Chrome"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 138
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:21
+msgid "Chromium"
+msgstr "Króm"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 126
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:22
+msgid "Librewolf"
+msgstr "Librewolf"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 144
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:23
+msgid "Palemoon"
+msgstr "Palemoon"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 150
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:24
+msgid "Opera"
+msgstr "Opera"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 156
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:25
+msgid "Libreoffice"
+msgstr "LibreOffice"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 11
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:11
 msgid "AI Coding Assistants"
 msgstr "AI kódolási segédeszközök"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 12
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:12
 msgid "Open-source coding agents powered by language models."
 msgstr "Nyílt forráskódú kódolási ügynökök, nyelvi modellek által működtetve."
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 21
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:21
 msgid "OpenClaude"
 msgstr "OpenClaude"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 23
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:23
 msgid ""
-"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ "
-"models. Installs nodejs, npm and ripgrep as dependencies."
+"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ models. Installs nodejs, "
+"npm and ripgrep as dependencies."
 msgstr ""
-"Nyílt forráskódú kódolási ügynök CLI OpenAI, Gemini, DeepSeek, Ollama és "
-"200+ modellhez. Telepíti a nodejs, npm és ripgrep függőségeket."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:195
-msgid "Install the open-source alternative to Google's NotebookLM."
-msgstr "Telepítse a Google NotebookLM nyílt forráskódú alternatíváját."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:297
-msgid "Developer"
-msgstr "Fejlesztő"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
-# line: 80
-#~ msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
-#~ msgstr ""
-#~ "Egy nyílt forráskódú, adatvédelmi szempontból orientált alternatíva a Google"
-#~ " Notebook LM-hez!"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
-# line: 178
-#~ msgid ""
-#~ "Install An open source, privacy-focused alternative to Google's Notebook LM!"
-#~ msgstr ""
-#~ "Telepítés Egy nyílt forráskódú, adatvédelmi szempontból orientált "
-#~ "alternatíva a Google Notebook LM-hez!"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
-# line: 185
-#~ msgid "Run Open Notebook."
-#~ msgstr "Futtassa az Open Notebook-ot."
+"Nyílt forráskódú kódolási ügynök CLI OpenAI, Gemini, DeepSeek, Ollama és 200+ modellhez. Telepíti a "
+"nodejs, npm és ripgrep függőségeket."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 16
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:15
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux teljesítményjavítások."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/usability/gamemode_config_dialog.py, line: 91
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:22
+msgid "Disable Visual Effects"
+msgstr "Visualis hatások letiltása"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 35
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:24
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
+msgstr ""
+"Letiltja a KWin vizuális effektusait (elmosódás, árnyékok, animációk). Csökkenti a GPU terhelését "
+"és felszabadítja a memóriát."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 63
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:32
+msgid "CPU Maximum Performance"
+msgstr "CPU Maximális Teljesítmény"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 51
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:34
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr ""
+"Maximális processzor teljesítmény módra kényszerít. Biztosítja, hogy a processzor a maximális "
+"frekvenciát használja."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 79
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:42
+msgid "Disable Baloo Indexer"
+msgstr "Baloo indexert letiltása"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 67
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:43
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Letiltja a Baloo fájlindexelőt. Elkerüli a lemez I/O terhelést."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/usability/gamemode_config_dialog.py, line: 136
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:51
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "S.M.A.R.T Monitor kiürítése"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 83
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:52
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Letiltja a S.M.A.R.T lemezfigyelést. Csökkenti a lemez I/O és a CPU használatát."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 169
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:60
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown mérséklések kikapcsolva"
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:62
+msgid "Using mitigations=off will make your machine faster and less secure!"
+msgstr "A mitigációk kikapcsolása gyorsabbá és kevésbé biztonsossá teszi a gépét!"
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:67
+msgid ""
+"This will disable CPU security mitigations (Meltdown/Spectre). Your system will be faster but "
+"vulnerable to hardware-level attacks. Are you sure you want to continue?"
+msgstr ""
+"Ez letiltja a CPU biztonsági intézkedéseit (Meltdown/Spectre). A rendszere gyorsabb lesz, de "
+"sebezhető a hardver szintű támadásokkal szemben. Biztos benne, hogy folytatni akarja?"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 176
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:74
+msgid "noWatchdog"
+msgstr "nincsFelügyelő"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 177
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:76
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Letiltja a hardveres figyelő és a TSC óraforrás rendszereket, fenntartva a magas teljesítményt, de "
+"eltávolítva az automatikus védelmet a rendszerösszeomlások ellen."
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:81
+msgid ""
+"This will disable the hardware watchdog. Your system will no longer automatically recover from "
+"certain types of crashes. Are you sure you want to continue?"
+msgstr ""
+"Ez letiltja a hardveres figyelőt. A rendszered már nem fog automatikusan helyreállni bizonyos "
+"típusú összeomlásokból. Biztosan folytatni szeretnéd?"

@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the biglinux-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -15,236 +15,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:28
-msgid "comfyUI Depends Install"
-msgstr "comfyUI Riippuvuudet Asenna"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:29
-msgid "Installing comfyUI Depends, please wait..."
-msgstr "Asennetaan comfyUI Riippuvuuksia, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:47
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI Riippuvuudet asennettu onnistuneesti!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:50
-msgid "Failed to install comfyUI Depends!"
-msgstr "Asennus comfyUI epäonnistui! Riippuvuudet puuttuvat!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmd.sh:8
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpu.sh:8
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidia.sh:8
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkan.sh:8
-msgid "Ollama server is running.\\nAddress: http://localhost:11434"
-msgstr "Ollama-palvelin on käynnissä.\\nOsoite: http://localhost:11434"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:28
-msgid "ChatBox Install"
-msgstr "ChatBox Asennus"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:29
-msgid "Installing ChatBox, please wait..."
-msgstr "Asennetaan ChatBoxia, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:31
-msgid "ChatBox Uninstall"
-msgstr "ChatBoxin poistaminen"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:32
-msgid "Uninstalling ChatBox, please wait..."
-msgstr "Poistetaan ChatBoxia, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:52
-msgid "ChatBox installed successfully!"
-msgstr "ChatBox asennettu onnistuneesti!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:55
-msgid "Failed to install ChatBox!"
-msgstr "ChatBoxin asennus epäonnistui!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:28
-msgid "Ollama Lab Install"
-msgstr "Ollama Lab - Asennus"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:29
-msgid "Installing Ollama Lab, please wait..."
-msgstr "Asennetaan Ollama Labia, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:31
-msgid "Ollama Lab Uninstall"
-msgstr "Ollama Labin poistaminen"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:32
-msgid "Uninstalling Ollama Lab, please wait..."
-msgstr "Poistetaan Ollama Labia, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:52
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Lab asennettu onnistuneesti!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:55
-msgid "Failed to install Ollama Lab!"
-msgstr "Ollama Labin asennus epäonnistui!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:28
-msgid "LM Studio Install"
-msgstr "LM Studio Asennus"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:29
-msgid "Installing LM Studio, please wait..."
-msgstr "Asennetaan LM Studioa, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:31
-msgid "LM Studio Uninstall"
-msgstr "LM Studio Poista asennus"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:32
-msgid "Uninstalling LM Studio, please wait..."
-msgstr "Poistetaan LM Studioa, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:52
-msgid "LM Studio installed successfully!"
-msgstr "LM Studio asennettu onnistuneesti!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:55
-msgid "Failed to install LM Studio!"
-msgstr "LM Studion asennus epäonnistui!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:28
-msgid "Ollama Install"
-msgstr "Ollama Asennus"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:29
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:29
-msgid "Installing Ollama, please wait..."
-msgstr "Asennetaan Ollamaa, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:31
-msgid "Ollama Uninstall"
-msgstr "Ollama Poista asennus"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:32
-msgid "Uninstalling Ollama, please wait..."
-msgstr "Poistetaan Ollamaa, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:54
-msgid "Ollama installed successfully!"
-msgstr "Ollama asennettu onnistuneesti!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:57
-msgid "Failed to install Ollama!"
-msgstr "Ollaman asennus epäonnistui!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:12
-msgid "comfyUI Install...."
-msgstr "comfyUI Asennus...."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:13
-msgid "Installing comfyUI, this step takes a long time, please wait..."
-msgstr ""
-"Asennetaan comfyUI:tä, tämä vaihe vie paljon aikaa, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:15
-msgid "Uninstall comfyUI...."
-msgstr "Poista comfyUI..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:16
-msgid "Uninstalling comfyUI, please wait..."
-msgstr "Poistetaan comfyUI:ta, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:78
-msgid "comfyUI installed successfully"
-msgstr "comfyUI asennettu onnistuneesti"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:81
-msgid "comfyUI uninstalled successfully"
-msgstr "comfyUI poistettiin onnistuneesti"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:84
-msgid "Failed to install comfyUI!"
-msgstr "Asennus comfyUI:ta epäonnistui!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:28
-msgid "Ollama CUDA Install"
-msgstr "Ollama CUDA Asennus"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:29
-msgid "Installing Ollama CUDA, please wait..."
-msgstr "Asennetaan Ollama CUDA, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:31
-msgid "Ollama CUDA Uninstall"
-msgstr "Ollama CUDA Poista asennus"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:32
-msgid "Uninstalling Ollama CUDA, please wait..."
-msgstr "Poistetaan Ollama CUDAa, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:54
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA asennettu onnistuneesti!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:57
-msgid "Failed to install Ollama CUDA!"
-msgstr "Ollama CUDA:n asennus epäonnistui!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita.sh:31
-msgid ""
-"Generative AI for Krita has been successfully installed.\\n\\nOpen Krita, "
-"open an existing drawing or create a new one.\\nIn the top panel go to "
-"Settings > Panels > check the AI Image Generation box.\\n\\nIn the window "
-"that opens on the bottom right.\\nClick Configure > Local Managed Server, "
-"choose your GPU or CPU, choose the model in Workloads and click Install."
-msgstr ""
-"Generatiivinen tekoäly Kritalle on asennettu onnistuneesti.\\n\\nAvaa Krita,"
-" avaa olemassa oleva piirustus tai luo uusi.\\nYläpaneelissa siirry kohtaan "
-"Asetukset > Paneelit > valitse AI-kuvagenerointi -ruutu.\\n\\nAvaavassa "
-"ikkunassa oikeassa alakulmassa.\\nNapsauta Määritä > Paikallinen hallittu "
-"palvelin, valitse GPU tai CPU, valitse malli Työkuormista ja napsauta "
-"Asenna."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUI.sh:21
-msgid "AMD/Nvidia GPU not found!"
-msgstr "AMD/Nvidia GPU ei löytynyt!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:28
-msgid "Krita Install"
-msgstr "Krita Asennus"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:29
-msgid "Installing Krita, please wait..."
-msgstr "Asennetaan Krita, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:31
-msgid "Krita Uninstall"
-msgstr "Krita Poista asennus"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:32
-msgid "Uninstalling Krita, please wait..."
-msgstr "Poistetaan Kritaa, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:50
-msgid "Krita installed successfully!"
-msgstr "Krita asennettu onnistuneesti!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:53
-msgid "Failed to install Krita!"
-msgstr "Kritan asennus epäonnistui!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:28
-msgid "Ollama Vulkan Install"
-msgstr "Ollama Vulkan Asennus"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:31
-msgid "Ollama Vulkan Uninstall"
-msgstr "Ollama Vulkan Poista asennus"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:32
-msgid "Uninstalling Ollama Vulkan, please wait..."
-msgstr "Poistetaan Ollama Vulkania, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:54
-msgid "Ollama Vulkan installed successfully!"
-msgstr "Ollama Vulkan asennettu onnistuneesti!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:57
-msgid "Failed to install Ollama Vulkan!"
-msgstr "Ollama Vulkanin asennus epäonnistui!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:48
-#, sh-format
-msgid "Ollama shared successfully.\\nAddress: http://$localIp:11434"
-msgstr "Ollama jaettiin onnistuneesti.\\nOsoite: http://$localIp:11434"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:51
-msgid "Failed to configure Ollama sharing!"
-msgstr "Ollama-jakamisen konfigurointi epäonnistui!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:28
-msgid "Ollama ROCm Install"
-msgstr "Ollama ROCm Asennus"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:29
-msgid "Installing Ollama ROCm, please wait..."
-msgstr "Asennetaan Ollama ROCm, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:31
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm Poista asennus"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:32
-msgid "Uninstalling Ollama ROCm, please wait..."
-msgstr "Poistetaan Ollama ROCm:ia, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:54
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm asennettu onnistuneesti!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:57
-msgid "Failed to install Ollama ROCm!"
-msgstr "Ollama ROCm:n asennus epäonnistui!"
-#. 2. Starts Zenity IN THE BACKGROUND, as the user, with the full environment
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:28
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:28
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:27
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:26
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/windowButtonOnLeftSide.sh:72
-msgid "Applying, please wait..."
-msgstr "Käytetään, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:43
-msgid "GRUB updated successfully!"
-msgstr "GRUB päivitettiin onnistuneesti!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:36
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:87
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:36
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:87
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:46
-msgid "An error occurred while updating GRUB."
-msgstr "Päivityksessä tapahtui virhe GRUB:issa."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:47
-msgid "Limits updated successfully!"
-msgstr "Rajat päivitettiin onnistuneesti!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:50
-msgid "An error occurred while updating Limits."
-msgstr "Päivityksessä tapahtui virhe Limits."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleRun.sh:28
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:28
 msgid "Example Install"
@@ -269,6 +39,335 @@ msgstr "Esimerkki asennettu onnistuneesti!"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:57
 msgid "Failed to install Example!"
 msgstr "Esimerkin asennus epäonnistui!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:25
+msgid "OpenClaude Install"
+msgstr "OpenClaude Asennus"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:26
+msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
+msgstr "Asennetaan OpenClaude (vaatii nodejs, npm, ripgrep), odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:28
+msgid "OpenClaude Uninstall"
+msgstr "OpenClaude Poisto"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:29
+msgid "Uninstalling OpenClaude, please wait..."
+msgstr "Poistetaan OpenClaudea, odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:56
+msgid ""
+"OpenClaude installed successfully!\\n"
+"\\n"
+"Run 'openclaude' in a terminal to start."
+msgstr ""
+"OpenClaude asennettu onnistuneesti!\\n"
+"\\n"
+"Suorita 'openclaude' pääteikkunassa käynnistääksesi."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:59
+msgid "OpenClaude removed successfully!"
+msgstr "OpenClaude poistettu onnistuneesti!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:63
+msgid "An error occurred with OpenClaude."
+msgstr "OpenClaudeen liittyvä virhe tapahtui."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:28
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:28
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:27
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:26
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/windowButtonOnLeftSide.sh:72
+#. 2. Starts Zenity IN THE BACKGROUND, as the user, with the full environment
+msgid "Applying, please wait..."
+msgstr "Käytetään, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:28
+msgid "kzones Install"
+msgstr "kzones Asennus"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:29
+msgid "Installing Kzones, please wait..."
+msgstr "Asennetaan Kzoneja, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:47
+msgid "Kzones installed successfully!"
+msgstr "Kzones asennettiin onnistuneesti!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:28
+msgid "Recent Files enabling...."
+msgstr "Äskettäin avatut tiedostot käytössä...."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:29
+msgid "Recent Files enabling, please wait..."
+msgstr "Viimeisimmät tiedostot käytössä, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:31
+msgid "Recent Files disabling...."
+msgstr "Äskettäin käytetyt tiedostot poistettu käytöstä...."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:32
+msgid "Recent Files disabling, please wait..."
+msgstr "Äskettäin käytetyt tiedostot poistetaan käytöstä, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:136
+msgid ""
+"Recent Files successfully enabled!\\n"
+"You need to close and reopen Dolphin for it to take effect."
+msgstr ""
+"Äskettäin käytetyt tiedostot on onnistuneesti otettu käyttöön!\\n"
+"Sinun on suljettava ja avattava Dolphin uudelleen, jotta se astuu voimaan."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:139
+msgid ""
+"Recent Files successfully disable!\\n"
+"You need to close and reopen Dolphin for it to take effect."
+msgstr ""
+"Viimeisimmät tiedostot on onnistuneesti poistettu käytöstä!\\n"
+"Sinun on suljettava ja avattava Dolphin uudelleen, jotta muutos astuu voimaan."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:142
+msgid "Failed to activate Recent Files!"
+msgstr "Viimeisimpien tiedostojen aktivointi epäonnistui!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:33
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:84
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:33
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:84
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB päivitettiin onnistuneesti!\\n"
+"Käynnistä tietokoneesi uudelleen, jotta muutokset tulevat voimaan."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:36
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:87
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:36
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:87
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:46
+msgid "An error occurred while updating GRUB."
+msgstr "Päivityksessä tapahtui virhe GRUB:issa."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:46
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:46
+#. Already enabled, nothing to do. Inform zenity and exit the function
+#. gracefully.
+msgid "Already enabled. No changes made."
+msgstr "Jo käytössä. Ei muutoksia tehty."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:28
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA Asennus"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:29
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "Asennetaan Ollama CUDA, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:31
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA Poista asennus"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:32
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "Poistetaan Ollama CUDAa, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:54
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA asennettu onnistuneesti!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:57
+msgid "Failed to install Ollama CUDA!"
+msgstr "Ollama CUDA:n asennus epäonnistui!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmd.sh:8
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpu.sh:8
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidia.sh:8
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkan.sh:8
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama-palvelin on käynnissä.\\n"
+"Osoite: http://localhost:11434"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:28
+msgid "LM Studio Install"
+msgstr "LM Studio Asennus"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:29
+msgid "Installing LM Studio, please wait..."
+msgstr "Asennetaan LM Studioa, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:31
+msgid "LM Studio Uninstall"
+msgstr "LM Studio Poista asennus"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:32
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "Poistetaan LM Studioa, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:52
+msgid "LM Studio installed successfully!"
+msgstr "LM Studio asennettu onnistuneesti!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:55
+msgid "Failed to install LM Studio!"
+msgstr "LM Studion asennus epäonnistui!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUI.sh:21
+msgid "AMD/Nvidia GPU not found!"
+msgstr "AMD/Nvidia GPU ei löytynyt!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:28
+msgid "ChatBox Install"
+msgstr "ChatBox Asennus"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:29
+msgid "Installing ChatBox, please wait..."
+msgstr "Asennetaan ChatBoxia, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:31
+msgid "ChatBox Uninstall"
+msgstr "ChatBoxin poistaminen"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:32
+msgid "Uninstalling ChatBox, please wait..."
+msgstr "Poistetaan ChatBoxia, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:52
+msgid "ChatBox installed successfully!"
+msgstr "ChatBox asennettu onnistuneesti!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:55
+msgid "Failed to install ChatBox!"
+msgstr "ChatBoxin asennus epäonnistui!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:28
+msgid "Ollama Install"
+msgstr "Ollama Asennus"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:29
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:29
+msgid "Installing Ollama, please wait..."
+msgstr "Asennetaan Ollamaa, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:31
+msgid "Ollama Uninstall"
+msgstr "Ollama Poista asennus"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:32
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Poistetaan Ollamaa, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:54
+msgid "Ollama installed successfully!"
+msgstr "Ollama asennettu onnistuneesti!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:57
+msgid "Failed to install Ollama!"
+msgstr "Ollaman asennus epäonnistui!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:28
+msgid "Ollama Lab Install"
+msgstr "Ollama Lab - Asennus"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:29
+msgid "Installing Ollama Lab, please wait..."
+msgstr "Asennetaan Ollama Labia, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:31
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Labin poistaminen"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:32
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Poistetaan Ollama Labia, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:52
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab asennettu onnistuneesti!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:55
+msgid "Failed to install Ollama Lab!"
+msgstr "Ollama Labin asennus epäonnistui!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:28
+msgid "Ollama Vulkan Install"
+msgstr "Ollama Vulkan Asennus"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:31
+msgid "Ollama Vulkan Uninstall"
+msgstr "Ollama Vulkan Poista asennus"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:32
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Poistetaan Ollama Vulkania, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:54
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan asennettu onnistuneesti!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:57
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Ollama Vulkanin asennus epäonnistui!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:28
+msgid "Krita Install"
+msgstr "Krita Asennus"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:29
+msgid "Installing Krita, please wait..."
+msgstr "Asennetaan Krita, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:31
+msgid "Krita Uninstall"
+msgstr "Krita Poista asennus"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:32
+msgid "Uninstalling Krita, please wait..."
+msgstr "Poistetaan Kritaa, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:50
+msgid "Krita installed successfully!"
+msgstr "Krita asennettu onnistuneesti!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:53
+msgid "Failed to install Krita!"
+msgstr "Kritan asennus epäonnistui!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:28
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm Asennus"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:29
+msgid "Installing Ollama ROCm, please wait..."
+msgstr "Asennetaan Ollama ROCm, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:31
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm Poista asennus"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:32
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Poistetaan Ollama ROCm:ia, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:54
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm asennettu onnistuneesti!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:57
+msgid "Failed to install Ollama ROCm!"
+msgstr "Ollama ROCm:n asennus epäonnistui!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:12
+msgid "comfyUI Install...."
+msgstr "comfyUI Asennus...."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:13
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "Asennetaan comfyUI:tä, tämä vaihe vie paljon aikaa, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:15
+msgid "Uninstall comfyUI...."
+msgstr "Poista comfyUI..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:16
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "Poistetaan comfyUI:ta, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:78
+msgid "comfyUI installed successfully"
+msgstr "comfyUI asennettu onnistuneesti"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:81
+msgid "comfyUI uninstalled successfully"
+msgstr "comfyUI poistettiin onnistuneesti"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:84
+msgid "Failed to install comfyUI!"
+msgstr "Asennus comfyUI:ta epäonnistui!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:28
+msgid "comfyUI Depends Install"
+msgstr "comfyUI Riippuvuudet Asenna"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:29
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "Asennetaan comfyUI Riippuvuuksia, ole hyvä ja odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:47
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI Riippuvuudet asennettu onnistuneesti!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:50
+msgid "Failed to install comfyUI Depends!"
+msgstr "Asennus comfyUI epäonnistui! Riippuvuudet puuttuvat!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:28
+msgid "No Ollama packages are installed. Enable an Ollama variant first."
+msgstr "Yhtään Ollama-pakettia ei ole asennettu. Ota ensin käyttöön jokin Ollama-variantti."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:37
+msgid "Updating Ollama"
+msgstr "Päivitetään Ollamaa"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:38
+msgid "Synchronizing repositories and updating Ollama, please wait..."
+msgstr "Synkronoidaan tietovarastoja ja päivitetään Ollamaa, odota..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:50
+msgid "Ollama updated successfully!"
+msgstr "Ollama päivitetty onnistuneesti!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:53
+msgid "Failed to update Ollama."
+msgstr "Ollaman päivitys epäonnistui."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:48
+#, sh-format
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama jaettiin onnistuneesti.\\n"
+"Osoite: http://$localIp:11434"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:51
+msgid "Failed to configure Ollama sharing!"
+msgstr "Ollama-jakamisen konfigurointi epäonnistui!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita.sh:31
+msgid ""
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"Generatiivinen tekoäly Kritalle on asennettu onnistuneesti.\\n"
+"\\n"
+"Avaa Krita, avaa olemassa oleva piirustus tai luo uusi.\\n"
+"Yläpaneelissa siirry kohtaan Asetukset > Paneelit > valitse AI-kuvagenerointi -ruutu.\\n"
+"\\n"
+"Avaavassa ikkunassa oikeassa alakulmassa.\\n"
+"Napsauta Määritä > Paikallinen hallittu palvelin, valitse GPU tai CPU, valitse malli Työkuormista "
+"ja napsauta Asenna."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdspRun.sh:28
 msgid "JamesDSP Install"
 msgstr "JamesDSP Asennus"
@@ -281,21 +380,6 @@ msgstr "JamesDSP asennettu onnistuneesti!"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdspRun.sh:50
 msgid "Failed to install jamesDSP!"
 msgstr "JamesDSP:n asennus epäonnistui!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:33
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:84
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:33
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:84
-msgid ""
-"GRUB updated successfully!\\nRestart your computer for it to take effect."
-msgstr ""
-"GRUB päivitettiin onnistuneesti!\\nKäynnistä tietokoneesi uudelleen, jotta "
-"muutokset tulevat voimaan."
-#. Already enabled, nothing to do. Inform zenity and exit the function
-#. gracefully.
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:46
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:46
-msgid "Already enabled. No changes made."
-msgstr "Jo käytössä. Ei muutoksia tehty."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:28
 msgid "Docker Install"
 msgstr "Dockerin asennus"
@@ -339,11 +423,13 @@ msgstr "Poistetaan $package, ole hyvä ja odota..."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:61
 #, sh-format
 msgid ""
-"$title installed successfully!\\n\\nConfigured on port $port, to access use "
-"$url"
+"$title installed successfully!\\n"
+"\\n"
+"Configured on port $port, to access use $url"
 msgstr ""
-"$title asennettu onnistuneesti!\\n\\nKonfiguroitu porttiin $port, käytä $url"
-" päästäksesi käsiksi."
+"$title asennettu onnistuneesti!\\n"
+"\\n"
+"Konfiguroitu porttiin $port, käytä $url päästäksesi käsiksi."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:68
 #, sh-format
 msgid "$package removed successfully!"
@@ -352,53 +438,95 @@ msgstr "$paketti poistettu onnistuneesti!"
 #, sh-format
 msgid "An error occurred with $package."
 msgstr "Virhe tapahtui $package:n kanssa."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:28
-msgid "kzones Install"
-msgstr "kzones Asennus"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:29
-msgid "Installing Kzones, please wait..."
-msgstr "Asennetaan Kzoneja, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:47
-msgid "Kzones installed successfully!"
-msgstr "Kzones asennettiin onnistuneesti!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:28
-msgid "Recent Files enabling...."
-msgstr "Äskettäin avatut tiedostot käytössä...."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:29
-msgid "Recent Files enabling, please wait..."
-msgstr "Viimeisimmät tiedostot käytössä, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:31
-msgid "Recent Files disabling...."
-msgstr "Äskettäin käytetyt tiedostot poistettu käytöstä...."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:32
-msgid "Recent Files disabling, please wait..."
-msgstr ""
-"Äskettäin käytetyt tiedostot poistetaan käytöstä, ole hyvä ja odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:136
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:43
+msgid "GRUB updated successfully!"
+msgstr "GRUB päivitettiin onnistuneesti!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:47
+msgid "Limits updated successfully!"
+msgstr "Rajat päivitettiin onnistuneesti!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:50
+msgid "An error occurred while updating Limits."
+msgstr "Päivityksessä tapahtui virhe Limits."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 107
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:12
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:267
+msgid "Usability"
+msgstr "Käytettävyys"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 14
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:12
+msgid "User and Visual system settings."
+msgstr "Käyttäjä- ja visuaalijärjestelmäasetukset."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 114
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:19
+msgid "NumLock"
+msgstr "NumLock"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 115
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:20
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Alkuperäinen NumLock-tila. Ohitetaan, jos automaattinen kirjautuminen on käytössä."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 131
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:28
+msgid "Window Button On Left Side"
+msgstr "Ikkunapainike vasemmalla puolella"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 132
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:29
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Maksimoi, minimoi ja sulje painikkeet ikkunan vasemmalla puolella."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 72
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:37
+msgid "KZones"
+msgstr "KZones"
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:39
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "Ota käyttöön ikkunan laatoitusalueet KDE Plasma -työpöydälle."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 169
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:48
+msgid "Recent Files & Locations"
+msgstr "Viimeisimmät tiedostot ja sijainnit"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 170
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:50
 msgid ""
-"Recent Files successfully enabled!\\nYou need to close and reopen Dolphin "
-"for it to take effect."
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
 msgstr ""
-"Äskettäin käytetyt tiedostot on onnistuneesti otettu käyttöön!\\nSinun on "
-"suljettava ja avattava Dolphin uudelleen, jotta se astuu voimaan."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:139
-msgid ""
-"Recent Files successfully disable!\\nYou need to close and reopen Dolphin "
-"for it to take effect."
-msgstr ""
-"Viimeisimmät tiedostot on onnistuneesti poistettu käytöstä!\\nSinun on "
-"suljettava ja avattava Dolphin uudelleen, jotta muutos astuu voimaan."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:142
-msgid "Failed to activate Recent Files!"
-msgstr "Viimeisimpien tiedostojen aktivointi epäonnistui!"
+"Palauttaa 'Äskettäin käytetyt tiedostot' ja 'Äskettäin käytetyt sijainnit' -toiminnallisuuden, joka "
+"näkyy tyhjänä Dolphinissa ja Sovellusvalikossa."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 49
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 120
-#. Centered title
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:44
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:59
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:144
+#. Centered title
 msgid "BigLinux Settings"
 msgstr "BigLinux Asetukset"
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 49
@@ -432,35 +560,11 @@ msgid "Main Menu"
 msgstr "Päävalikko"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 108
-#. # GROUP: System ##
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:13
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:261
+#. # GROUP: System ##
 msgid "System"
 msgstr "Järjestelmä"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 107
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:12
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:267
-msgid "Usability"
-msgstr "Käytettävyys"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 158
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
@@ -490,6 +594,11 @@ msgstr "A.I."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:291
 msgid "Docker"
 msgstr "Docker"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 315
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:297
+msgid "Developer"
+msgstr "Kehittäjä"
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/performance_games_page.py, line: 181
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -524,243 +633,45 @@ msgstr "Keskeytä"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:483
 msgid "Dismiss"
 msgstr "Hylkää"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:75
-msgid "Sleep Mode"
-msgstr "Nukkumistila"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:76
-msgid "Configure how the system suspends."
-msgstr "Määritä, miten järjestelmä keskeyttää."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:83
-msgid "Use s2idle (light sleep)"
-msgstr "Käytä s2idle (kevyt uni)"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:85
-msgid ""
-"Uses a lighter sleep mode that preserves Fn keys and device state. "
-"Recommended for ASUS notebooks."
-msgstr ""
-"Käyttää kevyempää lepotilaa, joka säilyttää Fn-näppäimet ja laitteen tilan. "
-"Suositellaan ASUS-kannettaville."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:91
-msgid ""
-"S3 deep sleep can cause the Embedded Controller to stop generating hotkey "
-"interrupts. s2idle keeps the EC powered, avoiding this issue at a small cost"
-" in battery consumption."
-msgstr ""
-"S3 syvä uni voi aiheuttaa, että upotettu ohjain lakkaa tuottamasta "
-"pikavalintakatkoja. s2idle pitää EC:n virrassa, välttäen tämän ongelman "
-"pienen akun kulutuksen kustannuksella."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:100
-msgid "WiFi"
-msgstr "WiFi"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:101
-msgid "Prevent WiFi issues after suspend."
-msgstr "Estä WiFi-ongelmat lepotilan jälkeen."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:108
-msgid "Protect WiFi on suspend"
-msgstr "Suojaa WiFi lepotilassa"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:110
-msgid ""
-"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding "
-"connection loss after resume."
-msgstr ""
-"Estää Realtek WiFi -sirun täydellisen virrankatkaisun (d3cold), mikä estää "
-"yhteyden katkeamisen heräämisen jälkeen."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:116
-msgid ""
-"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power "
-"gating. This keeps the chip in d3hot (PCIe link alive) during suspend."
-msgstr ""
-"Jotkut Realtek RTL8852BE/CE -sirut epäonnistuvat uudelleenkäynnistymisessä "
-"d3cold-virrankatkaisun jälkeen. Tämä pitää sirun d3hot-tilassa (PCIe-yhteys "
-"aktiivisena) lepotilan aikana."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:124
-msgid "Display and Keyboard"
-msgstr "Näyttö ja näppäimistö"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:125
-msgid "Preserve brightness and LED state across suspend."
-msgstr "Säilytä kirkkaus ja LED-tila lepotilassa."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:132
-msgid "Save/restore brightness on suspend"
-msgstr "Tallenna/Palauta kirkkaus lepotilassa"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:134
-msgid ""
-"Saves screen brightness and keyboard LEDs before suspending and restores "
-"them on resume."
-msgstr ""
-"Tallentaa näytön kirkkauden ja näppäimistön LED-valot ennen lepotilaan "
-"siirtymistä ja palauttaa ne herätessä."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:144
-msgid "GNOME Shell Extensions"
-msgstr "GNOME Shell -laajennukset"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:145
-msgid "Automatic health check after resume."
-msgstr "Automaattinen terveyden tarkistus heräämisen jälkeen."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:152
-msgid "Extension health monitor"
-msgstr "Laajennuksen terveysvalvoja"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:154
-msgid ""
-"Detects GNOME Shell extensions in error state after resume and automatically"
-" restarts them."
-msgstr ""
-"Havaitsee GNOME Shell -laajennukset virhetilassa heräämisen jälkeen ja "
-"käynnistää ne automaattisesti uudelleen."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:163
-msgid "Lid Switch"
-msgstr "Kannen kytkin"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:164
-msgid "Laptop lid close behavior."
-msgstr "Kannettavan kannen sulkemiskäyttäytyminen."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:171
-msgid "Suspend on lid close (AC power)"
-msgstr "Lukitse kansi suljettuna (verkkovirta)"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:173
-msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
-msgstr ""
-"Jotkut järjestelmät eivät siirry lepotilaan, kun ne ovat verkkovirrassa. "
-"Tämä pakottaa lepotilan, kun kansi on suljettu."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 14
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:12
-msgid "User and Visual system settings."
-msgstr "Käyttäjä- ja visuaalijärjestelmäasetukset."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 114
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:19
-msgid "NumLock"
-msgstr "NumLock"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 115
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:20
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr ""
-"Alkuperäinen NumLock-tila. Ohitetaan, jos automaattinen kirjautuminen on "
-"käytössä."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 131
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:28
-msgid "Window Button On Left Side"
-msgstr "Ikkunapainike vasemmalla puolella"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 132
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:29
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Maksimoi, minimoi ja sulje painikkeet ikkunan vasemmalla puolella."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 72
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:37
-msgid "KZones"
-msgstr "KZones"
-# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:39
-msgid "Enable window tiling zones for the KDE Plasma desktop."
-msgstr "Ota käyttöön ikkunan laatoitusalueet KDE Plasma -työpöydälle."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 169
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:48
-msgid "Recent Files & Locations"
-msgstr "Viimeisimmät tiedostot ja sijainnit"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 170
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:50
-msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that "
-"appears empty in Dolphin and the Application Menu."
-msgstr ""
-"Palauttaa 'Äskettäin käytetyt tiedostot' ja 'Äskettäin käytetyt sijainnit' "
-"-toiminnallisuuden, joka näkyy tyhjänä Dolphinissa ja Sovellusvalikossa."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices_page.py, line: 15
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:34
-msgid "Manage physical devices."
-msgstr "Hallitse fyysisiä laitteita."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 190
-#. Wifi
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
-msgid "Wifi"
-msgstr "Wifi"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
-msgid "Enable the Wi-Fi adapter."
-msgstr "Ota Wi-Fi-sovitin käyttöön."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 197
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
-msgid "Enable the Bluetooth adapter."
-msgstr "Ota käyttöön Bluetooth-sovitin."
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:53
+msgid "Close"
+msgstr "Sulje"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:68
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Varoitus: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:71
+msgid "Cancel"
+msgstr "Peruuta"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:72
+msgid "Continue"
+msgstr "Jatka"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices/jamesdsp_dialog.py, line: 155
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:49
-msgid "JamesDSP"
-msgstr "JamesDSP"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/dispositivos_page.py, line: 84
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:50
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "Edistynyt äänenkäsittelyprosessori, joka parantaa äänenlaatua."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices_page.py, line: 71
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:58
-msgid "Reverse mouse scrolling"
-msgstr "Käänteinen hiiren vieritys"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices_page.py, line: 72
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:59
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "Käänteinen hiiren vieritys ilman istunnon uudelleenkäynnistämistä."
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:66
-msgid "Network Interfaces"
-msgstr "Verkkoliitännät"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:67
-msgid "Connect or disconnect network devices."
-msgstr "Yhdistä tai irrota verkkolaitteet."
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:99
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:154
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 230
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:220
+msgid "Run"
+msgstr "Suorita"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 236
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:226
 #, python-brace-format
-msgid "{} — {}"
-msgstr "{} — {}"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:113
+msgid "{}: run action"
+msgstr "{}: suorita toiminto"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 199
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:254
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:256
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:484
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:530
 #, python-brace-format
-msgid "{}: toggle connection"
-msgstr "{}: kytke yhteys päälle/pois"
+msgid "Script not found: {}"
+msgstr "Skriptiä ei löytynyt: {}"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
@@ -770,69 +681,214 @@ msgstr "{}: kytke yhteys päälle/pois"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:751
 msgid "Applying…"
 msgstr "Käytetään…"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
-msgid "connected"
-msgstr "yhdistetty"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
-msgid "disconnected"
-msgstr "katkaistu"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:161
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 289
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:279
 #, python-brace-format
-msgid "Failed to change network device: {}"
-msgstr "Verkon laitteen vaihtaminen epäonnistui: {}"
+msgid "Action script {} failed: {}"
+msgstr "Toimintoscriptin {} suoritus epäonnistui: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 294
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:284
+#, python-brace-format
+msgid "Action script timeout: {}"
+msgstr "Toimintoscriptin {} aikakatkaisu"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 297
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:287
+#, python-brace-format
+msgid "Error running action script {}: {}"
+msgstr "Virhe suoritettaessa toimintoscriptiä {}: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 307
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:297
+msgid "Action completed successfully"
+msgstr "Toiminto suoritettu onnistuneesti"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 310
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:300
+#, python-brace-format
+msgid "Action failed: {}"
+msgstr "Toiminto epäonnistui: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:333
+msgid "Recommended"
+msgstr "Suositeltu"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:356
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:444
+#, python-brace-format
+msgid "{}: additional information"
+msgstr "{}: lisätietoja"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:369
+msgid "Learn more"
+msgstr "Lisätietoja"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:375
+#, python-brace-format
+msgid "{}: learn more"
+msgstr "{}: lue lisää"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 103
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:10
-msgid "Preload"
-msgstr "Esilataus"
+# settings/system_usability_page.py, line: 206
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 105
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:11
-msgid "Preload applications into memory to open them faster."
-msgstr "Esilataa sovelluksia muistiin avatakseen ne nopeammin."
+# settings/preload_page.py, line: 165
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:483
+msgid "Unavailable: script not found."
+msgstr "Ei saatavilla: skriptiä ei löytynyt."
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 120
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:18
-msgid "Firefox"
-msgstr "Firefox"
+# settings/system_usability_page.py, line: 218
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 126
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:19
-msgid "Brave"
-msgstr "Brave"
+# settings/preload_page.py, line: 177
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:494
+msgid "Enabled"
+msgstr "Oma käytössä"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 132
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:20
-msgid "Chrome"
-msgstr "Chrome"
+# settings/system_usability_page.py, line: 220
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 138
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:21
-msgid "Chromium"
-msgstr "Chromium"
+# settings/preload_page.py, line: 179
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:496
+msgid "Disabled"
+msgstr "Poistettu käytöstä"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 126
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:22
-msgid "Librewolf"
-msgstr "Librewolf"
+# settings/system_usability_page.py, line: 223
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 144
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:23
-msgid "Palemoon"
-msgstr "Palemoon"
+# settings/preload_page.py, line: 182
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:502
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "Oletettu järjestelmäasetusten (esim. Reaaliaikainen ydin) avulla, eikä sitä voida muuttaa täällä."
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 516
+#: NEEDS WORK
+msgid "Unavailable in this desktop environment."
+msgstr "Ei saatavilla tässä työpöytäympäristössä."
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 150
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:24
-msgid "Opera"
-msgstr "Opera"
+# settings/system_usability_page.py, line: 225
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 156
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:25
-msgid "Libreoffice"
-msgstr "LibreOffice"
+# settings/preload_page.py, line: 184
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:506
+msgid "Unavailable: script returned invalid output."
+msgstr "Ei saatavilla: skripti palautti virheellisen tuloksen."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py,
+# line: 261
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:508
+#, python-brace-format
+msgid "output from script {}: {}"
+msgstr "skriptin tulos {}: {}"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 188
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:514
+msgid "Unavailable: script returned an error."
+msgstr "Ei saatavilla: skripti palautti virheen."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 184
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:515
+#, python-brace-format
+msgid "Error checking state: {}"
+msgstr "Virheen tarkistustila: {}"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 192
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:518
+msgid "Unavailable: failed to run script."
+msgstr "Ei saatavilla: skriptin suorittaminen epäonnistui."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 193
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 220
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:519
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:568
+#, python-brace-format
+msgid "Error running script {}: {}"
+msgstr "Virhe skriptin suorittamisessa {}: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 209
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:544
+msgid "State changed successfully"
+msgstr "Tila muutettu onnistuneesti"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 211
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:546
+#, python-brace-format
+msgid "Script output: {}"
+msgstr "{}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 215
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:550
+#. Exit code != 0 indicates failure
+#, python-brace-format
+msgid "Script failed with exit code: {}"
+msgstr "Skripti epäonnistui poistumiskoodilla: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 217
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:564
+#, python-brace-format
+msgid "Script timeout: {}"
+msgstr "Skripti aikakatkaisu: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:596
+#, python-brace-format
+msgid "{} sub-options available"
+msgstr "{} alivalinnat saatavilla"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
+msgid "on"
+msgstr "päällä"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
+msgid "off"
+msgstr "pois päältä"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:699
+#, python-brace-format
+msgid "Changing {} to {}…"
+msgstr "Muutetaan {} {}:ksi…"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:701
+msgid "Undo"
+msgstr "Kumoa"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:725
+msgid "Undo: reverted toggle"
+msgstr "Kumoa: palautettu kytkin"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 244
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:741
+#, python-brace-format
+msgid "Changing {} to {}"
+msgstr "Muutetaan {} {}:ksi"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 271
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:771
+#, python-brace-format
+msgid "ERROR: Failed to change {} to {}"
+msgstr "VIRHE: Muutosta {} {} ei voitu suorittaa."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 274
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:776
+#, python-brace-format
+msgid "Failed to change setting: {}"
+msgstr "Asetuksen muuttaminen epäonnistui: {}"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 30
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:15
@@ -851,6 +907,21 @@ msgstr "Ollama-palvelin"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:24
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Valitse, mikä Ollama-palvelin on paras laitteistollasi."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:32
+msgid "Update Ollama"
+msgstr "Päivitä Ollama"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:33
+msgid "Update the installed Ollama packages to the latest version."
+msgstr "Päivitä asennetut Ollama-paketit uusimpaan versioon."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:36
+msgid "Update now"
+msgstr "Päivitä nyt"
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:43
 msgid "Ollama Variants"
@@ -896,12 +967,8 @@ msgstr "LM Studio"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 144
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:77
-msgid ""
-"LM Studio - A desktop app for exploring and running large language models "
-"locally."
-msgstr ""
-"LM Studio - Työpöytäsovellus suurten kielimallien tutkimiseen ja "
-"suorittamiseen paikallisesti."
+msgid "LM Studio - A desktop app for exploring and running large language models locally."
+msgstr "LM Studio - Työpöytäsovellus suurten kielimallien tutkimiseen ja suorittamiseen paikallisesti."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
@@ -911,6 +978,46 @@ msgstr ""
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:194
 msgid "Open Notebook"
 msgstr "Avaa muistikirja"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:87
+msgid "Open-source, privacy-focused alternative to Google's NotebookLM. Requires Docker enabled."
+msgstr ""
+"Avoimen lähdekoodin, yksityisyyteen keskittyvä vaihtoehto Googlen NotebookLM:lle. Vaatii Dockerin "
+"käyttöönoton."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 201
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:94
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:201
+msgid "Open Notebook Server"
+msgstr "Avaa Notebook-palvelin"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 202
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:95
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:202
+msgid "Start the Open Notebook server."
+msgstr "Käynnistä Open Notebook -palvelin."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
+# line: 190
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:100
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:207
+#, python-brace-format
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"Avoin muistikirja on käynnissä.  \n"
+"Osoite: http://localhost:8502  \n"
+"ja  \n"
+"Osoite: http://{}:8502"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 87
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:107
@@ -1028,8 +1135,7 @@ msgstr "Ollama Vulkan"
 # line: 75
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:149
 msgid "Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."
-msgstr ""
-"Paikallinen AI-palvelin. CPU:ille, AMD/Nvidia ja integroiduille GPU:ille."
+msgstr "Paikallinen AI-palvelin. CPU:ille, AMD/Nvidia ja integroiduille GPU:ille."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 109
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:168
@@ -1039,8 +1145,7 @@ msgstr "Ollama Nvidia CUDA"
 # line: 110
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:169
 msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
-msgstr ""
-"Paikallinen AI-palvelin. Uudemmille Nvidia GPU:ille, alkaen 2000-sarjasta."
+msgstr "Paikallinen AI-palvelin. Uudemmille Nvidia GPU:ille, alkaen 2000-sarjasta."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 91
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:188
@@ -1053,9 +1158,8 @@ msgid ""
 "Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
 "Consider using Vulkan, in many tests, Vulkan performed better than ROCm."
 msgstr ""
-"Paikallinen AI-palvelin. Uudemmille AMD GPU:ille, alkaen 6000-sarjasta. "
-"Harkitse Vulkanin käyttöä, monissa testeissä Vulkan suoriutui paremmin kuin "
-"ROCm."
+"Paikallinen AI-palvelin. Uudemmille AMD GPU:ille, alkaen 6000-sarjasta. Harkitse Vulkanin käyttöä, "
+"monissa testeissä Vulkan suoriutui paremmin kuin ROCm."
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:16
 msgid "Container service — enable to use containers below."
@@ -1305,329 +1409,92 @@ msgstr ""
 "Osoite: http://localhost:2017  \n"
 "ja  \n"
 "Osoite: http://{}:2017"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
-# line: 190
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:100
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:207
-#, python-brace-format
-msgid ""
-"Open Notebook is running.\n"
-"Address: http://localhost:8502\n"
-"and\n"
-"Address: http://{}:8502"
-msgstr ""
-"Avoin muistikirja on käynnissä.  \n"
-"Osoite: http://localhost:8502  \n"
-"ja  \n"
-"Osoite: http://{}:8502"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 195
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:195
+msgid "Install the open-source alternative to Google's NotebookLM."
+msgstr "Asenna avoimen lähdekoodin vaihtoehto Googlen NotebookLM:lle."
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 16
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:15
-msgid "BigLinux performance tweaks."
-msgstr "BigLinux-suorituskyvyn säätöjä."
+# settings/devices_page.py, line: 15
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:34
+msgid "Manage physical devices."
+msgstr "Hallitse fyysisiä laitteita."
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/usability/gamemode_config_dialog.py, line: 91
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:22
-msgid "Disable Visual Effects"
-msgstr "Poista visuaaliset tehosteet käytöstä"
+# settings/system_usability_page.py, line: 190
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
+#. Wifi
+msgid "Wifi"
+msgstr "Wifi"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
+msgid "Enable the Wi-Fi adapter."
+msgstr "Ota Wi-Fi-sovitin käyttöön."
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 35
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:24
-msgid ""
-"Disables KWin visual effects (blur, shadows, animations). Reduces GPU load "
-"and frees memory."
-msgstr ""
-"Poistaa KWin-visuaaliset tehosteet (sumeus, varjot, animaatiot). Vähentää "
-"GPU-kuormitusta ja vapauttaa muistia."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 63
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:32
-msgid "CPU Maximum Performance"
-msgstr "CPU:n maksimaalinen suorituskyky"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 51
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:34
-msgid ""
-"Forces maximum processor performance mode. Ensures the processor uses "
-"maximum frequency."
-msgstr ""
-"Pakottaa prosessorin maksimisuorituskykytilaan. Varmistaa, että prosessori "
-"käyttää maksimi taajuutta."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 79
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:42
-msgid "Disable Baloo Indexer"
-msgstr "Poista Baloo-indeksoija käytöstä"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 67
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:43
-msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
-msgstr ""
-"Poistaa käytöstä Baloo-tiedostoindexerin. Vältetään levyn "
-"I/O-ylikuormitusta."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/usability/gamemode_config_dialog.py, line: 136
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:51
-msgid "Unload S.M.A.R.T Monitor"
-msgstr "Purkaa S.M.A.R.T Monitor"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 83
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:52
-msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
-msgstr ""
-"Poistaa käytöstä S.M.A.R.T-levyn valvonnan. Vähentää levyn I/O:ta ja CPU:n "
-"käyttöä."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 169
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:60
-msgid "Meltdown Mitigations off"
-msgstr "Meltdown-mitigoinnit pois päältä"
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:62
-msgid "Using mitigations=off will make your machine faster and less secure!"
-msgstr ""
-"Käyttämällä mitigations=off koneesi on nopeampi mutta vähemmän turvallinen!"
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:67
-msgid ""
-"This will disable CPU security mitigations (Meltdown/Spectre). Your system "
-"will be faster but vulnerable to hardware-level attacks. Are you sure you "
-"want to continue?"
-msgstr ""
-"Tämä poistaa käytöstä CPU:n tietoturvatoimenpiteet (Meltdown/Spectre). "
-"Järjestelmäsi on nopeampi, mutta altis laitteistotason hyökkäyksille. Oletko"
-" varma, että haluat jatkaa?"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 176
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:74
-msgid "noWatchdog"
-msgstr "eiValvoja"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 177
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:76
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high"
-" performance but removing automatic protections against system crashes."
-msgstr ""
-"Poistaa käytöstä laitteiston valvontakellon ja TSC-aikakellolähteet, "
-"säilyttäen korkean suorituskyvyn mutta poistaen automaattiset suojat "
-"järjestelmän kaatumisia vastaan."
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:81
-msgid ""
-"This will disable the hardware watchdog. Your system will no longer "
-"automatically recover from certain types of crashes. Are you sure you want "
-"to continue?"
-msgstr ""
-"Tämä poistaa käytöstä laitteiston valvontakellon. Järjestelmäsi ei enää "
-"automaattisesti palaudu tietyntyyppisistä kaatumisista. Oletko varma, että "
-"haluat jatkaa?"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:53
-msgid "Close"
-msgstr "Sulje"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:68
-#, python-brace-format
-msgid "Warning: {}"
-msgstr "Varoitus: {}"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:71
-msgid "Cancel"
-msgstr "Peruuta"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:72
-msgid "Continue"
-msgstr "Jatka"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:333
-msgid "Recommended"
-msgstr "Suositeltu"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:356
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:444
-#, python-brace-format
-msgid "{}: additional information"
-msgstr "{}: lisätietoja"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:369
-msgid "Learn more"
-msgstr "Lisätietoja"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:375
-#, python-brace-format
-msgid "{}: learn more"
-msgstr "{}: lue lisää"
+# settings/system_usability_page.py, line: 197
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
+msgid "Enable the Bluetooth adapter."
+msgstr "Ota käyttöön Bluetooth-sovitin."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 206
+# settings/dispositivos_page.py, line: 77
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 165
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:483
-msgid "Unavailable: script not found."
-msgstr "Ei saatavilla: skriptiä ei löytynyt."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 173
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 199
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:254
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:256
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:484
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:530
+# settings/devices/jamesdsp_dialog.py, line: 155
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:49
+msgid "JamesDSP"
+msgstr "JamesDSP"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/dispositivos_page.py, line: 84
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:50
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Edistynyt äänenkäsittelyprosessori, joka parantaa äänenlaatua."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices_page.py, line: 71
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:58
+msgid "Reverse mouse scrolling"
+msgstr "Käänteinen hiiren vieritys"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices_page.py, line: 72
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:59
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "Käänteinen hiiren vieritys ilman istunnon uudelleenkäynnistämistä."
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:66
+msgid "Network Interfaces"
+msgstr "Verkkoliitännät"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:67
+msgid "Connect or disconnect network devices."
+msgstr "Yhdistä tai irrota verkkolaitteet."
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:99
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:154
 #, python-brace-format
-msgid "Script not found: {}"
-msgstr "Skriptiä ei löytynyt: {}"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 218
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 177
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:494
-msgid "Enabled"
-msgstr "Oma käytössä"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 220
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 179
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:496
-msgid "Disabled"
-msgstr "Poistettu käytöstä"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 223
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 182
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:502
-msgid ""
-"Enabled by system configuration (e.g., Real-Time Kernel) and cannot be "
-"changed here."
-msgstr ""
-"Oletettu järjestelmäasetusten (esim. Reaaliaikainen ydin) avulla, eikä sitä "
-"voida muuttaa täällä."
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 225
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 184
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:506
-msgid "Unavailable: script returned invalid output."
-msgstr "Ei saatavilla: skripti palautti virheellisen tuloksen."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py,
-# line: 261
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:508
+msgid "{} — {}"
+msgstr "{} — {}"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:113
 #, python-brace-format
-msgid "output from script {}: {}"
-msgstr "skriptin tulos {}: {}"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 229
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 188
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:514
-msgid "Unavailable: script returned an error."
-msgstr "Ei saatavilla: skripti palautti virheen."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 184
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:515
+msgid "{}: toggle connection"
+msgstr "{}: kytke yhteys päälle/pois"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
+msgid "connected"
+msgstr "yhdistetty"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
+msgid "disconnected"
+msgstr "katkaistu"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:161
 #, python-brace-format
-msgid "Error checking state: {}"
-msgstr "Virheen tarkistustila: {}"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 233
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 192
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:518
-msgid "Unavailable: failed to run script."
-msgstr "Ei saatavilla: skriptin suorittaminen epäonnistui."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 193
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 220
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:519
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:568
-#, python-brace-format
-msgid "Error running script {}: {}"
-msgstr "Virhe skriptin suorittamisessa {}: {}"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 209
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:544
-msgid "State changed successfully"
-msgstr "Tila muutettu onnistuneesti"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 211
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:546
-#, python-brace-format
-msgid "Script output: {}"
-msgstr "{}"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 215
-#. Exit code != 0 indicates failure
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:550
-#, python-brace-format
-msgid "Script failed with exit code: {}"
-msgstr "Skripti epäonnistui poistumiskoodilla: {}"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 217
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:564
-#, python-brace-format
-msgid "Script timeout: {}"
-msgstr "Skripti aikakatkaisu: {}"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:596
-#, python-brace-format
-msgid "{} sub-options available"
-msgstr "{} alivalinnat saatavilla"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
-msgid "on"
-msgstr "päällä"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
-msgid "off"
-msgstr "pois päältä"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:699
-#, python-brace-format
-msgid "Changing {} to {}…"
-msgstr "Muutetaan {} {}:ksi…"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:701
-msgid "Undo"
-msgstr "Kumoa"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:725
-msgid "Undo: reverted toggle"
-msgstr "Kumoa: palautettu kytkin"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 244
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:741
-#, python-brace-format
-msgid "Changing {} to {}"
-msgstr "Muutetaan {} {}:ksi"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 271
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:771
-#, python-brace-format
-msgid "ERROR: Failed to change {} to {}"
-msgstr "VIRHE: Muutosta {} {} ei voitu suorittaa."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 274
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:776
-#, python-brace-format
-msgid "Failed to change setting: {}"
-msgstr "Asetuksen muuttaminen epäonnistui: {}"
+msgid "Failed to change network device: {}"
+msgstr "Verkon laitteen vaihtaminen epäonnistui: {}"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:13
@@ -1669,6 +1536,16 @@ msgstr "Nopea Grub"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:38
 msgid "Decreases grub display time."
 msgstr "Vähentää grub-näytön aikaa."
+# 
+# File: usr/share/biglinux/biglinux-settings/system_page.py, line: 47
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:47
+msgid "Boot messages"
+msgstr "Käynnistysviestit"
+# 
+# File: usr/share/biglinux/biglinux-settings/system_page.py, line: 48
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:48
+msgid "Show system messages below the boot animation."
+msgstr "Näytä järjestelmäviestit käynnistysanimaation alla."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 170
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:56
@@ -1678,144 +1555,274 @@ msgstr "Automaattisesti liitetyt osiot"
 # 171
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:57
 msgid "Auto mount partitions in internal disks on boot."
+msgstr "Automaattisesti liitä osiot sisäisillä levyillä käynnistyksen yhteydessä."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:75
+msgid "Sleep Mode"
+msgstr "Nukkumistila"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:76
+msgid "Configure how the system suspends."
+msgstr "Määritä, miten järjestelmä keskeyttää."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:83
+msgid "Use s2idle (light sleep)"
+msgstr "Käytä s2idle (kevyt uni)"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:85
+msgid "Uses a lighter sleep mode that preserves Fn keys and device state. Recommended for ASUS notebooks."
 msgstr ""
-"Automaattisesti liitä osiot sisäisillä levyillä käynnistyksen yhteydessä."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:28
-msgid "No Ollama packages are installed. Enable an Ollama variant first."
-msgstr ""
-"Yhtään Ollama-pakettia ei ole asennettu. Ota ensin käyttöön jokin Ollama-"
-"variantti."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:37
-msgid "Updating Ollama"
-msgstr "Päivitetään Ollamaa"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:38
-msgid "Synchronizing repositories and updating Ollama, please wait..."
-msgstr "Synkronoidaan tietovarastoja ja päivitetään Ollamaa, odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:50
-msgid "Ollama updated successfully!"
-msgstr "Ollama päivitetty onnistuneesti!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:53
-msgid "Failed to update Ollama."
-msgstr "Ollaman päivitys epäonnistui."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:25
-msgid "OpenClaude Install"
-msgstr "OpenClaude Asennus"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:26
-msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
-msgstr "Asennetaan OpenClaude (vaatii nodejs, npm, ripgrep), odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:28
-msgid "OpenClaude Uninstall"
-msgstr "OpenClaude Poisto"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:29
-msgid "Uninstalling OpenClaude, please wait..."
-msgstr "Poistetaan OpenClaudea, odota..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:56
+"Käyttää kevyempää lepotilaa, joka säilyttää Fn-näppäimet ja laitteen tilan. Suositellaan "
+"ASUS-kannettaville."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:91
 msgid ""
-"OpenClaude installed successfully!\\n\\nRun 'openclaude' in a terminal to "
-"start."
+"S3 deep sleep can cause the Embedded Controller to stop generating hotkey interrupts. s2idle keeps "
+"the EC powered, avoiding this issue at a small cost in battery consumption."
 msgstr ""
-"OpenClaude asennettu onnistuneesti!\\n\\nSuorita 'openclaude' pääteikkunassa"
-" käynnistääksesi."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:59
-msgid "OpenClaude removed successfully!"
-msgstr "OpenClaude poistettu onnistuneesti!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:63
-msgid "An error occurred with OpenClaude."
-msgstr "OpenClaudeen liittyvä virhe tapahtui."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:47
-msgid "Boot messages"
-msgstr "Käynnistysviestit"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:48
-msgid "Show system messages below the boot animation."
-msgstr "Näytä järjestelmäviestit käynnistysanimaation alla."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:32
-msgid "Update Ollama"
-msgstr "Päivitä Ollama"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:33
-msgid "Update the installed Ollama packages to the latest version."
-msgstr "Päivitä asennetut Ollama-paketit uusimpaan versioon."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:36
-msgid "Update now"
-msgstr "Päivitä nyt"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:87
+"S3 syvä uni voi aiheuttaa, että upotettu ohjain lakkaa tuottamasta pikavalintakatkoja. s2idle pitää "
+"EC:n virrassa, välttäen tämän ongelman pienen akun kulutuksen kustannuksella."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:100
+msgid "WiFi"
+msgstr "WiFi"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:101
+msgid "Prevent WiFi issues after suspend."
+msgstr "Estä WiFi-ongelmat lepotilan jälkeen."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:108
+msgid "Protect WiFi on suspend"
+msgstr "Suojaa WiFi lepotilassa"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:110
 msgid ""
-"Open-source, privacy-focused alternative to Google's NotebookLM. Requires "
-"Docker enabled."
+"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding connection loss after "
+"resume."
 msgstr ""
-"Avoimen lähdekoodin, yksityisyyteen keskittyvä vaihtoehto Googlen "
-"NotebookLM:lle. Vaatii Dockerin käyttöönoton."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:94
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:201
-msgid "Open Notebook Server"
-msgstr "Avaa Notebook-palvelin"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:95
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:202
-msgid "Start the Open Notebook server."
-msgstr "Käynnistä Open Notebook -palvelin."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:220
-msgid "Run"
-msgstr "Suorita"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:226
-#, python-brace-format
-msgid "{}: run action"
-msgstr "{}: suorita toiminto"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:279
-#, python-brace-format
-msgid "Action script {} failed: {}"
-msgstr "Toimintoscriptin {} suoritus epäonnistui: {}"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:284
-#, python-brace-format
-msgid "Action script timeout: {}"
-msgstr "Toimintoscriptin {} aikakatkaisu"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:287
-#, python-brace-format
-msgid "Error running action script {}: {}"
-msgstr "Virhe suoritettaessa toimintoscriptiä {}: {}"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:297
-msgid "Action completed successfully"
-msgstr "Toiminto suoritettu onnistuneesti"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:300
-#, python-brace-format
-msgid "Action failed: {}"
-msgstr "Toiminto epäonnistui: {}"
+"Estää Realtek WiFi -sirun täydellisen virrankatkaisun (d3cold), mikä estää yhteyden katkeamisen "
+"heräämisen jälkeen."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:116
+msgid ""
+"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power gating. This keeps the chip "
+"in d3hot (PCIe link alive) during suspend."
+msgstr ""
+"Jotkut Realtek RTL8852BE/CE -sirut epäonnistuvat uudelleenkäynnistymisessä d3cold-virrankatkaisun "
+"jälkeen. Tämä pitää sirun d3hot-tilassa (PCIe-yhteys aktiivisena) lepotilan aikana."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:124
+msgid "Display and Keyboard"
+msgstr "Näyttö ja näppäimistö"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:125
+msgid "Preserve brightness and LED state across suspend."
+msgstr "Säilytä kirkkaus ja LED-tila lepotilassa."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:132
+msgid "Save/restore brightness on suspend"
+msgstr "Tallenna/Palauta kirkkaus lepotilassa"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:134
+msgid "Saves screen brightness and keyboard LEDs before suspending and restores them on resume."
+msgstr ""
+"Tallentaa näytön kirkkauden ja näppäimistön LED-valot ennen lepotilaan siirtymistä ja palauttaa ne "
+"herätessä."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:144
+msgid "GNOME Shell Extensions"
+msgstr "GNOME Shell -laajennukset"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:145
+msgid "Automatic health check after resume."
+msgstr "Automaattinen terveyden tarkistus heräämisen jälkeen."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:152
+msgid "Extension health monitor"
+msgstr "Laajennuksen terveysvalvoja"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:154
+msgid "Detects GNOME Shell extensions in error state after resume and automatically restarts them."
+msgstr ""
+"Havaitsee GNOME Shell -laajennukset virhetilassa heräämisen jälkeen ja käynnistää ne "
+"automaattisesti uudelleen."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:163
+msgid "Lid Switch"
+msgstr "Kannen kytkin"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:164
+msgid "Laptop lid close behavior."
+msgstr "Kannettavan kannen sulkemiskäyttäytyminen."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:171
+msgid "Suspend on lid close (AC power)"
+msgstr "Lukitse kansi suljettuna (verkkovirta)"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:173
+msgid "Some systems do not suspend when on AC power. This forces suspend when the lid is closed."
+msgstr ""
+"Jotkut järjestelmät eivät siirry lepotilaan, kun ne ovat verkkovirrassa. Tämä pakottaa lepotilan, "
+"kun kansi on suljettu."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 103
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:10
+msgid "Preload"
+msgstr "Esilataus"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 105
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:11
+msgid "Preload applications into memory to open them faster."
+msgstr "Esilataa sovelluksia muistiin avatakseen ne nopeammin."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 120
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:18
+msgid "Firefox"
+msgstr "Firefox"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 126
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:19
+msgid "Brave"
+msgstr "Brave"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 132
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:20
+msgid "Chrome"
+msgstr "Chrome"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 138
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:21
+msgid "Chromium"
+msgstr "Chromium"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 126
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:22
+msgid "Librewolf"
+msgstr "Librewolf"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 144
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:23
+msgid "Palemoon"
+msgstr "Palemoon"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 150
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:24
+msgid "Opera"
+msgstr "Opera"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 156
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:25
+msgid "Libreoffice"
+msgstr "LibreOffice"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 11
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:11
 msgid "AI Coding Assistants"
 msgstr "Tekoälyavusteiset koodausohjelmat"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 12
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:12
 msgid "Open-source coding agents powered by language models."
-msgstr ""
-"Avoimen lähdekoodin koodausagentit, jotka toimivat kielimallien avulla."
+msgstr "Avoimen lähdekoodin koodausagentit, jotka toimivat kielimallien avulla."
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 21
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:21
 msgid "OpenClaude"
 msgstr "OpenClaude"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 23
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:23
 msgid ""
-"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ "
-"models. Installs nodejs, npm and ripgrep as dependencies."
+"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ models. Installs nodejs, "
+"npm and ripgrep as dependencies."
 msgstr ""
-"Avoimen lähdekoodin koodausagentin CLI OpenAI:lle, Geminille, DeepSeekille, "
-"Ollamalle ja yli 200 mallille. Asentaa nodejs:n, npm:n ja ripgrep:n "
-"riippuvuuksina."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:195
-msgid "Install the open-source alternative to Google's NotebookLM."
-msgstr "Asenna avoimen lähdekoodin vaihtoehto Googlen NotebookLM:lle."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:297
-msgid "Developer"
-msgstr "Kehittäjä"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
-# line: 80
-#~ msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
-#~ msgstr ""
-#~ "Avoimen lähdekoodin, yksityisyyteen keskittyvä vaihtoehto Googlen Notebook "
-#~ "LM:lle!"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
-# line: 178
-#~ msgid ""
-#~ "Install An open source, privacy-focused alternative to Google's Notebook LM!"
-#~ msgstr ""
-#~ "Asenna avoimen lähdekoodin, yksityisyyteen keskittyvä vaihtoehto Googlen "
-#~ "Notebook LM:lle!"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
-# line: 185
-#~ msgid "Run Open Notebook."
-#~ msgstr "Avaa Avoin Muistikirja."
+"Avoimen lähdekoodin koodausagentin CLI OpenAI:lle, Geminille, DeepSeekille, Ollamalle ja yli 200 "
+"mallille. Asentaa nodejs:n, npm:n ja ripgrep:n riippuvuuksina."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 16
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:15
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux-suorituskyvyn säätöjä."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/usability/gamemode_config_dialog.py, line: 91
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:22
+msgid "Disable Visual Effects"
+msgstr "Poista visuaaliset tehosteet käytöstä"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 35
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:24
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
+msgstr ""
+"Poistaa KWin-visuaaliset tehosteet (sumeus, varjot, animaatiot). Vähentää GPU-kuormitusta ja "
+"vapauttaa muistia."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 63
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:32
+msgid "CPU Maximum Performance"
+msgstr "CPU:n maksimaalinen suorituskyky"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 51
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:34
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr ""
+"Pakottaa prosessorin maksimisuorituskykytilaan. Varmistaa, että prosessori käyttää maksimi "
+"taajuutta."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 79
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:42
+msgid "Disable Baloo Indexer"
+msgstr "Poista Baloo-indeksoija käytöstä"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 67
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:43
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Poistaa käytöstä Baloo-tiedostoindexerin. Vältetään levyn I/O-ylikuormitusta."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/usability/gamemode_config_dialog.py, line: 136
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:51
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "Purkaa S.M.A.R.T Monitor"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 83
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:52
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Poistaa käytöstä S.M.A.R.T-levyn valvonnan. Vähentää levyn I/O:ta ja CPU:n käyttöä."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 169
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:60
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown-mitigoinnit pois päältä"
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:62
+msgid "Using mitigations=off will make your machine faster and less secure!"
+msgstr "Käyttämällä mitigations=off koneesi on nopeampi mutta vähemmän turvallinen!"
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:67
+msgid ""
+"This will disable CPU security mitigations (Meltdown/Spectre). Your system will be faster but "
+"vulnerable to hardware-level attacks. Are you sure you want to continue?"
+msgstr ""
+"Tämä poistaa käytöstä CPU:n tietoturvatoimenpiteet (Meltdown/Spectre). Järjestelmäsi on nopeampi, "
+"mutta altis laitteistotason hyökkäyksille. Oletko varma, että haluat jatkaa?"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 176
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:74
+msgid "noWatchdog"
+msgstr "eiValvoja"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 177
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:76
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Poistaa käytöstä laitteiston valvontakellon ja TSC-aikakellolähteet, säilyttäen korkean "
+"suorituskyvyn mutta poistaen automaattiset suojat järjestelmän kaatumisia vastaan."
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:81
+msgid ""
+"This will disable the hardware watchdog. Your system will no longer automatically recover from "
+"certain types of crashes. Are you sure you want to continue?"
+msgstr ""
+"Tämä poistaa käytöstä laitteiston valvontakellon. Järjestelmäsi ei enää automaattisesti palaudu "
+"tietyntyyppisistä kaatumisista. Oletko varma, että haluat jatkaa?"

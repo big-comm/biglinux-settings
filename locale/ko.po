@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the biglinux-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -15,232 +15,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:28
-msgid "comfyUI Depends Install"
-msgstr "comfyUI 의존성 설치"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:29
-msgid "Installing comfyUI Depends, please wait..."
-msgstr "comfyUI 설치 중 의존성, 잠시 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:47
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI 의존성이 성공적으로 설치되었습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:50
-msgid "Failed to install comfyUI Depends!"
-msgstr "comfyUI 설치 실패! 의존성 문제!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmd.sh:8
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpu.sh:8
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidia.sh:8
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkan.sh:8
-msgid "Ollama server is running.\\nAddress: http://localhost:11434"
-msgstr "Ollama 서버가 실행 중입니다.\\n주소: http://localhost:11434"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:28
-msgid "ChatBox Install"
-msgstr "챗박스 설치"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:29
-msgid "Installing ChatBox, please wait..."
-msgstr "ChatBox 설치 중입니다. 잠시만 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:31
-msgid "ChatBox Uninstall"
-msgstr "채팅 상자 제거"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:32
-msgid "Uninstalling ChatBox, please wait..."
-msgstr "ChatBox를 제거하는 중입니다. 잠시만 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:52
-msgid "ChatBox installed successfully!"
-msgstr "ChatBox가 성공적으로 설치되었습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:55
-msgid "Failed to install ChatBox!"
-msgstr "ChatBox 설치에 실패했습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:28
-msgid "Ollama Lab Install"
-msgstr "올라마 실험실 설치"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:29
-msgid "Installing Ollama Lab, please wait..."
-msgstr "Ollama Lab 설치 중입니다. 잠시만 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:31
-msgid "Ollama Lab Uninstall"
-msgstr "Ollama Lab 제거"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:32
-msgid "Uninstalling Ollama Lab, please wait..."
-msgstr "Ollama Lab를 제거하는 중입니다. 잠시만 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:52
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Lab가 성공적으로 설치되었습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:55
-msgid "Failed to install Ollama Lab!"
-msgstr "Ollama Lab 설치에 실패했습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:28
-msgid "LM Studio Install"
-msgstr "LM 스튜디오 설치"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:29
-msgid "Installing LM Studio, please wait..."
-msgstr "LM 스튜디오 설치 중입니다. 잠시만 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:31
-msgid "LM Studio Uninstall"
-msgstr "LM 스튜디오 제거"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:32
-msgid "Uninstalling LM Studio, please wait..."
-msgstr "LM 스튜디오를 제거하는 중입니다. 잠시만 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:52
-msgid "LM Studio installed successfully!"
-msgstr "LM 스튜디오가 성공적으로 설치되었습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:55
-msgid "Failed to install LM Studio!"
-msgstr "LM Studio 설치에 실패했습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:28
-msgid "Ollama Install"
-msgstr "올라마 설치"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:29
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:29
-msgid "Installing Ollama, please wait..."
-msgstr "Ollama 설치 중입니다. 잠시 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:31
-msgid "Ollama Uninstall"
-msgstr "Ollama 제거"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:32
-msgid "Uninstalling Ollama, please wait..."
-msgstr "Ollama를 제거하는 중입니다. 잠시만 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:54
-msgid "Ollama installed successfully!"
-msgstr "Ollama가 성공적으로 설치되었습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:57
-msgid "Failed to install Ollama!"
-msgstr "Ollama 설치에 실패했습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:12
-msgid "comfyUI Install...."
-msgstr "comfyUI 설치...."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:13
-msgid "Installing comfyUI, this step takes a long time, please wait..."
-msgstr "comfyUI 설치 중, 이 단계는 시간이 오래 걸립니다. 잠시만 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:15
-msgid "Uninstall comfyUI...."
-msgstr "컴피UI 제거...."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:16
-msgid "Uninstalling comfyUI, please wait..."
-msgstr "comfyUI를 제거하는 중입니다. 잠시만 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:78
-msgid "comfyUI installed successfully"
-msgstr "comfyUI가 성공적으로 설치되었습니다."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:81
-msgid "comfyUI uninstalled successfully"
-msgstr "comfyUI가 성공적으로 제거되었습니다."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:84
-msgid "Failed to install comfyUI!"
-msgstr "comfyUI 설치에 실패했습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:28
-msgid "Ollama CUDA Install"
-msgstr "Ollama CUDA 설치"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:29
-msgid "Installing Ollama CUDA, please wait..."
-msgstr "Ollama CUDA 설치 중입니다. 잠시 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:31
-msgid "Ollama CUDA Uninstall"
-msgstr "Ollama CUDA 제거"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:32
-msgid "Uninstalling Ollama CUDA, please wait..."
-msgstr "Ollama CUDA를 제거하는 중입니다. 잠시만 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:54
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA가 성공적으로 설치되었습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:57
-msgid "Failed to install Ollama CUDA!"
-msgstr "Ollama CUDA 설치에 실패했습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita.sh:31
-msgid ""
-"Generative AI for Krita has been successfully installed.\\n\\nOpen Krita, "
-"open an existing drawing or create a new one.\\nIn the top panel go to "
-"Settings > Panels > check the AI Image Generation box.\\n\\nIn the window "
-"that opens on the bottom right.\\nClick Configure > Local Managed Server, "
-"choose your GPU or CPU, choose the model in Workloads and click Install."
-msgstr ""
-"Krita용 생성적 AI가 성공적으로 설치되었습니다.\\n\\nKrita를 열고 기존 그림을 열거나 새로 만드세요.\\n상단 패널에서 "
-"설정 > 패널로 이동하여 AI 이미지 생성 상자를 선택하세요.\\n\\n오른쪽 하단에 열리는 창에서.\\n구성 > 로컬 관리 서버를 "
-"클릭하고, GPU 또는 CPU를 선택하고, 작업 부하에서 모델을 선택한 후 설치를 클릭하세요."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUI.sh:21
-msgid "AMD/Nvidia GPU not found!"
-msgstr "AMD/Nvidia GPU를 찾을 수 없습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:28
-msgid "Krita Install"
-msgstr "크리타 설치"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:29
-msgid "Installing Krita, please wait..."
-msgstr "Krita를 설치하는 중입니다. 잠시만 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:31
-msgid "Krita Uninstall"
-msgstr "Krita 제거"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:32
-msgid "Uninstalling Krita, please wait..."
-msgstr "크리타를 제거하는 중입니다. 잠시만 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:50
-msgid "Krita installed successfully!"
-msgstr "Krita가 성공적으로 설치되었습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:53
-msgid "Failed to install Krita!"
-msgstr "Krita 설치에 실패했습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:28
-msgid "Ollama Vulkan Install"
-msgstr "올라마 벌칸 설치"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:31
-msgid "Ollama Vulkan Uninstall"
-msgstr "Ollama Vulkan 제거"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:32
-msgid "Uninstalling Ollama Vulkan, please wait..."
-msgstr "Ollama Vulkan을 제거하는 중입니다. 잠시만 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:54
-msgid "Ollama Vulkan installed successfully!"
-msgstr "Ollama Vulkan이 성공적으로 설치되었습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:57
-msgid "Failed to install Ollama Vulkan!"
-msgstr "Ollama Vulkan 설치에 실패했습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:48
-#, sh-format
-msgid "Ollama shared successfully.\\nAddress: http://$localIp:11434"
-msgstr "Ollama가 성공적으로 공유되었습니다.\\n주소: http://$localIp:11434"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:51
-msgid "Failed to configure Ollama sharing!"
-msgstr "Ollama 공유 구성을 실패했습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:28
-msgid "Ollama ROCm Install"
-msgstr "Ollama ROCm 설치"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:29
-msgid "Installing Ollama ROCm, please wait..."
-msgstr "Ollama ROCm 설치 중입니다. 잠시 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:31
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm 제거"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:32
-msgid "Uninstalling Ollama ROCm, please wait..."
-msgstr "Ollama ROCm을 제거하는 중입니다. 잠시만 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:54
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm이 성공적으로 설치되었습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:57
-msgid "Failed to install Ollama ROCm!"
-msgstr "Ollama ROCm 설치에 실패했습니다!"
-#. 2. Starts Zenity IN THE BACKGROUND, as the user, with the full environment
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:28
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:28
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:27
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:26
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/windowButtonOnLeftSide.sh:72
-msgid "Applying, please wait..."
-msgstr "적용 중입니다. 잠시만 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:43
-msgid "GRUB updated successfully!"
-msgstr "GRUB이 성공적으로 업데이트되었습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:36
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:87
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:36
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:87
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:46
-msgid "An error occurred while updating GRUB."
-msgstr "GRUB을 업데이트하는 동안 오류가 발생했습니다."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:47
-msgid "Limits updated successfully!"
-msgstr "제한이 성공적으로 업데이트되었습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:50
-msgid "An error occurred while updating Limits."
-msgstr "Limits를 업데이트하는 동안 오류가 발생했습니다."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleRun.sh:28
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:28
 msgid "Example Install"
@@ -265,6 +39,334 @@ msgstr "예제가 성공적으로 설치되었습니다!"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:57
 msgid "Failed to install Example!"
 msgstr "설치에 실패했습니다 예제!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:25
+msgid "OpenClaude Install"
+msgstr "OpenClaude 설치"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:26
+msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
+msgstr "OpenClaude를 설치하는 중입니다(nodejs, npm, ripgrep 필요). 잠시 기다려 주세요..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:28
+msgid "OpenClaude Uninstall"
+msgstr "OpenClaude 제거"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:29
+msgid "Uninstalling OpenClaude, please wait..."
+msgstr "OpenClaude를 제거하는 중입니다. 잠시 기다려 주세요..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:56
+msgid ""
+"OpenClaude installed successfully!\\n"
+"\\n"
+"Run 'openclaude' in a terminal to start."
+msgstr ""
+"OpenClaude가 성공적으로 설치되었습니다!\\n"
+"\\n"
+"시작하려면 터미널에서 'openclaude'를 실행하세요."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:59
+msgid "OpenClaude removed successfully!"
+msgstr "OpenClaude가 성공적으로 제거되었습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:63
+msgid "An error occurred with OpenClaude."
+msgstr "OpenClaude에서 오류가 발생했습니다."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:28
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:28
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:27
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:26
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/windowButtonOnLeftSide.sh:72
+#. 2. Starts Zenity IN THE BACKGROUND, as the user, with the full environment
+msgid "Applying, please wait..."
+msgstr "적용 중입니다. 잠시만 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:28
+msgid "kzones Install"
+msgstr "kzones 설치"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:29
+msgid "Installing Kzones, please wait..."
+msgstr "Kzones 설치 중입니다. 잠시 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:47
+msgid "Kzones installed successfully!"
+msgstr "Kzones가 성공적으로 설치되었습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:28
+msgid "Recent Files enabling...."
+msgstr "최근 파일 활성화 중...."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:29
+msgid "Recent Files enabling, please wait..."
+msgstr "최근 파일 활성화 중, 잠시만 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:31
+msgid "Recent Files disabling...."
+msgstr "최근 파일 비활성화 중...."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:32
+msgid "Recent Files disabling, please wait..."
+msgstr "최근 파일 비활성화 중, 잠시만 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:136
+msgid ""
+"Recent Files successfully enabled!\\n"
+"You need to close and reopen Dolphin for it to take effect."
+msgstr ""
+"최근 파일이 성공적으로 활성화되었습니다!\\n"
+"변경 사항을 적용하려면 Dolphin을 닫았다가 다시 열어야 합니다."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:139
+msgid ""
+"Recent Files successfully disable!\\n"
+"You need to close and reopen Dolphin for it to take effect."
+msgstr ""
+"최근 파일이 성공적으로 비활성화되었습니다!\\n"
+"변경 사항을 적용하려면 Dolphin을 닫았다가 다시 열어야 합니다."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:142
+msgid "Failed to activate Recent Files!"
+msgstr "최근 파일을 활성화하지 못했습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:33
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:84
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:33
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:84
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB이 성공적으로 업데이트되었습니다!\\n"
+"변경 사항을 적용하려면 컴퓨터를 재시작하세요."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:36
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:87
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:36
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:87
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:46
+msgid "An error occurred while updating GRUB."
+msgstr "GRUB을 업데이트하는 동안 오류가 발생했습니다."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:46
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:46
+#. Already enabled, nothing to do. Inform zenity and exit the function
+#. gracefully.
+msgid "Already enabled. No changes made."
+msgstr "이미 활성화되었습니다. 변경 사항이 없습니다."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:28
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA 설치"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:29
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "Ollama CUDA 설치 중입니다. 잠시 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:31
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA 제거"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:32
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "Ollama CUDA를 제거하는 중입니다. 잠시만 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:54
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA가 성공적으로 설치되었습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:57
+msgid "Failed to install Ollama CUDA!"
+msgstr "Ollama CUDA 설치에 실패했습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmd.sh:8
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpu.sh:8
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidia.sh:8
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkan.sh:8
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama 서버가 실행 중입니다.\\n"
+"주소: http://localhost:11434"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:28
+msgid "LM Studio Install"
+msgstr "LM 스튜디오 설치"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:29
+msgid "Installing LM Studio, please wait..."
+msgstr "LM 스튜디오 설치 중입니다. 잠시만 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:31
+msgid "LM Studio Uninstall"
+msgstr "LM 스튜디오 제거"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:32
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "LM 스튜디오를 제거하는 중입니다. 잠시만 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:52
+msgid "LM Studio installed successfully!"
+msgstr "LM 스튜디오가 성공적으로 설치되었습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:55
+msgid "Failed to install LM Studio!"
+msgstr "LM Studio 설치에 실패했습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUI.sh:21
+msgid "AMD/Nvidia GPU not found!"
+msgstr "AMD/Nvidia GPU를 찾을 수 없습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:28
+msgid "ChatBox Install"
+msgstr "챗박스 설치"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:29
+msgid "Installing ChatBox, please wait..."
+msgstr "ChatBox 설치 중입니다. 잠시만 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:31
+msgid "ChatBox Uninstall"
+msgstr "채팅 상자 제거"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:32
+msgid "Uninstalling ChatBox, please wait..."
+msgstr "ChatBox를 제거하는 중입니다. 잠시만 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:52
+msgid "ChatBox installed successfully!"
+msgstr "ChatBox가 성공적으로 설치되었습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:55
+msgid "Failed to install ChatBox!"
+msgstr "ChatBox 설치에 실패했습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:28
+msgid "Ollama Install"
+msgstr "올라마 설치"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:29
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:29
+msgid "Installing Ollama, please wait..."
+msgstr "Ollama 설치 중입니다. 잠시 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:31
+msgid "Ollama Uninstall"
+msgstr "Ollama 제거"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:32
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Ollama를 제거하는 중입니다. 잠시만 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:54
+msgid "Ollama installed successfully!"
+msgstr "Ollama가 성공적으로 설치되었습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:57
+msgid "Failed to install Ollama!"
+msgstr "Ollama 설치에 실패했습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:28
+msgid "Ollama Lab Install"
+msgstr "올라마 실험실 설치"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:29
+msgid "Installing Ollama Lab, please wait..."
+msgstr "Ollama Lab 설치 중입니다. 잠시만 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:31
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Lab 제거"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:32
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Ollama Lab를 제거하는 중입니다. 잠시만 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:52
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab가 성공적으로 설치되었습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:55
+msgid "Failed to install Ollama Lab!"
+msgstr "Ollama Lab 설치에 실패했습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:28
+msgid "Ollama Vulkan Install"
+msgstr "올라마 벌칸 설치"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:31
+msgid "Ollama Vulkan Uninstall"
+msgstr "Ollama Vulkan 제거"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:32
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Ollama Vulkan을 제거하는 중입니다. 잠시만 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:54
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan이 성공적으로 설치되었습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:57
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Ollama Vulkan 설치에 실패했습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:28
+msgid "Krita Install"
+msgstr "크리타 설치"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:29
+msgid "Installing Krita, please wait..."
+msgstr "Krita를 설치하는 중입니다. 잠시만 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:31
+msgid "Krita Uninstall"
+msgstr "Krita 제거"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:32
+msgid "Uninstalling Krita, please wait..."
+msgstr "크리타를 제거하는 중입니다. 잠시만 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:50
+msgid "Krita installed successfully!"
+msgstr "Krita가 성공적으로 설치되었습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:53
+msgid "Failed to install Krita!"
+msgstr "Krita 설치에 실패했습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:28
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm 설치"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:29
+msgid "Installing Ollama ROCm, please wait..."
+msgstr "Ollama ROCm 설치 중입니다. 잠시 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:31
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm 제거"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:32
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Ollama ROCm을 제거하는 중입니다. 잠시만 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:54
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm이 성공적으로 설치되었습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:57
+msgid "Failed to install Ollama ROCm!"
+msgstr "Ollama ROCm 설치에 실패했습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:12
+msgid "comfyUI Install...."
+msgstr "comfyUI 설치...."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:13
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "comfyUI 설치 중, 이 단계는 시간이 오래 걸립니다. 잠시만 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:15
+msgid "Uninstall comfyUI...."
+msgstr "컴피UI 제거...."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:16
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "comfyUI를 제거하는 중입니다. 잠시만 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:78
+msgid "comfyUI installed successfully"
+msgstr "comfyUI가 성공적으로 설치되었습니다."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:81
+msgid "comfyUI uninstalled successfully"
+msgstr "comfyUI가 성공적으로 제거되었습니다."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:84
+msgid "Failed to install comfyUI!"
+msgstr "comfyUI 설치에 실패했습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:28
+msgid "comfyUI Depends Install"
+msgstr "comfyUI 의존성 설치"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:29
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "comfyUI 설치 중 의존성, 잠시 기다려 주십시오..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:47
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI 의존성이 성공적으로 설치되었습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:50
+msgid "Failed to install comfyUI Depends!"
+msgstr "comfyUI 설치 실패! 의존성 문제!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:28
+msgid "No Ollama packages are installed. Enable an Ollama variant first."
+msgstr "설치된 Ollama 패키지가 없습니다. 먼저 Ollama 변형을 활성화하세요."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:37
+msgid "Updating Ollama"
+msgstr "Ollama 업데이트 중"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:38
+msgid "Synchronizing repositories and updating Ollama, please wait..."
+msgstr "저장소를 동기화하고 Ollama를 업데이트하는 중입니다. 잠시 기다려 주세요..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:50
+msgid "Ollama updated successfully!"
+msgstr "Ollama가 성공적으로 업데이트되었습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:53
+msgid "Failed to update Ollama."
+msgstr "Ollama 업데이트에 실패했습니다."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:48
+#, sh-format
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama가 성공적으로 공유되었습니다.\\n"
+"주소: http://$localIp:11434"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:51
+msgid "Failed to configure Ollama sharing!"
+msgstr "Ollama 공유 구성을 실패했습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita.sh:31
+msgid ""
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"Krita용 생성적 AI가 성공적으로 설치되었습니다.\\n"
+"\\n"
+"Krita를 열고 기존 그림을 열거나 새로 만드세요.\\n"
+"상단 패널에서 설정 > 패널로 이동하여 AI 이미지 생성 상자를 선택하세요.\\n"
+"\\n"
+"오른쪽 하단에 열리는 창에서.\\n"
+"구성 > 로컬 관리 서버를 클릭하고, GPU 또는 CPU를 선택하고, 작업 부하에서 모델을 선택한 후 설치를 클릭하세요."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdspRun.sh:28
 msgid "JamesDSP Install"
 msgstr "JamesDSP 설치"
@@ -277,19 +379,6 @@ msgstr "JamesDSP가 성공적으로 설치되었습니다!"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdspRun.sh:50
 msgid "Failed to install jamesDSP!"
 msgstr "jamesDSP 설치에 실패했습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:33
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:84
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:33
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:84
-msgid ""
-"GRUB updated successfully!\\nRestart your computer for it to take effect."
-msgstr "GRUB이 성공적으로 업데이트되었습니다!\\n변경 사항을 적용하려면 컴퓨터를 재시작하세요."
-#. Already enabled, nothing to do. Inform zenity and exit the function
-#. gracefully.
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:46
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:46
-msgid "Already enabled. No changes made."
-msgstr "이미 활성화되었습니다. 변경 사항이 없습니다."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:28
 msgid "Docker Install"
 msgstr "도커 설치"
@@ -333,9 +422,13 @@ msgstr "$package를 제거하는 중입니다. 잠시만 기다려 주십시오.
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:61
 #, sh-format
 msgid ""
-"$title installed successfully!\\n\\nConfigured on port $port, to access use "
-"$url"
-msgstr "$title이(가) 성공적으로 설치되었습니다!\\n\\n$port 포트에서 구성되었으며, 액세스하려면 $url을(를) 사용하세요."
+"$title installed successfully!\\n"
+"\\n"
+"Configured on port $port, to access use $url"
+msgstr ""
+"$title이(가) 성공적으로 설치되었습니다!\\n"
+"\\n"
+"$port 포트에서 구성되었으며, 액세스하려면 $url을(를) 사용하세요."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:68
 #, sh-format
 msgid "$package removed successfully!"
@@ -344,252 +437,21 @@ msgstr "$패키지가 성공적으로 제거되었습니다!"
 #, sh-format
 msgid "An error occurred with $package."
 msgstr "$package에서 오류가 발생했습니다."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:28
-msgid "kzones Install"
-msgstr "kzones 설치"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:29
-msgid "Installing Kzones, please wait..."
-msgstr "Kzones 설치 중입니다. 잠시 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:47
-msgid "Kzones installed successfully!"
-msgstr "Kzones가 성공적으로 설치되었습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:28
-msgid "Recent Files enabling...."
-msgstr "최근 파일 활성화 중...."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:29
-msgid "Recent Files enabling, please wait..."
-msgstr "최근 파일 활성화 중, 잠시만 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:31
-msgid "Recent Files disabling...."
-msgstr "최근 파일 비활성화 중...."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:32
-msgid "Recent Files disabling, please wait..."
-msgstr "최근 파일 비활성화 중, 잠시만 기다려 주십시오..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:136
-msgid ""
-"Recent Files successfully enabled!\\nYou need to close and reopen Dolphin "
-"for it to take effect."
-msgstr "최근 파일이 성공적으로 활성화되었습니다!\\n변경 사항을 적용하려면 Dolphin을 닫았다가 다시 열어야 합니다."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:139
-msgid ""
-"Recent Files successfully disable!\\nYou need to close and reopen Dolphin "
-"for it to take effect."
-msgstr "최근 파일이 성공적으로 비활성화되었습니다!\\n변경 사항을 적용하려면 Dolphin을 닫았다가 다시 열어야 합니다."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:142
-msgid "Failed to activate Recent Files!"
-msgstr "최근 파일을 활성화하지 못했습니다!"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 120
-#. Centered title
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:44
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:59
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:144
-msgid "BigLinux Settings"
-msgstr "빅리눅스 설정"
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:51
-msgid "BigLinux Community"
-msgstr "빅리눅스 커뮤니티"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 144
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:181
-msgid "Search..."
-msgstr "검색..."
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:187
-msgid "Search settings"
-msgstr "검색 설정"
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:194
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:197
-msgid "Toggle navigation sidebar"
-msgstr "탐색 사이드바 전환"
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:204
-msgid "About"
-msgstr "정보"
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:208
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:211
-msgid "Main Menu"
-msgstr "메인 메뉴"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 108
-#. # GROUP: System ##
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:13
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:261
-msgid "System"
-msgstr "시스템"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:43
+msgid "GRUB updated successfully!"
+msgstr "GRUB이 성공적으로 업데이트되었습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:47
+msgid "Limits updated successfully!"
+msgstr "제한이 성공적으로 업데이트되었습니다!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:50
+msgid "An error occurred while updating Limits."
+msgstr "Limits를 업데이트하는 동안 오류가 발생했습니다."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 107
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:12
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:267
 msgid "Usability"
 msgstr "사용성"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 167
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:273
-msgid "PreLoad"
-msgstr "프리로드"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/dispositivos_page.py, line: 25
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 116
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:34
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:279
-msgid "Devices"
-msgstr "장치"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 161
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:285
-msgid "A.I."
-msgstr "인공지능"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 204
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:15
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:51
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:291
-msgid "Docker"
-msgstr "도커"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/usability/gamemode_dialog.py, line: 204
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:15
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:303
-msgid "Performance"
-msgstr "성능"
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 302
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:309
-msgid "Suspend"
-msgstr "일시 중지"
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:483
-msgid "Dismiss"
-msgstr "해제"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:75
-msgid "Sleep Mode"
-msgstr "절전 모드"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:76
-msgid "Configure how the system suspends."
-msgstr "시스템이 일시 중지되는 방식을 구성합니다."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:83
-msgid "Use s2idle (light sleep)"
-msgstr "s2idle 사용 (경량 절전 모드)"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:85
-msgid ""
-"Uses a lighter sleep mode that preserves Fn keys and device state. "
-"Recommended for ASUS notebooks."
-msgstr "Fn 키와 장치 상태를 유지하는 더 가벼운 절전 모드를 사용합니다. ASUS 노트북에 권장됩니다."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:91
-msgid ""
-"S3 deep sleep can cause the Embedded Controller to stop generating hotkey "
-"interrupts. s2idle keeps the EC powered, avoiding this issue at a small cost"
-" in battery consumption."
-msgstr ""
-"S3 깊은 수면은 임베디드 컨트롤러가 핫키 인터럽트를 생성하는 것을 중지시킬 수 있습니다. s2idle은 EC에 전원을 공급하여 이 "
-"문제를 피하며, 배터리 소비에서 약간의 비용이 발생합니다."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:100
-msgid "WiFi"
-msgstr "와이파이"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:101
-msgid "Prevent WiFi issues after suspend."
-msgstr "일시 중단 후 WiFi 문제 방지."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:108
-msgid "Protect WiFi on suspend"
-msgstr "일시 중지 시 WiFi 보호"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:110
-msgid ""
-"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding "
-"connection loss after resume."
-msgstr "Realtek WiFi 칩이 완전히 전원이 꺼지는 것을 방지하여(d3cold), 재개 후 연결 손실을 피합니다."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:116
-msgid ""
-"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power "
-"gating. This keeps the chip in d3hot (PCIe link alive) during suspend."
-msgstr ""
-"일부 Realtek RTL8852BE/CE 칩은 d3cold 전원 차단 후 재초기화에 실패합니다. 이로 인해 칩이 대기 중에 "
-"d3hot(PCIe 링크 활성 상태)에 유지됩니다."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:124
-msgid "Display and Keyboard"
-msgstr "디스플레이 및 키보드"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:125
-msgid "Preserve brightness and LED state across suspend."
-msgstr "일시 중단 시 밝기 및 LED 상태 유지."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:132
-msgid "Save/restore brightness on suspend"
-msgstr "일시 중지 시 밝기 저장/복원"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:134
-msgid ""
-"Saves screen brightness and keyboard LEDs before suspending and restores "
-"them on resume."
-msgstr "일시 중단하기 전에 화면 밝기와 키보드 LED를 저장하고, 다시 시작할 때 복원합니다."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:144
-msgid "GNOME Shell Extensions"
-msgstr "GNOME 셸 확장"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:145
-msgid "Automatic health check after resume."
-msgstr "재개 후 자동 건강 검사."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:152
-msgid "Extension health monitor"
-msgstr "확장 프로그램 상태 모니터"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:154
-msgid ""
-"Detects GNOME Shell extensions in error state after resume and automatically"
-" restarts them."
-msgstr "재개 후 오류 상태에 있는 GNOME Shell 확장을 감지하고 자동으로 다시 시작합니다."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:163
-msgid "Lid Switch"
-msgstr "뚜껑 스위치"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:164
-msgid "Laptop lid close behavior."
-msgstr "노트북 뚜껑 닫기 동작."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:171
-msgid "Suspend on lid close (AC power)"
-msgstr "덮개 닫을 때 일시 중지 (AC 전원)"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:173
-msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
-msgstr "일부 시스템은 AC 전원에서 일시 중지하지 않습니다. 이는 덮개가 닫힐 때 일시 중지를 강제합니다."
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/system_usability_page.py, line: 14
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:12
@@ -633,77 +495,152 @@ msgstr "최근 파일 및 위치"
 # settings/system_usability_page.py, line: 170
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:50
 msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that "
-"appears empty in Dolphin and the Application Menu."
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
 msgstr "Dolphin 및 애플리케이션 메뉴에서 비어 있는 '최근 파일' 및 '최근 위치' 기능을 복원합니다."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices_page.py, line: 15
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:34
-msgid "Manage physical devices."
-msgstr "물리적 장치 관리."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 190
-#. Wifi
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
-msgid "Wifi"
-msgstr "와이파이"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
-msgid "Enable the Wi-Fi adapter."
-msgstr "Wi-Fi 어댑터 활성화."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 197
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
-msgid "Bluetooth"
-msgstr "블루투스"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
-msgid "Enable the Bluetooth adapter."
-msgstr "블루투스 어댑터를 활성화합니다."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 120
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:44
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:59
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:144
+#. Centered title
+msgid "BigLinux Settings"
+msgstr "빅리눅스 설정"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 49
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:51
+msgid "BigLinux Community"
+msgstr "빅리눅스 커뮤니티"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 144
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:181
+msgid "Search..."
+msgstr "검색..."
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 185
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:187
+msgid "Search settings"
+msgstr "검색 설정"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 192
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 195
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:194
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:197
+msgid "Toggle navigation sidebar"
+msgstr "탐색 사이드바 전환"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 202
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:204
+msgid "About"
+msgstr "정보"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 209
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:208
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:211
+msgid "Main Menu"
+msgstr "메인 메뉴"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 108
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:13
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:261
+#. # GROUP: System ##
+msgid "System"
+msgstr "시스템"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 167
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:273
+msgid "PreLoad"
+msgstr "프리로드"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/dispositivos_page.py, line: 77
+# settings/dispositivos_page.py, line: 25
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 116
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:34
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:279
+msgid "Devices"
+msgstr "장치"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 161
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:285
+msgid "A.I."
+msgstr "인공지능"
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices/jamesdsp_dialog.py, line: 155
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:49
-msgid "JamesDSP"
-msgstr "제임스DSP"
+# settings/system_usability_page.py, line: 204
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:15
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:51
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:291
+msgid "Docker"
+msgstr "도커"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 315
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:297
+msgid "Developer"
+msgstr "개발자"
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/dispositivos_page.py, line: 84
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:50
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "사운드 품질을 향상시키는 고급 오디오 효과 프로세서."
+# settings/performance_games_page.py, line: 181
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices_page.py, line: 71
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:58
-msgid "Reverse mouse scrolling"
-msgstr "마우스 스크롤 반전"
+# settings/performance_games_page.py, line: 195
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices_page.py, line: 72
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:59
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "세션을 재시작하지 않고 마우스 스크롤 방향 반전."
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:66
-msgid "Network Interfaces"
-msgstr "네트워크 인터페이스"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:67
-msgid "Connect or disconnect network devices."
-msgstr "네트워크 장치를 연결하거나 연결 해제합니다."
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:99
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:154
+# settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/usability/gamemode_dialog.py, line: 204
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:15
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:303
+msgid "Performance"
+msgstr "성능"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 302
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:309
+msgid "Suspend"
+msgstr "일시 중지"
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 469
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:483
+msgid "Dismiss"
+msgstr "해제"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:53
+msgid "Close"
+msgstr "닫기"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:68
 #, python-brace-format
-msgid "{} — {}"
-msgstr "알림 — 알림 {} {}"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:113
+msgid "Warning: {}"
+msgstr "경고: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:71
+msgid "Cancel"
+msgstr "취소"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:72
+msgid "Continue"
+msgstr "계속"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 230
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:220
+msgid "Run"
+msgstr "실행"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 236
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:226
 #, python-brace-format
-msgid "{}: toggle connection"
-msgstr "{}: 연결 전환"
+msgid "{}: run action"
+msgstr "{}: 작업 실행"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 199
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:254
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:256
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:484
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:530
+#, python-brace-format
+msgid "Script not found: {}"
+msgstr "스크립트를 찾을 수 없습니다: {}"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
@@ -713,69 +650,214 @@ msgstr "{}: 연결 전환"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:751
 msgid "Applying…"
 msgstr "적용 중…"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
-msgid "connected"
-msgstr "연결됨"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
-msgid "disconnected"
-msgstr "연결 끊김"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:161
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 289
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:279
 #, python-brace-format
-msgid "Failed to change network device: {}"
-msgstr "네트워크 장치를 변경하지 못했습니다: {}"
+msgid "Action script {} failed: {}"
+msgstr "작업 스크립트 {} 실패: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 294
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:284
+#, python-brace-format
+msgid "Action script timeout: {}"
+msgstr "작업 스크립트 시간 초과: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 297
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:287
+#, python-brace-format
+msgid "Error running action script {}: {}"
+msgstr "작업 스크립트 {} 실행 중 오류 발생: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 307
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:297
+msgid "Action completed successfully"
+msgstr "작업이 성공적으로 완료되었습니다"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 310
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:300
+#, python-brace-format
+msgid "Action failed: {}"
+msgstr "작업 실패: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:333
+msgid "Recommended"
+msgstr "추천"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:356
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:444
+#, python-brace-format
+msgid "{}: additional information"
+msgstr "{}: 추가 정보"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:369
+msgid "Learn more"
+msgstr "자세히 알아보기"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:375
+#, python-brace-format
+msgid "{}: learn more"
+msgstr "{}: 자세히 알아보기"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 103
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:10
-msgid "Preload"
-msgstr "프리로드"
+# settings/system_usability_page.py, line: 206
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 105
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:11
-msgid "Preload applications into memory to open them faster."
-msgstr "애플리케이션을 메모리에 미리 로드하여 더 빠르게 열 수 있습니다."
+# settings/preload_page.py, line: 165
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:483
+msgid "Unavailable: script not found."
+msgstr "사용할 수 없음: 스크립트를 찾을 수 없습니다."
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 120
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:18
-msgid "Firefox"
-msgstr "파이어폭스"
+# settings/system_usability_page.py, line: 218
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 126
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:19
-msgid "Brave"
-msgstr "브레이브"
+# settings/preload_page.py, line: 177
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:494
+msgid "Enabled"
+msgstr "활성화됨"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 132
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:20
-msgid "Chrome"
-msgstr "크롬"
+# settings/system_usability_page.py, line: 220
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 138
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:21
-msgid "Chromium"
-msgstr "크로미움"
+# settings/preload_page.py, line: 179
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:496
+msgid "Disabled"
+msgstr "비활성화됨"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 126
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:22
-msgid "Librewolf"
-msgstr "리브레울프"
+# settings/system_usability_page.py, line: 223
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 144
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:23
-msgid "Palemoon"
-msgstr "팔레문"
+# settings/preload_page.py, line: 182
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:502
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "시스템 구성(예: 실시간 커널)에 의해 활성화되었으며 여기에서 변경할 수 없습니다."
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 516
+#: NEEDS WORK
+msgid "Unavailable in this desktop environment."
+msgstr "이 데스크탑 환경에서는 사용할 수 없습니다."
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 150
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:24
-msgid "Opera"
-msgstr "오페라"
+# settings/system_usability_page.py, line: 225
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 156
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:25
-msgid "Libreoffice"
-msgstr "리브레오피스"
+# settings/preload_page.py, line: 184
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:506
+msgid "Unavailable: script returned invalid output."
+msgstr "사용할 수 없음: 스크립트가 잘못된 출력을 반환했습니다."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py,
+# line: 261
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:508
+#, python-brace-format
+msgid "output from script {}: {}"
+msgstr "스크립트 {}의 출력: {}"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 188
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:514
+msgid "Unavailable: script returned an error."
+msgstr "사용할 수 없음: 스크립트가 오류를 반환했습니다."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 184
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:515
+#, python-brace-format
+msgid "Error checking state: {}"
+msgstr "오류 확인 상태: {}"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 192
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:518
+msgid "Unavailable: failed to run script."
+msgstr "사용할 수 없음: 스크립트 실행에 실패했습니다."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 193
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 220
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:519
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:568
+#, python-brace-format
+msgid "Error running script {}: {}"
+msgstr "스크립트 실행 오류 {}: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 209
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:544
+msgid "State changed successfully"
+msgstr "상태가 성공적으로 변경되었습니다."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 211
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:546
+#, python-brace-format
+msgid "Script output: {}"
+msgstr "스크립트 출력: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 215
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:550
+#. Exit code != 0 indicates failure
+#, python-brace-format
+msgid "Script failed with exit code: {}"
+msgstr "스크립트가 종료 코드로 실패했습니다: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 217
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:564
+#, python-brace-format
+msgid "Script timeout: {}"
+msgstr "스크립트 시간 초과: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:596
+#, python-brace-format
+msgid "{} sub-options available"
+msgstr "{} 하위 옵션 사용 가능"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
+msgid "on"
+msgstr "켜짐"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
+msgid "off"
+msgstr "꺼짐"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:699
+#, python-brace-format
+msgid "Changing {} to {}…"
+msgstr "{}를 {}로 변경 중…"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:701
+msgid "Undo"
+msgstr "실행 취소"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:725
+msgid "Undo: reverted toggle"
+msgstr "실행 취소: 되돌린 토글"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 244
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:741
+#, python-brace-format
+msgid "Changing {} to {}"
+msgstr "{}를 {}로 변경 중"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 271
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:771
+#, python-brace-format
+msgid "ERROR: Failed to change {} to {}"
+msgstr "오류: {}를 {}로 변경하지 못했습니다."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 274
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:776
+#, python-brace-format
+msgid "Failed to change setting: {}"
+msgstr "설정을 변경하지 못했습니다: {}"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 30
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:15
@@ -794,6 +876,21 @@ msgstr "올라마 서버"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:24
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "하드웨어에 가장 적합한 Ollama 서버를 선택하세요."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:32
+msgid "Update Ollama"
+msgstr "Ollama 업데이트"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:33
+msgid "Update the installed Ollama packages to the latest version."
+msgstr "설치된 Ollama 패키지를 최신 버전으로 업데이트합니다."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:36
+msgid "Update now"
+msgstr "지금 업데이트"
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:43
 msgid "Ollama Variants"
@@ -839,9 +936,7 @@ msgstr "LM 스튜디오"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 144
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:77
-msgid ""
-"LM Studio - A desktop app for exploring and running large language models "
-"locally."
+msgid "LM Studio - A desktop app for exploring and running large language models locally."
 msgstr "LM 스튜디오 - 대규모 언어 모델을 로컬에서 탐색하고 실행하기 위한 데스크톱 앱."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -852,6 +947,44 @@ msgstr "LM 스튜디오 - 대규모 언어 모델을 로컬에서 탐색하고 �
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:194
 msgid "Open Notebook"
 msgstr "노트북 열기"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:87
+msgid "Open-source, privacy-focused alternative to Google's NotebookLM. Requires Docker enabled."
+msgstr "Google NotebookLM의 오픈소스, 개인정보 보호 중심 대안입니다. Docker가 활성화되어 있어야 합니다."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 201
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:94
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:201
+msgid "Open Notebook Server"
+msgstr "Open Notebook 서버 열기"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 202
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:95
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:202
+msgid "Start the Open Notebook server."
+msgstr "Open Notebook 서버를 시작합니다."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
+# line: 190
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:100
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:207
+#, python-brace-format
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"오픈 노트북이 실행 중입니다.\n"
+"주소: http://localhost:8502\n"
+"및\n"
+"주소: http://{}:8502"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 87
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:107
@@ -991,9 +1124,7 @@ msgstr "Ollama AMD ROCm"
 msgid ""
 "Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
 "Consider using Vulkan, in many tests, Vulkan performed better than ROCm."
-msgstr ""
-"로컬 AI 서버. 6000 시리즈부터 최신 AMD GPU에 대해 지원합니다. 많은 테스트에서 Vulkan이 ROCm보다 더 나은 성능을 "
-"보였습니다."
+msgstr "로컬 AI 서버. 6000 시리즈부터 최신 AMD GPU에 대해 지원합니다. 많은 테스트에서 Vulkan이 ROCm보다 더 나은 성능을 보였습니다."
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:16
 msgid "Container service — enable to use containers below."
@@ -1243,314 +1374,92 @@ msgstr ""
 "주소: http://localhost:2017\n"
 "및\n"
 "주소: http://{}:2017"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
-# line: 190
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:100
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:207
-#, python-brace-format
-msgid ""
-"Open Notebook is running.\n"
-"Address: http://localhost:8502\n"
-"and\n"
-"Address: http://{}:8502"
-msgstr ""
-"오픈 노트북이 실행 중입니다.\n"
-"주소: http://localhost:8502\n"
-"및\n"
-"주소: http://{}:8502"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 195
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:195
+msgid "Install the open-source alternative to Google's NotebookLM."
+msgstr "Google NotebookLM의 오픈소스 대안을 설치합니다."
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 16
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:15
-msgid "BigLinux performance tweaks."
-msgstr "BigLinux 성능 조정."
+# settings/devices_page.py, line: 15
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:34
+msgid "Manage physical devices."
+msgstr "물리적 장치 관리."
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/usability/gamemode_config_dialog.py, line: 91
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:22
-msgid "Disable Visual Effects"
-msgstr "비주얼 효과 비활성화"
+# settings/system_usability_page.py, line: 190
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
+#. Wifi
+msgid "Wifi"
+msgstr "와이파이"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
+msgid "Enable the Wi-Fi adapter."
+msgstr "Wi-Fi 어댑터 활성화."
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 35
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:24
-msgid ""
-"Disables KWin visual effects (blur, shadows, animations). Reduces GPU load "
-"and frees memory."
-msgstr "KWin 시각 효과(블러, 그림자, 애니메이션)를 비활성화합니다. GPU 부하를 줄이고 메모리를 해제합니다."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 63
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:32
-msgid "CPU Maximum Performance"
-msgstr "CPU 최대 성능"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 51
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:34
-msgid ""
-"Forces maximum processor performance mode. Ensures the processor uses "
-"maximum frequency."
-msgstr "최대 프로세서 성능 모드를 강제합니다. 프로세서가 최대 주파수를 사용하도록 보장합니다."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 79
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:42
-msgid "Disable Baloo Indexer"
-msgstr "Baloo 인덱서 비활성화"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 67
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:43
-msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
-msgstr "Baloo 파일 인덱서를 비활성화합니다. 디스크 I/O 오버헤드를 피합니다."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/usability/gamemode_config_dialog.py, line: 136
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:51
-msgid "Unload S.M.A.R.T Monitor"
-msgstr "S.M.A.R.T 모니터 언로드"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 83
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:52
-msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
-msgstr "S.M.A.R.T 디스크 모니터링을 비활성화합니다. 디스크 I/O 및 CPU 사용량을 줄입니다."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 169
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:60
-msgid "Meltdown Mitigations off"
-msgstr "멜트다운 완화 비활성화"
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:62
-msgid "Using mitigations=off will make your machine faster and less secure!"
-msgstr "완화 사용=끄기를 사용하면 컴퓨터가 더 빨라지지만 보안이 낮아집니다!"
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:67
-msgid ""
-"This will disable CPU security mitigations (Meltdown/Spectre). Your system "
-"will be faster but vulnerable to hardware-level attacks. Are you sure you "
-"want to continue?"
-msgstr ""
-"이렇게 하면 CPU 보안 완화(Meltdown/Spectre)가 비활성화됩니다. 시스템이 더 빨라지지만 하드웨어 수준의 공격에 "
-"취약해집니다. 계속 진행하시겠습니까?"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 176
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:74
-msgid "noWatchdog"
-msgstr "노워치독"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 177
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:76
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high"
-" performance but removing automatic protections against system crashes."
-msgstr ""
-"하드웨어 감시 타이머 및 TSC 클록 소스 시스템을 비활성화하여 높은 성능을 유지하지만 시스템 충돌에 대한 자동 보호 기능을 제거합니다."
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:81
-msgid ""
-"This will disable the hardware watchdog. Your system will no longer "
-"automatically recover from certain types of crashes. Are you sure you want "
-"to continue?"
-msgstr ""
-"이렇게 하면 하드웨어 감시 타이머가 비활성화됩니다. 시스템이 특정 유형의 충돌에서 더 이상 자동으로 복구되지 않습니다. 계속 "
-"진행하시겠습니까?"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:53
-msgid "Close"
-msgstr "닫기"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:68
-#, python-brace-format
-msgid "Warning: {}"
-msgstr "경고: {}"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:71
-msgid "Cancel"
-msgstr "취소"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:72
-msgid "Continue"
-msgstr "계속"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:333
-msgid "Recommended"
-msgstr "추천"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:356
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:444
-#, python-brace-format
-msgid "{}: additional information"
-msgstr "{}: 추가 정보"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:369
-msgid "Learn more"
-msgstr "자세히 알아보기"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:375
-#, python-brace-format
-msgid "{}: learn more"
-msgstr "{}: 자세히 알아보기"
+# settings/system_usability_page.py, line: 197
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
+msgid "Bluetooth"
+msgstr "블루투스"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
+msgid "Enable the Bluetooth adapter."
+msgstr "블루투스 어댑터를 활성화합니다."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 206
+# settings/dispositivos_page.py, line: 77
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 165
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:483
-msgid "Unavailable: script not found."
-msgstr "사용할 수 없음: 스크립트를 찾을 수 없습니다."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 173
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 199
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:254
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:256
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:484
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:530
+# settings/devices/jamesdsp_dialog.py, line: 155
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:49
+msgid "JamesDSP"
+msgstr "제임스DSP"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/dispositivos_page.py, line: 84
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:50
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "사운드 품질을 향상시키는 고급 오디오 효과 프로세서."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices_page.py, line: 71
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:58
+msgid "Reverse mouse scrolling"
+msgstr "마우스 스크롤 반전"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices_page.py, line: 72
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:59
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "세션을 재시작하지 않고 마우스 스크롤 방향 반전."
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:66
+msgid "Network Interfaces"
+msgstr "네트워크 인터페이스"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:67
+msgid "Connect or disconnect network devices."
+msgstr "네트워크 장치를 연결하거나 연결 해제합니다."
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:99
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:154
 #, python-brace-format
-msgid "Script not found: {}"
-msgstr "스크립트를 찾을 수 없습니다: {}"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 218
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 177
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:494
-msgid "Enabled"
-msgstr "활성화됨"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 220
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 179
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:496
-msgid "Disabled"
-msgstr "비활성화됨"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 223
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 182
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:502
-msgid ""
-"Enabled by system configuration (e.g., Real-Time Kernel) and cannot be "
-"changed here."
-msgstr "시스템 구성(예: 실시간 커널)에 의해 활성화되었으며 여기에서 변경할 수 없습니다."
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 225
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 184
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:506
-msgid "Unavailable: script returned invalid output."
-msgstr "사용할 수 없음: 스크립트가 잘못된 출력을 반환했습니다."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py,
-# line: 261
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:508
+msgid "{} — {}"
+msgstr "알림 — 알림 {} {}"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:113
 #, python-brace-format
-msgid "output from script {}: {}"
-msgstr "스크립트 {}의 출력: {}"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 229
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 188
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:514
-msgid "Unavailable: script returned an error."
-msgstr "사용할 수 없음: 스크립트가 오류를 반환했습니다."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 184
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:515
+msgid "{}: toggle connection"
+msgstr "{}: 연결 전환"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
+msgid "connected"
+msgstr "연결됨"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
+msgid "disconnected"
+msgstr "연결 끊김"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:161
 #, python-brace-format
-msgid "Error checking state: {}"
-msgstr "오류 확인 상태: {}"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 233
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 192
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:518
-msgid "Unavailable: failed to run script."
-msgstr "사용할 수 없음: 스크립트 실행에 실패했습니다."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 193
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 220
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:519
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:568
-#, python-brace-format
-msgid "Error running script {}: {}"
-msgstr "스크립트 실행 오류 {}: {}"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 209
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:544
-msgid "State changed successfully"
-msgstr "상태가 성공적으로 변경되었습니다."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 211
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:546
-#, python-brace-format
-msgid "Script output: {}"
-msgstr "스크립트 출력: {}"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 215
-#. Exit code != 0 indicates failure
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:550
-#, python-brace-format
-msgid "Script failed with exit code: {}"
-msgstr "스크립트가 종료 코드로 실패했습니다: {}"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 217
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:564
-#, python-brace-format
-msgid "Script timeout: {}"
-msgstr "스크립트 시간 초과: {}"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:596
-#, python-brace-format
-msgid "{} sub-options available"
-msgstr "{} 하위 옵션 사용 가능"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
-msgid "on"
-msgstr "켜짐"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
-msgid "off"
-msgstr "꺼짐"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:699
-#, python-brace-format
-msgid "Changing {} to {}…"
-msgstr "{}를 {}로 변경 중…"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:701
-msgid "Undo"
-msgstr "실행 취소"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:725
-msgid "Undo: reverted toggle"
-msgstr "실행 취소: 되돌린 토글"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 244
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:741
-#, python-brace-format
-msgid "Changing {} to {}"
-msgstr "{}를 {}로 변경 중"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 271
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:771
-#, python-brace-format
-msgid "ERROR: Failed to change {} to {}"
-msgstr "오류: {}를 {}로 변경하지 못했습니다."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 274
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:776
-#, python-brace-format
-msgid "Failed to change setting: {}"
-msgstr "설정을 변경하지 못했습니다: {}"
+msgid "Failed to change network device: {}"
+msgstr "네트워크 장치를 변경하지 못했습니다: {}"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:13
@@ -1592,6 +1501,16 @@ msgstr "빠른 그럽"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:38
 msgid "Decreases grub display time."
 msgstr "grub 표시 시간을 줄입니다."
+# 
+# File: usr/share/biglinux/biglinux-settings/system_page.py, line: 47
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:47
+msgid "Boot messages"
+msgstr "부트 메시지"
+# 
+# File: usr/share/biglinux/biglinux-settings/system_page.py, line: 48
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:48
+msgid "Show system messages below the boot animation."
+msgstr "부트 애니메이션 아래에 시스템 메시지를 표시합니다."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 170
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:56
@@ -1602,130 +1521,251 @@ msgstr "자동 마운트 파티션"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:57
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "부팅 시 내부 디스크의 파티션 자동 마운트."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:28
-msgid "No Ollama packages are installed. Enable an Ollama variant first."
-msgstr "설치된 Ollama 패키지가 없습니다. 먼저 Ollama 변형을 활성화하세요."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:37
-msgid "Updating Ollama"
-msgstr "Ollama 업데이트 중"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:38
-msgid "Synchronizing repositories and updating Ollama, please wait..."
-msgstr "저장소를 동기화하고 Ollama를 업데이트하는 중입니다. 잠시 기다려 주세요..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:50
-msgid "Ollama updated successfully!"
-msgstr "Ollama가 성공적으로 업데이트되었습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:53
-msgid "Failed to update Ollama."
-msgstr "Ollama 업데이트에 실패했습니다."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:25
-msgid "OpenClaude Install"
-msgstr "OpenClaude 설치"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:26
-msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
-msgstr "OpenClaude를 설치하는 중입니다(nodejs, npm, ripgrep 필요). 잠시 기다려 주세요..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:28
-msgid "OpenClaude Uninstall"
-msgstr "OpenClaude 제거"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:29
-msgid "Uninstalling OpenClaude, please wait..."
-msgstr "OpenClaude를 제거하는 중입니다. 잠시 기다려 주세요..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:56
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:75
+msgid "Sleep Mode"
+msgstr "절전 모드"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:76
+msgid "Configure how the system suspends."
+msgstr "시스템이 일시 중지되는 방식을 구성합니다."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:83
+msgid "Use s2idle (light sleep)"
+msgstr "s2idle 사용 (경량 절전 모드)"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:85
+msgid "Uses a lighter sleep mode that preserves Fn keys and device state. Recommended for ASUS notebooks."
+msgstr "Fn 키와 장치 상태를 유지하는 더 가벼운 절전 모드를 사용합니다. ASUS 노트북에 권장됩니다."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:91
 msgid ""
-"OpenClaude installed successfully!\\n\\nRun 'openclaude' in a terminal to "
-"start."
-msgstr "OpenClaude가 성공적으로 설치되었습니다!\\n\\n시작하려면 터미널에서 'openclaude'를 실행하세요."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:59
-msgid "OpenClaude removed successfully!"
-msgstr "OpenClaude가 성공적으로 제거되었습니다!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:63
-msgid "An error occurred with OpenClaude."
-msgstr "OpenClaude에서 오류가 발생했습니다."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:47
-msgid "Boot messages"
-msgstr "부트 메시지"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:48
-msgid "Show system messages below the boot animation."
-msgstr "부트 애니메이션 아래에 시스템 메시지를 표시합니다."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:32
-msgid "Update Ollama"
-msgstr "Ollama 업데이트"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:33
-msgid "Update the installed Ollama packages to the latest version."
-msgstr "설치된 Ollama 패키지를 최신 버전으로 업데이트합니다."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:36
-msgid "Update now"
-msgstr "지금 업데이트"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:87
+"S3 deep sleep can cause the Embedded Controller to stop generating hotkey interrupts. s2idle keeps "
+"the EC powered, avoiding this issue at a small cost in battery consumption."
+msgstr ""
+"S3 깊은 수면은 임베디드 컨트롤러가 핫키 인터럽트를 생성하는 것을 중지시킬 수 있습니다. s2idle은 EC에 전원을 공급하여 이 문제를 피하며, 배터리 소비에서 약간의 비용이 "
+"발생합니다."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:100
+msgid "WiFi"
+msgstr "와이파이"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:101
+msgid "Prevent WiFi issues after suspend."
+msgstr "일시 중단 후 WiFi 문제 방지."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:108
+msgid "Protect WiFi on suspend"
+msgstr "일시 중지 시 WiFi 보호"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:110
 msgid ""
-"Open-source, privacy-focused alternative to Google's NotebookLM. Requires "
-"Docker enabled."
-msgstr "Google NotebookLM의 오픈소스, 개인정보 보호 중심 대안입니다. Docker가 활성화되어 있어야 합니다."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:94
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:201
-msgid "Open Notebook Server"
-msgstr "Open Notebook 서버 열기"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:95
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:202
-msgid "Start the Open Notebook server."
-msgstr "Open Notebook 서버를 시작합니다."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:220
-msgid "Run"
-msgstr "실행"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:226
-#, python-brace-format
-msgid "{}: run action"
-msgstr "{}: 작업 실행"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:279
-#, python-brace-format
-msgid "Action script {} failed: {}"
-msgstr "작업 스크립트 {} 실패: {}"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:284
-#, python-brace-format
-msgid "Action script timeout: {}"
-msgstr "작업 스크립트 시간 초과: {}"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:287
-#, python-brace-format
-msgid "Error running action script {}: {}"
-msgstr "작업 스크립트 {} 실행 중 오류 발생: {}"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:297
-msgid "Action completed successfully"
-msgstr "작업이 성공적으로 완료되었습니다"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:300
-#, python-brace-format
-msgid "Action failed: {}"
-msgstr "작업 실패: {}"
+"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding connection loss after "
+"resume."
+msgstr "Realtek WiFi 칩이 완전히 전원이 꺼지는 것을 방지하여(d3cold), 재개 후 연결 손실을 피합니다."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:116
+msgid ""
+"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power gating. This keeps the chip "
+"in d3hot (PCIe link alive) during suspend."
+msgstr "일부 Realtek RTL8852BE/CE 칩은 d3cold 전원 차단 후 재초기화에 실패합니다. 이로 인해 칩이 대기 중에 d3hot(PCIe 링크 활성 상태)에 유지됩니다."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:124
+msgid "Display and Keyboard"
+msgstr "디스플레이 및 키보드"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:125
+msgid "Preserve brightness and LED state across suspend."
+msgstr "일시 중단 시 밝기 및 LED 상태 유지."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:132
+msgid "Save/restore brightness on suspend"
+msgstr "일시 중지 시 밝기 저장/복원"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:134
+msgid "Saves screen brightness and keyboard LEDs before suspending and restores them on resume."
+msgstr "일시 중단하기 전에 화면 밝기와 키보드 LED를 저장하고, 다시 시작할 때 복원합니다."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:144
+msgid "GNOME Shell Extensions"
+msgstr "GNOME 셸 확장"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:145
+msgid "Automatic health check after resume."
+msgstr "재개 후 자동 건강 검사."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:152
+msgid "Extension health monitor"
+msgstr "확장 프로그램 상태 모니터"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:154
+msgid "Detects GNOME Shell extensions in error state after resume and automatically restarts them."
+msgstr "재개 후 오류 상태에 있는 GNOME Shell 확장을 감지하고 자동으로 다시 시작합니다."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:163
+msgid "Lid Switch"
+msgstr "뚜껑 스위치"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:164
+msgid "Laptop lid close behavior."
+msgstr "노트북 뚜껑 닫기 동작."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:171
+msgid "Suspend on lid close (AC power)"
+msgstr "덮개 닫을 때 일시 중지 (AC 전원)"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:173
+msgid "Some systems do not suspend when on AC power. This forces suspend when the lid is closed."
+msgstr "일부 시스템은 AC 전원에서 일시 중지하지 않습니다. 이는 덮개가 닫힐 때 일시 중지를 강제합니다."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 103
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:10
+msgid "Preload"
+msgstr "프리로드"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 105
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:11
+msgid "Preload applications into memory to open them faster."
+msgstr "애플리케이션을 메모리에 미리 로드하여 더 빠르게 열 수 있습니다."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 120
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:18
+msgid "Firefox"
+msgstr "파이어폭스"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 126
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:19
+msgid "Brave"
+msgstr "브레이브"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 132
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:20
+msgid "Chrome"
+msgstr "크롬"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 138
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:21
+msgid "Chromium"
+msgstr "크로미움"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 126
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:22
+msgid "Librewolf"
+msgstr "리브레울프"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 144
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:23
+msgid "Palemoon"
+msgstr "팔레문"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 150
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:24
+msgid "Opera"
+msgstr "오페라"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 156
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:25
+msgid "Libreoffice"
+msgstr "리브레오피스"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 11
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:11
 msgid "AI Coding Assistants"
 msgstr "AI 코딩 어시스턴트"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 12
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:12
 msgid "Open-source coding agents powered by language models."
 msgstr "언어 모델로 구동되는 오픈소스 코딩 에이전트입니다."
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 21
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:21
 msgid "OpenClaude"
 msgstr "OpenClaude"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 23
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:23
 msgid ""
-"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ "
-"models. Installs nodejs, npm and ripgrep as dependencies."
+"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ models. Installs nodejs, "
+"npm and ripgrep as dependencies."
 msgstr ""
-"OpenAI, Gemini, DeepSeek, Ollama 및 200개 이상의 모델을 위한 오픈소스 코딩 에이전트 CLI입니다. "
-"종속성으로 nodejs, npm 및 ripgrep을 설치합니다."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:195
-msgid "Install the open-source alternative to Google's NotebookLM."
-msgstr "Google NotebookLM의 오픈소스 대안을 설치합니다."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:297
-msgid "Developer"
-msgstr "개발자"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
-# line: 80
-#~ msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
-#~ msgstr "구글의 노트북 LM에 대한 오픈 소스, 개인 정보 보호 중심의 대안!"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
-# line: 178
-#~ msgid ""
-#~ "Install An open source, privacy-focused alternative to Google's Notebook LM!"
-#~ msgstr "구글의 노트북 LM에 대한 오픈 소스, 개인 정보 보호 중심의 대안을 설치하세요!"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
-# line: 185
-#~ msgid "Run Open Notebook."
-#~ msgstr "오픈 노트북 실행."
+"OpenAI, Gemini, DeepSeek, Ollama 및 200개 이상의 모델을 위한 오픈소스 코딩 에이전트 CLI입니다. 종속성으로 nodejs, npm 및 "
+"ripgrep을 설치합니다."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 16
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:15
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux 성능 조정."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/usability/gamemode_config_dialog.py, line: 91
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:22
+msgid "Disable Visual Effects"
+msgstr "비주얼 효과 비활성화"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 35
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:24
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
+msgstr "KWin 시각 효과(블러, 그림자, 애니메이션)를 비활성화합니다. GPU 부하를 줄이고 메모리를 해제합니다."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 63
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:32
+msgid "CPU Maximum Performance"
+msgstr "CPU 최대 성능"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 51
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:34
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr "최대 프로세서 성능 모드를 강제합니다. 프로세서가 최대 주파수를 사용하도록 보장합니다."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 79
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:42
+msgid "Disable Baloo Indexer"
+msgstr "Baloo 인덱서 비활성화"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 67
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:43
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Baloo 파일 인덱서를 비활성화합니다. 디스크 I/O 오버헤드를 피합니다."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/usability/gamemode_config_dialog.py, line: 136
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:51
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "S.M.A.R.T 모니터 언로드"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 83
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:52
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "S.M.A.R.T 디스크 모니터링을 비활성화합니다. 디스크 I/O 및 CPU 사용량을 줄입니다."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 169
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:60
+msgid "Meltdown Mitigations off"
+msgstr "멜트다운 완화 비활성화"
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:62
+msgid "Using mitigations=off will make your machine faster and less secure!"
+msgstr "완화 사용=끄기를 사용하면 컴퓨터가 더 빨라지지만 보안이 낮아집니다!"
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:67
+msgid ""
+"This will disable CPU security mitigations (Meltdown/Spectre). Your system will be faster but "
+"vulnerable to hardware-level attacks. Are you sure you want to continue?"
+msgstr "이렇게 하면 CPU 보안 완화(Meltdown/Spectre)가 비활성화됩니다. 시스템이 더 빨라지지만 하드웨어 수준의 공격에 취약해집니다. 계속 진행하시겠습니까?"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 176
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:74
+msgid "noWatchdog"
+msgstr "노워치독"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 177
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:76
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr "하드웨어 감시 타이머 및 TSC 클록 소스 시스템을 비활성화하여 높은 성능을 유지하지만 시스템 충돌에 대한 자동 보호 기능을 제거합니다."
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:81
+msgid ""
+"This will disable the hardware watchdog. Your system will no longer automatically recover from "
+"certain types of crashes. Are you sure you want to continue?"
+msgstr "이렇게 하면 하드웨어 감시 타이머가 비활성화됩니다. 시스템이 특정 유형의 충돌에서 더 이상 자동으로 복구되지 않습니다. 계속 진행하시겠습니까?"

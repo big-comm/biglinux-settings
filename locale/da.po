@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the biglinux-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -15,235 +15,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:28
-msgid "comfyUI Depends Install"
-msgstr "comfyUI Afhængigheder Installer"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:29
-msgid "Installing comfyUI Depends, please wait..."
-msgstr "Installerer comfyUI afhængigheder, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:47
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI afhængigheder installeret med succes!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:50
-msgid "Failed to install comfyUI Depends!"
-msgstr "Mislykkedes installation af comfyUI afhængigheder!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmd.sh:8
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpu.sh:8
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidia.sh:8
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkan.sh:8
-msgid "Ollama server is running.\\nAddress: http://localhost:11434"
-msgstr "Ollama-serveren kører.\\nAdresse: http://localhost:11434"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:28
-msgid "ChatBox Install"
-msgstr "ChatBox Installation"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:29
-msgid "Installing ChatBox, please wait..."
-msgstr "Installerer ChatBox, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:31
-msgid "ChatBox Uninstall"
-msgstr "ChatBox Afinstaller"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:32
-msgid "Uninstalling ChatBox, please wait..."
-msgstr "Afinstallerer ChatBox, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:52
-msgid "ChatBox installed successfully!"
-msgstr "ChatBox installeret med succes!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:55
-msgid "Failed to install ChatBox!"
-msgstr "Fejl ved installation af ChatBox!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:28
-msgid "Ollama Lab Install"
-msgstr "Ollama Lab Installation"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:29
-msgid "Installing Ollama Lab, please wait..."
-msgstr "Installerer Ollama Lab, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:31
-msgid "Ollama Lab Uninstall"
-msgstr "Ollama Lab Afinstaller"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:32
-msgid "Uninstalling Ollama Lab, please wait..."
-msgstr "Afinstallerer Ollama Lab, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:52
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Lab installeret med succes!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:55
-msgid "Failed to install Ollama Lab!"
-msgstr "Fejl ved installation af Ollama Lab!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:28
-msgid "LM Studio Install"
-msgstr "LM Studio Installation"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:29
-msgid "Installing LM Studio, please wait..."
-msgstr "Installer LM Studio, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:31
-msgid "LM Studio Uninstall"
-msgstr "LM Studio Afinstaller"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:32
-msgid "Uninstalling LM Studio, please wait..."
-msgstr "Afinstallerer LM Studio, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:52
-msgid "LM Studio installed successfully!"
-msgstr "LM Studio installeret med succes!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:55
-msgid "Failed to install LM Studio!"
-msgstr "Fejl ved installation af LM Studio!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:28
-msgid "Ollama Install"
-msgstr "Ollama Installation"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:29
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:29
-msgid "Installing Ollama, please wait..."
-msgstr "Installerer Ollama, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:31
-msgid "Ollama Uninstall"
-msgstr "Ollama Afinstaller"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:32
-msgid "Uninstalling Ollama, please wait..."
-msgstr "Afinstallerer Ollama, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:54
-msgid "Ollama installed successfully!"
-msgstr "Ollama blev installeret med succes!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:57
-msgid "Failed to install Ollama!"
-msgstr "Mislykkedes med at installere Ollama!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:12
-msgid "comfyUI Install...."
-msgstr "comfyUI Installation...."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:13
-msgid "Installing comfyUI, this step takes a long time, please wait..."
-msgstr "Installer comfyUI, dette trin tager lang tid, venligst vent..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:15
-msgid "Uninstall comfyUI...."
-msgstr "Afinstaller comfyUI...."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:16
-msgid "Uninstalling comfyUI, please wait..."
-msgstr "Afinstallerer comfyUI, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:78
-msgid "comfyUI installed successfully"
-msgstr "comfyUI er installeret med succes"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:81
-msgid "comfyUI uninstalled successfully"
-msgstr "comfyUI afinstalleret med succes"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:84
-msgid "Failed to install comfyUI!"
-msgstr "Mislykkedes med at installere comfyUI!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:28
-msgid "Ollama CUDA Install"
-msgstr "Ollama CUDA-installation"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:29
-msgid "Installing Ollama CUDA, please wait..."
-msgstr "Installerer Ollama CUDA, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:31
-msgid "Ollama CUDA Uninstall"
-msgstr "Ollama CUDA Afinstaller"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:32
-msgid "Uninstalling Ollama CUDA, please wait..."
-msgstr "Afinstallerer Ollama CUDA, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:54
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA installeret med succes!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:57
-msgid "Failed to install Ollama CUDA!"
-msgstr "Mislykkedes med at installere Ollama CUDA!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita.sh:31
-msgid ""
-"Generative AI for Krita has been successfully installed.\\n\\nOpen Krita, "
-"open an existing drawing or create a new one.\\nIn the top panel go to "
-"Settings > Panels > check the AI Image Generation box.\\n\\nIn the window "
-"that opens on the bottom right.\\nClick Configure > Local Managed Server, "
-"choose your GPU or CPU, choose the model in Workloads and click Install."
-msgstr ""
-"Generativ AI til Krita er blevet installeret med succes.\\n\\nÅbn Krita, åbn"
-" en eksisterende tegning eller opret en ny.\\nI toppanelet gå til "
-"Indstillinger > Paneler > tjek boksen for AI Billedgenerering.\\n\\nI "
-"vinduet der åbner nederst til højre.\\nKlik på Konfigurer > Lokalt "
-"Administreret Server, vælg din GPU eller CPU, vælg modellen i "
-"Arbejdsbelastninger og klik på Installer."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUI.sh:21
-msgid "AMD/Nvidia GPU not found!"
-msgstr "AMD/Nvidia GPU ikke fundet!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:28
-msgid "Krita Install"
-msgstr "Krita Installation"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:29
-msgid "Installing Krita, please wait..."
-msgstr "Installerer Krita, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:31
-msgid "Krita Uninstall"
-msgstr "Krita Afinstaller"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:32
-msgid "Uninstalling Krita, please wait..."
-msgstr "Afinstallerer Krita, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:50
-msgid "Krita installed successfully!"
-msgstr "Krita er installeret med succes!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:53
-msgid "Failed to install Krita!"
-msgstr "Fejl ved installation af Krita!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:28
-msgid "Ollama Vulkan Install"
-msgstr "Ollama Vulkan Installation"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:31
-msgid "Ollama Vulkan Uninstall"
-msgstr "Ollama Vulkan Afinstaller"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:32
-msgid "Uninstalling Ollama Vulkan, please wait..."
-msgstr "Afinstallerer Ollama Vulkan, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:54
-msgid "Ollama Vulkan installed successfully!"
-msgstr "Ollama Vulkan er installeret med succes!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:57
-msgid "Failed to install Ollama Vulkan!"
-msgstr "Mislykkedes med at installere Ollama Vulkan!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:48
-#, sh-format
-msgid "Ollama shared successfully.\\nAddress: http://$localIp:11434"
-msgstr "Ollama delt med succes.\\nAdresse: http://$localIp:11434"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:51
-msgid "Failed to configure Ollama sharing!"
-msgstr "Mislykkedes at konfigurere Ollama-deling!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:28
-msgid "Ollama ROCm Install"
-msgstr "Ollama ROCm Installation"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:29
-msgid "Installing Ollama ROCm, please wait..."
-msgstr "Installerer Ollama ROCm, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:31
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm Afinstaller"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:32
-msgid "Uninstalling Ollama ROCm, please wait..."
-msgstr "Afinstallerer Ollama ROCm, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:54
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm installeret med succes!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:57
-msgid "Failed to install Ollama ROCm!"
-msgstr "Mislykkedes med at installere Ollama ROCm!"
-#. 2. Starts Zenity IN THE BACKGROUND, as the user, with the full environment
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:28
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:28
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:27
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:26
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/windowButtonOnLeftSide.sh:72
-msgid "Applying, please wait..."
-msgstr "Anvender, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:43
-msgid "GRUB updated successfully!"
-msgstr "GRUB opdateret med succes!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:36
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:87
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:36
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:87
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:46
-msgid "An error occurred while updating GRUB."
-msgstr "Der opstod en fejl under opdatering af GRUB."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:47
-msgid "Limits updated successfully!"
-msgstr "Grænser opdateret med succes!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:50
-msgid "An error occurred while updating Limits."
-msgstr "Der opstod en fejl under opdatering af grænser."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleRun.sh:28
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:28
 msgid "Example Install"
@@ -268,6 +39,335 @@ msgstr "Eksempel installeret med succes!"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/example/exampleWithDERun.sh:57
 msgid "Failed to install Example!"
 msgstr "Fejl ved installation af Eksempel!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:25
+msgid "OpenClaude Install"
+msgstr "OpenClaude Installer"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:26
+msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
+msgstr "Installerer OpenClaude (nodejs, npm, ripgrep påkrævet), vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:28
+msgid "OpenClaude Uninstall"
+msgstr "OpenClaude Afinstaller"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:29
+msgid "Uninstalling OpenClaude, please wait..."
+msgstr "Afinstallerer OpenClaude, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:56
+msgid ""
+"OpenClaude installed successfully!\\n"
+"\\n"
+"Run 'openclaude' in a terminal to start."
+msgstr ""
+"OpenClaude blev installeret!\\n"
+"\\n"
+"Kør 'openclaude' i en terminal for at starte."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:59
+msgid "OpenClaude removed successfully!"
+msgstr "OpenClaude blev fjernet!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:63
+msgid "An error occurred with OpenClaude."
+msgstr "Der opstod en fejl med OpenClaude."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:28
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:28
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:27
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:26
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/windowButtonOnLeftSide.sh:72
+#. 2. Starts Zenity IN THE BACKGROUND, as the user, with the full environment
+msgid "Applying, please wait..."
+msgstr "Anvender, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:28
+msgid "kzones Install"
+msgstr "kzones Installation"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:29
+msgid "Installing Kzones, please wait..."
+msgstr "Installerer Kzones, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:47
+msgid "Kzones installed successfully!"
+msgstr "Kzones installeret med succes!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:28
+msgid "Recent Files enabling...."
+msgstr "Aktivering af seneste filer...."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:29
+msgid "Recent Files enabling, please wait..."
+msgstr "Aktiverer seneste filer, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:31
+msgid "Recent Files disabling...."
+msgstr "Deaktivering af seneste filer...."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:32
+msgid "Recent Files disabling, please wait..."
+msgstr "Deaktiverer seneste filer, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:136
+msgid ""
+"Recent Files successfully enabled!\\n"
+"You need to close and reopen Dolphin for it to take effect."
+msgstr ""
+"Seneste filer er blevet aktiveret med succes!\\n"
+"Du skal lukke og genåbne Dolphin for at det kan træde i kraft."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:139
+msgid ""
+"Recent Files successfully disable!\\n"
+"You need to close and reopen Dolphin for it to take effect."
+msgstr ""
+"Seneste filer er blevet deaktiveret med succes!\\n"
+"Du skal lukke og genåbne Dolphin for at det kan træde i kraft."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:142
+msgid "Failed to activate Recent Files!"
+msgstr "Kunne ikke aktivere Seneste filer!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:33
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:84
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:33
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:84
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB opdateret med succes!\\n"
+"Genstart din computer for at det træder i kraft."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:36
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:87
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:36
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:87
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:46
+msgid "An error occurred while updating GRUB."
+msgstr "Der opstod en fejl under opdatering af GRUB."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:46
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:46
+#. Already enabled, nothing to do. Inform zenity and exit the function
+#. gracefully.
+msgid "Already enabled. No changes made."
+msgstr "Allerede aktiveret. Ingen ændringer foretaget."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:28
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA-installation"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:29
+msgid "Installing Ollama CUDA, please wait..."
+msgstr "Installerer Ollama CUDA, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:31
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA Afinstaller"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:32
+msgid "Uninstalling Ollama CUDA, please wait..."
+msgstr "Afinstallerer Ollama CUDA, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:54
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA installeret med succes!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:57
+msgid "Failed to install Ollama CUDA!"
+msgstr "Mislykkedes med at installere Ollama CUDA!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmd.sh:8
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpu.sh:8
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidia.sh:8
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkan.sh:8
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama-serveren kører.\\n"
+"Adresse: http://localhost:11434"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:28
+msgid "LM Studio Install"
+msgstr "LM Studio Installation"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:29
+msgid "Installing LM Studio, please wait..."
+msgstr "Installer LM Studio, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:31
+msgid "LM Studio Uninstall"
+msgstr "LM Studio Afinstaller"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:32
+msgid "Uninstalling LM Studio, please wait..."
+msgstr "Afinstallerer LM Studio, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:52
+msgid "LM Studio installed successfully!"
+msgstr "LM Studio installeret med succes!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/lmStudioRun.sh:55
+msgid "Failed to install LM Studio!"
+msgstr "Fejl ved installation af LM Studio!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUI.sh:21
+msgid "AMD/Nvidia GPU not found!"
+msgstr "AMD/Nvidia GPU ikke fundet!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:28
+msgid "ChatBox Install"
+msgstr "ChatBox Installation"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:29
+msgid "Installing ChatBox, please wait..."
+msgstr "Installerer ChatBox, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:31
+msgid "ChatBox Uninstall"
+msgstr "ChatBox Afinstaller"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:32
+msgid "Uninstalling ChatBox, please wait..."
+msgstr "Afinstallerer ChatBox, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:52
+msgid "ChatBox installed successfully!"
+msgstr "ChatBox installeret med succes!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh:55
+msgid "Failed to install ChatBox!"
+msgstr "Fejl ved installation af ChatBox!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:28
+msgid "Ollama Install"
+msgstr "Ollama Installation"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:29
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:29
+msgid "Installing Ollama, please wait..."
+msgstr "Installerer Ollama, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:31
+msgid "Ollama Uninstall"
+msgstr "Ollama Afinstaller"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:32
+msgid "Uninstalling Ollama, please wait..."
+msgstr "Afinstallerer Ollama, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:54
+msgid "Ollama installed successfully!"
+msgstr "Ollama blev installeret med succes!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaCpuRun.sh:57
+msgid "Failed to install Ollama!"
+msgstr "Mislykkedes med at installere Ollama!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:28
+msgid "Ollama Lab Install"
+msgstr "Ollama Lab Installation"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:29
+msgid "Installing Ollama Lab, please wait..."
+msgstr "Installerer Ollama Lab, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:31
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Lab Afinstaller"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:32
+msgid "Uninstalling Ollama Lab, please wait..."
+msgstr "Afinstallerer Ollama Lab, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:52
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab installeret med succes!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaLabRun.sh:55
+msgid "Failed to install Ollama Lab!"
+msgstr "Fejl ved installation af Ollama Lab!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:28
+msgid "Ollama Vulkan Install"
+msgstr "Ollama Vulkan Installation"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:31
+msgid "Ollama Vulkan Uninstall"
+msgstr "Ollama Vulkan Afinstaller"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:32
+msgid "Uninstalling Ollama Vulkan, please wait..."
+msgstr "Afinstallerer Ollama Vulkan, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:54
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan er installeret med succes!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaVulkanRun.sh:57
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Mislykkedes med at installere Ollama Vulkan!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:28
+msgid "Krita Install"
+msgstr "Krita Installation"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:29
+msgid "Installing Krita, please wait..."
+msgstr "Installerer Krita, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:31
+msgid "Krita Uninstall"
+msgstr "Krita Afinstaller"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:32
+msgid "Uninstalling Krita, please wait..."
+msgstr "Afinstallerer Krita, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:50
+msgid "Krita installed successfully!"
+msgstr "Krita er installeret med succes!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/kritaRun.sh:53
+msgid "Failed to install Krita!"
+msgstr "Fejl ved installation af Krita!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:28
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm Installation"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:29
+msgid "Installing Ollama ROCm, please wait..."
+msgstr "Installerer Ollama ROCm, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:31
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm Afinstaller"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:32
+msgid "Uninstalling Ollama ROCm, please wait..."
+msgstr "Afinstallerer Ollama ROCm, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:54
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm installeret med succes!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaAmdRun.sh:57
+msgid "Failed to install Ollama ROCm!"
+msgstr "Mislykkedes med at installere Ollama ROCm!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:12
+msgid "comfyUI Install...."
+msgstr "comfyUI Installation...."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:13
+msgid "Installing comfyUI, this step takes a long time, please wait..."
+msgstr "Installer comfyUI, dette trin tager lang tid, venligst vent..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:15
+msgid "Uninstall comfyUI...."
+msgstr "Afinstaller comfyUI...."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:16
+msgid "Uninstalling comfyUI, please wait..."
+msgstr "Afinstallerer comfyUI, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:78
+msgid "comfyUI installed successfully"
+msgstr "comfyUI er installeret med succes"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:81
+msgid "comfyUI uninstalled successfully"
+msgstr "comfyUI afinstalleret med succes"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIInstall.sh:84
+msgid "Failed to install comfyUI!"
+msgstr "Mislykkedes med at installere comfyUI!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:28
+msgid "comfyUI Depends Install"
+msgstr "comfyUI Afhængigheder Installer"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:29
+msgid "Installing comfyUI Depends, please wait..."
+msgstr "Installerer comfyUI afhængigheder, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:47
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI afhængigheder installeret med succes!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/comfyUIDepends.sh:50
+msgid "Failed to install comfyUI Depends!"
+msgstr "Mislykkedes installation af comfyUI afhængigheder!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:28
+msgid "No Ollama packages are installed. Enable an Ollama variant first."
+msgstr "Ingen Ollama-pakker er installeret. Aktivér først en Ollama-variant."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:37
+msgid "Updating Ollama"
+msgstr "Opdaterer Ollama"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:38
+msgid "Synchronizing repositories and updating Ollama, please wait..."
+msgstr "Synkroniserer arkiver og opdaterer Ollama, vent venligst..."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:50
+msgid "Ollama updated successfully!"
+msgstr "Ollama blev opdateret!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:53
+msgid "Failed to update Ollama."
+msgstr "Kunne ikke opdatere Ollama."
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:48
+#, sh-format
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama delt med succes.\\n"
+"Adresse: http://$localIp:11434"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaShareRun.sh:51
+msgid "Failed to configure Ollama sharing!"
+msgstr "Mislykkedes at konfigurere Ollama-deling!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita.sh:31
+msgid ""
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"Generativ AI til Krita er blevet installeret med succes.\\n"
+"\\n"
+"Åbn Krita, åbn en eksisterende tegning eller opret en ny.\\n"
+"I toppanelet gå til Indstillinger > Paneler > tjek boksen for AI Billedgenerering.\\n"
+"\\n"
+"I vinduet der åbner nederst til højre.\\n"
+"Klik på Konfigurer > Lokalt Administreret Server, vælg din GPU eller CPU, vælg modellen i "
+"Arbejdsbelastninger og klik på Installer."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdspRun.sh:28
 msgid "JamesDSP Install"
 msgstr "JamesDSP Installation"
@@ -280,21 +380,6 @@ msgstr "JamesDSP installeret med succes!"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdspRun.sh:50
 msgid "Failed to install jamesDSP!"
 msgstr "Mislykkedes med at installere jamesDSP!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:33
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:84
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:33
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:84
-msgid ""
-"GRUB updated successfully!\\nRestart your computer for it to take effect."
-msgstr ""
-"GRUB opdateret med succes!\\nGenstart din computer for at det træder i "
-"kraft."
-#. Already enabled, nothing to do. Inform zenity and exit the function
-#. gracefully.
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:46
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:46
-msgid "Already enabled. No changes made."
-msgstr "Allerede aktiveret. Ingen ændringer foretaget."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerEnableRun.sh:28
 msgid "Docker Install"
 msgstr "Docker-installation"
@@ -338,11 +423,13 @@ msgstr "Fjerner $package, vent venligst..."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:61
 #, sh-format
 msgid ""
-"$title installed successfully!\\n\\nConfigured on port $port, to access use "
-"$url"
+"$title installed successfully!\\n"
+"\\n"
+"Configured on port $port, to access use $url"
 msgstr ""
-"$title blev installeret med succes!\\n\\nKonfigureret på port $port, for at "
-"få adgang, brug $url"
+"$title blev installeret med succes!\\n"
+"\\n"
+"Konfigureret på port $port, for at få adgang, brug $url"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker/dockerInstallRun.sh:68
 #, sh-format
 msgid "$package removed successfully!"
@@ -351,52 +438,95 @@ msgstr "$pakken blev fjernet med succes!"
 #, sh-format
 msgid "An error occurred with $package."
 msgstr "Der opstod en fejl med $package."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:28
-msgid "kzones Install"
-msgstr "kzones Installation"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:29
-msgid "Installing Kzones, please wait..."
-msgstr "Installerer Kzones, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kzonesRun.sh:47
-msgid "Kzones installed successfully!"
-msgstr "Kzones installeret med succes!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:28
-msgid "Recent Files enabling...."
-msgstr "Aktivering af seneste filer...."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:29
-msgid "Recent Files enabling, please wait..."
-msgstr "Aktiverer seneste filer, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:31
-msgid "Recent Files disabling...."
-msgstr "Deaktivering af seneste filer...."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:32
-msgid "Recent Files disabling, please wait..."
-msgstr "Deaktiverer seneste filer, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:136
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/fastGrubRun.sh:43
+msgid "GRUB updated successfully!"
+msgstr "GRUB opdateret med succes!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:47
+msgid "Limits updated successfully!"
+msgstr "Grænser opdateret med succes!"
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system/limitsRun.sh:50
+msgid "An error occurred while updating Limits."
+msgstr "Der opstod en fejl under opdatering af grænser."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 107
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:12
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:267
+msgid "Usability"
+msgstr "Brugervenlighed"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 14
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:12
+msgid "User and Visual system settings."
+msgstr "Bruger- og visuelle systemindstillinger."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 114
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:19
+msgid "NumLock"
+msgstr "NumLock"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 115
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:20
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Initial NumLock-tilstand. Ignoreres hvis automatisk login er aktiveret."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 131
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:28
+msgid "Window Button On Left Side"
+msgstr "Vindueknap til venstre side"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 132
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:29
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Maksimer, minimér og luk knapperne på venstre side af vinduet."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 72
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:37
+msgid "KZones"
+msgstr "KZones"
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:39
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "Aktivér vinduesflisezoner for KDE Plasma-skrivebordet."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 169
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:48
+msgid "Recent Files & Locations"
+msgstr "Seneste filer og placeringer"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 170
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:50
 msgid ""
-"Recent Files successfully enabled!\\nYou need to close and reopen Dolphin "
-"for it to take effect."
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
 msgstr ""
-"Seneste filer er blevet aktiveret med succes!\\nDu skal lukke og genåbne "
-"Dolphin for at det kan træde i kraft."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:139
-msgid ""
-"Recent Files successfully disable!\\nYou need to close and reopen Dolphin "
-"for it to take effect."
-msgstr ""
-"Seneste filer er blevet deaktiveret med succes!\\nDu skal lukke og genåbne "
-"Dolphin for at det kan træde i kraft."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability/recentFilesRun.sh:142
-msgid "Failed to activate Recent Files!"
-msgstr "Kunne ikke aktivere Seneste filer!"
+"Gendanner 'Seneste filer' og 'Seneste placeringer' funktionalitet, der vises tom i Dolphin og "
+"applikationsmenuen."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 49
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 120
-#. Centered title
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:44
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:59
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:144
+#. Centered title
 msgid "BigLinux Settings"
 msgstr "BigLinux Indstillinger"
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 49
@@ -430,35 +560,11 @@ msgid "Main Menu"
 msgstr "Hovedmenu"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 108
-#. # GROUP: System ##
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:13
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:261
+#. # GROUP: System ##
 msgid "System"
 msgstr "System"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 107
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:12
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:267
-msgid "Usability"
-msgstr "Brugervenlighed"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 158
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
@@ -488,6 +594,11 @@ msgstr "A.I."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:291
 msgid "Docker"
 msgstr "Docker"
+# 
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 315
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:297
+msgid "Developer"
+msgstr "Udvikler"
 # File: biglinux-settings/usr/share/biglinux/biglinux-
 # settings/performance_games_page.py, line: 181
 # File: biglinux-settings/usr/share/biglinux/biglinux-
@@ -522,244 +633,45 @@ msgstr "Suspend"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:483
 msgid "Dismiss"
 msgstr "Afvis"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:75
-msgid "Sleep Mode"
-msgstr "Søvntilstand"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:76
-msgid "Configure how the system suspends."
-msgstr "Konfigurer, hvordan systemet suspenderer."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:83
-msgid "Use s2idle (light sleep)"
-msgstr "Brug s2idle (let søvn)"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:85
-msgid ""
-"Uses a lighter sleep mode that preserves Fn keys and device state. "
-"Recommended for ASUS notebooks."
-msgstr ""
-"Bruger en lettere søvntilstand, der bevarer Fn-taster og enhedens tilstand. "
-"Anbefales til ASUS bærbare computere."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:91
-msgid ""
-"S3 deep sleep can cause the Embedded Controller to stop generating hotkey "
-"interrupts. s2idle keeps the EC powered, avoiding this issue at a small cost"
-" in battery consumption."
-msgstr ""
-"S3 dyb søvn kan få den indbyggede controller til at stoppe med at generere "
-"hotkey-interrupts. s2idle holder EC'en tændt, hvilket undgår dette problem "
-"til en lille omkostning i batteriforbrug."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:100
-msgid "WiFi"
-msgstr "WiFi"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:101
-msgid "Prevent WiFi issues after suspend."
-msgstr "Forhindre WiFi-problemer efter dvale."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:108
-msgid "Protect WiFi on suspend"
-msgstr "Beskyt WiFi ved suspendering"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:110
-msgid ""
-"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding "
-"connection loss after resume."
-msgstr ""
-"Forhindrer Realtek WiFi-chippen i at slukke helt (d3cold), hvilket undgår "
-"forbindelsestab efter genoptagelse."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:116
-msgid ""
-"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power "
-"gating. This keeps the chip in d3hot (PCIe link alive) during suspend."
-msgstr ""
-"Nogle Realtek RTL8852BE/CE chips fejler i at reinitialisere efter d3cold "
-"strømstyring. Dette holder chippen i d3hot (PCIe-forbindelse aktiv) under "
-"suspension."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:124
-msgid "Display and Keyboard"
-msgstr "Skærm og Tastatur"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:125
-msgid "Preserve brightness and LED state across suspend."
-msgstr "Bevar lysstyrke og LED-tilstand under dvale."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:132
-msgid "Save/restore brightness on suspend"
-msgstr "Gem/gendan lysstyrke ved suspendering"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:134
-msgid ""
-"Saves screen brightness and keyboard LEDs before suspending and restores "
-"them on resume."
-msgstr ""
-"Gemmer skærmlysstyrken og tastatur-LED'erne før dvale og gendanner dem ved "
-"genoptagelse."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:144
-msgid "GNOME Shell Extensions"
-msgstr "GNOME Shell-udvidelser"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:145
-msgid "Automatic health check after resume."
-msgstr "Automatisk sundhedstjek efter genoptagelse."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:152
-msgid "Extension health monitor"
-msgstr "Udvidelses sundhedsovervågning"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:154
-msgid ""
-"Detects GNOME Shell extensions in error state after resume and automatically"
-" restarts them."
-msgstr ""
-"Registrerer GNOME Shell-udvidelser i fejlsituation efter genoptagelse og "
-"genstarter dem automatisk."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:163
-msgid "Lid Switch"
-msgstr "Lågkontakt"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:164
-msgid "Laptop lid close behavior."
-msgstr "Adfærd ved lukning af laptoplåget."
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:171
-msgid "Suspend on lid close (AC power)"
-msgstr "Suspendér ved lukning af låget (AC-strøm)"
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:173
-msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
-msgstr ""
-"Nogle systemer går ikke i dvale, når de er tilsluttet AC-strøm. Dette "
-"tvinger dvale, når låget er lukket."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 14
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:12
-msgid "User and Visual system settings."
-msgstr "Bruger- og visuelle systemindstillinger."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 114
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:19
-msgid "NumLock"
-msgstr "NumLock"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 115
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:20
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr ""
-"Initial NumLock-tilstand. Ignoreres hvis automatisk login er aktiveret."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 131
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:28
-msgid "Window Button On Left Side"
-msgstr "Vindueknap til venstre side"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 132
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:29
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Maksimer, minimér og luk knapperne på venstre side af vinduet."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 72
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:37
-msgid "KZones"
-msgstr "KZones"
-# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:39
-msgid "Enable window tiling zones for the KDE Plasma desktop."
-msgstr "Aktivér vinduesflisezoner for KDE Plasma-skrivebordet."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 169
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:48
-msgid "Recent Files & Locations"
-msgstr "Seneste filer og placeringer"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 170
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py:50
-msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that "
-"appears empty in Dolphin and the Application Menu."
-msgstr ""
-"Gendanner 'Seneste filer' og 'Seneste placeringer' funktionalitet, der vises"
-" tom i Dolphin og applikationsmenuen."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices_page.py, line: 15
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:34
-msgid "Manage physical devices."
-msgstr "Administrer fysiske enheder."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 190
-#. Wifi
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
-msgid "Wifi"
-msgstr "Wifi"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
-msgid "Enable the Wi-Fi adapter."
-msgstr "Aktivér Wi-Fi-adapteren."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 197
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
-msgid "Enable the Bluetooth adapter."
-msgstr "Aktivér Bluetooth-adapteren."
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:53
+msgid "Close"
+msgstr "Luk"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:68
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Advarsel: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:71
+msgid "Cancel"
+msgstr "Annuller"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:72
+msgid "Continue"
+msgstr "Fortsæt"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices/jamesdsp_dialog.py, line: 155
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:49
-msgid "JamesDSP"
-msgstr "JamesDSP"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/dispositivos_page.py, line: 84
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:50
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "Avanceret lydbehandlingsprocessor, der forbedrer lydkvaliteten."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices_page.py, line: 71
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:58
-msgid "Reverse mouse scrolling"
-msgstr "Omvendt musrulning"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/devices_page.py, line: 72
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:59
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "Omvendt mus rulning uden at genstarte sessionen."
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:66
-msgid "Network Interfaces"
-msgstr "Netværksgrænseflader"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:67
-msgid "Connect or disconnect network devices."
-msgstr "Forbind eller afbryd netværksenheder."
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:99
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:154
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 230
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:220
+msgid "Run"
+msgstr "Kør"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 236
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:226
 #, python-brace-format
-msgid "{} — {}"
-msgstr ""
-"I'm ready to assist with your translation. Please provide the string you "
-"would like to translate. {} {}"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:113
+msgid "{}: run action"
+msgstr "{}: kør handling"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 199
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:254
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:256
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:484
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:530
 #, python-brace-format
-msgid "{}: toggle connection"
-msgstr "{}: skift forbindelse"
+msgid "Script not found: {}"
+msgstr "Script ikke fundet: {}"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 626
@@ -769,69 +681,214 @@ msgstr "{}: skift forbindelse"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:751
 msgid "Applying…"
 msgstr "Anvender…"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
-msgid "connected"
-msgstr "forbundet"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
-msgid "disconnected"
-msgstr "frakoblet"
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:161
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 289
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:279
 #, python-brace-format
-msgid "Failed to change network device: {}"
-msgstr "Mislykkedes at ændre netværksenhed: {}"
+msgid "Action script {} failed: {}"
+msgstr "Handlingsscript {} mislykkedes: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 294
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:284
+#, python-brace-format
+msgid "Action script timeout: {}"
+msgstr "Handlingsscript timeout: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 297
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:287
+#, python-brace-format
+msgid "Error running action script {}: {}"
+msgstr "Fejl ved kørsel af handlingsscript {}: {}"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 307
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:297
+msgid "Action completed successfully"
+msgstr "Handling fuldført succesfuldt"
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 310
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:300
+#, python-brace-format
+msgid "Action failed: {}"
+msgstr "Handling mislykkedes: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:333
+msgid "Recommended"
+msgstr "Anbefalet"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:356
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:444
+#, python-brace-format
+msgid "{}: additional information"
+msgstr "{}: yderligere information"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:369
+msgid "Learn more"
+msgstr "Lær mere"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:375
+#, python-brace-format
+msgid "{}: learn more"
+msgstr "{}: lær mere"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 103
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:10
-msgid "Preload"
-msgstr "Forudlæsning"
+# settings/system_usability_page.py, line: 206
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 105
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:11
-msgid "Preload applications into memory to open them faster."
-msgstr "Forudlæs applikationer i hukommelsen for at åbne dem hurtigere."
+# settings/preload_page.py, line: 165
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:483
+msgid "Unavailable: script not found."
+msgstr "Utilgængelig: script ikke fundet."
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 120
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:18
-msgid "Firefox"
-msgstr "Firefox"
+# settings/system_usability_page.py, line: 218
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 126
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:19
-msgid "Brave"
-msgstr "Brave"
+# settings/preload_page.py, line: 177
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:494
+msgid "Enabled"
+msgstr "Aktiveret"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 132
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:20
-msgid "Chrome"
-msgstr "Chrome"
+# settings/system_usability_page.py, line: 220
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 138
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:21
-msgid "Chromium"
-msgstr "Chromium"
+# settings/preload_page.py, line: 179
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:496
+msgid "Disabled"
+msgstr "Deaktiveret"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 126
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:22
-msgid "Librewolf"
-msgstr "Librewolf"
+# settings/system_usability_page.py, line: 223
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 144
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:23
-msgid "Palemoon"
-msgstr "Palemoon"
+# settings/preload_page.py, line: 182
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:502
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "Aktiveret af systemkonfiguration (f.eks. Real-Time Kernel) og kan ikke ændres her."
+# 
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 516
+#: NEEDS WORK
+msgid "Unavailable in this desktop environment."
+msgstr "Ikke tilgængelig i dette skrivebordsmiljø."
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 150
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:24
-msgid "Opera"
-msgstr "Opera"
+# settings/system_usability_page.py, line: 225
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 156
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:25
-msgid "Libreoffice"
-msgstr "Libreoffice"
+# settings/preload_page.py, line: 184
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:506
+msgid "Unavailable: script returned invalid output."
+msgstr "Utilgængelig: scriptet returnerede ugyldigt output."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py,
+# line: 261
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:508
+#, python-brace-format
+msgid "output from script {}: {}"
+msgstr "output fra script {}: {}"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 188
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:514
+msgid "Unavailable: script returned an error."
+msgstr "Utilgængelig: scriptet returnerede en fejl."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 184
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:515
+#, python-brace-format
+msgid "Error checking state: {}"
+msgstr "Fejlkontrolstatus: {}"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 192
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:518
+msgid "Unavailable: failed to run script."
+msgstr "Utilgængelig: kunne ikke køre script."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 193
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 220
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:519
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:568
+#, python-brace-format
+msgid "Error running script {}: {}"
+msgstr "Fejl ved kørsel af script {}: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 209
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:544
+msgid "State changed successfully"
+msgstr "Tilstand ændret med succes"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 211
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:546
+#, python-brace-format
+msgid "Script output: {}"
+msgstr "Script output: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 215
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:550
+#. Exit code != 0 indicates failure
+#, python-brace-format
+msgid "Script failed with exit code: {}"
+msgstr "Script mislykkedes med exitkode: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 217
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:564
+#, python-brace-format
+msgid "Script timeout: {}"
+msgstr "Script timeout: {}"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:596
+#, python-brace-format
+msgid "{} sub-options available"
+msgstr "{} underindstillinger tilgængelige"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
+msgid "on"
+msgstr "tændt"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
+msgid "off"
+msgstr "slukket"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:699
+#, python-brace-format
+msgid "Changing {} to {}…"
+msgstr "Ændrer {} til {}…"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:701
+msgid "Undo"
+msgstr "Fortryd"
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:725
+msgid "Undo: reverted toggle"
+msgstr "Fortryd: omvendt skift"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 244
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:741
+#, python-brace-format
+msgid "Changing {} to {}"
+msgstr "Ændrer {} til {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 271
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:771
+#, python-brace-format
+msgid "ERROR: Failed to change {} to {}"
+msgstr "FEJL: Mislykkedes at ændre {} til {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
+# 274
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:776
+#, python-brace-format
+msgid "Failed to change setting: {}"
+msgstr "Mislykkedes med at ændre indstilling: {}"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 30
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:15
@@ -850,6 +907,21 @@ msgstr "Ollama Server"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:24
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Vælg hvilken Ollama-server der er bedst til dit hardware."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:32
+msgid "Update Ollama"
+msgstr "Opdater Ollama"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:33
+msgid "Update the installed Ollama packages to the latest version."
+msgstr "Opdater de installerede Ollama-pakker til den nyeste version."
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:36
+msgid "Update now"
+msgstr "Opdater nu"
 # File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:43
 msgid "Ollama Variants"
@@ -895,12 +967,8 @@ msgstr "LM Studio"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 144
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:77
-msgid ""
-"LM Studio - A desktop app for exploring and running large language models "
-"locally."
-msgstr ""
-"LM Studio - En desktop-app til at udforske og køre store sprogmodeller "
-"lokalt."
+msgid "LM Studio - A desktop app for exploring and running large language models locally."
+msgstr "LM Studio - En desktop-app til at udforske og køre store sprogmodeller lokalt."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
@@ -910,6 +978,44 @@ msgstr ""
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:194
 msgid "Open Notebook"
 msgstr "Åbn notesbog"
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:87
+msgid "Open-source, privacy-focused alternative to Google's NotebookLM. Requires Docker enabled."
+msgstr "Open-source, privatlivs-fokuseret alternativ til Googles NotebookLM. Kræver Docker aktiveret."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 201
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:94
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:201
+msgid "Open Notebook Server"
+msgstr "Åbn Notebook Server"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 202
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:95
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:202
+msgid "Start the Open Notebook server."
+msgstr "Start Open Notebook-serveren."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
+# line: 190
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:100
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:207
+#, python-brace-format
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"Åben Notebook kører.\n"
+"Adresse: http://localhost:8502\n"
+"og\n"
+"Adresse: http://{}:8502"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
 # line: 87
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:107
@@ -1050,8 +1156,8 @@ msgid ""
 "Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
 "Consider using Vulkan, in many tests, Vulkan performed better than ROCm."
 msgstr ""
-"Lokal AI-server. For nyere AMD GPU'er, startende fra 6000-serien. Overvej at"
-" bruge Vulkan, i mange tests præsterede Vulkan bedre end ROCm."
+"Lokal AI-server. For nyere AMD GPU'er, startende fra 6000-serien. Overvej at bruge Vulkan, i mange "
+"tests præsterede Vulkan bedre end ROCm."
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:16
 msgid "Container service — enable to use containers below."
@@ -1301,325 +1407,94 @@ msgstr ""
 "Adresse: http://localhost:2017\n"
 "og\n"
 "Adresse: http://{}:2017"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
-# line: 190
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:100
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:207
-#, python-brace-format
-msgid ""
-"Open Notebook is running.\n"
-"Address: http://localhost:8502\n"
-"and\n"
-"Address: http://{}:8502"
-msgstr ""
-"Åben Notebook kører.\n"
-"Adresse: http://localhost:8502\n"
-"og\n"
-"Adresse: http://{}:8502"
+# 
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 195
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:195
+msgid "Install the open-source alternative to Google's NotebookLM."
+msgstr "Installer det open-source alternativ til Googles NotebookLM."
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 16
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:15
-msgid "BigLinux performance tweaks."
-msgstr "BigLinux ydeevnejusteringer."
+# settings/devices_page.py, line: 15
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:34
+msgid "Manage physical devices."
+msgstr "Administrer fysiske enheder."
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/usability/gamemode_config_dialog.py, line: 91
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:22
-msgid "Disable Visual Effects"
-msgstr "Deaktiver visuelle effekter"
+# settings/system_usability_page.py, line: 190
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
+#. Wifi
+msgid "Wifi"
+msgstr "Wifi"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 39
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:39
+msgid "Enable the Wi-Fi adapter."
+msgstr "Aktivér Wi-Fi-adapteren."
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 35
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:24
-msgid ""
-"Disables KWin visual effects (blur, shadows, animations). Reduces GPU load "
-"and frees memory."
-msgstr ""
-"Deaktiverer KWin visuelle effekter (sløring, skygger, animationer). "
-"Reducerer GPU-belastning og frigør hukommelse."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 63
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:32
-msgid "CPU Maximum Performance"
-msgstr "CPU Maksimal Ydelse"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 51
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:34
-msgid ""
-"Forces maximum processor performance mode. Ensures the processor uses "
-"maximum frequency."
-msgstr ""
-"Tvinger maksimal processorpræstationsmode. Sikrer, at processoren bruger "
-"maksimal frekvens."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 79
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:42
-msgid "Disable Baloo Indexer"
-msgstr "Deaktiver Baloo-indekseren"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 67
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:43
-msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
-msgstr "Deaktiverer Baloo filindekseren. Undgår disk I/O-overhead."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/usability/gamemode_config_dialog.py, line: 136
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:51
-msgid "Unload S.M.A.R.T Monitor"
-msgstr "Afbryd S.M.A.R.T Monitor"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/performance_games_page.py, line: 83
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:52
-msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
-msgstr ""
-"Deaktiverer S.M.A.R.T diskovervågning. Reducerer disk I/O og CPU-brug."
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 169
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:60
-msgid "Meltdown Mitigations off"
-msgstr "Meltdown-afbødninger slået fra"
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:62
-msgid "Using mitigations=off will make your machine faster and less secure!"
-msgstr ""
-"At bruge mitigations=off vil gøre din maskine hurtigere og mindre sikker!"
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:67
-msgid ""
-"This will disable CPU security mitigations (Meltdown/Spectre). Your system "
-"will be faster but vulnerable to hardware-level attacks. Are you sure you "
-"want to continue?"
-msgstr ""
-"Dette vil deaktivere CPU-sikkerhedsforanstaltninger (Meltdown/Spectre). Dit "
-"system vil være hurtigere, men sårbart over for angreb på hardware-niveau. "
-"Er du sikker på, at du vil fortsætte?"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 176
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:74
-msgid "noWatchdog"
-msgstr "noWatchdog"
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 177
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:76
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high"
-" performance but removing automatic protections against system crashes."
-msgstr ""
-"Deaktiverer hardware watchdog og TSC clocksource-systemer, opretholder høj "
-"ydeevne, men fjerner automatiske beskyttelser mod systemnedbrud."
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:81
-msgid ""
-"This will disable the hardware watchdog. Your system will no longer "
-"automatically recover from certain types of crashes. Are you sure you want "
-"to continue?"
-msgstr ""
-"Dette vil deaktivere hardware watchdog'en. Dit system vil ikke længere "
-"automatisk genoprette sig fra visse typer af nedbrud. Er du sikker på, at du"
-" vil fortsætte?"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 48
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:53
-msgid "Close"
-msgstr "Luk"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 63
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:68
-#, python-brace-format
-msgid "Warning: {}"
-msgstr "Advarsel: {}"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 66
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:71
-msgid "Cancel"
-msgstr "Annuller"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 67
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:72
-msgid "Continue"
-msgstr "Fortsæt"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 215
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:333
-msgid "Recommended"
-msgstr "Anbefalet"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 238
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 326
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:356
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:444
-#, python-brace-format
-msgid "{}: additional information"
-msgstr "{}: yderligere information"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 251
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:369
-msgid "Learn more"
-msgstr "Lær mere"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 257
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:375
-#, python-brace-format
-msgid "{}: learn more"
-msgstr "{}: lær mere"
+# settings/system_usability_page.py, line: 197
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 43
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:43
+msgid "Enable the Bluetooth adapter."
+msgstr "Aktivér Bluetooth-adapteren."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 206
+# settings/dispositivos_page.py, line: 77
 # File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 165
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:483
-msgid "Unavailable: script not found."
-msgstr "Utilgængelig: script ikke fundet."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 173
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 199
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:254
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:256
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:484
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:530
+# settings/devices/jamesdsp_dialog.py, line: 155
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:49
+msgid "JamesDSP"
+msgstr "JamesDSP"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/dispositivos_page.py, line: 84
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:50
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Avanceret lydbehandlingsprocessor, der forbedrer lydkvaliteten."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices_page.py, line: 71
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:58
+msgid "Reverse mouse scrolling"
+msgstr "Omvendt musrulning"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/devices_page.py, line: 72
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:59
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "Omvendt mus rulning uden at genstarte sessionen."
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 66
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:66
+msgid "Network Interfaces"
+msgstr "Netværksgrænseflader"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 67
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:67
+msgid "Connect or disconnect network devices."
+msgstr "Forbind eller afbryd netværksenheder."
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:99
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:154
 #, python-brace-format
-msgid "Script not found: {}"
-msgstr "Script ikke fundet: {}"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 218
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 177
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:494
-msgid "Enabled"
-msgstr "Aktiveret"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 220
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 179
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:496
-msgid "Disabled"
-msgstr "Deaktiveret"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 223
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 182
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:502
-msgid ""
-"Enabled by system configuration (e.g., Real-Time Kernel) and cannot be "
-"changed here."
+msgid "{} — {}"
 msgstr ""
-"Aktiveret af systemkonfiguration (f.eks. Real-Time Kernel) og kan ikke "
-"ændres her."
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 225
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 184
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:506
-msgid "Unavailable: script returned invalid output."
-msgstr "Utilgængelig: scriptet returnerede ugyldigt output."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py,
-# line: 261
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:508
+"I'm ready to assist with your translation. Please provide the string you would like to translate. "
+"{} {}"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 113
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:113
 #, python-brace-format
-msgid "output from script {}: {}"
-msgstr "output fra script {}: {}"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 229
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 188
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:514
-msgid "Unavailable: script returned an error."
-msgstr "Utilgængelig: scriptet returnerede en fejl."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 184
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:515
+msgid "{}: toggle connection"
+msgstr "{}: skift forbindelse"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
+msgid "connected"
+msgstr "forbundet"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:152
+msgid "disconnected"
+msgstr "frakoblet"
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py:161
 #, python-brace-format
-msgid "Error checking state: {}"
-msgstr "Fejlkontrolstatus: {}"
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/system_usability_page.py, line: 233
-# File: biglinux-settings/usr/share/biglinux/biglinux-
-# settings/preload_page.py, line: 192
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:518
-msgid "Unavailable: failed to run script."
-msgstr "Utilgængelig: kunne ikke køre script."
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 193
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 220
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:519
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:568
-#, python-brace-format
-msgid "Error running script {}: {}"
-msgstr "Fejl ved kørsel af script {}: {}"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 209
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:544
-msgid "State changed successfully"
-msgstr "Tilstand ændret med succes"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 211
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:546
-#, python-brace-format
-msgid "Script output: {}"
-msgstr "Script output: {}"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 215
-#. Exit code != 0 indicates failure
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:550
-#, python-brace-format
-msgid "Script failed with exit code: {}"
-msgstr "Script mislykkedes med exitkode: {}"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 217
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:564
-#, python-brace-format
-msgid "Script timeout: {}"
-msgstr "Script timeout: {}"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 476
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:596
-#, python-brace-format
-msgid "{} sub-options available"
-msgstr "{} underindstillinger tilgængelige"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
-msgid "on"
-msgstr "tændt"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 570
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:695
-msgid "off"
-msgstr "slukket"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 574
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:699
-#, python-brace-format
-msgid "Changing {} to {}…"
-msgstr "Ændrer {} til {}…"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:701
-msgid "Undo"
-msgstr "Fortryd"
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 600
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:725
-msgid "Undo: reverted toggle"
-msgstr "Fortryd: omvendt skift"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 244
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:741
-#, python-brace-format
-msgid "Changing {} to {}"
-msgstr "Ændrer {} til {}"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 271
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:771
-#, python-brace-format
-msgid "ERROR: Failed to change {} to {}"
-msgstr "FEJL: Mislykkedes at ændre {} til {}"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
-# 274
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:776
-#, python-brace-format
-msgid "Failed to change setting: {}"
-msgstr "Mislykkedes med at ændre indstilling: {}"
+msgid "Failed to change network device: {}"
+msgstr "Mislykkedes at ændre netværksenhed: {}"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:13
@@ -1661,6 +1536,16 @@ msgstr "Hurtig Grub"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:38
 msgid "Decreases grub display time."
 msgstr "Reducerer grub visningstid."
+# 
+# File: usr/share/biglinux/biglinux-settings/system_page.py, line: 47
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:47
+msgid "Boot messages"
+msgstr "Opstartsmeddelelser"
+# 
+# File: usr/share/biglinux/biglinux-settings/system_page.py, line: 48
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:48
+msgid "Show system messages below the boot animation."
+msgstr "Vis systemmeddelelser under opstartsanimationen."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line:
 # 170
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:56
@@ -1671,138 +1556,267 @@ msgstr "Auto-montering af partitioner"
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:57
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Automatisk montering af partitioner på interne diske ved opstart."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:28
-msgid "No Ollama packages are installed. Enable an Ollama variant first."
-msgstr "Ingen Ollama-pakker er installeret. Aktivér først en Ollama-variant."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:37
-msgid "Updating Ollama"
-msgstr "Opdaterer Ollama"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:38
-msgid "Synchronizing repositories and updating Ollama, please wait..."
-msgstr "Synkroniserer arkiver og opdaterer Ollama, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:50
-msgid "Ollama updated successfully!"
-msgstr "Ollama blev opdateret!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh:53
-msgid "Failed to update Ollama."
-msgstr "Kunne ikke opdatere Ollama."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:25
-msgid "OpenClaude Install"
-msgstr "OpenClaude Installer"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:26
-msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 75
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:75
+msgid "Sleep Mode"
+msgstr "Søvntilstand"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 76
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:76
+msgid "Configure how the system suspends."
+msgstr "Konfigurer, hvordan systemet suspenderer."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 83
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:83
+msgid "Use s2idle (light sleep)"
+msgstr "Brug s2idle (let søvn)"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 85
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:85
+msgid "Uses a lighter sleep mode that preserves Fn keys and device state. Recommended for ASUS notebooks."
 msgstr ""
-"Installerer OpenClaude (nodejs, npm, ripgrep påkrævet), vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:28
-msgid "OpenClaude Uninstall"
-msgstr "OpenClaude Afinstaller"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:29
-msgid "Uninstalling OpenClaude, please wait..."
-msgstr "Afinstallerer OpenClaude, vent venligst..."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:56
+"Bruger en lettere søvntilstand, der bevarer Fn-taster og enhedens tilstand. Anbefales til ASUS "
+"bærbare computere."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 91
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:91
 msgid ""
-"OpenClaude installed successfully!\\n\\nRun 'openclaude' in a terminal to "
-"start."
+"S3 deep sleep can cause the Embedded Controller to stop generating hotkey interrupts. s2idle keeps "
+"the EC powered, avoiding this issue at a small cost in battery consumption."
 msgstr ""
-"OpenClaude blev installeret!\\n\\nKør 'openclaude' i en terminal for at "
-"starte."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:59
-msgid "OpenClaude removed successfully!"
-msgstr "OpenClaude blev fjernet!"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer/openclaudeRun.sh:63
-msgid "An error occurred with OpenClaude."
-msgstr "Der opstod en fejl med OpenClaude."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:47
-msgid "Boot messages"
-msgstr "Opstartsmeddelelser"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py:48
-msgid "Show system messages below the boot animation."
-msgstr "Vis systemmeddelelser under opstartsanimationen."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:32
-msgid "Update Ollama"
-msgstr "Opdater Ollama"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:33
-msgid "Update the installed Ollama packages to the latest version."
-msgstr "Opdater de installerede Ollama-pakker til den nyeste version."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:36
-msgid "Update now"
-msgstr "Opdater nu"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:87
+"S3 dyb søvn kan få den indbyggede controller til at stoppe med at generere hotkey-interrupts. "
+"s2idle holder EC'en tændt, hvilket undgår dette problem til en lille omkostning i batteriforbrug."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 100
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:100
+msgid "WiFi"
+msgstr "WiFi"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 101
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:101
+msgid "Prevent WiFi issues after suspend."
+msgstr "Forhindre WiFi-problemer efter dvale."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 108
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:108
+msgid "Protect WiFi on suspend"
+msgstr "Beskyt WiFi ved suspendering"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 110
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:110
 msgid ""
-"Open-source, privacy-focused alternative to Google's NotebookLM. Requires "
-"Docker enabled."
+"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding connection loss after "
+"resume."
 msgstr ""
-"Open-source, privatlivs-fokuseret alternativ til Googles NotebookLM. Kræver "
-"Docker aktiveret."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:94
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:201
-msgid "Open Notebook Server"
-msgstr "Åbn Notebook Server"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py:95
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:202
-msgid "Start the Open Notebook server."
-msgstr "Start Open Notebook-serveren."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:220
-msgid "Run"
-msgstr "Kør"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:226
-#, python-brace-format
-msgid "{}: run action"
-msgstr "{}: kør handling"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:279
-#, python-brace-format
-msgid "Action script {} failed: {}"
-msgstr "Handlingsscript {} mislykkedes: {}"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:284
-#, python-brace-format
-msgid "Action script timeout: {}"
-msgstr "Handlingsscript timeout: {}"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:287
-#, python-brace-format
-msgid "Error running action script {}: {}"
-msgstr "Fejl ved kørsel af handlingsscript {}: {}"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:297
-msgid "Action completed successfully"
-msgstr "Handling fuldført succesfuldt"
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py:300
-#, python-brace-format
-msgid "Action failed: {}"
-msgstr "Handling mislykkedes: {}"
+"Forhindrer Realtek WiFi-chippen i at slukke helt (d3cold), hvilket undgår forbindelsestab efter "
+"genoptagelse."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 116
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:116
+msgid ""
+"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power gating. This keeps the chip "
+"in d3hot (PCIe link alive) during suspend."
+msgstr ""
+"Nogle Realtek RTL8852BE/CE chips fejler i at reinitialisere efter d3cold strømstyring. Dette holder "
+"chippen i d3hot (PCIe-forbindelse aktiv) under suspension."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 124
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:124
+msgid "Display and Keyboard"
+msgstr "Skærm og Tastatur"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 125
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:125
+msgid "Preserve brightness and LED state across suspend."
+msgstr "Bevar lysstyrke og LED-tilstand under dvale."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 132
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:132
+msgid "Save/restore brightness on suspend"
+msgstr "Gem/gendan lysstyrke ved suspendering"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 134
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:134
+msgid "Saves screen brightness and keyboard LEDs before suspending and restores them on resume."
+msgstr "Gemmer skærmlysstyrken og tastatur-LED'erne før dvale og gendanner dem ved genoptagelse."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 144
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:144
+msgid "GNOME Shell Extensions"
+msgstr "GNOME Shell-udvidelser"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 145
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:145
+msgid "Automatic health check after resume."
+msgstr "Automatisk sundhedstjek efter genoptagelse."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 152
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:152
+msgid "Extension health monitor"
+msgstr "Udvidelses sundhedsovervågning"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 154
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:154
+msgid "Detects GNOME Shell extensions in error state after resume and automatically restarts them."
+msgstr "Registrerer GNOME Shell-udvidelser i fejlsituation efter genoptagelse og genstarter dem automatisk."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 163
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:163
+msgid "Lid Switch"
+msgstr "Lågkontakt"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 164
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:164
+msgid "Laptop lid close behavior."
+msgstr "Adfærd ved lukning af laptoplåget."
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:171
+msgid "Suspend on lid close (AC power)"
+msgstr "Suspendér ved lukning af låget (AC-strøm)"
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/sleep_page.py:173
+msgid "Some systems do not suspend when on AC power. This forces suspend when the lid is closed."
+msgstr ""
+"Nogle systemer går ikke i dvale, når de er tilsluttet AC-strøm. Dette tvinger dvale, når låget er "
+"lukket."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 103
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:10
+msgid "Preload"
+msgstr "Forudlæsning"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 105
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:11
+msgid "Preload applications into memory to open them faster."
+msgstr "Forudlæs applikationer i hukommelsen for at åbne dem hurtigere."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 120
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:18
+msgid "Firefox"
+msgstr "Firefox"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 126
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:19
+msgid "Brave"
+msgstr "Brave"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 132
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:20
+msgid "Chrome"
+msgstr "Chrome"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 138
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:21
+msgid "Chromium"
+msgstr "Chromium"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 126
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:22
+msgid "Librewolf"
+msgstr "Librewolf"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 144
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:23
+msgid "Palemoon"
+msgstr "Palemoon"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 150
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:24
+msgid "Opera"
+msgstr "Opera"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/preload_page.py, line: 156
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py:25
+msgid "Libreoffice"
+msgstr "Libreoffice"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 11
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:11
 msgid "AI Coding Assistants"
 msgstr "AI-kodningsassistenter"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 12
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:12
 msgid "Open-source coding agents powered by language models."
 msgstr "Open-source kodningsagenter drevet af sprogmodeller."
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 21
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:21
 msgid "OpenClaude"
 msgstr "OpenClaude"
+# 
+# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 23
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/developer_page.py:23
 msgid ""
-"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ "
-"models. Installs nodejs, npm and ripgrep as dependencies."
+"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ models. Installs nodejs, "
+"npm and ripgrep as dependencies."
 msgstr ""
-"Open-source kodningsagent CLI til OpenAI, Gemini, DeepSeek, Ollama og 200+ "
-"modeller. Installerer nodejs, npm og ripgrep som afhængigheder."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py:195
-msgid "Install the open-source alternative to Google's NotebookLM."
-msgstr "Installer det open-source alternativ til Googles NotebookLM."
-#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/main.py:297
-msgid "Developer"
-msgstr "Udvikler"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py,
-# line: 80
-#~ msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
-#~ msgstr ""
-#~ "Et open source, privatetsfokuseret alternativ til Googles Notebook LM!"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
-# line: 178
-#~ msgid ""
-#~ "Install An open source, privacy-focused alternative to Google's Notebook LM!"
-#~ msgstr ""
-#~ "Installer et open source, privatetsfokuseret alternativ til Googles Notebook"
-#~ " LM!"
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py,
-# line: 185
-#~ msgid "Run Open Notebook."
-#~ msgstr "Kør Åben Notebog."
+"Open-source kodningsagent CLI til OpenAI, Gemini, DeepSeek, Ollama og 200+ modeller. Installerer "
+"nodejs, npm og ripgrep som afhængigheder."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 16
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:15
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux ydeevnejusteringer."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/usability/gamemode_config_dialog.py, line: 91
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:22
+msgid "Disable Visual Effects"
+msgstr "Deaktiver visuelle effekter"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 35
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:24
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
+msgstr ""
+"Deaktiverer KWin visuelle effekter (sløring, skygger, animationer). Reducerer GPU-belastning og "
+"frigør hukommelse."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 63
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:32
+msgid "CPU Maximum Performance"
+msgstr "CPU Maksimal Ydelse"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 51
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:34
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr "Tvinger maksimal processorpræstationsmode. Sikrer, at processoren bruger maksimal frekvens."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 79
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:42
+msgid "Disable Baloo Indexer"
+msgstr "Deaktiver Baloo-indekseren"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 67
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:43
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Deaktiverer Baloo filindekseren. Undgår disk I/O-overhead."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/usability/gamemode_config_dialog.py, line: 136
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:51
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "Afbryd S.M.A.R.T Monitor"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/performance_games_page.py, line: 83
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:52
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Deaktiverer S.M.A.R.T diskovervågning. Reducerer disk I/O og CPU-brug."
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 169
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:60
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown-afbødninger slået fra"
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 62
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:62
+msgid "Using mitigations=off will make your machine faster and less secure!"
+msgstr "At bruge mitigations=off vil gøre din maskine hurtigere og mindre sikker!"
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:67
+msgid ""
+"This will disable CPU security mitigations (Meltdown/Spectre). Your system will be faster but "
+"vulnerable to hardware-level attacks. Are you sure you want to continue?"
+msgstr ""
+"Dette vil deaktivere CPU-sikkerhedsforanstaltninger (Meltdown/Spectre). Dit system vil være "
+"hurtigere, men sårbart over for angreb på hardware-niveau. Er du sikker på, at du vil fortsætte?"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 176
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:74
+msgid "noWatchdog"
+msgstr "noWatchdog"
+# File: biglinux-settings/usr/share/biglinux/biglinux-
+# settings/system_usability_page.py, line: 177
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:76
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Deaktiverer hardware watchdog og TSC clocksource-systemer, opretholder høj ydeevne, men fjerner "
+"automatiske beskyttelser mod systemnedbrud."
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 81
+#: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py:81
+msgid ""
+"This will disable the hardware watchdog. Your system will no longer automatically recover from "
+"certain types of crashes. Are you sure you want to continue?"
+msgstr ""
+"Dette vil deaktivere hardware watchdog'en. Dit system vil ikke længere automatisk genoprette sig "
+"fra visse typer af nedbrud. Er du sikker på, at du vil fortsætte?"
