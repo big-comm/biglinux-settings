@@ -12,6 +12,7 @@ license=('GPL')
 url="https://github.com/big-comm/${pkgname}"
 source=("git+${url}.git")
 md5sums=('SKIP')
+backup=('etc/biglinux/sleep.conf')
 
 # Automatically detect and use the correct install file
 if [ -e "${pkgname}.install" ]; then
@@ -52,7 +53,7 @@ package() {
     local dirs=("usr" "etc" "opt")
     for dir in "${dirs[@]}"; do
         if [ -d "${srcdir}/${dir}" ]; then
-            cp -a "${srcdir}/${dir}" "${pkgdir}/"
+            cp -a --no-preserve=ownership "${srcdir}/${dir}" "${pkgdir}/"
         fi
     done
 
