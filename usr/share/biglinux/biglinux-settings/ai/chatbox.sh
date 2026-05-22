@@ -16,10 +16,10 @@ if [ "$1" == "check" ]; then
 elif [ "$1" == "toggle" ]; then
   state="$2"
   if [ "$state" == "true" ]; then
-    pkexec $PWD/ai/chatboxRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+    pkexec /usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     exitCode=$?
   else
-    pkexec $PWD/ai/chatboxRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+    pkexec /usr/share/biglinux/biglinux-settings/ai/chatboxRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     exitCode=$?
   fi
   exit $exitCode

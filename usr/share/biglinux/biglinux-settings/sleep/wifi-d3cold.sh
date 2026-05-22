@@ -37,6 +37,6 @@ elif [ "$1" == "toggle" ]; then
     _require_root "$@"
     _ensure_conf
     state="$2"
-    sed -i "s|^[[:space:]]*${KEY}[[:space:]]*=.*|${KEY}=${state}|" "$CONF"
+    sed -i --follow-symlinks "s|^[[:space:]]*${KEY}[[:space:]]*=.*|${KEY}=${state}|" "$CONF"
     exit $?
 fi

@@ -1,8 +1,11 @@
 #!/bin/bash
+LIMITS_FILE="/etc/security/limits.d/99-biglinux-settings.conf"
 
 # check current status
 if [ "$1" == "check" ]; then
-  if [[ "$(grep '@audio' /etc/security/*.conf | grep rtprio | awk '{print $4}')" -ge "90" ]] && [[ -n "$(grep 'memlock.*unlimited' /etc/security/*.conf)" ]];then
+  if [[ -r "$LIMITS_FILE" ]] &&
+    grep -qE '^@audio[[:space:]]+-[[:space:]]+rtprio[[:space:]]+90$' "$LIMITS_FILE" &&
+    grep -qE '^@audio[[:space:]]+-[[:space:]]+memlock[[:space:]]+unlimited$' "$LIMITS_FILE"; then
     echo "true"
   else
     echo "false"
@@ -12,10 +15,10 @@ if [ "$1" == "check" ]; then
 elif [ "$1" == "toggle" ]; then
   state="$2"
   if [ "$state" == "true" ]; then
-    pkexec $PWD/system/limitsRun.sh "enable" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+    pkexec /usr/share/biglinux/biglinux-settings/system/limitsRun.sh "enable" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     exitCode=$?
   else
-    pkexec $PWD/system/limitsRun.sh "disable" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+    pkexec /usr/share/biglinux/biglinux-settings/system/limitsRun.sh "disable" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     exitCode=$?
   fi
   exit $exitCode

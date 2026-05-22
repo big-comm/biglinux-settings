@@ -14,10 +14,7 @@ userLang="$6"
 userLanguage="$7"
 
 # Helper function to run a command as the original user
-runAsUser() {
-  # Single quotes around variables are a good security practice
-  su "$originalUser" -c "export DISPLAY='$userDisplay'; export XAUTHORITY='$userXauthority'; export DBUS_SESSION_BUS_ADDRESS='$userDbusAddress'; export LANG='$userLang'; export LC_ALL='$userLang'; export LANGUAGE='$userLanguage'; $1"
-}
+source "/usr/share/biglinux/biglinux-settings/lib/run-as-user.sh"
 
 # Creates a named pipe (FIFO) for communication with Zenity
 pipePath="/tmp/jamesdsp_pipe_$$"

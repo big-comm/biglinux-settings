@@ -17,7 +17,7 @@ elif [ "$1" == "toggle" ]; then
   state="$2"
   if [ "$state" == "true" ]; then
     if ! pacman -Q krita &>/dev/null; then
-      pkexec $PWD/ai/kritaRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+      pkexec /usr/share/biglinux/biglinux-settings/ai/kritaRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     fi
     killall krita
     diffusionUrl=$(curl -s "https://api.github.com/repos/Acly/krita-ai-diffusion/releases/latest" | grep "browser_download_url" | grep ".zip" | head -n 1 | cut -d '"' -f 4)

@@ -2,18 +2,21 @@
 
 # check current status
 if [ "$1" == "check" ]; then
-  if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
+  if ([[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]]) && command -v qdbus6 >/dev/null 2>&1 && command -v kpackagetool6 >/dev/null 2>&1;then
     if grep -q "plugin=ChatAI-Plasmoid" "$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc"; then
       echo "true"
     else
       echo "false"
     fi
+  else
+    echo "unsupported"
   fi
 
 # change the state
 elif [ "$1" == "toggle" ]; then
   state="$2"
-  if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
+  exitCode=0
+  if ([[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]]) && command -v qdbus6 >/dev/null 2>&1 && command -v kpackagetool6 >/dev/null 2>&1;then
     if [ "$state" == "true" ]; then
       # check and download chatai
       if ! kpackagetool6 -t Plasma/Applet -l 2>/dev/null | grep -q "ChatAI-Plasmoid"; then

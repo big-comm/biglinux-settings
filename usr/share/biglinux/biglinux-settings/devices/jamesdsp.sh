@@ -15,7 +15,7 @@ elif [ "$1" == "toggle" ]; then
   jamesdsp_conf="$HOME/.config/jamesdsp/application.conf"
   if [ "$state" == "true" ]; then
     if ! pacman -Q jamesdsp &>/dev/null; then
-      pkexec $PWD/devices/jamesdspRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+      pkexec /usr/share/biglinux/biglinux-settings/devices/jamesdspRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     fi
     mkdir -p "$HOME/.config/jamesdsp/presets"
     cp '/etc/skel/.config/jamesdsp/presets/big-jamesdsp.conf' "$HOME/.config/jamesdsp/presets/big-jamesdsp.conf"

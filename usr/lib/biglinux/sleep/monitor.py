@@ -28,6 +28,7 @@ from sleep.handlers.gnome import (
     _enable_extension, _disable_extension,
     _ext_state, _dbus_call,
     DEFERRED_EXTENSIONS,
+    GnomeHandler,
 )
 
 logging.basicConfig(
@@ -82,6 +83,15 @@ def _check_extensions_health() -> bool:
     return GLib.SOURCE_REMOVE
 
 
+def _resume_extensions() -> bool:
+    """Restore extensions saved by the pre-suspend handler, then verify health."""
+    try:
+        GnomeHandler().post_resume("suspend")
+    except Exception as e:
+        log.error("post_resume failed: %s", e, exc_info=True)
+    return _check_extensions_health()
+
+
 def _on_prepare_for_sleep(connection, sender, path, iface, signal, params, _):
     global _just_resumed
     going_to_sleep = params[0]
@@ -93,8 +103,8 @@ def _on_prepare_for_sleep(connection, sender, path, iface, signal, params, _):
     else:
         log.info("PrepareForSleep(False): system waking up")
         _just_resumed = True
-        # Schedule a health check after things settle
-        GLib.timeout_add(3000, _check_extensions_health)
+        # Schedule restore/check after things settle
+        GLib.timeout_add(3000, _resume_extensions)
 
 
 def _on_screensaver_changed(connection, sender, path, iface, signal, params, _):
@@ -104,7 +114,7 @@ def _on_screensaver_changed(connection, sender, path, iface, signal, params, _):
     if not is_active and _just_resumed:
         log.info("Screen unlocked after resume — checking extension health")
         _just_resumed = False
-        GLib.timeout_add(_CHECK_DELAY_MS, _check_extensions_health)
+        GLib.timeout_add(_CHECK_DELAY_MS, _resume_extensions)
 
 
 def _is_gnome_session() -> bool:
@@ -155,8 +165,8 @@ def main():
         log.error("Cannot connect to session bus: %s", e)
         return 1
 
-    # Check health at startup (in case of crash recovery)
-    GLib.timeout_add(5000, _check_extensions_health)
+    # Restore saved state or check health at startup (in case of crash recovery)
+    GLib.timeout_add(5000, _resume_extensions)
 
     loop = GLib.MainLoop()
     log.info("Event loop running")

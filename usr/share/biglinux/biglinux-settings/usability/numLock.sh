@@ -28,11 +28,14 @@ if [ "$1" == "check" ]; then
     else
       echo "false"
     fi
+  else
+    echo "unsupported"
   fi
 
 # change the state
 elif [ "$1" == "toggle" ]; then
   state="$2"
+  exitCode=0
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     if [ "$state" == "true" ]; then
         pkexec kwriteconfig6 --group "General" --key "Numlock" --file "/etc/sddm.conf" "on"

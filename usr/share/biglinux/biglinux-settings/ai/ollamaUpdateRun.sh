@@ -12,9 +12,7 @@ userDbusAddress="$4"
 userLang="$5"
 userLanguage="$6"
 
-runAsUser() {
-  su "$originalUser" -c "export DISPLAY='$userDisplay'; export XAUTHORITY='$userXauthority'; export DBUS_SESSION_BUS_ADDRESS='$userDbusAddress'; export LANG='$userLang'; export LC_ALL='$userLang'; export LANGUAGE='$userLanguage'; $1"
-}
+source "/usr/share/biglinux/biglinux-settings/lib/run-as-user.sh"
 
 # Detect installed Ollama variants
 installedPkgs=""

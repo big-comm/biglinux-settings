@@ -80,9 +80,9 @@ def run(phase: str, sleep_type: str) -> int:
     log.info("phase=%s type=%s handlers=%d", phase, sleep_type, len(handlers))
     errors = 0
     for handler in handlers:
-        if not handler.enabled or not handler.is_available():
-            continue
         try:
+            if not handler.enabled or not handler.is_available():
+                continue
             t0 = time.monotonic()
             if phase == "pre":
                 handler.pre_suspend(sleep_type)

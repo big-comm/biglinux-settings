@@ -3,8 +3,17 @@
 
 pkgname=biglinux-settings
 pkgdesc="Scripts and configuration files created in GTK4 that simplify switching BigLinux operation."
-# Uncomment and edit the following lines as needed
-depends=('gtk4' 'python' 'polkit')
+depends=('gtk4' 'libadwaita' 'networkmanager' 'polkit' 'python' 'python-gobject' 'systemd' 'util-linux' 'zenity')
+optdepends=(
+    'baloo: KDE file indexer toggle'
+    'grub: GRUB timeout and kernel parameter toggles'
+    'kconfig: KDE configuration toggles'
+    'mkinitcpio: initramfs rebuild after boot animation changes'
+    'numlockx: NumLock startup toggle'
+    'plymouth: boot animation message toggle'
+    'power-profiles-daemon: CPU performance profile toggle'
+    'qt6-tools: qdbus6 support for KDE checks'
+)
 pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
 arch=('any')

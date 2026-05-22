@@ -42,14 +42,14 @@ elif [ "$1" == "toggle" ]; then
       # execute a command as a user
       any command as user
       # execute a command as root, prompting for a password only once.
-      pkexec $PWD/example/exampleRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+      pkexec /usr/share/biglinux/biglinux-settings/example/exampleRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
       exitCode=$?
     # if the state is false
     else
       # execute a command as a user
       any command as user
       # execute a command as root, prompting for a password only once.
-      pkexec $PWD/example/exampleRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+      pkexec /usr/share/biglinux/biglinux-settings/example/exampleRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
       exitCode=$?
     fi
   # for GNOME ONly
@@ -59,14 +59,14 @@ elif [ "$1" == "toggle" ]; then
       # execute a command as a user
       any command as user
       # execute a command as root, prompting for a password only once.
-      pkexec $PWD/example/exampleRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+      pkexec /usr/share/biglinux/biglinux-settings/example/exampleRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
       exitCode=$?
     # if the state is false
     else
       # execute a command as a user
       any command as user
       # execute a command as root, prompting for a password only once.
-      pkexec $PWD/example/exampleRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+      pkexec /usr/share/biglinux/biglinux-settings/example/exampleRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
       exitCode=$?
     fi
   # for XFCE only
@@ -76,14 +76,14 @@ elif [ "$1" == "toggle" ]; then
       # execute a command as a user
       any command as user
       # execute a command as root, prompting for a password only once.
-      pkexec $PWD/example/exampleRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+      pkexec /usr/share/biglinux/biglinux-settings/example/exampleRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
       exitCode=$?
     # if the state is false
     else
       # execute a command as a user
       any command as user
       # execute a command as root, prompting for a password only once.
-      pkexec $PWD/example/exampleRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+      pkexec /usr/share/biglinux/biglinux-settings/example/exampleRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
       exitCode=$?
     fi
   # for CINNAMON only
@@ -93,14 +93,14 @@ elif [ "$1" == "toggle" ]; then
       # execute a command as a user
       any command as user
       # execute a command as root, prompting for a password only once.
-      pkexec $PWD/example/exampleRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+      pkexec /usr/share/biglinux/biglinux-settings/example/exampleRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
       exitCode=$?
     # if the state is false
     else
       # execute a command as a user
       any command as user
       # execute a command as root, prompting for a password only once.
-      pkexec $PWD/example/exampleRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+      pkexec /usr/share/biglinux/biglinux-settings/example/exampleRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
       exitCode=$?
     fi
   fi

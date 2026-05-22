@@ -39,7 +39,7 @@ elif [ "$1" == "toggle" ]; then
     _require_root "$@"
     _ensure_conf
     state="$2"
-    sed -i "s|^[[:space:]]*${KEY}[[:space:]]*=.*|${KEY}=${state}|" "$CONF"
+    sed -i --follow-symlinks "s|^[[:space:]]*${KEY}[[:space:]]*=.*|${KEY}=${state}|" "$CONF"
 
     # Also enable/disable the user-level monitor service for all logged-in users
     if [ "$state" == "true" ]; then

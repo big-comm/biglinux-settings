@@ -28,11 +28,14 @@ if [ "$1" == "check" ]; then
     else
       echo "false"
     fi
+  else
+    echo "unsupported"
   fi
 
 # change the state
 elif [ "$1" == "toggle" ]; then
   state="$2"
+  exitCode=0
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     if [ "$state" == "true" ]; then
       kwriteconfig6 --file $HOME/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,minimize,maximize:menu"

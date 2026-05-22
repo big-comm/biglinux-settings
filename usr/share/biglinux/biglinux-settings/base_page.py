@@ -2,6 +2,7 @@ import gi
 
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
+import html
 import logging
 import os
 import subprocess
@@ -14,6 +15,11 @@ from typing import Any, Optional, Union
 from config import _, ICONS_DIR
 
 logger = logging.getLogger("biglinux-settings")
+
+
+def _plain_markup(text: str) -> str:
+    """Escape plain translated text before sending it to markup-aware widgets."""
+    return html.escape(html.unescape(text or ""), quote=False)
 
 
 class BaseSettingsPage(Adw.Bin):
@@ -59,6 +65,9 @@ class BaseSettingsPage(Adw.Bin):
     ) -> bool:
         """Show confirmation dialog before executing a dangerous action.
         If confirmed, proceeds with normal on_switch_changed. If cancelled, reverts switch."""
+        self.main_window._cancel_pending_undo(revert=True)
+        self.main_window._cancel_banner_timeout()
+
         if not state:
             # Disabling a dangerous feature is always safe — no confirmation needed
             self._execute_toggle(switch, state)
@@ -119,10 +128,11 @@ class BaseSettingsPage(Adw.Bin):
     def get_local_ip(cls) -> str:
         if cls._cached_local_ip is None:
             s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+            s.settimeout(1)
             try:
                 s.connect(("10.255.255.255", 1))
                 cls._cached_local_ip = s.getsockname()[0]
-            except Exception:
+            except OSError:
                 cls._cached_local_ip = "127.0.0.1"
             finally:
                 s.close()
@@ -155,8 +165,8 @@ class BaseSettingsPage(Adw.Bin):
     ) -> Adw.PreferencesGroup:
         """Cria um PreferencesGroup com o botão de reload automático."""
         group = Adw.PreferencesGroup()
-        group.set_title(title)
-        group.set_description(description)
+        group.set_title(_plain_markup(title))
+        group.set_description(_plain_markup(description))
         group.update_property(
             [Gtk.AccessibleProperty.LABEL],
             [title],
@@ -173,9 +183,9 @@ class BaseSettingsPage(Adw.Bin):
     ) -> Adw.ExpanderRow:
         """Creates a collapsible ExpanderRow inside a PreferencesGroup.
         Child rows can be added via create_row/create_sub_row passing the expander as parent."""
-        expander = Adw.ExpanderRow(title=title)
+        expander = Adw.ExpanderRow(title=_plain_markup(title))
         if subtitle:
-            expander.set_subtitle(subtitle)
+            expander.set_subtitle(_plain_markup(subtitle))
 
         icon_path = os.path.join(ICONS_DIR, f"{icon_name}.svg")
         gfile = Gio.File.new_for_path(icon_path)
@@ -204,9 +214,9 @@ class BaseSettingsPage(Adw.Bin):
     ) -> Adw.ActionRow:
         """Builds an ActionRow with a single action button suffix.
         The button invokes the script with argument 'run' (one-shot, not toggle)."""
-        row = Adw.ActionRow(title=title)
+        row = Adw.ActionRow(title=_plain_markup(title))
         if subtitle:
-            row.set_subtitle(subtitle)
+            row.set_subtitle(_plain_markup(subtitle))
 
         icon_path = os.path.join(ICONS_DIR, f"{icon_name}.svg")
         gfile = Gio.File.new_for_path(icon_path)
@@ -282,7 +292,7 @@ class BaseSettingsPage(Adw.Bin):
                     )
             except subprocess.TimeoutExpired:
                 logger.error(_("Action script timeout: {}").format(script_path))
-            except Exception as e:
+            except OSError as e:
                 logger.error(
                     _("Error running action script {}: {}").format(script_path, e)
                 )
@@ -316,9 +326,9 @@ class BaseSettingsPage(Adw.Bin):
         recommended: bool = False,
     ) -> Gtk.Switch:
         """Builds an ActionRow with icon prefix and switch suffix."""
-        row = Adw.ActionRow(title=title)
+        row = Adw.ActionRow(title=_plain_markup(title))
         if subtitle_with_markup:
-            row.set_subtitle(subtitle_with_markup)
+            row.set_subtitle(_plain_markup(subtitle_with_markup))
 
         # Icon prefix
         icon_path = os.path.join(ICONS_DIR, f"{icon_name}.svg")
@@ -407,10 +417,10 @@ class BaseSettingsPage(Adw.Bin):
         timeout: Optional[int] = None,
     ) -> Gtk.Switch:
         """Builds an indented ActionRow as a child option of a parent switch."""
-        row = Adw.ActionRow(title=title)
+        row = Adw.ActionRow(title=_plain_markup(title))
         self._set_wd(row, "is_sub_row", True)
         if subtitle_with_markup:
-            row.set_subtitle(subtitle_with_markup)
+            row.set_subtitle(_plain_markup(subtitle_with_markup))
 
         # Icon prefix with extra indentation for sub-row
         icon_path = os.path.join(ICONS_DIR, f"{icon_name}.svg")
@@ -502,6 +512,8 @@ class BaseSettingsPage(Adw.Bin):
                             "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
                         ),
                     )
+                elif output == "unsupported":
+                    return (None, _("Unavailable in this desktop environment."))
                 else:
                     msg = _("Unavailable: script returned invalid output.")
                     logger.debug(
@@ -514,7 +526,7 @@ class BaseSettingsPage(Adw.Bin):
                 msg = _("Unavailable: script returned an error.")
                 logger.error(_("Error checking state: {}").format(result.stderr))
                 return (None, msg)
-        except (subprocess.TimeoutExpired, Exception) as e:
+        except (subprocess.TimeoutExpired, OSError) as e:
             msg = _("Unavailable: failed to run script.")
             logger.error(_("Error running script {}: {}").format(script_path, e))
             return (None, msg)
@@ -564,7 +576,7 @@ class BaseSettingsPage(Adw.Bin):
             error_msg = _("Script timeout: {}").format(script_path)
             logger.error(error_msg)
             return False
-        except Exception as e:
+        except OSError as e:
             error_msg = _("Error running script {}: {}").format(script_path, e)
             logger.error(error_msg)
             return False
@@ -673,9 +685,6 @@ class BaseSettingsPage(Adw.Bin):
         """Alias for async version. Kept for backward compatibility."""
         self.sync_all_switches_async()
 
-    # Pending undo state shared across all page instances via the main_window
-    _pending_undo_timer: Optional[int] = None
-
     def on_switch_changed(self, switch: Gtk.Switch, state: bool) -> bool:
         """Callback executed when a user manually toggles a switch.
         For non-dangerous switches, provides a 3-second undo window before executing."""
@@ -683,13 +692,13 @@ class BaseSettingsPage(Adw.Bin):
         if not script_path:
             return True
 
+        self.main_window._cancel_pending_undo(revert=True)
+        self.main_window._cancel_banner_timeout()
+
         # Dangerous switches already have confirmation — execute immediately
         if self._get_wd(switch, "dangerous_handler"):
             self._execute_toggle(switch, state)
             return True
-
-        # Cancel any existing pending undo first
-        self._cancel_pending_undo()
 
         script_name = os.path.basename(script_path)
         action = _("on") if state else _("off")
@@ -703,30 +712,45 @@ class BaseSettingsPage(Adw.Bin):
         self.main_window.banner.set_revealed(True)
 
         # Start 3-second undo timer
-        BaseSettingsPage._pending_undo_timer = GLib.timeout_add(
-            3000, self._on_undo_timeout, switch, state
-        )
+        timer_id = GLib.timeout_add(3000, self._on_undo_timeout, switch, state)
+        self.main_window._pending_undo = {
+            "timer_id": timer_id,
+            "page": self,
+            "switch": switch,
+            "state": state,
+        }
 
         return True
 
-    def _cancel_pending_undo(self) -> None:
+    def _cancel_pending_undo(self, revert: bool = False) -> None:
         """Cancel any pending undo timer."""
-        if BaseSettingsPage._pending_undo_timer is not None:
-            GLib.source_remove(BaseSettingsPage._pending_undo_timer)
-            BaseSettingsPage._pending_undo_timer = None
+        self.main_window._cancel_pending_undo(revert=revert)
+
+    def _set_switch_active_without_handler(
+        self, switch: Gtk.Switch, state: bool
+    ) -> None:
+        handler = self._get_switch_handler(switch)
+        switch.handler_block_by_func(handler)
+        switch.set_active(state)
+        switch.handler_unblock_by_func(handler)
 
     def _undo_toggle(self, switch: Gtk.Switch, state: bool) -> None:
         """Undo a pending toggle — revert the switch and cancel execution."""
-        self._cancel_pending_undo()
-        # Revert switch without triggering the handler
-        switch.handler_block_by_func(self.on_switch_changed)
-        switch.set_active(not state)
-        switch.handler_unblock_by_func(self.on_switch_changed)
+        self._cancel_pending_undo(revert=True)
         logger.info(_("Undo: reverted toggle"))
 
     def _on_undo_timeout(self, switch: Gtk.Switch, state: bool) -> bool:
         """Called after the 3-second undo window expires — execute the toggle."""
-        BaseSettingsPage._pending_undo_timer = None
+        pending = self.main_window._pending_undo
+        if (
+            not pending
+            or pending.get("page") is not self
+            or pending.get("switch") is not switch
+            or pending.get("state") != state
+        ):
+            return False
+
+        self.main_window._pending_undo = None
         self.main_window.banner.set_revealed(False)
         self.main_window._banner_callback = None
         self._execute_toggle(switch, state)
@@ -735,6 +759,10 @@ class BaseSettingsPage(Adw.Bin):
     def _execute_toggle(self, switch: Gtk.Switch, state: bool) -> None:
         """Execute the actual toggle in a background thread with spinner feedback."""
         script_path = self.switch_scripts.get(switch)
+        if not script_path:
+            logger.error("No script registered for switch")
+            return
+
         timeout = self.switch_timeouts.get(script_path)
         script_name = os.path.basename(script_path)
         logger.info(

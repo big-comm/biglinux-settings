@@ -14,10 +14,7 @@ userLang="$6"
 userLanguage="$7"
 
 # Helper function to run a command as the original user
-runAsUser() {
-  # Single quotes around variables are a good security practice
-  su "$originalUser" -c "export DISPLAY='$userDisplay'; export XAUTHORITY='$userXauthority'; export DBUS_SESSION_BUS_ADDRESS='$userDbusAddress'; export LANG='$userLang'; export LC_ALL='$userLang'; export LANGUAGE='$userLanguage'; $1"
-}
+source "/usr/share/biglinux/biglinux-settings/lib/run-as-user.sh"
 
 # 1. Creates a named pipe (FIFO) for communication with Zenity
 pipePath="/tmp/grub_pipe_$$"
@@ -29,7 +26,7 @@ runAsUser "zenity --progress --title='grub' --text=\"$zenityText\" --pulsate --a
 
 # 3. Executes the root tasks.
 updateGrubTask() {
-  sed -i "/GRUB_TIMEOUT=/s/=.*/=$timeout/" /etc/default/grub
+  sed --follow-symlinks -i "/^GRUB_TIMEOUT=/s/=.*/=$timeout/" /etc/default/grub
   update-grub > "$pipePath"
 }
 updateGrubTask

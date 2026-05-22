@@ -14,7 +14,11 @@ ICONS_DIR = os.path.join(BASE_DIR, "icons")
 CONFIG_DIR = os.path.expanduser("~/.config/biglinux-settings")
 CONFIG_FILE = os.path.join(CONFIG_DIR, "config.json")
 
-locale.setlocale(locale.LC_ALL, "")
+try:
+    locale.setlocale(locale.LC_ALL, "")
+except locale.Error:
+    locale.setlocale(locale.LC_ALL, "C")
+
 locale.bindtextdomain(DOMAIN, LOCALE_DIR)
 locale.textdomain(DOMAIN)
 

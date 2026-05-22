@@ -2,7 +2,7 @@
 
 # check current status
 if [ "$1" == "check" ]; then
-  if [[ "$(grep GRUB_TIMEOUT= /etc/default/grub | cut -d"=" -f2)" == "1" ]];then
+  if [[ "$(grep -E '^GRUB_TIMEOUT=' /etc/default/grub | cut -d"=" -f2)" == "1" ]];then
     echo "true"
   else
     echo "false"

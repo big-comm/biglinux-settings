@@ -28,6 +28,7 @@ FIX (no extension modification needed):
 """
 import json
 import logging
+import re
 import subprocess
 import time
 from pathlib import Path
@@ -44,6 +45,38 @@ STATE_FILE = Path("/run/biglinux/gnome-ext-state.json")
 DEFERRED_EXTENSIONS = [
     "user-theme@gnome-shell-extensions.gcampax.github.com",
 ]
+
+
+def _variant(result: str, key: str) -> tuple[str, str] | None:
+    match = re.search(
+        rf'"{re.escape(key)}"\s+([a-z]+)\s+((?:"(?:\\.|[^"])*")|true|false|-?\d+)',
+        result,
+    )
+    if not match:
+        return None
+    return match.group(1), match.group(2)
+
+
+def _variant_bool(result: str, key: str) -> bool:
+    value = _variant(result, key)
+    return bool(value and value[0] == "b" and value[1] == "true")
+
+
+def _variant_int(result: str, key: str) -> int | None:
+    value = _variant(result, key)
+    if not value or value[0] not in ("i", "u", "x", "t", "n", "q", "d"):
+        return None
+    try:
+        return int(float(value[1]))
+    except ValueError:
+        return None
+
+
+def _variant_string(result: str, key: str) -> str:
+    value = _variant(result, key)
+    if not value or value[0] != "s":
+        return ""
+    return value[1].strip('"')
 
 
 def _dbus_call(uid: str, interface: str, method: str, *args) -> str | None:
@@ -65,8 +98,9 @@ def _ext_state(uid: str, uuid: str) -> dict | None:
                         "GetExtensionInfo", "s", uuid)
     if result:
         return {
-            "enabled": '"enabled" b true' in result,
-            "error":   '"state" d 3' in result,
+            "enabled": _variant_bool(result, "enabled"),
+            "state": _variant_int(result, "state"),
+            "error": _variant_string(result, "error"),
         }
     return None
 

@@ -13,9 +13,7 @@ userDbusAddress="$5"
 userLang="$6"
 userLanguage="$7"
 
-runAsUser() {
-  su "$originalUser" -c "export DISPLAY='$userDisplay'; export XAUTHORITY='$userXauthority'; export DBUS_SESSION_BUS_ADDRESS='$userDbusAddress'; export LANG='$userLang'; export LC_ALL='$userLang'; export LANGUAGE='$userLanguage'; $1"
-}
+source "/usr/share/biglinux/biglinux-settings/lib/run-as-user.sh"
 
 # Progress dialog via named pipe
 pipePath="/tmp/openclaude_pipe_$$"

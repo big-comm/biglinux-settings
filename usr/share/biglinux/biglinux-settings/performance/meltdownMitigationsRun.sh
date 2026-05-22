@@ -15,10 +15,7 @@ userLanguage="$7"
 parameter='mitigations=off'
 
 # Helper function to run a command as the original user
-runAsUser() {
-  # Single quotes around variables are a good security practice
-  su "$originalUser" -c "export DISPLAY='$userDisplay'; export XAUTHORITY='$userXauthority'; export DBUS_SESSION_BUS_ADDRESS='$userDbusAddress'; export LANG='$userLang'; export LC_ALL='$userLang'; export LANGUAGE='$userLanguage'; $1"
-}
+source "/usr/share/biglinux/biglinux-settings/lib/run-as-user.sh"
 
 # 1. Creates a named pipe (FIFO) for communication with Zenity
 pipePath="/tmp/grub_pipe_$$"
@@ -47,14 +44,14 @@ updateGrubTask() {
       return
     elif grep -q "GRUB_CMDLINE_LINUX_DEFAULT=" "/etc/default/grub"; then
       # Add the parameter
-      sed -i.bak -E "/^GRUB_CMDLINE_LINUX_DEFAULT=/ s|(['\"])$| $parameter\1|" "/etc/default/grub"
+      sed --follow-symlinks -i.bak -E "/^GRUB_CMDLINE_LINUX_DEFAULT=/ s|(['\"])$| $parameter\1|" "/etc/default/grub"
     elif grep -q "GRUB_CMDLINE_LINUX=" "/etc/default/grub"; then
       # Add the parameter
-      sed -i.bak -E "/^GRUB_CMDLINE_LINUX=/ s|(['\"])$| $parameter\1|" "/etc/default/grub"
+      sed --follow-symlinks -i.bak -E "/^GRUB_CMDLINE_LINUX=/ s|(['\"])$| $parameter\1|" "/etc/default/grub"
     fi
   else
     # remove the parameter
-    sed -i -E "s/$parameter//g" "/etc/default/grub"
+    sed --follow-symlinks -i -E "s/$parameter//g" "/etc/default/grub"
   fi
 
   # Run update-grub only if changes were made

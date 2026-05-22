@@ -4,6 +4,7 @@ import gi
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
 gi.require_version("Gdk", "4.0")
+import html
 import json
 import logging
 import os
@@ -22,6 +23,17 @@ from usability_page import UsabilityPage
 
 logging.basicConfig(level=logging.INFO, format="%(name)s %(levelname)s: %(message)s")
 logger = logging.getLogger("biglinux-settings")
+
+
+def _highlight_text(text, search_text):
+    """Wrap matching substring with bold Pango markup, escaping existing markup."""
+    escaped = html.escape(text)
+    lower = escaped.lower()
+    idx = lower.find(search_text)
+    if idx == -1:
+        return escaped
+    end = idx + len(search_text)
+    return escaped[:idx] + "<b>" + escaped[idx:end] + "</b>" + escaped[end:]
 
 
 class BiglinuxSettingsApp(Adw.Application):
@@ -70,6 +82,8 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
         self.is_searching = False
         self.current_page_id = None
         self._synced_pages = set()
+        self._banner_timeout_id = None
+        self._pending_undo = None
         self.load_css()
         self.setup_ui()
 
@@ -107,7 +121,11 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
     def load_css(self):
         self.css_provider = Gtk.CssProvider()
         css_path = os.path.join(BASE_DIR, "styles.css")
-        self.css_provider.load_from_path(css_path)
+        try:
+            self.css_provider.load_from_path(css_path)
+        except GLib.Error as e:
+            logger.error("Failed to load CSS: %s", e)
+            return
         Gtk.StyleContext.add_provider_for_display(
             self.get_display(),
             self.css_provider,
@@ -430,15 +448,7 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
     @staticmethod
     def _highlight_text(text, search_text):
         """Wrap matching substring with bold Pango markup, escaping existing markup."""
-        import html
-
-        escaped = html.escape(text)
-        lower = escaped.lower()
-        idx = lower.find(search_text)
-        if idx == -1:
-            return escaped
-        end = idx + len(search_text)
-        return escaped[:idx] + "<b>" + escaped[idx:end] + "</b>" + escaped[end:]
+        return _highlight_text(text, search_text)
 
     def _apply_search_highlight(self, row, search_text):
         """Apply bold markup highlighting to matching text in row title/subtitle."""
@@ -478,16 +488,48 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
             self.sidebar_list.set_sensitive(False)
             self._show_search_results(search_text)
 
+    def _cancel_banner_timeout(self):
+        if self._banner_timeout_id is not None:
+            GLib.source_remove(self._banner_timeout_id)
+            self._banner_timeout_id = None
+
+    def _cancel_pending_undo(self, revert=False):
+        pending = self._pending_undo
+        if not pending:
+            return
+
+        timer_id = pending.get("timer_id")
+        if timer_id is not None:
+            GLib.source_remove(timer_id)
+
+        self._pending_undo = None
+
+        if revert:
+            page = pending.get("page")
+            switch = pending.get("switch")
+            state = pending.get("state")
+            if page is not None and switch is not None:
+                page._set_switch_active_without_handler(switch, not state)
+
+    def _hide_banner_from_timeout(self):
+        self._banner_timeout_id = None
+        self._banner_callback = None
+        self.banner.set_revealed(False)
+        return False
+
     def show_toast(self, message):
+        self._cancel_pending_undo(revert=True)
+        self._cancel_banner_timeout()
         self.banner.set_title(message)
         self.banner.set_button_label(_("Dismiss"))
         self._banner_callback = None
         self.banner.set_revealed(True)
         # Auto-hide after 5 seconds
-        GLib.timeout_add(5000, lambda: self.banner.set_revealed(False) or False)
+        self._banner_timeout_id = GLib.timeout_add(5000, self._hide_banner_from_timeout)
 
     def _on_banner_button_clicked(self, banner):
         """Handle banner button click — calls undo callback if set, otherwise just dismisses."""
+        self._cancel_banner_timeout()
         callback = self._banner_callback
         self._banner_callback = None
         banner.set_revealed(False)
