@@ -5,6 +5,48 @@ configDir="/etc/biglinux"
 configFile="$configDir/plymouth-community.conf"
 themeScript="/usr/share/plymouth/themes/community/animated-boot.script"
 
+_remove_missing_initcpio_hook() {
+  local missing_hook="$1"
+  local conf="/etc/mkinitcpio.conf"
+  local hooks_line hooks hook_item found new_hooks
+
+  if [ ! -f "$conf" ]; then
+    return 0
+  fi
+
+  if [ -e "/usr/lib/initcpio/hooks/$missing_hook" ] || [ -e "/usr/lib/initcpio/install/$missing_hook" ]; then
+    return 0
+  fi
+
+  hooks_line="$(grep -E '^[[:space:]]*HOOKS=\(' "$conf" | tail -n1)"
+  if [ -z "$hooks_line" ]; then
+    return 0
+  fi
+
+  hooks="${hooks_line#*\(}"
+  hooks="${hooks%\)*}"
+  found=0
+  new_hooks=()
+
+  for hook_item in $hooks; do
+    if [ "$hook_item" = "$missing_hook" ]; then
+      found=1
+      continue
+    fi
+    new_hooks+=("$hook_item")
+  done
+
+  if [ "$found" -eq 0 ]; then
+    return 0
+  fi
+
+  cp -a -- "$conf" "${conf}.biglinux-settings.bak"
+  sed --follow-symlinks -i \
+    "s|^[[:space:]]*HOOKS=.*|HOOKS=(${new_hooks[*]})|" \
+    "$conf"
+  printf 'Removed missing mkinitcpio hook from %s: %s\n' "$conf" "$missing_hook" >&2
+}
+
 _rebuild_initramfs() {
   if ! command -v mkinitcpio >/dev/null 2>&1; then
     return 0
@@ -91,7 +133,9 @@ if [ -f "$themeScript" ]; then
 fi
 
 if command -v plymouth-set-default-theme >/dev/null 2>&1; then
+  _remove_missing_initcpio_hook "bootsplash-biglinux"
   plymouth-set-default-theme community && _rebuild_initramfs
 elif command -v mkinitcpio >/dev/null 2>&1; then
+  _remove_missing_initcpio_hook "bootsplash-biglinux"
   _rebuild_initramfs
 fi
