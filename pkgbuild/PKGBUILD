@@ -3,7 +3,7 @@
 
 pkgname=biglinux-settings
 pkgdesc="Scripts and configuration files created in GTK4 that simplify switching BigLinux operation."
-depends=('gtk4' 'libadwaita' 'networkmanager' 'polkit' 'python' 'python-gobject' 'systemd' 'util-linux' 'zenity')
+depends=('gtk4' 'libadwaita' 'networkmanager' 'polkit' 'python' 'python-gobject' 'systemd' 'util-linux')
 optdepends=(
     'baloo: KDE file indexer toggle'
     'grub: GRUB timeout and kernel parameter toggles'

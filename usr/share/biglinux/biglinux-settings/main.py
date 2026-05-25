@@ -23,6 +23,7 @@ from usability_page import UsabilityPage
 
 logging.basicConfig(level=logging.INFO, format="%(name)s %(levelname)s: %(message)s")
 logger = logging.getLogger("biglinux-settings")
+TOAST_TIMEOUT_MS = 3500
 
 
 def _highlight_text(text, search_text):
@@ -524,8 +525,7 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
         self.banner.set_button_label(_("Dismiss"))
         self._banner_callback = None
         self.banner.set_revealed(True)
-        # Auto-hide after 5 seconds
-        self._banner_timeout_id = GLib.timeout_add(5000, self._hide_banner_from_timeout)
+        self._banner_timeout_id = GLib.timeout_add(TOAST_TIMEOUT_MS, self._hide_banner_from_timeout)
 
     def _on_banner_button_clicked(self, banner):
         """Handle banner button click — calls undo callback if set, otherwise just dismisses."""

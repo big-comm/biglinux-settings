@@ -27,10 +27,6 @@ elif [ "$1" == "toggle" ]; then
     mkdir -p $HOME/.local/share/krita/actions/
     cp $HOME/.local/share/krita/pykrita/ai_diffusion/ai_diffusion.action $HOME/.local/share/krita/actions/
     kwriteconfig6 --file kritarc --group "python" --key "enable_ai_diffusion" "true"
-
-    zenityText=$"Generative AI for Krita has been successfully installed.\n\nOpen Krita, open an existing drawing or create a new one.\nIn the top panel go to Settings > Panels > check the AI Image Generation box.\n\nIn the window that opens on the bottom right.\nClick Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and click Install."
-    zenity --info --text="$zenityText" --width=400 --height=300
-
     exitCode=$?
   else
     killall krita

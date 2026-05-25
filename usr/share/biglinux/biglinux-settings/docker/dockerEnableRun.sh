@@ -6,34 +6,8 @@ export TEXTDOMAIN=biglinux-settings
 
 # Assign the received arguments to variables with clear names
 function="$1"
-originalUser="$2"
-userDisplay="$3"
-userXauthority="$4"
-userDbusAddress="$5"
-userLang="$6"
-userLanguage="$7"
 
-# Helper function to run a command as the original user
-source "/usr/share/biglinux/biglinux-settings/lib/run-as-user.sh"
-
-# 1. Creates a named pipe (FIFO) for communication with Zenity
-pipePath="/tmp/docker_pipe_$$"
-mkfifo "$pipePath"
-
-# 2. Starts Zenity IN THE BACKGROUND, as the user, with the full environment
-if [[ "$function" == "install" ]]; then
-  zenityTitle=$"Docker Install"
-  zenityText=$"Installing Docker, please wait..."
-elif [[ "$function" == "enable" ]]; then
-  zenityTitle=$"Docker Start"
-  zenityText=$"Docker Starting, please wait..."
-elif [[ "$function" == "disable" ]]; then
-  zenityTitle=$"Docker Stop"
-  zenityText=$"Docker Stopping, please wait..."
-fi
-runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
-
-# 3. Executes the root tasks.
+# Executes the root tasks.
 updateDockerTask() {
   if [[ "$function" == "install" ]]; then
     pacman -Syu --noconfirm biglinux-docker-config
@@ -47,19 +21,7 @@ updateDockerTask() {
   fi
   exitCode=$?
 }
-updateDockerTask > "$pipePath"
+updateDockerTask
 
-# 4. Cleans up the pipe
-rm "$pipePath"
-
-# 5. Shows the final result to the user, also with the correct theme.
-if [[ "$exitCode" == "0" ]] && [[ "$function" == "install" ]]; then
-  zenityText=$"Docker installed successfully!"
-  runAsUser "zenity --info --text=\"$zenityText\""
-elif [[ "$exitCode" != "0" ]] && [[ "$function" == "install" ]]; then
-  zenityText=$"An error occurred while installing Docker."
-  runAsUser "zenity --error --text=\"$zenityText\""
-fi
-
-# 6. Exits the script with the correct exit code
+# Exits the script with the correct exit code
 exit $exitCode

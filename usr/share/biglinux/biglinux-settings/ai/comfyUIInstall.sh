@@ -7,15 +7,6 @@ export TEXTDOMAIN=biglinux-settings
 # Assign the received arguments to variables with clear names
 function="$1"
 
-# Starts Zenity IN THE BACKGROUND, as the user, with the full environment
-if [[ "$function" == "install" ]]; then
-  zenityTitle=$"comfyUI Install...."
-  zenityText=$"Installing comfyUI, this step takes a long time, please wait..."
-elif [[ "$function" == "uninstall" ]]; then
-  zenityTitle=$"Uninstall comfyUI...."
-  zenityText=$"Uninstalling comfyUI, please wait..."
-fi
-
 # Executes tasks.
 updateTask() {
   if [[ "$function" == "install" ]]; then
@@ -55,7 +46,6 @@ updateTask() {
     bash -c "yes | bin/comfy install --$gpu --restore"
 
     sleep 1
-    echo "100" # Ensures Zenity closes
   else
     # stop service
     kill $(ps aux | grep -i "$HOME/ComfyUI/bin/python $HOME/ComfyUI/main.py" | grep -v grep | awk '{print $2}')
@@ -63,27 +53,11 @@ updateTask() {
     rm -rf "$HOME/ComfyUI"
 
     sleep 1
-    echo "100" # Ensures Zenity closes
   fi
   return 0
 }
-# updateTask > "$pipePath"
-updateTask | zenity --progress --title="$zenityTitle" --text="$zenityText" --pulsate --auto-close --no-cancel
-
-# CAPTURES THE STATUS OF THE FUNCTION (the first command in the pipe)
-exitCode=${PIPESTATUS[0]}
-
-# Shows the final result to the user, also with the correct theme.
-if [[ "$exitCode" == "0" ]] && [[ "$function" == "install" ]]; then
-  zenityText=$"comfyUI installed successfully"
-  zenity --info --text="$zenityText"
-elif [[ "$exitCode" == "0" ]] && [[ "$function" == "uninstall" ]]; then
-  zenityText=$"comfyUI uninstalled successfully"
-  zenity --info --text="$zenityText"
-else
-  zenityText=$"Failed to install comfyUI!"
-  zenity --error --text="$zenityText"
-fi
+updateTask
+exitCode=$?
 
 # Exits the script with the correct exit code
 exit $exitCode

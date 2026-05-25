@@ -6,12 +6,6 @@ export TEXTDOMAIN=biglinux-settings
 
 # Assign the received arguments to variables with clear names
 function="$1"
-originalUser="$2"
-userDisplay="$3"
-userXauthority="$4"
-userDbusAddress="$5"
-userLang="$6"
-userLanguage="$7"
 
 # Configuration commands
 balooCMD="balooctl6"
@@ -22,15 +16,6 @@ xbelFile="$HOME/.local/share/recently-used.xbel"
 xbelUserFile="$HOME/.local/share/user-places.xbel"
 kactivitymanagerdFile="$HOME/.config/kactivitymanagerd-pluginsrc"
 kactivitymanagerdDir="$HOME/.local/share/kactivitymanagerd/resources"
-
-# Starts Zenity IN THE BACKGROUND, as the user, with the full environment
-if [[ "$function" == "enable" ]]; then
-  zenityTitle=$"Recent Files enabling...."
-  zenityText=$"Recent Files enabling, please wait..."
-elif [[ "$function" == "disable" ]]; then
-  zenityTitle=$"Recent Files disabling...."
-  zenityText=$"Recent Files disabling, please wait..."
-fi
 
 # Executes tasks.
 updateTask() {
@@ -84,7 +69,6 @@ updateTask() {
     killall kiod6 > /dev/null 2>&1
 
     sleep 1
-    echo "100" # Ensures Zenity closes
   else
     # Stop services
     killall dolphin kactivitymanagerd kioworker kiod6 > /dev/null 2>&1
@@ -121,27 +105,12 @@ updateTask() {
     killall kiod6 > /dev/null 2>&1
 
     sleep 1
-    echo "100" # Ensures Zenity closes
   fi
   return 0
 }
-# updateTask > "$pipePath"
-updateTask | zenity --progress --title="$zenityTitle" --text="$zenityText" --pulsate --auto-close --no-cancel
+updateTask
 
-# CAPTURES THE STATUS OF THE FUNCTION (the first command in the pipe)
-exitCode=${PIPESTATUS[0]}
-
-# Shows the final result to the user, also with the correct theme.
-if [[ "$exitCode" == "0" ]] && [[ "$function" == "enable" ]]; then
-  zenityText=$"Recent Files successfully enabled!\nYou need to close and reopen Dolphin for it to take effect."
-  zenity --info --text="$zenityText"
-elif [[ "$exitCode" == "0" ]] && [[ "$function" == "disable" ]]; then
-  zenityText=$"Recent Files successfully disable!\nYou need to close and reopen Dolphin for it to take effect."
-  zenity --info --text="$zenityText"
-else
-  zenityText=$"Failed to activate Recent Files!"
-  zenity --error --text="$zenityText"
-fi
+exitCode=$?
 
 # Exits the script with the correct exit code
 exit $exitCode

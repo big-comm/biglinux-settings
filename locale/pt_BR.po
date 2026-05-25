@@ -444,8 +444,6 @@ msgstr ""
 msgid "An error occurred while updating GRUB."
 msgstr "Ocorreu um erro ao atualizar o GRUB."
 
-#. Already enabled, nothing to do. Inform zenity and exit the function
-#. gracefully.
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:46
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:46
 msgid "Already enabled. No changes made."

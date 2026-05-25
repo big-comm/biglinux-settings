@@ -16,6 +16,8 @@ from config import _, ICONS_DIR
 
 logger = logging.getLogger("biglinux-settings")
 
+UNDO_DELAY_MS = 1200
+
 
 def _plain_markup(text: str) -> str:
     """Escape plain translated text before sending it to markup-aware widgets."""
@@ -87,10 +89,7 @@ class BaseSettingsPage(Adw.Bin):
             if response == "confirm":
                 self._execute_toggle(switch, state)
             else:
-                handler = self._get_wd(switch, "dangerous_handler")
-                switch.handler_block_by_func(handler)
-                switch.set_active(not state)
-                switch.handler_unblock_by_func(handler)
+                self._set_switch_active_without_handler(switch, not state)
 
         dialog.connect("response", on_response)
         dialog.present(self.main_window)
@@ -651,7 +650,7 @@ class BaseSettingsPage(Adw.Bin):
                     row.set_visible(True)
                 row.set_tooltip_text(None)
                 self._set_wd(row, "hidden_no_support", False)
-                switch.set_active(status)
+                self._set_switch_active_without_handler(switch, status)
                 self._toggle_info_icon_visibility(switch, status)
 
             switch.handler_unblock_by_func(handler)
@@ -711,8 +710,8 @@ class BaseSettingsPage(Adw.Bin):
         self.main_window._banner_callback = lambda: self._undo_toggle(switch, state)
         self.main_window.banner.set_revealed(True)
 
-        # Start 3-second undo timer
-        timer_id = GLib.timeout_add(3000, self._on_undo_timeout, switch, state)
+        # Short undo window before applying the setting.
+        timer_id = GLib.timeout_add(UNDO_DELAY_MS, self._on_undo_timeout, switch, state)
         self.main_window._pending_undo = {
             "timer_id": timer_id,
             "page": self,
@@ -732,6 +731,7 @@ class BaseSettingsPage(Adw.Bin):
         handler = self._get_switch_handler(switch)
         switch.handler_block_by_func(handler)
         switch.set_active(state)
+        switch.set_state(state)
         switch.handler_unblock_by_func(handler)
 
     def _undo_toggle(self, switch: Gtk.Switch, state: bool) -> None:
@@ -790,10 +790,7 @@ class BaseSettingsPage(Adw.Bin):
             row.set_subtitle(original_subtitle or "")
 
             if not success:
-                handler = self._get_switch_handler(switch)
-                switch.handler_block_by_func(handler)
-                switch.set_active(not state)
-                switch.handler_unblock_by_func(handler)
+                self._set_switch_active_without_handler(switch, not state)
 
                 logger.error(
                     _("ERROR: Failed to change {} to {}").format(
@@ -805,7 +802,7 @@ class BaseSettingsPage(Adw.Bin):
                 )
             else:
                 # Confirm the backend state (active was already set by user click)
-                switch.set_state(state)
+                self._set_switch_active_without_handler(switch, state)
                 self._toggle_info_icon_visibility(switch, state)
 
                 # If this switch is a parent, adjust visibility of its sub-switches

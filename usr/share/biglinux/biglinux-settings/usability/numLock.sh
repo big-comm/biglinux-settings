@@ -84,15 +84,30 @@ sddm_numlock_on() {
   [[ "$value" == "on" ]]
 }
 
-kde_user_numlock_on() {
+kde_user_numlock_value() {
   command -v kreadconfig6 >/dev/null 2>&1 || return 1
-  [[ "$(LANG=C kreadconfig6 --group Keyboard --key "NumLock" --file "$HOME/.config/kcminputrc" 2>/dev/null)" == "0" ]]
+  LANG=C kreadconfig6 --group Keyboard --key "NumLock" --file "$HOME/.config/kcminputrc" 2>/dev/null
+}
+
+kde_user_numlock_on() {
+  [[ "$(kde_user_numlock_value)" == "0" ]]
 }
 
 write_kde_user_numlock() {
   local value="$1"
   command -v kwriteconfig6 >/dev/null 2>&1 || return 1
-  kwriteconfig6 --group Keyboard --key "NumLock" --file "$HOME/.config/kcminputrc" "$value"
+  kwriteconfig6 --group Keyboard --key "NumLock" --file "$HOME/.config/kcminputrc" "$value" || return 1
+  [[ "$(kde_user_numlock_value)" == "$value" ]]
+}
+
+verify_kde_numlock_state() {
+  local expected="$1"
+
+  if [ "$expected" == "true" ]; then
+    sddm_numlock_on || kde_user_numlock_on
+  else
+    ! sddm_numlock_on && ! kde_user_numlock_on
+  fi
 }
 
 write_xfce_autostart() {
@@ -174,6 +189,7 @@ elif [ "$1" == "toggle" ]; then
       write_kde_user_numlock "1" || exit $?
       run_numlockx off
     fi
+    verify_kde_numlock_state "$state" || exit 1
   elif is_de "GNOME"; then
     if [ "$state" == "true" ]; then
       set_first_gsetting_bool remember-numlock-state true \

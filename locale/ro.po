@@ -131,8 +131,6 @@ msgid "An error occurred while updating GRUB."
 msgstr "A apărut o eroare în timpul actualizării GRUB."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/meltdownMitigationsRun.sh:46
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/performance/noWatchdogRun.sh:46
-#. Already enabled, nothing to do. Inform zenity and exit the function
-#. gracefully.
 msgid "Already enabled. No changes made."
 msgstr "Deja activat. Nici o modificare efectuată."
 #: /home/talesam/Servidor/GitHub/BigCommunity/biglinux-settings/usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh:28

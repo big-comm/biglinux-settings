@@ -1,8 +1,9 @@
 #!/bin/bash
 
 state="$1"
-conf_dir="/etc/sddm.conf.d"
-conf_file="$conf_dir/10-biglinux-numlock.conf"
+conf_dir="${NUMLOCK_SDDM_CONF_DIR:-/etc/sddm.conf.d}"
+legacy_conf_file="$conf_dir/10-biglinux-numlock.conf"
+conf_file="$conf_dir/99-biglinux-numlock.conf"
 
 case "$state" in
   enable)
@@ -17,8 +18,9 @@ case "$state" in
 esac
 
 install -d -m 0755 "$conf_dir" || exit $?
+rm -f "$legacy_conf_file" || exit $?
 {
   printf '[General]\n'
   printf 'Numlock=%s\n' "$value"
 } > "$conf_file" || exit $?
-chmod 0644 "$conf_file"
+chmod 0644 "$conf_file" || exit $?

@@ -70,9 +70,6 @@ elif [ "$1" == "toggle" ]; then
         xfconf-query -c xfwm4 -p /general/button_layout -s "O|SHMC"
         exitCode=$?
     fi
-    export TEXTDOMAINDIR="/usr/share/locale"
-    export TEXTDOMAIN=biglinux-settings
-    sleep 5 | zenity --progress --title='grub' --text=$"Applying, please wait..." --pulsate --auto-close --no-cancel
   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
     if [ "$state" == "true" ]; then
         gsettings set org.cinnamon.desktop.wm.preferences button-layout 'close,minimize,maximize:'

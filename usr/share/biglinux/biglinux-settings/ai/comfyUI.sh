@@ -18,8 +18,7 @@ elif [ "$1" == "toggle" ]; then
   if [ "$state" == "true" ]; then
     vgaList=$(lspci | grep -iE "VGA|3D|Display")
     if [[ -z "$(echo $vgaList | grep -Ei '(nvidia|radeon|amd|\bati)')" ]]; then
-      zenityText=$"AMD/Nvidia GPU not found!"
-      zenity --info --text="$zenityText"
+      echo $"AMD/Nvidia GPU not found!" >&2
       exit 1
     fi
 
