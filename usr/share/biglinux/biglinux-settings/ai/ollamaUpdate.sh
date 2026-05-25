@@ -4,6 +4,6 @@
 # available in the Arch repositories.
 
 if [ "$1" == "run" ]; then
-  pkexec $PWD/ai/ollamaUpdateRun.sh "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+  pkexec /usr/share/biglinux/biglinux-settings/ai/ollamaUpdateRun.sh "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
   exit $?
 fi

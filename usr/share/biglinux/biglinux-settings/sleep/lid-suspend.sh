@@ -5,6 +5,12 @@
 CONF_DIR="/etc/systemd/logind.conf.d"
 CONF_FILE="${CONF_DIR}/biglinux-lid-suspend.conf"
 
+_require_root() {
+    if [ "$(id -u)" -ne 0 ]; then
+        exec pkexec "$(readlink -f "$0")" "$@"
+    fi
+}
+
 if [ "$1" == "check" ]; then
     if [ -f "$CONF_FILE" ]; then
         echo "true"
@@ -13,6 +19,7 @@ if [ "$1" == "check" ]; then
     fi
 
 elif [ "$1" == "toggle" ]; then
+    _require_root "$@"
     state="$2"
     if [ "$state" == "true" ]; then
         mkdir -p "$CONF_DIR"

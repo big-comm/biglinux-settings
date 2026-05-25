@@ -1,7 +1,9 @@
 [Desktop Entry]
-Categories=Settings;
+Categories=Settings;GTK;
+Comment=Configure BigLinux system settings
 Exec=biglinux-settings
 Icon=biglinux-settings
+Keywords=settings;system;preferences;biglinux;
 Name=General Adjustments
 Name[bg]=Общи корекции
 Name[cs]=Obecné úpravy

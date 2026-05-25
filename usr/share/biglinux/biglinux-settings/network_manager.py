@@ -10,13 +10,45 @@ class NetworkError(Exception):
 
 class NetworkManager:
     @staticmethod
-    def _run_cmd(cmd):
+    def _run_cmd(cmd, timeout=10):
         try:
-            result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+            result = subprocess.run(
+                cmd, capture_output=True, text=True, check=True, timeout=timeout
+            )
             return result.stdout.strip()
+        except subprocess.TimeoutExpired as e:
+            logger.error("Command '%s' timed out", " ".join(cmd))
+            raise NetworkError("Command timed out") from e
         except subprocess.CalledProcessError as e:
             logger.error("Command '%s' failed: %s", " ".join(cmd), e.stderr)
             raise NetworkError(f"Command failed: {e.stderr}") from e
+        except FileNotFoundError as e:
+            logger.error("Command not found: %s", cmd[0])
+            raise NetworkError(f"Command not found: {cmd[0]}") from e
+
+    @staticmethod
+    def _split_terse(line):
+        parts = []
+        current = []
+        escaped = False
+
+        for char in line:
+            if escaped:
+                current.append(char)
+                escaped = False
+            elif char == "\\":
+                escaped = True
+            elif char == ":":
+                parts.append("".join(current))
+                current = []
+            else:
+                current.append(char)
+
+        if escaped:
+            current.append("\\")
+
+        parts.append("".join(current))
+        return parts
 
     @staticmethod
     def get_interfaces():
@@ -25,10 +57,10 @@ class NetworkManager:
             ["nmcli", "-t", "-f", "DEVICE,TYPE,STATE,CONNECTION", "device"]
         )
         interfaces = []
-        for line in output.split("\n"):
+        for line in output.splitlines():
             if not line:
                 continue
-            parts = line.split(":")
+            parts = NetworkManager._split_terse(line)
             if len(parts) >= 3:
                 device = parts[0]
                 type_ = parts[1]
@@ -65,10 +97,10 @@ class NetworkManager:
             output = NetworkManager._run_cmd(
                 ["nmcli", "-t", "-f", "NAME,DEVICE", "connection", "show", "--active"]
             )
-            for line in output.split("\n"):
+            for line in output.splitlines():
                 if not line:
                     continue
-                parts = line.split(":")
+                parts = NetworkManager._split_terse(line)
                 if len(parts) >= 2 and parts[1] == device:
                     return parts[0]
         except NetworkError:

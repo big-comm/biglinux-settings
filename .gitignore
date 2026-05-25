@@ -18,4 +18,5 @@
 # Project-local config/docs
 ruff.toml
 PLANNING.md
+RUST_MIGRATION_PLAN.md
 tests/

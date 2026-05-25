@@ -17,7 +17,7 @@ elif [ "$1" == "toggle" ]; then
   state="$2"
   if [ "$state" == "true" ]; then
     if ! pacman -Q krita &>/dev/null; then
-      pkexec $PWD/ai/kritaRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+      pkexec /usr/share/biglinux/biglinux-settings/ai/kritaRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     fi
     killall krita
     diffusionUrl=$(curl -s "https://api.github.com/repos/Acly/krita-ai-diffusion/releases/latest" | grep "browser_download_url" | grep ".zip" | head -n 1 | cut -d '"' -f 4)
@@ -27,10 +27,6 @@ elif [ "$1" == "toggle" ]; then
     mkdir -p $HOME/.local/share/krita/actions/
     cp $HOME/.local/share/krita/pykrita/ai_diffusion/ai_diffusion.action $HOME/.local/share/krita/actions/
     kwriteconfig6 --file kritarc --group "python" --key "enable_ai_diffusion" "true"
-
-    zenityText=$"Generative AI for Krita has been successfully installed.\n\nOpen Krita, open an existing drawing or create a new one.\nIn the top panel go to Settings > Panels > check the AI Image Generation box.\n\nIn the window that opens on the bottom right.\nClick Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and click Install."
-    zenity --info --text="$zenityText" --width=400 --height=300
-
     exitCode=$?
   else
     killall krita

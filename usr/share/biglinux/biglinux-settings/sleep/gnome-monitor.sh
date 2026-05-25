@@ -7,6 +7,12 @@ KEY="gnome"
 SERVICE_NAME="biglinux-sleep-monitor"
 SERVICE_FILE="/usr/lib/systemd/user/${SERVICE_NAME}.service"
 
+_require_root() {
+    if [ "$(id -u)" -ne 0 ]; then
+        exec pkexec "$(readlink -f "$0")" "$@"
+    fi
+}
+
 _ensure_conf() {
     if [ ! -f "$CONF" ]; then
         mkdir -p "$(dirname "$CONF")"
@@ -17,11 +23,12 @@ network=false
 gnome=false
 EOF
     fi
+
+    grep -qE "^[[:space:]]*${KEY}[[:space:]]*=" "$CONF" || printf '%s=false\n' "$KEY" >> "$CONF"
 }
 
 if [ "$1" == "check" ]; then
-    _ensure_conf
-    val=$(grep -E "^${KEY}\s*=" "$CONF" 2>/dev/null | tail -1 | cut -d= -f2 | tr -d ' ')
+    val=$(grep -E "^[[:space:]]*${KEY}[[:space:]]*=" "$CONF" 2>/dev/null | tail -1 | cut -d= -f2 | tr -d ' ')
     if [ "$val" == "true" ]; then
         echo "true"
     else
@@ -29,9 +36,10 @@ if [ "$1" == "check" ]; then
     fi
 
 elif [ "$1" == "toggle" ]; then
+    _require_root "$@"
     _ensure_conf
     state="$2"
-    sed -i "s|^${KEY}\s*=.*|${KEY}=${state}|" "$CONF"
+    sed -i --follow-symlinks "s|^[[:space:]]*${KEY}[[:space:]]*=.*|${KEY}=${state}|" "$CONF"
 
     # Also enable/disable the user-level monitor service for all logged-in users
     if [ "$state" == "true" ]; then

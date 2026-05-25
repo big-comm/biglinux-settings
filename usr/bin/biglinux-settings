@@ -15,4 +15,4 @@ else
 fi
 
 cd "$APP_DIR" || exit 1
-exec -a br.com.biglinux-settings python3 main.py
+exec -a br.com.biglinux-settings python3 main.py "$@"

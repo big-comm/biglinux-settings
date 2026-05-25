@@ -4,11 +4,6 @@
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=biglinux-settings
 
-info() {
-  zenityText=$"Ollama server is running.\nAddress: http://localhost:11434"
-  zenity --info --text="$zenityText" --width=300 --height=200
-}
-
 # check current status
 if [ "$1" == "check" ]; then
   if pacman -Q ollama-cuda &>/dev/null; then
@@ -21,11 +16,10 @@ if [ "$1" == "check" ]; then
 elif [ "$1" == "toggle" ]; then
   state="$2"
   if [ "$state" == "true" ]; then
-    pkexec $PWD/ai/ollamaNvidiaRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-    info
+    pkexec /usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     exitCode=$?
   else
-    pkexec $PWD/ai/ollamaNvidiaRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+    pkexec /usr/share/biglinux/biglinux-settings/ai/ollamaNvidiaRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     exitCode=$?
   fi
   exit $exitCode

@@ -148,7 +148,10 @@ class DevicesPage(BaseSettingsPage):
         def _on_done(success):
             row.set_sensitive(True)
             if success:
+                switch.handler_block_by_func(self._on_net_switch_changed)
+                switch.set_active(state)
                 switch.set_state(state)
+                switch.handler_unblock_by_func(self._on_net_switch_changed)
                 iface_state = _("connected") if state else _("disconnected")
                 type_ = self._get_wd(switch, "type") or ""
                 row.set_subtitle(_("{} — {}").format(type_, iface_state) if type_ else iface_state)
@@ -156,6 +159,7 @@ class DevicesPage(BaseSettingsPage):
                 row.set_subtitle(original_subtitle or "")
                 switch.handler_block_by_func(self._on_net_switch_changed)
                 switch.set_active(not state)
+                switch.set_state(not state)
                 switch.handler_unblock_by_func(self._on_net_switch_changed)
                 self.main_window.show_toast(
                     _("Failed to change network device: {}").format(device)

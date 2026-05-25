@@ -6,18 +6,21 @@ export TEXTDOMAIN=biglinux-settings
 
 # check current status
 if [ "$1" == "check" ]; then
-  if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
+  if ([[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]]) && command -v qdbus6 >/dev/null 2>&1;then
     if [[ -n "$(qdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.loadedEffects)" ]]; then
       echo "false"
     else
       echo "true"
     fi
+  else
+    echo "unsupported"
   fi
 
 # change the state
 elif [ "$1" == "toggle" ]; then
   state="$2"
-  if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
+  exitCode=0
+  if ([[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]]) && command -v qdbus6 >/dev/null 2>&1;then
     if [ "$state" == "true" ]; then
       effects=$(qdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.loadedEffects)
       rm -f "$HOME/.config/biglinux-settings/effectsEnable"
