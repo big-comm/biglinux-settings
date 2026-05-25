@@ -16,506 +16,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #
-msgid "Example Install"
-msgstr "Example Install"
-
-#
-msgid "Instaling Example, Please wait..."
-msgstr "Instaling Example, Please wait..."
-
-#
-msgid "Example Uninstall"
-msgstr "Example Uninstall"
-
-#
-msgid "Uninstaling Example, Please wait..."
-msgstr "Uninstaling Example, Please wait..."
-
-#
-msgid "Example installed successfully!"
-msgstr "Example installed successfully!"
-
-#
-msgid "Failed to install Example!"
-msgstr "Failed to install Example!"
-
-#
-msgid "OpenClaude Install"
-msgstr "OpenClaude Install"
-
-#
-msgid "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
-msgstr "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
-
-#
-msgid "OpenClaude Uninstall"
-msgstr "OpenClaude Uninstall"
-
-#
-msgid "Uninstalling OpenClaude, please wait..."
-msgstr "Uninstalling OpenClaude, please wait..."
-
-#
-msgid ""
-"OpenClaude installed successfully!\\n\\nRun 'openclaude' in a terminal to "
-"start."
-msgstr ""
-"OpenClaude installed successfully!\\n\\nRun 'openclaude' in a terminal to "
-"start."
-
-#
-msgid "OpenClaude removed successfully!"
-msgstr "OpenClaude removed successfully!"
-
-#
-msgid "An error occurred with OpenClaude."
-msgstr "An error occurred with OpenClaude."
-
-#
-msgid "Applying, please wait..."
-msgstr "Applying, please wait..."
-
-#
-msgid "kzones Install"
-msgstr "kzones Install"
-
-#
-msgid "Installing Kzones, please wait..."
-msgstr "Installing Kzones, please wait..."
-
-#
-msgid "Kzones installed successfully!"
-msgstr "Kzones installed successfully!"
-
-#
-msgid "Recent Files enabling...."
-msgstr "Recent Files enabling...."
-
-#
-msgid "Recent Files enabling, please wait..."
-msgstr "Recent Files enabling, please wait..."
-
-#
-msgid "Recent Files disabling...."
-msgstr "Recent Files disabling...."
-
-#
-msgid "Recent Files disabling, please wait..."
-msgstr "Recent Files disabling, please wait..."
-
-#
-msgid ""
-"Recent Files successfully enabled!\\nYou need to close and reopen Dolphin "
-"for it to take effect."
-msgstr ""
-"Recent Files successfully enabled!\\nYou need to close and reopen Dolphin "
-"for it to take effect."
-
-#
-msgid ""
-"Recent Files successfully disable!\\nYou need to close and reopen Dolphin "
-"for it to take effect."
-msgstr ""
-"Recent Files successfully disable!\\nYou need to close and reopen Dolphin "
-"for it to take effect."
-
-#
-msgid "Failed to activate Recent Files!"
-msgstr "Failed to activate Recent Files!"
-
-#
-msgid ""
-"GRUB updated successfully!\\nRestart your computer for it to take effect."
-msgstr ""
-"GRUB updated successfully!\\nRestart your computer for it to take effect."
-
-#
-msgid "An error occurred while updating GRUB."
-msgstr "An error occurred while updating GRUB."
-
-#
 msgid "Already enabled. No changes made."
 msgstr "Already enabled. No changes made."
-
-#
-msgid "Ollama CUDA Install"
-msgstr "Ollama CUDA Install"
-
-#
-msgid "Installing Ollama CUDA, please wait..."
-msgstr "Installing Ollama CUDA, please wait..."
-
-#
-msgid "Ollama CUDA Uninstall"
-msgstr "Ollama CUDA Uninstall"
-
-#
-msgid "Uninstalling Ollama CUDA, please wait..."
-msgstr "Uninstalling Ollama CUDA, please wait..."
-
-#
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA installed successfully!"
-
-#
-msgid "Failed to install Ollama CUDA!"
-msgstr "Failed to install Ollama CUDA!"
-
-#
-msgid "Ollama server is running.\\nAddress: http://localhost:11434"
-msgstr "Ollama server is running.\\nAddress: http://localhost:11434"
-
-#
-msgid "LM Studio Install"
-msgstr "LM Studio Install"
-
-#
-msgid "Installing LM Studio, please wait..."
-msgstr "Installing LM Studio, please wait..."
-
-#
-msgid "LM Studio Uninstall"
-msgstr "LM Studio Uninstall"
-
-#
-msgid "Uninstalling LM Studio, please wait..."
-msgstr "Uninstalling LM Studio, please wait..."
-
-#
-msgid "LM Studio installed successfully!"
-msgstr "LM Studio installed successfully!"
-
-#
-msgid "Failed to install LM Studio!"
-msgstr "Failed to install LM Studio!"
 
 #
 msgid "AMD/Nvidia GPU not found!"
 msgstr "AMD/Nvidia GPU not found!"
 
 #
-msgid "ChatBox Install"
-msgstr "ChatBox Install"
-
-#
-msgid "Installing ChatBox, please wait..."
-msgstr "Installing ChatBox, please wait..."
-
-#
-msgid "ChatBox Uninstall"
-msgstr "ChatBox Uninstall"
-
-#
-msgid "Uninstalling ChatBox, please wait..."
-msgstr "Uninstalling ChatBox, please wait..."
-
-#
-msgid "ChatBox installed successfully!"
-msgstr "ChatBox installed successfully!"
-
-#
-msgid "Failed to install ChatBox!"
-msgstr "Failed to install ChatBox!"
-
-#
-msgid "Ollama Install"
-msgstr "Ollama Install"
-
-#
-msgid "Installing Ollama, please wait..."
-msgstr "Installing Ollama, please wait..."
-
-#
-msgid "Ollama Uninstall"
-msgstr "Ollama Uninstall"
-
-#
-msgid "Uninstalling Ollama, please wait..."
-msgstr "Uninstalling Ollama, please wait..."
-
-#
-msgid "Ollama installed successfully!"
-msgstr "Ollama installed successfully!"
-
-#
-msgid "Failed to install Ollama!"
-msgstr "Failed to install Ollama!"
-
-#
-msgid "Ollama Lab Install"
-msgstr "Ollama Lab Install"
-
-#
-msgid "Installing Ollama Lab, please wait..."
-msgstr "Installing Ollama Lab, please wait..."
-
-#
-msgid "Ollama Lab Uninstall"
-msgstr "Ollama Lab Uninstall"
-
-#
-msgid "Uninstalling Ollama Lab, please wait..."
-msgstr "Uninstalling Ollama Lab, please wait..."
-
-#
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Lab installed successfully!"
-
-#
-msgid "Failed to install Ollama Lab!"
-msgstr "Failed to install Ollama Lab!"
-
-#
-msgid "Ollama Vulkan Install"
-msgstr "Ollama Vulkan Install"
-
-#
-msgid "Ollama Vulkan Uninstall"
-msgstr "Ollama Vulkan Uninstall"
-
-#
-msgid "Uninstalling Ollama Vulkan, please wait..."
-msgstr "Uninstalling Ollama Vulkan, please wait..."
-
-#
-msgid "Ollama Vulkan installed successfully!"
-msgstr "Ollama Vulkan installed successfully!"
-
-#
-msgid "Failed to install Ollama Vulkan!"
-msgstr "Failed to install Ollama Vulkan!"
-
-#
-msgid "Krita Install"
-msgstr "Krita Install"
-
-#
-msgid "Installing Krita, please wait..."
-msgstr "Installing Krita, please wait..."
-
-#
-msgid "Krita Uninstall"
-msgstr "Krita Uninstall"
-
-#
-msgid "Uninstalling Krita, please wait..."
-msgstr "Uninstalling Krita, please wait..."
-
-#
-msgid "Krita installed successfully!"
-msgstr "Krita installed successfully!"
-
-#
-msgid "Failed to install Krita!"
-msgstr "Failed to install Krita!"
-
-#
-msgid "Ollama ROCm Install"
-msgstr "Ollama ROCm Install"
-
-#
-msgid "Installing Ollama ROCm, please wait..."
-msgstr "Installing Ollama ROCm, please wait..."
-
-#
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm Uninstall"
-
-#
-msgid "Uninstalling Ollama ROCm, please wait..."
-msgstr "Uninstalling Ollama ROCm, please wait..."
-
-#
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm installed successfully!"
-
-#
-msgid "Failed to install Ollama ROCm!"
-msgstr "Failed to install Ollama ROCm!"
-
-#
-msgid "comfyUI Install...."
-msgstr "comfyUI Install...."
-
-#
-msgid "Installing comfyUI, this step takes a long time, please wait..."
-msgstr "Installing comfyUI, this step takes a long time, please wait..."
-
-#
-msgid "Uninstall comfyUI...."
-msgstr "Uninstall comfyUI...."
-
-#
-msgid "Uninstalling comfyUI, please wait..."
-msgstr "Uninstalling comfyUI, please wait..."
-
-#
-msgid "comfyUI installed successfully"
-msgstr "comfyUI installed successfully"
-
-#
-msgid "comfyUI uninstalled successfully"
-msgstr "comfyUI uninstalled successfully"
-
-#
-msgid "Failed to install comfyUI!"
-msgstr "Failed to install comfyUI!"
-
-#
-msgid "comfyUI Depends Install"
-msgstr "comfyUI Depends Install"
-
-#
-msgid "Installing comfyUI Depends, please wait..."
-msgstr "Installing comfyUI Depends, please wait..."
-
-#
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI Depends installed successfully!"
-
-#
-msgid "Failed to install comfyUI Depends!"
-msgstr "Failed to install comfyUI Depends!"
-
-#
 msgid "No Ollama packages are installed. Enable an Ollama variant first."
 msgstr "No Ollama packages are installed. Enable an Ollama variant first."
-
-#
-msgid "Updating Ollama"
-msgstr "Updating Ollama"
-
-#
-msgid "Synchronizing repositories and updating Ollama, please wait..."
-msgstr "Synchronizing repositories and updating Ollama, please wait..."
-
-#
-msgid "Ollama updated successfully!"
-msgstr "Ollama updated successfully!"
-
-#
-msgid "Failed to update Ollama."
-msgstr "Failed to update Ollama."
-
-#
-msgid "Ollama shared successfully.\\nAddress: http://$localIp:11434"
-msgstr "Ollama shared successfully.\\nAddress: http://$localIp:11434"
-
-#
-msgid "Failed to configure Ollama sharing!"
-msgstr "Failed to configure Ollama sharing!"
-
-#
-msgid ""
-"Generative AI for Krita has been successfully installed.\\n\\nOpen Krita, "
-"open an existing drawing or create a new one.\\nIn the top panel go to "
-"Settings > Panels > check the AI Image Generation box.\\n\\nIn the window "
-"that opens on the bottom right.\\nClick Configure > Local Managed Server, "
-"choose your GPU or CPU, choose the model in Workloads and click Install."
-msgstr ""
-"Generative AI for Krita has been successfully installed.\\n\\nOpen Krita, "
-"open an existing drawing or create a new one.\\nIn the top panel go to "
-"Settings > Panels > check the AI Image Generation box.\\n\\nIn the window "
-"that opens on the bottom right.\\nClick Configure > Local Managed Server, "
-"choose your GPU or CPU, choose the model in Workloads and click Install."
-
-#
-msgid "JamesDSP Install"
-msgstr "JamesDSP Install"
-
-#
-msgid "Installing JamesDSP, please wait..."
-msgstr "Installing JamesDSP, please wait..."
-
-#
-msgid "JamesDSP installed successfully!"
-msgstr "JamesDSP installed successfully!"
-
-#
-msgid "Failed to install jamesDSP!"
-msgstr "Failed to install jamesDSP!"
-
-#
-msgid "Docker Install"
-msgstr "Docker Install"
-
-#
-msgid "Installing Docker, please wait..."
-msgstr "Installing Docker, please wait..."
-
-#
-msgid "Docker Start"
-msgstr "Docker Start"
-
-#
-msgid "Docker Starting, please wait..."
-msgstr "Docker Starting, please wait..."
-
-#
-msgid "Docker Stop"
-msgstr "Docker Stop"
-
-#
-msgid "Docker Stopping, please wait..."
-msgstr "Docker Stopping, please wait..."
-
-#
-msgid "Docker installed successfully!"
-msgstr "Docker installed successfully!"
-
-#
-msgid "An error occurred while installing Docker."
-msgstr "An error occurred while installing Docker."
-
-#
-msgid "Installing $package"
-msgstr "Installing $package"
-
-#
-msgid "Installing $package, please wait..."
-msgstr "Installing $package, please wait..."
-
-#
-msgid "Removing $package"
-msgstr "Removing $package"
-
-#
-msgid "Removing $package, please wait..."
-msgstr "Removing $package, please wait..."
-
-#
-msgid ""
-"$title installed successfully!\\n\\nConfigured on port $port, to access use "
-"$url"
-msgstr ""
-"$title installed successfully!\\n\\nConfigured on port $port, to access use "
-"$url"
-
-#
-msgid "$package removed successfully!"
-msgstr "$package removed successfully!"
-
-#
-msgid "An error occurred with $package."
-msgstr "An error occurred with $package."
-
-#
-msgid "GRUB updated successfully!"
-msgstr "GRUB updated successfully!"
-
-#
-msgid "Limits updated successfully!"
-msgstr "Limits updated successfully!"
-
-#
-msgid "An error occurred while updating Limits."
-msgstr "An error occurred while updating Limits."
 
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 12
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 285
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 286
 msgid "Usability"
 msgstr "Usability"
 
@@ -569,139 +85,139 @@ msgstr ""
 "appears empty in Dolphin and the Application Menu."
 
 #
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 56
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 71
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 162
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 57
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 72
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 163
 msgid "BigLinux Settings"
 msgstr "BigLinux Settings"
 
 #
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 63
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 64
 msgid "BigLinux Community"
 msgstr "BigLinux Community"
 
 #
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 199
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 200
 msgid "Search..."
 msgstr "Search..."
 
 #
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 205
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
 msgid "Search settings"
 msgstr "Search settings"
 
 #
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 212
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 215
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 213
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 216
 msgid "Toggle navigation sidebar"
 msgstr "Toggle navigation sidebar"
 
 #
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 222
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 223
 msgid "About"
 msgstr "About"
 
 #
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 226
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 229
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 227
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 230
 msgid "Main Menu"
 msgstr "Main Menu"
 
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 279
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 280
 # File: usr/share/biglinux/biglinux-settings/system_page.py, line: 13
 msgid "System"
 msgstr "System"
 
 #
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 291
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 292
 msgid "PreLoad"
 msgstr "PreLoad"
 
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 297
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 298
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 34
 msgid "Devices"
 msgstr "Devices"
 
 #
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 303
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 304
 msgid "A.I."
 msgstr "A.I."
 
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 309
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 310
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
 # File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 51
 msgid "Docker"
 msgstr "Docker"
 
 #
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 315
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 316
 msgid "Developer"
 msgstr "Developer"
 
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 321
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 322
 # File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 15
 msgid "Performance"
 msgstr "Performance"
 
 #
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 327
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 328
 msgid "Suspend"
 msgstr "Suspend"
 
 #
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 524
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 525
 msgid "Dismiss"
 msgstr "Dismiss"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 59
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 61
 msgid "Close"
 msgstr "Close"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 77
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 79
 #, python-brace-format
 msgid "Warning: {}"
 msgstr "Warning: {}"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 80
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 82
 msgid "Cancel"
 msgstr "Cancel"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 81
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 83
 msgid "Continue"
 msgstr "Continue"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 230
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 229
 msgid "Run"
 msgstr "Run"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 236
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 235
 #, python-brace-format
 msgid "{}: run action"
 msgstr "{}: run action"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 264
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 266
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 494
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 542
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 263
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 265
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 493
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 541
 #, python-brace-format
 msgid "Script not found: {}"
 msgstr "Script not found: {}"
@@ -709,81 +225,81 @@ msgstr "Script not found: {}"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 275
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 274
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 779
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
 msgid "Applying…"
 msgstr "Applying…"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 289
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 288
 #, python-brace-format
 msgid "Action script {} failed: {}"
 msgstr "Action script {} failed: {}"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 294
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 293
 #, python-brace-format
 msgid "Action script timeout: {}"
 msgstr "Action script timeout: {}"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 297
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 296
 #, python-brace-format
 msgid "Error running action script {}: {}"
 msgstr "Error running action script {}: {}"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 307
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 306
 msgid "Action completed successfully"
 msgstr "Action completed successfully"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 310
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 309
 #, python-brace-format
 msgid "Action failed: {}"
 msgstr "Action failed: {}"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 343
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 342
 msgid "Recommended"
 msgstr "Recommended"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 366
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 454
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 365
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 453
 #, python-brace-format
 msgid "{}: additional information"
 msgstr "{}: additional information"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 379
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 378
 msgid "Learn more"
 msgstr "Learn more"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 385
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 384
 #, python-brace-format
 msgid "{}: learn more"
 msgstr "{}: learn more"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 493
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 492
 msgid "Unavailable: script not found."
 msgstr "Unavailable: script not found."
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 504
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 503
 msgid "Enabled"
 msgstr "Enabled"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 506
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 505
 msgid "Disabled"
 msgstr "Disabled"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 512
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 511
 msgid ""
 "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be "
 "changed here."
@@ -792,91 +308,91 @@ msgstr ""
 "changed here."
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 516
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 515
 msgid "Unavailable in this desktop environment."
 msgstr "Unavailable in this desktop environment."
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 518
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 517
 msgid "Unavailable: script returned invalid output."
 msgstr "Unavailable: script returned invalid output."
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 520
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 519
 #, python-brace-format
 msgid "output from script {}: {}"
 msgstr "output from script {}: {}"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 526
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 525
 msgid "Unavailable: script returned an error."
 msgstr "Unavailable: script returned an error."
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 527
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 526
 #, python-brace-format
 msgid "Error checking state: {}"
 msgstr "Error checking state: {}"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 530
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 529
 msgid "Unavailable: failed to run script."
 msgstr "Unavailable: failed to run script."
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 531
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 580
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 530
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 579
 #, python-brace-format
 msgid "Error running script {}: {}"
 msgstr "Error running script {}: {}"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 556
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 555
 msgid "State changed successfully"
 msgstr "State changed successfully"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 558
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 557
 #, python-brace-format
 msgid "Script output: {}"
 msgstr "Script output: {}"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 562
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 561
 #, python-brace-format
 msgid "Script failed with exit code: {}"
 msgstr "Script failed with exit code: {}"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 575
 #, python-brace-format
 msgid "Script timeout: {}"
 msgstr "Script timeout: {}"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 608
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 607
 #, python-brace-format
 msgid "{} sub-options available"
 msgstr "{} sub-options available"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 704
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 703
 msgid "on"
 msgstr "on"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 704
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 703
 msgid "off"
 msgstr "off"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 708
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 707
 #, python-brace-format
 msgid "Changing {} to {}…"
 msgstr "Changing {} to {}…"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 710
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 709
 msgid "Undo"
 msgstr "Undo"
 
@@ -892,13 +408,13 @@ msgid "Changing {} to {}"
 msgstr "Changing {} to {}"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 799
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 796
 #, python-brace-format
 msgid "ERROR: Failed to change {} to {}"
 msgstr "ERROR: Failed to change {} to {}"
 
 #
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 804
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 801
 #, python-brace-format
 msgid "Failed to change setting: {}"
 msgstr "Failed to change setting: {}"
@@ -1483,7 +999,7 @@ msgstr "Connect or disconnect network devices."
 
 #
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 157
 #, python-brace-format
 msgid "{} — {}"
 msgstr "{} — {}"
@@ -1495,17 +1011,17 @@ msgid "{}: toggle connection"
 msgstr "{}: toggle connection"
 
 #
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 155
 msgid "connected"
 msgstr "connected"
 
 #
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 155
 msgid "disconnected"
 msgstr "disconnected"
 
 #
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 165
 #, python-brace-format
 msgid "Failed to change network device: {}"
 msgstr "Failed to change network device: {}"
