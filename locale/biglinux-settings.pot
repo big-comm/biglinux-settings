@@ -15,167 +15,7 @@ msgstr  "Project-Id-Version: biglinux-settings\n"
         "Content-Transfer-Encoding: 8bit\n"
 
 #
-msgid   "Example Install"
-msgstr  ""
-
-#
-msgid   "Instaling Example, Please wait..."
-msgstr  ""
-
-#
-msgid   "Example Uninstall"
-msgstr  ""
-
-#
-msgid   "Uninstaling Example, Please wait..."
-msgstr  ""
-
-#
-msgid   "Example installed successfully!"
-msgstr  ""
-
-#
-msgid   "Failed to install Example!"
-msgstr  ""
-
-#
-msgid   "OpenClaude Install"
-msgstr  ""
-
-#
-msgid   "Installing OpenClaude (nodejs, npm, ripgrep required), please wait..."
-msgstr  ""
-
-#
-msgid   "OpenClaude Uninstall"
-msgstr  ""
-
-#
-msgid   "Uninstalling OpenClaude, please wait..."
-msgstr  ""
-
-#
-msgid   "OpenClaude installed successfully!\\n\\nRun 'openclaude' in a "
-        "terminal to start."
-msgstr  ""
-
-#
-msgid   "OpenClaude removed successfully!"
-msgstr  ""
-
-#
-msgid   "An error occurred with OpenClaude."
-msgstr  ""
-
-#
-msgid   "Applying, please wait..."
-msgstr  ""
-
-#
-msgid   "kzones Install"
-msgstr  ""
-
-#
-msgid   "Installing Kzones, please wait..."
-msgstr  ""
-
-#
-msgid   "Kzones installed successfully!"
-msgstr  ""
-
-#
-msgid   "Recent Files enabling...."
-msgstr  ""
-
-#
-msgid   "Recent Files enabling, please wait..."
-msgstr  ""
-
-#
-msgid   "Recent Files disabling...."
-msgstr  ""
-
-#
-msgid   "Recent Files disabling, please wait..."
-msgstr  ""
-
-#
-msgid   "Recent Files successfully enabled!\\nYou need to close and reopen "
-        "Dolphin for it to take effect."
-msgstr  ""
-
-#
-msgid   "Recent Files successfully disable!\\nYou need to close and reopen "
-        "Dolphin for it to take effect."
-msgstr  ""
-
-#
-msgid   "Failed to activate Recent Files!"
-msgstr  ""
-
-#
-msgid   "GRUB updated successfully!\\nRestart your computer for it to take "
-        "effect."
-msgstr  ""
-
-#
-msgid   "An error occurred while updating GRUB."
-msgstr  ""
-
-#
 msgid   "Already enabled. No changes made."
-msgstr  ""
-
-#
-msgid   "Ollama CUDA Install"
-msgstr  ""
-
-#
-msgid   "Installing Ollama CUDA, please wait..."
-msgstr  ""
-
-#
-msgid   "Ollama CUDA Uninstall"
-msgstr  ""
-
-#
-msgid   "Uninstalling Ollama CUDA, please wait..."
-msgstr  ""
-
-#
-msgid   "Ollama CUDA installed successfully!"
-msgstr  ""
-
-#
-msgid   "Failed to install Ollama CUDA!"
-msgstr  ""
-
-#
-msgid   "Ollama server is running.\\nAddress: http://localhost:11434"
-msgstr  ""
-
-#
-msgid   "LM Studio Install"
-msgstr  ""
-
-#
-msgid   "Installing LM Studio, please wait..."
-msgstr  ""
-
-#
-msgid   "LM Studio Uninstall"
-msgstr  ""
-
-#
-msgid   "Uninstalling LM Studio, please wait..."
-msgstr  ""
-
-#
-msgid   "LM Studio installed successfully!"
-msgstr  ""
-
-#
-msgid   "Failed to install LM Studio!"
 msgstr  ""
 
 #
@@ -183,1139 +23,15 @@ msgid   "AMD/Nvidia GPU not found!"
 msgstr  ""
 
 #
-msgid   "ChatBox Install"
-msgstr  ""
-
-#
-msgid   "Installing ChatBox, please wait..."
-msgstr  ""
-
-#
-msgid   "ChatBox Uninstall"
-msgstr  ""
-
-#
-msgid   "Uninstalling ChatBox, please wait..."
-msgstr  ""
-
-#
-msgid   "ChatBox installed successfully!"
-msgstr  ""
-
-#
-msgid   "Failed to install ChatBox!"
-msgstr  ""
-
-#
-msgid   "Ollama Install"
-msgstr  ""
-
-#
-msgid   "Installing Ollama, please wait..."
-msgstr  ""
-
-#
-msgid   "Ollama Uninstall"
-msgstr  ""
-
-#
-msgid   "Uninstalling Ollama, please wait..."
-msgstr  ""
-
-#
-msgid   "Ollama installed successfully!"
-msgstr  ""
-
-#
-msgid   "Failed to install Ollama!"
-msgstr  ""
-
-#
-msgid   "Ollama Lab Install"
-msgstr  ""
-
-#
-msgid   "Installing Ollama Lab, please wait..."
-msgstr  ""
-
-#
-msgid   "Ollama Lab Uninstall"
-msgstr  ""
-
-#
-msgid   "Uninstalling Ollama Lab, please wait..."
-msgstr  ""
-
-#
-msgid   "Ollama Lab installed successfully!"
-msgstr  ""
-
-#
-msgid   "Failed to install Ollama Lab!"
-msgstr  ""
-
-#
-msgid   "Ollama Vulkan Install"
-msgstr  ""
-
-#
-msgid   "Ollama Vulkan Uninstall"
-msgstr  ""
-
-#
-msgid   "Uninstalling Ollama Vulkan, please wait..."
-msgstr  ""
-
-#
-msgid   "Ollama Vulkan installed successfully!"
-msgstr  ""
-
-#
-msgid   "Failed to install Ollama Vulkan!"
-msgstr  ""
-
-#
-msgid   "Krita Install"
-msgstr  ""
-
-#
-msgid   "Installing Krita, please wait..."
-msgstr  ""
-
-#
-msgid   "Krita Uninstall"
-msgstr  ""
-
-#
-msgid   "Uninstalling Krita, please wait..."
-msgstr  ""
-
-#
-msgid   "Krita installed successfully!"
-msgstr  ""
-
-#
-msgid   "Failed to install Krita!"
-msgstr  ""
-
-#
-msgid   "Ollama ROCm Install"
-msgstr  ""
-
-#
-msgid   "Installing Ollama ROCm, please wait..."
-msgstr  ""
-
-#
-msgid   "Ollama ROCm Uninstall"
-msgstr  ""
-
-#
-msgid   "Uninstalling Ollama ROCm, please wait..."
-msgstr  ""
-
-#
-msgid   "Ollama ROCm installed successfully!"
-msgstr  ""
-
-#
-msgid   "Failed to install Ollama ROCm!"
-msgstr  ""
-
-#
-msgid   "comfyUI Install...."
-msgstr  ""
-
-#
-msgid   "Installing comfyUI, this step takes a long time, please wait..."
-msgstr  ""
-
-#
-msgid   "Uninstall comfyUI...."
-msgstr  ""
-
-#
-msgid   "Uninstalling comfyUI, please wait..."
-msgstr  ""
-
-#
-msgid   "comfyUI installed successfully"
-msgstr  ""
-
-#
-msgid   "comfyUI uninstalled successfully"
-msgstr  ""
-
-#
-msgid   "Failed to install comfyUI!"
-msgstr  ""
-
-#
-msgid   "comfyUI Depends Install"
-msgstr  ""
-
-#
-msgid   "Installing comfyUI Depends, please wait..."
-msgstr  ""
-
-#
-msgid   "comfyUI Depends installed successfully!"
-msgstr  ""
-
-#
-msgid   "Failed to install comfyUI Depends!"
-msgstr  ""
-
-#
 msgid   "No Ollama packages are installed. Enable an Ollama variant first."
 msgstr  ""
 
 #
-msgid   "Updating Ollama"
-msgstr  ""
-
-#
-msgid   "Synchronizing repositories and updating Ollama, please wait..."
-msgstr  ""
-
-#
-msgid   "Ollama updated successfully!"
-msgstr  ""
-
-#
-msgid   "Failed to update Ollama."
-msgstr  ""
-
-#
-msgid   "Ollama shared successfully.\\nAddress: http://$localIp:11434"
-msgstr  ""
-
-#
-msgid   "Failed to configure Ollama sharing!"
-msgstr  ""
-
-#
-msgid   "Generative AI for Krita has been successfully installed.\\n\\nOpen "
-        "Krita, open an existing drawing or create a new one.\\nIn the top "
-        "panel go to Settings > Panels > check the AI Image Generation box."
-        "\\n\\nIn the window that opens on the bottom right.\\nClick "
-        "Configure > Local Managed Server, choose your GPU or CPU, choose the "
-        "model in Workloads and click Install."
-msgstr  ""
-
-#
-msgid   "JamesDSP Install"
-msgstr  ""
-
-#
-msgid   "Installing JamesDSP, please wait..."
-msgstr  ""
-
-#
-msgid   "JamesDSP installed successfully!"
-msgstr  ""
-
-#
-msgid   "Failed to install jamesDSP!"
-msgstr  ""
-
-#
-msgid   "Docker Install"
-msgstr  ""
-
-#
-msgid   "Installing Docker, please wait..."
-msgstr  ""
-
-#
-msgid   "Docker Start"
-msgstr  ""
-
-#
-msgid   "Docker Starting, please wait..."
-msgstr  ""
-
-#
-msgid   "Docker Stop"
-msgstr  ""
-
-#
-msgid   "Docker Stopping, please wait..."
-msgstr  ""
-
-#
-msgid   "Docker installed successfully!"
-msgstr  ""
-
-#
-msgid   "An error occurred while installing Docker."
-msgstr  ""
-
-#
-msgid   "Installing $package"
-msgstr  ""
-
-#
-msgid   "Installing $package, please wait..."
-msgstr  ""
-
-#
-msgid   "Removing $package"
-msgstr  ""
-
-#
-msgid   "Removing $package, please wait..."
-msgstr  ""
-
-#
-msgid   "$title installed successfully!\\n\\nConfigured on port $port, to "
-        "access use $url"
-msgstr  ""
-
-#
-msgid   "$package removed successfully!"
-msgstr  ""
-
-#
-msgid   "An error occurred with $package."
-msgstr  ""
-
-#
-msgid   "GRUB updated successfully!"
-msgstr  ""
-
-#
-msgid   "Limits updated successfully!"
-msgstr  ""
-
-#
-msgid   "An error occurred while updating Limits."
-msgstr  ""
-
-#
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 12
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 285
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 286
 msgid   "Usability"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 12
-msgid   "User and Visual system settings."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 16
-msgid   "Graphical interface for artificial intelligence."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
-msgid   "Ollama Server"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 24
-msgid   "Choose which Ollama server is best for your hardware."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-msgid   "Update Ollama"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 33
-msgid   "Update the installed Ollama packages to the latest version."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
-msgid   "Update now"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 43
-msgid   "Ollama Variants"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 44
-msgid   "Select the variant that matches your GPU hardware."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 51
-msgid   "ChatAI"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 52
-msgid   "A variety of chats like Plasmoid for your KDE Plasma desktop."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
-msgid   "Ollama LAB"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 60
-msgid   "Graphical interface for managing Ollama models and chat."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 67
-msgid   "ChatBox"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 68
-msgid   "User-friendly Desktop Client App for AI Models/LLMs."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 75
-msgid   "LM Studio"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 77
-msgid   "LM Studio - A desktop app for exploring and running large language "
-        "models locally."
-msgstr  ""
-
-#
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 85
-# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 194
-msgid   "Open Notebook"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
-msgid   "Open-source, privacy-focused alternative to Google's NotebookLM. "
-        "Requires Docker enabled."
-msgstr  ""
-
-#
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
-# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 201
-msgid   "Open Notebook Server"
-msgstr  ""
-
-#
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
-# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 202
-msgid   "Start the Open Notebook server."
-msgstr  ""
-
-#
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
-# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 207
-#, python-brace-format
-msgid   "Open Notebook is running.\n"
-        "Address: http://localhost:8502\n"
-        "and\n"
-        "Address: http://{}:8502"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 107
-msgid   "ComfyUI (GPU ONLY)"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 108
-msgid   "The most powerful and modular visual AI engine and application."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 116
-msgid   "ComfyUI Server"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 117
-msgid   "Start the ComfyUI server."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 122
-#, python-brace-format
-msgid   "ComfyUI server is running.\n"
-        "Address: http://localhost:8188\n"
-        "and\n"
-        "Address: http://{}:8188"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
-msgid   "OllamaCPU"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 129
-msgid   "Local AI server. For CPUs only."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 132
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 152
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 172
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 194
-msgid   "Ollama server is running.\n"
-        "Address: http://localhost:11434"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 156
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 176
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 198
-msgid   "Share Ollama"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 137
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 157
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 177
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 199
-msgid   "Share ollama on the local network."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 141
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 161
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 181
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 203
-#, python-brace-format
-msgid   "Ollama server is running.\n"
-        "Address: http://{}:11434"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 148
-msgid   "Ollama Vulkan"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 149
-msgid   "Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 168
-msgid   "Ollama Nvidia CUDA"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 169
-msgid   "Local AI server. For newer Nvidia GPUs, starting from the 2000 "
-        "series."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 188
-msgid   "Ollama AMD ROCm"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 190
-msgid   "Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
-        "Consider using Vulkan, in many tests, Vulkan performed better than "
-        "ROCm."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 11
-msgid   "AI Coding Assistants"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 12
-msgid   "Open-source coding agents powered by language models."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 21
-msgid   "OpenClaude"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/developer_page.py, line: 23
-msgid   "Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama "
-        "and 200+ models. Installs nodejs, npm and ripgrep as dependencies."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 53
-msgid   "Close"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 68
-#, python-brace-format
-msgid   "Warning: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 71
-msgid   "Cancel"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 72
-msgid   "Continue"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 220
-msgid   "Run"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 226
-#, python-brace-format
-msgid   "{}: run action"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 254
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 256
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 484
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 530
-#, python-brace-format
-msgid   "Script not found: {}"
-msgstr  ""
-
-#
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 265
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 751
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
-msgid   "Applying…"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 279
-#, python-brace-format
-msgid   "Action script {} failed: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 284
-#, python-brace-format
-msgid   "Action script timeout: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 287
-#, python-brace-format
-msgid   "Error running action script {}: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 297
-msgid   "Action completed successfully"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 300
-#, python-brace-format
-msgid   "Action failed: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 333
-msgid   "Recommended"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 356
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 444
-#, python-brace-format
-msgid   "{}: additional information"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 369
-msgid   "Learn more"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 375
-#, python-brace-format
-msgid   "{}: learn more"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 483
-msgid   "Unavailable: script not found."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 494
-msgid   "Enabled"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 496
-msgid   "Disabled"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 502
-msgid   "Enabled by system configuration (e.g., Real-Time Kernel) and cannot "
-        "be changed here."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 506
-msgid   "Unavailable: script returned invalid output."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 508
-#, python-brace-format
-msgid   "output from script {}: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 514
-msgid   "Unavailable: script returned an error."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 515
-#, python-brace-format
-msgid   "Error checking state: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 518
-msgid   "Unavailable: failed to run script."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 519
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 568
-#, python-brace-format
-msgid   "Error running script {}: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 544
-msgid   "State changed successfully"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 546
-#, python-brace-format
-msgid   "Script output: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 550
-#, python-brace-format
-msgid   "Script failed with exit code: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 564
-#, python-brace-format
-msgid   "Script timeout: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 596
-#, python-brace-format
-msgid   "{} sub-options available"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 695
-msgid   "on"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 695
-msgid   "off"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 699
-#, python-brace-format
-msgid   "Changing {} to {}…"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 701
-msgid   "Undo"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 725
-msgid   "Undo: reverted toggle"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 741
-#, python-brace-format
-msgid   "Changing {} to {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 771
-#, python-brace-format
-msgid   "ERROR: Failed to change {} to {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 776
-#, python-brace-format
-msgid   "Failed to change setting: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 56
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 71
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 162
-msgid   "BigLinux Settings"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 63
-msgid   "BigLinux Community"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 199
-msgid   "Search..."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 205
-msgid   "Search settings"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 212
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 215
-msgid   "Toggle navigation sidebar"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 222
-msgid   "About"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 226
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 229
-msgid   "Main Menu"
-msgstr  ""
-
-#
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 279
-# File: usr/share/biglinux/biglinux-settings/system_page.py, line: 13
-msgid   "System"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 291
-msgid   "PreLoad"
-msgstr  ""
-
-#
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 297
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 34
-msgid   "Devices"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 303
-msgid   "A.I."
-msgstr  ""
-
-#
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 309
-# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
-# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 51
-msgid   "Docker"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 315
-msgid   "Developer"
-msgstr  ""
-
-#
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 321
-# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 15
-msgid   "Performance"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 327
-msgid   "Suspend"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/main.py, line: 524
-msgid   "Dismiss"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 59
-msgid   "Close"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 77
-#, python-brace-format
-msgid   "Warning: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 80
-msgid   "Cancel"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 81
-msgid   "Continue"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 230
-msgid   "Run"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 236
-#, python-brace-format
-msgid   "{}: run action"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 264
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 266
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 494
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 542
-#, python-brace-format
-msgid   "Script not found: {}"
-msgstr  ""
-
-#
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 275
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 779
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
-msgid   "Applying…"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 289
-#, python-brace-format
-msgid   "Action script {} failed: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 294
-#, python-brace-format
-msgid   "Action script timeout: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 297
-#, python-brace-format
-msgid   "Error running action script {}: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 307
-msgid   "Action completed successfully"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 310
-#, python-brace-format
-msgid   "Action failed: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 343
-msgid   "Recommended"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 366
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 454
-#, python-brace-format
-msgid   "{}: additional information"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 379
-msgid   "Learn more"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 385
-#, python-brace-format
-msgid   "{}: learn more"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 493
-msgid   "Unavailable: script not found."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 504
-msgid   "Enabled"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 506
-msgid   "Disabled"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 512
-msgid   "Enabled by system configuration (e.g., Real-Time Kernel) and cannot "
-        "be changed here."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 516
-msgid   "Unavailable in this desktop environment."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 518
-msgid   "Unavailable: script returned invalid output."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 520
-#, python-brace-format
-msgid   "output from script {}: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 526
-msgid   "Unavailable: script returned an error."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 527
-#, python-brace-format
-msgid   "Error checking state: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 530
-msgid   "Unavailable: failed to run script."
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 531
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 580
-#, python-brace-format
-msgid   "Error running script {}: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 556
-msgid   "State changed successfully"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 558
-#, python-brace-format
-msgid   "Script output: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 562
-#, python-brace-format
-msgid   "Script failed with exit code: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 576
-#, python-brace-format
-msgid   "Script timeout: {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 608
-#, python-brace-format
-msgid   "{} sub-options available"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 704
-msgid   "on"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 704
-msgid   "off"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 708
-#, python-brace-format
-msgid   "Changing {} to {}…"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 710
-msgid   "Undo"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 740
-msgid   "Undo: reverted toggle"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 769
-#, python-brace-format
-msgid   "Changing {} to {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 799
-#, python-brace-format
-msgid   "ERROR: Failed to change {} to {}"
-msgstr  ""
-
-#
-# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 804
-#, python-brace-format
-msgid   "Failed to change setting: {}"
 msgstr  ""
 
 #
@@ -1336,6 +52,384 @@ msgstr  ""
 #
 # File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 28
 msgid   "Window Button On Left Side"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 29
+msgid   "Maximize, minimize, and close buttons on the left side of the window."
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 37
+msgid   "KZones"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
+msgid   "Enable window tiling zones for the KDE Plasma desktop."
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 48
+msgid   "Recent Files & Locations"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/usability_page.py, line: 50
+msgid   "Restores the 'Recent Files' and 'Recent Locations' functionality "
+        "that appears empty in Dolphin and the Application Menu."
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 57
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 72
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 163
+msgid   "BigLinux Settings"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 64
+msgid   "BigLinux Community"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 200
+msgid   "Search..."
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 206
+msgid   "Search settings"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 213
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 216
+msgid   "Toggle navigation sidebar"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 223
+msgid   "About"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 227
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 230
+msgid   "Main Menu"
+msgstr  ""
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 280
+# File: usr/share/biglinux/biglinux-settings/system_page.py, line: 13
+msgid   "System"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 292
+msgid   "PreLoad"
+msgstr  ""
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 298
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 34
+msgid   "Devices"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 304
+msgid   "A.I."
+msgstr  ""
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 310
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
+# File: usr/share/biglinux/biglinux-settings/docker_page.py, line: 51
+msgid   "Docker"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 316
+msgid   "Developer"
+msgstr  ""
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 322
+# File: usr/share/biglinux/biglinux-settings/performance_page.py, line: 15
+msgid   "Performance"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 328
+msgid   "Suspend"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/main.py, line: 525
+msgid   "Dismiss"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 61
+msgid   "Close"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 79
+#, python-brace-format
+msgid   "Warning: {}"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 82
+msgid   "Cancel"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 83
+msgid   "Continue"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 229
+msgid   "Run"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 235
+#, python-brace-format
+msgid   "{}: run action"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 263
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 265
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 493
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 541
+#, python-brace-format
+msgid   "Script not found: {}"
+msgstr  ""
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 274
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 779
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 136
+msgid   "Applying…"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 288
+#, python-brace-format
+msgid   "Action script {} failed: {}"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 293
+#, python-brace-format
+msgid   "Action script timeout: {}"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 296
+#, python-brace-format
+msgid   "Error running action script {}: {}"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 306
+msgid   "Action completed successfully"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 309
+#, python-brace-format
+msgid   "Action failed: {}"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 342
+msgid   "Recommended"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 365
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 453
+#, python-brace-format
+msgid   "{}: additional information"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 378
+msgid   "Learn more"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 384
+#, python-brace-format
+msgid   "{}: learn more"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 492
+msgid   "Unavailable: script not found."
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 503
+msgid   "Enabled"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 505
+msgid   "Disabled"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 511
+msgid   "Enabled by system configuration (e.g., Real-Time Kernel) and cannot "
+        "be changed here."
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 515
+msgid   "Unavailable in this desktop environment."
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 517
+msgid   "Unavailable: script returned invalid output."
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 519
+#, python-brace-format
+msgid   "output from script {}: {}"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 525
+msgid   "Unavailable: script returned an error."
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 526
+#, python-brace-format
+msgid   "Error checking state: {}"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 529
+msgid   "Unavailable: failed to run script."
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 530
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 579
+#, python-brace-format
+msgid   "Error running script {}: {}"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 555
+msgid   "State changed successfully"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 557
+#, python-brace-format
+msgid   "Script output: {}"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 561
+#, python-brace-format
+msgid   "Script failed with exit code: {}"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 575
+#, python-brace-format
+msgid   "Script timeout: {}"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 607
+#, python-brace-format
+msgid   "{} sub-options available"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 703
+msgid   "on"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 703
+msgid   "off"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 707
+#, python-brace-format
+msgid   "Changing {} to {}…"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 709
+msgid   "Undo"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 740
+msgid   "Undo: reverted toggle"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 769
+#, python-brace-format
+msgid   "Changing {} to {}"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 796
+#, python-brace-format
+msgid   "ERROR: Failed to change {} to {}"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/base_page.py, line: 801
+#, python-brace-format
+msgid   "Failed to change setting: {}"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
+msgid   "AI Interfaces"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 16
+msgid   "Graphical interface for artificial intelligence."
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+msgid   "Ollama Server"
+msgstr  ""
+
+#
+# File: usr/share/biglinux/biglinux-settings/ai_page.py, line: 24
+msgid   "Choose which Ollama server is best for your hardware."
 msgstr  ""
 
 #
@@ -1840,7 +934,7 @@ msgstr  ""
 
 #
 # File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 99
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 154
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 157
 #, python-brace-format
 msgid   "{} — {}"
 msgstr  ""
@@ -1852,17 +946,17 @@ msgid   "{}: toggle connection"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 155
 msgid   "connected"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 152
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 155
 msgid   "disconnected"
 msgstr  ""
 
 #
-# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 161
+# File: usr/share/biglinux/biglinux-settings/devices_page.py, line: 165
 #, python-brace-format
 msgid   "Failed to change network device: {}"
 msgstr  ""
