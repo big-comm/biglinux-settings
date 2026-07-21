@@ -62,3 +62,25 @@ msgstr ""
         normalize_po_header.parse_header(normalized)["Last-Translator"]
         == "Existing Translator <translator@example.com>"
     )
+
+
+def test_replace_field_handles_header_without_pot_creation_date():
+    source = '''msgid ""
+msgstr ""
+"Project-Id-Version: test\\n"
+"Language: bg\\n"
+
+msgid "Example"
+msgstr ""
+'''
+
+    normalized = normalize_po_header.replace_field(
+        source,
+        "PO-Revision-Date",
+        "2026-07-21 22:00+0000",
+    )
+
+    assert (
+        normalize_po_header.parse_header(normalized)["PO-Revision-Date"]
+        == "2026-07-21 22:00+0000"
+    )

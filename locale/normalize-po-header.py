@@ -37,6 +37,7 @@ def replace_field(text: str, field: str, value: str, only_placeholder: bool = Fa
         fields = [line for line in fields if not line.startswith(prefix)]
     else:
         pot_index = next(
+            (index for index, line in enumerate(fields) if line.startswith("POT-Creation-Date: ")),
             len(fields) - 1,
         )
         insertion_index = pot_index + 1
