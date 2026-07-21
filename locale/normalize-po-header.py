@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """Normalize gettext header fields without touching translations."""
 
-import re
 import ast
 import json
 import subprocess
@@ -94,8 +93,9 @@ def main() -> int:
     language = sys.argv[2]
     pot_path = sys.argv[3]
     text = path.read_text(encoding="utf-8")
-    creation = re.search(r'^"POT-Creation-Date: (.*?)\\n"$', text, re.MULTILINE)
-    revision = creation.group(1) if creation else "YEAR-MO-DA HO:MI+ZONE"
+    revision = parse_header(text).get(
+        "POT-Creation-Date", "YEAR-MO-DA HO:MI+ZONE"
+    )
     text = text.replace('#, fuzzy\nmsgid ""\nmsgstr ""', 'msgid ""\nmsgstr ""', 1)
     text = replace_field(text, "PO-Revision-Date", revision)
     text = replace_field(
