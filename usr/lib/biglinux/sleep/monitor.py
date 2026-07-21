@@ -13,10 +13,8 @@ This monitor is now a safety-net: it only intervenes if something goes wrong.
 """
 import logging
 import os
-import subprocess
 import sys
 import time
-from pathlib import Path
 
 import gi
 gi.require_version('GLib', '2.0')
@@ -25,10 +23,10 @@ from gi.repository import GLib, Gio
 
 sys.path.insert(0, "/usr/lib/biglinux")
 from sleep.handlers.gnome import (
-    _enable_extension, _disable_extension,
-    _ext_state, _dbus_call,
     DEFERRED_EXTENSIONS,
     GnomeHandler,
+    _dbus_call,
+    _ext_state,
 )
 
 logging.basicConfig(
@@ -40,6 +38,7 @@ log = logging.getLogger("monitor")
 
 UID = str(os.getuid())
 _just_resumed = False
+_screen_active = False
 
 # How long to wait after unlock before checking extension health (ms).
 _CHECK_DELAY_MS = 2000
@@ -98,18 +97,23 @@ def _on_prepare_for_sleep(connection, sender, path, iface, signal, params, _):
 
     if going_to_sleep:
         log.info("PrepareForSleep(True): system going to sleep")
-        # With s2idle, no extension handling needed before suspend.
-        # Extensions keep their state across freeze/thaw.
+        _just_resumed = False
+        try:
+            GnomeHandler().pre_suspend("suspend")
+        except Exception as e:
+            log.error("pre_suspend failed: %s", e, exc_info=True)
     else:
         log.info("PrepareForSleep(False): system waking up")
         _just_resumed = True
-        # Schedule restore/check after things settle
-        GLib.timeout_add(3000, _resume_extensions)
+        if not _screen_active:
+            _just_resumed = False
+            GLib.timeout_add(3000, _resume_extensions)
 
 
 def _on_screensaver_changed(connection, sender, path, iface, signal, params, _):
-    global _just_resumed
+    global _just_resumed, _screen_active
     is_active = params[0]
+    _screen_active = is_active
 
     if not is_active and _just_resumed:
         log.info("Screen unlocked after resume — checking extension health")

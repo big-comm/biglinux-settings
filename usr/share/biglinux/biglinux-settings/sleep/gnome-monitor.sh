@@ -1,11 +1,9 @@
 #!/bin/bash
+set -euo pipefail
 # gnome-monitor.sh — Toggle GNOME extension health monitor.
-# Enables gnome handler in sleep.conf + systemd user service for monitoring.
+# Enables the systemd user service for the GNOME session.
 
-CONF="/etc/biglinux/sleep.conf"
-KEY="gnome"
 SERVICE_NAME="biglinux-sleep-monitor"
-SERVICE_FILE="/usr/lib/systemd/user/${SERVICE_NAME}.service"
 
 _require_root() {
     if [ "$(id -u)" -ne 0 ]; then
@@ -13,52 +11,32 @@ _require_root() {
     fi
 }
 
-_ensure_conf() {
-    if [ ! -f "$CONF" ]; then
-        mkdir -p "$(dirname "$CONF")"
-        cat > "$CONF" << 'EOF'
-[handlers]
-backlight=false
-network=false
-gnome=false
-EOF
-    fi
-
-    grep -qE "^[[:space:]]*${KEY}[[:space:]]*=" "$CONF" || printf '%s=false\n' "$KEY" >> "$CONF"
-}
-
-if [ "$1" == "check" ]; then
-    val=$(grep -E "^[[:space:]]*${KEY}[[:space:]]*=" "$CONF" 2>/dev/null | tail -1 | cut -d= -f2 | tr -d ' ')
-    if [ "$val" == "true" ]; then
+if [ "${1:-}" == "check" ]; then
+    if systemctl --user is-enabled --quiet "${SERVICE_NAME}.service" 2>/dev/null; then
         echo "true"
     else
         echo "false"
     fi
 
-elif [ "$1" == "toggle" ]; then
+elif [ "${1:-}" == "toggle" ]; then
     _require_root "$@"
-    _ensure_conf
-    state="$2"
-    sed -i --follow-symlinks "s|^[[:space:]]*${KEY}[[:space:]]*=.*|${KEY}=${state}|" "$CONF"
+    state="${2:-}"
+    [[ "$state" == "true" || "$state" == "false" ]] || exit 2
 
-    # Also enable/disable the user-level monitor service for all logged-in users
-    if [ "$state" == "true" ]; then
-        # Enable the user service globally
-        for uid_dir in /run/user/*/; do
-            uid=$(basename "$uid_dir")
-            user=$(id -nu "$uid" 2>/dev/null) || continue
-            if pgrep -u "$uid" gnome-shell &>/dev/null; then
-                su - "$user" -c "systemctl --user enable --now ${SERVICE_NAME}.service" 2>/dev/null &
-            fi
-        done
-    else
-        # Disable the user service for all logged-in users
-        for uid_dir in /run/user/*/; do
-            uid=$(basename "$uid_dir")
-            user=$(id -nu "$uid" 2>/dev/null) || continue
-            su - "$user" -c "systemctl --user disable --now ${SERVICE_NAME}.service" 2>/dev/null &
-        done
+    invokingUid="${PKEXEC_UID:-}"
+    if [[ ! "$invokingUid" =~ ^[0-9]+$ ]]; then
+        echo "Cannot determine the invoking user" >&2
+        exit 1
     fi
-    wait
-    exit $?
+    invokingUser="$(id -nu "$invokingUid")"
+
+    if [ "$state" == "true" ]; then
+        systemctl --global enable "${SERVICE_NAME}.service"
+        systemctl --user --machine="${invokingUser}@.host" start "${SERVICE_NAME}.service"
+    else
+        systemctl --global disable "${SERVICE_NAME}.service"
+        systemctl --user --machine="${invokingUser}@.host" stop "${SERVICE_NAME}.service"
+    fi
+else
+    exit 2
 fi

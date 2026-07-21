@@ -1,63 +1,66 @@
 #!/bin/bash
+set -euo pipefail
 
 #Translation
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=biglinux-settings
 
 # Assign the received arguments to variables with clear names
-function="$1"
+function="${1:-}"
+installDir="$HOME/ComfyUI"
+markerFile="$installDir/.biglinux-settings-managed"
 
 # Executes tasks.
-updateTask() {
-  if [[ "$function" == "install" ]]; then
-    # clone and venv
-    git clone https://github.com/Comfy-Org/ComfyUI.git $HOME/ComfyUI
-    cd $HOME/ComfyUI
-    python -m venv .
-
-    # discover GPU
-    vgaList=$(lspci | grep -iE "VGA|3D|Display")
-    if [[ $(echo $vgaList | grep -Ei '(VGA|3D|Display).*(radeon|amd|\bati)') ]]; then
-      gpu='amd'
-    elif [[ $(echo $vgaList | grep -i nvidia) ]]; then
-      gpu='nvidia'
-    # elif [[ $(echo $vgaList | grep -i ????) ]]; then
-    #     gpu='intel'
-    # else
-    #   gpu='cpu'
-    fi
-
-    # install GPU depends
-    if [ -z "$gpu" ];then
-      echo "GPU not found"
+case "$function" in
+  install)
+    if [[ -e "$installDir" ]]; then
+      echo "$installDir already exists and was not created by BigLinux Settings" >&2
       exit 1
-    #amd
-    elif [ "$gpu" = "amd" ];then
-      bin/pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm7.1
-    #intel NPX
-    elif [ "$gpu" = "intel" ];then
-      bin/pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/xpu
-    #nvidia
-    elif [ "$gpu" = "nvidia" ];then
-      bin/pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu130
     fi
 
-    bin/pip install comfy-cli
-    bash -c "yes | bin/comfy install --$gpu --restore"
+    tempDir="$(mktemp -d "$HOME/.ComfyUI-install.XXXXXX")"
+    trap 'rm -rf -- "$tempDir"' EXIT
+    metadataFile="$tempDir/release.json"
+    curl --fail --silent --show-error --location \
+      https://api.github.com/repos/Comfy-Org/ComfyUI/releases/latest \
+      --output "$metadataFile"
+    releaseTag="$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1], encoding="utf-8"))["tag_name"])' "$metadataFile")"
+    if [[ ! "$releaseTag" =~ ^v?[0-9][a-zA-Z0-9._-]*$ ]]; then
+      echo "Invalid ComfyUI release tag: $releaseTag" >&2
+      exit 1
+    fi
 
-    sleep 1
-  else
-    # stop service
-    kill $(ps aux | grep -i "$HOME/ComfyUI/bin/python $HOME/ComfyUI/main.py" | grep -v grep | awk '{print $2}')
-    # erase comfyUI folder
-    rm -rf "$HOME/ComfyUI"
+    repoDir="$tempDir/repo"
+    git clone --depth 1 --branch "$releaseTag" https://github.com/Comfy-Org/ComfyUI.git "$repoDir"
+    python -m venv "$repoDir"
 
-    sleep 1
-  fi
-  return 0
-}
-updateTask
-exitCode=$?
+    vgaList="$(lspci | grep -iE 'VGA|3D|Display' || true)"
+    if grep -Eiq '(radeon|amd|\bati)' <<< "$vgaList"; then
+      gpu="amd"
+      "$repoDir/bin/pip" install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm7.1
+    elif grep -iq nvidia <<< "$vgaList"; then
+      gpu="nvidia"
+      "$repoDir/bin/pip" install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu130
+    else
+      echo "AMD/Nvidia GPU not found" >&2
+      exit 1
+    fi
+    "$repoDir/bin/pip" install --requirement "$repoDir/requirements.txt"
 
-# Exits the script with the correct exit code
-exit $exitCode
+    commit="$(git -C "$repoDir" rev-parse HEAD)"
+    printf 'release=%s\ncommit=%s\ngpu=%s\n' "$releaseTag" "$commit" "$gpu" > "$repoDir/.biglinux-settings-managed"
+    mv "$repoDir" "$installDir"
+    ;;
+  uninstall)
+    if [[ ! -f "$markerFile" ]]; then
+      echo "$installDir is not managed by BigLinux Settings; refusing to remove it" >&2
+      exit 1
+    fi
+    /usr/share/biglinux/biglinux-settings/ai/comfyUIRun.sh toggle false || true
+    rm -rf -- "$installDir"
+    ;;
+  *)
+    echo "Invalid action: $function" >&2
+    exit 2
+    ;;
+esac

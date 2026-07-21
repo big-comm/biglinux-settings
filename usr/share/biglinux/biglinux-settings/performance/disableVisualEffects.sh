@@ -22,9 +22,9 @@ elif [ "$1" == "toggle" ]; then
   exitCode=0
   if ([[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]]) && command -v qdbus6 >/dev/null 2>&1;then
     if [ "$state" == "true" ]; then
-      effects=$(qdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.loadedEffects)
+      read -ra effects <<< "$(qdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.loadedEffects)"
       rm -f "$HOME/.config/biglinux-settings/effectsEnable"
-      for effect in ${effects[@]}; do
+      for effect in "${effects[@]}"; do
         mkdir -p "$HOME/.config/biglinux-settings"
         echo "$effect" >> "$HOME/.config/biglinux-settings/effectsEnable"
         kwriteconfig6 --file kwinrc --group Plugins --key "${effect}Enabled" false
@@ -32,8 +32,8 @@ elif [ "$1" == "toggle" ]; then
       done
       exitCode=$?
     else
-      effects=$(cat "$HOME/.config/biglinux-settings/effectsEnable")
-      for effect in ${effects[@]}; do
+      mapfile -t effects < "$HOME/.config/biglinux-settings/effectsEnable"
+      for effect in "${effects[@]}"; do
         kwriteconfig6 --file kwinrc --group Plugins --key "${effect}Enabled" true
         qdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.loadEffect "$effect"
       done

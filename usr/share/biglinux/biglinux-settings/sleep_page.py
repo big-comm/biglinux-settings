@@ -68,6 +68,44 @@ class SleepPage(BaseSettingsPage):
 
         content = self.create_scrolled_content()
 
+        grp_power = self.create_group(
+            _("Automatic Suspend"),
+            _("Choose when inactivity and low battery may suspend the system."),
+            "sleep",
+        )
+        content.append(grp_power)
+
+        self.create_row(
+            grp_power,
+            _("Never suspend while plugged in"),
+            _("Disables automatic suspend caused by inactivity on AC power."),
+            "never-suspend-ac",
+            "sleep-symbolic",
+        )
+
+        self.create_row(
+            grp_power,
+            _("Never suspend on battery due to inactivity"),
+            _("Keeps the system awake on battery until a critical level is reached."),
+            "never-suspend-battery",
+            "sleep-symbolic",
+        )
+
+        self.create_row(
+            grp_power,
+            _("Suspend only when battery reaches 20%"),
+            _(
+                "Disables idle suspend on battery and suspends automatically "
+                "when the charge reaches 20%."
+            ),
+            "suspend-at-20",
+            "sleep-symbolic",
+            info_text=_(
+                "This uses UPower's critical battery policy. Low and critical "
+                "warnings occur before the suspend action at 20%."
+            ),
+        )
+
         # --- Sleep mode (only for ASUS with EC bug) ---
         if _has_asus_ec_bug():
             grp_sleep = self.create_group(

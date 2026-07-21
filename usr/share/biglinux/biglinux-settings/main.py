@@ -5,12 +5,11 @@ gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
 gi.require_version("Gdk", "4.0")
 import html
-import json
 import logging
 import os
 
 from ai_page import AIPage
-from config import _, APP_ID, APP_VERSION, BASE_DIR, CONFIG_DIR, CONFIG_FILE, ICONS_DIR
+from config import _, APP_ID, APP_VERSION, BASE_DIR, ICONS_DIR
 from developer_page import DeveloperPage
 from devices_page import DevicesPage
 from docker_page import DockerPage
@@ -24,6 +23,14 @@ from usability_page import UsabilityPage
 logging.basicConfig(level=logging.INFO, format="%(name)s %(levelname)s: %(message)s")
 logger = logging.getLogger("biglinux-settings")
 TOAST_TIMEOUT_MS = 3500
+WINDOW_WIDTH = 1000
+WINDOW_HEIGHT = 700
+INSTALLED_MAIN = "/usr/share/biglinux/biglinux-settings/main.py"
+
+
+def _is_source_run(main_file=__file__):
+    """Return whether the app is running outside the installed path."""
+    return os.path.realpath(main_file) != os.path.realpath(INSTALLED_MAIN)
 
 
 def _highlight_text(text, search_text):
@@ -39,7 +46,11 @@ def _highlight_text(text, search_text):
 
 class BiglinuxSettingsApp(Adw.Application):
     def __init__(self):
-        super().__init__(application_id=APP_ID)
+        kwargs = {"application_id": APP_ID}
+        if _is_source_run():
+            # Do not forward source runs to an older installed process.
+            kwargs["flags"] = Gio.ApplicationFlags.NON_UNIQUE
+        super().__init__(**kwargs)
         GLib.set_prgname(APP_ID)
         self.connect("activate", self.on_activate)
 
@@ -70,11 +81,9 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.set_title(_("BigLinux Settings"))
-
-        saved_size = self._load_window_config()
-        width = saved_size.get("width", 1000)
-        height = saved_size.get("height", 700)
-        self.set_default_size(width, height)
+        # Fixed geometry: the default size is both minimum and maximum.
+        self.set_default_size(WINDOW_WIDTH, WINDOW_HEIGHT)
+        self.set_resizable(False)
 
         icon_theme = Gtk.IconTheme.get_for_display(Gdk.Display.get_default())
         icon_theme.add_search_path(ICONS_DIR)
@@ -87,37 +96,6 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
         self._pending_undo = None
         self.load_css()
         self.setup_ui()
-
-        self.connect("close-request", self._on_close_request)
-
-    def _load_window_config(self):
-        """Load window configuration from JSON file."""
-        if os.path.exists(CONFIG_FILE):
-            try:
-                with open(CONFIG_FILE, encoding="utf-8") as f:
-                    return json.load(f)
-            except (json.JSONDecodeError, OSError) as e:
-                logger.error(f"Error loading window config: {e}")
-        return {}
-
-    def _save_window_config(self):
-        """Save window configuration to JSON file using atomic write."""
-        try:
-            os.makedirs(CONFIG_DIR, exist_ok=True)
-            width = self.get_width()
-            height = self.get_height()
-            config = {"width": width, "height": height}
-            tmp_file = CONFIG_FILE + ".tmp"
-            with open(tmp_file, "w", encoding="utf-8") as f:
-                json.dump(config, f, indent=2)
-            os.replace(tmp_file, CONFIG_FILE)
-        except OSError as e:
-            logger.error(f"Error saving window config: {e}")
-
-    def _on_close_request(self, window):
-        """Handle window close request - save configuration."""
-        self._save_window_config()
-        return False  # Allow window to close
 
     def load_css(self):
         self.css_provider = Gtk.CssProvider()
@@ -254,7 +232,7 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
         self.search_results_group = Adw.PreferencesGroup()
         self.search_results_box.append(self.search_results_group)
 
-        self.reparented_rows = []
+        self.search_result_rows = []
 
         # === PAGE STACK ===
         self.page_stack = Gtk.Stack()
@@ -392,7 +370,7 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
 
     def _show_single_page(self, page_id):
         """Show only one page via Gtk.Stack (normal mode)."""
-        self._restore_reparented_rows()
+        self._clear_search_results()
 
         self.search_results_scroll.set_visible(False)
         self.page_stack.set_visible(True)
@@ -422,7 +400,7 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
 
     def _show_search_results(self, search_text):
         """Show search results in a single compact container."""
-        self._restore_reparented_rows()
+        self._clear_search_results()
 
         self.page_stack.set_visible(False)
         self.search_results_scroll.set_visible(True)
@@ -440,42 +418,54 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
             instance = page_cfg.get("instance")
             if instance and hasattr(instance, "get_matching_rows"):
                 matching_rows = instance.get_matching_rows(search_text)
-                for row, original_parent in matching_rows:
-                    self.reparented_rows.append((row, original_parent))
-                    original_parent.remove(row)
-                    self.search_results_group.add(row)
-                    self._apply_search_highlight(row, search_text)
+                for row, _original_parent in matching_rows:
+                    self._add_search_result(row, page_cfg, search_text)
 
     @staticmethod
     def _highlight_text(text, search_text):
         """Wrap matching substring with bold Pango markup, escaping existing markup."""
         return _highlight_text(text, search_text)
 
-    def _apply_search_highlight(self, row, search_text):
-        """Apply bold markup highlighting to matching text in row title/subtitle."""
-        if not isinstance(row, Adw.ActionRow):
+    def _add_search_result(self, original_row, page_cfg, search_text):
+        """Add a non-destructive search result that opens its source page."""
+        if not isinstance(original_row, Adw.ActionRow):
             return
-        orig_title = row.get_title() or ""
-        orig_subtitle = row.get_subtitle() or ""
-        row._orig_title_text = orig_title
-        row._orig_subtitle_text = orig_subtitle
-        row.set_title(self._highlight_text(orig_title, search_text))
-        if orig_subtitle:
-            row.set_subtitle(self._highlight_text(orig_subtitle, search_text))
+        title = original_row.get_title() or ""
+        subtitle = original_row.get_subtitle() or ""
+        result = Adw.ActionRow(title=self._highlight_text(title, search_text))
+        if subtitle:
+            result.set_subtitle(self._highlight_text(subtitle, search_text))
+        button = Gtk.Button(
+            icon_name="go-next-symbolic",
+            valign=Gtk.Align.CENTER,
+            tooltip_text=_("Open setting"),
+        )
+        button.add_css_class("flat")
+        button.update_property(
+            [Gtk.AccessibleProperty.LABEL],
+            [_("Open {} setting").format(title)],
+        )
+        button.connect(
+            "clicked", lambda _button: self._open_search_result(page_cfg["id"])
+        )
+        result.add_suffix(button)
+        result.set_activatable_widget(button)
+        self.search_results_group.add(result)
+        self.search_result_rows.append(result)
 
-    def _restore_reparented_rows(self):
-        """Restore rows to their original parents."""
-        for row, original_parent in self.reparented_rows:
-            # Restore original text before re-parenting
-            if hasattr(row, "_orig_title_text"):
-                row.set_title(row._orig_title_text)
-                del row._orig_title_text
-            if hasattr(row, "_orig_subtitle_text"):
-                row.set_subtitle(row._orig_subtitle_text)
-                del row._orig_subtitle_text
+    def _clear_search_results(self):
+        for row in self.search_result_rows:
             self.search_results_group.remove(row)
-            original_parent.add(row)
-        self.reparented_rows = []
+        self.search_result_rows.clear()
+
+    def _open_search_result(self, page_id):
+        self.search_entry.set_text("")
+        row = self.sidebar_list.get_first_child()
+        while row:
+            if getattr(row, "page_id", None) == page_id:
+                self.sidebar_list.select_row(row)
+                break
+            row = row.get_next_sibling()
 
     def on_search_changed(self, entry):
         search_text = entry.get_text().lower().strip()

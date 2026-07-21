@@ -4,12 +4,16 @@ import gettext
 import locale
 import os
 
-APP_VERSION = "1.1.0"
 APP_ID = "br.com.biglinux-settings"
 DOMAIN = "biglinux-settings"
-LOCALE_DIR = "/usr/share/locale"
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+LOCALE_DIR = os.path.normpath(os.path.join(BASE_DIR, "..", "..", "locale"))
+try:
+    with open(os.path.join(BASE_DIR, "VERSION"), encoding="utf-8") as version_file:
+        APP_VERSION = version_file.read().strip() or "development"
+except OSError:
+    APP_VERSION = "development"
 ICONS_DIR = os.path.join(BASE_DIR, "icons")
 CONFIG_DIR = os.path.expanduser("~/.config/biglinux-settings")
 CONFIG_FILE = os.path.join(CONFIG_DIR, "config.json")
@@ -25,3 +29,4 @@ locale.textdomain(DOMAIN)
 gettext.bindtextdomain(DOMAIN, LOCALE_DIR)
 gettext.textdomain(DOMAIN)
 _ = gettext.gettext
+ngettext = gettext.ngettext

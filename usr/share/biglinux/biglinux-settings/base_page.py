@@ -8,11 +8,13 @@ import os
 import subprocess
 import socket
 import threading
+import time
+from concurrent.futures import ThreadPoolExecutor
 
 from gi.repository import Adw, Gio, GLib, Gtk
 from typing import Any, Optional, Union
 
-from config import _, ICONS_DIR
+from config import _, ICONS_DIR, ngettext
 
 logger = logging.getLogger("biglinux-settings")
 
@@ -38,6 +40,7 @@ class BaseSettingsPage(Adw.Bin):
         self.switch_timeouts: dict[str, Optional[int]] = {}
         # Centralized widget metadata — avoids monkey-patching GObject instances
         self._widget_data: dict = {}
+        self._sync_generation = 0
 
     def _set_wd(self, widget: Gtk.Widget, key: str, value: Any) -> None:
         """Set a metadata attribute on a widget via centralized dict."""
@@ -552,10 +555,18 @@ class BaseSettingsPage(Adw.Bin):
             )
 
             if result.returncode == 0:
-                logger.info(_("State changed successfully"))
                 if result.stdout.strip():
                     logger.debug(_("Script output: {}").format(result.stdout.strip()))
-                return True
+                for _attempt in range(5):
+                    verified_state, _message = self.check_script_state(script_path)
+                    if verified_state is new_state:
+                        logger.info(_("State changed successfully"))
+                        return True
+                    time.sleep(0.2)
+                logger.error(
+                    "Script completed but state verification failed: %s", script_path
+                )
+                return False
             else:
                 # Exit code != 0 indicates failure
                 error_msg = _("Script failed with exit code: {}").format(
@@ -604,36 +615,53 @@ class BaseSettingsPage(Adw.Bin):
         if visible_count > 0:
             parent_switch.update_property(
                 [Gtk.AccessibleProperty.DESCRIPTION],
-                [_("{} sub-options available").format(visible_count)],
+                [
+                    ngettext(
+                        "{} sub-option available",
+                        "{} sub-options available",
+                        visible_count,
+                    ).format(visible_count)
+                ],
             )
         else:
             parent_switch.update_property([Gtk.AccessibleProperty.DESCRIPTION], [""])
 
     def sync_all_switches_async(self) -> None:
         """Synchronize all switches in a background thread to avoid blocking UI."""
+        self._sync_generation += 1
+        generation = self._sync_generation
+        switches = list(self.switch_scripts.items())
+        indicators = list(self.status_indicators.items())
+        script_paths = list({path for _, path in switches + indicators})
 
         def _check_all():
-            switch_results = []
-            for switch, script_path in self.switch_scripts.items():
-                switch_results.append((switch, self.check_script_state(script_path)))
-
-            indicator_results = []
-            for indicator, script_path in self.status_indicators.items():
-                indicator_results.append(
-                    (
-                        indicator,
-                        self.check_script_state(script_path),
+            worker_count = min(8, max(1, len(script_paths)))
+            with ThreadPoolExecutor(max_workers=worker_count) as executor:
+                states = dict(
+                    zip(
+                        script_paths,
+                        executor.map(self.check_script_state, script_paths),
                     )
                 )
-
-            GLib.idle_add(self._apply_sync_results, switch_results, indicator_results)
+            switch_results = [(switch, states[path]) for switch, path in switches]
+            indicator_results = [
+                (indicator, states[path]) for indicator, path in indicators
+            ]
+            GLib.idle_add(
+                self._apply_sync_results,
+                generation,
+                switch_results,
+                indicator_results,
+            )
 
         threading.Thread(target=_check_all, daemon=True).start()
 
     def _apply_sync_results(
-        self, switch_results: list, indicator_results: list
+        self, generation: int, switch_results: list, indicator_results: list
     ) -> bool:
         """Apply sync results on the main thread (called via GLib.idle_add)."""
+        if generation != self._sync_generation:
+            return False
         for switch, (status, message) in switch_results:
             row = self._get_wd(switch, "row")
 
@@ -764,6 +792,7 @@ class BaseSettingsPage(Adw.Bin):
             return
 
         timeout = self.switch_timeouts.get(script_path)
+        self._sync_generation += 1
         script_name = os.path.basename(script_path)
         logger.info(
             _("Changing {} to {}").format(script_name, "on" if state else "off")

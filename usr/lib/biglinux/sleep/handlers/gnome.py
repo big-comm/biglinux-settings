@@ -28,6 +28,7 @@ FIX (no extension modification needed):
 """
 import json
 import logging
+import os
 import re
 import subprocess
 import time
@@ -37,7 +38,7 @@ from .base import SleepHandler
 
 log = logging.getLogger(__name__)
 
-STATE_FILE = Path("/run/biglinux/gnome-ext-state.json")
+STATE_FILE = Path(os.environ.get("XDG_RUNTIME_DIR", "/run/biglinux")) / "biglinux-gnome-ext-state.json"
 
 # Extensions that must be disabled before suspend and re-enabled after resume.
 # user-theme calls Main.loadTheme() immediately in enable(), before other
@@ -216,14 +217,19 @@ class GnomeHandler(SleepHandler):
         # Extra delay: let all other extensions finish enable() and register resources
         time.sleep(1.5)
 
+        remaining = []
         for uuid in pending:
             log.info("post_resume: re-enabling %s", uuid)
             if _enable_extension(uid, uuid):
                 log.info("Re-enabled %s successfully", uuid)
             else:
                 log.warning("Could not re-enable %s", uuid)
+                remaining.append(uuid)
 
-        _clear_state()
+        if remaining:
+            _save_state(remaining)
+        else:
+            _clear_state()
 
     def _fix_error_state(self, uid: str) -> None:
         """
@@ -242,7 +248,7 @@ class GnomeHandler(SleepHandler):
         """
         for uuid in DEFERRED_EXTENSIONS:
             info = _ext_state(uid, uuid)
-            if info and info.get("error"):
+            if info and (info.get("error") or info.get("state") == 3):
                 log.info("Extension %s is in ERROR state, applying disable+enable fix", uuid)
                 if _disable_extension(uid, uuid):
                     log.info("Disabled %s, waiting for theme to stabilize...", uuid)

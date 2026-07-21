@@ -14,6 +14,7 @@ Strategy:
   If the device ended up in a bad state anyway, fall back to module
   unload + PCI rescan + module reload.
 """
+import json
 import logging
 import subprocess
 import time
@@ -33,6 +34,7 @@ _WIFI_MODULES = [
 
 _PCI_DEVICES = Path("/sys/bus/pci/devices")
 _PCI_RESCAN = Path("/sys/bus/pci/rescan")
+STATE_FILE = Path("/run/biglinux/network-state.json")
 
 
 def _find_wifi_pci() -> tuple[str, str] | None:
@@ -51,6 +53,23 @@ def _find_wifi_pci() -> tuple[str, str] | None:
                         return (module, dev.name)
         except OSError:
             pass
+    return None
+
+
+def _save_state(module: str, pci_slot: str) -> None:
+    STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    STATE_FILE.write_text(json.dumps({"module": module, "pci_slot": pci_slot}))
+
+
+def _load_state() -> tuple[str, str] | None:
+    try:
+        state = json.loads(STATE_FILE.read_text())
+        module = state["module"]
+        pci_slot = state["pci_slot"]
+        if module in _WIFI_MODULES and isinstance(pci_slot, str):
+            return module, pci_slot
+    except (OSError, KeyError, TypeError, json.JSONDecodeError):
+        pass
     return None
 
 
@@ -160,7 +179,7 @@ class NetworkHandler(SleepHandler):
         self._pci_slot: str | None = None
 
     def is_available(self) -> bool:
-        info = _find_wifi_pci()
+        info = _find_wifi_pci() or _load_state()
         if info:
             self._module, self._pci_slot = info
             log.info("Found WiFi: module=%s pci=%s", self._module, self._pci_slot)
@@ -168,8 +187,9 @@ class NetworkHandler(SleepHandler):
         return False
 
     def pre_suspend(self, sleep_type: str) -> None:
-        if not self._pci_slot:
+        if not self._pci_slot or not self._module:
             return
+        _save_state(self._module, self._pci_slot)
         _set_d3cold(self._pci_slot, False)
 
     def post_resume(self, sleep_type: str) -> None:
@@ -187,3 +207,4 @@ class NetworkHandler(SleepHandler):
             _fallback_recovery(self._module, self._pci_slot)
             # Re-enable d3cold for normal operation
             _set_d3cold(self._pci_slot, True)
+        STATE_FILE.unlink(missing_ok=True)

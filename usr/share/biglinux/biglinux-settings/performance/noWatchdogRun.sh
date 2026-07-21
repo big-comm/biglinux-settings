@@ -14,13 +14,13 @@ run_update_grub() {
   elif [[ -e "/usr/sbin/update-grub" ]];then
     /usr/sbin/update-grub
   elif [[ -e "/usr/bin/grub-mkconfig" ]];then
-    /usr/bin/grub-mkconfig
+    /usr/bin/grub-mkconfig -o /boot/grub/grub.cfg
   elif [[ -e "/usr/sbin/grub-mkconfig" ]];then
-    /usr/sbin/grub-mkconfig
+    /usr/sbin/grub-mkconfig -o /boot/grub/grub.cfg
   elif [[ -e "/usr/bin/grub2-mkconfig" ]];then
-    /usr/bin/grub2-mkconfig
+    /usr/bin/grub2-mkconfig -o /boot/grub2/grub.cfg
   elif [[ -e "/usr/sbin/grub2-mkconfig" ]];then
-    /usr/sbin/grub2-mkconfig
+    /usr/sbin/grub2-mkconfig -o /boot/grub2/grub.cfg
   else
     return 1
   fi
@@ -30,7 +30,8 @@ run_update_grub() {
 updateGrubTask() {
   if [[ "$function" == "enable" ]]; then
     if grep -q "$parameter" "/etc/default/grub"; then
-      echo $"Already enabled. No changes made."
+      gettext "Already enabled. No changes made."
+      echo
       return
     elif grep -q "GRUB_CMDLINE_LINUX_DEFAULT=" "/etc/default/grub"; then
       # Add the parameter

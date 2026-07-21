@@ -1,0 +1,45 @@
+name: Validate
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install validation tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes desktop-file-utils gettext shellcheck libxml2-utils
+          python -m pip install --requirement requirements-dev.txt
+
+      - name: Run Python tests and lint
+        run: |
+          pytest -q
+          ruff check usr tests locale/normalize-po-header.py
+
+      - name: Validate shell scripts
+        run: |
+          find usr/share/biglinux/biglinux-settings locale -name '*.sh' -print0 | xargs -0 shellcheck --severity=warning
+          find usr/share/biglinux/biglinux-settings locale -name '*.sh' -print0 | xargs -0 -n1 bash -n
+
+      - name: Validate translations and desktop assets
+        run: |
+          msgfmt --check-format --output-file=/dev/null locale/biglinux-settings.pot
+          for po in locale/*.po; do msgfmt --check --output-file=/dev/null "$po"; done
+          desktop-file-validate usr/share/applications/br.com.biglinux-settings.desktop
+          xmllint --noout usr/share/icons/hicolor/scalable/apps/biglinux-settings.svg

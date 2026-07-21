@@ -5,12 +5,12 @@
 
 .status-on {
     background-color: alpha(@success_color, 0.15);
-        border-left: 3px solid @success_color;
+    border-left: 3px solid @success_color;
 }
 
 .status-off {
     background-color: alpha(@error_color, 0.08);
-        border-left: 3px solid @error_color;
+    border-left: 3px solid @error_color;
 }
 
 .recommended-badge {
@@ -24,6 +24,24 @@
 
 .status-unavailable {
     background-color: alpha(@insensitive_fg_color, 0.08);
-        border-left: 3px solid @insensitive_fg_color;
-        opacity: 0.6;
+    border-left: 3px solid @insensitive_fg_color;
+    opacity: 0.6;
+}
+
+:dir(rtl) .status-on,
+:dir(rtl) .status-off,
+:dir(rtl) .status-unavailable {
+    border-left: none;
+}
+
+:dir(rtl) .status-on {
+    border-right: 3px solid @success_color;
+}
+
+:dir(rtl) .status-off {
+    border-right: 3px solid @error_color;
+}
+
+:dir(rtl) .status-unavailable {
+    border-right: 3px solid @insensitive_fg_color;
 }

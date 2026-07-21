@@ -15,7 +15,7 @@ elif [ "$1" == "toggle" ]; then
       pkexec systemctl start sshd
       exitCode=$?
   else
-      pkexec systemctl disable --now sshd
+      pkexec systemctl stop sshd
       exitCode=$?
   fi
   exit $exitCode

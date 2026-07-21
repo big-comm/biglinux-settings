@@ -1,0 +1,8 @@
+[lint]
+select = ["E", "W", "F"]
+ignore = ["E501"]
+
+[lint.per-file-ignores]
+"usr/share/biglinux/biglinux-settings/base_page.py" = ["E402"]
+"usr/share/biglinux/biglinux-settings/main.py" = ["E402"]
+"usr/lib/biglinux/sleep/monitor.py" = ["E402"]

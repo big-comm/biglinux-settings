@@ -4,67 +4,58 @@
 pkgname=biglinux-settings
 pkgdesc="Scripts and configuration files created in GTK4 that simplify switching BigLinux operation."
 depends=('gtk4' 'libadwaita' 'networkmanager' 'polkit' 'python' 'python-gobject' 'systemd' 'util-linux')
+makedepends=('gettext' 'git' 'python-pytest' 'python-ruff' 'shellcheck')
 optdepends=(
     'baloo: KDE file indexer toggle'
+    'curl: verified downloads for optional AI integrations'
+    'git: install ComfyUI from a tagged release'
     'grub: GRUB timeout and kernel parameter toggles'
     'kconfig: KDE configuration toggles'
     'mkinitcpio: initramfs rebuild after boot animation changes'
     'numlockx: NumLock startup toggle'
+    'p7zip: install the Krita AI plugin archive'
     'plymouth: boot animation message toggle'
     'power-profiles-daemon: CPU performance profile toggle'
     'qt6-tools: qdbus6 support for KDE checks'
+    'upower: suspend at a configured critical battery level'
+    'xfconf: XFCE automatic suspend configuration'
 )
-pkgver=$(date +%y.%m.%d)
-pkgrel=$(date +%H%M)
+pkgver=26.05.03.0250
+pkgrel=1
 arch=('any')
-license=('GPL')
+license=('GPL-3.0-or-later')
 url="https://github.com/big-comm/${pkgname}"
-source=("git+${url}.git")
-md5sums=('SKIP')
+source=("${pkgname}::git+${url}.git")
+sha256sums=('SKIP')
 backup=('etc/biglinux/sleep.conf')
 
-# Automatically detect and use the correct install file
-if [ -e "${pkgname}.install" ]; then
-    install=${pkgname}.install
-elif [ -e "pkgbuild.install" ]; then
-    install=pkgbuild.install
-fi
-
-prepare() {
+pkgver() {
     cd "${srcdir}/${pkgname}"
-    # Add any preparation steps here, if needed
-    # For example: patch -p1 < "${srcdir}/patch-file.patch"
-}
-
-build() {
-    cd "${srcdir}/${pkgname}"
-    # Add build steps here, if needed
-    # For example: make
+    git describe --tags --long | sed 's/^v//;s/-/./g'
 }
 
 check() {
     cd "${srcdir}/${pkgname}"
-    # Add check/test steps here, if needed
-    # For example: make check
+    pytest -q
+    ruff check usr tests locale/normalize-po-header.py
+    find usr/share/biglinux/biglinux-settings locale -name '*.sh' -print0 | xargs -0 shellcheck --severity=warning
+    find usr/share/biglinux/biglinux-settings locale -name '*.sh' -print0 | xargs -0 -n1 bash -n
+    msgfmt --check-format --output-file=/dev/null locale/biglinux-settings.pot
+    for po in locale/*.po; do
+        msgfmt --check --output-file=/dev/null "$po"
+    done
 }
 
 package() {
     cd "${srcdir}/${pkgname}"
 
-    # Determine the correct source directory
-    if [ -d "${pkgname}" ]; then
-        srcdir="${srcdir}/${pkgname}/${pkgname}"
-    else
-        srcdir="${srcdir}/${pkgname}"
-    fi
-
-    # Install files
     local dirs=("usr" "etc" "opt")
     for dir in "${dirs[@]}"; do
-        if [ -d "${srcdir}/${dir}" ]; then
-            cp -a --no-preserve=ownership "${srcdir}/${dir}" "${pkgdir}/"
+        if [ -d "${dir}" ]; then
+            cp -a --no-preserve=ownership "${dir}" "${pkgdir}/"
         fi
     done
+    printf '%s\n' "$pkgver" > "${pkgdir}/usr/share/biglinux/biglinux-settings/VERSION"
     chown -R root:root "${pkgdir}"
 
     # Install license file if present

@@ -15,7 +15,8 @@ for pkg in ollama ollama-vulkan ollama-cuda ollama-rocm; do
 done
 
 if [ -z "$installedPkgs" ]; then
-  echo $"No Ollama packages are installed. Enable an Ollama variant first."
+  gettext "No Ollama packages are installed. Enable an Ollama variant first."
+  echo
   exit 0
 fi
 

@@ -15,8 +15,6 @@
 .ruff_cache/
 .pytest_cache/
 
-# Project-local config/docs
-ruff.toml
+# Project-local docs
 PLANNING.md
 RUST_MIGRATION_PLAN.md
-tests/

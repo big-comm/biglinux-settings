@@ -62,6 +62,7 @@ _rebuild_initramfs() {
     preset_name="$(basename "$preset" .preset)"
     kver="$(
       unset ALL_kver default_kver
+      # shellcheck disable=SC1090
       . "$preset" 2>/dev/null
       printf '%s' "${default_kver:-$ALL_kver}"
     )"

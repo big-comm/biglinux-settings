@@ -37,14 +37,12 @@ CONFIG_FILE = Path("/etc/biglinux/sleep.conf")
 _HANDLER_MAP = {
     "backlight": ("sleep.handlers.backlight", "BacklightHandler"),
     "network": ("sleep.handlers.network", "NetworkHandler"),
-    "gnome": ("sleep.handlers.gnome", "GnomeHandler"),
 }
 
 
 def _load_config() -> dict[str, bool]:
     """Read handler enabled states from config file."""
     config = configparser.ConfigParser()
-    defaults = {k: "false" for k in _HANDLER_MAP}
 
     if CONFIG_FILE.exists():
         config.read(str(CONFIG_FILE))
