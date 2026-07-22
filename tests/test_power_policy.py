@@ -80,6 +80,13 @@ def test_kde_missing_value_is_deleted_on_restore(policy_module, monkeypatch):
     assert commands[-1][-2:] == ["--delete", ""]
 
 
+def test_kde_battery_idle_policy_covers_low_battery_profile(policy_module):
+    items = policy_module.kde_keys("battery")
+
+    assert {item["groups"][0] for item in items} == {"Battery", "LowBattery"}
+    assert all(item["value"] == "0" for item in items)
+
+
 def test_critical_policy_blocks_manual_battery_idle_restore(
     policy_module, monkeypatch
 ):

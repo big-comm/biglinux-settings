@@ -77,7 +77,7 @@ class SleepPage(BaseSettingsPage):
 
         self.create_row(
             grp_power,
-            _("Never suspend while plugged in"),
+            _("Disable idle suspend while plugged in"),
             _("Disables automatic suspend caused by inactivity on AC power."),
             "never-suspend-ac",
             "sleep-symbolic",
@@ -85,7 +85,7 @@ class SleepPage(BaseSettingsPage):
 
         self.create_row(
             grp_power,
-            _("Never suspend on battery due to inactivity"),
+            _("Disable idle suspend on battery"),
             _("Keeps the system awake on battery until a critical level is reached."),
             "never-suspend-battery",
             "sleep-symbolic",
@@ -205,11 +205,32 @@ class SleepPage(BaseSettingsPage):
 
         self.create_row(
             grp_lid,
-            _("Suspend on lid close (AC power)"),
+            _("Keep running with the lid closed while plugged in"),
             _(
-                "Some systems do not suspend when on AC power. "
-                "This forces suspend when the lid is closed."
+                "Keeps the session and network active when the lid is closed "
+                "on AC power."
             ),
-            "lid-suspend",
+            "never-suspend-lid-ac",
             "sleep-symbolic",
+            info_text=_(
+                "This prevents lid-triggered suspend and locking. Automatic "
+                "idle locking remains separate. Keep the notebook ventilated "
+                "while it runs with the lid closed."
+            ),
+        )
+
+        self.create_row(
+            grp_lid,
+            _("Keep running with the lid closed on battery"),
+            _(
+                "Keeps the session and network active when the lid is closed "
+                "on battery power."
+            ),
+            "never-suspend-lid-battery",
+            "sleep-symbolic",
+            info_text=_(
+                "This prevents lid-triggered suspend and locking. Automatic "
+                "idle locking remains separate, and the 20% critical battery "
+                "policy still applies."
+            ),
         )

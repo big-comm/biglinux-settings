@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 18:49-0300\n"
-"PO-Revision-Date: 2026-07-21 18:49-0300\n"
+"POT-Creation-Date: 2026-07-22 00:37-0300\n"
+"PO-Revision-Date: 2026-07-22 00:37-0300\n"
 "Last-Translator: BigLinux Community <community@biglinux.com.br>\n"
 "Language-Team: BigLinux Community (he)\n"
 "Language: he\n"
@@ -571,7 +571,6 @@ msgstr "הסקריפט נכשל עם קוד יציאה: {}"
 msgid "Script timeout: {}"
 msgstr "זמן ההמתנה של הסקריפט: {}"
 
-#
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 620
 #: usr/share/biglinux/biglinux-settings/base_page.py:620
 #, python-brace-format
@@ -1188,13 +1187,11 @@ msgstr "ביצועים"
 msgid "Suspend"
 msgstr "להשעות"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 441
 #: usr/share/biglinux/biglinux-settings/main.py:441
 msgid "Open setting"
 msgstr "פתח הגדרה"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 446
 #: usr/share/biglinux/biglinux-settings/main.py:446
 #, python-brace-format
@@ -1378,49 +1375,39 @@ msgstr "אופרה"
 msgid "Libreoffice"
 msgstr "ליבראOffice"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 72
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:72
 msgid "Automatic Suspend"
 msgstr "השעיה אוטומטית"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 73
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:73
 msgid "Choose when inactivity and low battery may suspend the system."
 msgstr "בחר מתי חוסר פעילות וסוללה חלשה עלולים להשעות את המערכת."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:80
-msgid "Never suspend while plugged in"
-msgstr "לעולם אל תשהה בזמן חיבור לחשמל"
+msgid "Disable idle suspend while plugged in"
+msgstr "השבתת השהיה בעת חוסר פעילות כשהמחשב מחובר לחשמל"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 81
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:81
 msgid "Disables automatic suspend caused by inactivity on AC power."
 msgstr "מבטל השעיה אוטומטית הנגרמת מחוסר פעילות בזמן חיבור לחשמל."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:88
-msgid "Never suspend on battery due to inactivity"
-msgstr "לעולם אל תשהה על סוללה עקב חוסר פעילות"
+msgid "Disable idle suspend on battery"
+msgstr "השבתת השהיה בעת חוסר פעילות בשימוש בסוללה"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 89
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:89
 msgid "Keeps the system awake on battery until a critical level is reached."
 msgstr "שומר על המערכת פעילה על סוללה עד הגעה לרמה קריטית."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 96
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:96
 msgid "Suspend only when battery reaches 20%"
 msgstr "השהה רק כשהסוללה מגיעה ל-20%"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 98
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:98
 msgid ""
@@ -1429,7 +1416,6 @@ msgid ""
 msgstr ""
 "מבטל השעיה עקב חוסר פעילות על סוללה ומשהה אוטומטית כשהטעינה מגיעה ל-20%."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 104
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:104
 msgid ""
@@ -1564,19 +1550,44 @@ msgstr "מתג מכסה"
 msgid "Laptop lid close behavior."
 msgstr "התנהגות סגירת מכסה המחשב הנייד."
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:208
-msgid "Suspend on lid close (AC power)"
-msgstr "השהה בסגירת מכסה (חשמל AC)"
+msgid "Keep running with the lid closed while plugged in"
+msgstr "להמשיך לפעול כשהמכסה סגור והמחשב מחובר לחשמל"
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:210
 msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
+"Keeps the session and network active when the lid is closed on AC power."
 msgstr ""
-"חלק מהמערכות אינן נכנסות למצב שינה כאשר הן מחוברות לחשמל. זה מאלץ את המערכת "
-"להיכנס למצב שינה כאשר המכסה סגור."
+"שומר על ההפעלה ועל חיבור הרשת פעילים כאשר המכסה סגור והמחשב מחובר לחשמל."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:216
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
+msgstr ""
+"פעולה זו מונעת השהיה ונעילה בעקבות סגירת המכסה. נעילה אוטומטית בעת חוסר "
+"פעילות נשארת הגדרה נפרדת. יש לוודא שהמחשב הנייד מאוורר היטב בזמן שהוא פועל "
+"כשהמכסה סגור."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:224
+msgid "Keep running with the lid closed on battery"
+msgstr "להמשיך לפעול כשהמכסה סגור ובשימוש בסוללה"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:226
+msgid ""
+"Keeps the session and network active when the lid is closed on battery power."
+msgstr ""
+"שומר על ההפעלה ועל חיבור הרשת פעילים כאשר המכסה סגור והמחשב פועל באמצעות "
+"הסוללה."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:232
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+msgstr ""
+"פעולה זו מונעת השהיה ונעילה בעקבות סגירת המכסה. נעילה אוטומטית בעת חוסר "
+"פעילות נשארת הגדרה נפרדת, ומדיניות רמת הסוללה הקריטית של 20% עדיין חלה."
 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
@@ -1705,3 +1716,23 @@ msgid ""
 msgstr ""
 "ש restores את הפונקציונליות של 'קבצים אחרונים' ו'מיקומים אחרונים' שמופיעה "
 "ריקה ב-Dolphin ובתפריט היישומים."
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
+#~ msgid "Never suspend while plugged in"
+#~ msgstr "לעולם אל תשהה בזמן חיבור לחשמל"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
+#~ msgid "Never suspend on battery due to inactivity"
+#~ msgstr "לעולם אל תשהה על סוללה עקב חוסר פעילות"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#~ msgid "Suspend on lid close (AC power)"
+#~ msgstr "השהה בסגירת מכסה (חשמל AC)"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#~ msgid ""
+#~ "Some systems do not suspend when on AC power. This forces suspend when "
+#~ "the lid is closed."
+#~ msgstr ""
+#~ "חלק מהמערכות אינן נכנסות למצב שינה כאשר הן מחוברות לחשמל. זה מאלץ את "
+#~ "המערכת להיכנס למצב שינה כאשר המכסה סגור."

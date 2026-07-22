@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 18:49-0300\n"
-"PO-Revision-Date: 2026-07-21 18:49-0300\n"
+"POT-Creation-Date: 2026-07-22 00:37-0300\n"
+"PO-Revision-Date: 2026-07-22 00:37-0300\n"
 "Last-Translator: BigLinux Community <community@biglinux.com.br>\n"
 "Language-Team: BigLinux Community (no)\n"
 "Language: no\n"
@@ -576,7 +576,6 @@ msgstr "Skriptet feilet med avslutningskode: {}"
 msgid "Script timeout: {}"
 msgstr "Script tidsavbrudd: {}"
 
-#
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 620
 #: usr/share/biglinux/biglinux-settings/base_page.py:620
 #, python-brace-format
@@ -1181,13 +1180,11 @@ msgstr "Ytelse"
 msgid "Suspend"
 msgstr "Suspend"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 441
 #: usr/share/biglinux/biglinux-settings/main.py:441
 msgid "Open setting"
 msgstr "Åpne innstilling"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 446
 #: usr/share/biglinux/biglinux-settings/main.py:446
 #, python-brace-format
@@ -1376,25 +1373,20 @@ msgstr "Opera"
 msgid "Libreoffice"
 msgstr "Libreoffice"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 72
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:72
 msgid "Automatic Suspend"
 msgstr "Automatisk hvilemodus"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 73
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:73
 msgid "Choose when inactivity and low battery may suspend the system."
 msgstr "Velg når inaktivitet og lavt batteri kan sette systemet i hvilemodus."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:80
-msgid "Never suspend while plugged in"
-msgstr "Aldri sett i hvilemodus mens den er tilkoblet strøm"
+msgid "Disable idle suspend while plugged in"
+msgstr "Deaktiver automatisk hvilemodus ved inaktivitet ved bruk av nettstrøm"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 81
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:81
 msgid "Disables automatic suspend caused by inactivity on AC power."
@@ -1402,25 +1394,20 @@ msgstr ""
 "Deaktiverer automatisk hvilemodus forårsaket av inaktivitet når strømadapter "
 "er tilkoblet."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:88
-msgid "Never suspend on battery due to inactivity"
-msgstr "Aldri sett i hvilemodus på batteri grunnet inaktivitet"
+msgid "Disable idle suspend on battery"
+msgstr "Deaktiver automatisk hvilemodus ved inaktivitet på batteri"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 89
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:89
 msgid "Keeps the system awake on battery until a critical level is reached."
 msgstr "Holder systemet våkent på batteri til et kritisk nivå er nådd."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 96
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:96
 msgid "Suspend only when battery reaches 20%"
 msgstr "Sett i hvilemodus kun når batteriet når 20 %"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 98
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:98
 msgid ""
@@ -1430,7 +1417,6 @@ msgstr ""
 "Deaktiverer hvilemodus ved inaktivitet på batteri og setter systemet "
 "automatisk i hvilemodus når batteriladingen når 20 %."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 104
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:104
 msgid ""
@@ -1566,19 +1552,46 @@ msgstr "Lokkebryter"
 msgid "Laptop lid close behavior."
 msgstr "Atferds ved lukking av laptoplokk."
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:208
-msgid "Suspend on lid close (AC power)"
-msgstr "Suspendere ved lukking av lokk (AC-strøm)"
+msgid "Keep running with the lid closed while plugged in"
+msgstr "Fortsett å kjøre med lokket lukket ved bruk av nettstrøm"
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:210
 msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
+"Keeps the session and network active when the lid is closed on AC power."
 msgstr ""
-"Noen systemer går ikke i dvale når de er koblet til AC-strøm. Dette tvinger "
-"dvale når lokket er lukket."
+"Holder økten og nettverket aktive når lokket er lukket under drift med "
+"nettstrøm."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:216
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
+msgstr ""
+"Dette hindrer at datamaskinen går i hvilemodus eller låses når lokket "
+"lukkes. Automatisk låsing ved inaktivitet er fortsatt en egen innstilling. "
+"Sørg for at den bærbare datamaskinen har tilstrekkelig ventilasjon mens den "
+"kjører med lokket lukket."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:224
+msgid "Keep running with the lid closed on battery"
+msgstr "Fortsett å kjøre med lokket lukket på batteri"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:226
+msgid ""
+"Keeps the session and network active when the lid is closed on battery power."
+msgstr ""
+"Holder økten og nettverket aktive når lokket er lukket under batteridrift."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:232
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+msgstr ""
+"Dette hindrer at datamaskinen går i hvilemodus eller låses når lokket "
+"lukkes. Automatisk låsing ved inaktivitet er fortsatt en egen innstilling, "
+"og retningslinjen for kritisk batterinivå på 20 % gjelder fortsatt."
 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
@@ -1708,3 +1721,23 @@ msgid ""
 msgstr ""
 "Gjenoppretter funksjonaliteten 'Nylige filer' og 'Nylige steder' som vises "
 "tom i Dolphin og applikasjonsmenyen."
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
+#~ msgid "Never suspend while plugged in"
+#~ msgstr "Aldri sett i hvilemodus mens den er tilkoblet strøm"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
+#~ msgid "Never suspend on battery due to inactivity"
+#~ msgstr "Aldri sett i hvilemodus på batteri grunnet inaktivitet"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#~ msgid "Suspend on lid close (AC power)"
+#~ msgstr "Suspendere ved lukking av lokk (AC-strøm)"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#~ msgid ""
+#~ "Some systems do not suspend when on AC power. This forces suspend when "
+#~ "the lid is closed."
+#~ msgstr ""
+#~ "Noen systemer går ikke i dvale når de er koblet til AC-strøm. Dette "
+#~ "tvinger dvale når lokket er lukket."

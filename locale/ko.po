@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 18:49-0300\n"
-"PO-Revision-Date: 2026-07-21 18:49-0300\n"
+"POT-Creation-Date: 2026-07-22 00:37-0300\n"
+"PO-Revision-Date: 2026-07-22 00:37-0300\n"
 "Last-Translator: BigLinux Community <community@biglinux.com.br>\n"
 "Language-Team: BigLinux Community (ko)\n"
 "Language: ko\n"
@@ -574,7 +574,6 @@ msgstr "스크립트가 종료 코드로 실패했습니다: {}"
 msgid "Script timeout: {}"
 msgstr "스크립트 시간 초과: {}"
 
-#
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 620
 #: usr/share/biglinux/biglinux-settings/base_page.py:620
 #, python-brace-format
@@ -1160,13 +1159,11 @@ msgstr "성능"
 msgid "Suspend"
 msgstr "일시 중지"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 441
 #: usr/share/biglinux/biglinux-settings/main.py:441
 msgid "Open setting"
 msgstr "설정 열기"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 446
 #: usr/share/biglinux/biglinux-settings/main.py:446
 #, python-brace-format
@@ -1354,13 +1351,11 @@ msgstr "오페라"
 msgid "Libreoffice"
 msgstr "리브레오피스"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 72
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:72
 msgid "Automatic Suspend"
 msgstr "자동 절전 모드"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 73
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:73
 msgid "Choose when inactivity and low battery may suspend the system."
@@ -1368,38 +1363,30 @@ msgstr ""
 "비활성 상태 및 배터리 부족 시 시스템이 절전 모드로 전환되는 조건을 선택합니"
 "다."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:80
-msgid "Never suspend while plugged in"
-msgstr "전원 연결 시 절전 모드 해제"
+msgid "Disable idle suspend while plugged in"
+msgstr "전원 연결 시 유휴 절전 모드 비활성화"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 81
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:81
 msgid "Disables automatic suspend caused by inactivity on AC power."
 msgstr "AC 전원 사용 중 비활성으로 인한 자동 절전 모드를 비활성화합니다."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:88
-msgid "Never suspend on battery due to inactivity"
-msgstr "배터리 사용 중 비활성으로 인한 절전 모드 해제"
+msgid "Disable idle suspend on battery"
+msgstr "배터리 사용 시 유휴 절전 모드 비활성화"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 89
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:89
 msgid "Keeps the system awake on battery until a critical level is reached."
 msgstr ""
 "배터리 잔량이 임계 수준에 도달할 때까지 시스템을 깨어 있는 상태로 유지합니다."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 96
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:96
 msgid "Suspend only when battery reaches 20%"
 msgstr "배터리가 20%일 때만 절전 모드로 전환"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 98
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:98
 msgid ""
@@ -1409,7 +1396,6 @@ msgstr ""
 "배터리 사용 중 유휴 절전 모드를 비활성화하고 배터리 충전량이 20%에 도달하면 "
 "자동으로 절전 모드로 전환합니다."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 104
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:104
 msgid ""
@@ -1545,19 +1531,42 @@ msgstr "뚜껑 스위치"
 msgid "Laptop lid close behavior."
 msgstr "노트북 뚜껑 닫기 동작."
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:208
-msgid "Suspend on lid close (AC power)"
-msgstr "덮개 닫을 때 일시 중지 (AC 전원)"
+msgid "Keep running with the lid closed while plugged in"
+msgstr "전원 연결 시 덮개를 닫아도 계속 실행"
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:210
 msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
+"Keeps the session and network active when the lid is closed on AC power."
+msgstr "AC 전원 사용 중 덮개를 닫아도 세션과 네트워크 연결을 유지합니다."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:216
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
 msgstr ""
-"일부 시스템은 AC 전원에서 일시 중지하지 않습니다. 이는 덮개가 닫힐 때 일시 중"
-"지를 강제합니다."
+"이 옵션은 덮개를 닫을 때 절전 모드로 전환되거나 잠기는 것을 방지합니다. 유휴 "
+"상태 자동 잠금은 별도로 적용됩니다. 덮개를 닫은 채로 노트북을 사용할 때는 통"
+"풍이 잘되도록 하십시오."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:224
+msgid "Keep running with the lid closed on battery"
+msgstr "배터리 사용 시 덮개를 닫아도 계속 실행"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:226
+msgid ""
+"Keeps the session and network active when the lid is closed on battery power."
+msgstr "배터리 사용 중 덮개를 닫아도 세션과 네트워크 연결을 유지합니다."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:232
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+msgstr ""
+"이 옵션은 덮개를 닫을 때 절전 모드로 전환되거나 잠기는 것을 방지합니다. 유휴 "
+"상태 자동 잠금은 별도로 적용되며, 배터리 잔량 20%의 위험 수준 정책도 계속 적"
+"용됩니다."
 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
@@ -1686,3 +1695,23 @@ msgid ""
 msgstr ""
 "Dolphin 및 애플리케이션 메뉴에서 비어 있는 '최근 파일' 및 '최근 위치' 기능을 "
 "복원합니다."
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
+#~ msgid "Never suspend while plugged in"
+#~ msgstr "전원 연결 시 절전 모드 해제"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
+#~ msgid "Never suspend on battery due to inactivity"
+#~ msgstr "배터리 사용 중 비활성으로 인한 절전 모드 해제"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#~ msgid "Suspend on lid close (AC power)"
+#~ msgstr "덮개 닫을 때 일시 중지 (AC 전원)"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#~ msgid ""
+#~ "Some systems do not suspend when on AC power. This forces suspend when "
+#~ "the lid is closed."
+#~ msgstr ""
+#~ "일부 시스템은 AC 전원에서 일시 중지하지 않습니다. 이는 덮개가 닫힐 때 일"
+#~ "시 중지를 강제합니다."

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 18:49-0300\n"
-"PO-Revision-Date: 2026-07-21 18:49-0300\n"
+"POT-Creation-Date: 2026-07-22 00:37-0300\n"
+"PO-Revision-Date: 2026-07-22 00:37-0300\n"
 "Last-Translator: BigLinux Community <community@biglinux.com.br>\n"
 "Language-Team: BigLinux Community (zh)\n"
 "Language: zh\n"
@@ -569,7 +569,6 @@ msgstr "脚本失败，退出代码：{}"
 msgid "Script timeout: {}"
 msgstr "脚本超时：{}"
 
-#
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 620
 #: usr/share/biglinux/biglinux-settings/base_page.py:620
 #, python-brace-format
@@ -1173,13 +1172,11 @@ msgstr "性能"
 msgid "Suspend"
 msgstr "挂起"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 441
 #: usr/share/biglinux/biglinux-settings/main.py:441
 msgid "Open setting"
 msgstr "打开设置"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 446
 #: usr/share/biglinux/biglinux-settings/main.py:446
 #, python-brace-format
@@ -1359,49 +1356,39 @@ msgstr "歌剧"
 msgid "Libreoffice"
 msgstr "自由办公软件"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 72
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:72
 msgid "Automatic Suspend"
 msgstr "自动挂起"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 73
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:73
 msgid "Choose when inactivity and low battery may suspend the system."
 msgstr "选择系统在闲置或电量低时自动挂起的条件。"
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:80
-msgid "Never suspend while plugged in"
-msgstr "接通电源时从不挂起"
+msgid "Disable idle suspend while plugged in"
+msgstr "接通电源时禁用空闲挂起"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 81
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:81
 msgid "Disables automatic suspend caused by inactivity on AC power."
 msgstr "禁用因闲置导致的自动挂起（使用交流电源时）。"
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:88
-msgid "Never suspend on battery due to inactivity"
-msgstr "使用电池时从不因闲置而挂起"
+msgid "Disable idle suspend on battery"
+msgstr "使用电池时禁用空闲挂起"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 89
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:89
 msgid "Keeps the system awake on battery until a critical level is reached."
 msgstr "使用电池时保持系统唤醒，直到电量达到临界水平。"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 96
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:96
 msgid "Suspend only when battery reaches 20%"
 msgstr "仅在电池电量达到 20% 时挂起"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 98
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:98
 msgid ""
@@ -1409,7 +1396,6 @@ msgid ""
 "reaches 20%."
 msgstr "禁用电池闲置挂起，并在电量达到 20% 时自动挂起。"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 104
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:104
 msgid ""
@@ -1536,18 +1522,40 @@ msgstr "盖子开关"
 msgid "Laptop lid close behavior."
 msgstr "笔记本电脑盖关闭行为。"
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:208
-msgid "Suspend on lid close (AC power)"
-msgstr "合上盖时挂起（交流电源）"
+msgid "Keep running with the lid closed while plugged in"
+msgstr "接通电源时合上盖子仍继续运行"
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:210
 msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
+"Keeps the session and network active when the lid is closed on AC power."
+msgstr "接通交流电源时合上盖子后，保持会话和网络连接。"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:216
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
 msgstr ""
-"某些系统在接通交流电源时不会进入休眠状态。这会在关闭盖子时强制进入休眠。"
+"此选项可防止合上盖子触发挂起和锁定。自动空闲锁定不受影响。合盖运行时，请确保"
+"笔记本电脑通风良好。"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:224
+msgid "Keep running with the lid closed on battery"
+msgstr "使用电池时合上盖子仍继续运行"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:226
+msgid ""
+"Keeps the session and network active when the lid is closed on battery power."
+msgstr "使用电池时合上盖子后，保持会话和网络连接。"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:232
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+msgstr ""
+"此选项可防止合上盖子触发挂起和锁定。自动空闲锁定不受影响，电量为 20% 时的临界"
+"电量策略仍会生效。"
 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
@@ -1674,3 +1682,22 @@ msgid ""
 "Restores the 'Recent Files' and 'Recent Locations' functionality that "
 "appears empty in Dolphin and the Application Menu."
 msgstr "恢复在Dolphin和应用程序菜单中显示为空的“最近文件”和“最近位置”功能。"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
+#~ msgid "Never suspend while plugged in"
+#~ msgstr "接通电源时从不挂起"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
+#~ msgid "Never suspend on battery due to inactivity"
+#~ msgstr "使用电池时从不因闲置而挂起"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#~ msgid "Suspend on lid close (AC power)"
+#~ msgstr "合上盖时挂起（交流电源）"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#~ msgid ""
+#~ "Some systems do not suspend when on AC power. This forces suspend when "
+#~ "the lid is closed."
+#~ msgstr ""
+#~ "某些系统在接通交流电源时不会进入休眠状态。这会在关闭盖子时强制进入休眠。"

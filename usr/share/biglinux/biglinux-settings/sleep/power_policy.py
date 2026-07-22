@@ -78,21 +78,26 @@ def gsettings_keys(source: str) -> list[tuple[str, str]]:
 
 
 def kde_keys(source: str) -> list[dict[str, object]]:
-    profile = "AC" if source == "ac" else "Battery"
-    return [
-        {
-            "file": "powerdevilrc",
-            "groups": [profile, "SuspendAndShutdown"],
-            "key": "AutoSuspendAction",
-            "value": "0",
-        },
-        {
-            "file": "powermanagementprofilesrc",
-            "groups": [profile, "SuspendSession"],
-            "key": "suspendType",
-            "value": "0",
-        },
-    ]
+    profiles = ["AC"] if source == "ac" else ["Battery", "LowBattery"]
+    items = []
+    for profile in profiles:
+        items.extend(
+            [
+                {
+                    "file": "powerdevilrc",
+                    "groups": [profile, "SuspendAndShutdown"],
+                    "key": "AutoSuspendAction",
+                    "value": "0",
+                },
+                {
+                    "file": "powermanagementprofilesrc",
+                    "groups": [profile, "SuspendSession"],
+                    "key": "suspendType",
+                    "value": "0",
+                },
+            ]
+        )
+    return items
 
 
 def xfce_key(source: str) -> str:

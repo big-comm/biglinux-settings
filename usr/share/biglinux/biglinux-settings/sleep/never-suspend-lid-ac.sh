@@ -2,4 +2,4 @@
 set -euo pipefail
 
 scriptDir="$(dirname "$(readlink -f "$0")")"
-exec "$scriptDir/power_policy.py" "${1:-}" ac "${2:-}"
+exec "$scriptDir/lid_policy.py" "${1:-}" ac "${2:-}"

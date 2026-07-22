@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 18:49-0300\n"
-"PO-Revision-Date: 2026-07-21 18:49-0300\n"
+"POT-Creation-Date: 2026-07-22 00:37-0300\n"
+"PO-Revision-Date: 2026-07-22 00:37-0300\n"
 "Last-Translator: BigLinux Community <community@biglinux.com.br>\n"
 "Language-Team: BigLinux Community (is)\n"
 "Language: is\n"
@@ -574,7 +574,6 @@ msgstr "Skráning mistókst með útgöngukóða: {}"
 msgid "Script timeout: {}"
 msgstr "Skrá tímamörk: {}"
 
-#
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 620
 #: usr/share/biglinux/biglinux-settings/base_page.py:620
 #, python-brace-format
@@ -1186,13 +1185,11 @@ msgstr "Frammistað."
 msgid "Suspend"
 msgstr "Hvíla"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 441
 #: usr/share/biglinux/biglinux-settings/main.py:441
 msgid "Open setting"
 msgstr "Opna stillingu"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 446
 #: usr/share/biglinux/biglinux-settings/main.py:446
 #, python-brace-format
@@ -1379,26 +1376,22 @@ msgstr "Ópera"
 msgid "Libreoffice"
 msgstr "LibreOffice"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 72
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:72
 msgid "Automatic Suspend"
 msgstr "Sjálfvirk biðstaða"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 73
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:73
 msgid "Choose when inactivity and low battery may suspend the system."
 msgstr ""
 "Veldu hvenær aðgerðaleysi og lítil rafhlaða geta sett kerfið í biðstöðu."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:80
-msgid "Never suspend while plugged in"
-msgstr "Aldrei setja í biðstöðu meðan tengt er við rafmagn"
+msgid "Disable idle suspend while plugged in"
+msgstr ""
+"Slökkva á biðstöðu vegna aðgerðaleysis þegar tölvan er tengd við rafmagn"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 81
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:81
 msgid "Disables automatic suspend caused by inactivity on AC power."
@@ -1406,25 +1399,21 @@ msgstr ""
 "Slekkur á sjálfvirkri biðstöðu vegna aðgerðaleysis þegar tengt er við AC "
 "rafmagn."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:88
-msgid "Never suspend on battery due to inactivity"
-msgstr "Aldrei setja í biðstöðu á rafhlöðu vegna aðgerðaleysis"
+msgid "Disable idle suspend on battery"
+msgstr ""
+"Slökkva á biðstöðu vegna aðgerðaleysis þegar tölvan gengur fyrir rafhlöðu"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 89
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:89
 msgid "Keeps the system awake on battery until a critical level is reached."
 msgstr "Heldur kerfinu vakandi á rafhlöðu þar til mikilvægu stigi er náð."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 96
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:96
 msgid "Suspend only when battery reaches 20%"
 msgstr "Settu aðeins í biðstöðu þegar rafhlaðan nær 20%"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 98
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:98
 msgid ""
@@ -1434,7 +1423,6 @@ msgstr ""
 "Slekkur á biðstöðu vegna aðgerðaleysis á rafhlöðu og setur sjálfkrafa í "
 "biðstöðu þegar hleðslan nær 20%."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 104
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:104
 msgid ""
@@ -1571,19 +1559,48 @@ msgstr "Loka rofi"
 msgid "Laptop lid close behavior."
 msgstr "Loka hlið lokunar hegðun."
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:208
-msgid "Suspend on lid close (AC power)"
-msgstr "Hvíla við lokun lokans (AC rafmagn)"
+msgid "Keep running with the lid closed while plugged in"
+msgstr ""
+"Láta tölvuna keyra áfram með lokið lokað þegar hún er tengd við rafmagn"
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:210
 msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
+"Keeps the session and network active when the lid is closed on AC power."
 msgstr ""
-"Sumir kerfi setja ekki í hvíld þegar rafmagn er tengt. Þetta neyðir kerfið í "
-"hvíld þegar lokið er lokað."
+"Heldur setunni og netinu virkum þegar lokinu er lokað og tölvan er tengd við "
+"rafmagn."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:216
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
+msgstr ""
+"Þetta kemur í veg fyrir að tölvan fari í biðstöðu eða læsist þegar lokinu er "
+"lokað. Sjálfvirk læsing vegna aðgerðaleysis er áfram sérstök stilling. Gættu "
+"þess að næg loftræsting sé um fartölvuna á meðan hún keyrir með lokið lokað."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:224
+msgid "Keep running with the lid closed on battery"
+msgstr ""
+"Láta tölvuna keyra áfram með lokið lokað þegar hún gengur fyrir rafhlöðu"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:226
+msgid ""
+"Keeps the session and network active when the lid is closed on battery power."
+msgstr ""
+"Heldur setunni og netinu virkum þegar lokinu er lokað og tölvan gengur fyrir "
+"rafhlöðu."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:232
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+msgstr ""
+"Þetta kemur í veg fyrir að tölvan fari í biðstöðu eða læsist þegar lokinu er "
+"lokað. Sjálfvirk læsing vegna aðgerðaleysis er áfram sérstök stilling og "
+"reglan um 20% hættumörk rafhlöðunnar gildir áfram."
 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
@@ -1713,3 +1730,23 @@ msgid ""
 msgstr ""
 "Endurðar virkni 'Nýleg skjöl' og 'Nýleg staðsetningar' sem virðist tóm í "
 "Dolphin og forritaskránni."
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
+#~ msgid "Never suspend while plugged in"
+#~ msgstr "Aldrei setja í biðstöðu meðan tengt er við rafmagn"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
+#~ msgid "Never suspend on battery due to inactivity"
+#~ msgstr "Aldrei setja í biðstöðu á rafhlöðu vegna aðgerðaleysis"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#~ msgid "Suspend on lid close (AC power)"
+#~ msgstr "Hvíla við lokun lokans (AC rafmagn)"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#~ msgid ""
+#~ "Some systems do not suspend when on AC power. This forces suspend when "
+#~ "the lid is closed."
+#~ msgstr ""
+#~ "Sumir kerfi setja ekki í hvíld þegar rafmagn er tengt. Þetta neyðir "
+#~ "kerfið í hvíld þegar lokið er lokað."

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 18:49-0300\n"
-"PO-Revision-Date: 2026-07-21 18:49-0300\n"
+"POT-Creation-Date: 2026-07-22 00:37-0300\n"
+"PO-Revision-Date: 2026-07-22 00:37-0300\n"
 "Last-Translator: BigLinux Community <community@biglinux.com.br>\n"
 "Language-Team: BigLinux Community (de)\n"
 "Language: de\n"
@@ -582,7 +582,6 @@ msgstr "Das Skript ist mit dem Exit-Code {} fehlgeschlagen."
 msgid "Script timeout: {}"
 msgstr "Skriptzeitüberschreitung: {}"
 
-#
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 620
 #: usr/share/biglinux/biglinux-settings/base_page.py:620
 #, python-brace-format
@@ -1200,13 +1199,11 @@ msgstr "Leistung"
 msgid "Suspend"
 msgstr "Suspend"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 441
 #: usr/share/biglinux/biglinux-settings/main.py:441
 msgid "Open setting"
 msgstr "Einstellung öffnen"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 446
 #: usr/share/biglinux/biglinux-settings/main.py:446
 #, python-brace-format
@@ -1400,13 +1397,11 @@ msgstr "Opera"
 msgid "Libreoffice"
 msgstr "LibreOffice"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 72
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:72
 msgid "Automatic Suspend"
 msgstr "Automatische Bereitschaft"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 73
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:73
 msgid "Choose when inactivity and low battery may suspend the system."
@@ -1414,13 +1409,11 @@ msgstr ""
 "Legen Sie fest, wann das System bei Inaktivität oder niedrigem Akkuladestand "
 "in den Bereitschaftsmodus wechseln darf."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:80
-msgid "Never suspend while plugged in"
-msgstr "Im Netzbetrieb nie in Bereitschaft wechseln"
+msgid "Disable idle suspend while plugged in"
+msgstr ""
+"Automatischen Bereitschaftsmodus bei Inaktivität im Netzbetrieb deaktivieren"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 81
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:81
 msgid "Disables automatic suspend caused by inactivity on AC power."
@@ -1428,13 +1421,11 @@ msgstr ""
 "Deaktiviert den automatischen Wechsel in den Bereitschaftsmodus wegen "
 "Inaktivität bei AC-Stromversorgung."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:88
-msgid "Never suspend on battery due to inactivity"
-msgstr "Bei Akkubetrieb aufgrund von Inaktivität nie in Bereitschaft wechseln"
+msgid "Disable idle suspend on battery"
+msgstr ""
+"Automatischen Bereitschaftsmodus bei Inaktivität im Akkubetrieb deaktivieren"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 89
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:89
 msgid "Keeps the system awake on battery until a critical level is reached."
@@ -1442,13 +1433,11 @@ msgstr ""
 "Hält das System im Akkubetrieb aktiv, bis ein kritischer Ladestand erreicht "
 "ist."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 96
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:96
 msgid "Suspend only when battery reaches 20%"
 msgstr "Erst bei einem Akkuladestand von 20 % in Bereitschaft wechseln"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 98
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:98
 msgid ""
@@ -1458,7 +1447,6 @@ msgstr ""
 "Deaktiviert im Akkubetrieb den Wechsel in Bereitschaft bei Inaktivität und "
 "wechselt automatisch in Bereitschaft, sobald der Ladestand 20 % erreicht."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 104
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:104
 msgid ""
@@ -1596,20 +1584,48 @@ msgstr "Deckelschalter"
 msgid "Laptop lid close behavior."
 msgstr "Verhalten beim Schließen des Laptop-Deckels."
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:208
-msgid "Suspend on lid close (AC power)"
-msgstr "Energie sparen beim Schließen des Deckels (Netzbetrieb)"
+msgid "Keep running with the lid closed while plugged in"
+msgstr "Im Netzbetrieb bei geschlossenem Deckel weiterlaufen lassen"
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:210
 msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
+"Keeps the session and network active when the lid is closed on AC power."
 msgstr ""
-"Einige Systeme gehen nicht in den Ruhezustand, wenn sie mit Wechselstrom "
-"betrieben werden. Dies erzwingt den Ruhezustand, wenn der Deckel geschlossen "
-"ist."
+"Die Sitzung und die Netzwerkverbindung bleiben aktiv, wenn der Deckel im "
+"Netzbetrieb geschlossen wird."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:216
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
+msgstr ""
+"Dies verhindert, dass das Schließen des Deckels den Bereitschaftsmodus "
+"aktiviert oder die Sitzung sperrt. Die automatische Sperre bei Inaktivität "
+"wird davon nicht beeinflusst. Sorgen Sie für eine ausreichende Belüftung des "
+"Notebooks, solange es mit geschlossenem Deckel läuft."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:224
+msgid "Keep running with the lid closed on battery"
+msgstr "Im Akkubetrieb bei geschlossenem Deckel weiterlaufen lassen"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:226
+msgid ""
+"Keeps the session and network active when the lid is closed on battery power."
+msgstr ""
+"Die Sitzung und die Netzwerkverbindung bleiben aktiv, wenn der Deckel im "
+"Akkubetrieb geschlossen wird."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:232
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+msgstr ""
+"Dies verhindert, dass das Schließen des Deckels den Bereitschaftsmodus "
+"aktiviert oder die Sitzung sperrt. Die automatische Sperre bei Inaktivität "
+"wird davon nicht beeinflusst, und die Richtlinie für einen kritischen "
+"Akkustand von 20 % gilt weiterhin."
 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
@@ -1743,3 +1759,25 @@ msgid ""
 msgstr ""
 "Stellt die Funktionalität 'Kürzliche Dateien' und 'Kürzliche Orte' wieder "
 "her, die in Dolphin und im Anwendungsmenü leer erscheint."
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
+#~ msgid "Never suspend while plugged in"
+#~ msgstr "Im Netzbetrieb nie in Bereitschaft wechseln"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
+#~ msgid "Never suspend on battery due to inactivity"
+#~ msgstr ""
+#~ "Bei Akkubetrieb aufgrund von Inaktivität nie in Bereitschaft wechseln"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#~ msgid "Suspend on lid close (AC power)"
+#~ msgstr "Energie sparen beim Schließen des Deckels (Netzbetrieb)"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#~ msgid ""
+#~ "Some systems do not suspend when on AC power. This forces suspend when "
+#~ "the lid is closed."
+#~ msgstr ""
+#~ "Einige Systeme gehen nicht in den Ruhezustand, wenn sie mit Wechselstrom "
+#~ "betrieben werden. Dies erzwingt den Ruhezustand, wenn der Deckel "
+#~ "geschlossen ist."

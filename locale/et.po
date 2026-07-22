@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 18:49-0300\n"
-"PO-Revision-Date: 2026-07-21 18:49-0300\n"
+"POT-Creation-Date: 2026-07-22 00:37-0300\n"
+"PO-Revision-Date: 2026-07-22 00:37-0300\n"
 "Last-Translator: BigLinux Community <community@biglinux.com.br>\n"
 "Language-Team: BigLinux Community (et)\n"
 "Language: et\n"
@@ -577,7 +577,6 @@ msgstr "Skript ebaõnnestus väljumiskoodiga: {}"
 msgid "Script timeout: {}"
 msgstr "Skripti aegumine: {}"
 
-#
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 620
 #: usr/share/biglinux/biglinux-settings/base_page.py:620
 #, python-brace-format
@@ -1192,13 +1191,11 @@ msgstr "Tõhusus"
 msgid "Suspend"
 msgstr "Peata"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 441
 #: usr/share/biglinux/biglinux-settings/main.py:441
 msgid "Open setting"
 msgstr "Ava seade"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 446
 #: usr/share/biglinux/biglinux-settings/main.py:446
 #, python-brace-format
@@ -1387,26 +1384,21 @@ msgstr "Opera"
 msgid "Libreoffice"
 msgstr "LibreOffice"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 72
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:72
 msgid "Automatic Suspend"
 msgstr "Automaatne puhkerežiim"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 73
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:73
 msgid "Choose when inactivity and low battery may suspend the system."
 msgstr ""
 "Vali, millal tegevusetuse ja madala aku korral süsteem puhkerežiimi lülitub."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:80
-msgid "Never suspend while plugged in"
-msgstr "Ära kunagi puhka vooluvõrgus olles"
+msgid "Disable idle suspend while plugged in"
+msgstr "Keela jõudeolekul unerežiimi minek, kui seade on vooluvõrku ühendatud"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 81
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:81
 msgid "Disables automatic suspend caused by inactivity on AC power."
@@ -1414,25 +1406,20 @@ msgstr ""
 "Keelab vahelduvvoolu toitel tegevusetusest põhjustatud automaatse "
 "puhkerežiimi."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:88
-msgid "Never suspend on battery due to inactivity"
-msgstr "Ära kunagi puhka akutoitel tegevusetuse tõttu"
+msgid "Disable idle suspend on battery"
+msgstr "Keela jõudeolekul unerežiimi minek akutoitel"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 89
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:89
 msgid "Keeps the system awake on battery until a critical level is reached."
 msgstr "Hoiab süsteemi akutoitel ärkvel kuni kriitilise tasemeni jõudmiseni."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 96
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:96
 msgid "Suspend only when battery reaches 20%"
 msgstr "Puhka ainult siis, kui aku jõuab 20%-ni"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 98
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:98
 msgid ""
@@ -1442,7 +1429,6 @@ msgstr ""
 "Keelab akutoitel jõudeoleku puhkerežiimi ja lülitub automaatselt "
 "puhkerežiimi, kui laetuse tase jõuab 20%-ni."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 104
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:104
 msgid ""
@@ -1579,19 +1565,46 @@ msgstr "Kaane lüliti"
 msgid "Laptop lid close behavior."
 msgstr "Sülearvuti kaane sulgemise käitumine."
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:208
-msgid "Suspend on lid close (AC power)"
-msgstr "Käivita sulgemisel (AC toide)"
+msgid "Keep running with the lid closed while plugged in"
+msgstr "Jätka tööd suletud kaanega, kui seade on vooluvõrku ühendatud"
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:210
 msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
+"Keeps the session and network active when the lid is closed on AC power."
 msgstr ""
-"Mõned süsteemid ei pane toiteallika AC kasutamisel ootele. See sunnib ootele "
-"jääma, kui kaas on suletud."
+"Hoiab seansi ja võrgu aktiivsena, kui vooluvõrku ühendatud arvuti kaas on "
+"suletud."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:216
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
+msgstr ""
+"See takistab kaane sulgemisel unerežiimi minekut ja lukustamist. Automaatne "
+"lukustamine jõudeolekul jääb eraldi seadeks. Veendu, et sülearvuti oleks "
+"suletud kaanega töötamise ajal korralikult ventileeritud."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:224
+msgid "Keep running with the lid closed on battery"
+msgstr "Jätka tööd suletud kaanega akutoitel"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:226
+msgid ""
+"Keeps the session and network active when the lid is closed on battery power."
+msgstr ""
+"Hoiab seansi ja võrgu aktiivsena, kui akutoitel töötava arvuti kaas on "
+"suletud."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:232
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+msgstr ""
+"See takistab kaane sulgemisel unerežiimi minekut ja lukustamist. Automaatne "
+"lukustamine jõudeolekul jääb eraldi seadeks ning 20% juures rakenduv "
+"kriitilise akutaseme reegel kehtib endiselt."
 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
@@ -1723,3 +1736,23 @@ msgid ""
 msgstr ""
 "Taastab 'Hiljutised failid' ja 'Hiljutised asukohad' funktsionaalsuse, mis "
 "ilmub tühjana Dolphinis ja rakenduse menüüs."
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
+#~ msgid "Never suspend while plugged in"
+#~ msgstr "Ära kunagi puhka vooluvõrgus olles"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
+#~ msgid "Never suspend on battery due to inactivity"
+#~ msgstr "Ära kunagi puhka akutoitel tegevusetuse tõttu"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#~ msgid "Suspend on lid close (AC power)"
+#~ msgstr "Käivita sulgemisel (AC toide)"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#~ msgid ""
+#~ "Some systems do not suspend when on AC power. This forces suspend when "
+#~ "the lid is closed."
+#~ msgstr ""
+#~ "Mõned süsteemid ei pane toiteallika AC kasutamisel ootele. See sunnib "
+#~ "ootele jääma, kui kaas on suletud."

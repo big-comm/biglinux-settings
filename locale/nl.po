@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 18:49-0300\n"
-"PO-Revision-Date: 2026-07-21 18:49-0300\n"
+"POT-Creation-Date: 2026-07-22 00:37-0300\n"
+"PO-Revision-Date: 2026-07-22 00:37-0300\n"
 "Last-Translator: BigLinux Community <community@biglinux.com.br>\n"
 "Language-Team: BigLinux Community (nl)\n"
 "Language: nl\n"
@@ -579,7 +579,6 @@ msgstr "Script is mislukt met exitcode: {}"
 msgid "Script timeout: {}"
 msgstr "Script time-out: {}"
 
-#
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 620
 #: usr/share/biglinux/biglinux-settings/base_page.py:620
 #, python-brace-format
@@ -1187,13 +1186,11 @@ msgstr "Prestaties"
 msgid "Suspend"
 msgstr "Opschorten"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 441
 #: usr/share/biglinux/biglinux-settings/main.py:441
 msgid "Open setting"
 msgstr "Instelling openen"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 446
 #: usr/share/biglinux/biglinux-settings/main.py:446
 #, python-brace-format
@@ -1384,13 +1381,11 @@ msgstr "Opera"
 msgid "Libreoffice"
 msgstr "LibreOffice"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 72
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:72
 msgid "Automatic Suspend"
 msgstr "Automatische sluimerstand"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 73
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:73
 msgid "Choose when inactivity and low battery may suspend the system."
@@ -1398,38 +1393,32 @@ msgstr ""
 "Kies wanneer het systeem in sluimerstand kan gaan bij inactiviteit en een "
 "lage batterij."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:80
-msgid "Never suspend while plugged in"
-msgstr "Nooit in sluimerstand bij netstroom"
+msgid "Disable idle suspend while plugged in"
+msgstr ""
+"Automatische pauzestand bij inactiviteit uitschakelen bij gebruik van "
+"netstroom"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 81
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:81
 msgid "Disables automatic suspend caused by inactivity on AC power."
 msgstr "Schakelt automatische sluimerstand uit bij inactiviteit op netstroom."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:88
-msgid "Never suspend on battery due to inactivity"
-msgstr "Nooit in sluimerstand op batterij door inactiviteit"
+msgid "Disable idle suspend on battery"
+msgstr "Automatische pauzestand bij inactiviteit uitschakelen op accustroom"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 89
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:89
 msgid "Keeps the system awake on battery until a critical level is reached."
 msgstr ""
 "Houdt het systeem wakker op batterij tot een kritiek niveau is bereikt."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 96
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:96
 msgid "Suspend only when battery reaches 20%"
 msgstr "Alleen in sluimerstand wanneer batterij 20% bereikt"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 98
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:98
 msgid ""
@@ -1439,7 +1428,6 @@ msgstr ""
 "Schakelt sluimerstand bij inactiviteit op batterij uit en schakelt "
 "automatisch over naar sluimerstand wanneer het laadniveau 20% bereikt."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 104
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:104
 msgid ""
@@ -1577,19 +1565,49 @@ msgstr "Lid-schakelaar"
 msgid "Laptop lid close behavior."
 msgstr "Gedrag bij het sluiten van het laptopdeksel."
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:208
-msgid "Suspend on lid close (AC power)"
-msgstr "Sluimeren bij het sluiten van het deksel (netstroom)"
+msgid "Keep running with the lid closed while plugged in"
+msgstr "Blijven werken met gesloten deksel bij gebruik van netstroom"
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:210
 msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
+"Keeps the session and network active when the lid is closed on AC power."
 msgstr ""
-"Sommige systemen gaan niet in de slaapstand wanneer ze op netstroom zijn. "
-"Dit dwingt de slaapstand af wanneer het deksel is gesloten."
+"Houdt de sessie en het netwerk actief wanneer het deksel gesloten is en "
+"netstroom wordt gebruikt."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:216
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
+msgstr ""
+"Hierdoor wordt voorkomen dat de laptop bij het sluiten van het deksel in de "
+"pauzestand gaat of wordt vergrendeld. Automatische vergrendeling bij "
+"inactiviteit blijft een afzonderlijke instelling. Zorg dat de laptop "
+"voldoende geventileerd blijft wanneer deze met gesloten deksel wordt "
+"gebruikt."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:224
+msgid "Keep running with the lid closed on battery"
+msgstr "Blijven werken met gesloten deksel op accustroom"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:226
+msgid ""
+"Keeps the session and network active when the lid is closed on battery power."
+msgstr ""
+"Houdt de sessie en het netwerk actief wanneer het deksel gesloten is en "
+"accustroom wordt gebruikt."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:232
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+msgstr ""
+"Hierdoor wordt voorkomen dat de laptop bij het sluiten van het deksel in de "
+"pauzestand gaat of wordt vergrendeld. Automatische vergrendeling bij "
+"inactiviteit blijft een afzonderlijke instelling en het beleid voor een "
+"kritiek accuniveau van 20% blijft van toepassing."
 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
@@ -1722,3 +1740,23 @@ msgid ""
 msgstr ""
 "Herstelt de functionaliteit 'Recente Bestanden' en 'Recente Locaties' die "
 "leeg verschijnt in Dolphin en het Toepassingsmenu."
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
+#~ msgid "Never suspend while plugged in"
+#~ msgstr "Nooit in sluimerstand bij netstroom"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
+#~ msgid "Never suspend on battery due to inactivity"
+#~ msgstr "Nooit in sluimerstand op batterij door inactiviteit"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#~ msgid "Suspend on lid close (AC power)"
+#~ msgstr "Sluimeren bij het sluiten van het deksel (netstroom)"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#~ msgid ""
+#~ "Some systems do not suspend when on AC power. This forces suspend when "
+#~ "the lid is closed."
+#~ msgstr ""
+#~ "Sommige systemen gaan niet in de slaapstand wanneer ze op netstroom zijn. "
+#~ "Dit dwingt de slaapstand af wanneer het deksel is gesloten."

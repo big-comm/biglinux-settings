@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 18:49-0300\n"
-"PO-Revision-Date: 2026-07-21 18:49-0300\n"
+"POT-Creation-Date: 2026-07-22 00:37-0300\n"
+"PO-Revision-Date: 2026-07-22 00:37-0300\n"
 "Last-Translator: BigLinux Community <community@biglinux.com.br>\n"
 "Language-Team: BigLinux Community (hr)\n"
 "Language: hr\n"
@@ -580,7 +580,6 @@ msgstr "Skripta je neuspješno završila s izlaznim kodom: {}"
 msgid "Script timeout: {}"
 msgstr "Izdavanje skripte isteklo: {}"
 
-#
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 620
 #: usr/share/biglinux/biglinux-settings/base_page.py:620
 #, python-brace-format
@@ -1160,13 +1159,11 @@ msgstr "Izvedba"
 msgid "Suspend"
 msgstr "Suspendirati"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 441
 #: usr/share/biglinux/biglinux-settings/main.py:441
 msgid "Open setting"
 msgstr "Otvori postavku"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 446
 #: usr/share/biglinux/biglinux-settings/main.py:446
 #, python-brace-format
@@ -1357,13 +1354,11 @@ msgstr "Opera"
 msgid "Libreoffice"
 msgstr "LibreOffice"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 72
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:72
 msgid "Automatic Suspend"
 msgstr "Automatsko mirovanje"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 73
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:73
 msgid "Choose when inactivity and low battery may suspend the system."
@@ -1371,13 +1366,12 @@ msgstr ""
 "Odaberite kada neaktivnost i niska baterija mogu staviti sustav u stanje "
 "mirovanja."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:80
-msgid "Never suspend while plugged in"
-msgstr "Nikad ne miruj dok je priključen na napajanje"
+msgid "Disable idle suspend while plugged in"
+msgstr ""
+"Onemogući mirovanje zbog neaktivnosti dok je računalo priključeno na "
+"napajanje"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 81
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:81
 msgid "Disables automatic suspend caused by inactivity on AC power."
@@ -1385,25 +1379,20 @@ msgstr ""
 "Onemogućuje automatsko mirovanje uzrokovano neaktivnošću dok je uređaj "
 "priključen na struju."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:88
-msgid "Never suspend on battery due to inactivity"
-msgstr "Nikad ne miruj na bateriji zbog neaktivnosti"
+msgid "Disable idle suspend on battery"
+msgstr "Onemogući mirovanje zbog neaktivnosti pri radu na bateriji"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 89
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:89
 msgid "Keeps the system awake on battery until a critical level is reached."
 msgstr "Održava sustav budnim na bateriji dok se ne dosegne kritična razina."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 96
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:96
 msgid "Suspend only when battery reaches 20%"
 msgstr "Miruj samo kada baterija dosegne 20%"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 98
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:98
 msgid ""
@@ -1413,7 +1402,6 @@ msgstr ""
 "Onemogućuje mirovanje zbog neaktivnosti na bateriji i automatski prelazi u "
 "stanje mirovanja kada napunjenost dosegne 20%."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 104
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:104
 msgid ""
@@ -1550,19 +1538,49 @@ msgstr "Prekidač poklopca"
 msgid "Laptop lid close behavior."
 msgstr "Ponašanje zatvaranja poklopca prijenosnog računala."
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:208
-msgid "Suspend on lid close (AC power)"
-msgstr "Suspendiranje pri zatvaranju poklopca (AC napajanje)"
+msgid "Keep running with the lid closed while plugged in"
+msgstr ""
+"Nastavi raditi sa zatvorenim poklopcem dok je računalo priključeno na "
+"napajanje"
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:210
 msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
+"Keeps the session and network active when the lid is closed on AC power."
 msgstr ""
-"Neki sustavi se ne uspavaju kada su na AC napajanju. To prisiljava "
-"uspavljivanje kada je poklopac zatvoren."
+"Održava sesiju i mrežnu vezu aktivnima kada je poklopac zatvoren pri mrežnom "
+"napajanju."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:216
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
+msgstr ""
+"Time se sprječava prelazak u stanje mirovanja i zaključavanje pokrenuto "
+"zatvaranjem poklopca. Automatsko zaključavanje zbog neaktivnosti ostaje "
+"zasebno. Osigurajte dobru ventilaciju prijenosnog računala dok radi sa "
+"zatvorenim poklopcem."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:224
+msgid "Keep running with the lid closed on battery"
+msgstr "Nastavi raditi sa zatvorenim poklopcem pri radu na bateriji"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:226
+msgid ""
+"Keeps the session and network active when the lid is closed on battery power."
+msgstr ""
+"Održava sesiju i mrežnu vezu aktivnima kada je poklopac zatvoren pri radu na "
+"bateriji."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:232
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+msgstr ""
+"Time se sprječava prelazak u stanje mirovanja i zaključavanje pokrenuto "
+"zatvaranjem poklopca. Automatsko zaključavanje zbog neaktivnosti ostaje "
+"zasebno, a pravilo kritične razine baterije od 20% i dalje se primjenjuje."
 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
@@ -1693,3 +1711,23 @@ msgid ""
 msgstr ""
 "Obnavlja funkcionalnost 'Nedavne datoteke' i 'Nedavne lokacije' koja se "
 "pojavljuje prazna u Dolphin-u i izborniku aplikacija."
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
+#~ msgid "Never suspend while plugged in"
+#~ msgstr "Nikad ne miruj dok je priključen na napajanje"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
+#~ msgid "Never suspend on battery due to inactivity"
+#~ msgstr "Nikad ne miruj na bateriji zbog neaktivnosti"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#~ msgid "Suspend on lid close (AC power)"
+#~ msgstr "Suspendiranje pri zatvaranju poklopca (AC napajanje)"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#~ msgid ""
+#~ "Some systems do not suspend when on AC power. This forces suspend when "
+#~ "the lid is closed."
+#~ msgstr ""
+#~ "Neki sustavi se ne uspavaju kada su na AC napajanju. To prisiljava "
+#~ "uspavljivanje kada je poklopac zatvoren."

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 18:49-0300\n"
-"PO-Revision-Date: 2026-07-21 18:49-0300\n"
+"POT-Creation-Date: 2026-07-22 00:37-0300\n"
+"PO-Revision-Date: 2026-07-22 00:37-0300\n"
 "Last-Translator: BigLinux Community <community@biglinux.com.br>\n"
 "Language-Team: BigLinux Community (el)\n"
 "Language: el\n"
@@ -584,7 +584,6 @@ msgstr "Το σενάριο απέτυχε με κωδικό εξόδου: {}"
 msgid "Script timeout: {}"
 msgstr "Λήξη χρόνου εκτέλεσης σεναρίου: {}"
 
-#
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 620
 #: usr/share/biglinux/biglinux-settings/base_page.py:620
 #, python-brace-format
@@ -1204,13 +1203,11 @@ msgstr "Απόδοση"
 msgid "Suspend"
 msgstr "Αναστολή"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 441
 #: usr/share/biglinux/biglinux-settings/main.py:441
 msgid "Open setting"
 msgstr "Άνοιγμα ρύθμισης"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 446
 #: usr/share/biglinux/biglinux-settings/main.py:446
 #, python-brace-format
@@ -1404,13 +1401,11 @@ msgstr "Όπερα"
 msgid "Libreoffice"
 msgstr "ΛιμπρέΟφις"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 72
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:72
 msgid "Automatic Suspend"
 msgstr "Αυτόματη Αναστολή Λειτουργίας"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 73
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:73
 msgid "Choose when inactivity and low battery may suspend the system."
@@ -1418,13 +1413,10 @@ msgstr ""
 "Επιλέξτε πότε η αδράνεια και η χαμηλή μπαταρία μπορεί να θέσουν το σύστημα "
 "σε αναστολή."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:80
-msgid "Never suspend while plugged in"
-msgstr "Ποτέ αναστολή όταν είναι συνδεδεμένο στο ρεύμα"
+msgid "Disable idle suspend while plugged in"
+msgstr "Απενεργοποίηση αναστολής λόγω αδράνειας κατά τη σύνδεση στο ρεύμα"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 81
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:81
 msgid "Disables automatic suspend caused by inactivity on AC power."
@@ -1432,26 +1424,21 @@ msgstr ""
 "Απενεργοποιεί την αυτόματη αναστολή που προκαλείται από αδράνεια όταν το "
 "σύστημα τροφοδοτείται από το ρεύμα."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:88
-msgid "Never suspend on battery due to inactivity"
-msgstr "Ποτέ αναστολή με μπαταρία λόγω αδράνειας"
+msgid "Disable idle suspend on battery"
+msgstr "Απενεργοποίηση αναστολής λόγω αδράνειας με τροφοδοσία από την μπαταρία"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 89
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:89
 msgid "Keeps the system awake on battery until a critical level is reached."
 msgstr ""
 "Διατηρεί το σύστημα ενεργό με μπαταρία μέχρι να φτάσει σε κρίσιμο επίπεδο."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 96
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:96
 msgid "Suspend only when battery reaches 20%"
 msgstr "Αναστολή μόνο όταν η μπαταρία φτάσει στο 20%"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 98
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:98
 msgid ""
@@ -1461,7 +1448,6 @@ msgstr ""
 "Απενεργοποιεί την αναστολή λόγω αδράνειας με μπαταρία και θέτει αυτόματα το "
 "σύστημα σε αναστολή όταν η φόρτιση φτάσει στο 20%."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 104
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:104
 msgid ""
@@ -1599,19 +1585,48 @@ msgstr "Διακόπτης καπακιού"
 msgid "Laptop lid close behavior."
 msgstr "Συμπεριφορά κλεισίματος καπακιού φορητού υπολογιστή."
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:208
-msgid "Suspend on lid close (AC power)"
-msgstr "Αναστολή κατά το κλείσιμο του καπακιού (ρεύμα AC)"
+msgid "Keep running with the lid closed while plugged in"
+msgstr "Συνέχιση λειτουργίας με κλειστό καπάκι κατά τη σύνδεση στο ρεύμα"
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:210
 msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
+"Keeps the session and network active when the lid is closed on AC power."
 msgstr ""
-"Ορισμένα συστήματα δεν αναστέλλονται όταν είναι σε τροφοδοσία AC. Αυτό "
-"αναγκάζει την αναστολή όταν η θύρα είναι κλειστή."
+"Διατηρεί ενεργά τη συνεδρία και το δίκτυο όταν το καπάκι είναι κλειστό και ο "
+"υπολογιστής τροφοδοτείται από το ρεύμα."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:216
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
+msgstr ""
+"Αυτό αποτρέπει την αναστολή λειτουργίας και το κλείδωμα που προκαλούνται από "
+"το κλείσιμο του καπακιού. Το αυτόματο κλείδωμα λόγω αδράνειας παραμένει "
+"ανεξάρτητο. Διατηρείτε τον φορητό υπολογιστή επαρκώς αεριζόμενο όσο "
+"λειτουργεί με κλειστό καπάκι."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:224
+msgid "Keep running with the lid closed on battery"
+msgstr "Συνέχιση λειτουργίας με κλειστό καπάκι και τροφοδοσία από την μπαταρία"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:226
+msgid ""
+"Keeps the session and network active when the lid is closed on battery power."
+msgstr ""
+"Διατηρεί ενεργά τη συνεδρία και το δίκτυο όταν το καπάκι είναι κλειστό και ο "
+"υπολογιστής τροφοδοτείται από την μπαταρία."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:232
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+msgstr ""
+"Αυτό αποτρέπει την αναστολή λειτουργίας και το κλείδωμα που προκαλούνται από "
+"το κλείσιμο του καπακιού. Το αυτόματο κλείδωμα λόγω αδράνειας παραμένει "
+"ανεξάρτητο, ενώ εξακολουθεί να ισχύει η πολιτική κρίσιμης στάθμης μπαταρίας "
+"στο 20 %."
 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
@@ -1746,3 +1761,23 @@ msgid ""
 msgstr ""
 "Επαναφέρει τη λειτουργία 'Πρόσφατα Αρχεία' και 'Πρόσφατες Τοποθεσίες' που "
 "εμφανίζεται κενή στο Dolphin και το Μενού Εφαρμογών."
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
+#~ msgid "Never suspend while plugged in"
+#~ msgstr "Ποτέ αναστολή όταν είναι συνδεδεμένο στο ρεύμα"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
+#~ msgid "Never suspend on battery due to inactivity"
+#~ msgstr "Ποτέ αναστολή με μπαταρία λόγω αδράνειας"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#~ msgid "Suspend on lid close (AC power)"
+#~ msgstr "Αναστολή κατά το κλείσιμο του καπακιού (ρεύμα AC)"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#~ msgid ""
+#~ "Some systems do not suspend when on AC power. This forces suspend when "
+#~ "the lid is closed."
+#~ msgstr ""
+#~ "Ορισμένα συστήματα δεν αναστέλλονται όταν είναι σε τροφοδοσία AC. Αυτό "
+#~ "αναγκάζει την αναστολή όταν η θύρα είναι κλειστή."

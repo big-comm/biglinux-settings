@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 18:49-0300\n"
-"PO-Revision-Date: 2026-07-21 18:49-0300\n"
+"POT-Creation-Date: 2026-07-22 00:37-0300\n"
+"PO-Revision-Date: 2026-07-22 00:37-0300\n"
 "Last-Translator: BigLinux Community <community@biglinux.com.br>\n"
 "Language-Team: BigLinux Community (ro)\n"
 "Language: ro\n"
@@ -584,7 +584,6 @@ msgstr "Scriptul a eșuat cu codul de ieșire: {}"
 msgid "Script timeout: {}"
 msgstr "Timp de așteptare a scriptului: {}"
 
-#
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 620
 #: usr/share/biglinux/biglinux-settings/base_page.py:620
 #, python-brace-format
@@ -1191,13 +1190,11 @@ msgstr "Performanță"
 msgid "Suspend"
 msgstr "Suspenda"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 441
 #: usr/share/biglinux/biglinux-settings/main.py:441
 msgid "Open setting"
 msgstr "Deschide setarea"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 446
 #: usr/share/biglinux/biglinux-settings/main.py:446
 #, python-brace-format
@@ -1391,25 +1388,21 @@ msgstr "Opera"
 msgid "Libreoffice"
 msgstr "LibreOffice"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 72
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:72
 msgid "Automatic Suspend"
 msgstr "Suspendare automată"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 73
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:73
 msgid "Choose when inactivity and low battery may suspend the system."
 msgstr "Alegeți când inactivitatea și bateria scăzută pot suspenda sistemul."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:80
-msgid "Never suspend while plugged in"
-msgstr "Nu suspenda niciodată când este conectat la priză"
+msgid "Disable idle suspend while plugged in"
+msgstr ""
+"Dezactivează suspendarea în caz de inactivitate când este conectat la priză"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 81
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:81
 msgid "Disables automatic suspend caused by inactivity on AC power."
@@ -1417,25 +1410,21 @@ msgstr ""
 "Dezactivează suspendarea automată cauzată de inactivitate când este "
 "alimentat de la rețea."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:88
-msgid "Never suspend on battery due to inactivity"
-msgstr "Nu suspenda niciodată pe baterie din cauza inactivității"
+msgid "Disable idle suspend on battery"
+msgstr ""
+"Dezactivează suspendarea în caz de inactivitate când funcționează pe baterie"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 89
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:89
 msgid "Keeps the system awake on battery until a critical level is reached."
 msgstr "Menține sistemul activ pe baterie până când se atinge un nivel critic."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 96
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:96
 msgid "Suspend only when battery reaches 20%"
 msgstr "Suspendă doar când bateria ajunge la 20%"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 98
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:98
 msgid ""
@@ -1445,7 +1434,6 @@ msgstr ""
 "Dezactivează suspendarea la inactivitate pe baterie și suspendă automat când "
 "încărcarea ajunge la 20%."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 104
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:104
 msgid ""
@@ -1582,19 +1570,48 @@ msgstr "Comutator capac închidere"
 msgid "Laptop lid close behavior."
 msgstr "Comportamentul la închiderea capacului laptopului."
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:208
-msgid "Suspend on lid close (AC power)"
-msgstr "Suspendere la închidere capac (alimentare AC)"
+msgid "Keep running with the lid closed while plugged in"
+msgstr "Continuă funcționarea cu capacul închis când este conectat la priză"
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:210
 msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
+"Keeps the session and network active when the lid is closed on AC power."
 msgstr ""
-"Unele sisteme nu intră în suspendare când sunt alimentate de la rețea. "
-"Aceasta forțează suspendarea când capacul este închis."
+"Menține sesiunea și rețeaua active când capacul este închis și sistemul este "
+"alimentat de la priză."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:216
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
+msgstr ""
+"Aceasta împiedică suspendarea și blocarea declanșate de închiderea "
+"capacului. Blocarea automată în caz de inactivitate rămâne separată. "
+"Asigurați ventilația corespunzătoare a laptopului cât timp funcționează cu "
+"capacul închis."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:224
+msgid "Keep running with the lid closed on battery"
+msgstr ""
+"Continuă funcționarea cu capacul închis când sistemul funcționează pe baterie"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:226
+msgid ""
+"Keeps the session and network active when the lid is closed on battery power."
+msgstr ""
+"Menține sesiunea și rețeaua active când capacul este închis și sistemul "
+"funcționează pe baterie."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:232
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+msgstr ""
+"Aceasta împiedică suspendarea și blocarea declanșate de închiderea "
+"capacului. Blocarea automată în caz de inactivitate rămâne separată, iar "
+"politica pentru nivelul critic al bateriei de 20% se aplică în continuare."
 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
@@ -1727,3 +1744,23 @@ msgid ""
 msgstr ""
 "Restabilește funcționalitatea 'Fișiere Recente' și 'Locații Recente' care "
 "apare goală în Dolphin și în Meniul Aplicației."
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
+#~ msgid "Never suspend while plugged in"
+#~ msgstr "Nu suspenda niciodată când este conectat la priză"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
+#~ msgid "Never suspend on battery due to inactivity"
+#~ msgstr "Nu suspenda niciodată pe baterie din cauza inactivității"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#~ msgid "Suspend on lid close (AC power)"
+#~ msgstr "Suspendere la închidere capac (alimentare AC)"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#~ msgid ""
+#~ "Some systems do not suspend when on AC power. This forces suspend when "
+#~ "the lid is closed."
+#~ msgstr ""
+#~ "Unele sisteme nu intră în suspendare când sunt alimentate de la rețea. "
+#~ "Aceasta forțează suspendarea când capacul este închis."

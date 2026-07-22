@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 18:49-0300\n"
-"PO-Revision-Date: 2026-07-21 18:49-0300\n"
+"POT-Creation-Date: 2026-07-22 00:37-0300\n"
+"PO-Revision-Date: 2026-07-22 00:37-0300\n"
 "Last-Translator: BigLinux Community <community@biglinux.com.br>\n"
 "Language-Team: BigLinux Community (tr)\n"
 "Language: tr\n"
@@ -578,7 +578,6 @@ msgstr "Script, çıkış kodu ile başarısız oldu: {}"
 msgid "Script timeout: {}"
 msgstr "Betik zaman aşımı: {}"
 
-#
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 620
 #: usr/share/biglinux/biglinux-settings/base_page.py:620
 #, python-brace-format
@@ -1183,13 +1182,11 @@ msgstr "Performans"
 msgid "Suspend"
 msgstr "Askıya Al"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 441
 #: usr/share/biglinux/biglinux-settings/main.py:441
 msgid "Open setting"
 msgstr "Ayarı aç"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 446
 #: usr/share/biglinux/biglinux-settings/main.py:446
 #, python-brace-format
@@ -1382,13 +1379,11 @@ msgstr "Opera"
 msgid "Libreoffice"
 msgstr "Libreoffice"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 72
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:72
 msgid "Automatic Suspend"
 msgstr "Otomatik Askıya Alma"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 73
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:73
 msgid "Choose when inactivity and low battery may suspend the system."
@@ -1396,38 +1391,30 @@ msgstr ""
 "Hareketsizlik ve düşük pil durumlarında sistemin ne zaman askıya alınacağını "
 "seçin."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:80
-msgid "Never suspend while plugged in"
-msgstr "Prize takılıyken asla askıya alma"
+msgid "Disable idle suspend while plugged in"
+msgstr "Prize takılıyken boşta kalınca askıya almayı devre dışı bırak"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 81
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:81
 msgid "Disables automatic suspend caused by inactivity on AC power."
 msgstr ""
 "AC gücünde hareketsizlik nedeniyle otomatik askıya almayı devre dışı bırakır."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:88
-msgid "Never suspend on battery due to inactivity"
-msgstr "Pil gücündeyken hareketsizlik nedeniyle asla askıya alma"
+msgid "Disable idle suspend on battery"
+msgstr "Pil gücüyle çalışırken boşta kalınca askıya almayı devre dışı bırak"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 89
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:89
 msgid "Keeps the system awake on battery until a critical level is reached."
 msgstr "Kritik seviyeye ulaşılana kadar pil gücündeyken sistemi uyanık tutar."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 96
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:96
 msgid "Suspend only when battery reaches 20%"
 msgstr "Yalnızca pil düzeyi %20'ye ulaştığında askıya al"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 98
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:98
 msgid ""
@@ -1437,7 +1424,6 @@ msgstr ""
 "Pil gücündeyken hareketsizlik nedeniyle askıya almayı devre dışı bırakır ve "
 "şarj %20'ye ulaştığında sistemi otomatik olarak askıya alır."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 104
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:104
 msgid ""
@@ -1574,19 +1560,44 @@ msgstr "Kapa Anahtarı"
 msgid "Laptop lid close behavior."
 msgstr "Laptop kapa kapama davranışı."
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:208
-msgid "Suspend on lid close (AC power)"
-msgstr "Kapağı kapatınca askıya al (Şebeke gücü)"
+msgid "Keep running with the lid closed while plugged in"
+msgstr "Prize takılıyken kapak kapalı olsa da çalışmaya devam et"
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:210
 msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
+"Keeps the session and network active when the lid is closed on AC power."
+msgstr "AC gücüyle çalışırken kapak kapatıldığında oturumu ve ağı etkin tutar."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:216
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
 msgstr ""
-"Bazı sistemler AC güçteyken askıya alınmaz. Bu, kapağın kapatılması "
-"durumunda askıya alınmayı zorlar."
+"Bu, kapak kapatıldığında askıya alma ve kilitlemeyi önler. Boşta "
+"kalındığında otomatik kilitleme ayrı olarak çalışmaya devam eder. Dizüstü "
+"bilgisayar kapalı kapakla çalışırken yeterince havalandırıldığından emin "
+"olun."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:224
+msgid "Keep running with the lid closed on battery"
+msgstr "Pil gücüyle çalışırken kapak kapalı olsa da çalışmaya devam et"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:226
+msgid ""
+"Keeps the session and network active when the lid is closed on battery power."
+msgstr ""
+"Pil gücüyle çalışırken kapak kapatıldığında oturumu ve ağı etkin tutar."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:232
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+msgstr ""
+"Bu, kapak kapatıldığında askıya alma ve kilitlemeyi önler. Boşta "
+"kalındığında otomatik kilitleme ayrı olarak çalışmaya devam eder ve %20 "
+"kritik pil ilkesi uygulanmayı sürdürür."
 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
@@ -1715,3 +1726,23 @@ msgid ""
 msgstr ""
 "Dolphin ve Uygulama Menüsü'nde boş görünen 'Son Dosyalar' ve 'Son Konumlar' "
 "işlevselliğini geri yükler."
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
+#~ msgid "Never suspend while plugged in"
+#~ msgstr "Prize takılıyken asla askıya alma"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
+#~ msgid "Never suspend on battery due to inactivity"
+#~ msgstr "Pil gücündeyken hareketsizlik nedeniyle asla askıya alma"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#~ msgid "Suspend on lid close (AC power)"
+#~ msgstr "Kapağı kapatınca askıya al (Şebeke gücü)"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#~ msgid ""
+#~ "Some systems do not suspend when on AC power. This forces suspend when "
+#~ "the lid is closed."
+#~ msgstr ""
+#~ "Bazı sistemler AC güçteyken askıya alınmaz. Bu, kapağın kapatılması "
+#~ "durumunda askıya alınmayı zorlar."

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 18:49-0300\n"
-"PO-Revision-Date: 2026-07-21 18:49-0300\n"
+"POT-Creation-Date: 2026-07-22 00:37-0300\n"
+"PO-Revision-Date: 2026-07-22 00:37-0300\n"
 "Last-Translator: Translation Automator <auto@translator.ai>\n"
 "Language-Team: Portuguese (Brazil) <pt-BR@li.org>\n"
 "Language: pt_BR\n"
@@ -980,8 +980,9 @@ msgstr ""
 "Escolha quando a inatividade e a bateria baixa podem suspender o sistema."
 
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:80
-msgid "Never suspend while plugged in"
-msgstr "Nunca suspender enquanto estiver na tomada"
+msgid "Disable idle suspend while plugged in"
+msgstr ""
+"Desativar a suspensão por inatividade enquanto estiver conectado à tomada"
 
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:81
 msgid "Disables automatic suspend caused by inactivity on AC power."
@@ -989,8 +990,8 @@ msgstr ""
 "Desativa a suspensão automática por inatividade enquanto estiver na tomada."
 
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:88
-msgid "Never suspend on battery due to inactivity"
-msgstr "Nunca suspender na bateria por inatividade"
+msgid "Disable idle suspend on battery"
+msgstr "Desativar a suspensão por inatividade ao usar a bateria"
 
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:89
 msgid "Keeps the system awake on battery until a critical level is reached."
@@ -1124,16 +1125,47 @@ msgid "Laptop lid close behavior."
 msgstr "Comportamento ao fechar a tampa do notebook."
 
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:208
-msgid "Suspend on lid close (AC power)"
-msgstr "Suspender ao fechar a tampa (energia CA)"
+msgid "Keep running with the lid closed while plugged in"
+msgstr ""
+"Continuar funcionando com a tampa fechada enquanto estiver conectado à tomada"
 
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:210
 msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
+"Keeps the session and network active when the lid is closed on AC power."
 msgstr ""
-"Alguns sistemas não suspendem quando conectados à energia CA. Isso força a "
-"suspensão ao fechar a tampa."
+"Mantém a sessão e a rede ativas quando a tampa está fechada e o notebook "
+"está conectado à tomada."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:216
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
+msgstr ""
+"Isso impede que o fechamento da tampa acione a suspensão e o bloqueio. O "
+"bloqueio automático por inatividade continua sendo uma configuração "
+"separada. Mantenha o notebook bem ventilado enquanto ele estiver funcionando "
+"com a tampa fechada."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:224
+msgid "Keep running with the lid closed on battery"
+msgstr "Continuar funcionando com a tampa fechada ao usar a bateria"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:226
+msgid ""
+"Keeps the session and network active when the lid is closed on battery power."
+msgstr ""
+"Mantém a sessão e a rede ativas quando a tampa está fechada e o notebook "
+"está usando a bateria."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:232
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+msgstr ""
+"Isso impede que o fechamento da tampa acione a suspensão e o bloqueio. O "
+"bloqueio automático por inatividade continua sendo uma configuração "
+"separada, e a política de bateria crítica em 20% continua sendo aplicada."
 
 #: usr/share/biglinux/biglinux-settings/system_page.py:13
 msgid "General system settings."
@@ -1224,6 +1256,22 @@ msgid ""
 msgstr ""
 "Restaura a funcionalidade 'Arquivos Recentes' e 'Locais Recentes' que "
 "aparece vazia no Dolphin e no Menu de Aplicativos."
+
+#~ msgid "Never suspend while plugged in"
+#~ msgstr "Nunca suspender enquanto estiver na tomada"
+
+#~ msgid "Never suspend on battery due to inactivity"
+#~ msgstr "Nunca suspender na bateria por inatividade"
+
+#~ msgid "Suspend on lid close (AC power)"
+#~ msgstr "Suspender ao fechar a tampa (energia CA)"
+
+#~ msgid ""
+#~ "Some systems do not suspend when on AC power. This forces suspend when "
+#~ "the lid is closed."
+#~ msgstr ""
+#~ "Alguns sistemas não suspendem quando conectados à energia CA. Isso força "
+#~ "a suspensão ao fechar a tampa."
 
 #, python-brace-format
 #~ msgid "{} sub-options available"

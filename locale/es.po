@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 18:49-0300\n"
-"PO-Revision-Date: 2026-07-21 18:49-0300\n"
+"POT-Creation-Date: 2026-07-22 00:37-0300\n"
+"PO-Revision-Date: 2026-07-22 00:37-0300\n"
 "Last-Translator: BigLinux Community <community@biglinux.com.br>\n"
 "Language-Team: BigLinux Community (es)\n"
 "Language: es\n"
@@ -581,7 +581,6 @@ msgstr "El script falló con el código de salida: {}"
 msgid "Script timeout: {}"
 msgstr "Tiempo de espera del script: {}"
 
-#
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 620
 #: usr/share/biglinux/biglinux-settings/base_page.py:620
 #, python-brace-format
@@ -1201,13 +1200,11 @@ msgstr "Rendimiento"
 msgid "Suspend"
 msgstr "Suspender"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 441
 #: usr/share/biglinux/biglinux-settings/main.py:441
 msgid "Open setting"
 msgstr "Abrir configuración"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 446
 #: usr/share/biglinux/biglinux-settings/main.py:446
 #, python-brace-format
@@ -1402,26 +1399,23 @@ msgstr "Ópera"
 msgid "Libreoffice"
 msgstr "Libreoffice"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 72
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:72
 msgid "Automatic Suspend"
 msgstr "Suspensión automática"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 73
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:73
 msgid "Choose when inactivity and low battery may suspend the system."
 msgstr ""
 "Elija cuándo la inactividad y la batería baja pueden suspender el sistema."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:80
-msgid "Never suspend while plugged in"
-msgstr "No suspender nunca mientras esté enchufado"
+msgid "Disable idle suspend while plugged in"
+msgstr ""
+"Desactivar la suspensión por inactividad cuando el equipo esté conectado a "
+"la corriente"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 81
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:81
 msgid "Disables automatic suspend caused by inactivity on AC power."
@@ -1429,26 +1423,23 @@ msgstr ""
 "Desactiva la suspensión automática causada por inactividad cuando está "
 "conectado a la corriente."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:88
-msgid "Never suspend on battery due to inactivity"
-msgstr "No suspender nunca por inactividad con batería"
+msgid "Disable idle suspend on battery"
+msgstr ""
+"Desactivar la suspensión por inactividad cuando el equipo funcione con "
+"batería"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 89
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:89
 msgid "Keeps the system awake on battery until a critical level is reached."
 msgstr ""
 "Mantiene el sistema activo con batería hasta que se alcance un nivel crítico."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 96
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:96
 msgid "Suspend only when battery reaches 20%"
 msgstr "Suspender solo cuando la batería llegue al 20%"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 98
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:98
 msgid ""
@@ -1458,7 +1449,6 @@ msgstr ""
 "Desactiva la suspensión por inactividad con batería y suspende "
 "automáticamente cuando la carga alcanza el 20%."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 104
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:104
 msgid ""
@@ -1595,19 +1585,50 @@ msgstr "Interruptor de tapa"
 msgid "Laptop lid close behavior."
 msgstr "Comportamiento al cerrar la tapa del portátil."
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:208
-msgid "Suspend on lid close (AC power)"
-msgstr "Suspender al cerrar la tapa (alimentación de CA)"
+msgid "Keep running with the lid closed while plugged in"
+msgstr ""
+"Mantener el equipo en funcionamiento con la tapa cerrada cuando esté "
+"conectado a la corriente"
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:210
 msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
+"Keeps the session and network active when the lid is closed on AC power."
 msgstr ""
-"Algunos sistemas no se suspenden cuando están conectados a la corriente "
-"alterna. Esto fuerza la suspensión cuando la tapa está cerrada."
+"Mantiene la sesión y la red activas cuando se cierra la tapa mientras el "
+"equipo está conectado a la corriente."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:216
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
+msgstr ""
+"Esto evita que el equipo se suspenda y se bloquee al cerrar la tapa. El "
+"bloqueo automático por inactividad se gestiona por separado. Mantenga el "
+"portátil bien ventilado mientras funcione con la tapa cerrada."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:224
+msgid "Keep running with the lid closed on battery"
+msgstr ""
+"Mantener el equipo en funcionamiento con la tapa cerrada cuando funcione con "
+"batería"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:226
+msgid ""
+"Keeps the session and network active when the lid is closed on battery power."
+msgstr ""
+"Mantiene la sesión y la red activas cuando se cierra la tapa mientras el "
+"equipo funciona con batería."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:232
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+msgstr ""
+"Esto evita que el equipo se suspenda y se bloquee al cerrar la tapa. El "
+"bloqueo automático por inactividad se gestiona por separado, y la política "
+"de nivel crítico de batería del 20 % sigue aplicándose."
 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
@@ -1739,3 +1760,23 @@ msgid ""
 msgstr ""
 "Restaura la funcionalidad de 'Archivos Recientes' y 'Ubicaciones Recientes' "
 "que aparece vacía en Dolphin y en el Menú de Aplicaciones."
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
+#~ msgid "Never suspend while plugged in"
+#~ msgstr "No suspender nunca mientras esté enchufado"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
+#~ msgid "Never suspend on battery due to inactivity"
+#~ msgstr "No suspender nunca por inactividad con batería"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#~ msgid "Suspend on lid close (AC power)"
+#~ msgstr "Suspender al cerrar la tapa (alimentación de CA)"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#~ msgid ""
+#~ "Some systems do not suspend when on AC power. This forces suspend when "
+#~ "the lid is closed."
+#~ msgstr ""
+#~ "Algunos sistemas no se suspenden cuando están conectados a la corriente "
+#~ "alterna. Esto fuerza la suspensión cuando la tapa está cerrada."

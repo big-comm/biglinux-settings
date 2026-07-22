@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 18:49-0300\n"
-"PO-Revision-Date: 2026-07-21 18:49-0300\n"
+"POT-Creation-Date: 2026-07-22 00:37-0300\n"
+"PO-Revision-Date: 2026-07-22 00:37-0300\n"
 "Last-Translator: BigLinux Community <community@biglinux.com.br>\n"
 "Language-Team: BigLinux Community (fr)\n"
 "Language: fr\n"
@@ -581,7 +581,6 @@ msgstr "Le script a échoué avec le code de sortie : {}"
 msgid "Script timeout: {}"
 msgstr "Délai d'attente du script : {}"
 
-#
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 620
 #: usr/share/biglinux/biglinux-settings/base_page.py:620
 #, python-brace-format
@@ -1198,13 +1197,11 @@ msgstr "Performance"
 msgid "Suspend"
 msgstr "Suspendre"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 441
 #: usr/share/biglinux/biglinux-settings/main.py:441
 msgid "Open setting"
 msgstr "Ouvrir le paramètre"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 446
 #: usr/share/biglinux/biglinux-settings/main.py:446
 #, python-brace-format
@@ -1399,13 +1396,11 @@ msgstr "Opéra"
 msgid "Libreoffice"
 msgstr "LibreOffice"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 72
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:72
 msgid "Automatic Suspend"
 msgstr "Mise en veille automatique"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 73
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:73
 msgid "Choose when inactivity and low battery may suspend the system."
@@ -1413,26 +1408,22 @@ msgstr ""
 "Choisissez quand l'inactivité et une batterie faible peuvent mettre le "
 "système en veille."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:80
-msgid "Never suspend while plugged in"
-msgstr "Ne jamais suspendre lorsqu'il est branché"
+msgid "Disable idle suspend while plugged in"
+msgstr ""
+"Désactiver la mise en veille en cas d’inactivité lorsque l’appareil est "
+"branché"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 81
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:81
 msgid "Disables automatic suspend caused by inactivity on AC power."
 msgstr ""
 "Désactive la mise en veille automatique due à l'inactivité sur secteur."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:88
-msgid "Never suspend on battery due to inactivity"
-msgstr "Ne jamais suspendre sur batterie en raison de l'inactivité"
+msgid "Disable idle suspend on battery"
+msgstr "Désactiver la mise en veille en cas d’inactivité sur batterie"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 89
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:89
 msgid "Keeps the system awake on battery until a critical level is reached."
@@ -1440,13 +1431,11 @@ msgstr ""
 "Maintient le système éveillé sur batterie jusqu'à ce qu'un niveau critique "
 "soit atteint."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 96
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:96
 msgid "Suspend only when battery reaches 20%"
 msgstr "Suspendre uniquement lorsque la batterie atteint 20 %"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 98
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:98
 msgid ""
@@ -1456,7 +1445,6 @@ msgstr ""
 "Désactive la mise en veille sur batterie et suspend automatiquement lorsque "
 "la charge atteint 20 %."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 104
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:104
 msgid ""
@@ -1593,19 +1581,50 @@ msgstr "Interrupteur de couvercle"
 msgid "Laptop lid close behavior."
 msgstr "Comportement de fermeture du couvercle de l'ordinateur portable."
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:208
-msgid "Suspend on lid close (AC power)"
-msgstr "Suspendre à la fermeture du couvercle (alimentation secteur)"
+msgid "Keep running with the lid closed while plugged in"
+msgstr ""
+"Continuer à fonctionner avec le couvercle fermé lorsque l’appareil est "
+"branché"
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:210
 msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
+"Keeps the session and network active when the lid is closed on AC power."
 msgstr ""
-"Certains systèmes ne se mettent pas en veille lorsqu'ils sont alimentés par "
-"secteur. Cela force la mise en veille lorsque le couvercle est fermé."
+"Maintient la session et le réseau actifs lorsque le couvercle est fermé sur "
+"secteur."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:216
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
+msgstr ""
+"Cela empêche la mise en veille et le verrouillage déclenchés par la "
+"fermeture du couvercle. Le verrouillage automatique en cas d’inactivité "
+"reste indépendant. Veillez à ce que l’ordinateur portable soit bien ventilé "
+"lorsqu’il fonctionne avec le couvercle fermé."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:224
+msgid "Keep running with the lid closed on battery"
+msgstr "Continuer à fonctionner avec le couvercle fermé sur batterie"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:226
+msgid ""
+"Keeps the session and network active when the lid is closed on battery power."
+msgstr ""
+"Maintient la session et le réseau actifs lorsque le couvercle est fermé sur "
+"batterie."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:232
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+msgstr ""
+"Cela empêche la mise en veille et le verrouillage déclenchés par la "
+"fermeture du couvercle. Le verrouillage automatique en cas d’inactivité "
+"reste indépendant, et la politique relative au seuil critique de batterie de "
+"20 % continue de s’appliquer."
 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
@@ -1739,3 +1758,23 @@ msgid ""
 msgstr ""
 "Restaure la fonctionnalité 'Fichiers récents' et 'Emplacements récents' qui "
 "apparaît vide dans Dolphin et le menu d'application."
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
+#~ msgid "Never suspend while plugged in"
+#~ msgstr "Ne jamais suspendre lorsqu'il est branché"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
+#~ msgid "Never suspend on battery due to inactivity"
+#~ msgstr "Ne jamais suspendre sur batterie en raison de l'inactivité"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#~ msgid "Suspend on lid close (AC power)"
+#~ msgstr "Suspendre à la fermeture du couvercle (alimentation secteur)"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#~ msgid ""
+#~ "Some systems do not suspend when on AC power. This forces suspend when "
+#~ "the lid is closed."
+#~ msgstr ""
+#~ "Certains systèmes ne se mettent pas en veille lorsqu'ils sont alimentés "
+#~ "par secteur. Cela force la mise en veille lorsque le couvercle est fermé."

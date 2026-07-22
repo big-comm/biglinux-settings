@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 18:49-0300\n"
-"PO-Revision-Date: 2026-07-21 18:49-0300\n"
+"POT-Creation-Date: 2026-07-22 00:37-0300\n"
+"PO-Revision-Date: 2026-07-22 00:37-0300\n"
 "Last-Translator: BigLinux Community <community@biglinux.com.br>\n"
 "Language-Team: BigLinux Community (hu)\n"
 "Language: hu\n"
@@ -580,7 +580,6 @@ msgstr "A szkript hibával leállt a következő kóddal: {}"
 msgid "Script timeout: {}"
 msgstr "Script időtúllépés: {}"
 
-#
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 620
 #: usr/share/biglinux/biglinux-settings/base_page.py:620
 #, python-brace-format
@@ -1157,13 +1156,11 @@ msgstr "Teljesítmény"
 msgid "Suspend"
 msgstr "Felfüggesztés"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 441
 #: usr/share/biglinux/biglinux-settings/main.py:441
 msgid "Open setting"
 msgstr "Beállítás megnyitása"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 446
 #: usr/share/biglinux/biglinux-settings/main.py:446
 #, python-brace-format
@@ -1356,13 +1353,11 @@ msgstr "Opera"
 msgid "Libreoffice"
 msgstr "LibreOffice"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 72
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:72
 msgid "Automatic Suspend"
 msgstr "Automatikus felfüggesztés"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 73
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:73
 msgid "Choose when inactivity and low battery may suspend the system."
@@ -1370,13 +1365,11 @@ msgstr ""
 "Válassza ki, mikor függesztheti fel a rendszert a tétlenség és az alacsony "
 "akkumulátorszint."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:80
-msgid "Never suspend while plugged in"
-msgstr "Soha ne függessze fel, ha töltőre van csatlakoztatva"
+msgid "Disable idle suspend while plugged in"
+msgstr ""
+"Az inaktivitás miatti felfüggesztés letiltása hálózati tápellátás esetén"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 81
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:81
 msgid "Disables automatic suspend caused by inactivity on AC power."
@@ -1384,26 +1377,22 @@ msgstr ""
 "Letiltja a tétlenség miatti automatikus felfüggesztést hálózati áramról "
 "működve."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:88
-msgid "Never suspend on battery due to inactivity"
-msgstr "Soha ne függessze fel akkumulátorról tétlenség miatt"
+msgid "Disable idle suspend on battery"
+msgstr ""
+"Az inaktivitás miatti felfüggesztés letiltása akkumulátoros működés esetén"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 89
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:89
 msgid "Keeps the system awake on battery until a critical level is reached."
 msgstr ""
 "Ébren tartja a rendszert akkumulátorról, amíg el nem éri a kritikus szintet."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 96
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:96
 msgid "Suspend only when battery reaches 20%"
 msgstr "Csak akkor függessze fel, ha az akkumulátor eléri a 20%-ot"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 98
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:98
 msgid ""
@@ -1413,7 +1402,6 @@ msgstr ""
 "Letiltja a tétlenség miatti felfüggesztést akkumulátorról, és automatikusan "
 "felfüggeszt, amikor a töltöttség eléri a 20%-ot."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 104
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:104
 msgid ""
@@ -1551,19 +1539,48 @@ msgstr "Fedélkapcsoló"
 msgid "Laptop lid close behavior."
 msgstr "Laptop fedél zárási viselkedése."
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:208
-msgid "Suspend on lid close (AC power)"
-msgstr "Felfüggesztés fedél zárásakor (AC tápegység)"
+msgid "Keep running with the lid closed while plugged in"
+msgstr "Működés folytatása lehajtott fedéllel hálózati tápellátás esetén"
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:210
 msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
+"Keeps the session and network active when the lid is closed on AC power."
 msgstr ""
-"Néhány rendszer nem áll le, amikor hálózati áramon van. Ez kényszeríti a "
-"leállítást, amikor a fedelet bezárják."
+"Aktívan tartja a munkamenetet és a hálózati kapcsolatot, amikor a számítógép "
+"hálózati tápellátásról működik, és a fedele le van hajtva."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:216
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
+msgstr ""
+"Ez megakadályozza, hogy a számítógép a fedél lehajtásakor felfüggesztett "
+"állapotba kerüljön vagy zárolódjon. Az inaktivitás miatti automatikus "
+"zárolás továbbra is külön beállítás. Gondoskodjon a laptop megfelelő "
+"szellőzéséről, amíg lehajtott fedéllel működik."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:224
+msgid "Keep running with the lid closed on battery"
+msgstr "Működés folytatása lehajtott fedéllel akkumulátoros működés esetén"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:226
+msgid ""
+"Keeps the session and network active when the lid is closed on battery power."
+msgstr ""
+"Aktívan tartja a munkamenetet és a hálózati kapcsolatot, amikor a számítógép "
+"akkumulátorról működik, és a fedele le van hajtva."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:232
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+msgstr ""
+"Ez megakadályozza, hogy a számítógép a fedél lehajtásakor felfüggesztett "
+"állapotba kerüljön vagy zárolódjon. Az inaktivitás miatti automatikus "
+"zárolás továbbra is külön beállítás, és a 20%-os kritikus akkumulátorszintre "
+"vonatkozó szabály továbbra is érvényes."
 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
@@ -1695,3 +1712,23 @@ msgid ""
 msgstr ""
 "Visszaállítja a 'Legutóbbi fájlok' és 'Legutóbbi helyek' funkciót, amely "
 "üresen jelenik meg a Dolphinban és az Alkalmazásmenüben."
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
+#~ msgid "Never suspend while plugged in"
+#~ msgstr "Soha ne függessze fel, ha töltőre van csatlakoztatva"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
+#~ msgid "Never suspend on battery due to inactivity"
+#~ msgstr "Soha ne függessze fel akkumulátorról tétlenség miatt"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#~ msgid "Suspend on lid close (AC power)"
+#~ msgstr "Felfüggesztés fedél zárásakor (AC tápegység)"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#~ msgid ""
+#~ "Some systems do not suspend when on AC power. This forces suspend when "
+#~ "the lid is closed."
+#~ msgstr ""
+#~ "Néhány rendszer nem áll le, amikor hálózati áramon van. Ez kényszeríti a "
+#~ "leállítást, amikor a fedelet bezárják."

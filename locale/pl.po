@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 18:49-0300\n"
-"PO-Revision-Date: 2026-07-21 18:49-0300\n"
+"POT-Creation-Date: 2026-07-22 00:37-0300\n"
+"PO-Revision-Date: 2026-07-22 00:37-0300\n"
 "Last-Translator: BigLinux Community <community@biglinux.com.br>\n"
 "Language-Team: BigLinux Community (pl)\n"
 "Language: pl\n"
@@ -583,7 +583,6 @@ msgstr "Skrypt zakończył się niepowodzeniem z kodem wyjścia: {}"
 msgid "Script timeout: {}"
 msgstr "Przekroczenie limitu czasu skryptu: {}"
 
-#
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 620
 #: usr/share/biglinux/biglinux-settings/base_page.py:620
 #, python-brace-format
@@ -1161,13 +1160,11 @@ msgstr "Wydajność"
 msgid "Suspend"
 msgstr "Wstrzymaj"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 441
 #: usr/share/biglinux/biglinux-settings/main.py:441
 msgid "Open setting"
 msgstr "Otwórz ustawienie"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 446
 #: usr/share/biglinux/biglinux-settings/main.py:446
 #, python-brace-format
@@ -1357,13 +1354,11 @@ msgstr "Opera"
 msgid "Libreoffice"
 msgstr "LibreOffice"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 72
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:72
 msgid "Automatic Suspend"
 msgstr "Automatyczne uśpienie"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 73
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:73
 msgid "Choose when inactivity and low battery may suspend the system."
@@ -1371,13 +1366,10 @@ msgstr ""
 "Wybierz, kiedy system może zostać uśpiony z powodu bezczynności i niskiego "
 "poziomu baterii."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:80
-msgid "Never suspend while plugged in"
-msgstr "Nigdy nie uśpij podczas ładowania"
+msgid "Disable idle suspend while plugged in"
+msgstr "Wyłącz wstrzymywanie podczas bezczynności przy zasilaniu sieciowym"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 81
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:81
 msgid "Disables automatic suspend caused by inactivity on AC power."
@@ -1385,13 +1377,10 @@ msgstr ""
 "Wyłącza automatyczne uśpienie spowodowane bezczynnością przy zasilaniu "
 "sieciowym."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:88
-msgid "Never suspend on battery due to inactivity"
-msgstr "Nigdy nie uśpij na baterii z powodu bezczynności"
+msgid "Disable idle suspend on battery"
+msgstr "Wyłącz wstrzymywanie podczas bezczynności przy zasilaniu bateryjnym"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 89
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:89
 msgid "Keeps the system awake on battery until a critical level is reached."
@@ -1399,13 +1388,11 @@ msgstr ""
 "Utrzymuje system w stanie aktywnym na baterii do momentu osiągnięcia "
 "krytycznego poziomu."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 96
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:96
 msgid "Suspend only when battery reaches 20%"
 msgstr "Uśpij tylko, gdy bateria osiągnie 20%"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 98
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:98
 msgid ""
@@ -1415,7 +1402,6 @@ msgstr ""
 "Wyłącza uśpienie z powodu bezczynności na baterii i automatycznie usypia, "
 "gdy poziom naładowania osiągnie 20%."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 104
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:104
 msgid ""
@@ -1552,19 +1538,46 @@ msgstr "Przełącznik pokrywy"
 msgid "Laptop lid close behavior."
 msgstr "Zachowanie po zamknięciu pokrywy laptopa."
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:208
-msgid "Suspend on lid close (AC power)"
-msgstr "Wstrzymaj po zamknięciu pokrywy (zasilanie AC)"
+msgid "Keep running with the lid closed while plugged in"
+msgstr "Kontynuuj pracę z zamkniętą pokrywą przy zasilaniu sieciowym"
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:210
 msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
+"Keeps the session and network active when the lid is closed on AC power."
 msgstr ""
-"Niektóre systemy nie przechodzą w stan uśpienia, gdy są zasilane z sieci. To "
-"wymusza uśpienie, gdy pokrywa jest zamknięta."
+"Utrzymuje aktywną sesję i połączenie sieciowe po zamknięciu pokrywy podczas "
+"zasilania sieciowego."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:216
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
+msgstr ""
+"Zapobiega to wstrzymywaniu i blokowaniu po zamknięciu pokrywy. Automatyczne "
+"blokowanie podczas bezczynności działa niezależnie. Podczas pracy z "
+"zamkniętą pokrywą należy zapewnić notebookowi odpowiednią wentylację."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:224
+msgid "Keep running with the lid closed on battery"
+msgstr "Kontynuuj pracę z zamkniętą pokrywą przy zasilaniu bateryjnym"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:226
+msgid ""
+"Keeps the session and network active when the lid is closed on battery power."
+msgstr ""
+"Utrzymuje aktywną sesję i połączenie sieciowe po zamknięciu pokrywy podczas "
+"zasilania bateryjnego."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:232
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+msgstr ""
+"Zapobiega to wstrzymywaniu i blokowaniu po zamknięciu pokrywy. Automatyczne "
+"blokowanie podczas bezczynności działa niezależnie, a zasada krytycznego "
+"poziomu baterii wynoszącego 20% nadal obowiązuje."
 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
@@ -1697,3 +1710,23 @@ msgid ""
 msgstr ""
 "Przywraca funkcjonalność 'Ostatnich plików' i 'Ostatnich lokalizacji', która "
 "jest pusta w Dolphin i Menu aplikacji."
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
+#~ msgid "Never suspend while plugged in"
+#~ msgstr "Nigdy nie uśpij podczas ładowania"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
+#~ msgid "Never suspend on battery due to inactivity"
+#~ msgstr "Nigdy nie uśpij na baterii z powodu bezczynności"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#~ msgid "Suspend on lid close (AC power)"
+#~ msgstr "Wstrzymaj po zamknięciu pokrywy (zasilanie AC)"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#~ msgid ""
+#~ "Some systems do not suspend when on AC power. This forces suspend when "
+#~ "the lid is closed."
+#~ msgstr ""
+#~ "Niektóre systemy nie przechodzą w stan uśpienia, gdy są zasilane z sieci. "
+#~ "To wymusza uśpienie, gdy pokrywa jest zamknięta."

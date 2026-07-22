@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 18:49-0300\n"
-"PO-Revision-Date: 2026-07-21 18:49-0300\n"
+"POT-Creation-Date: 2026-07-22 00:37-0300\n"
+"PO-Revision-Date: 2026-07-22 00:37-0300\n"
 "Last-Translator: BigLinux Community <community@biglinux.com.br>\n"
 "Language-Team: BigLinux Community (ru)\n"
 "Language: ru\n"
@@ -582,7 +582,6 @@ msgstr "Скрипт завершился с кодом выхода: {}"
 msgid "Script timeout: {}"
 msgstr "Таймаут скрипта: {}"
 
-#
 # File: usr/share/biglinux/biglinux-settings/base_page.py, line: 620
 #: usr/share/biglinux/biglinux-settings/base_page.py:620
 #, python-brace-format
@@ -1189,13 +1188,11 @@ msgstr "Производительность"
 msgid "Suspend"
 msgstr "Приостановить"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 441
 #: usr/share/biglinux/biglinux-settings/main.py:441
 msgid "Open setting"
 msgstr "Открыть настройку"
 
-#
 # File: usr/share/biglinux/biglinux-settings/main.py, line: 446
 #: usr/share/biglinux/biglinux-settings/main.py:446
 #, python-brace-format
@@ -1390,13 +1387,11 @@ msgstr "Опера"
 msgid "Libreoffice"
 msgstr "ЛибреОфис"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 72
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:72
 msgid "Automatic Suspend"
 msgstr "Автоматический режим сна"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 73
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:73
 msgid "Choose when inactivity and low battery may suspend the system."
@@ -1404,26 +1399,23 @@ msgstr ""
 "Выберите, когда система может переходить в режим сна при бездействии и "
 "низком заряде батареи."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:80
-msgid "Never suspend while plugged in"
-msgstr "Никогда не переходить в режим сна при подключении к сети"
+msgid "Disable idle suspend while plugged in"
+msgstr ""
+"Отключить переход в спящий режим при бездействии во время работы от сети"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 81
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:81
 msgid "Disables automatic suspend caused by inactivity on AC power."
 msgstr ""
 "Отключает автоматический режим сна при бездействии при питании от сети."
 
-#
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:88
-msgid "Never suspend on battery due to inactivity"
-msgstr "Никогда не переходить в режим сна от батареи при бездействии"
+msgid "Disable idle suspend on battery"
+msgstr ""
+"Отключить переход в спящий режим при бездействии во время работы от "
+"аккумулятора"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 89
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:89
 msgid "Keeps the system awake on battery until a critical level is reached."
@@ -1431,13 +1423,11 @@ msgstr ""
 "Оставляет систему активной при питании от батареи до достижения критического "
 "уровня заряда."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 96
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:96
 msgid "Suspend only when battery reaches 20%"
 msgstr "Переходить в режим сна только при заряде батареи 20%"
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 98
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:98
 msgid ""
@@ -1447,7 +1437,6 @@ msgstr ""
 "Отключает режим сна при бездействии от батареи и автоматически переводит "
 "систему в режим сна при достижении заряда 20%."
 
-#
 # File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 104
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:104
 msgid ""
@@ -1585,19 +1574,47 @@ msgstr "Выключатель крышки"
 msgid "Laptop lid close behavior."
 msgstr "Поведение при закрытии крышки ноутбука."
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:208
-msgid "Suspend on lid close (AC power)"
-msgstr "Приостановка при закрытии крышки (сеть)"
+msgid "Keep running with the lid closed while plugged in"
+msgstr "Продолжать работу с закрытой крышкой при питании от сети"
 
-# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
 #: usr/share/biglinux/biglinux-settings/sleep_page.py:210
 msgid ""
-"Some systems do not suspend when on AC power. This forces suspend when the "
-"lid is closed."
+"Keeps the session and network active when the lid is closed on AC power."
 msgstr ""
-"Некоторые системы не переходят в спящий режим при подключении к сети. Это "
-"принудительно переводит в спящий режим, когда крышка закрыта."
+"Сеанс и сетевое подключение остаются активными при закрытии крышки во время "
+"работы от сети."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:216
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
+msgstr ""
+"Эта настройка предотвращает переход в спящий режим и блокировку при закрытии "
+"крышки. Автоматическая блокировка при бездействии настраивается отдельно. "
+"Обеспечьте достаточную вентиляцию ноутбука во время его работы с закрытой "
+"крышкой."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:224
+msgid "Keep running with the lid closed on battery"
+msgstr "Продолжать работу с закрытой крышкой при питании от аккумулятора"
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:226
+msgid ""
+"Keeps the session and network active when the lid is closed on battery power."
+msgstr ""
+"Сеанс и сетевое подключение остаются активными при закрытии крышки во время "
+"работы от аккумулятора."
+
+#: usr/share/biglinux/biglinux-settings/sleep_page.py:232
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+msgstr ""
+"Эта настройка предотвращает переход в спящий режим и блокировку при закрытии "
+"крышки. Автоматическая блокировка при бездействии настраивается отдельно, а "
+"правило для критического уровня заряда 20 % продолжает действовать."
 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py,
 # line: 26
@@ -1727,3 +1744,23 @@ msgid ""
 msgstr ""
 "Восстанавливает функциональность 'Недавние файлы' и 'Недавние "
 "местоположения', которая отображается пустой в Dolphin и меню приложений."
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 80
+#~ msgid "Never suspend while plugged in"
+#~ msgstr "Никогда не переходить в режим сна при подключении к сети"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 88
+#~ msgid "Never suspend on battery due to inactivity"
+#~ msgstr "Никогда не переходить в режим сна от батареи при бездействии"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 171
+#~ msgid "Suspend on lid close (AC power)"
+#~ msgstr "Приостановка при закрытии крышки (сеть)"
+
+# File: usr/share/biglinux/biglinux-settings/sleep_page.py, line: 173
+#~ msgid ""
+#~ "Some systems do not suspend when on AC power. This forces suspend when "
+#~ "the lid is closed."
+#~ msgstr ""
+#~ "Некоторые системы не переходят в спящий режим при подключении к сети. Это "
+#~ "принудительно переводит в спящий режим, когда крышка закрыта."
