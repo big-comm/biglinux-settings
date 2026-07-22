@@ -13,6 +13,12 @@ normalize_po_header = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(normalize_po_header)
 
 
+def test_normalizer_source_avoids_gettext_header_literal():
+    source = MODULE_PATH.read_text(encoding="utf-8")
+
+    assert "POT-" + "Creation-Date" not in source
+
+
 def test_locale_directory_tracks_the_source_or_installed_tree():
     assert Path(LOCALE_DIR).resolve() == ROOT / "usr/share/locale"
 

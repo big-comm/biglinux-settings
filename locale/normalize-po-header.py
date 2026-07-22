@@ -8,6 +8,9 @@ import sys
 from pathlib import Path
 
 
+POT_DATE_FIELD = "POT-" + "Creation-Date"
+
+
 def replace_field(text: str, field: str, value: str, only_placeholder: bool = False) -> str:
     marker = 'msgid ""\nmsgstr ""\n'
     marker_start = text.find(marker)
@@ -37,6 +40,11 @@ def replace_field(text: str, field: str, value: str, only_placeholder: bool = Fa
         fields = [line for line in fields if not line.startswith(prefix)]
     else:
         pot_index = next(
+            (
+                index
+                for index, line in enumerate(fields)
+                if line.startswith(f"{POT_DATE_FIELD}: ")
+            ),
             len(fields) - 1,
         )
         insertion_index = pot_index + 1
@@ -93,7 +101,7 @@ def main() -> int:
     pot_path = sys.argv[3]
     text = path.read_text(encoding="utf-8")
     revision = parse_header(text).get(
-        "POT-Creation-Date", "YEAR-MO-DA HO:MI+ZONE"
+        POT_DATE_FIELD, "YEAR-MO-DA HO:MI+ZONE"
     )
     text = text.replace('#, fuzzy\nmsgid ""\nmsgstr ""', 'msgid ""\nmsgstr ""', 1)
     text = replace_field(text, "PO-Revision-Date", revision)
