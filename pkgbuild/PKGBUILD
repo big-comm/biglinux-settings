@@ -20,19 +20,14 @@ optdepends=(
     'upower: suspend at a configured critical battery level'
     'xfconf: XFCE automatic suspend configuration'
 )
-pkgver=26.05.03.0250
-pkgrel=1
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
 arch=('any')
 license=('GPL-3.0-or-later')
 url="https://github.com/big-comm/${pkgname}"
 source=("${pkgname}::git+${url}.git")
 sha256sums=('SKIP')
 backup=('etc/biglinux/sleep.conf')
-
-pkgver() {
-    cd "${srcdir}/${pkgname}"
-    git describe --tags --long | sed 's/^v//;s/-/./g'
-}
 
 check() {
     cd "${srcdir}/${pkgname}"
