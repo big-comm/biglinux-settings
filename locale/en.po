@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-01 19:09+0000\n"
+"POT-Creation-Date: 2026-09-08 03:15+0000\n"
 "PO-Revision-Date: 2026-07-22 00:37-0300\n"
 "Last-Translator: BigLinux Community <community@biglinux.com.br>\n"
 "Language-Team: BigLinux Community (en)\n"
@@ -17,456 +17,80 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "BigLinux Settings"
-msgstr "BigLinux Settings"
-
-msgid "BigLinux Community"
-msgstr "BigLinux Community"
-
-msgid "Search..."
-msgstr "Search..."
-
-msgid "Search settings"
-msgstr "Search settings"
-
-msgid "Toggle navigation sidebar"
-msgstr "Toggle navigation sidebar"
-
-msgid "About"
-msgstr "About"
-
-msgid "Main Menu"
-msgstr "Main Menu"
-
-msgid "System"
-msgstr "System"
-
-msgid "Usability"
-msgstr "Usability"
-
-msgid "PreLoad"
-msgstr "PreLoad"
-
-msgid "Devices"
-msgstr "Devices"
-
-msgid "A.I."
-msgstr "A.I."
-
-msgid "Docker"
-msgstr "Docker"
-
-msgid "Developer"
-msgstr "Developer"
-
 msgid "Performance"
 msgstr "Performance"
 
-msgid "Suspend"
-msgstr "Suspend"
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux performance tweaks."
 
-msgid "Open setting"
-msgstr "Open setting"
-
-#, python-brace-format
-msgid "Open {} setting"
-msgstr "Open {} setting"
-
-msgid "Dismiss"
-msgstr "Dismiss"
-
-msgid "Automatic Suspend"
-msgstr "Automatic Suspend"
-
-msgid "Choose when inactivity and low battery may suspend the system."
-msgstr "Choose when inactivity and low battery may suspend the system."
-
-msgid "Disable idle suspend while plugged in"
-msgstr "Disable idle suspend while plugged in"
-
-msgid "Disables automatic suspend caused by inactivity on AC power."
-msgstr "Disables automatic suspend caused by inactivity on AC power."
-
-msgid "Disable idle suspend on battery"
-msgstr "Disable idle suspend on battery"
-
-msgid "Keeps the system awake on battery until a critical level is reached."
-msgstr "Keeps the system awake on battery until a critical level is reached."
-
-msgid "Suspend only when battery reaches 20%"
-msgstr "Suspend only when battery reaches 20%"
+msgid "Disable Visual Effects"
+msgstr "Disable Visual Effects"
 
 msgid ""
-"Disables idle suspend on battery and suspends automatically when the charge "
-"reaches 20%."
+"Disables KWin visual effects (blur, shadows, animations). Reduces GPU load "
+"and frees memory."
 msgstr ""
-"Disables idle suspend on battery and suspends automatically when the charge "
-"reaches 20%."
+"Disables KWin visual effects (blur, shadows, animations). Reduces GPU load "
+"and frees memory."
+
+msgid "CPU Maximum Performance"
+msgstr "CPU Maximum Performance"
 
 msgid ""
-"This uses UPower's critical battery policy. Low and critical warnings occur "
-"before the suspend action at 20%."
+"Forces maximum processor performance mode. Ensures the processor uses "
+"maximum frequency."
 msgstr ""
-"This uses UPower's critical battery policy. Low and critical warnings occur "
-"before the suspend action at 20%."
+"Forces maximum processor performance mode. Ensures the processor uses "
+"maximum frequency."
 
-msgid "Sleep Mode"
-msgstr "Sleep Mode"
+msgid "Disable Baloo Indexer"
+msgstr "Disable Baloo Indexer"
 
-msgid "Configure how the system suspends."
-msgstr "Configure how the system suspends."
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Disables the Baloo file indexer. Avoids disk I/O overhead."
 
-msgid "Use s2idle (light sleep)"
-msgstr "Use s2idle (light sleep)"
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "Unload S.M.A.R.T Monitor"
+
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown Mitigations off"
+
+msgid "Using mitigations=off will make your machine faster and less secure!"
+msgstr "Using mitigations=off will make your machine faster and less secure!"
 
 msgid ""
-"Uses a lighter sleep mode that preserves Fn keys and device state. "
-"Recommended for ASUS notebooks."
+"This will disable CPU security mitigations (Meltdown/Spectre). Your system "
+"will be faster but vulnerable to hardware-level attacks. Are you sure you "
+"want to continue?"
 msgstr ""
-"Uses a lighter sleep mode that preserves Fn keys and device state. "
-"Recommended for ASUS notebooks."
+"This will disable CPU security mitigations (Meltdown/Spectre). Your system "
+"will be faster but vulnerable to hardware-level attacks. Are you sure you "
+"want to continue?"
+
+msgid "noWatchdog"
+msgstr "noWatchdog"
 
 msgid ""
-"S3 deep sleep can cause the Embedded Controller to stop generating hotkey "
-"interrupts. s2idle keeps the EC powered, avoiding this issue at a small cost "
-"in battery consumption."
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high "
+"performance but removing automatic protections against system crashes."
 msgstr ""
-"S3 deep sleep can cause the Embedded Controller to stop generating hotkey "
-"interrupts. s2idle keeps the EC powered, avoiding this issue at a small cost "
-"in battery consumption."
-
-msgid "WiFi"
-msgstr "WiFi"
-
-msgid "Prevent WiFi issues after suspend."
-msgstr "Prevent WiFi issues after suspend."
-
-msgid "Protect WiFi on suspend"
-msgstr "Protect WiFi on suspend"
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high "
+"performance but removing automatic protections against system crashes."
 
 msgid ""
-"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding "
-"connection loss after resume."
+"This will disable the hardware watchdog. Your system will no longer "
+"automatically recover from certain types of crashes. Are you sure you want "
+"to continue?"
 msgstr ""
-"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding "
-"connection loss after resume."
-
-msgid ""
-"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power "
-"gating. This keeps the chip in d3hot (PCIe link alive) during suspend."
-msgstr ""
-"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power "
-"gating. This keeps the chip in d3hot (PCIe link alive) during suspend."
-
-msgid "Display and Keyboard"
-msgstr "Display and Keyboard"
-
-msgid "Preserve brightness and LED state across suspend."
-msgstr "Preserve brightness and LED state across suspend."
-
-msgid "Save/restore brightness on suspend"
-msgstr "Save/restore brightness on suspend"
-
-msgid ""
-"Saves screen brightness and keyboard LEDs before suspending and restores "
-"them on resume."
-msgstr ""
-"Saves screen brightness and keyboard LEDs before suspending and restores "
-"them on resume."
-
-msgid "GNOME Shell Extensions"
-msgstr "GNOME Shell Extensions"
-
-msgid "Automatic health check after resume."
-msgstr "Automatic health check after resume."
-
-msgid "Extension health monitor"
-msgstr "Extension health monitor"
-
-msgid ""
-"Detects GNOME Shell extensions in error state after resume and automatically "
-"restarts them."
-msgstr ""
-"Detects GNOME Shell extensions in error state after resume and automatically "
-"restarts them."
-
-msgid "Lid Switch"
-msgstr "Lid Switch"
-
-msgid "Laptop lid close behavior."
-msgstr "Laptop lid close behavior."
-
-msgid "Keep running with the lid closed while plugged in"
-msgstr "Keep running with the lid closed while plugged in"
-
-msgid ""
-"Keeps the session and network active when the lid is closed on AC power."
-msgstr ""
-"Keeps the session and network active when the lid is closed on AC power."
-
-msgid ""
-"This prevents lid-triggered suspend and locking. Automatic idle locking "
-"remains separate. Keep the notebook ventilated while it runs with the lid "
-"closed."
-msgstr ""
-"This prevents lid-triggered suspend and locking. Automatic idle locking "
-"remains separate. Keep the notebook ventilated while it runs with the lid "
-"closed."
-
-msgid "Keep running with the lid closed on battery"
-msgstr "Keep running with the lid closed on battery"
-
-msgid ""
-"Keeps the session and network active when the lid is closed on battery power."
-msgstr ""
-"Keeps the session and network active when the lid is closed on battery power."
-
-msgid ""
-"This prevents lid-triggered suspend and locking. Automatic idle locking "
-"remains separate, and the 20% critical battery policy still applies."
-msgstr ""
-"This prevents lid-triggered suspend and locking. Automatic idle locking "
-"remains separate, and the 20% critical battery policy still applies."
-
-msgid "General system settings."
-msgstr "General system settings."
-
-msgid "SSH"
-msgstr "SSH"
-
-msgid "Enable remote access via ssh."
-msgstr "Enable remote access via ssh."
-
-#, python-brace-format
-msgid "SSH Address: {}"
-msgstr "SSH Address: {}"
-
-msgid "SSH always on"
-msgstr "SSH always on"
-
-msgid "Turn on ssh remote access at boot."
-msgstr "Turn on ssh remote access at boot."
-
-msgid "Fast Grub"
-msgstr "Fast Grub"
-
-msgid "Decreases grub display time."
-msgstr "Decreases grub display time."
-
-msgid "Boot messages"
-msgstr "Boot messages"
-
-msgid "Show system messages below the boot animation."
-msgstr "Show system messages below the boot animation."
-
-msgid "Auto-mount Partitions"
-msgstr "Auto-mount Partitions"
-
-msgid "Auto mount partitions in internal disks on boot."
-msgstr "Auto mount partitions in internal disks on boot."
-
-msgid "AI Coding Assistants"
-msgstr "AI Coding Assistants"
-
-msgid "Open-source coding agents powered by language models."
-msgstr "Open-source coding agents powered by language models."
-
-msgid "OpenClaude"
-msgstr "OpenClaude"
-
-msgid ""
-"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ "
-"models. Installs nodejs, npm and ripgrep as dependencies."
-msgstr ""
-"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ "
-"models. Installs nodejs, npm and ripgrep as dependencies."
-
-msgid "AI Interfaces"
-msgstr "AI Interfaces"
-
-msgid "Graphical interface for artificial intelligence."
-msgstr "Graphical interface for artificial intelligence."
-
-msgid "Ollama Server"
-msgstr "Ollama Server"
-
-msgid "Choose which Ollama server is best for your hardware."
-msgstr "Choose which Ollama server is best for your hardware."
-
-msgid "Update Ollama"
-msgstr "Update Ollama"
-
-msgid "Update the installed Ollama packages to the latest version."
-msgstr "Update the installed Ollama packages to the latest version."
-
-msgid "Update now"
-msgstr "Update now"
-
-msgid "Ollama Variants"
-msgstr "Ollama Variants"
-
-msgid "Select the variant that matches your GPU hardware."
-msgstr "Select the variant that matches your GPU hardware."
-
-msgid "ChatAI"
-msgstr "ChatAI"
-
-msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
-msgstr "A variety of chats like Plasmoid for your KDE Plasma desktop."
-
-msgid "Ollama LAB"
-msgstr "Ollama LAB"
-
-msgid "Graphical interface for managing Ollama models and chat."
-msgstr "Graphical interface for managing Ollama models and chat."
-
-msgid "ChatBox"
-msgstr "ChatBox"
-
-msgid "User-friendly Desktop Client App for AI Models/LLMs."
-msgstr "User-friendly Desktop Client App for AI Models/LLMs."
-
-msgid "LM Studio"
-msgstr "LM Studio"
-
-msgid ""
-"LM Studio - A desktop app for exploring and running large language models "
-"locally."
-msgstr ""
-"LM Studio - A desktop app for exploring and running large language models "
-"locally."
-
-msgid "Open Notebook"
-msgstr "Open Notebook"
-
-msgid ""
-"Open-source, privacy-focused alternative to Google's NotebookLM. Requires "
-"Docker enabled."
-msgstr ""
-"Open-source, privacy-focused alternative to Google's NotebookLM. Requires "
-"Docker enabled."
-
-msgid "Open Notebook Server"
-msgstr "Open Notebook Server"
-
-msgid "Start the Open Notebook server."
-msgstr "Start the Open Notebook server."
-
-#, python-brace-format
-msgid ""
-"Open Notebook is running.\n"
-"Address: http://localhost:8502\n"
-"and\n"
-"Address: http://{}:8502"
-msgstr ""
-"Open Notebook is running.\n"
-"Address: http://localhost:8502\n"
-"and\n"
-"Address: http://{}:8502"
-
-msgid "ComfyUI (GPU ONLY)"
-msgstr "ComfyUI (GPU ONLY)"
-
-msgid "The most powerful and modular visual AI engine and application."
-msgstr "The most powerful and modular visual AI engine and application."
-
-msgid "ComfyUI Server"
-msgstr "ComfyUI Server"
-
-msgid "Start the ComfyUI server."
-msgstr "Start the ComfyUI server."
-
-#, python-brace-format
-msgid ""
-"ComfyUI server is running.\n"
-"Address: http://localhost:8188\n"
-"and\n"
-"Address: http://{}:8188"
-msgstr ""
-"ComfyUI server is running.\n"
-"Address: http://localhost:8188\n"
-"and\n"
-"Address: http://{}:8188"
-
-msgid "OllamaCPU"
-msgstr "OllamaCPU"
-
-msgid "Local AI server. For CPUs only."
-msgstr "Local AI server. For CPUs only."
-
-msgid ""
-"Ollama server is running.\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Ollama server is running.\n"
-"Address: http://localhost:11434"
-
-msgid "Share Ollama"
-msgstr "Share Ollama"
-
-msgid "Share ollama on the local network."
-msgstr "Share ollama on the local network."
-
-#, python-brace-format
-msgid ""
-"Ollama server is running.\n"
-"Address: http://{}:11434"
-msgstr ""
-"Ollama server is running.\n"
-"Address: http://{}:11434"
-
-msgid "Ollama Vulkan"
-msgstr "Ollama Vulkan"
-
-msgid "Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."
-msgstr "Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."
-
-msgid "Ollama Nvidia CUDA"
-msgstr "Ollama Nvidia CUDA"
-
-msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
-msgstr "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
-
-msgid "Ollama AMD ROCm"
-msgstr "Ollama AMD ROCm"
-
-msgid ""
-"Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
-"Consider using Vulkan, in many tests, Vulkan performed better than ROCm."
-msgstr ""
-"Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
-"Consider using Vulkan, in many tests, Vulkan performed better than ROCm."
-
-msgid "User and Visual system settings."
-msgstr "User and Visual system settings."
-
-msgid "NumLock"
-msgstr "NumLock"
-
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Initial NumLock state. Ignored if autologin is enabled."
-
-msgid "Window Button On Left Side"
-msgstr "Window Button On Left Side"
-
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Maximize, minimize, and close buttons on the left side of the window."
-
-msgid "KZones"
-msgstr "KZones"
-
-msgid "Enable window tiling zones for the KDE Plasma desktop."
-msgstr "Enable window tiling zones for the KDE Plasma desktop."
-
-msgid "Recent Files & Locations"
-msgstr "Recent Files & Locations"
-
-msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that "
-"appears empty in Dolphin and the Application Menu."
-msgstr ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that "
-"appears empty in Dolphin and the Application Menu."
+"This will disable the hardware watchdog. Your system will no longer "
+"automatically recover from certain types of crashes. Are you sure you want "
+"to continue?"
+
+msgid "Docker"
+msgstr "Docker"
 
 msgid "Container service — enable to use containers below."
 msgstr "Container service — enable to use containers below."
@@ -645,8 +269,29 @@ msgstr ""
 "and\n"
 "Address: http://{}:2017"
 
+msgid "Open Notebook"
+msgstr "Open Notebook"
+
 msgid "Install the open-source alternative to Google's NotebookLM."
 msgstr "Install the open-source alternative to Google's NotebookLM."
+
+msgid "Open Notebook Server"
+msgstr "Open Notebook Server"
+
+msgid "Start the Open Notebook server."
+msgstr "Start the Open Notebook server."
+
+#, python-brace-format
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
 
 msgid "Close"
 msgstr "Close"
@@ -797,74 +442,140 @@ msgstr "ERROR: Failed to change {} to {}"
 msgid "Failed to change setting: {}"
 msgstr "Failed to change setting: {}"
 
-msgid "BigLinux performance tweaks."
-msgstr "BigLinux performance tweaks."
+msgid "AI Interfaces"
+msgstr "AI Interfaces"
 
-msgid "Disable Visual Effects"
-msgstr "Disable Visual Effects"
+msgid "Graphical interface for artificial intelligence."
+msgstr "Graphical interface for artificial intelligence."
 
-msgid ""
-"Disables KWin visual effects (blur, shadows, animations). Reduces GPU load "
-"and frees memory."
-msgstr ""
-"Disables KWin visual effects (blur, shadows, animations). Reduces GPU load "
-"and frees memory."
+msgid "Ollama Server"
+msgstr "Ollama Server"
 
-msgid "CPU Maximum Performance"
-msgstr "CPU Maximum Performance"
+msgid "Choose which Ollama server is best for your hardware."
+msgstr "Choose which Ollama server is best for your hardware."
 
-msgid ""
-"Forces maximum processor performance mode. Ensures the processor uses "
-"maximum frequency."
-msgstr ""
-"Forces maximum processor performance mode. Ensures the processor uses "
-"maximum frequency."
+msgid "Update Ollama"
+msgstr "Update Ollama"
 
-msgid "Disable Baloo Indexer"
-msgstr "Disable Baloo Indexer"
+msgid "Update the installed Ollama packages to the latest version."
+msgstr "Update the installed Ollama packages to the latest version."
 
-msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
-msgstr "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgid "Update now"
+msgstr "Update now"
 
-msgid "Unload S.M.A.R.T Monitor"
-msgstr "Unload S.M.A.R.T Monitor"
+msgid "Ollama Variants"
+msgstr "Ollama Variants"
 
-msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
-msgstr "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgid "Select the variant that matches your GPU hardware."
+msgstr "Select the variant that matches your GPU hardware."
 
-msgid "Meltdown Mitigations off"
-msgstr "Meltdown Mitigations off"
+msgid "ChatAI"
+msgstr "ChatAI"
 
-msgid "Using mitigations=off will make your machine faster and less secure!"
-msgstr "Using mitigations=off will make your machine faster and less secure!"
+msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
+msgstr "A variety of chats like Plasmoid for your KDE Plasma desktop."
 
-msgid ""
-"This will disable CPU security mitigations (Meltdown/Spectre). Your system "
-"will be faster but vulnerable to hardware-level attacks. Are you sure you "
-"want to continue?"
-msgstr ""
-"This will disable CPU security mitigations (Meltdown/Spectre). Your system "
-"will be faster but vulnerable to hardware-level attacks. Are you sure you "
-"want to continue?"
+msgid "Ollama LAB"
+msgstr "Ollama LAB"
 
-msgid "noWatchdog"
-msgstr "noWatchdog"
+msgid "Graphical interface for managing Ollama models and chat."
+msgstr "Graphical interface for managing Ollama models and chat."
+
+msgid "ChatBox"
+msgstr "ChatBox"
+
+msgid "User-friendly Desktop Client App for AI Models/LLMs."
+msgstr "User-friendly Desktop Client App for AI Models/LLMs."
+
+msgid "LM Studio"
+msgstr "LM Studio"
 
 msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high "
-"performance but removing automatic protections against system crashes."
+"LM Studio - A desktop app for exploring and running large language models "
+"locally."
 msgstr ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high "
-"performance but removing automatic protections against system crashes."
+"LM Studio - A desktop app for exploring and running large language models "
+"locally."
 
 msgid ""
-"This will disable the hardware watchdog. Your system will no longer "
-"automatically recover from certain types of crashes. Are you sure you want "
-"to continue?"
+"Open-source, privacy-focused alternative to Google's NotebookLM. Requires "
+"Docker enabled."
 msgstr ""
-"This will disable the hardware watchdog. Your system will no longer "
-"automatically recover from certain types of crashes. Are you sure you want "
-"to continue?"
+"Open-source, privacy-focused alternative to Google's NotebookLM. Requires "
+"Docker enabled."
+
+msgid "ComfyUI (GPU ONLY)"
+msgstr "ComfyUI (GPU ONLY)"
+
+msgid "The most powerful and modular visual AI engine and application."
+msgstr "The most powerful and modular visual AI engine and application."
+
+msgid "ComfyUI Server"
+msgstr "ComfyUI Server"
+
+msgid "Start the ComfyUI server."
+msgstr "Start the ComfyUI server."
+
+#, python-brace-format
+msgid ""
+"ComfyUI server is running.\n"
+"Address: http://localhost:8188\n"
+"and\n"
+"Address: http://{}:8188"
+msgstr ""
+"ComfyUI server is running.\n"
+"Address: http://localhost:8188\n"
+"and\n"
+"Address: http://{}:8188"
+
+msgid "OllamaCPU"
+msgstr "OllamaCPU"
+
+msgid "Local AI server. For CPUs only."
+msgstr "Local AI server. For CPUs only."
+
+msgid ""
+"Ollama server is running.\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama server is running.\n"
+"Address: http://localhost:11434"
+
+msgid "Share Ollama"
+msgstr "Share Ollama"
+
+msgid "Share ollama on the local network."
+msgstr "Share ollama on the local network."
+
+#, python-brace-format
+msgid ""
+"Ollama server is running.\n"
+"Address: http://{}:11434"
+msgstr ""
+"Ollama server is running.\n"
+"Address: http://{}:11434"
+
+msgid "Ollama Vulkan"
+msgstr "Ollama Vulkan"
+
+msgid "Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."
+msgstr "Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."
+
+msgid "Ollama Nvidia CUDA"
+msgstr "Ollama Nvidia CUDA"
+
+msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
+msgstr "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
+
+msgid "Ollama AMD ROCm"
+msgstr "Ollama AMD ROCm"
+
+msgid ""
+"Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
+"Consider using Vulkan, in many tests, Vulkan performed better than ROCm."
+msgstr ""
+"Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
+"Consider using Vulkan, in many tests, Vulkan performed better than ROCm."
 
 msgid "Preload"
 msgstr "Preload"
@@ -895,6 +606,9 @@ msgstr "Opera"
 
 msgid "Libreoffice"
 msgstr "Libreoffice"
+
+msgid "Devices"
+msgstr "Devices"
 
 msgid "Manage physical devices."
 msgstr "Manage physical devices."
@@ -946,6 +660,292 @@ msgstr "disconnected"
 #, python-brace-format
 msgid "Failed to change network device: {}"
 msgstr "Failed to change network device: {}"
+
+msgid "BigLinux Settings"
+msgstr "BigLinux Settings"
+
+msgid "BigLinux Community"
+msgstr "BigLinux Community"
+
+msgid "Search..."
+msgstr "Search..."
+
+msgid "Search settings"
+msgstr "Search settings"
+
+msgid "Toggle navigation sidebar"
+msgstr "Toggle navigation sidebar"
+
+msgid "About"
+msgstr "About"
+
+msgid "Main Menu"
+msgstr "Main Menu"
+
+msgid "System"
+msgstr "System"
+
+msgid "Usability"
+msgstr "Usability"
+
+msgid "PreLoad"
+msgstr "PreLoad"
+
+msgid "A.I."
+msgstr "A.I."
+
+msgid "Developer"
+msgstr "Developer"
+
+msgid "Suspend"
+msgstr "Suspend"
+
+msgid "Open setting"
+msgstr "Open setting"
+
+#, python-brace-format
+msgid "Open {} setting"
+msgstr "Open {} setting"
+
+msgid "Dismiss"
+msgstr "Dismiss"
+
+msgid "User and Visual system settings."
+msgstr "User and Visual system settings."
+
+msgid "NumLock"
+msgstr "NumLock"
+
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Initial NumLock state. Ignored if autologin is enabled."
+
+msgid "Window Button On Left Side"
+msgstr "Window Button On Left Side"
+
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Maximize, minimize, and close buttons on the left side of the window."
+
+msgid "KZones"
+msgstr "KZones"
+
+msgid "Enable window tiling zones for the KDE Plasma desktop."
+msgstr "Enable window tiling zones for the KDE Plasma desktop."
+
+msgid "Recent Files & Locations"
+msgstr "Recent Files & Locations"
+
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that "
+"appears empty in Dolphin and the Application Menu."
+msgstr ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that "
+"appears empty in Dolphin and the Application Menu."
+
+msgid "Automatic Suspend"
+msgstr "Automatic Suspend"
+
+msgid "Choose when inactivity and low battery may suspend the system."
+msgstr "Choose when inactivity and low battery may suspend the system."
+
+msgid "Disable idle suspend while plugged in"
+msgstr "Disable idle suspend while plugged in"
+
+msgid "Disables automatic suspend caused by inactivity on AC power."
+msgstr "Disables automatic suspend caused by inactivity on AC power."
+
+msgid "Disable idle suspend on battery"
+msgstr "Disable idle suspend on battery"
+
+msgid "Keeps the system awake on battery until a critical level is reached."
+msgstr "Keeps the system awake on battery until a critical level is reached."
+
+msgid "Suspend only when battery reaches 20%"
+msgstr "Suspend only when battery reaches 20%"
+
+msgid ""
+"Disables idle suspend on battery and suspends automatically when the charge "
+"reaches 20%."
+msgstr ""
+"Disables idle suspend on battery and suspends automatically when the charge "
+"reaches 20%."
+
+msgid ""
+"This uses UPower's critical battery policy. Low and critical warnings occur "
+"before the suspend action at 20%."
+msgstr ""
+"This uses UPower's critical battery policy. Low and critical warnings occur "
+"before the suspend action at 20%."
+
+msgid "Sleep Mode"
+msgstr "Sleep Mode"
+
+msgid "Configure how the system suspends."
+msgstr "Configure how the system suspends."
+
+msgid "Use s2idle (light sleep)"
+msgstr "Use s2idle (light sleep)"
+
+msgid ""
+"Uses a lighter sleep mode that preserves Fn keys and device state. "
+"Recommended for ASUS notebooks."
+msgstr ""
+"Uses a lighter sleep mode that preserves Fn keys and device state. "
+"Recommended for ASUS notebooks."
+
+msgid ""
+"S3 deep sleep can cause the Embedded Controller to stop generating hotkey "
+"interrupts. s2idle keeps the EC powered, avoiding this issue at a small cost "
+"in battery consumption."
+msgstr ""
+"S3 deep sleep can cause the Embedded Controller to stop generating hotkey "
+"interrupts. s2idle keeps the EC powered, avoiding this issue at a small cost "
+"in battery consumption."
+
+msgid "WiFi"
+msgstr "WiFi"
+
+msgid "Prevent WiFi issues after suspend."
+msgstr "Prevent WiFi issues after suspend."
+
+msgid "Protect WiFi on suspend"
+msgstr "Protect WiFi on suspend"
+
+msgid ""
+"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding "
+"connection loss after resume."
+msgstr ""
+"Prevents the Realtek WiFi chip from fully powering off (d3cold), avoiding "
+"connection loss after resume."
+
+msgid ""
+"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power "
+"gating. This keeps the chip in d3hot (PCIe link alive) during suspend."
+msgstr ""
+"Some Realtek RTL8852BE/CE chips fail to reinitialize after d3cold power "
+"gating. This keeps the chip in d3hot (PCIe link alive) during suspend."
+
+msgid "Display and Keyboard"
+msgstr "Display and Keyboard"
+
+msgid "Preserve brightness and LED state across suspend."
+msgstr "Preserve brightness and LED state across suspend."
+
+msgid "Save/restore brightness on suspend"
+msgstr "Save/restore brightness on suspend"
+
+msgid ""
+"Saves screen brightness and keyboard LEDs before suspending and restores "
+"them on resume."
+msgstr ""
+"Saves screen brightness and keyboard LEDs before suspending and restores "
+"them on resume."
+
+msgid "GNOME Shell Extensions"
+msgstr "GNOME Shell Extensions"
+
+msgid "Automatic health check after resume."
+msgstr "Automatic health check after resume."
+
+msgid "Extension health monitor"
+msgstr "Extension health monitor"
+
+msgid ""
+"Detects GNOME Shell extensions in error state after resume and automatically "
+"restarts them."
+msgstr ""
+"Detects GNOME Shell extensions in error state after resume and automatically "
+"restarts them."
+
+msgid "Lid Switch"
+msgstr "Lid Switch"
+
+msgid "Laptop lid close behavior."
+msgstr "Laptop lid close behavior."
+
+msgid "Keep running with the lid closed while plugged in"
+msgstr "Keep running with the lid closed while plugged in"
+
+msgid ""
+"Keeps the session and network active when the lid is closed on AC power."
+msgstr ""
+"Keeps the session and network active when the lid is closed on AC power."
+
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
+msgstr ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate. Keep the notebook ventilated while it runs with the lid "
+"closed."
+
+msgid "Keep running with the lid closed on battery"
+msgstr "Keep running with the lid closed on battery"
+
+msgid ""
+"Keeps the session and network active when the lid is closed on battery power."
+msgstr ""
+"Keeps the session and network active when the lid is closed on battery power."
+
+msgid ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+msgstr ""
+"This prevents lid-triggered suspend and locking. Automatic idle locking "
+"remains separate, and the 20% critical battery policy still applies."
+
+msgid "AI Coding Assistants"
+msgstr "AI Coding Assistants"
+
+msgid "Open-source coding agents powered by language models."
+msgstr "Open-source coding agents powered by language models."
+
+msgid "OpenClaude"
+msgstr "OpenClaude"
+
+msgid ""
+"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ "
+"models. Installs nodejs, npm and ripgrep as dependencies."
+msgstr ""
+"Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama and 200+ "
+"models. Installs nodejs, npm and ripgrep as dependencies."
+
+msgid "General system settings."
+msgstr "General system settings."
+
+msgid "SSH"
+msgstr "SSH"
+
+msgid "Enable remote access via ssh."
+msgstr "Enable remote access via ssh."
+
+#, python-brace-format
+msgid "SSH Address: {}"
+msgstr "SSH Address: {}"
+
+msgid "SSH always on"
+msgstr "SSH always on"
+
+msgid "Turn on ssh remote access at boot."
+msgstr "Turn on ssh remote access at boot."
+
+msgid "Fast Grub"
+msgstr "Fast Grub"
+
+msgid "Decreases grub display time."
+msgstr "Decreases grub display time."
+
+msgid "Boot messages"
+msgstr "Boot messages"
+
+msgid "Show system messages below the boot animation."
+msgstr "Show system messages below the boot animation."
+
+msgid "Auto-mount Partitions"
+msgstr "Auto-mount Partitions"
+
+msgid "Auto mount partitions in internal disks on boot."
+msgstr "Auto mount partitions in internal disks on boot."
 
 #~ msgid "AMD/Nvidia GPU not found!"
 #~ msgstr "AMD/Nvidia GPU not found!"
