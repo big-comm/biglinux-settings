@@ -80,6 +80,7 @@ class BiglinuxSettingsApp(Adw.Application):
 class BiglinuxSettingsWindow(Adw.ApplicationWindow):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
+        self.add_css_class("biglinux-settings")
         self.set_title(_("BigLinux Settings"))
         # Fixed geometry: the default size is both minimum and maximum.
         self.set_default_size(WINDOW_WIDTH, WINDOW_HEIGHT)
